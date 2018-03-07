@@ -1,0 +1,57 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Harry Cresswell"
+pluralizelisttitles = false
+
+# Enable Disqus by removing comments
+#disqusShortname = "harrycresswell"
+
+# Enable analytics
+googleAnalytics = "UA-84736644-1"
+
+# Because why the hell not
+enableEmoji = true
+
+[permalinks]
+  articles = "/:section/:slug/"
+  reading = "/:section/:slug/"
+  page = "/:title/"
+
+[params]
+  keywords = "UX Design, UI Design, Front-end Development, Small businesses, Automation"
+  description = "Design. Typography. London. Hamburg."
+  strapline = "User Interface Design and Development"
+  location = "London, UK"
+  twitter = "@harrycresswell"
+
+[author]
+  name = "Harry Cresswell"
+
+[taxonomies]
+  tag = "tags"
+
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 0
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 10
+
+[[menu.footer]]
+  name = "Imprint"
+  url = "/imprint/"
+  weight = 0
+
+[[menu.footer]]
+  name = "Mood"
+  url = "https://thevastnothingnessofspace.tumblr.com/"
+  weight = 0

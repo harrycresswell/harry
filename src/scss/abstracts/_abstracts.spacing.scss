@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #ABSTRACTS: SPACING
+\*------------------------------------*/
+
+// Vertical rhythm mixins
+@mixin line-height($number) {
+  line-height: #{ $number * $line-height + 'rem'};
+
+  @media screen and (min-width: $bp-md){
+    line-height: #{ $number * $line-height-desktop + 'rem'};
+  }
+}
+
+@mixin margin-top($number) {
+   margin-top: #{ $number * $line-height + 'rem'};
+
+   @media screen and (min-width: $bp-md){
+     margin-top: #{ $number * $line-height-desktop + 'rem'};
+   }
+}
+
+@mixin margin-bottom($number) {
+   margin-bottom: #{ $number * $line-height + 'rem'};
+
+   @media screen and (min-width: $bp-md){
+      margin-bottom: #{ $number * $line-height-desktop + 'rem'};
+   }
+}
+
+
+// Horizontal rhythm mixins
+@mixin margin-left($number) {
+  margin-left: #{ $number * $line-height + 'rem'};
+
+  @media screen and (min-width: $bp-md){
+     margin-left: #{ $number * $line-height-desktop + 'rem'};
+  }
+}
+
+@mixin margin-right($number) {
+  margin-right: #{ $number * $line-height + 'rem'};
+
+  @media screen and (min-width: $bp-md){
+     margin-right: #{ $number * $line-height-desktop + 'rem'};
+  }
+}

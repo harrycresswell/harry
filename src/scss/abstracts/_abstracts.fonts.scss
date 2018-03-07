@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #ABSTRACTS: FONTS
+\*------------------------------------*/
+
+// Import Suisse Regular
+@font-face {
+  font-family: 'SuisseIntl-Regular-WebTrial';
+  src: url('../../fonts/SuisseIntl-Regular-WebTrial.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/SuisseIntl-Regular-WebTrial.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/SuisseIntl-Regular-WebTrial.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/SuisseIntl-Regular-WebTrial.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/SuisseIntl-Regular-WebTrial.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/SuisseIntl-Regular-WebTrial.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+// Import Suisse Medium
+@font-face {
+  font-family: 'SuisseIntl-Medium-WebTrial';
+  src: url('../../fonts/SuisseIntl-Medium-WebTrial.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/SuisseIntl-Medium-WebTrial.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/SuisseIntl-Medium-WebTrial.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/SuisseIntl-Medium-WebTrial.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/SuisseIntl-Medium-WebTrial.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/SuisseIntl-Medium-WebTrial.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+// Import Suisse Mono
+@font-face {
+  font-family: 'SuisseIntlMono-Regular-WebTrial';
+  src: url('../../fonts/SuisseIntlMono-Regular-WebTrial.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/SuisseIntlMono-Regular-WebTrial.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/SuisseIntlMono-Regular-WebTrial.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/SuisseIntlMono-Regular-WebTrial.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/SuisseIntlMono-Regular-WebTrial.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/SuisseIntlMono-Regular-WebTrial.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

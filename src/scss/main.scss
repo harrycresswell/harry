@@ -1,0 +1,21 @@
+/*
+  You can use import statements to include partials:
+ */
+
+ // Variables
+ @import "abstracts/_all";
+
+ // Base styles
+ @import "base/_all";
+
+ // Layout styles
+ @import "layouts/_all";
+
+ // Object styles
+ @import "objects/_all";
+
+ // Component styles
+ @import "components/_all";
+
+ // Utility styles
+ @import "utilities/_all";

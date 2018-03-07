@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    #OBJECTS: FORM
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+ //.Form {}
+
+ .Form-label {
+   display: block;
+   @include margin-bottom(0.5);
+ }
+
+ ::placeholder {
+   color: $color-lighter;
+ }
+
+ /**
+  * Component Element
+  */
+
+.Form-input,
+.Form-textarea,
+.Form-select {
+  background: $color-lightest;
+  border: solid 2px $color-lightest;
+  outline: none;
+  font-size: 0.8rem;
+  height: 64px;
+  @include margin-top(0.25);
+  padding: 0 16px;
+  position: relative;
+  width: 100%;
+  transition: all .2s;
+
+    &:focus,
+    &:active {
+      transition: all .2s;
+      border: solid 2px $color-link;
+    }
+
+}
+
+.Form-select {
+
+    &:after {
+      color: #000;
+      display: block;
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      top: 16px;
+      right: 24px;
+  		content: '▾';
+
+   }
+}
+
+.Form-textarea {
+  font-size: 0.8rem;
+  min-height: 96px;
+  padding-top: 16px;
+}
+
+
+.Form-button {
+  @include margin-bottom(1);
+}

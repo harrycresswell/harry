@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #COMPONENTS: IMAGE
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+ .Image {
+  @include margin-top(1.5);
+
+  figcaption {
+    @include margin-top(0.25);
+  }
+}
+
+.Image + p {
+  @include margin-top(1);
+}

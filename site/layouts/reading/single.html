@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+  <section class="Container">
+      <article id="content" class="Post">
+          <header class="PostHeader">
+              <h1 class="PostHeader-title">{{ .Title }}</h1>
+          </header>
+          <div class="PostMeta">
+            <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          </div>
+
+          {{ .Content }}
+
+      </article><!--/.Content -->
+  </section><!--/.Container -->
+
+{{ end }}

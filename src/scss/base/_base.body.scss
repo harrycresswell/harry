@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #BASE: BODY
+\*------------------------------------*/
+// Set fulid type on the root
+html {
+	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+	font-feature-settings: "calt","liga","hist","onum","pnum";
+}
+// Set line-height and margins for all elements
+* {
+	//@include line-height(1);
+	//@include margin-top(0);
+}
+
+body {
+	color: $color-body;
+	font-family: $font-suisse-rg;
+	font-weight: $font-weight-regular;
+	line-height: $baseline;
+	font-style: normal;
+	padding: 7%;
+}
+
+p {
+	max-width: 675px;
+	@include margin-bottom(1);
+}

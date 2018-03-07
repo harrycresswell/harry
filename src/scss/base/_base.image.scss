@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #BASE: IMAGES
+\*------------------------------------*/
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+
+figure {
+    margin: 0;
+}
+
+figure > img {
+    display: block;
+}
+
+figcaption {
+  color: $color-lighter;
+  font-size: 70%;
+}

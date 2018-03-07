@@ -1,0 +1,32 @@
+<div class="Image">
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-original-set="{{ .Get "src" }}.{{ .Get "type" }} 1x,
+                {{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
+                srcset="{{ .Get "src" }}.{{ .Get "type" }} 1x,
+                        {{ .Get "src" }}@2x.{{ .Get "type" }} 2x">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-original-set="{{ .Get "src" }}-sm.{{ .Get "type" }} 1x,
+                {{ .Get "src" }}-sm@2x.{{ .Get "type" }} 2x"
+                srcset="{{ .Get "src" }}-sm.{{ .Get "type" }} 1x,
+                        {{ .Get "src" }}-sm@2x.{{ .Get "type" }} 2x">
+      <!-- Fallback -->
+      <img
+        data-original="{{ .Get "src" }}.{{ .Get "type" }}"
+        data-original-set="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
+        alt="{{ .Get "alt" }}"{{ if .Get "caption"}} class="img-fluid figure-img"{{ end }}
+        srcset="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x" src="{{ .Get "src" }}.{{ .Get "type" }}">
+    </picture>
+    {{ if .Get "caption"}}
+    <figure>
+    {{ end }}
+    {{ if .Get "caption"}}
+      <figcaption>{{ .Get "caption" }}</figcaption>
+    </figure>
+    {{ end }}
+
+</div>

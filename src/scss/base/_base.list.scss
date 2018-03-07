@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #BASE: LISTS
+\*------------------------------------*/
+
+ul, ol {
+  color: $color-dark;
+  list-style-position: outside;
+  list-style-type: round;
+  max-width: 675px;
+  padding-left: 0;
+
+  li {
+
+  }
+}
+
+ul + p {
+  @include margin-top(1);
+}

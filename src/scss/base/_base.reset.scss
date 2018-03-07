@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    #BASE: BOX-SIZING
+\*------------------------------------*/
+
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Must be 100% for off canvas to work
+html,
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-size: inherit;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+// Responsive images
+img {
+	display: inline-block;
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0;
+}

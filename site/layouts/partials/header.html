@@ -1,0 +1,11 @@
+<section class="Header">
+    <div class="Header-title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+    <nav class="Header-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="Header-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+</section><!--/.Header -->

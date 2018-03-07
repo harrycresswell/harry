@@ -1,0 +1,9 @@
+<!-- Tags. -->
+<div class="PostMeta-tags">
+    <div class="PostMeta-tag">
+      {{ $baseurl := .Site.BaseURL }}
+      {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </div>
+</div>

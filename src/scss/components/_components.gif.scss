@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    #COMPONENTS: GIF
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+ .Gif {
+  @include margin-top(1.5);
+  max-width: 840px;
+
+  figcaption {
+    @include margin-top(0.25);
+  }
+}
+
+.Gif + p {
+  @include margin-top(1);
+}

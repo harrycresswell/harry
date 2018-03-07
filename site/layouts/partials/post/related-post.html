@@ -1,0 +1,11 @@
+<!-- Related post. -->
+<div class="PostRelated">
+    <h3 class="PostRelated-title">Related Posts</h3>
+    <ul class="PostRelated-list">
+    {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+      <li class="PostRelated-title">
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
+      </li>
+    {{ end }}
+    </ul>
+</div>

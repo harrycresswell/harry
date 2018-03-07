@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #BASE: LINKS
+\*------------------------------------*/
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+
+  &:hover {
+    color: darken($color-link, 15%);
+    text-decoration: underline;
+  }
+
+  &:visited {
+    border-bottom: 1px solid $color-link;
+    text-decoration: none;
+  }
+
+  &:before {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out
+  }
+}

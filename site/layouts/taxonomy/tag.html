@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    <section class="PostList">
+      <header class="PostHeader">
+          <h1 class="PostHeader-title">Articles posted under “{{ .Title }}”</h1>
+      </header>
+        {{ range .Data.Pages }}
+            <h3 class="PostList-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <div class="PostList-meta">
+                <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+                {{ partial "post/tags.html" . }}
+            </div>
+        {{ end }}
+    </section>
+
+
+{{ end }}

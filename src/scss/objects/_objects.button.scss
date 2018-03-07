@@ -1,0 +1,57 @@
+/*------------------------------------*\
+    #OBJECTS: BUTTON
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+.ButtonWrap {
+  @include margin-bottom(4);
+}
+
+.Button {
+    width: 100%;
+    font-size: 70%;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: $font-suisse-mn;
+    outline-style: none;
+    text-align: left;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/**
+ * Component Modifier
+ */
+
+.Button--primary {
+    border: solid 2px $color-dark;
+    color: $color-white;
+    background: $color-dark;
+    margin: 0 auto;
+    height: 64px;
+    padding: 0 32px;
+}
+
+/**
+ * Component Modifier State
+ */
+
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-pressed {
+    background: $color-white;
+    color: $color-dark;
+    border: solid 2px $color-dark;
+    outline: none;
+}

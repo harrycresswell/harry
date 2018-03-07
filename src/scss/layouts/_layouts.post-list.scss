@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #LAYOUTS: POST-LIST
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+//.PostList {}
+
+.PostList-meta {
+  display: flex;
+  @include margin-bottom(1);
+ }
+
+/**
+ * Component Element
+ */

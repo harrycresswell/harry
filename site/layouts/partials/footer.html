@@ -1,0 +1,15 @@
+  <footer class="Footer">
+      <nav class="FooterNav">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.footer }}
+          <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+          {{ end }}
+      </nav>
+      <p>©Harry Cresswell 2018.</p>
+  </footer>
+  <script src="app.js"></script>
+
+  <!-- Google Analytics -->
+  {{ template "_internal/google_analytics_async.html" . }}
+  </body>
+</html>

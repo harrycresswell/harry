@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #OBJECTS: AVATAR
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+.Avatar {
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+}
+
+/**
+ * Component Element
+ */
+
+.Avatar-img {
+  background-image: url('./../assets/hc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+/**
+ * Component Modifier
+ */
+
+.Avatar--m {
+  font-size: 1.25rem;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.Avatar--round {
+  border-radius: 50%;
+}

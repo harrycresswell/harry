@@ -1,0 +1,18 @@
+code,
+kbd,
+samp {
+  background: $color-lightest;
+  color: $color-light;
+  font-size: 0.9rem;
+  padding: .125rem 0.35rem;
+
+}
+
+pre {
+  background: $color-lightest;
+  font-size: 0.9rem;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-wrap: normal;
+  padding: 3%;
+}

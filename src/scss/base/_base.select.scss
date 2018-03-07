@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    #BASE: SELECT
+\*------------------------------------*/
+
+select {
+  background: $color-lightest;
+  border: 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline-style: none;
+  height: 64px;
+  width: 100%;
+
+}

@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #LAYOUTS: POST
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+//.Post {}
+
+.PostMeta {
+  display: flex;
+  @include margin-bottom(1);
+ }
+
+/**
+ * Component Element
+ */
+
+//.PostMeta-date {}
+
+.PostMeta-tag {
+
+  a {
+    color: $color-dark;
+    text-decoration: underline;
+  }
+  a:not(:last-child):after {
+    content:',';
+  }
+
+}
+
+.Post p.Message {
+  border: dotted 1px $color-link;
+  color: $color-link;
+  padding: 2% 4%;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.Post .intro, .intro {
+  font-size: 120%;
+  line-height: 1.6;
+}

@@ -1,0 +1,14 @@
+{{ partial "head.html" . }}
+
+  {{ partial "header.html" . }}
+
+    <main id="main" class="Wrapper">
+
+        {{ block "main" . }}{{ end }}
+
+    </main>
+
+
+{{ partial "newsletter.html" . }}
+
+{{ partial "footer.html" . }}

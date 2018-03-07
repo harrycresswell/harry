@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #BASE: HEADINGS
+\*------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-dark;
+  font-family: $font-suisse-md;
+}
+
+h1 {
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+  line-height: 1;
+  @include margin-top(3);
+  @include margin-bottom(1);
+  max-width: 45rem;
+}
+
+h2 {
+  font-size: $mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+  @include margin-top(2);
+  @include margin-bottom(0.5);
+}
+
+h3 {
+  font-size: $mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+  @include margin-top(2);
+  @include margin-bottom(0.5);
+}
