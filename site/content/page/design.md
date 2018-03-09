@@ -41,7 +41,10 @@ Do you need **a bespoke Wordpress site** (that's your very own unique theme buil
 
 Whatever it may be, if you want full control of your website and your user experience, then I can design and build a full website experience for you and your audience.
 
-<a href="/contact/"><button class="Button Button--primary">Let’s work together</button></a>
+
+<a class="typeform-share" href="https://harrycresswell.typeform.com/to/sJfxq6" data-mode="popup" style="display:inline-block;" target="_blank"><button class="Button Button--primary">Let’s work together</button></a>
 
 
 _Note: These are just a few of the ways I have successfully worked with some of my clients – to build their vision and produce results._
+
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
