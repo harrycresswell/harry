@@ -15,6 +15,7 @@
     width: 100%;
     font-size: 70%;
     border-width: 0;
+    border-radius: 0;
     box-sizing: border-box;
     cursor: pointer;
     font-family: $font-suisse-mn;
@@ -27,6 +28,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
 }
 
 /**

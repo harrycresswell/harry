@@ -26,19 +26,22 @@
 .Form-select {
   background: $color-lightest;
   border: solid 2px $color-lightest;
-  outline: none;
+  border-radius: 0;
   font-size: 0.8rem;
   height: 64px;
   @include margin-top(0.25);
+  outline: none;
+  outline-style: none;
   padding: 0 16px;
   position: relative;
-  width: 100%;
   transition: all .2s;
-
+  width: 100%;
+  -webkit-appearance: none;
+  
     &:focus,
     &:active {
-      transition: all .2s;
       border: solid 2px $color-link;
+      transition: all .2s;
     }
 
 }
@@ -47,13 +50,13 @@
 
     &:after {
       color: #000;
+      content: '▾';
       display: block;
-      width: 14px;
       height: 14px;
       position: absolute;
-      top: 16px;
       right: 24px;
-  		content: '▾';
+      top: 16px;
+      width: 14px;
 
    }
 }
