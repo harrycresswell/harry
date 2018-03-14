@@ -1,5 +1,5 @@
 +++
-tags = ["Sketch", "Design", "Code"]
+tags = ["Sketch", "Design"]
 title = "Naming Artboards for Responsive Web Design"
 date = "2017-04-02T21:34:41+01:00"
 slug = "artboards"
