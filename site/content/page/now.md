@@ -8,13 +8,14 @@ url = "now"
 
 I'm in a very cold Hamburg right now where I’m focusing on the following things:
 
-- In Detail new client onboarding.
-- Working on my 4th Typeface — TS Sans
-- Launch a new blog for a food project
+- Writing the second part to my Sketch Libraries article.
+- Working on client onboarding and automation for In Detail.
+- Working on my 4th Typeface — TS Sans (which is taking a while!)
+- Launching a new website for a food project.
 
-Right now these are my priorities, I'm saying no to most other stuff...saying that, I'm still [open to opportunities](/contact/).
+Right now these are my priorities, I'm saying no to most other stuff...saying that, I'm still [open to opportunities](/design/).
 
 P.S. — We just launched a new look for [In Detail](https://indtl.com/). Go have a look if you haven’t already.
 
 
-**Last Updated:** March 4, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
+**Last Updated:** March 14, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
