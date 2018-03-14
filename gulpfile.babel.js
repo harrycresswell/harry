@@ -75,9 +75,9 @@ gulp.task("img", () =>
         width: 480 * 2,
         rename: {suffix: "-sm@2x"},
       }, {
-        width: 675,
+        width: 960,
       }, {
-        width: 675 * 2,
+        width: 960 * 2,
         rename: {suffix: "@2x"},
       }],
     }, {
