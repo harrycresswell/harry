@@ -1,54 +1,65 @@
 +++
-tags = ["Design"]
-title = "Launch now, perfect later"
+tags = ["Startups"]
+title = "Launching successful projects"
 date = "2017-07-14T21:34:41+01:00"
 slug = "launch-now"
-Description = "Launching products for the best chance of success."
 Author = "Harry Cresswell"
 url = "/launch/"
 
 +++
 
-<p class="intro">Starting new projects can be a daunting process. Often we have an idea in our head of how the product should be, almost always imagining the perfect, most ideal version. It's so easy to feeling overwhelmed. You've imagined up this big idea and you have no idea where to start.</p>
+<p class="intro">Starting a new project can be a daunting process. Often we have an idea in our head and almost always it’s this perfect, final version and it seems like an impossible task to get there. We’re at the foot of this giant mountain and theres no sight of the summit.</p>
 
-If you do manage to get past that first step, perhaps you've been working tirelessly round the clock to perfect your product, you launch, expecting great things and a ton of interest, and then... nothing.
+This is the point where a lot of us give up or start feeling massively overwhelmed. It’s so easy to feel like this. You’ve imagined up this big idea and you have no idea where to start.
 
-Here's some ideas I've picked up along the way, to give you the best possible chance of launching products that don't fall flat on their face. Leaving you feeling disheartened and ready to chuck it all in.
+If you manage to get past that first stage, congratulations, you’re half way there. But maybe now you’re working tirelessly around the clock to perfect your product in time for launch. Then you launch, expecting great things to happen and an unmanageable stream of interest to come flooding in.
+
+In reality it’s often the complete opposite. Maybe that sounds familiar or at least you know someone who’s been there. I feel like we all have in some form at some point in our lives. Be it when launching new a business, working on an article, writing a book or whatever.
+
+Here’s some ideas I’ve picked up along the way, to give you the best possible chance of launching products that don’t fall flat on their face, leaving you feeling disheartened and ready to chuck it all in.
+
+
+## Get your ideas out there
+
+If you don’t have a product yet, don’t let that stop you. Launch your ideas instead. Before you even entertain the idea of building a product, get your ideas out there in their rawest form. This is a very low risk way of proving a concept and validating the potential of your ideas.
+
+It’s the easiest way to test the water and see if people like what you’re building. The worst thing you can do is waste your time and energy working on something no one wants. If you’re building something interesting, then start telling people about it. What’s the worst that can happen? Maybe you’ll start a few more conversations and open a few more doors. Whatever it is, trust that only good things will happen.
 
 ## Launch before you’re ready
 
-I’ve read a lot lately on why we should in fact be launching polished products from day one, however i’m still in the band that says **launch your product before it's ready**. Better still, when it's an idea in it's infancy.
+I’ve read a lot lately on why we should in fact be launching polished products from day one, but I remain firmly rooted in the camp that says **launch your product before it’s ready**. If you know what’s what you will have already launched when it was just an idea in it’s infancy.
 
-Products are a work in progress, they inevitably change and take a great deal of iteration in order to evolve. Your work will never be finished, so don't make the mistake of waiting until you perfect it, or deem it finished, before you release it.
+As we all know, products and business are a constant work in progress, inevitably they evolve and change in time. Like our own lives, they take a great deal of iteration and fine tuning, they require us to listen to ourselves and our audience, in order to truly understand the direction to take.
 
-Make sure it articulates your idea, in it's rawest form — and you have an idea of who your target audience is — then get it out there.
-
-Think of how all todays great companies started.. Think Air Bed and Breakfast, and when Elon Musk was laughed out the room when he tried to buy an ex Soviet rocket.
-
-## Prototype in Public
-
-That means get the most basic version — of whatever it is you're making — out there and into the world as soon as you can. Continue working on your product in full view of whoever you intend to see it, sharing your process as you progress and as your product develops. That way you wont be left frantically trying to build an audience after you've launched your product, as you'll already have one.
+So if you’re waiting for the perfect time to launch, know that day will never come. If your work is never be done, then there is no perfect time to launch. Don’t make the mistake of waiting until you perfect it, before you release it. Launch now, perfect later.
 
 
-## Don't be precious with your ideas
+## Always work on more than one thing
 
- 9 times out of 10, someone has already had them. So forget the NDA's and secret meetings. Unless you work for the military or you're building a a classified product for the government, you're wasting your time. I really don't believe in this stuff. [Did anyone build Tesla when Elon Musk released the patents?](https://www.tesla.com/blog/all-our-patent-are-belong-you) It takes more than an idea to build products. The more open you are, the more interest you will attract.
+When I said launch ideas I didn’t mean ’launch an idea’. The cold reality is most projects will fail, so don’t go put all your energy into just one. Launch as many ideas as you can, then see which sticks. That way you won’t get hung up if one fails, as more than likely you will just shift your focus to the one with more potential.
 
-## Share your ideas
+Think about how all todays great companies started for a second. A lot of them were side projects or just simple far flung ideas. At least they were nothing like they do today. Think Air Bed and Breakfast, Apple when it had the Newton logo, or when Elon Musk was laughed out of Russia when he tried to buy an ex-Soviet rocket. Who’s laughing now.
 
-with as many people as you can. This is the low risk way to prove your concept and validate your ideas. It's the easiest way to test the water and see if people like what you're building. The worst thing you can do is waste your time and energy working on something no one wants. If you're building something interesting, then start telling people about it. What's the worst that can happen? Maybe you'll start a few more conversations and open a few more doors. Whatever it is, trust that only good things will happen.
+Hunt down your target audience and start collecting feedback. Send out a questionnaire, a tweet, pick up the phone and find out if theres any interest in your ideas.
 
-## Gather feedback, user test, collect data
 
-That means analytics, listen to your audience.
+## Don't be too precious
 
-Collecting data as you go is invaluable. Whether it be stats and figures or feedback from users and customers, it's absolutely vital. This is the best way to learn about what works and what doesn't and find out what needs improving or what new featured you should add. You can safely make iterations to your product knowing that you are doing the right thing. If you do this you will find yourself creating the product that people want. No second guessing. No building products based on assumption. Did you know [Netflix creates series based on the data they collect](https://blog.kissmetrics.com/how-netflix-uses-analytics/). Essentially pre-empting a shows success before they've even made it.
+ 9 times out of 10, someone has already had your idea, or nobody really cares to try and built it. So forget the NDA's and secrecy, it’s all in the execution after all, not the idea. Even if someone else steals your idea, the end result will be quite different. After all, as much as we try and copy each other, human nature doesn’t allow for this level of perfection. [Did anyone build Tesla when Elon Musk released the patents?](https://www.tesla.com/blog/all-our-patent-are-belong-you) It takes more than an idea to build products. The more open you are, the more interest you will attract.
 
-## Back up assumptions with real data
 
-So always **back up your assumptions with real data**. Don't build products you think people want. Build products you know there is already a demand for. It's never been easier to reach an audience and ask for feedback, so before you start building your product start collecting data to work with. It can be as simple as [Sending out a survey or a questionnaire](https://www.typeform.com/blog/guides/minimum-viable-product/) or building [a clever product landing page](https://blog.bufferapp.com/idea-to-paying-customers-in-7-weeks-how-we-did-it). It doesn't get more straight forward than creating a new Instagram page and seeing what posts get the most engagement. Think about where your audience hangs out. Start conversations and share what you're working on. Always try and look for quick and easy ways test your ideas before you dive in head first.
+## Listen to your audience
+
+Always gather feedback from your audience and work with real data. Collecting data as your product evolves is invaluable. Whether it be analytics or feedback from users and customers, it’s absolutely vital. This is the best way to learn about what works and what doesn’t. If your product is out to solve problems then you ought to find out what the problems are that need solving. If you’ve build a website, you probably want to reach out to your audience to find out what they are struggling with or what new featured they would like to see added.
+
+By doing this you can safely make iterations to your product without a negative impact, because you know you’re are doing the right thing. If you do this you will find yourself creating the product that people want. No second guessing. No building products based on assumption. You know [Netflix creates series based on the data they collect](https://blog.kissmetrics.com/how-netflix-uses-analytics/), now we all know why they are so successfully. This is user centered design at it’s best.  Essentially they pre-empt a shows success before they’ve even made it, because they know they have an audience which matches the criteria.
+
+## Always back up assumptions with real data
+
+Ok so I’m kind of repeating myself here but that’s only to stress the importance of data. Don’t build products you think people want. Build products you know there is already a demand for. It’s never been easier to reach an audience and ask for feedback, so before you start building your product start collecting data to work with. It can be as simple as [Sending out a survey or a questionnaire](https://www.typeform.com/blog/guides/minimum-viable-product/) or building [a clever product landing page](https://blog.bufferapp.com/idea-to-paying-customers-in-7-weeks-how-we-did-it). It doesn’t get more straight forward than creating a new Instagram page and seeing what posts get the most engagement. Think about where your audience hangs out. Start conversations and share what you’re working on. Always try and look for quick and easy ways test your ideas before you dive in head first.
 
 As long as you get the worst, most unpolished version of your product out there first, and then improve it based on the data you collect, you will set yourself up for the best chance of success.
+
 
 _Note: These thoughts were initially sparked after reading a post by Joel Gascoigne of Buffer fame (link below), many years ago. I apply this same mentality to writing. Get it out there even if it sucks. Then go back and improve it later._
 
