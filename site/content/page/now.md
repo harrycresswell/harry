@@ -6,14 +6,14 @@ slug = "now"
 url = "now"
 +++
 
-I'm in a very cold Hamburg right now where I’m focusing on the following things:
+I’m in London, it’s finally starting to look like spring and I’m focusing on the following things:
 
 - Writing the second part to my Sketch Libraries article.
 - Working on client onboarding and automation for In Detail.
 - Working on my 4th Typeface — TS Sans (which is taking a while!)
 - Launching a new website for a food project.
 
-Right now these are my priorities, I'm saying no to most other stuff...saying that, I'm still [open to opportunities](/design/).
+Right now these are my priorities, I’m saying no to most other stuff...saying that, I’m still [open to opportunities](/design/).
 
 P.S. — We just launched a new look for [In Detail](https://indtl.com/). Go have a look if you haven’t already.
 
