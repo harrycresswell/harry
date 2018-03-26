@@ -11,11 +11,13 @@ When I can I document my design process and record [interesting things I’m rea
 
 Hopefully you might pick up some useful lessons whilst you're here.
 
-## A little more about me
+## More about me
 
-I started teaching myself design and code in 2006 whilst I was studying a degree in Fine Art and Art History. I tried a *"real job"* in Insurance after graduating, but quit in 2010 to focus on **making websites**.
+I started teaching myself design and code in 2006 whilst I was studying a degree in Fine Art and Art History. I tried a *“real job”* in Insurance after graduating, but quit in 2010 to focus on **making websites**.
 
-Right now I live between London and Hamburg where **I work remotely** with a handful of clients. When I'm not at my desk I enjoy hiking, climbing, taking pictures and travelling. I try and do yoga every morning and meditate regularly.
+Right now I live between London and Hamburg where **I work remotely** with a handful of clients.
+
+In my free time I enjoy climbing, hiking and skiing. I try to meditate and practice yoga every morning.
 
 {{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
 
