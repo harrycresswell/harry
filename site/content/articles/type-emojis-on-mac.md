@@ -1,5 +1,5 @@
 ---
-title: "Type Emoji’s on Mac Shortcut"
+title: "Type Emoji’s on Mac shortcut"
 date: 2018-03-26T13:28:18+01:00
 tags: ["Productivity"]
 slug: emoji-mac
