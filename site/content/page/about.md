@@ -39,7 +39,7 @@ In my free time I enjoy climbing, hiking and skiing. I try to meditate and pract
 There are a few places to go from here. [I write about design systems over on Medium](https://medium.com/@harrycresswell). And share [my ideas about design, code and building products](/articles/) on this site. Hit me up on [Twitter](https://twitter.com/harrycresswell) if you have questions or just want to say hi. To see my full resume head to [LinkedIn](https://uk.linkedin.com/in/harrycresswell
 ).
 
-If you’re interested in [working with me](/design/), you might like to read about a few possible ways we can work together.
+If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together.
 
 ## Let's keep in touch
 
