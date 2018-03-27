@@ -20,4 +20,4 @@ Topics range from designing and building websites to typography, illustration an
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime. If you like what you find leave your email below.
 
 
-*Obviously this is total bullshit, I just made it up, but I do send out some interesting stuff, which you’ll definitely find helpful. What you got to loose?!
+*OK, I admit, I totally made that bit up, but I do send out some interesting stuff, which you’ll definitely find helpful.
