@@ -5,7 +5,7 @@ description = "About this site"
 slug = "imprint"
 +++
 
-For those interested in how I built this site, here's a quick overview. If you don’t find the answers you’re looking for or have a specific question [drop me an email](mailto:studio@harrycresswell.com), i’d be happy to help.
+For those interested in how I built this site, here's a quick overview. If you don’t find the answers you’re looking for or have a specific question [drop me an email](mailto:studio@harrycresswell.com), I’d be happy to help.
 
 ## Templating
 I’m using [Go](https://golang.org/) based static site templating engine [Hugo](https://gohugo.io/), primarily because it’s flexible and lightning fast. The site uses a custom theme built on top of the [Victor-Hugo](https://github.com/netlify/victor-hugo) boilerplate, which is a great starting point for a [Gulp](https://gulpjs.com/) and [Webpack](https://webpack.js.org/) assets pipeline. I made a few modifications to include SCSS support and a responsive image build task, which generates both retina and non-retina image sizes.
