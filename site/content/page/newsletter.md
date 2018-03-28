@@ -6,7 +6,7 @@ slug = "newsletter"
 
 +++
 
-[Brain&mdash;tactics] is a brief, weekly newsletter for creative types proven* to enhance your design skills and increase brain capacity. Given a good internet connection I send it out every week on a Friday.
+[Brain&mdash;tactics] 🤯 is a brief, weekly newsletter for creative types proven* to enhance your design skills and increase brain capacity. Given a good internet connection I send it out every week on a Friday.
 
 ## What topics does it cover?
 

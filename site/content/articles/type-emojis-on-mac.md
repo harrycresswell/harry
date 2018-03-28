@@ -11,4 +11,4 @@ We all know how to use Emoji’s on a phone but do you know how to access the Em
 
 The Mac Emoji keyboard shortcut is really easy to remember, whilst your cursor is in type mode, use the shortcut: `Command + Control + Spacebar` to bring up the Emoji character panel.
 
-Then select the Emoji to type it. The panel works exactly the way it does on an iPhone. Easy 🤙
+Then select the Emoji to type it. The panel works exactly the way it does on an iPhone. Easy peasy! 🤙

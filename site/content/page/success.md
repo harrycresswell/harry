@@ -1,8 +1,12 @@
 ---
-title: "Success"
+title: "Awesome, that totally worked!"
 date: 2018-03-12T21:14:42Z
+slug: "boom"
+url: "/success/"
 ---
 
-<p class="Intro">That form you just submitted is flying through the internet right now. So now you get to see this awesome page, reserved for the best type of people who actually fill stuff in.<p>
+Thanks for your message! It’s probably flying through the internet right now.
 
- I thank you for being part of that elite crew, and will be in touch very soon to extend those thanks in person.
+Forgive me if I don’t reply right away, I receive a lot of messages so I now use <a href="http://www.inboxpause.com/">Inbox Pause</a> to limit distraction from email to once per day. You will hear back from me within 24hrs I promise.
+
+P.S. — If you want to know how to build forms on static sites the easy way checkout my article [Handling forms on static sites with Netlify](/).
