@@ -54,4 +54,9 @@ enableEmoji = true
 [[menu.footer]]
   name = "Mood"
   url = "https://thevastnothingnessofspace.tumblr.com/"
-  weight = 0
+  weight = 5
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
