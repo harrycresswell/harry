@@ -5,7 +5,10 @@
           <h1 class="PostHeader-title">Articles posted under “{{ .Title }}”</h1>
       </header>
         {{ range .Data.Pages }}
-            <h3 class="PostList-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3 class="PostList-title">
+              <!-- If external link exists in post matter, else show post page-->
+              <a href="{{ if isset .Params "affiliatelink" }}{{ .Params.affiliatelink }}&#8599;{{else}}{{ .Permalink }}{{ end }}">{{ .Title }}</a>
+            </h3>
             <div class="PostList-meta">
                 <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
                 {{ partial "post/tags.html" . }}

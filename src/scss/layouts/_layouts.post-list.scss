@@ -9,6 +9,11 @@
 
 //.PostList {}
 
+.PostList-title span {
+  margin-left: 10px;
+  font-size: 70%;
+}
+
 .PostList-meta {
   display: flex;
   @include margin-bottom(1);
