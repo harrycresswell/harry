@@ -46,3 +46,7 @@
   font-size: 120%;
   line-height: 1.6;
 }
+
+.PostRelated {
+  @include margin-bottom(2);
+}
