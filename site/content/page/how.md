@@ -51,7 +51,7 @@ When it comes to pricing, I like to be as transparent as possible from the begin
 
 I charge a flat fee for all projects, so no hourly rate, just a single project price.
 
-I typically work on projects which last between 2 and 4 weeks. My rate varies from roughly £2.5 — £5k per week depending on the project requirements and my involvement.
+I typically work on projects which last between 2 and 4 weeks. My rate varies from roughly £1.5 — £3k per week depending on the project requirements and my involvement.
 
 
 ## Get in touch
