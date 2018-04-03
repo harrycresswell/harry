@@ -5,13 +5,11 @@ tags: ["Hugo"]
 slug: "hugo-external-articles"
 ---
 
- Lately I’ve been publishing article [here](/articles/) on my personal [Hugo](/imprint/) site and on [Medium](https://medium.com/@harrycresswell). It seems to be fairly common practice these days. Perhaps you’re doing something similar?
+ Lately I’ve been publishing articles both [here](/articles/) on my personal site and on [Medium](https://medium.com/@harrycresswell). It seems to be fairly common practice these days. Perhaps you’re doing something similar?
 
-The more I publish on different websites, the more I want to keep track of everything I’ve written in one place. In order to stay organised, it made sense to add my Medium articles to [my articles page](/articles/).
+In order to stay organised — as I publish on various sites — it seems logic to try and keep track of everything I’m writing in one place, that means here on my personal site.
 
-To do this I came up with a super simple solution for displaying posts from both external sources (i.e. Medium) and internal posts in the same post list, without having to duplicate the articles each time.
-
-You’ll find this useful if like me you publish articles on multiple sites and want to link to all of them from the list page on your Hugo site.
+To do this I came up with a super simple solution which extends the typical [Hugo List template](https://gohugo.io/templates/lists/) to include posts from external sources (in this case Medium). You’ll find this useful if like me you publish articles on multiple sites and want to link to all of them from one posts page on your [Hugo](https://gohugo.io/) site, without having to duplicate articles.
 
 _For a quick demo of this in action click on a few of my [articles](/articles/) and you’ll notice some link to internal pages on this site and some link to external sources._
 
