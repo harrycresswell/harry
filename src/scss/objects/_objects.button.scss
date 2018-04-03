@@ -12,19 +12,19 @@
 }
 
 .Button {
-    width: 100%;
-    font-size: 70%;
     border-width: 0;
     border-radius: 0;
     box-sizing: border-box;
     cursor: pointer;
     font-family: $font-system-mn;
+    font-size: 70%;
     outline-style: none;
     text-align: left;
     text-decoration: none;
     transition-duration: 0.4s;
     vertical-align: middle;
     white-space: nowrap;
+    width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
@@ -36,11 +36,11 @@
  */
 
 .Button--primary {
+    background: $color-dark;
     border: solid 2px $color-dark;
     color: $color-white;
-    background: $color-dark;
-    margin: 0 auto;
     height: 64px;
+    margin: 0 auto;
     padding: 0 32px;
 }
 
@@ -53,7 +53,7 @@
 .Button--primary:active,
 .Button--primary.is-pressed {
     background: $color-white;
-    color: $color-dark;
     border: solid 2px $color-dark;
+    color: $color-dark;
     outline: none;
 }
