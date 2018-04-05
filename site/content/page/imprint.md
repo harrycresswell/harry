@@ -20,6 +20,6 @@ I organise my SCSS partials loosely based on [ITCSS](https://www.xfive.co/blog/i
 
 
 ## Deployment and hosting
-The site is hosted directly from [a Github repository](https://github.com/harrycresswell/harry) and uses [Netlify](https://www.netlify.com/), an awesome CDN for continuous deployment. That means when I push changes to Github it automatically deploys the live site.
+The site is hosted directly from [a GitHub repository](https://github.com/harrycresswell/harry) and uses [Netlify](https://www.netlify.com/), an awesome CDN for continuous deployment. That means when I push changes to Github it automatically deploys the live site.
 
-All the code can be found on [github](https://github.com/harrycresswell/harry). Feel free to use it for your own learning and development. If you have any questions [drop me an email](mailto:studio@harrycresswell.com) or a [tweet](https://twitter.com/harrycresswell/). I'd be more than happy to help.
+All the code can be found on [GitHub](https://github.com/harrycresswell/harry). Feel free to use it for your own learning and development. If you have any questions [drop me an email](mailto:studio@harrycresswell.com) or a [tweet](https://twitter.com/harrycresswell/). I'd be more than happy to help.

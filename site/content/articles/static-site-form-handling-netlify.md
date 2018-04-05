@@ -5,13 +5,15 @@ tags: ["Hugo", "Code"]
 slug: "forms-with-netlify"
 ---
 
-_Note: This tutorial requires you have a static site which you deploy using [Netlify](https://www.netlify.com/). If you don‘t use Netlify, read on as you might well be convince to switch._
+_Note: This tutorial requires you have a static site which you deploy using [Netlify](https://www.netlify.com/). If you don‘t use Netlify, read on as you might well be convinced to switch._
 
 Chances are you might have read [Using Zapier to send form data](/articles/form-data-with-zapier/). I used Zapier to handle form submissions on the previous incarnation of this site. And it worked great. I was very happy with the fact I could by-pass subscription based static site form services like [Formspree](https://formspree.io/) and [Formkeep](https://formkeep.com/), just by using Zapier Webhooks and a bit of AJAX to tidy things up.
 
 If you’re also running a static site and wondering how best to go about collecting form submissions without a backend, then [I’d highly recommend using Zapier](/articles/form-data-with-zapier/), everytime. There is however one exception, and the reason I made the switch.
 
 If you use Netlify to deploy your static site, there’s now an even easier way to handle your form submissions. This article looks at how to get set up.
+
+You’ll find the form built in this article on [my contact page](/contact/). So head over there for a quick demo.
 
 ## Why use Netlify for your form submissions
 
