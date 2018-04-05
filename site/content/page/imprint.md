@@ -23,3 +23,7 @@ I organise my SCSS partials loosely based on [ITCSS](https://www.xfive.co/blog/i
 The site is hosted directly from [a GitHub repository](https://github.com/harrycresswell/harry) and uses [Netlify](https://www.netlify.com/), an awesome CDN for continuous deployment. That means when I push changes to Github it automatically deploys the live site.
 
 All the code can be found on [GitHub](https://github.com/harrycresswell/harry). Feel free to use it for your own learning and development. If you have any questions [drop me an email](mailto:studio@harrycresswell.com) or a [tweet](https://twitter.com/harrycresswell/). I'd be more than happy to help.
+
+
+## Form handling
+All form handling is also taken care of by Netlify, so when a visitor submits the form, Netlify collects the submission and notifies me via email. If you’re interested in how all this works, I wrote about it in [Static Site Form Handling with Netlify](/articles/forms-with-netlify/).
