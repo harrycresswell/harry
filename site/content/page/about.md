@@ -21,18 +21,17 @@ In my free time I enjoy climbing, hiking and skiing. I try to meditate and pract
 
 {{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
 
-### Things i've made
+### Personal Projects
 
 - [Type Services](https://typeservices.co/) is a small type foundry I set up in 2017 with a focus on hand drawn type and imperfection in type design.
 - [In Detail](https://indtl.com/) focuses on visual interviews with jewellery collectors and influencers. I co-founded and continue to work on the project with jewellery consultant [Beanie Major](http://blake-ldn.com/journal/2016/11/8/blake-woman-beanie-major).
+
+### Things I’ve made
+
+- [AIN Prototypes](http://harrycresswell.co.uk/), a selection of front-end prototypes built for Angel Investment Network related projects.
+- [Lulafitness](https://www.lulafitness.co.uk/) is a simple static site built with Hugo.
+- [Albion Cycling](http://www.albioncycling.com/), a WP/Shopify buid in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
 - [Dark Sky](https://soundcloud.com/dark-sky) are an electronic music duo from south London. Since 2012 I have led creative direction of artwork on all their releases. You can see the artwork and listen to their music over on [my Soundcloud page](https://soundcloud.com/harrycresswell).
-
-### Recent projects
-
-- [In Detail — The Online Jewellery Destination](https://www.indtl.com/)
-- [Lulafitness — Personal Training, Yoga & TRX](https://www.lulafitness.co.uk/)
-- [Albion Cycling – British cycling gear for all sorts of weather](http://www.albioncycling.com/).
-- [We Art London — All the latest art exhibitions directly to your inbox ](http://www.weartlondon.com/)
 
 ## Where to go next
 

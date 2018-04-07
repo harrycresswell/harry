@@ -135,14 +135,14 @@ This is handled from within the Netlify web app. You can find the options in __S
 
 ## Wrapping up
 
-In this article we’ve looked at a simple configuration to get your form submissions.
+In this article we’ve looked at setting up static site form submissions using Netlify. If you’ve followed along you should now have a functioning contact form on your site which sends notifications to your email.
 
-From here you might want to bring Zapier into the mix, collect data in a Webhook, then update your mailing list or add the data to a google sheet. Just one of many possibilities.
+From here you might consider adding more fields to your form or building a success alert using AJAX and ditching the success page.
 
-You could even scrap the success page altogether, and create a success alert using AJAX. But I’ll leave that for you to decide.
+Perhaps you’re thinking about adding a few automation steps with Zapier, to send your submission data to other apps in your workflow. Whether that be updating your mailing list in Mailchimp or adding data to a google sheet. The possibilities are almost endless so I’ll leave you to decide where to take it next.
 
-Finally, make sure you check out the article below from Netlify, which goes into more detail on processing form data with Netlify.
+Finally, if you haven’t seen it already, make sure you check out the article below from the Netlify blog, which goes into more detail on what can be done with form data using Netlify.
 
 ## Resources
 
-[Netlify Docs: Form Handling](https://www.netlify.com/docs/form-handling/)
+- [Netlify Docs: Form Handling](https://www.netlify.com/docs/form-handling/)

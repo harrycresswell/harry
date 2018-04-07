@@ -11,11 +11,11 @@ I hope this page will give you a clearer picture of how I work and whether I’m
 
 My name is [Harry Cresswell](/about/), I’m an independent designer based in between London, England and Hamburg, Germany. I’ve spent the last 6 years helping small companies and individuals find their feet online, using design and code.
 
-I worked for several years as an in-house designer at Harvey Nichols before setting up my own studio to focus on helping startups and small teams launch their vision and achieve their goals.  
+For several years I worked as an in-house designer at Harvey Nichols before setting up my own studio to focus on helping startups and small teams launch their vision and achieve their goals.  
 
 ## What I do
 
-Working with small businesses requires a broad skillset. I’m well versed in user experience design, interface design, identity design, front-end development and digital marketing. You could say I wear a few different hats.
+Working with small businesses requires a broad skillset. I’m well versed in user experience design, interface design, identity design, front-end development and digital marketing.
 
 I’m one part creative and one part technical, meaning I design and code. Usually I involve myself in projects from concept through to execution. This is the way I enjoy working the most.
 
@@ -23,26 +23,26 @@ My clients usually hire me to do:
 
 - Web Design and Development
 - Visual Identity Design
-- digital marketing implementation and strategy
+- User Experience/User Interface Designer
 
 I work on projects from the ground up which typically last between 2 and 4 weeks. This is where I find I can provide the most value.
 
 ## How I work
 
-I take a collaborative approach on every project, involving clients from start to finish, keeping regular contact with in person meetings, Skype calls and email.
+I take a collaborative approach on every project, involving clients from start to finish. I  keep in regular contact via in person and virtual meetings and by email.
 
-I aim to keep the process as dynamic as possible, moving thoughtfully, and efficiently in the most appropriate direction. If something isn’t working we’ll revisit the step until we find the right direction.
+I aim to keep the process as dynamic as possible, moving thoughtfully and efficiently in the most appropriate direction. If something isn’t working we’ll revisit the step until we find the right solution.
 
-I believe good design is about good communication. Having a good working relationship with my clients is vital to producing good results.
+I believe good design is the product of solving real problems and effective communication. Having a good working relationship with my clients is vital for producing good results.
 
-On certain projects [I collaborate with Luke](https://lukeharvey.co.uk/). We’ve been working together successfully for several years, building [In Detail](https://indtl.com/) and [Albion](https://albioncycling.com/) to name a few.
+[I collaborate with Luke](https://lukeharvey.co.uk/) on certain projects. Over the years we’ve worked on many successful projects, for a number of well established clients. More recently we’ve worked with the team behind [Albion](https://albioncycling.com/) to launch their online presence and e-commerce site. We continue to work together on [In Detail](https://indtl.com/).
 
 
 ## Who hires me
 
 Individuals and small teams who need a designer experienced in building businesses online from the ground up.
 
-Normally it’s people who want to execute their brand vision online but don’t necessarily have the technical skills to do so. Or people who would rather invest their budget in good design, that comes at an affordable rate. And in a faster timeframe, which an agency can’t offer.
+Normally it’s people who want to execute their brand vision online but don’t necessarily have the technical skills to do so. Those who would rather invest their budget in good design at an affordable rate.
 
 
 ## What I charge
@@ -56,4 +56,4 @@ I typically work on projects which last between 2 and 4 weeks. My rate varies fr
 
 ## Get in touch
 
-If you have a project in mind which you feel I might be a good fit for, let’s have a chat about it. [Drop me an email](mailto:studio@harrycresswell.com), telling me a bit about the project and we can take it from there.
+If you have a project in mind which you feel I might be a good fit for, let’s have a chat about it. [Get in touch](/contact/), telling me a bit about the project and we can take it from there.
