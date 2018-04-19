@@ -6,7 +6,7 @@ slug = "now"
 url = "now"
 +++
 
-I’m in Hamburg right now, spring has finally sprung and I’m focusing on the following things:
+I’m in London and I’m focusing on the following things:
 
 - Writing the second part to my Sketch Libraries article.
 - Designing my 4th Typeface — TS Sans (which is taking a while!)
@@ -17,4 +17,4 @@ Right now these are my priorities, I’m saying no to most other stuff...saying 
 P.S. — We just launched a new look for [In Detail](https://indtl.com/). Go have a look if you haven’t already.
 
 
-**Last Updated:** April 04, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
+**Last Updated:** April 19, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
