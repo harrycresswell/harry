@@ -26,8 +26,8 @@ Right now I live between London and Hamburg where **I work remotely** with a han
 
 - [AIN Prototypes](http://harrycresswell.co.uk/), a selection of front-end prototypes built for Angel Investment Network related projects.
 - [Lulafitness](https://www.lulafitness.co.uk/) is a simple static site built with Hugo.
-- [Albion Cycling](http://www.albioncycling.com/), a WP/Shopify buid in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
-- [Dark Sky](https://soundcloud.com/dark-sky) are an electronic music duo from south London. Since 2012 I have led creative direction of artwork on all their releases. You can see the artwork and listen to their music over on [my Soundcloud page](https://soundcloud.com/harrycresswell).
+- [Albion Cycling](http://www.albioncycling.com/), a Wordpress build with Shopify integration, in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
+- [Dark Sky](https://soundcloud.com/dark-sky) are an electronic music duo from south London. Since 2012 I have led creative direction of their artwork. You can see each release and listen to their music over on [my Soundcloud page](https://soundcloud.com/harrycresswell).
 
 ## Where to go next
 
