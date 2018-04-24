@@ -20,13 +20,11 @@ Topics range from designing and building websites to typography, illustration an
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.
 
 
-## Why is this better than the rest?
+## What makes it better?
 
-Glad you asked. Unlike most other newsletter out there, Brain—tactics includes a table. But perhaps that’s not quite doing it justice.
+Glad you asked. Unlike most newsletters which do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable](https://airtable.com/) database. No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
 
-Think more along the lines of a searchable database, containing each and every piece if content ever featured in the emails I send out.
-
-Here’s a quick preview of video content I’ve included:
+Here’s a quick preview of video content included:
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrZkDHafb9C6TP4w?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="80%" height="533" style="background: transparent; border: 1px solid #ccc; margin-bottom: 32px;"></iframe>
 
