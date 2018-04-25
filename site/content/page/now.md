@@ -8,13 +8,14 @@ url = "now"
 
 I’m in London and I’m focusing on the following things:
 
-- Writing the second part to my Sketch Libraries article.
+- Writing the second part to my [Sketch Libraries article](https://blog.usejournal.com/using-sketch-libraries-to-build-a-better-ui-design-system-part-1-26f5660f3c98)
 - Designing my 4th Typeface — TS Sans (which is taking a while!)
-- Launching a new website for a food project.
+- Building a website for [a new food project](https://www.instagram.com/foodtactics_/)
+- Working on an email course called Redesign
 
 Right now these are my priorities, I’m saying no to most other stuff...saying that, I’m still [open to opportunities](/contact/).
 
 P.S. — We just launched a new look for [In Detail](https://indtl.com/). Go have a look if you haven’t already.
 
 
-**Last Updated:** April 19, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
+**Last Updated:** April 25, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
