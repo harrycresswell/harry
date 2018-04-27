@@ -29,13 +29,13 @@ I work on projects from the ground up which typically last between 2 and 4 weeks
 
 ## How I work
 
-I take a collaborative approach on every project, involving clients from start to finish. I  keep in regular contact via in person and virtual meetings and by email.
+I take a collaborative approach on every project, involving clients from start to finish. I  keep in regular contact via in person or virtual meetings and by email.
 
-I aim to keep the process as dynamic as possible, moving thoughtfully and efficiently in the most appropriate direction. If something isn’t working we’ll revisit the step until we find the right solution.
+I aim to keep the process as dynamic as possible, moving thoughtfully and efficiently in the most appropriate direction. If something isn’t working we’ll revisit the steps until we find what works.
 
-I believe good design is the product of solving real problems and effective communication. Having a good working relationship with my clients is vital for producing good results.
+I believe good design is the product of solving real problems for real people. And finding ways to communicate effectively. Having a good working relationship with my clients is also vital for producing results.
 
-[I collaborate with Luke](https://lukeharvey.co.uk/) on certain projects. Over the years we’ve worked on many successful projects, for a number of well established clients. More recently we’ve worked with the team behind [Albion](https://albioncycling.com/) to launch their online presence and e-commerce site. We continue to work together on [In Detail](https://indtl.com/).
+Worth noting, [I often collaborate with Luke](https://lukeharvey.co.uk/) on larger projects. Where Luke handles development, I focus my attention on design. Over the years we’ve worked on many successful projects, for a number of well established clients. More recently we’ve worked with the team behind [Albion](https://albioncycling.com/) to launch their online presence and e-commerce platform. We continue to work together with the [In Detail](https://indtl.com/) team on a regular basis.
 
 
 ## Who hires me
@@ -51,7 +51,7 @@ When it comes to pricing, I like to be as transparent as possible from the begin
 
 I charge a flat fee for all projects, so no hourly rate, just a single project price.
 
-I typically work on projects which last between 2 and 4 weeks. My rate varies from roughly £1.5 — £3k per week depending on the project requirements and my involvement.
+I typically work on projects which last between 2 and 4 weeks. My rate varies from roughly £1.5 — £3k per week depending on the requirements and my involvement in the project.
 
 
 ## Get in touch

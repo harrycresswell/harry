@@ -22,10 +22,10 @@ You can see examples [from the archive](http://us14.campaign-archive1.com/home/?
 
 ## What makes it better?
 
-Glad you asked. Unlike most newsletters which do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable](https://airtable.com/) database. No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
+Glad you asked. Unlike most newsletters that do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable](https://airtable.com/) database. No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
 
-Here’s a quick preview of video content included:
+Here’s some of the video content included:
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrZkDHafb9C6TP4w?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="80%" height="533" style="background: transparent; border: 1px solid #ccc; margin-bottom: 32px;"></iframe>
 
-Ok, that’s all I’ve got. If this sound good to you, leave your email below and join me on this wild ride. I will guard your email with my life.
+Ok, that’s all I’ve got. If that sound good, leave your email below and join me every Friday. I’ll guard your email with my life.
