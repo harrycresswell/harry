@@ -10,9 +10,9 @@ Author = "Harry Cresswell"
 
 <p class="Message">I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submissions</a> on this site. Saying that, this Zapier solution still works great if you’re not using Netlify.</p>
 
-<p class="intro">Have you ever felt overwhelmed by the amount of code it takes to get a simple contact form working on a website?</p>
+{{< intro >}}Have you ever felt overwhelmed by the amount of code it takes to get a simple contact form working on a website?{{< /intro >}}
 
-<p class="intro">Part of the reason I built my site static was because I didn’t want the hassle of having a to deal with a database, a server and PHP. Dealing with all that stuff adds a layer of complexity to a website, particularly when it comes to processing form data — so if it’s not a necessity i’d rather avoid it.</p>
+{{< intro >}}Part of the reason I built my site static was because I didn’t want the hassle of having a to deal with a database, a server and PHP. Dealing with all that stuff adds a layer of complexity to a website, particularly when it comes to processing form data — so if it’s not a necessity i’d rather avoid it.{{< /intro >}}
 
 But where do you even start with processing form data on a static site?
 

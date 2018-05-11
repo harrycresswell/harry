@@ -8,7 +8,7 @@ url = "/launch/"
 
 +++
 
-<p class="intro">Starting a new project can be a daunting process. Often we have an idea in our head and almost always it’s this perfect, final version and it seems like an impossible task to get there. We’re at the foot of this giant mountain and theres no sight of the summit.</p>
+{{< intro >}}Starting a new project can be a daunting process. Often we have an idea in our head and almost always it’s this perfect, final version and it seems like an impossible task to get there. We’re at the foot of this giant mountain and theres no sight of the summit.{{< /intro >}}
 
 This is the point where a lot of us give up or start feeling massively overwhelmed. It’s so easy to feel like this. You’ve imagined up this big idea and you have no idea where to start.
 
