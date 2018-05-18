@@ -46,11 +46,11 @@ This method replaces the single Sketch file UI kit with a multiple file approach
 
 But why do this? This makes total sense both from a reusability perspective and an organisational one.
 
-Keeping one big Sketch file leads to bloat, broken symbols and general design decision paralysis. You could put this down to [Hick’s Law](https://lawsofux.com/hicks-law.html).
+From a technical perspective, keeping one big Sketch file can lead to bloat, broken symbols and a whole host of other annoyances. From a workflow perspective, much like having too many browser tabs open can give you anxiety, too much going in one file can lead to design decision paralysis. You might put this down to [Hick’s Law](https://lawsofux.com/hicks-law.html).
 
 {{< blockquote quote="The time it takes to make a decision increases with the number and complexity of choices." cite="William Edmund Hick" >}}
 
-On the other hand, Sketch runs fast when you keep small files. Symbols become easier to maintain and you can focus your attention on one specific component at any one time. You reduce complexity in your work.
+On the other hand, Sketch runs fast when you keep small files. Symbols become easier to maintain and you can focus your attention on one specific component at any one time. You reduce complexity in your work, and keep your stress levels to a minimum.
 
 As your project evolves you’ll realise how much of a joy working this way is. Less moving parts per file means there’s less to maintain, less to update and less to go wrong.
 
@@ -108,7 +108,11 @@ In this article we took a quick look at useful methods we can use to build bette
 
 Below you will find several resources which I’ve found invaluable in understanding the UI design system process. I hope you find some useful. Something I remind myself often, is don’t be afraid to create your own methods for understanding and work with design.
 
-There’s no silver bullets when it comes to building design systems, each project will have it’s own unique requirements, so don’t follow any method blindly. As designers it is our responsibility to think deeply and consciously about the work we create. Putting out work which has a positive impact and genuinely solves problems for the long term.
+Remember, there’s no silver bullets when it comes to building UI design systems, each project will have it’s own unique requirements, so don’t follow any method blindly.
+
+As designers it is our responsibility to think deeply and consciously about the work we create. Putting out work which has a positive impact and genuinely solves problems for the long term.
+
+_I explore the ideas found in this article in more detail [over on Medium](https://medium.com/@harrycresswell). If you have a question about UI design or building systems in Sketch, [drop me a tweet](https://twitter.com/harrycresswell) and let’s have a chat about it._
 
 
 ## Resources
