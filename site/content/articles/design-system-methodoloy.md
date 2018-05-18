@@ -42,7 +42,7 @@ Achieve this by seeking to identify reoccurring properties in your work, using t
 
 By storing these properties in [Library files](https://www.sketchapp.com/docs/libraries/), and [using Libraries to build components](https://blog.usejournal.com/using-sketch-libraries-to-build-a-better-ui-design-system-part-1-26f5660f3c98), you’ll then be able to build your design comps lightning fast, with little inconsistency.
 
-This method replaces the single Sketch file UI kit with a multiple file approach, Keeping UI components such as forms, buttons and alerts in independent Sketch Library files. You may notice the similarity between these files and SASS partial files, used by our developer friends.
+This method replaces the ‘single Sketch file UI kit’ with a multiple file approach, Keeping UI components such as forms, buttons and alerts in independent Sketch Library files. You may notice the similarity between these files and SASS partial files, used by our developer friends.
 
 But why do this? This makes total sense both from a reusability perspective and an organisational one.
 
