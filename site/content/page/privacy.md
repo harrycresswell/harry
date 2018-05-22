@@ -7,8 +7,8 @@ url: "privacy"
 
 By signing up for my mailing list you are agreeing to receive an email from me containing useful content, once a week on a Friday and that’s it.
 
-In compliance with the [GDPR](https://www.eugdpr.org/) I have no intention of selling you anything, advertise to you or of passing your data on to any 3rd parties.
+I have no intention of selling you anything, advertising or passing your data on to any 3rd party services.
 
-The only data I keep is your first name and email address. I store it securely inside my Mailchimp account and use a password generator and 2 factor authentication, so ain’t nobody getting up in there.
+In compliance with the data and privacy laws (“GDPR”), effective of May 25th 2018, I only email people who have genuinely signed up to receive my newsletter each week.
 
-I no longer use Analytics or any other form of data tracking tools on this website.
+The only data I keep is your first name and email address. I store it securely inside my Mailchimp account and use a generated password from 1Password and 2 factor authentication in order to keep it safe.
