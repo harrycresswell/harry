@@ -7,10 +7,7 @@ pluralizelisttitles = false
 # Enable Disqus by removing comments
 #disqusShortname = "harrycresswell"
 
-# Enable analytics
-googleAnalytics = "UA-84736644-1"
-
-# Because why the hell not
+# Enable Emojis because why the hell not
 enableEmoji = true
 
 [permalinks]
