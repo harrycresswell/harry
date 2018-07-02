@@ -28,4 +28,4 @@ Here’s some of the video content included:
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrZkDHafb9C6TP4w?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="80%" height="533" style="background: transparent; border: 1px solid #ccc; margin-bottom: 32px;"></iframe>
 
-Ok, that’s all I’ve got. If that sound good, leave your email below and join me every Friday. I’ll guard your email with my life.
+Ok, that’s all I’ve got. If this sound good to you, leave your email below and join me every Friday. [Your email will be kept safe](/privacy/) at all times.

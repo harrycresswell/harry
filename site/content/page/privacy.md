@@ -24,4 +24,4 @@ I do not use Google Analytics or any other tracking software.
 
 ## How I keep your data safe
 
-I store your data securely inside my [Mailchimp](https://mailchimp.com/features/landing-pages/) account and use a generated password from [1Password](https://1password.com/) and [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep it safe. You won’t find your details lying around in some spreadsheet or .csv file somewhere.
+I store your data securely inside my [Mailchimp](https://mailchimp.com/features/landing-pages/) account and use a generated password from [1Password](https://1password.com/) and [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep it safe. Rest assured, your details aren’t lying around in an old spreadsheet or .csv file somewhere.
