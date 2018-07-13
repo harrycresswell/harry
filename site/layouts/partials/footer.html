@@ -8,5 +8,13 @@
   </footer>
   <script src="app.js"></script>
 
+  <!-- Load responsive images via Cloudinary -->
+  <script src="cloudinary-core-shrinkwrap.min.js"></script>
+
+  <script>
+      var cl = cloudinary.Cloudinary.new({cloud_name: "harrycresswell"});
+      cl.responsive();
+  </script>
+
   </body>
 </html>

@@ -1,0 +1,13 @@
+<div class="Image">
+  <img
+    data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale/{{ .Get "src" }}"
+    class="cld-responsive" alt="{{ .Get "alt" }}">
+    {{ if .Get "caption"}}
+    <figure>
+    {{ end }}
+    {{ if .Get "caption"}}
+      <figcaption>{{ .Get "caption" }}</figcaption>
+    </figure>
+    {{ end }}
+
+</div>
