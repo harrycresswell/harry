@@ -20,7 +20,9 @@ I've used this technique both for personal projects and in production working wi
 
 Before I get into explaining the technique, let's first look at why you might want to consider using a system to name your Artboards in the first place.
 
-{{< img src="/img/naming-artboards-in-sketch-organised-albion-03" type="jpg" alt="A well organised Sketch file" caption="A well organised Sketch file" >}}
+{{< cld src="v1531476921/hc/naming-artboards-in-sketch-organised-albion-03.jpg" alt="A well organised Sketch file" caption="A well organised Sketch file" >}}
+
+
 
 ## Maintainability
 
@@ -32,17 +34,16 @@ So the point is this; we want to be able to know exactly what state, in what sta
 
 I'm sure you'll agree with me here. The sketch file below — where the Artboards are clearly named and numbered — will be easier to manage than the Sketch file below that.
 
-
-
 This Sketch file isn't doing anyone any favours. As this file grows it'll become a nightmare to deal with.
 
-{{< img src="/img/naming-artboards-in-sketch-unorganised" type="png" alt="A badly organised Sketch file" caption="A badly organised Sketch file" >}}
+{{< cld src="v1531476922/hc/naming-artboards-in-sketch-unorganised.png" alt="A badly organised Sketch file" caption="A badly organised Sketch file" >}}
+
 
 ## Scalability
 
 **Does it scale?** We're not talking about front end frameworks here (let's leave that for another one). Instead, we're trying to solve the problem you have when you need to add in an extra step (or stage) to a flow you created a last week, let's say. **Does your system allow you to add in extra Artboards — anywhere in the sequence** — without you having to go through and rename the rest of your Artboards to maintain some sort of order?
 
-{{< img src="/img/naming-artboards-in-sketch-organised-albion-02" type="jpg" alt="Another well organised Sketch file" caption="Another well organised Sketch file" >}}
+{{< cld src="v1531476921/hc/naming-artboards-in-sketch-organised-albion-02.jpg" alt="Another well organised Sketch file" caption="Another well organised Sketch file" >}}
 
 ## Communication
 
@@ -54,7 +55,7 @@ Ok, I doubt all team members will need access to our Sketch files, but they will
 
 **Giving your team a quick and easy way to reference Artboards will make your life a lot easier**, particularly as your project grows.  We like our team right? Let's introduce a system which is great for them and not just ourselves.
 
-{{< img src="/img/naming-artboards-in-sketch-invision" type="png" alt="Prefixing Artboard names with a reference short code makes discussion and organisation easier" caption="Prefixing Artboard names with a reference short code makes discussion and organisation easier" >}}
+{{< cld src="v1531476920/hc/naming-artboards-in-sketch-invision.png" alt="Prefixing Artboard names with a reference short code makes discussion and organisation easier" caption="Prefixing Artboard names with a reference short code makes discussion and organisation easier" >}}
 
 Ok enough of the reasoning, i'm sure you get the idea by now. Let's look take a look at the system and explain how it works.
 
@@ -70,9 +71,7 @@ Ok, the basic idea is this:
 
 I'm using **a 4 level numerical sequence followed by a description**, where the purpose of the description is to explain the numerical sequence in a more verbose manor.
 
-{{< img src="/img/naming-artboards-in-sketch-01" type="png" alt="4 level sequence — Breakpoint, Flow, Stage, State" caption="4 level sequence — Breakpoint, Flow, Stage, State" >}}
-
-
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-01.png" alt="4 level sequence — Breakpoint, Flow, Stage, State" caption="4 level sequence — Breakpoint, Flow, Stage, State" >}}
 
 The four levels represent the **Breakpoint, the flow, the stage and the state** of our design.
 
@@ -88,7 +87,8 @@ By prefixing the `UID` with a numerical sequence, we now have a quick and easy r
 
 Likewise, using the `UIC` alone won't make much sense — it's not descriptive of the Artboards contents. But add the two together and you have a quick shortcode (the `UIC`) used for reference purposes, and a more descriptive text version (the `UID`), which helps us further identify the design on our Artboard.
 
-{{< img src="/img/naming-artboards-in-sketch-02" type="png" alt="Using a unique identifying code and description" caption="Using a unique identifying code and description" >}}
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-02.png" alt="Using a unique identifying code and description" caption="Using a unique identifying code and description" >}}
+
 
 ## The sequential structure
 
@@ -106,7 +106,7 @@ Let's say our design isn't a mockup of the large desktop view (like in the examp
 
 In the example below you can see the Breakpoint is `960`. this, of course, stands for `960px` or our desktop size. Suggesting the Artboard shows how our website will look on a Desktop browser.
 
-{{< img src="/img/naming-artboards-in-sketch-03" type="png" alt="Breaking down the identifier code" caption="Breaking down the identifier code" >}}
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-03.png" alt="Breaking down the identifier code" caption="Breaking down the identifier code" >}}
 
 
 ### The Flow
@@ -115,7 +115,7 @@ Flow is second in the sequence. This is **the particular user flow you are desig
 
 Ok, so you've got the hand of it now.
 
-{{< img src="/img/naming-artboards-in-sketch-04" type="png" alt="The checkout (or second) flow at a breakpoint of 960px" caption="The checkout (or second) flow at a breakpoint of 960px" >}}
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-04.png" alt="The checkout (or second) flow at a breakpoint of 960px" caption="The checkout (or second) flow at a breakpoint of 960px" >}}
 
 
 This tells us that the Artboard shows our design at a breakpoint of `960px` (i.e desktop) and the design is part of the checkout flow. Which is the second flow in our website. Notice the second number in the sequence has now changed to 2.
@@ -126,7 +126,7 @@ Third in the sequence is the stage. **The stage represents the part or step with
 
 Updating our example above might result in something like this:
 
-{{< img src="/img/naming-artboards-in-sketch-05" type="png" alt="The payment details stage in the checkout flow" caption="The payment details stage in the checkout flow" >}}
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-05.png" alt="The payment details stage in the checkout flow" caption="The payment details stage in the checkout flow" >}}
 
 This Artboard shows our design for the `Payment Details` stage in the `checkout` flow of our website. And this is how our design should look on a desktop monitor, or there abouts.
 
@@ -139,7 +139,7 @@ Think of the state as the same page — if you like — as the stage, only the u
 
 If we update our example above, it might result in this:
 
-{{< img src="/img/naming-artboards-in-sketch-06" type="png" alt="Form errors on the checkout stage" caption="Form errors on the checkout stage" >}}
+{{< cld src="v1531476918/hc/naming-artboards-in-sketch-06.png" alt="Form errors on the checkout stage" caption="Form errors on the checkout stage" >}}
 
 This tells us that `Form error` is the second state we have designed this particular state in the flow (the payment details stage which is part of the checkout flow). In this case the first state was the normal page.
 
@@ -149,7 +149,7 @@ In some other cases I use the last number in the sequence not for a state but as
 
 This happens quite a lot when you return to past projects and you need to add Artboard into the flow. It's hacky but it will prevent you from having to go through and re-jig all your other Artboard names to make your Artboard sequence run in order.
 
-{{< img src="/img/naming-artboards-in-sketch-07" type="png" alt="The text description explains the identifier code in more detail" caption="The text description explains the identifier code in more detail." >}}
+{{< cld src="v1531476919/hc/naming-artboards-in-sketch-07.png" alt="The text description explains the identifier code in more detail" caption="The text description explains the identifier code in more detail" >}}
 
 ## Wrapping up
 
