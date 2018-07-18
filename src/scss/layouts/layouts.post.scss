@@ -9,6 +9,10 @@
 
 //.Post {}
 
+.PostList {
+  list-style: none;
+}
+
 .PostMeta {
   display: flex;
   @include margin-bottom(1);
