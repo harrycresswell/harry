@@ -7,5 +7,6 @@
  */
 
  .Video {
-   margin-bottom: 48px;
+   @include margin-top(1.5);
+   @include margin-bottom(1.5);
  }
