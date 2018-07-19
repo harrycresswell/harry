@@ -2,7 +2,7 @@
 series = ["Business"]
 what = "Book Notes"
 subjects = ["Business", "Brands"]
-title = "The Challenger's Almanac"
+title = "The Challenger’s Almanac"
 date = "2016-10-26T21:34:41+01:00"
 slug = "challengers"
 description = "A curation of stories — experiences, failures, lessons learnt and ideas borrowed — from businesses and thinkers challenging the way business is done today."

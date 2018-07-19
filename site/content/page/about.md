@@ -7,7 +7,7 @@ description = "About"
 
 If you’re here for the first time, I made this site as a place to share my experience **working as a designer** and **building things for the internet**.
 
-When I can I document my design process and record [interesting things I’m reading](/reading/) from books, articles and various other material. I hope you pick up some useful lessons whilst you're here.
+When I can [I document my process](/articles/) and record [interesting things I’m learning](/notes/) from books, articles and various other material. I hope you pick up some useful lessons whilst you're here.
 
 ## More about me
 

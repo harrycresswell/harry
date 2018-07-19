@@ -12,7 +12,7 @@ enableEmoji = true
 
 [permalinks]
   articles = "/:section/:slug/"
-  reading = "/:section/:slug/"
+  notes = "/:section/:slug/"
   page = "/:title/"
 
 [params]
@@ -33,11 +33,6 @@ enableEmoji = true
 [[menu.main]]
   name = "Articles"
   url = "/articles/"
-  weight = 0
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
   weight = 5
 
 [[menu.main]]
@@ -45,17 +40,27 @@ enableEmoji = true
   url = "/newsletter/"
   weight = 10
 
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 15
+
 [[menu.footer]]
   name = "Imprint"
   url = "/imprint/"
-  weight = 0
+  weight = 5
 
 [[menu.footer]]
   name = "Mood"
   url = "https://thevastnothingnessofspace.tumblr.com/"
-  weight = 5
+  weight = 10
 
 [[menu.footer]]
   name = "Contact"
   url = "/contact/"
-  weight = 10
+  weight = 15
+
+[[menu.footer]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 20
