@@ -154,15 +154,13 @@ If you haven’t already got a Zapier account, then before you do anything else 
 
 Next you will need to make a new Zap. Give your new Zap a name, then search for the **Webhooks by Zapier** trigger.
 
-
-{{< gif src="https://s18.postimg.org/rkng4ik61/zapier-contact-form-create-a-zap.gif" alt="Create a Zap" caption="Create a Webhook Zap in Zapier" >}}
+{{< mp4 src="v1531988549/hc/zapier-contact-form-create-a-zap" caption="Create a Zap" >}}
 
 Make sure you select **Catch Hook**, then hit **save and continue**.
 
 As we want to collect all the data submitted in our form, we’ll leave **Pick off a child key** blank and then hit **continue**.
 
-{{< gif src="https://s20.postimg.org/5xjusqjwd/l_Es_G3o_EPn_Z.gif" alt="Grab your webhook URL" caption="Grab your webhook URL" >}}
-
+{{< mp4 src="v1531988543/hc/zapier-contact-form-webhook-url" caption="Grab your webhook URL" >}}
 
 Zapier then generates a custom webhook URL. Copy this URL to your clipboard. We will need to add it in our form so that Zapier can store any data submitted.
 
@@ -194,8 +192,7 @@ Now let’s head back to Zapier to see if our data was received.
 
 Hit **Ok I did this** to test the connection. You should now see a nice green banner confirming your test was successful. Great job!
 
-{{< gif src="https://s20.postimg.org/3k1x21xv1/zapier-contact-form-webhook-succesful.gif" alt="Test Succesfull. Woohoo!" caption="Test Succesfull. Woohoo!" >}}
-
+{{< mp4 src="v1531988545/hc/zapier-contact-form-webhook-succesful" caption="Test Succesfull. Woohoo!" >}}
 
 ## Step 3: Automate an email response
 
@@ -209,8 +206,7 @@ Search for **Email by Zapier** in the "Choose an action app" step.
 
 Hit **save and continue** on Send an outbound email. This will create your action step sequence and bring up the email template where we can decide what our automated email will say.   
 
-{{< gif src="https://s20.postimg.org/61do9ike5/zapier-contact-form-add-outbound-email-action-step.gif" alt="Add outbound email action step" caption="Add outbound email action step" >}}
-
+{{< mp4 src="v1531988549/hc/zapier-contact-form-add-outbound-email-action-step" caption="Add outbound email action step" >}}
 
 ### Build the email template
 
@@ -222,13 +218,13 @@ Then we want to create a subject line and pull the data into the body of the ema
 
 Hit continue once you are happy. Zapier will summarise your email template then fire off a test.
 
-{{< gif src="https://s20.postimg.org/p7qvcbb25/zapier-contact-form-set-up-email-template.gif" alt="Build the automated email template" caption="Build the automated email template" >}}
+{{< mp4 src="v1531988550/hc/zapier-contact-form-set-up-email-template" caption="Build the automated email template" >}}
 
 ### Check your inbox for the email
 
 Now go check your inbox. You should have received an email containing the data, nicely laid out in the template you just set up.
 
-{{< gif src="https://s20.postimg.org/z7lrskha5/zapier-contact-form-automated-email-inbox.png" alt="Zapier is now sending us an automated email" caption="Zapier is now sending us an automated email." >}}
+{{< cld src="v1531988541/hc/zapier-contact-form-automated-email-inbox.png" alt="Zapier is now sending us an automated email" caption="Zapier is now sending us an automated email" >}}
 
 You might want to filter your automated emails from Zapier by marking them with a label. This way you can easily identify where they have come from. I’ve called my label Zapier and coloured it orange so it’s easy to spot.
 
