@@ -1,6 +1,6 @@
 <div class="Image">
   <img
-    data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale/{{ .Get "src" }}"
+    data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
     class="cld-responsive" alt="{{ .Get "alt" }}">
     {{ if .Get "caption"}}
     <figure>
