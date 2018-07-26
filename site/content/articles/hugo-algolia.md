@@ -12,11 +12,11 @@ We’re about to walk through setting up Algolia search on a Hugo static site wi
 
 This first part is heavily based on [Chris Macrae’s awesome article on Forestry.io](https://forestry.io/blog/search-with-algolia-in-hugo/#creating-the-json-template), with some adaptations to fit my specific needs. In the second article we’ll implement Instantsearch.js on the front end, which aims to pick up where the Chris’s article left off.
 
-## So what’s Algolia?
+## What’s Algolia?
 
 [Algolia](https://www.algolia.com/) is a search API (SaSS; as in _Search_ as a Service) which allows you to index data and server it up at lightning speeds.
 
-If you’re running a [JAMStack](https://jamstack.org/) build, a Hugo static site like this one perhaps, Algolia will allow you to implement rapid fire, instantaneous search – like you’ve seen on [Smashing Magazine](https://www.smashingmagazine.com/) and all those JS framework sites (think Vue, Gatsby, React).
+If you’re running a [JAMStack](https://jamstack.org/) build – a Hugo static site like this one perhaps – Algolia will allow you to implement rapid fire, instantaneous search, like you’ve seen on [Smashing Magazine](https://www.smashingmagazine.com/) and all those JS framework sites (think Vue, Gatsby, React).
 
 This stuff isn’t really possible on static sites without using a 3rd party API like Algolia, largely because we don’t have a database to query. But lucky for us Aloglia takes care of all this backend stuff for us.
 
@@ -31,7 +31,7 @@ With that said, let’s break down the plan so you know what’s coming up.
 
 For a very basic prototype of what we’re building, [head over here](https://heuristic-hoover-2ec537.netlify.com/).
 
-I’m assuming you already have a Hugo site set up. If not, I recommend starting out with the [Forestry’s Hugo boilerplate](https://github.com/forestryio-templates/hugo-boilerplate). Here’s [a great how-to guide](https://forestry.io/blog/up-and-running-with-hugo/) on getting set up.
+I’m assuming you already have a Hugo site set up. If not, I recommend starting out with the [Forestry’s Hugo boilerplate](https://github.com/forestryio-templates/hugo-boilerplate). Here’s [a great how-to guide](https://forestry.io/blog/up-and-running-with-hugo/) which will help you get off on the right foot.
 
 
 ## Step 1: Generate JSON search index
@@ -52,7 +52,7 @@ Inside your `config.toml` file add the following:
   params = ["categories", "tags"]
 ```
 
-You’ll notice we also specified the `params` we want Algolia to work with.
+You’ll notice we also specified the `params` we want Algolia to work with – Categories and Tags.
 
 ## Step 2: Build a JSON template
 
