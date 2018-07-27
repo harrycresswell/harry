@@ -16,3 +16,7 @@ pre {
   overflow-wrap: normal;
   padding: 3%;
 }
+
+pre + p {
+  @include margin-top(1);
+}
