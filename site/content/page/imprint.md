@@ -26,7 +26,11 @@ All the code can be found on [GitHub](https://github.com/harrycresswell/harry). 
 
 
 ## Form handling
-All form handling is also taken care of by Netlify, so when a visitor submits the form, Netlify collects the submission and notifies me via email. If you’re interested in how all this works, I wrote about it in [Static Site Form Handling with Netlify](/articles/forms-with-netlify/).
+All form handling is taken care of by Netlify, so when a visitor submits the form, Netlify collects the submission and notifies me via email. If you’re interested in how all this works, I wrote about it in [Static Site Form Handling with Netlify](/articles/forms-with-netlify/).
+
+## Media storage
+All media on the site (images and GIFs etc) is hosted by [Cloudinary](https://cloudinary.com/), a cloud based storage service. This means I don’t have to commit media to a git repo and suffer from slow build times. Cloudinary provides automatic responsive images and compression with 'transformations' set in the URL. You can read [more about how that works here](/articles/cloudinary/). 
+
 
 ## Licensing
 
