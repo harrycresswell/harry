@@ -8,8 +8,6 @@ Author = "Harry Cresswell"
 
 +++
 
-<p class="Message">I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submissions</a> on this site. Saying that, this Zapier solution still works great if you’re not using Netlify.</p>
-
 {{< intro >}}Have you ever felt overwhelmed by the amount of code it takes to get a simple contact form working on a website?{{< /intro >}}
 
 {{< intro >}}Part of the reason I built my site static was because I didn’t want the hassle of having a to deal with a database, a server and PHP. Dealing with all that stuff adds a layer of complexity to a website, particularly when it comes to processing form data — so if it’s not a necessity i’d rather avoid it.{{< /intro >}}
@@ -18,7 +16,9 @@ But where do you even start with processing form data on a static site?
 
 At times the options can feel limited, like the only way is to pay for a form provider and embed a form into your site. Whilst there’s nothing wrong with this solution you might want to consider another way, which you have full control over and you don’t have to pay for.
 
-[On this site](/zapier/) I’m using [Zapier](https://zapier.com/) to collect form data and send it directly to my email. No servers, no database, no PHP. In this article we’ll look at how you can use the same technique to build a simple contact form for your own website, using Webhooks to collect data submitted and automatically send it to you in an email.
+<p class="Message">I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submissions</a> on this site. Saying that, this Zapier solution still works great if you’re not using Netlify.</p>
+
+[On this site](/contact/) I’m using [Zapier](https://zapier.com/) to collect form data and send it directly to my email. No servers, no database, no PHP. In this article we’ll look at how you can use the same technique to build a simple contact form for your own website, using Webhooks to collect data submitted and automatically send it to you in an email.
 
 **If you’re building a static website with a generator like Jekyll, Hugo, Middleman or even just in vanilla HTML, then this is a great solution to get a form working on your site with minimal fuss.**
 
@@ -73,7 +73,7 @@ We’re almost ready to start building our form, but first lets take a moment to
 - Use Zapier to automagically send ourselves the data in an email, any time someone submits the form.
 - Finally, redirect the user to a success page after they complete the form.
 
-Before we start the build, you might want to jump [over here](/zapier/) to see a real world example of how I’ve implemented this technique.
+Before we get started, you might want to [jump over here](http://harrycresswell.co.uk/tutorials/zapier-contact/) to see the end result.
 
 ## Step 1: Writing the HTML
 
@@ -210,7 +210,7 @@ Hit **save and continue** on Send an outbound email. This will create your actio
 
 ### Build the email template
 
-This is the part where we add the data Zapier reciecved via the webhook to our automated email.
+This is the part where we add the data Zapier received via the webhook to our automated email.
 
 We will need to specify an email address which we would like the data sent to. You’ll most likely want to make this your own email address.
 
@@ -256,7 +256,7 @@ Beneath that you will need the following Javascript:
 $('#myForm').submit(function(e){
     e.preventDefault();
     $.ajax({
-        url:'https://hooks.zapier.com/hooks/catch/1707140/msf6zi/',
+        url:'YOUR_ZAPIER_WEBHOOK_URL_GOES_HERE',
         type:'post',
         data:$('#myForm').serialize(),
         success:function(){
@@ -281,6 +281,9 @@ The HTML for our form should now look something like this:
 </form>
 ```
 
+<p class="Message">
+<em>Update (30th July 2018): After switching to the Ajax method you’ll need to go back to your Zap in Zapier and re-test the webhook to pull in fresh data. Then make sure you update your email template with your new data. Finally, turn your Zap back on and you’re good to go.</em>
+</p>
 
 ## Wrapping up
 
