@@ -1,5 +1,5 @@
 ---
-title: "Gordon Zhu’s Practical Javascript"
+title: "Practical Javascript – Arrays"
 date: 2018-07-19T14:49:54+02:00
 ---
 

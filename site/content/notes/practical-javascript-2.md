@@ -1,5 +1,5 @@
 ---
-title: "Gordon Zhu’s Practical Javascript 2"
+title: "Practical Javascript – Functions"
 date: 2018-07-30T09:40:59+01:00
 ---
 
