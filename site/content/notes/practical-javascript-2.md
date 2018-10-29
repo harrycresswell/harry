@@ -1,9 +1,10 @@
 ---
 title: "Practical Javascript – Functions"
 date: 2018-07-30T09:40:59+01:00
+slug: "parctical-javascript-functions"
 ---
 
-This is Part 2 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript), in this part we focus on improving our Todo App by using Functions to make our commands easier to write. Here’s [Part 1](notes/gordon-zhus-practical-javascript/) incase you missed it.
+This is Part 2 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript), in this part we focus on improving our Todo App by using Functions to make our commands easier to write. Here’s [Part 1](notes/practical-javascript-arrays/) incase you missed it.
 
 ## Building a todo app v2.0
 
@@ -325,5 +326,7 @@ Finally we create a simple function to delete todos which too 1 parameter:
 Todo app v2.0 done!
 
 ## Next Steps
+
+[Part 3](practical-javascript-objects) looks Objects, what they are and at how we can use them to improve our todo list app. We’ll turn the functions we’ve made so far into methods on an Object.
 
 Head over to [Watchandcode.com](https://watchandcode.com/p/practical-javascript) to take the course. I highly recommend Gordon’s teaching style to anyone who has struggled to grasp common JS principles in the past. Gordon uses some of the best examples I’ve seen to explain JavaScript.

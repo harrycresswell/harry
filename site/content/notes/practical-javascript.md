@@ -1,6 +1,7 @@
 ---
 title: "Practical Javascript – Arrays"
 date: 2018-07-19T14:49:54+02:00
+slug: "practical-javascript-arrays"
 ---
 
 These are my notes from Gordon Zhu’s course [Practical Javascript](https://watchandcode.com/p/practical-javascript).
@@ -123,4 +124,6 @@ What We’ve learnt so far:
 
 ## Next steps
 
-The next part looks at improving the app using Functions. You can take the course over on [Watchandcode.com](https://watchandcode.com/p/practical-javascript).
+[Part 2](notes/parctical-javascript-functions) looks at improving the app using Functions.
+
+These notes are based on Practical Javascript by Gordo Zhu. head over to [Watchandcode.com](https://watchandcode.com/p/practical-javascript) to enroll for free.
