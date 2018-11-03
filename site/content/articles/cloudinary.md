@@ -3,6 +3,7 @@ title: "Responsive images with Cloudinary"
 date: 2018-07-23T10:18:59+02:00
 tags: ["Code"]
 slug: "cloudinary"
+description: "Stop committing images to your git repo and use Cloudinary to create automatic responsive images"
 ---
 
 Responsive images are crucial part of improving website performance. But that doesn’t just mean setting all your images to `width: 100%;`, `height: auto;` and calling it a day.

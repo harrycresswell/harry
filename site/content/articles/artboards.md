@@ -3,7 +3,7 @@ tags = ["Sketch"]
 title = "Naming Artboards for responsive web design"
 date = "2017-04-02T21:34:41+01:00"
 slug = "artboards"
-Description = "How to name your artboards for scaleable, maintainable Sketch projects"
+description = "How to name your artboards for scaleable, maintainable Sketch projects"
 Author = "Harry Cresswell"
 
 +++

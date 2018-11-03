@@ -5,6 +5,7 @@ date = "2017-07-14T21:34:41+01:00"
 slug = "launch-now"
 Author = "Harry Cresswell"
 url = "/launch/"
+descripton = "Thoughts on launching new projects for the best possibility of long-term success."
 
 +++
 

@@ -1,8 +1,7 @@
 +++
 title = "About"
 date = "2016-10-24T17:23:17+01:00"
-description = "About"
-
+description = "I’m Harry Cresswell, this is my corner of the internet where I share what I know about building websites – usually static sites – and designing UI design systems"
 +++
 
 If you’re here for the first time, I made this site as a place to share my experience **working as a designer** and **building things for the internet**.

@@ -2,6 +2,7 @@
 title: "Adding external articles to your Hugo list page"
 date: 2018-04-03T10:28:50+02:00
 tags: ["Hugo"]
+description: "Learn how to list your external articles amoung the posts on your Hugo blog"
 slug: "hugo-external-articles"
 ---
 

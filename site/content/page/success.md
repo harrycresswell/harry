@@ -1,6 +1,7 @@
 ---
 title: "Awesome, that totally worked!"
 date: 2018-03-12T21:14:42Z
+description: "Thanks for sending me a message"
 slug: "boom"
 url: "/success/"
 ---

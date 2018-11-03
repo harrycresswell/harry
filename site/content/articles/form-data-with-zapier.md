@@ -3,7 +3,7 @@ tags = ["Automation", "Code"]
 title = "Using Zapier to send form data"
 date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"
-Description = "A simple way to receive form data directly to your email using Zapier"
+description = "A simple way to receive form data directly to your email using Zapier"
 Author = "Harry Cresswell"
 
 +++
@@ -73,7 +73,7 @@ We’re almost ready to start building our form, but first lets take a moment to
 - Use Zapier to automagically send ourselves the data in an email, any time someone submits the form.
 - Finally, redirect the user to a success page after they complete the form.
 
-Before we get started, you might want to [jump over here](http://harrycresswell.co.uk/tutorials/zapier-contact/) to see the end result. 
+Before we get started, you might want to [jump over here](http://harrycresswell.co.uk/tutorials/zapier-contact/) to see the end result.
 
 ## Step 1: Writing the HTML
 
