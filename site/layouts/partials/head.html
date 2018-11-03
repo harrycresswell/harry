@@ -14,7 +14,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
-    <meta property="og:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <meta property="og:description" name="description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ $.Site.BaseURL }}img/favicon.ico">
     <meta property="og:type" content="website" />
@@ -23,16 +23,17 @@
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
 
+    <!-- Pinterest Verification -->
+    <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="9G-wiIrmxQgDxbcs3a3xPW--q3Mxb1VGFN7BsEfJdDk" />
+
     <base href="{{ $.Site.BaseURL }}">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css"/>
-    <!-- Pinterest Verification -->
-    <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
-    <!-- Google Verification -->
-    <meta name="google-site-verification" content="9G-wiIrmxQgDxbcs3a3xPW--q3Mxb1VGFN7BsEfJdDk" />
     <!-- RSS -->
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
