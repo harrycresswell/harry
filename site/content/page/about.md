@@ -23,6 +23,7 @@ Right now I live between London and Hamburg where **I work remotely** with a han
 
 ### Things I’ve made
 
+- [Rhythm&Sync](https://rhythmandsync.com/), a simple Hugo site for a London based music, sound and visual agency.
 - [AIN Prototypes](http://harrycresswell.co.uk/), a selection of front-end prototypes built for Angel Investment Network related projects.
 - [Lulafitness](https://www.lulafitness.co.uk/) is a simple static site built with Hugo.
 - [Albion Cycling](http://www.albioncycling.com/), a Wordpress build with Shopify integration, in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
