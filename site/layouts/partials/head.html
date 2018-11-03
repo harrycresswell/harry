@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    {{ if .IsHome -}}
-    <title>{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}</title>
-    {{- else -}}
-    <title>{{ .Title }} – {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}</title>
-    {{- end }}
+    <title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}</title>
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
