@@ -9,17 +9,16 @@
 
 //.PostList {}
 
-.PostList-title span {
-  color: $color-link;
-  font-size: 70%;
-  margin-left: 10px;
-}
+//.PostListItem {}
 
-.PostList-meta {
-  display: flex;
-  @include margin-bottom(1);
- }
 
 /**
  * Component Element
  */
+
+
+ .PostListItem-title span {
+   color: $color-link;
+   font-size: 70%;
+   margin-left: 10px;
+ }
