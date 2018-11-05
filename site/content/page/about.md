@@ -8,13 +8,13 @@ If you’re here for the first time, I made this site as a place to share my exp
 
 When I can [I document my process](/articles/) and record [interesting things I’m learning](/notes/) from books, articles and various other material. I hope you pick up some useful lessons whilst you're here.
 
+{{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
+
 ## More about me
 
 I started teaching myself design and code in 2006 whilst I was studying a degree in Fine Art and Art History. I tried a *“real job”* in Insurance after graduating, but quit in 2010 to focus on **making websites**.
 
 Right now I live between London and Hamburg where **I work remotely** with a handful of clients. In my free time I enjoy climbing, hiking and skiing. I try to meditate and practice yoga every morning.
-
-{{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
 
 ### Personal Projects
 
