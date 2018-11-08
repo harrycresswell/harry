@@ -4,8 +4,6 @@ samp {
   background: $color-lightest;
   color: $color-light;
   font-size: 0.9rem;
-  padding: .125rem 0.35rem;
-
 }
 
 pre {
@@ -19,4 +17,9 @@ pre {
 
 pre + p {
   @include margin-top(1);
+}
+
+p code,
+li code {
+  padding: .125rem .35rem;
 }
