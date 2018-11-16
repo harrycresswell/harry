@@ -6,10 +6,10 @@
           {{ end }}
       </nav>
   </footer>
-  <script src="app.js"></script>
+  <script src="{{ $.Site.BaseURL }}app.js"></script>
 
   <!-- Load responsive images via Cloudinary -->
-  <script src="cloudinary-core-shrinkwrap.min.js"></script>
+  <script src="{{ $.Site.BaseURL }}cloudinary-core-shrinkwrap.min.js"></script>
 
   <script>
       var cl = cloudinary.Cloudinary.new({cloud_name: "harrycresswell"});

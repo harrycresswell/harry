@@ -27,9 +27,9 @@
     <base href="{{ $.Site.BaseURL }}">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ $.Site.BaseURL }}img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}css/main.css"/>
     <!-- RSS -->
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
