@@ -1,12 +1,13 @@
 ---
-title: "Practical Javascript – Arrays"
+title: "Practical JavaScript – Arrays"
 date: 2018-07-19T14:49:54+02:00
 slug: "practical-javascript-arrays"
+tags: ["JavaScript"]
 ---
 
-These are my notes from Gordon Zhu’s course [Practical Javascript](https://watchandcode.com/p/practical-javascript).
+These are my notes from Gordon Zhu’s course [Practical JavaScript](https://watchandcode.com/p/practical-javascript).
 
-Javascript always been my weakest link so lately I’ve been taking the time to revisit many concepts I’ve otherwise skipped in the past.
+JavaScript always been my weakest link so lately I’ve been taking the time to revisit many concepts I’ve otherwise skipped in the past.
 
 I highly recommend the course if you’re just getting started or looking to brush up on your Javascript programming. It’s video based and 100% free! This first part looks at working with Arrays directly from the console in the browser.
 

@@ -1,12 +1,12 @@
 +++
-title = "Practical Javascript – Thinking in Code"
+title = "Practical JavaScript – Thinking in Code"
 date = "2018-11-15T11:24:19+01:00"
 description = ""
 slug = "practical-javascript-thinking-in-code"
-tags = ["javascript"]
+tags = ["JavaScript"]
 +++
 
-This is Part 6 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript).
+This is Part 6 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript).
 
 ## Building a todo app v.6.0
 

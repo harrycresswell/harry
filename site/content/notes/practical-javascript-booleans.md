@@ -1,12 +1,12 @@
 +++
-title = "Practical Javascript – Booleans"
+title = "Practical JavaScript – Booleans"
 date = "2018-11-03T19:42:02+01:00"
 description = "Build a todo app with Javascript, learn about Boolean values"
 slug = "practical-javascript-booleans"
-tags = ["e.g. Sketch", "code"]
+tags = ["JavaScript"]
 +++
 
-This is Part 4 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript). In this part we changed the structure of an array from a text value to an object, modify a method to work with a text property and learn about Booleans.
+This is Part 4 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript). In this part we changed the structure of an array from a text value to an object, modify a method to work with a text property and learn about Booleans.
 
 ## Building a todo app v4.0 - Understanding Booleans
 

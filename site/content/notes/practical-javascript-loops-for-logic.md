@@ -1,13 +1,13 @@
 +++
-title = "Practical Javascript  – Loops for Logic"
+title = "Practical JavaScript  – Loops for Logic"
 date = "2018-11-08T11:29:03+01:00"
 description = "Build a todo app with Javascript, learn about using for loops for logic"
 slug = "practical-javascript-for-loops"
-tags = ["javascript", "code"]
+tags = ["JavaScript"]
 
 +++
 
-This is Part 5 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript). In this part we changed the structure of an array from a text value to an object, modify a method to work with a text property and learn about Booleans.
+This is Part 5 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript). In this part we changed the structure of an array from a text value to an object, modify a method to work with a text property and learn about Booleans.
 
 ## Building a todo app v.5.0
 

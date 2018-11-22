@@ -1,10 +1,11 @@
 ---
-title: "Practical Javascript – Functions"
+title: "Practical JavaScript – Functions"
 date: 2018-07-30T09:40:59+01:00
 slug: "parctical-javascript-functions"
+tags: ["JavaScript"]
 ---
 
-This is Part 2 of my notes on Gordon Zhu’s [Practical Javascript](https://watchandcode.com/p/practical-javascript), in this part we focus on improving our Todo App by using Functions to make our commands easier to write. Here’s [Part 1](notes/practical-javascript-arrays/) incase you missed it.
+This is Part 2 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript), in this part we focus on improving our Todo App by using Functions to make our commands easier to write. Here’s [Part 1](notes/practical-javascript-arrays/) incase you missed it.
 
 ## Building a todo app v2.0
 
