@@ -1,7 +1,7 @@
 ---
 title: "Responsive images with Cloudinary"
 date: 2018-07-23T10:18:59+02:00
-tags: ["Code"]
+tags: ["Cloudinary", "Javascript"]
 slug: "cloudinary"
 description: "Stop committing images to your git repo and use Cloudinary to create automatic responsive images"
 ---
