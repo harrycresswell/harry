@@ -6,11 +6,9 @@ slug = "now"
 url = "now"
 +++
 
-I’m back in Hamburg, Germany, where it’s begining to feel a lot like Christmas! 🎄🎅
+I’m back in Hamburg, Germany. It’s Christmas market season. 🎄🎅
 
-I’m curretly working my way through [Practical Javascript](https://watchandcode.com/p/practical-javascript).
-
-And working on [Type Services](https://typeservices.co/).
+If I’m not drinking Glüwein 🍷 I’ll most likly be working my way through [Practical Javascript](https://watchandcode.com/p/practical-javascript) 🤓 or working on [Type Services](https://typeservices.co/). 👨‍🎨
 
 These are pretty much my priorities right now, but if you want to talk, [drop me a messages](/contact/). I’m always keen to hear from new people.
 
