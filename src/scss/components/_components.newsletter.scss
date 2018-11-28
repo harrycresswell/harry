@@ -11,26 +11,32 @@
   @include margin-bottom(2);
 }
 
+.NewsletterForm {
+  display: flex;
+  flex-direction: column;
+}
+
 @include breakpoint(md) {
   .NewsletterForm {
-    display: flex;
+    flex-direction: row;
   }
 }
 
 .NewsletterForm-input {
   margin-top: 16px;
+  flex: 1;
 }
 
 @include breakpoint(md) {
   .NewsletterForm-input {
     margin-top: 0;
+    flex-grow: 2;
     margin-right: 16px;
-    max-width: 35%;
   }
 }
 
 .NewsletterForm-button {
-  width: 100%;
+  flex-grow: 1;
   margin-top: 16px;
 }
 
