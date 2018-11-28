@@ -35,9 +35,8 @@
   padding: 0 16px;
   position: relative;
   transition: all .2s;
-  width: 100%;
   -webkit-appearance: none;
-  
+
     &:focus,
     &:active {
       border: solid 2px $color-link;
