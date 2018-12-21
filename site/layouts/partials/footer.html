@@ -12,7 +12,10 @@
   <script src="{{ $.Site.BaseURL }}cloudinary-core-shrinkwrap.min.js"></script>
 
   <script>
-      var cl = cloudinary.Cloudinary.new({cloud_name: "harrycresswell"});
+      var cl = cloudinary.Cloudinary.new({
+        cloud_name: "harrycresswell"
+      });
+      
       cl.responsive();
   </script>
 
