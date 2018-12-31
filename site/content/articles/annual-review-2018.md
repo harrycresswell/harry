@@ -1,18 +1,18 @@
 +++
-title = "2018 Annual Review"
+title = "2018 in Review"
 date = "2018-12-31T14:10:29Z"
 description = ""
-slug = "annual-review-2018"
-tags = ["Annual Review"]
+slug = "2018-review"
+tags = ["Year in Review", "Life"]
 +++
 
-With 2018 drawing to a close, I’ve decided to share my first Annual Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.
+With 2018 drawing to a close, I’ve decided to share my first Year in Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.
 
 Having struggled with the pressures of a goal setting approach in previous years, I was drawn to this method after reading [James Clear’s Atomic Habits](https://jamesclear.com/atomic-habits). 
 
-The format of my Annual Review is almost the same as James’s. Nothing new, but new for me. I hope it will help refine my processes and set myself up for a productive year ahead.
+The format of my Year in Review is almost the same as James’s. Nothing new, but new for me. I hope it will help refine my processes and set myself up for a productive year ahead.
 
-My Annual Review will answer the following three questions:
+My Year in Review will answer the following three questions:
 
 1. What went well this year?
 2. What didn’t go so well this year?
@@ -154,9 +154,9 @@ Specific areas I wish to focus on:
 
 ## Final words 
 
-Thanks for reading my first Annual Review. I hope you’ve found this helpful in some capacity. It’s been a great chance to be more mindful and reflect on this past year whilst creating a plan for an intentional year ahead.
+Thanks for reading my first Year in Review. I hope you’ve found this helpful in some capacity. It’s been a great chance to be more mindful and reflect on this past year whilst creating a plan for an intentional year ahead.
 
-If you’re not yet writing an Annual Review, perhaps after reading this one you might consider writing one yourself. 
+If you’re not yet writing your own Year in Review, perhaps after reading this one you might consider writing one. 
 
 If you have any questions or comments you can reach me on [twitter](https://twitter.com/harrycresswell), I’d be happy to hear from you. Likewise, please consider sharing this with anyone you feel might find it useful.
 
