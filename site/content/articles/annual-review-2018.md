@@ -147,9 +147,9 @@ In previous years I’d make a list of specific things I want to achieve each qu
 Specific areas I wish to focus on:
 
 1. **Health:** Resume a regular climbing and meditation practice. Continue running and practicing yoga on alternate days of the week.
-2. **Writing:** Continue writing articles and newsletter.
+2. **Writing:** Publish at least 15 well researched articles. Stick with my weekly newsletters.
 3. **Learning:** My primary focus is on JavaScript programming and pursuing my interest in JAMStack technology.  From a personal stand point I’d also like to continue improving my conversational German.
-4. **Design/Development:** Move In Detail forward. Build more in ReactJS and with Gatsby. More type design.
+4. **Design/Development:** Move In Detail forward. Build more in ReactJS and with Gatsby. Get more creative with my type design.
 5. **Travel:** I had a good year for travel in 2018 so I’d like to continue this and try and make it to at least 4 different countries. Travel is the best way I know to keep a broad and open mindset.
 
 ## Final words 
