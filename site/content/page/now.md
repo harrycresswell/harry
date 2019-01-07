@@ -6,11 +6,13 @@ slug = "now"
 url = "now"
 +++
 
-I’m back in Hamburg, Germany. It’s Christmas market season. 🎄🎅
+Happy New Year!
 
-If I’m not drinking Glüwein 🍷 I’ll most likly be working my way through [Practical Javascript](https://watchandcode.com/p/practical-javascript) 🤓 or working on [Type Services](https://typeservices.co/). 👨‍🎨
+Right now I’m in London. It’s back to work 🤓. Mainly on [In Detail](https://indtl.com/) – we’re about to officially launch our latest project 🎉.
+
+I’m still dedicating part of my mornings to [Practical Javascript](https://watchandcode.com/p/practical-javascript) 🤓 and making plans for [Type Services](https://typeservices.co/).
 
 These are pretty much my priorities right now, but if you want to talk, [drop me a messages](/contact/). I’m always keen to hear from new people.
 
 
-**Last Updated:** November 25, 2018. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
+**Last Updated:** January 07, 2019. (Page inspire by [Zen Habits](https://zenhabits.net/now/).)
