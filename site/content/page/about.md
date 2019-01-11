@@ -4,17 +4,19 @@ date = "2016-10-24T17:23:17+01:00"
 description = "I’m Harry Cresswell, this is my corner of the internet where I share what I know about building websites – usually static sites – and designing UI design systems"
 +++
 
-If you’re here for the first time, I made this site as a place to share my experience **working as a designer** and **building things for the internet**.
+If you’re here for the first time, I made this site as a place to share my experience working as a designer and building things on the internet.
 
-When I can [I document my process](/articles/) and record [interesting things I’m learning](/notes/) from books, articles and various other material. I hope you pick up some useful lessons whilst you're here.
+I write [articles about my process, design ideas and coding](/articles/). I also record [interesting things I’m learning](/notes/) from books, courses and various other material in the form of notes. I hope you pick up some useful tips whilst you’re here.
 
 {{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
 
 ## More about me
 
-I started teaching myself design and code in 2006 whilst I was studying a degree in Fine Art and Art History. I tried a *“real job”* in Insurance after graduating, but quit in 2010 to focus on **making websites**.
+I’m an independent UI Designer and Front-end Web Developer from London.
 
-Right now I live between London and Hamburg where **I work remotely** with a handful of clients. In my free time I enjoy climbing, hiking and skiing. I try to meditate and practice yoga every morning.
+I started teaching myself design and code in 2006 whilst studying a degree in Fine Art and Art History. I tried a *‘real job’* in Insurance after graduating, but quit in 2010 to focus on making websites full time.
+
+I currently live between London and Hamburg, where I work remotely with a handful of clients. In my free time I enjoy climbing, hiking and running. In the winter I like to ski. I practice meditation and yoga most mornings.
 
 ### Personal Projects
 
@@ -31,13 +33,17 @@ Right now I live between London and Hamburg where **I work remotely** with a han
 
 ## Where to go next
 
-There are a few places to go from here. [I write about design systems over on Medium](https://medium.com/@harrycresswell). And share [my ideas about design, code and building products](/articles/) on this site. Hit me up on [Twitter](https://twitter.com/harrycresswell) if you have questions or just want to say hi. To see my full resume head to [LinkedIn](https://uk.linkedin.com/in/harrycresswell
-).
+If you’re interested in building design systems in Sketch, [I write about my process on Medium](https://medium.com/@harrycresswell).
 
 If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together.
 
+You can find my full résumé on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
+).
+
+ Hit me up on [Twitter](https://twitter.com/harrycresswell) if you have questions or just want to say hi.
+
 ## Let's keep in touch
 
-If you made it this far, thanks a lot. I appreciate you taking the time to look at my website.
+If you'd like to keep in touch leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing.
 
-If you'd like to keep in touch leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few **useful tools, articles and other things worth sharing**.
+If you made it this far, thanks a lot for taking the time to check out my website.
