@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="Wrapper">
   <header class="PostHeader">
     <h1 class="PostHeader-title">Notes from books, talks and courses</h1>
   </header>
@@ -8,7 +9,8 @@
       <div class="PostList-meta">
           <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
       </div>
-  {{ end }}
-</section>
+    {{ end }}
+  </section>
+</div>
 
 {{ end }}

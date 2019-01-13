@@ -1,10 +1,12 @@
   <footer class="Footer">
+    <div class="Wrapper">
       <nav class="FooterNav">
           {{ $currentPage := . }}
           {{ range .Site.Menus.footer }}
           <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
           {{ end }}
       </nav>
+    </div>
   </footer>
   <script src="{{ $.Site.BaseURL }}app.js"></script>
 

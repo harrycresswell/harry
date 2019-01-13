@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-  <section class="Container">
+  <section>
+    <div class="Wrapper">
       <article id="content" class="Post">
           <header class="PostHeader">
               <h1 class="PostHeader-title">{{ .Title }}</h1>
@@ -12,6 +13,7 @@
           {{ .Content }}
 
       </article><!--/.Content -->
+    </div>
   </section><!--/.Container -->
 
 {{ end }}
