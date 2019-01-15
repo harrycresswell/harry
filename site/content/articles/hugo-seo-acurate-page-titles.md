@@ -3,12 +3,12 @@ title: "Hugo SEO – Unique, Accurate Page Titles"
 date: 2018-11-02T10:32:26+01:00
 slug: "hugo-seo-accurate-page-titles"
 description: "Unique, descriptive page titles lead to higher rankings by helping search engines better understand the content on your site"
-tags: ["Hugo", "SEO"]
+tags: ["Hugo"]
 ---
 
 <p class="intro">You don’t have to be an SEO expert to know unique, descriptive page titles lead to higher rankings by helping search engines better understand the content on your website.</p>
 
- According to [Google’s SEO starter guide](https://support.google.com/webmasters/answer/7451184?hl=en#uniquepagetitles), “Each page on your site should ideally have a unique title, which helps Google know how the page is distinct from the others on your site.”
+According to [Google’s SEO starter guide](https://support.google.com/webmasters/answer/7451184?hl=en#uniquepagetitles), “Each page on your site should ideally have a unique title, which helps Google know how the page is distinct from the others on your site.”
 
 At all costs avoid default, vague titles which have no relation to the content on the page and never use a single title across all pages on your site.
 
@@ -61,11 +61,11 @@ For an added SEO boost, try applying the same thinking to your page descriptions
 The simple solution would be to define the description in the front matter of each page:
 
 ```
- --- 
+---
 title: "Hugo SEO: Unique, Accurate page titles"
- description: "Get an SEO boost on your website pages with descriptive page titles which make search engines happy" 
-author: "Harry Cresswell" 
---- 
+description: "Get an SEO boost on your website pages with descriptive page titles which make search engines happy"
+author: "Harry Cresswell"
+---
 ```
 
 Then call the `Parmeter` in a meta tag in your `<head>`:

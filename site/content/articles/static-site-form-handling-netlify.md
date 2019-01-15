@@ -1,7 +1,7 @@
 ---
 title: "Static Site Form Handling with Netlify"
 date: 2018-04-05T09:49:36+02:00
-tags: ["Hugo"]
+tags: ["Hugo", "API"]
 slug: "forms-with-netlify"
 description: "Learn how to use Netlify to manage form submissions with automatic spam filtering"
 ---

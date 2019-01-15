@@ -1,5 +1,5 @@
 +++
-tags = ["Automation", "Zapier"]
+tags = ["Hugo", "JavaScript", "API",]
 title = "Using Zapier to send form data"
 date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"

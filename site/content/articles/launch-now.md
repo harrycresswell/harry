@@ -1,5 +1,5 @@
 +++
-tags = ["Indie Hacking", "Process"]
+tags = ["Process"]
 title = "Launching successful side projects"
 date = "2017-07-14T21:34:41+01:00"
 slug = "launch-now"

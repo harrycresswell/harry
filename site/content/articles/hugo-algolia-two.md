@@ -1,7 +1,7 @@
 ---
 title: "Static search with Algolia and Hugo 2"
 date: 2018-07-27T09:24:22+01:00
-tags: ["Hugo"]
+tags: ["Hugo", "API"]
 slug: "hugo-algolia-2"
 description: "Implement Instantsearch.js on your Hugo site and provide users with instantaneous search results"
 ---
