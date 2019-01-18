@@ -35,3 +35,15 @@ All media on the site (images and GIFs etc) is hosted by [Cloudinary](https://cl
 ## Licensing
 
 The content on this site is published under a [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) licence.
+
+## Legal stuff
+
+[harrycresswell.com](https://harrycresswell.com/) is the trading name of:
+Studio HC Ltd, Company No. 9442649, 
+122a Spa Road, London, SE16 3FF.
+
+## Privacy Policy
+
+Here‘s my [privacy](/privacy) policy for those interested in what data I collect, what I do with it and how I keep it safe.
+
+
