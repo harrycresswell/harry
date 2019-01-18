@@ -23,8 +23,25 @@
 }
 
 .NewsletterForm-input {
-  margin-top: 16px;
   flex: 1;
+  background: $color-lightest;
+  border: solid 2px $color-lightest;
+  border-radius: 0;
+  font-size: 0.8rem;
+  height: 64px;
+  @include margin-top(0.25);
+  outline: none;
+  outline-style: none;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  -webkit-appearance: none;
+
+    &:focus,
+    &:active {
+      border: solid 2px $color-link;
+      transition: all .2s;
+    }
 }
 
 @include breakpoint(md) {
@@ -37,7 +54,7 @@
 
 .NewsletterForm-button {
   flex-grow: 1;
-  margin-top: 16px;
+  @include margin-top(0.25);
 }
 
 @include breakpoint(md) {
