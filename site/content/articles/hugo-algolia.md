@@ -1,7 +1,7 @@
 ---
 title: "Static search with Algolia and Hugo"
 date: 2018-07-13T10:15:40+02:00
-tags: ["Hugo". "API"]
+tags: ["Hugo", "API"]
 slug: "hugo-algolia"
 description: "Learn how to implement Algolia InstantSearch on a Hugo based static site."
 ---
