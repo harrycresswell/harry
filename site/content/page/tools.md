@@ -7,14 +7,15 @@ tags = ["e.g. Sketch", "code"]
 draft = "true"
 +++
 
-### Design
+### Design tools
 
 - Sketch
 - Figma
 - Framer X
+- Firefox
 - Pen & Paper
 
-### Development
+### Development tools
 
 - HTML5
 - CSS
@@ -26,12 +27,17 @@ draft = "true"
 - Yarn
 - Gulp
 - Git
+- Hyper
+- VSCode
 - Hugo
+
+### Hosting tools
+
 - Netlify
 - Cloudinary
 
 
-### Collaboration
+### Collaboration tools
 
 - Trello
 - Invision
