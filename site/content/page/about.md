@@ -8,7 +8,8 @@ If you’re here for the first time, I made this site as a place to share my exp
 
 I write [articles about my process, design ideas and coding](/articles/). I also record [interesting things I’m learning](/notes/) from books, courses and various other material in the form of notes. I hope you pick up some useful tips whilst you’re here.
 
-{{< img src="/img/about-me" type="jpg" alt="Harry Cresswell" >}}
+{{< cld src="v1547918101/hc/about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
+
 
 ## More about me
 
