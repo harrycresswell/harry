@@ -51,7 +51,7 @@ Notice I’m using `.html` and not `.md` as my contact page will contain the HTM
 
 Inside my `contact.html` page I added some basic markup for my form:
 
-```
+```html
 <form name="contact" method="POST" netlify>
   <label>What is your name?
     <input name="full-name" type="text" placeholder="Your full name" required>
@@ -62,7 +62,7 @@ Inside my `contact.html` page I added some basic markup for my form:
   <label>What your message?
     <textarea name="message" type="text" placeholder="Your message..." required></textarea>
   </label>
-    <button type="submit" value="Submit" id="Form-submit"/>Submit</button>
+    <button type="submit" value="Submit" id="Form-submit">Submit</button>
 </form>
 ```
 
@@ -88,7 +88,7 @@ All you need to do is add `netlify-honeypot="bot-field"` to your `<form>` tag, t
 
 With that done your form should now look something like this:
 
-```
+```html
 <form name="contact" netlify-honeypot="bot-field" method="POST" netlify>
   <p class=“u-visually-hidden">
     <label>Don’t fill this out if you're human: <input name="bot-field"></label>
@@ -102,7 +102,7 @@ With that done your form should now look something like this:
   <label>What your message?
     <textarea name="message" type="text" placeholder="Your message..." required></textarea>
   </label>
-    <button type="submit" value="Submit" id="Form-submit"/>Submit</button>
+    <button type="submit" value="Submit" id="Form-submit">Submit</button>
 </form>
 ```
 
