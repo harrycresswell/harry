@@ -85,7 +85,7 @@ For the purpose of this tutorial our form will have two input fields — one for
 
 The end result should look something like this:
 
-```
+```html
 <form id="myForm" action="#" type="POST">
   <input type="text" name="full-name" placeholder="What's your name?">
   <input type="email" name="email-address" placeholder="What's your email address?">
@@ -94,7 +94,8 @@ The end result should look something like this:
 ```
 
 Let’s break this down. First make sure you give your form a suitable `id`.
-```
+
+```html
 <form id="myForm"></form>
 ```
 
@@ -103,13 +104,13 @@ We’re using `id="myForm"` here to keep things nice and simple. We’ll need th
 
 Next, make sure you add an `action` attribute. Leave it blank for now, we will come back to this later.
 
-```
+```html
 <form id="myForm" action="#"></form>
 ```
 
 Finally add `type="POST"`. This is our HTTP request which submits the data to Zapier to be processed.
 
-```
+```html
 <form id="myForm" action="#" type="POST"></form>
 ```
 
@@ -120,13 +121,13 @@ Remember to assign a `name=""` attribute to all the form elements you want to co
 
 Let’s add one for our name input and one for our email input:
 
-```
+```html
 <input type="text" name="full-name" placeholder="What's your name?">
 ```
 
 Here I’ve used `name="full-name"` and `email="email-address"`.
 
-```
+```html
 <input type="email" name="email-address" placeholder="What's your email address?">
 ```
 
@@ -137,7 +138,7 @@ Zapier will look out for the `name=""` attribute when it tries to grab the value
 Finally we’ll need to add a very basic button, so the user can submit their data. Let’s give our button an `id` of `Form-submit`:
 
 
-```
+```html
 <input type="submit" value="Submit" id="Form-submit"/>
 ```
 
@@ -171,7 +172,7 @@ Head back to your form and replace the **#** symbol in `action="#"` with the Web
 Your form should now look something like this:
 
 
-```
+```html
 <form id="myForm" action="https://hooks.zapier.com/hooks/catch/1707140/msf6zi/" type="POST">
   <input type="text" name="full-name" placeholder="What's your name?">
   <input type="email" name="email-address" placeholder="What's your email address?">
@@ -184,7 +185,7 @@ Now we need to test our form to see if it’s working. Fill out your form and hi
 
 If all went well your browser window should be redirected to the Zapier Webhook URL. You’ll see a string of data. Something like this:
 
-```
+```json
 {"status": "success", "attempt": "58b94713-f62a-4f1b-a418-9a4a992774c0", "id": "a0139409-2c05-4adb-a33c-111dd0e3e895", "request_id": "Nx5Ew2eUJxPBY1p5"}
 ```
 
@@ -243,7 +244,7 @@ We can do this with a few lines of Ajax.
 
 Before the closing `</body>` tag in the footer of your page, load a copy of jQuery.
 
-```
+```html
 <!-- Load jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 ```
@@ -251,7 +252,7 @@ Before the closing `</body>` tag in the footer of your page, load a copy of jQue
 Beneath that you will need the following Javascript:
 
 
-```
+```javascript
 // POST form data to zapier on submit
 $('#myForm').submit(function(e){
     e.preventDefault();
@@ -273,7 +274,7 @@ Finally, let’s head back to our form and remove the `action=""` and `type=""` 
 
 The HTML for our form should now look something like this:
 
-```
+```html
 <form id="myForm">
   <input type="text" name="full-name" placeholder="What's your name?">
   <input type="email" name="email-address" placeholder="What's your email address?">
@@ -297,7 +298,7 @@ Something I haven’t tackled in this article is form validation. Validating you
 
 However you might find a very basic bit of validation is enough. By adding the `required` attribute to the end of any required form elements, you can ensure the form submitter is warned of those fields that are required, in order to submit the form.
 
-```
+```html
 <input type="email" name="email-address" required>
 ```
 
