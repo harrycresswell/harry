@@ -16,7 +16,9 @@ But where do you even start with processing form data on a static site?
 
 At times the options can feel limited, like the only way is to pay for a form provider and embed a form into your site. Whilst there’s nothing wrong with this solution you might want to consider another way, which you have full control over and you don’t have to pay for.
 
-<p class="Message">I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submissions</a> on this site. Saying that, this Zapier solution still works great if you’re not using Netlify.</p>
+{{< message >}}
+I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submissions</a> on this site. Saying that, this Zapier solution still works great if you’re not using Netlify.
+{{< /message >}}
 
 [On this site](/contact/) I’m using [Zapier](https://zapier.com/) to collect form data and send it directly to my email. No servers, no database, no PHP. In this article we’ll look at how you can use the same technique to build a simple contact form for your own website, using Webhooks to collect data submitted and automatically send it to you in an email.
 
@@ -79,7 +81,7 @@ Before we get started, you might want to [jump over here](http://harrycresswell.
 
 Let’s take a look at the HTML we’re going to use to build the form.
 
-<p class="Message">If you’d rather skip ahead you can get hold of the source code for this tutorial on <a href="https://github.com/harrycresswell/zapier-contact-form">Github</a>.</p>
+{{< message >}}If you’d rather skip ahead you can get hold of the source code for this tutorial on <a href="https://github.com/harrycresswell/zapier-contact-form">Github</a>.{{< /message >}}
 
 For the purpose of this tutorial our form will have two input fields — one for a name and one for an email address — and a button to submit the data.
 
