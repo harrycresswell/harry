@@ -54,7 +54,7 @@ enableEmoji = true
 
 [[menu.footer]]
   name = "Mood"
-  url = "https://thevastnothingnessofspace.tumblr.com/"
+  url = "https://mo-od.netlify.com/"
   weight = 10
 
 [[menu.footer]]
