@@ -34,17 +34,17 @@ I currently live between London and Hamburg, where I work remotely with a handfu
 
 ## Where to go next
 
-If you’re interested in building design systems in Sketch, [I write about my process on Medium](https://medium.com/@harrycresswell).
+To learn about building design systems in Sketch, [I write about my process on Medium](https://medium.com/@harrycresswell).
 
 If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together.
 
-You can find my full résumé on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
-).
-
- Hit me up on [Twitter](https://twitter.com/harrycresswell) if you have questions or just want to say hi.
+You can read [my full résumé](/résumé/) or find me on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
+) if you prefer.
 
 ## Let's keep in touch
 
-If you'd like to keep in touch leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing.
+If you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing.
 
-If you made it this far, thanks a lot for taking the time to check out my website.
+Feel free to [drop me a tweet](https://twitter.com/harrycresswell) if you have any questions or just want to say hi.
+
+Thanks for taking the time to check out my website.

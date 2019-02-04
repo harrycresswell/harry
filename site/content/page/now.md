@@ -6,7 +6,7 @@ slug = "now"
 url = "now"
 +++
 
-Right now I’m in Hamburg, it feels like winter and there’s a fresh layer of snow. In no particular order, these are the things I’m focusing on right now.
+I’m back in London, 🇬🇧 it’s wet and bleak, it’s February. In no particular order, these are the things I’m focusing on right now.
 
 ### Working on
 
@@ -15,7 +15,7 @@ Right now I’m in Hamburg, it feels like winter and there’s a fresh layer of 
 
 ### Currently Reading
 
-- [21 Lessons for the 21st Century](https://www.ynharari.com/book/21-lessons/) by Yuval Noah Harari
+- [On Writing: A Memoir of the Craft](https://www.goodreads.com/book/show/10569.On_Writing) by Stephen King
 - [The Best of A.A Gill](https://www.goodreads.com/book/show/36577083-the-best-of-a-a-gill) by Adrian Gill
 - [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
 
@@ -26,5 +26,5 @@ Right now I’m in Hamburg, it feels like winter and there’s a fresh layer of 
 
 These are pretty much my priorities right now, but if you want to talk, [drop me a messages](/contact/). I’m always keen to hear from new people.
 
-- **Last Updated:** January 18, 2019.
+- **Last Updated:** Februrary 4, 2019.
 - **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
