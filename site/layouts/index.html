@@ -7,6 +7,29 @@
 
     <p class="Hero-text">In my free time I work on <a href="https://www.indtl.com/" rel="noopener noreferrer" target="_blank">In Detail</a> and <a href="https://typeservices.co/" rel="noopener noreferrer" target="_blank">Type Services</a>.
       You can find out <a href="/now/">what I'm doing now</a>, join my newsletter below or have a good ol’ fashioned poke about.</p>
-</div>
+  </div>
 </section>
+
+<section class="Wrapper">
+  <h3>Latest Articles</h3>
+  <ul class="PostList">
+    {{ range first 4 (where .Pages "Section" "articles") }}
+      <li class="PostListItem">
+        <h3 class="PostListItem-title">
+          <!-- If external link exists in post matter, else show post page-->
+          {{ if isset .Params "affiliatelink" }}
+          <a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }}</a><span>&#8599;</span>
+          {{else}}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+        </h3>
+        <div class="PostMeta">
+          <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+          {{ partial "post/tags.html" . }}
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+
 {{ end }}
