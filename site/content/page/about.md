@@ -38,7 +38,7 @@ To learn about building design systems in Sketch, [I write about my process on M
 
 If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together.
 
-You can read [my full résumé](/résumé/) or find me on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
+You can read [my full CV](/cv/) or find me on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
 ) if you prefer.
 
 ## Let's keep in touch
