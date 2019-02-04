@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #COMPONENTS: RÉSUMÉ
+    #COMPONENTS: CV
 \*------------------------------------*/
 
 
@@ -7,7 +7,7 @@
  * Component Block
  */
 
-.Résumé {
+.Cv {
     background: #fff;
     line-height: 32px;
     margin: 0 auto;
@@ -24,24 +24,24 @@
     }
   }
   
-  .Résumé-header {
+  .Cv-header {
     margin-bottom: 32px;
   }
   
-  p.Résumé-headerTitle {
+  p.Cv-headerTitle {
     font-weight: 700;
     margin-bottom: 16px;
   }
   
-  .Résumé-headerLinks a {
+  .Cv-headerLinks a {
     display: block;
   }
   
-  .Résumé-mainItemSection:not(:last-of-type) {
+  .Cv-mainItemSection:not(:last-of-type) {
     margin-bottom: 16px;
   }
   
-    p.Résumé-mainItemTitle {
+    p.Cv-mainItemTitle {
       border-bottom: solid 1px;
       font-weight: 700;
       margin-bottom: 16px;
@@ -49,142 +49,142 @@
       padding-bottom: 16px;
   }
   
-  .Résumé-flex a:not(:last-of-type) {
+  .Cv-flex a:not(:last-of-type) {
     margin-right: 16px;
   }
   
-  .Résumé-flexCol:not(:first-of-type) {
+  .Cv-flexCol:not(:first-of-type) {
     margin-top: 16px;
   }
   
-  .Résumé-footer {
+  .Cv-footer {
     margin-top: 32px;
   }
   
   @media screen and (min-width: 800px) {
-    /* Résumé-container */
-    .Résumé-container {
+    /* Cv-container */
+    .Cv-container {
        background: #fff;
        box-shadow: 0 2px 4px 0 rgba(0,0,0,.04), 0 4px 5px 0 rgba(0,0,0,.04), 0 1px 10px 0 rgba(0,0,0,.05);
        margin: 32px;
        padding: 128px 0;
     }
    
-    /* Résumé-header */
-    .Résumé-header {
+    /* Cv-header */
+    .Cv-header {
       display: grid;
       grid-template-columns: 2fr 13fr 1fr 13fr 1fr 13fr 2fr;
       margin-bottom: 32px;
     }
     
-    .Résumé-headerTitle {
+    .Cv-headerTitle {
       grid-column: 2 / 3;
     }
     
-    .Résumé-headerLinks {
+    .Cv-headerLinks {
       grid-column: 6 / 7;
     }
     
-    .Résumé-hero {
+    .Cv-hero {
       display: grid;
       grid-template-columns: 2fr 13fr 1fr 2fr 11fr 1fr 13fr 2fr;
       margin-bottom: 64px;
     }
     
-    .Résumé-heroItem:nth-child(1) {
+    .Cv-heroItem:nth-child(1) {
       grid-column: 1 / 5;
       grid-row: 1;
       z-index: 1;
     }
     
-    .Résumé-heroItem:nth-child(2) {
+    .Cv-heroItem:nth-child(2) {
       grid-column: 4 / 8;
       grid-row: 1;
       z-index: 2;
     }
     
-    .Résumé-heroItemTitle {
+    .Cv-heroItemTitle {
       font-size: 3rem;
       line-height: 3rem;
       margin-top: 160px;
     }
     
-    /* Résumé-main */
-    .Résumé-main {
+    /* Cv-main */
+    .Cv-main {
       display: grid;
       grid-template-columns: 2fr 13fr 1fr 27fr 2fr;
       grid-row-gap: 64px;
     }
   
-    .Résumé-mainItemSection:not(:last-of-type) {
+    .Cv-mainItemSection:not(:last-of-type) {
       margin-bottom: 32px;
     }
     
-    .Résumé-mainItem:nth-child(1) {
+    .Cv-mainItem:nth-child(1) {
       grid-column: 2 / 3;
     }
     
-    .Résumé-mainItem:nth-child(2) {
+    .Cv-mainItem:nth-child(2) {
       grid-column: 4 / 5;
     }
     
-    .Résumé-mainItem:nth-child(3) {
+    .Cv-mainItem:nth-child(3) {
       grid-column: 2 / 3;
     }
     
-    .Résumé-mainItem:nth-child(4) {
+    .Cv-mainItem:nth-child(4) {
       grid-column: 4 / 5;
     }
     
-    .Résumé-mainItem:nth-child(5) {
+    .Cv-mainItem:nth-child(5) {
       grid-column: 2 / 3;
     }
     
-    .Résumé-mainItem:nth-child(6) {
+    .Cv-mainItem:nth-child(6) {
       grid-column: 4 / 5;
     }
     
-    .Résumé-mainItem:nth-child(7) {
-      grid-column: 2 / 3;
-    }
-      
-    .Résumé-mainItem:nth-child(8) {
-      grid-column: 4 / 5;
-    }
-    
-    .Résumé-mainItem:nth-child(9) {
+    .Cv-mainItem:nth-child(7) {
       grid-column: 2 / 3;
     }
       
-    .Résumé-mainItem:nth-child(10) {
+    .Cv-mainItem:nth-child(8) {
       grid-column: 4 / 5;
     }
     
-    .Résumé-mainItem:nth-child(11) {
+    .Cv-mainItem:nth-child(9) {
       grid-column: 2 / 3;
     }
       
-    .Résumé-mainItem:nth-child(12) {
+    .Cv-mainItem:nth-child(10) {
       grid-column: 4 / 5;
     }
     
-      .Résumé-mainItem:nth-child(13) {
+    .Cv-mainItem:nth-child(11) {
       grid-column: 2 / 3;
     }
       
-    .Résumé-mainItem:nth-child(14) {
+    .Cv-mainItem:nth-child(12) {
       grid-column: 4 / 5;
     }
     
-     p.Résumé-mainItemTitle {
+      .Cv-mainItem:nth-child(13) {
+      grid-column: 2 / 3;
+    }
+      
+    .Cv-mainItem:nth-child(14) {
+      grid-column: 4 / 5;
+    }
+    
+     p.Cv-mainItemTitle {
       border: none;
       margin-bottom: 0;
       margin-top: 0;
       padding: 0;
     }
     
-    /* Résumé-footer */
-    .Résumé-footer {
+    /* Cv-footer */
+    .Cv-footer {
       margin-top: 0;
       margin-right: 32px;
       margin-bottom: 96px;
@@ -193,33 +193,33 @@
       
     }
     
-    .Résumé-flex--sb {
+    .Cv-flex--sb {
       justify-content: space-between;
     }
   }
   
   @media screen and (min-width: 960px) {
-    .Résumé-flex {
+    .Cv-flex {
       display: flex;
       
     }
     
-    .Résumé-flexCol {
+    .Cv-flexCol {
       flex: 1;   
     }
     
-    .Résumé-flexCol:not(:first-of-type) {
+    .Cv-flexCol:not(:first-of-type) {
       margin-top: 0;
     }
     
-     .Résumé-flexCol:not(:last-of-type) {
+     .Cv-flexCol:not(:last-of-type) {
       margin-right: 48px;
     }
   }
   
   /* Helpers */
   
-  .Résumé-accent {
+  .Cv-accent {
     font-size: 16px;
     font-style: italic;
   }
