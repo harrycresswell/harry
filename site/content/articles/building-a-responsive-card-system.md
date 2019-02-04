@@ -5,4 +5,5 @@ affiliatelink: "https://medium.com/@harrycresswell/building-a-responsive-card-sy
 tags: ["CSS"]
 slug: "better-design-systems-sketch-libraries"
 description: "Learn how to use CSS Grid, Flexbox and a UI Kit to rapid prototype responsive cards patterns"
+type: "article"
 ---

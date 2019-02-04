@@ -4,6 +4,7 @@ date: 2018-03-02T15:44:49+01:00
 tags: ["Hugo"]
 slug: hugo-page-content-on-homepage
 description: "A simple method to print page content on your Hugo homepage"
+type: "article"
 ---
 
 This is a pretty simple Hugo snippet for displaying content from a specific page on your site homepage.

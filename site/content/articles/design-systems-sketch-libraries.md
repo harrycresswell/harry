@@ -5,4 +5,5 @@ affiliatelink: "https://blog.usejournal.com/using-sketch-libraries-to-build-a-be
 tags: ["Sketch", "Design"]
 slug: "better-design-systems-sketch-libraries"
 description: "The answer to cohesive, maintainable and re-usable projects"
+type: "article"
 ---

@@ -4,6 +4,7 @@ date: 2018-05-02T20:47:43+01:00
 tags: ["Sketch", "Design"]
 slug: "dsm"
 description: "Using design system methodology will make you a better designer. In this piece you’ll learn some key methods to help you design in systems"
+type: "article"
 ---
 
 Using design system methodology will make you a better designer. If design is all about problem solving, then solving problems becomes a whole lot easier when you have a process in place.

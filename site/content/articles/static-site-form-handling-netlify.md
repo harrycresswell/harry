@@ -4,6 +4,7 @@ date: 2018-04-05T09:49:36+02:00
 tags: ["Hugo", "API"]
 slug: "forms-with-netlify"
 description: "Learn how to use Netlify to manage form submissions with automatic spam filtering"
+type: "article"
 ---
 
 _Note: This tutorial requires you have a static site which you deploy using [Netlify](https://www.netlify.com/). If you don‘t use Netlify, read on as you might well be convinced to switch._

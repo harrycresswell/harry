@@ -4,6 +4,7 @@ date: 2018-04-03T10:28:50+02:00
 tags: ["Hugo"]
 description: "Learn how to list your external articles amoung the posts on your Hugo blog"
 slug: "hugo-external-articles"
+type: "article"
 ---
 
  Lately I’ve been publishing articles both [here](/articles/) on my personal site and on [Medium](https://medium.com/@harrycresswell). It seems to be fairly common practice these days. Perhaps you’re doing something similar?

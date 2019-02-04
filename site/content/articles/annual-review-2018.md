@@ -4,9 +4,10 @@ date = "2018-12-31T14:10:29Z"
 description = ""
 slug = "2018-review"
 tags = ["Year in Review", "Process"]
+type = "article"
 +++
 
-With 2018 drawing to a close, I’ve decided to share my first Year in Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.
+{{< intro >}}With 2018 drawing to a close, I’ve decided to share my first Year in Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.{{< /intro >}}
 
 Having struggled with the pressures of a goal setting approach in previous years, I was drawn to this method after reading [James Clear’s Atomic Habits](https://jamesclear.com/atomic-habits). 
 

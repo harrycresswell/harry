@@ -5,4 +5,5 @@ affiliatelink: "https://medium.com/@harrycresswell/using-sketch-libraries-and-pr
 tags: ["Sketch", "Design"]
 slug: "sketch-libraries-primitives-buttons"
 description: "Identifying design primitives and a case for building components which limit the amount of redundancy in your work"
+type: "article"
 ---
