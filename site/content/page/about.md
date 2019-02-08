@@ -1,23 +1,25 @@
 +++
-title = "About"
+title = "Hey there."
 date = "2016-10-24T17:23:17+01:00"
-description = "I’m Harry Cresswell, this is my corner of the internet where I share what I know about building websites – usually static sites – and designing UI design systems"
+description = "I’m Harry Cresswell, this is my corner of the internet where I share what I know about building websites and designing UI  systems"
+slug = "about"
+url = "/about/"
 +++
 
-If you’re here for the first time, I made this site as a place to share my experience working as a designer and building things on the internet.
+{{< intro >}}If you’re here for the first time, I made this site as a place to share my experience working as a designer and building things for the internet.{{< /intro >}}
 
-I write [articles about my process, design ideas and coding](/articles/). I also record [interesting things I’m learning](/notes/) from books, courses and various other material in the form of notes. I hope you pick up some useful tips whilst you’re here.
+I write [articles about my process, design ideas and coding](/articles/). I also make notes on [interesting things I’m learning](/notes/) from books, courses and various other material. I hope you pick up some useful tips whilst you’re here.
 
 {{< cld src="v1547918101/hc/about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
 
-## More about me
+## About me
 
-I’m an independent UI Designer and Front-end Web Developer from London.
+I’m an independent product designer from London. Most of my work happens in the grey area between UX, UI design and frontend web development. I’m usually involved in projects from problem solving concepts through to building high fidelity mockups and prototyping in the browser. 
 
 I started teaching myself design and code in 2006 whilst studying a degree in Fine Art and Art History. I tried a *‘real job’* in Insurance after graduating, but quit in 2010 to focus on making websites full time.
 
-I currently live between London and Hamburg, where I work remotely with a handful of clients. In my free time I enjoy climbing, hiking and running. In the winter I like to ski. I practice meditation and yoga most mornings.
+I currently live between London and Hamburg, where I work  with a handful of clients, often remotely. In my free time I enjoy climbing, hiking and running. In the winter I like to ski. I practice meditation and yoga most days.
 
 ### Personal Projects
 
@@ -43,8 +45,4 @@ You can read [my full CV](/cv/) or find me on [LinkedIn](https://uk.linkedin.com
 
 ## Let's keep in touch
 
-If you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing.
-
-Feel free to [drop me a tweet](https://twitter.com/harrycresswell) if you have any questions or just want to say hi.
-
-Thanks for taking the time to check out my website.
+If you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing. You’re also welcome to [drop me a tweet](https://twitter.com/harrycresswell) if you have any questions or just want to say hi.
