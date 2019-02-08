@@ -1,16 +1,10 @@
 +++
-series = ["Business"]
-what = "Book Notes"
+tags = ["Impact"]
 subjects = ["Business", "Brands"]
 title = "The Challenger’s Almanac"
 date = "2016-10-26T21:34:41+01:00"
 slug = "challengers"
 description = "A curation of stories — experiences, failures, lessons learnt and ideas borrowed — from businesses and thinkers challenging the way business is done today."
-Author = "Harry Cresswell"
-external_link = "http://www.thechallengersalmanac.co.uk/"
-book_cover = "the-challengers-almanac.png"
-rating = "10/10"
-finished = "2016"
 
 +++
 

@@ -3,8 +3,7 @@ title = "2018 in Review"
 date = "2018-12-31T14:10:29Z"
 description = ""
 slug = "2018-review"
-tags = ["Year in Review", "Process"]
-type = "article"
+tags = ["Year in Review"]
 +++
 
 {{< intro >}}With 2018 drawing to a close, I’ve decided to share my first Year in Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.{{< /intro >}}

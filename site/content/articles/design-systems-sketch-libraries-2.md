@@ -5,5 +5,4 @@ affiliatelink: "https://medium.com/@harrycresswell/using-sketch-libraries-to-bui
 tags: ["Sketch", "Design"]
 slug: "better-design-systems-sketch-libraries-part-2"
 description: "Build a flexible system of Avatars with particle properties (primitives) and Sketch Symbol Overrides"
-type: "article"
 ---

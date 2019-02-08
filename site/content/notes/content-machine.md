@@ -1,16 +1,12 @@
 +++
-series = ["Writing"]
-what = "Book Notes"
-subjects = ["Content marketing"]
+tags = ["Marketing"]
 date = "2016-10-26T21:34:41+01:00"
 rating = "7/10"
 slug = "content-machine"
 external_link = "http://amzn.eu/jcKuctj"
 title = "Content Machine by Dan Norris"
-Author = "Harry Cresswell"
-book_cover = "content-machine.jpg"
-Description = "Use Content Marketing to Build a 7-figure Business With Zero Advertising."
-finished = "2017"
+author = "Harry Cresswell"
+description = "Use Content Marketing to Build a 7-figure Business With Zero Advertising."
 
 +++
 

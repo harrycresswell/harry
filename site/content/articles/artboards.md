@@ -5,7 +5,6 @@ date = "2017-04-02T21:34:41+01:00"
 slug = "artboards"
 description = "How to name your artboards for scaleable, maintainable Sketch projects"
 Author = "Harry Cresswell"
-type = "article"
 +++
 
 {{< intro >}}Naming Artboards might not be the most exciting subject, but non the less, it's an important one. If it's not already, a solid Artboard naming system should be a critical part of your design process.{{< /intro >}}

@@ -1,16 +1,10 @@
 +++
-series = ["Productivity"]
-what = "Book Notes"
+tags = ["Productivity"]
 subjects = ["Productivity", "Success"]
 date = "2016-10-26T21:34:41+01:00"
-Description = "The breakthrough power of lateral thinking."
+description = "The breakthrough power of lateral thinking."
 title = "Smartcuts by Shane Snow"
-external_link = "http://amzn.eu/5yStQ1M"
-rating = "8/10"
-finished = "2016"
-book_cover = "smartcuts.jpg"
 slug = "smartcuts"
-Author = "Harry Cresswell"
 
 +++
 

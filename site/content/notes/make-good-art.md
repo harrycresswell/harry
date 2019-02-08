@@ -1,16 +1,10 @@
 +++
 slug = "good-art"
-Description = "Success in creativity is about making good art"
-rating = "9/10"
-series = ["Creativity"]
-what = "Speech"
+description = "Success in creativity is about making good art"
+tags = ["Creativity"]
 title = "Make Good Art by Neil Gaiman"
-finished = ""
-Author = "Harry Cresswell"
 date = "2016-10-26T21:34:41+01:00"
-external_link = "https://www.youtube.com/watch?v=ikAb-NYkseI"
 subject = ["Creativity", "art", "success"]
-book_cover = ""
 
 +++
 

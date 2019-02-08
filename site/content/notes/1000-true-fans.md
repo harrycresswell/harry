@@ -1,16 +1,11 @@
 +++
-series = ["Business"]
+tags = ["Creativity"]
 what = "Article"
-subjects = ["Creativity"]
 Description = "To be a successful creator you need only thousands of true fans."
-rating = ""
 title = "1,000 true fans"
 date = "2016-10-26T21:34:41+01:00"
-Author = "Harry Cresswell"
 slug = "1000-fans"
 external_link = "http://kk.org/thetechnium/1000-true-fans/"
-finished = ""
-book_cover = ""
 
 +++
 

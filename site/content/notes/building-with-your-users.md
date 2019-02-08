@@ -1,6 +1,7 @@
 ---
 title: "Building With Your Users"
 date: 2018-03-15T11:18:40Z
+tags: ["Design"]
 ---
 
 ”Build with your users, get quick feedback loops, and iterate after. We are so biased and imperfect as humans that it's impossible to get it right from the start. Also, you might get it right, but you might miss other bigger opportunities. Focus, start quickly, and put your product in front of users and let the free market destroy it or love it.”

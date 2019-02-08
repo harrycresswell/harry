@@ -4,7 +4,6 @@ date: 2018-03-26T13:28:18+01:00
 tags: ["Process"]
 slug: emoji-mac
 description: "The all important emoji shortcut, which brings up the emoji panel, so you can type them anywhere you like"
-type: "article"
 ---
 
 It’s hard to avoid Emoji’s these days. Whether you like using them on not they’re a great way to help visually communicate your thoughts and ideas.

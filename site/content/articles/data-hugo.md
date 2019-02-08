@@ -4,7 +4,6 @@ date: 2018-07-18T14:35:58+02:00
 tags: ["Hugo"]
 slug: "data-hugo"
 description: "Learn how to utilise Data in Hugo to keep your code clean and your projects organised"
-type: "article"
 ---
 
 This articles demonstrates a practical use case of working with data files in Hugo. It will show you where to store your data and how to call your data into a template in order to render it on your site.

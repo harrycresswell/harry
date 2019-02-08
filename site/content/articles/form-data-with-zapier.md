@@ -5,7 +5,6 @@ date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"
 description = "A simple way to receive form data directly to your email using Zapier"
 Author = "Harry Cresswell"
-type = "article"
 +++
 
 {{< intro >}}Have you ever felt overwhelmed by the amount of code it takes to get a simple contact form working on a website?{{< /intro >}}

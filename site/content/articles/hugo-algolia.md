@@ -4,7 +4,6 @@ date: 2018-07-13T10:15:40+02:00
 tags: ["Hugo", "API"]
 slug: "hugo-algolia"
 description: "Learn how to implement Algolia InstantSearch on a Hugo based static site."
-type: "article"
 ---
 
 <p class="Message">You can download <a href="https://github.com/harrycresswell/hugolia">the project files</a> for this article over on Github.</p>
