@@ -7,7 +7,9 @@
  * Component Block
  */
 
-//.Post {}
+.Post {
+  max-width: 1024px;
+}
 
 .PostList {
   list-style: none;
