@@ -6,9 +6,10 @@
   <section class="PostList">
   {{ range .Data.Pages }}
       <h3 class="PostList-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <div class="PostList-meta">
-          <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-      </div>
+      <div class="PostMeta">
+          <time class="PostMeta-date">{{ .Date.Format "Jan 2, 2006" }}</time> —
+          {{ partial "post/tags.html" . }}
+        </div>
     {{ end }}
   </section>
 </div>
