@@ -1,6 +1,6 @@
 <!-- Related Post. -->
 <div class="PostRelated">
-    <h3 class="PostRelated-title">Related Posts</h3>
+    <h3 class="PostRelated-title">Further Reading</h3>
     <ul class="PostRelated-list">
     {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
       <li class="PostRelated-title">
