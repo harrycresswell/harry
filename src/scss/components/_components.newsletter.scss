@@ -9,6 +9,8 @@
 
 .Newsletter {
   @include margin-bottom(1);
+  max-width: 1024px;
+  margin: 0 7% 0 7%;
 }
 
 .NewsletterForm {
