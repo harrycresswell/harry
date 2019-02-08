@@ -4,7 +4,7 @@
 
 a {
   color: $color-link;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color .2s ease-in-out;
 
   &:hover {

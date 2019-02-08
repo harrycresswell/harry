@@ -8,9 +8,11 @@
  */
 
 .Footer {
+  @include margin-top(1);
   padding-bottom: 64px;
 }
 
 .FooterNav-link {
   margin-right: 16px;
+  text-decoration: none;
 }

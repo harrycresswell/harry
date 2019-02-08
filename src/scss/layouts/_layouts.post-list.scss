@@ -25,4 +25,12 @@
 
  .PostListItem-title {
    margin-top: 48px;
+
+   a {
+     text-decoration: none;
+   }
+
+   a:hover {
+     text-decoration: underline;
+   }
  }
