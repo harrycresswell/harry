@@ -20,11 +20,11 @@ Topics range from designing and building websites to typography, illustration an
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.
 
 
-## What makes it better?
+## What makes so good?
 
-Glad you asked. Unlike most newsletters that do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable](https://airtable.com/) database. No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
+Glad you asked. Unlike most newsletters that do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable database](https://airtable.com/). No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
 
-Here’s some of the video content included:
+Here’s some of the video content, to give you an idea of what’s included:
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrZkDHafb9C6TP4w?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="80%" height="533" style="background: transparent; border: 1px solid #ccc; margin-bottom: 32px;"></iframe>
 
