@@ -1,12 +1,12 @@
 <figure>
-    <blockquote cite="http://">
+    <blockquote>
         <p>
-          &ldquo;{{ .Get "quote" }}&rdquo;
+          {{ .Get "quote" }}
         </p>
         {{ if .Get "cite"}}
         {{ end }}
         {{ if .Get "cite"}}
-            <cite><strong>&mdash; {{ .Get "cite" }}</strong></cite>
+            <cite>&mdash; {{ .Get "cite" }}</cite>
         {{ end }}
     </blockquote>
 </figure>
