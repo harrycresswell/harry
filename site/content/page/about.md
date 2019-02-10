@@ -6,20 +6,18 @@ slug = "about"
 url = "/about/"
 +++
 
-{{< intro >}}If you’re here for the first time, I made this site as a place to share my experience working as a designer and building things for the internet.{{< /intro >}}
+{{< intro >}}I made this site as a place to share my experience working as a designer and building things for the internet.{{< /intro >}}
 
-I write [articles about my process, design ideas and coding](/articles/). I also make notes on [interesting things I’m learning](/notes/) from books, courses and various other material. I hope you pick up some useful tips whilst you’re here.
+You’ll find [articles on design and code](/articles/) and notes on [interesting things I’m learning](/notes/) from books, courses and talks. I hope you pick up some useful tips whilst you’re here.
 
-{{< cld src="v1547918101/hc/about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
+{{< cld class="Cover" src="v1547918101/hc/about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
 
-## About me
+## More about me
 
-I’m an independent product designer from London. Most of my work happens in the grey area between UX, UI design and frontend web development. I’m usually involved in projects from problem solving concepts through to building high fidelity mockups and prototyping in the browser. 
+I’m an independent product designer from London. My work takes place in the grey area between UX and UI design and frontend web development. From problem solving concepts to executing high fidelity mockups and prototypes in code, I involve myself from start to finish. 
 
-I started teaching myself design and code in 2006 whilst studying a degree in Fine Art and Art History. I tried a *‘real job’* in Insurance after graduating, but quit in 2010 to focus on making websites full time.
-
-I currently live between London and Hamburg, where I work  with a handful of clients, often remotely. In my free time I enjoy climbing, hiking and running. In the winter I like to ski. I practice meditation and yoga most days.
+I currently live between London and Hamburg, where I work  with a handful of clients, often remotely. In my free time I enjoy climbing, hiking, running and skiing. I practice meditation and yoga most days.
 
 ### Personal Projects
 

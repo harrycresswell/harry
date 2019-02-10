@@ -6,23 +6,25 @@ slug = "newsletter"
 
 +++
 
-[Brain&mdash;tactics](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) 🤯 is a brief, weekly newsletter for creative types which may well improve your skills and enhance your brain capacity. Given a good internet connection I send it out every week on a Friday.
+[Brain&mdash;tactics](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) 🤯 is a weekly newsletter for designers, developers and typographers, or anyone else interested in these fields. Given a good internet connection I send it out every week on a Friday.
 
 ## What topics does it cover?
 
 Topics range from designing and building websites to typography, illustration and music. Recently I’ve included a whole bunch of good stuff from various corners of the internet, including things on:
 
 - Building design systems
-- Using CSS grid
-- Getting good with typography
+- Learning CSS grid and flexbox
+- Fluid and responsive typography tools
 - Creating artwork with code
+- Free typefces worth using
+- Building a base on Mars
 
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.
 
 
 ## What makes so good?
 
-Glad you asked. Unlike most newsletters that do the rounds, all the content from Brain—tactics is recorded and categorised in a searchable [Airtable database](https://airtable.com/). No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
+Glad you asked. Unlike most newsletters that do the rounds, the content is archived and categorised in a searchable [Airtable database](https://airtable.com/). No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
 
 Here’s some of the video content, to give you an idea of what’s included:
 
