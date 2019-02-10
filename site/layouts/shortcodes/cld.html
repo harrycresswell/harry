@@ -1,7 +1,7 @@
 <div class="Image">
   <img
     data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
-    class="cld-responsive" alt="{{ .Get "alt" }}">
+    class="cld-responsive {{ if .Get "class"}}{{ .Get "class" }}{{ end }}" alt="{{ .Get "alt" }}">
     {{ if .Get "caption"}}
     <figure>
     {{ end }}
