@@ -8,9 +8,9 @@
           </header>
 
           <div class="PostMeta">
-              <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
-              {{ partial "post/tags.html" . }}
-            </div>
+            <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+            {{ partial "post/tags.html" . }}
+          </div>
   
 
           {{ .Content }}
