@@ -2,7 +2,7 @@
 
 <article class="Wrapper">
   <header class="PostHeader">
-    <h1 class="PostHeader-title">Articles</h1>
+    <h1 class="PostHeader-title">All Pages</h1>
   </header>
   <ul class="PostList">
   {{ range .Data.Pages }}
@@ -15,10 +15,6 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         {{ end }}
       </h3>
-      <div class="PostMeta">
-        <time class="PostMeta-date">{{ .Date.Format "Jan 2, 2006" }}</time> —
-        {{ partial "post/tags.html" . }}
-      </div>
     </li>
   {{ end }}
   </ul>
