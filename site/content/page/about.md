@@ -15,7 +15,7 @@ You’ll find [articles on design and code](/articles/) and notes on [interestin
 
 ## More about me
 
-I’m an independent product designer from London. My work takes place in the grey area between UX and UI design and frontend web development. From problem solving concepts to executing high fidelity mockups and prototypes in code, I involve myself from start to finish. 
+I’m an independent product designer from London. My work takes place in the grey area between UX and UI design and frontend web development. From problem solving concepts to executing high fidelity mockups and prototypes in code, I involve myself in projects from start to finish. 
 
 I currently live between London and Hamburg, where I work  with a handful of clients, often remotely. In my free time I enjoy climbing, hiking, running and skiing. I practice meditation and yoga most days.
 

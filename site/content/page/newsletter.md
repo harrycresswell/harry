@@ -16,7 +16,7 @@ Topics range from designing and building websites to typography, illustration an
 - Learning CSS grid and flexbox
 - Fluid and responsive typography tools
 - Creating artwork with code
-- Free typefces worth using
+- Free typefaces worth using
 - Building a base on Mars
 
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.

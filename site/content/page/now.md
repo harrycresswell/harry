@@ -24,7 +24,7 @@ I’m back in London, 🇬🇧 it’s wet and bleak, it’s February. In no part
 - ReactJS, GatsbyJS and GraphQL.
 
 
-These are pretty much my priorities right now, but if you want to talk, [drop me a messages](/contact/). I’m always keen to hear from new people.
+These are pretty much my priorities right now, but if you want to talk, [drop me a message](/contact/). I’m always keen to hear from new people.
 
 - **Last Updated:** Februrary 4, 2019.
 - **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
