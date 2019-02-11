@@ -62,3 +62,34 @@ enableEmoji = true
   name = "Notes"
   url = "/notes/"
   weight = 15
+
+[[menu.mobile]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 5
+
+[[menu.mobile]]
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 10
+
+[[menu.mobile]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 15
+
+[[menu.mobile]]
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[menu.mobile]]
+  name = "Imprint"
+  url = "/imprint/"
+  weight = 25
+
+[[menu.mobile]]
+  name = "Mood"
+  url = "https://mo-od.netlify.com/"
+  weight = 30
+

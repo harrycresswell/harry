@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    #COMPONENTS: NAVIGATION
+\*------------------------------------*/
+
+/* Navigation */
+
+.MobileMenu {
+  background-color: $color-link;
+  display: none;
+  margin: 0;
+  top: 0;
+  right: 0;
+  padding: 48px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+
+}
+
+.MobileMenu ul {
+  list-style: none;
+  margin: 0;
+}
+
+.MobileMenu li:first-of-type {
+  @include margin-top(1);
+}
+
+.MobileMenu li {
+  margin-bottom: 8vh;
+}
+
+.MobileMenu a {
+  color: $color-white;
+  font-size: 2rem;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.MobileMenu a:hover {
+  text-decoration: underline;
+}
+
+.MobileMenu.is-visible {
+  display: block;
+}

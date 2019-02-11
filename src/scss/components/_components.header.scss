@@ -8,10 +8,8 @@
  */
 
  .Header {
-  text-align: right;
-  right: 0;
+  text-align: left;
   padding: 7%;
-  z-index: 999;
 
   a {
     text-decoration: none;
@@ -22,16 +20,28 @@
   }
 }
 
+.Header-nav {
+  display: none;
+}
+
 @include breakpoint(md) {
   .Header {
+    text-align: right;
     position: fixed;
+    right: 0;
+    padding: 7%;
+    z-index: 999;
+  }
+
+  .Header-nav {
+    display: block;
+  }
+
+  .Header-link {
+    display: block;
   }
 }
 
 .Header-title {
   @include margin-bottom(1);
-}
-
-.Header-link {
-  display: block;
 }

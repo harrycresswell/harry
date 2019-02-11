@@ -1,0 +1,55 @@
+/*------------------------------------*\
+    #OBJECTS: HAMBURGER
+\*------------------------------------*/
+
+/* NavToggle */
+
+.Hamburger {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 12px;
+  background: $color-link;
+  color: #fff;
+  height: 64px;
+  width: 64px;
+  z-index: 200;
+  
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
+.Hamburger-line {
+  width: 32px;
+  height: 2px;
+  background-color: $color-white;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Hamburger:hover {
+  cursor: pointer;
+}
+
+#Hamburger.is-active .Hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+#Hamburger.is-active .Hamburger-line:nth-child(1) {
+  -webkit-transform: translateY(12px) rotate(45deg);
+  -ms-transform: translateY(12px) rotate(45deg);
+  -o-transform: translateY(12px) rotate(45deg);
+  transform: translateY(12px) rotate(45deg);
+}
+
+#Hamburger.is-active .Hamburger-line:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
