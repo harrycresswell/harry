@@ -45,3 +45,9 @@
 .MobileMenu.is-visible {
   display: block;
 }
+
+@include breakpoint(md) {
+  .MobileMenu.is-visible {
+    display: none;
+  }
+}
