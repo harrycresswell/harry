@@ -1,13 +1,23 @@
   <footer class="Footer">
-    <div class="Wrapper">
-      <nav class="FooterNav">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.footer }}
-          <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
-          {{ end }}
-      </nav>
+    <nav class="FooterNav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.footer }}
+        <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+    <div class="BackToTop">
+      <span>&uarr;</span><a href="{{.URL}}#top">Back to top</a>
     </div>
   </footer>
+
+  <!-- Load jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    // load jQuery from a local path if the CDN is unavailable
+    (window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>'));
+  </script>
+
+  <!-- Load javascripts -->
   <script src="{{ $.Site.BaseURL }}app.js"></script>
 
   <!-- Load responsive images via Cloudinary -->
