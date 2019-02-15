@@ -82,6 +82,6 @@ I hope this has been a helpful read.
 
 ## References
 
-- [Create unique, accurate page titles](https://support.google.com/webmasters/answer/7451184?hl=en#uniquepagetitles) from Google’s SEO Starter Guide.
+- [Create unique, accurate page titles](https://support.google.com/webmasters/answer/7451184?hl=en#uniquepagetitles) from Google’s SEO Starter Guide
 - [Go Hugo SEO](https://blog.el-chavez.me/2015/11/26/go-hugo-seo/) from MT Chavez
 - [Rank Bio](http://www.rankbio.com) - test your websites for best practices
