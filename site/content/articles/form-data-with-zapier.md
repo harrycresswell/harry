@@ -226,7 +226,7 @@ Hit continue once you are happy. Zapier will summarise your email template then 
 
 Now go check your inbox. You should have received an email containing the data, nicely laid out in the template you just set up.
 
-{{< cld src="v1531988541/hc/zapier-contact-form-automated-email-inbox.png" alt="Zapier is now sending us an automated email" caption="Zapier is now sending us an automated email" >}}
+{{< cld src="v1550264893/hc/zapier-contact-form-automated-email-inbox.jpg" alt="Zapier is now sending us an automated email" caption="Zapier is now sending us an automated email" >}}
 
 You might want to filter your automated emails from Zapier by marking them with a label. This way you can easily identify where they have come from. I’ve called my label Zapier and coloured it orange so it’s easy to spot.
 

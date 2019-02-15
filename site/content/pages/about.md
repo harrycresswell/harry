@@ -10,7 +10,7 @@ url = "/about/"
 
 You’ll find [articles on design and code](/articles/) and notes on [interesting things I’m learning](/notes/) from books, courses and talks. I hope you pick up some useful tips whilst you’re here.
 
-{{< cld class="Cover" src="v1547918101/hc/about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
+{{< cld src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
 
 ## More about me
