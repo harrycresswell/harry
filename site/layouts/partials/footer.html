@@ -17,8 +17,11 @@
     (window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>'));
   </script>
 
-  <!-- Load javascripts -->
+  <!-- Load javascript -->
   <script src="{{ $.Site.BaseURL }}app.js"></script>
+
+  <!-- Lazyload images -->
+  <script src="{{ $.Site.BaseURL }}lazysizes.js"></script>
 
   <!-- Load responsive images via Cloudinary -->
   <script src="{{ $.Site.BaseURL }}cloudinary-core-shrinkwrap.min.js"></script>

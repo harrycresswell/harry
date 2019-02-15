@@ -1,12 +1,14 @@
 <div class="Image">
-  <img
-    data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
-    class="cld-responsive {{ if .Get "class"}}{{ .Get "class" }}{{ end }}" alt="{{ .Get "alt" }}">
-    {{ if .Get "caption"}}
-    <figure>
-    {{ end }}
-    {{ if .Get "caption"}}
-      <figcaption>{{ .Get "caption" }}</figcaption>
-    </figure>
-    {{ end }}
-</div>
+  <div class="ImageRatio">
+    <img
+      data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
+      class="cld-responsive lazyload {{ if .Get "class"}}{{ .Get "class" }}{{ end }}" alt="{{ .Get "alt" }}">
+  </div><!-- /.ImageRatio -->
+  {{ if .Get "caption"}}
+      <figure>
+      {{ end }}
+      {{ if .Get "caption"}}
+        <figcaption>{{ .Get "caption" }}</figcaption>
+      </figure>
+  {{ end }}
+</div><!-- /.Image -->

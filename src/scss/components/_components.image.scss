@@ -18,6 +18,24 @@
   @include margin-top(1);
 }
 
+.ImageRatio {
+  background-color: #f6f6f6;
+  height: 0;
+  display: block;
+  padding-bottom: 66.66667%;
+  position: relative;
+  width: 100%;
+}
+
+.ImageRatio img {
+    display: block;
+    /* height: 100%; */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .Cover {
   object-fit: cover;
   height: 350px;
@@ -28,4 +46,14 @@
     object-fit: fill;
     height: auto;
   }
+}
+
+/* Animate the lazyloading */
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
 }
