@@ -10,7 +10,8 @@
   @include margin-top(1.5);
 
   figcaption {
-    @include margin-top(0.25);
+    line-height: 20px;
+    @include margin-top(0.5);
   }
 }
 
