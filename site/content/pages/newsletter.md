@@ -3,7 +3,7 @@ title = "Newsletter"
 date = "2016-10-24T17:23:17+01:00"
 description = "Bran–tactics is a brief, weekly newsletter for creative types which may well improve your skills and enhance your brain capacity."
 slug = "newsletter"
-
+url = "newsletter"
 +++
 
 [Brain&mdash;tactics](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) 🤯 is a weekly newsletter for designers, developers and typographers, or anyone else interested in these fields. Given a good internet connection I send it out every week on a Friday.
