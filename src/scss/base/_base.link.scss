@@ -5,16 +5,16 @@
 a {
   color: $color-link;
   text-decoration: underline;
+  text-decoration-color: $color-link;
   transition: color .2s ease-in-out;
 
   &:hover {
-    color: darken($color-link, 15%);
+    color: darken($color-link, 25%);
     text-decoration: underline;
   }
 
   &:visited {
-    border-bottom: 1px solid $color-link;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   &:before {
