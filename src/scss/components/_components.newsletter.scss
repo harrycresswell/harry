@@ -31,8 +31,8 @@
   font-size: .8rem;
   height: 64px;
   @include margin-top(0.5);
-  outline: none;
-  outline-style: none;
+  outline: 2px solid $color-lightest;
+  outline-offset: 0;
   padding: 0 16px;
   position: relative;
   transition: all .2s;
@@ -40,7 +40,8 @@
 
     &:focus,
     &:active {
-      border: solid 2px $color-link;
+      outline: 2px solid $color-link;
+      outline-offset: 0;
       transition: all .2s;
     }
 }
