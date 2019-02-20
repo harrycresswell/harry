@@ -1,13 +1,13 @@
 code,
 kbd,
 samp {
-  background: $color-lightest;
+  background: #f9f9f9;
   color: $color-light;
   font-size: 0.9rem;
 }
 
 pre {
-  background: $color-lightest;
+  background: #f9f9f9;
   font-size: 0.9rem;
   overflow: auto;
   overflow-x: scroll;
@@ -22,4 +22,28 @@ pre + p {
 p code,
 li code {
   padding: .125rem .35rem;
+}
+
+code,pre {
+	font-family: Menlo,Monaco,"Courier New",monospace
+}
+
+code {
+	//padding: .25em .5em;
+	font-size: 85%;
+	color: lighten( #ff7b12, 8%);
+	background-color: #f9f9f9;
+	border-radius: 2px
+}
+
+pre {
+	margin-top: 0;
+	margin-bottom: 1rem
+}
+
+pre code {
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+	background-color: transparent
 }

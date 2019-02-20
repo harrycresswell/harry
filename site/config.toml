@@ -10,6 +10,11 @@ pluralizelisttitles = false
 # Enable Emojis because why the hell not
 enableEmoji = true
 
+# Enable for syntax highlighting
+#pygmentsUseClasses=true
+#PygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+
 [permalinks]
   articles = "/:section/:slug/"
   notes = "/:section/:slug/"

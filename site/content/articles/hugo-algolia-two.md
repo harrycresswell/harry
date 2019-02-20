@@ -38,7 +38,7 @@ With that, let’s get right to it.
 
 In the head of your Hugo site add the Algolia stylesheet and default theme:
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch-theme-algolia.min.css">`
 ```
@@ -47,7 +47,7 @@ This will deliver the necessary styles from the [jsDeliver](https://www.jsdeliv
 
 Next, add the following JS before the closing body tag:
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1"></script>
 ```
 
@@ -61,7 +61,7 @@ Get hold of your `appID`, Search-Only `APIkey` and `indexName`. You can find the
 
 In `app.js` or wherever you store your pre compiled Javascript add the following:
 
-```
+```javascript
 // Set Algolia options
   const options = {
     appId: 'YOUR_APP_ID',
@@ -85,7 +85,7 @@ Now we need to display our search results and bring this beast to life. Using th
 
 Creating a container with an id `hits` will tell Algolia where to display your hits.
 
-```
+```html
 <div id="hits">
   <!-- Hits widget will appear here -->
 </div>
@@ -95,7 +95,7 @@ In my site I put this in my `list.html` template inside `layouts/_default/` but 
 
 Now you’ll need to add your hits widget to your instantsearch instance, using `addWidget`. So open up your JS file and add:
 
-```
+```javascript
 // initialize hits widget
   search.addWidget(
     instantsearch.widgets.hits({
@@ -117,7 +117,7 @@ Now you’ll need to add your hits widget to your instantsearch instance, using�
 
 Notice I’ve specified the variable `hitTemplate` for my template item. Setting up this will allow me to parse a [Mustache](https://community.algolia.com/instantsearch.js/v1/documentation/) template string and some HTML to customise the view of the hit. Let’s create that variable now.
 
-```
+```javascript
 // create variable for custom hit template
   var hitTemplate =
   '<a href="{{ permalink }}" class="List-item">' +
@@ -151,7 +151,7 @@ Great, title searches should now be configured.
 
 In order to querying our index we’re going to need a search bar. To do this add the Searchbox widget to your template:
 
-```
+```html
 <div id="search-box">
     <!-- SearchBox widget will appear here -->
 </div>
@@ -159,7 +159,7 @@ In order to querying our index we’re going to need a search bar. To do this ad
 
 Back in your `app.js` file, add the following:
 
-```
+```javascript
 // Parse options to instantsearch
   const search = instantsearch(options);
 
@@ -187,7 +187,7 @@ Finally, you might want to provide filters based on the structure of your conten
 
 If you have been following from [Part 1](articles/hugo-algolia/), inside your `config.toml` file you should have the following:
 
-```
+```yaml
 [params.algolia]
   vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
   params = ["categories", "tags"]
@@ -197,7 +197,7 @@ It’s important we have `tags` set in the Algolia Params.
 
 Then within your post front matter, add the following to a few of your posts to make sure everything is set up correctly when you re-index your site:
 
-```
+```yaml
 tags:
   - your_first_tag
   - your_second_tag
@@ -226,7 +226,7 @@ The final thing to do is add a refinement list widget so we can filter our resul
 
 Similar to before, add a container with an `id="refinement-list"` to your chosen template:
 
-```
+```html
 <div id="refinement-list">
   <!-- RefinementList widget will appear here -->
 </div>
@@ -236,7 +236,7 @@ This is where your refinement list will appear.
 
 Just above `search.start();` in your `app.js` file, add the following:
 
-```
+```javascript
 // initialize RefinementList
   search.addWidget(
     instantsearch.widgets.refinementList({

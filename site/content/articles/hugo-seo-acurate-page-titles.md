@@ -22,7 +22,9 @@ No bad thing, it’s a great way to learn, but approach this method with caution
 
 In many cases, a quick look inside the `<head>` will often reveal the following seemly simple but potentially harmful code:
 
-`<title>{{ $.Site.Title }}</title>`
+```html
+<title>{{ $.Site.Title }}</title>
+```
 
 So what’s going on here?
 
@@ -41,14 +43,13 @@ A better solution would be to use the conditional `if` statement and reach for t
   <title>{{ .Title }} – {{ .Site.Title }}</title>
 {{- end }}
 ```
-
 The difference here is that `{{ .Site.Title }}` is only used if the current page is the homepage.
 
 For every other page, we use the page title specified in the page front matter, which should almost always be unique and therefore good for SEO.
 
 For an alternative solution try:
 
-```
+```html
 <title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}</title>
 ```
 
@@ -60,7 +61,7 @@ For an added SEO boost, try applying the same thinking to your page descriptions
 
 The simple solution would be to define the description in the front matter of each page:
 
-```
+```yaml
 ---
 title: "Hugo SEO: Unique, Accurate page titles"
 description: "Get an SEO boost on your website pages with descriptive page titles which make search engines happy"
