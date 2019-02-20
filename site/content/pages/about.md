@@ -15,32 +15,20 @@ You’ll find [articles on design and code](/articles/) and notes on [interestin
 
 ## More about me
 
-I’m an independent product designer from London. My work takes place in the grey area between UX and UI design and frontend web development. From problem solving concepts to executing high fidelity mockups and prototypes in code, I involve myself in projects from start to finish. 
+I’m an independent product designer from London. My work takes place in the grey area between UX and UI design and frontend web development. From problem solving concepts to executing high fidelity mockups and coding prototypes, I usually involve myself in projects from start to finish. 
 
-I currently live between London and Hamburg, where I work  with a handful of clients, often remotely. In my free time I enjoy climbing, hiking, running and skiing. I practice meditation and yoga most days.
+I live between London and Hamburg, where I work with a handful of clients, often remotely. In my free time I enjoy climbing, hiking, running and skiing. I practice meditation and yoga most days.
 
-### Personal Projects
-
-- [Type Services](https://typeservices.co/) is a small type foundry I set up in 2017 with a focus on hand drawn type and imperfection in type design.
-- [In Detail](https://indtl.com/) focuses on visual interviews with jewellery collectors and influencers. I co-founded and continue to work on the project with jewellery consultant [Beanie Major](http://blake-ldn.com/journal/2016/11/8/blake-woman-beanie-major).
-
-### Things I’ve made
-
-- [Rhythm&Sync](https://rhythmandsync.com/), a simple Hugo site for a London based music, sound and visual agency.
-- [AIN Prototypes](http://harrycresswell.co.uk/), a selection of front-end prototypes built for Angel Investment Network related projects.
-- [Lulafitness](https://www.lulafitness.co.uk/) is a simple static site built with Hugo.
-- [Albion Cycling](http://www.albioncycling.com/), a Wordpress build with Shopify integration, in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
-- [Dark Sky](https://soundcloud.com/dark-sky) are an electronic music duo from south London. Since 2012 I have led creative direction of their artwork. You can see each release and listen to their music over on [my Soundcloud page](https://soundcloud.com/harrycresswell).
 
 ## Where to go next
 
-To learn about building design systems in Sketch, [I write about my process on Medium](https://medium.com/@harrycresswell).
+If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together. Or check out a few [things I’ve made](/work/) first. Here’s my [full CV](/cv/), for all those people who still ask for it. 
 
-If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together.
+Designers may find in my articles on [building UI design systems](https://medium.com/@harrycresswell) interesting, you can find those on Medium. Developers can learn about [building static sites with Hugo](/articles/) right here. If you’re interested in [how I made this site](/imprint/) you can learn about that on my Imprint page. 
 
-You can read [my full CV](/cv/) or find me on [LinkedIn](https://uk.linkedin.com/in/harrycresswell
-) if you prefer.
+You can find me on [Twitter](https://twitter.com/harrycresswell) for a chat and very occassionaly I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell), if that’s more your thing.
+
 
 ## Let's keep in touch
 
-If you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a few useful tools, articles and other things worth sharing. You’re also welcome to [drop me a tweet](https://twitter.com/harrycresswell) if you have any questions or just want to say hi.
+Finally, if you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a roundup of useful articles, tools and other things worth sharing. If you have any questions or just want to say hi, you’re welcome to [ask me anything](/contact/) you like, whenever you like.
