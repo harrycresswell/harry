@@ -18,11 +18,11 @@ url = "/work/"
 
 
 ## Selected client work 
-[Rhythm&Sync](https://rhythmandsync.com/). A simple Hugo site for a London based music, sound and visual agency.
+[Rhythm&Sync](https://rhythmandsync.com/). A simple Hugo site I designed and built for a London based music, sound and visual agency. The site uses Forestry CMS, Cloudinary for media and Netlify for hosting.
   
-[Albion Cycling](http://www.albioncycling.com/). Wordpress build with Shopify integration and custom weather app. In collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
+[Albion Cycling](http://www.albioncycling.com/). A Wordpress build with custom theme, Shopify integration and custom weather app. I designed the site in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
   
-[AIN Prototypes](http://harrycresswell.co.uk/), selected frontend prototypes built for Angel Investment Network related projects.
+[AIN Prototypes](http://harrycresswell.co.uk/). Selected frontend prototypes built for Angel Investment Network, a platform connecting Investors and startups.
   
 [Rose Beer Beauty](https://rosebeerbeauty.com/). A static site built with Hugo, for London-based journalist, consultant, creative director and stylist Rose Beer. 
   
