@@ -6,14 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
+    <!-- Primary Meta Tags -->
     <title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}</title>
+    <meta name="title" content="Harry Cresswell">
+    <meta name="description" content="UX & UI Design. Frontend web development. Technical related blog posts on design and code by 
+    github.com/harrycresswell">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
-    <meta property="og:description" name="description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:image" content="{{ $.Site.BaseURL }}img/favicon.ico">
-    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <meta property="og:image" content="{{ $.Site.BaseURL }}img/about-me.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta property="twitter:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <meta property="twitter:image" content="{{ $.Site.BaseURL }}img/about-me.jpg">
+
 
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
