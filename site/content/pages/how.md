@@ -16,9 +16,9 @@ For several years I worked as an in-house designer at Harvey Nichols before sett
 
 ## What I do
 
-Working with small businesses requires a broad skillset. I’m well versed in user experience design, interface design, identity design, front-end development and digital marketing.
+Working with small businesses requires a broad skillset. I’m well versed in user experience design, interface design, identity design, frontend development and digital marketing.
 
-I’m one part creative and one part technical, meaning I design and code. Usually I involve myself in projects from concept through to execution. This is the way I enjoy working the most.
+I’m one part creative and one part technical, meaning I design and code. Usually I involve myself in projects from concept through to execution. This is the way I enjoy working the most and how I provide the most value.
 
 My clients usually hire me to do:
 
