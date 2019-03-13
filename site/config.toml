@@ -60,7 +60,7 @@ enableEmoji = true
 
 [[menu.footer]]
   name = "Mood"
-  url = "https://mo-od.netlify.com/"
+  url = "https://mood.harrycresswell.com/"
   weight = 10
 
 [[menu.footer]]
@@ -95,6 +95,6 @@ enableEmoji = true
 
 [[menu.mobile]]
   name = "Mood"
-  url = "https://mo-od.netlify.com/"
+  url = "https://mood.harrycresswell.com/"
   weight = 30
 
