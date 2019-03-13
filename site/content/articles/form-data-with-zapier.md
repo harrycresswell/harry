@@ -88,8 +88,8 @@ The end result should look something like this:
 
 ```html
 <form id="myForm" action="#" type="POST">
-  <input type="text" name="full-name" placeholder="What's your name?">
-  <input type="email" name="email-address" placeholder="What's your email address?">
+  <input type="text" name="full-name" placeholder="What's your name?"/>
+  <input type="email" name="email-address" placeholder="What's your email address?"/>
   <input type="submit" value="Submit" id="Form-submit"/>
 </form>
 ```
@@ -123,13 +123,13 @@ Remember to assign a `name=""` attribute to all the form elements you want to co
 Let’s add one for our name input and one for our email input:
 
 ```html
-<input type="text" name="full-name" placeholder="What's your name?">
+<input type="text" name="full-name" placeholder="What's your name?"/>
 ```
 
 Here I’ve used `name="full-name"` and `email="email-address"`.
 
 ```html
-<input type="email" name="email-address" placeholder="What's your email address?">
+<input type="email" name="email-address" placeholder="What's your email address?"/>
 ```
 
 Zapier will look out for the `name=""` attribute when it tries to grab the values inputed by the user, so it’s important you remember to add them or your form won’t work.
@@ -175,8 +175,8 @@ Your form should now look something like this:
 
 ```html
 <form id="myForm" action="https://hooks.zapier.com/hooks/catch/1707140/msf6zi/" type="POST">
-  <input type="text" name="full-name" placeholder="What's your name?">
-  <input type="email" name="email-address" placeholder="What's your email address?">
+  <input type="text" name="full-name" placeholder="What's your name?"/>
+  <input type="email" name="email-address" placeholder="What's your email address?"/>
   <input type="submit" value="Submit" id="Form-submit"/>
 </form>
 ```
@@ -277,8 +277,8 @@ The HTML for our form should now look something like this:
 
 ```html
 <form id="myForm">
-  <input type="text" name="full-name" placeholder="What's your name?">
-  <input type="email" name="email-address" placeholder="What's your email address?">
+  <input type="text" name="full-name" placeholder="What's your name?"/>
+  <input type="email" name="email-address" placeholder="What's your email address?"/>
   <input type="submit" value="Submit" id="Form-submit"/>
 </form>
 ```
@@ -287,11 +287,9 @@ The HTML for our form should now look something like this:
 <em>Update (30th July 2018): After switching to the Ajax method you’ll need to go back to your Zap in Zapier and re-test the webhook to pull in fresh data. Then make sure you update your email template with your new data. Finally, turn your Zap back on and you’re good to go.</em>
 </p>
 
-## Wrapping up
+## Taking it further
 
-In this article we’ve looked at building a form and using Zapier to process the data by sending us an automated email.
-
-We haven’t had to use any server side code or pay for a form provider in order to get this working. A great solution for use on a static website.
+In this article we’ve looked at submitting form data to an email address using Zapier. This is an ideal low cost solution for static sites, where you want to avoid writing server side code or paying for a form provider. There are of course ways we can make this better.
 
 ### Validation
 
@@ -300,12 +298,32 @@ Something I haven’t tackled in this article is form validation. Validating you
 However you might find a very basic bit of validation is enough. By adding the `required` attribute to the end of any required form elements, you can ensure the form submitter is warned of those fields that are required, in order to submit the form.
 
 ```html
-<input type="email" name="email-address" required>
+<input type="email" name="email-address" required />
 ```
 
 This will prevent a user from submitting your form without inputting the necessary data.
 
-### Taking it further
+### Accessibility
+
+To make sure your forms are accessible to everyone and to prevent your site from getting penalised by Google, you will want to add labels to your form elements. Make sure you add a `for` attribute equal to the  `id` attribute of the related element to each label. This will bind them together.
+
+With this in mind, our might look like this:
+
+```html
+<form id="myForm">
+  <label for="Form-name">Name</label>
+  <input type="text" id="Form-name" name="full-name" placeholder="What's your name?"/>
+  <label for="Form-email">Email Address</label>
+  <input type="email" id="Form-email" name="email-address" placeholder="What's your email address?"/>
+  <label for="Form-submit" class="u-visually-hidden">Submit</label>
+  <input type="submit" value="Submit" id="Form-submit"/>
+</form>
+```
+
+Notice I’m using a class called `u-visually-hidden` to hide the button label from everyone except screen readers and crawlers.
+
+
+### Adding more fields
 
 Although I only used a first name and an email address in this example, you might want to process a whole lot more data with your form. Just remember to include a `name` attribute on every form element in order for Zapier to catch the data.
 
