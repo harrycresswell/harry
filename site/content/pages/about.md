@@ -22,13 +22,13 @@ I live between London and Hamburg, where I work with a handful of clients, often
 
 ## Where to go next
 
-If you’re interested in [working with me](/how/), you might like to read about a few possible ways we can work together. Here are a few [things I’ve made](/work/) if you’d like to see some projects. For those asking for it, here’s a copy [my CV](/cv/).
+If you’re interested in [working with me](/how/) you might like to read about a few possible ways we can work together. If you’d like to see some projects, here are a few [things I’ve made](/work/). And a copy [my CV](/cv/) for those who like to see one.
 
-I write about [building UI design systems](https://medium.com/@harrycresswell) on Medium, which may interest designers. Here I write mainly about [building static sites with Hugo](/articles/), which may interest developers. Head to my Imprint page to learn [how I made this site](/imprint/). 
+I write about [building UI design systems](https://medium.com/@harrycresswell) on Medium, which may interest designers. Here I write mainly about [building static sites with Hugo](/articles/), which may interest developers. My Imprint page explains [how I made this site](/imprint/). 
 
-I’m on [Twitter](https://twitter.com/harrycresswell) if you have questions or fancy a chat. Very occassionaly I check [LinkedIn](https://uk.linkedin.com/in/harrycresswell), if that’s more your thing.
+I’m on [Twitter](https://twitter.com/harrycresswell) if you have questions or just fancy a chat. Very occassionaly I check [LinkedIn](https://uk.linkedin.com/in/harrycresswell), if that’s more your thing.
 
 
 ## Let's keep in touch
 
-Finally, if you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a roundup of useful articles, tools and other things worth sharing. If you have a detailed question you’re welcome to [ask me anything](/contact/) you like, whenever you like.
+Finally, if you'd like to keep in touch please leave your email address below. Once a week, on a Friday morning, I send out [a brief newsletter](/newsletter/) containing a roundup of useful articles, tools and other things worth sharing. If you have a detailed question, [ask me anything](/contact/) you like, whenever you like.
