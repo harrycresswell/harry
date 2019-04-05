@@ -22,34 +22,39 @@
     flex-direction: row;
   }
 }
+.NewsletterForm-field {
+  flex: 1;
+}
 
 .NewsletterForm-input {
-  flex: 1;
   background: $color-lightest;
   border: solid 2px $color-lightest;
   border-radius: 0;
   font-size: .8rem;
   height: 64px;
-  @include margin-top(0.5);
+  @include margin-top(0.2);
   outline: 2px solid $color-lightest;
   outline-offset: 0;
   padding: 0 16px;
   position: relative;
   transition: all .2s;
+  width: 100%;
   -webkit-appearance: none;
 
     &:focus,
     &:active {
-      outline: 2px solid $color-link;
+      border: 2px solid $color-link;
+      outline: 4px solid lighten($color-link, 35%);
       outline-offset: 0;
       transition: all .2s;
     }
 }
 
 @include breakpoint(md) {
-  .NewsletterForm-input {
-    margin-top: 0;
+
+  .NewsletterForm-field {
     flex-grow: 2;
+    margin-top: 0;
     margin-right: 16px;
   }
 }
@@ -61,6 +66,6 @@
 
 @include breakpoint(md) {
   .NewsletterForm-button {
-    margin-top: 0;
+    margin-top: 42px;
   }
 }

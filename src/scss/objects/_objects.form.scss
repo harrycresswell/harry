@@ -40,7 +40,8 @@
 
     &:focus,
     &:active {
-      outline: 2px solid $color-link;
+      border: 2px solid $color-link;
+      outline: 4px solid lighten($color-link, 35%);
       outline-offset: 0;
       transition: all .2s;
     }
