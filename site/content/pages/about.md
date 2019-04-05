@@ -22,7 +22,7 @@ I live between London and Hamburg, where I work with a handful of clients, often
 
 ## Where to go next
 
-If you’re interested in [working with me](/how/) you might like to read about a few possible ways we can work together. If you’d like to see some projects, here are a few [things I’ve made](/work/). And a copy [my CV](https://harrycresswell.com/pdf/harry-cresswell-cv-march-19.pdf) for those who like to see one.
+If you’re interested in [working with me](/how/) you might like to read about a few possible ways we can work together. If you’d like to see some projects, here are a few [things I’ve made](/work/). And a copy [my CV](https://harrycresswell.com/pdf/harry-cresswell-cv-april-19.pdf) for those who like to see one.
 
 I write about [building UI design systems](https://medium.com/@harrycresswell) on Medium, which may interest designers. Here I write mainly about [building static sites with Hugo](/articles/), which may interest developers. My Imprint page explains [how I made this site](/imprint/). 
 
