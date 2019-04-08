@@ -32,7 +32,8 @@
   border-radius: 0;
   font-size: .8rem;
   height: 64px;
-  @include margin-top(0.2);
+  @include margin-top(0.3);
+  @include margin-bottom(0.5);
   outline: 2px solid $color-lightest;
   outline-offset: 0;
   padding: 0 16px;
@@ -57,15 +58,9 @@
     margin-top: 0;
     margin-right: 16px;
   }
-}
 
-.NewsletterForm-button {
-  flex-grow: 1;
-  @include margin-top(0.5);
-}
-
-@include breakpoint(md) {
   .NewsletterForm-button {
-    margin-top: 42px;
+    flex-grow: 1;
+    margin-top: 45px;
   }
 }
