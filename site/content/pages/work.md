@@ -1,5 +1,5 @@
 +++
-title = "Things I’ve made"
+title = "Things I made."
 date = "2019-02-20T22:30:25Z"
 description = "Things on the internet made by me"
 tags = ["Work"]
@@ -7,8 +7,6 @@ draft = "false"
 slug = "work"
 url = "/work/"
 +++
-
-
 
 ### Personal Projects
 
