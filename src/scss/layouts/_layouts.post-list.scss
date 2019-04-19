@@ -7,16 +7,18 @@
  * Component Block
  */
 
-//.PostList {}
+.PostList {
+  max-width: 100%;
+}
 
-//.PostListItem {}
+.PostListItem {
+  @include margin-bottom(4);
+}
 
 
 /**
  * Component Element
  */
-
-
  .PostListItem-title span {
    color: $color-link;
    font-size: 70%;
@@ -24,7 +26,11 @@
  }
 
  .PostListItem-title {
-   margin-top: 48px;
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+  line-height: 1;
+  @include margin-top(0);
+  @include margin-bottom(1);
 
    a {
      text-decoration: none;
@@ -33,4 +39,10 @@
    a:hover {
      text-decoration: underline;
    }
+ }
+
+ @include breakpoint(md) {
+  .PostList {
+    max-width: 80%;
+  }
  }
