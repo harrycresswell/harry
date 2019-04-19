@@ -8,10 +8,12 @@
  */
 
  .Header {
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
   padding: 7%;
 
   a {
+    color: $color-dark;
     text-decoration: none;
 
     &:hover {
@@ -26,22 +28,15 @@
 
 @include breakpoint(md) {
   .Header {
-    text-align: right;
-    position: fixed;
-    right: 0;
+    background: $color-white;
     padding: 7%;
-    z-index: 999;
   }
 
   .Header-nav {
-    display: block;
+    display: flex;
   }
 
-  .Header-link {
-    display: block;
+  .Header-link:not(:last-of-type) {
+    @include margin-right(1);
   }
-}
-
-.Header-title {
-  @include margin-bottom(1);
 }
