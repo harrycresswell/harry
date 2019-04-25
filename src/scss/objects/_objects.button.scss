@@ -17,7 +17,6 @@
     box-sizing: border-box;
     cursor: pointer;
     font-family: $font-system-mn;
-    font-size: .8rem;
     outline-style: none;
     text-align: left;
     text-decoration: none;
@@ -29,6 +28,10 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
+
+    @include breakpoint(md) {
+        font-size: 0.9rem;
+      }
 }
 
 /**
