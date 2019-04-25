@@ -9,11 +9,10 @@
   position: fixed;
   top: 0;
   right: 0;
-  padding: 12px;
-  background: $color-link;
-  color: #fff;
-  height: 64px;
-  width: 64px;
+  margin: 20px 12px;
+  color: $color-dark;
+  height: 40px;
+  width: 40px;
   z-index: 200;
   
   @include breakpoint(md) {
@@ -24,7 +23,7 @@
 .Hamburger-line {
   width: 32px;
   height: 2px;
-  background-color: $color-white;
+  background-color: $color-dark;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;

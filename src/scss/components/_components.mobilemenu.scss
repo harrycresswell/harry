@@ -5,12 +5,12 @@
 /* Navigation */
 
 .MobileMenu {
-  background-color: $color-link;
+  background-color: $color-white;
   display: none;
   margin: 0;
   top: 0;
   right: 0;
-  padding: 48px;
+  padding: 24px;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -28,12 +28,13 @@
 }
 
 .MobileMenu li {
-  margin-bottom: 8vh;
+  margin-bottom: 6vh;
 }
 
 .MobileMenu a {
-  color: $color-white;
-  font-size: 2rem;
+  color: $color-dark;
+  font-size: 2.5rem;
+  font-weight: $font-weight-medium;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
 }
