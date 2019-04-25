@@ -8,17 +8,39 @@
  */
 
 .Post {
-  max-width: 1024px;
 }
 
-.PostList {
-  list-style: none;
+.PostHeader {
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.PostHeader-title {
+  max-width: 960px;
 }
 
 .PostMeta {
   display: flex;
+  max-width: 1200px; 
+  margin: 0 auto;
   @include margin-bottom(1);
- }
+}
+
+.PostBody {
+@include margin-top(2);
+max-width: 1200px; 
+margin: 0 auto;
+
+  h2, h3, h4, h5, h6 {
+    @include margin-top(1.5);
+    @include margin-bottom(0.5);
+  }
+
+  p {
+    @include margin-bottom(0.8);
+  }
+
+}
 
 /**
  * Component Element
@@ -47,8 +69,22 @@
 }
 
 .Post .intro, .intro {
-  font-size: 120%;
-  line-height: 1.6;
+  font-size: 110%;
+  line-height: 1.4;
+
+  @include breakpoint(md) {
+    font-size: 120%;
+    line-height: 1.4;
+  }
+}
+
+.PostAuthor {
+  display: flex;
+  
+  h4 {
+    margin: 0;
+  }
+
 }
 
 .PostRelated {
