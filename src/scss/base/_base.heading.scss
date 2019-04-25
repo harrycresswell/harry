@@ -9,21 +9,24 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.015em;
 }
 
-h1 {
+h1, 
+.size-1 {
   font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
   @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
   line-height: 1;
   @include margin-bottom(1);
 }
 
-h2 {
+h2,
+.size-2 {
   font-size: $mod_1*$mod_1*$mod_1 *1rem;
   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
   @include margin-top(1.5);
   @include margin-bottom(0.5);
 }
 
-h3 {
+h3,
+.size-3  {
   font-size: $mod_1 *1rem;
   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
   @include margin-top(1.5);
