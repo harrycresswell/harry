@@ -48,5 +48,5 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
   </head>
-  <body>
+  <body class="Wrapper">
   <a name="{{.URL}}top"></a>

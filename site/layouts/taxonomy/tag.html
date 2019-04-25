@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="Wrapper">
+<section>
   <header class="PostHeader">
-    <h1 class="PostHeader-title">Posted under “{{ .Title }}”</h1>
+    <h1 class="PostHeader-title size-3">Posted under “{{ .Title }}”</h1>
   </header>
   <ul class="PostList">
   {{ range .Data.Pages }}
@@ -21,5 +21,5 @@
     </li>
   {{ end }}
   </ul>
-</div>
+</section>
 {{ end }}

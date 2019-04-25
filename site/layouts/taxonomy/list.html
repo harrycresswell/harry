@@ -1,20 +1,19 @@
 {{ define "main" }}
-<div class="Wrapper">
+<section>
   <header class="PostHeader">
-    <h1 class="PostHeader-title">Tags</h1>
+    <h1 class="PostHeader-title size-3">Tags</h1>
   </header>
-  <section>
+
   <ul class="PostList">
   {{ $data := .Data }}
   {{ range $key, $value := .Data.Terms.Alphabetical }}
-  <li>
-    <h3 class="PostList-title">
+  <li class="PostListItem">
+    <h3 class="PostListItem-title">
       <a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a>
       {{ $value.Count }}
     </h3>
   </li>
   {{ end }}
   </ul>
-  </section>
-</div>
+</section>
 {{ end }}
