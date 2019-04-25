@@ -10,8 +10,9 @@
  .Header {
   display: flex;
   justify-content: space-between;
-  padding: 7%;
-
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 7% 0;
   a {
     color: $color-dark;
     text-decoration: none;
@@ -29,7 +30,6 @@
 @include breakpoint(md) {
   .Header {
     background: $color-white;
-    padding: 7%;
   }
 
   .Header-nav {

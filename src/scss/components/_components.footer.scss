@@ -10,13 +10,10 @@
 .Footer {
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
   @include margin-top(1);
-  padding: 0 7% 0 7%;
   padding-bottom: 64px;
-}
-
-.FooterNav {
-
 }
 
 .FooterNav-link {

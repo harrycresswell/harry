@@ -8,8 +8,8 @@
  */
 
 .Newsletter {
-  max-width: 1024px;
-  margin: 0 7% 0 7%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .NewsletterForm {
@@ -30,7 +30,6 @@
   background: $color-lightest;
   border: solid 2px $color-lightest;
   border-radius: 0;
-  font-size: .8rem;
   height: 64px;
   @include margin-top(0.3);
   @include margin-bottom(0.5);
