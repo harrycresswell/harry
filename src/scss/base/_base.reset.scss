@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #BASE: BOX-SIZING
+    #BASE: RESET
 \*------------------------------------*/
 
 /**
@@ -16,6 +16,12 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+* {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
 
 // Must be 100% for off canvas to work
