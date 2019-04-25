@@ -8,6 +8,13 @@
  */
 
 .Container {
-    padding-top: 10%;
+    padding-top: 24%;
 }
+
+@include breakpoint(md) {
+    .Container {
+        padding-top: 10%;
+    }
+}
+
   

@@ -8,7 +8,9 @@
  */
 
 .PostList {
-  max-width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
 }
 
 .PostListItem {
@@ -31,6 +33,7 @@
   line-height: 1;
   @include margin-top(0);
   @include margin-bottom(1);
+  max-width: 960px;
 
    a {
      text-decoration: none;
@@ -39,10 +42,4 @@
    a:hover {
      text-decoration: underline;
    }
- }
-
- @include breakpoint(md) {
-  .PostList {
-    max-width: 80%;
-  }
  }
