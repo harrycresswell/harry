@@ -6,7 +6,7 @@ slug: "hugo-algolia-2"
 description: "Implement Instantsearch.js on your Hugo site and provide users with instantaneous search results"
 ---
 
-_This is Part 2 in a short series on getting started with Algolia search on a site built with Hugo, the static site generator._
+{{< intro >}}This is Part 2 in a short series on getting started with Algolia search on a site built with Hugo, the static site generator.{{< /intro >}}
 
 <p class="Message">You can download <a href="https://github.com/harrycresswell/hugolia">the project files</a> for this article over on Github.</p>
 

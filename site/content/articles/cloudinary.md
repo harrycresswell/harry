@@ -6,7 +6,7 @@ slug: "cloudinary"
 description: "Stop committing images to your git repo and use Cloudinary to create automatic responsive images"
 ---
 
-Responsive images are crucial part of improving website performance. But that doesn’t just mean setting all your images to `width: 100%;`, `height: auto;` and calling it a day.
+{{< intro >}}Responsive images are crucial part of improving website performance. But that doesn’t just mean globally setting images to 100% width, height ‘auto’, then calling it a day.{{< /intro >}}
 
 Ideally we want to create multiple versions of each image, sending users the version which best suits their viewing context. If, for example, visitors are using 3G on a mobile device, then we should serve the appropriately scaled images, for the best possible experience.
 

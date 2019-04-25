@@ -6,7 +6,7 @@ slug = "imprint"
 url = "imprint"
 +++
 
-For those interested in how I built this site, here's a quick overview. If you don’t find the answers you’re looking for or have a specific question [drop me a message](/contact/), I’d be happy to help.
+{{< intro >}}This page shares the technology and techniques I used to build and host this website. You will also find licensing, privacy and legal information.{{< /intro >}}
 
 ## Templating
 I’m using [Hugo](https://gohugo.io/), a [Go](https://golang.org/) based [static site generator](https://www.staticgen.com/), primarily because it’s flexible and lightning fast. The site uses a custom theme built on top of the [Victor-Hugo](https://github.com/netlify/victor-hugo) boilerplate, a great starting point for a [Gulp](https://gulpjs.com/) and [Webpack](https://webpack.js.org/) assets pipeline. I made a few modifications to include SCSS support and a [responsive image build task](https://github.com/harrycresswell/harry/blob/master/gulpfile.babel.js#L66), which generates both retina and non-retina image sizes.
@@ -47,4 +47,4 @@ Studio HC Ltd, Company No. 9442649,
 
 Here‘s my [privacy policy](/privacy) for those interested in what data I collect, what I do with it and how I keep it safe.
 
-
+If haven’t found the answers you’re looking for or have a specific question [drop me a message](/contact/), I’d be happy to help.

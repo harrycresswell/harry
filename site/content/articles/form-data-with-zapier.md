@@ -9,7 +9,7 @@ Author = "Harry Cresswell"
 
 {{< intro >}}Have you ever felt overwhelmed by the amount of code it takes to get a simple contact form working on a website?{{< /intro >}}
 
-{{< intro >}}Part of the reason I built my site static was because I didn’t want the hassle of having a to deal with a database, a server and PHP. Dealing with all that stuff adds a layer of complexity to a website, particularly when it comes to processing form data — so if it’s not a necessity i’d rather avoid it.{{< /intro >}}
+Part of the reason I built my site static was because I didn’t want the hassle of having a to deal with a database, a server and PHP. Dealing with all that stuff adds a layer of complexity to a website, particularly when it comes to processing form data, if it’s not a necessity I’d rather avoid it.
 
 But where do you even start with processing form data on a static site?
 
@@ -21,7 +21,7 @@ I now use <a href="/articles/forms-with-netlify/">Netlify to handle form submiss
 
 [On this site](/contact/) I’m using [Zapier](https://zapier.com/) to collect form data and send it directly to my email. No servers, no database, no PHP. In this article we’ll look at how you can use the same technique to build a simple contact form for your own website, using Webhooks to collect data submitted and automatically send it to you in an email.
 
-**If you’re building a static website with a generator like Jekyll, Hugo, Middleman or even just in vanilla HTML, then this is a great solution to get a form working on your site with minimal fuss.**
+_If you’re building a static website with a generator like Jekyll, Hugo, Middleman or even just in vanilla HTML, then this is a great solution to get a form working on your site with minimal fuss._
 
 The good news is it’s pretty simple to implement and it’s free.
 

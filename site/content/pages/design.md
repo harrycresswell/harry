@@ -6,7 +6,7 @@ slug = "design"
 url = "/design/"
 +++
 
-I’m here to help you bring your project to life. If you’re aiming to grow your business online I can help you in a number of ways:
+{{< intro >}}I’m here to help you bring your project to life. If you’re aiming to grow your business online I can help you in a number of ways:{{< /intro >}}
 
 - **Evaluate your business goals** and make a solid plan of action.
 - **Build a website** which you can manage.

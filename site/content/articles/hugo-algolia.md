@@ -9,7 +9,7 @@ description: "Learn how to implement Algolia InstantSearch on a Hugo based stati
 <p class="Message">You can download <a href="https://github.com/harrycresswell/hugolia">the project files</a> for this article over on Github.</p>
 
 
-We’re about to walk through setting up Algolia search on a Hugo static site with a Forestry CMS, so you can search your posts instantaneously and edit content directly from the browser.
+{{< intro >}}We’re about to walk through setting up Algolia search on a Hugo static site with a Forestry CMS, so you can search your posts instantaneously and edit content directly from the browser.{{< /intro >}}
 
 This first part is heavily based on [Chris Macrae’s awesome article on Forestry.io](https://forestry.io/blog/search-with-algolia-in-hugo/#creating-the-json-template), with some adaptations to fit my specific needs. In the second article we’ll implement Instantsearch.js on the front end, which aims to pick up where the Chris’s article left off.
 

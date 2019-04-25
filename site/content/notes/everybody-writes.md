@@ -7,9 +7,6 @@ title = "Everybody Writes by Ann Handley"
 
 +++
 
-### Thoughts
-
-
 ### Notes
 
 **Note to self**: Look into _“The Elements of Style by Strunk and White”_ and _"On Writing by Stephen King"_.

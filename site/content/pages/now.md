@@ -6,9 +6,9 @@ slug = "now"
 url = "now"
 +++
 
-I’m back in London 🇬🇧, the clocks have gone back and it’s feeling a lot like Spring again. In no particular order, these are the things I’m working on.
+I’m back in London 🇬🇧, the clocks have gone back and it’s feeling a lot like Spring again. These are the things I’m working on right now.
 
-### Working on
+### Current Projects
 
 - [In Detail](https://indtl.com/) – we just launched the [Engagement Ring Concierce](https://indtl.com/engagement-rings) service 💍and now we’re working on improving our customer journey.
 - Rebuilding [SeedTribe](https://www.seedtribe.com/) using Gatsby and Contentful.
