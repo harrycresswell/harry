@@ -8,30 +8,17 @@
  */
 
 .Footer {
-  display: flex;
-  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   @include margin-top(1);
   padding-bottom: 64px;
+
+  p {
+    @include margin-top(1);
+  }
 }
 
 .FooterNav-link {
   margin-right: 16px;
   text-decoration: none;
-}
-
-.BackToTop {
-  span {
-    color: $color-link;
-    margin-right: 8px;
-  }
-
-  a {
-  text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
