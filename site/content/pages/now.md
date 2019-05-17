@@ -17,6 +17,7 @@ I’m in London 🇬🇧 and these are the things I’m working on right now.
 
 ### Currently Reading
 
+- [Brief Answers to the Big Questions](https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions) by Stephen Hawking
 - [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
 - [The Greatest](https://www.goodreads.com/book/show/34056102-the-greatest) by Matthew Syed
 - [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
@@ -30,5 +31,5 @@ I’m in London 🇬🇧 and these are the things I’m working on right now.
 
 These are pretty much my priorities right now, but if you want to talk, [drop me a message](/contact/). I’m always keen to hear from new people.
 
-- **Last Updated:** May 4, 2019.
+- **Last Updated:** May 12, 2019.
 - **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
