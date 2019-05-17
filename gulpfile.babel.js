@@ -4,8 +4,6 @@ import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
 import postcss from "gulp-postcss";
-import cssImport from "postcss-import";
-import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
 import watch from "gulp-watch";
 import webpack from "webpack";
@@ -14,8 +12,6 @@ import autoprefixer from "autoprefixer";
 import sass from "gulp-sass";
 import cssNano from "gulp-cssnano";
 import responsive from "gulp-responsive";
-import imagemin from "gulp-imagemin";
-import mozjpeg from "imagemin-mozjpeg";
 import sourcemaps from "gulp-sourcemaps";
 
 const browserSync = BrowserSync.create();
@@ -29,7 +25,7 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["css", "js", "img:build", "fonts"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js", "fonts", "hugo-preview"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
@@ -63,42 +59,6 @@ gulp.task("js", (cb) => {
   });
 });
 
-// Create 4 different sizes for responsive images
-gulp.task("img", () =>
-  gulp.src("./src/img/**.*")
-  // Resize images (use with <img> shortcode in hugo)
-    .pipe(responsive({
-      "*": [{
-        width: 480,
-        rename: {suffix: "-sm"},
-      }, {
-        width: 480 * 2,
-        rename: {suffix: "-sm@2x"},
-      }, {
-        width: 960,
-      }, {
-        width: 960 * 2,
-        rename: {suffix: "@2x"},
-      }],
-    }, {
-      silent: true      // Don't spam the console
-    }))
-    .pipe(gulp.dest("./dist/img")
-));
-
-// Compress images
-gulp.task("img:build", ["img"], () =>
-  gulp.src(["./dist/img/*.{jpg,png,gif,svg}"])
-    // Optimise images
-    .pipe(imagemin([
-      imagemin.gifsicle(),
-      imagemin.optipng(),
-      imagemin.svgo(),
-      mozjpeg(),
-    ]))
-    .pipe(gulp.dest("./dist/img"))
-);
-
 // Move all fonts in a flattened directory
 gulp.task('fonts', () => (
   gulp.src("./src/fonts/**/*")
@@ -108,7 +68,7 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server", ["hugo", "css", "js", "img", "fonts"], () => {
+gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
