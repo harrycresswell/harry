@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 select {
-  background: $color-lightest;
+  background: var(--color-lightest);
   border: 0;
   cursor: pointer;
   font-size: 0.8rem;

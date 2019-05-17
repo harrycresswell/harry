@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 ul, ol {
-  color: $color-dark;
+  color: var(--color-dark);
   list-style-position: inside;
   max-width: 675px;
   padding-left: 0;

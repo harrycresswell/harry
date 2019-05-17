@@ -5,12 +5,12 @@
 html {
 	@include fluid-type($min_width, $max_width, $min_font, $max_font);
 	font-feature-settings: "calt","liga","hist","onum","pnum";
-	background-color: $color-link;
+	background-color: var(--color-link);
 }
 
 body {
-	background-color: $color-white;
-	color: $color-body;
+	background-color: var(--color-white);
+	color: var(--color-body);
 	font-family: $font-system-rg;
 	font-weight: $font-weight-regular;
 	line-height: $baseline;

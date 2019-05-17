@@ -5,7 +5,7 @@
 /* Navigation */
 
 .MobileMenu {
-  background-color: $color-white;
+  background-color: var(--color-white);
   display: none;
   margin: 0;
   top: 0;
@@ -32,7 +32,7 @@
 }
 
 .MobileMenu a {
-  color: $color-dark;
+  color: var(--color-dark);
   font-size: 2.5rem;
   font-weight: $font-weight-medium;
   text-decoration: none;

@@ -10,7 +10,7 @@
   top: 0;
   right: 0;
   margin: 20px 12px;
-  color: $color-dark;
+  color: var(--color-dark);
   height: 40px;
   width: 40px;
   z-index: 200;
@@ -23,7 +23,7 @@
 .Hamburger-line {
   width: 32px;
   height: 2px;
-  background-color: $color-dark;
+  background-color: var(--color-dark);
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;

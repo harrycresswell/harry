@@ -14,7 +14,7 @@
  }
 
  ::placeholder {
-   color: $color-lighter;
+   color: var(--color-lighter);
  }
 
  /**
@@ -24,12 +24,12 @@
 .Form-input,
 .Form-textarea,
 .Form-select {
-  background: $color-lightest;
-  border: solid 2px $color-lightest;
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
   border-radius: 0;
   height: 60px;
   @include margin-top(0.25);
-  outline: 2px solid $color-lightest;
+  outline: 2px solid var(--color-lightest);
   outline-offset: 0;
   padding: 0 16px;
   position: relative;
@@ -39,7 +39,7 @@
 
     &:focus,
     &:active {
-      border: 2px solid $color-link;
+      border: 2px solid var(--color-link);
       outline: 4px solid lighten($color-link, 35%);
       outline-offset: 0;
       transition: all .2s;
@@ -50,7 +50,7 @@
 .Form-select {
 
     &:after {
-      color: #000;
+      color: var(--color-dark);
       content: '▾';
       display: block;
       height: 14px;

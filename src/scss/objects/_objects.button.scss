@@ -39,12 +39,12 @@
  */
 
 .Button--primary {
-    background: $color-dark;
-    border: solid 2px $color-dark;
-    color: $color-white;
+    background: var(--color-dark);
+    border: solid 2px var(--color-dark);
+    color: var(--color-white);
     height: 60px;
     margin: 0 auto;
-    outline: solid 2px $color-dark;
+    outline: solid 2px var(--color-dark);
     outline-offset: 0;
     padding: 0 32px;
 }
@@ -57,7 +57,7 @@
 .Button--primary:focus,
 .Button--primary:active,
 .Button--primary.is-pressed {
-    background-color: $color-dark;
+    background-color: var(--color-dark);
     box-shadow: 0 10px 28px rgba(47,47,47,.3);
     transform: translateY(-2px);
 }

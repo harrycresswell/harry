@@ -2,10 +2,14 @@
     #ABSTRACTS: COLORS
 \*------------------------------------*/
 
-$color-white: #fff !default;
-$color-dark: #222 !default;
-$color-body: #373a3c !default;
-$color-light: #555 !default;
-$color-lighter: #888 !default;
-$color-lightest: #f5f5f5 !default;
-$color-link: #542bff !default;
+$color-link: #542bff;
+
+:root {
+    --color-dark: #222;
+    --color-body: #373a3c;
+    --color-light: #555;
+    --color-lighter: #888;
+    --color-lightest: #f5f5f5;
+    --color-link: #542bff;
+    --color-white: #fff;
+}

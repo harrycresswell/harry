@@ -49,7 +49,7 @@ margin: 0 auto;
 .PostMeta-tag {
 
   a {
-    color: $color-dark;
+    color: var(--color-dark);
     text-decoration: underline;
   }
   a:not(:last-child):after {
@@ -59,8 +59,8 @@ margin: 0 auto;
 }
 
 .Post p.Message {
-  border: dotted 1px $color-link;
-  color: $color-link;
+  border: dotted 1px var(--color-link);
+  color: var(--color-link);
   padding: 2% 3%;
 
   a {

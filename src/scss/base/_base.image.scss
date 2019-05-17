@@ -20,6 +20,6 @@ figure > img {
 }
 
 figcaption {
-  color: $color-lighter;
+  color: var(--color-lighter);
   font-size: 70%;
 }

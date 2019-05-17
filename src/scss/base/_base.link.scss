@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 a {
-  color: $color-link;
+  color: var(--color-link);
   text-decoration: underline;
   transition: color .2s ease-in-out;
 

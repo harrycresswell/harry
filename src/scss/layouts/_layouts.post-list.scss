@@ -22,20 +22,21 @@
  * Component Element
  */
  .PostListItem-title span {
-   color: $color-link;
+   color: var(--color-dark);
    font-size: 70%;
    margin-left: 10px;
  }
 
  .PostListItem-title {
-  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
-  line-height: 1;
-  @include margin-top(0);
-  @include margin-bottom(1);
-  max-width: 960px;
+    font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+    @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+    line-height: 1;
+    @include margin-top(0);
+    @include margin-bottom(1);
+    max-width: 960px;
 
    a {
+     color: var(--color-dark);
      text-decoration: none;
    }
 

@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 blockquote {
-  color: $color-dark;
+  color: var(--color-dark);
   float: right;
   font-size: $mod_1*$mod_1*$mod_1 *1rem;
   font-weight: $font-weight-medium;
