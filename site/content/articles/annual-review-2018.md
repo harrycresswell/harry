@@ -10,7 +10,7 @@ tags = ["Year in Review"]
 
 Having struggled with the pressures of a goal setting approach in previous years, I was drawn to this method after reading [James Clear’s Atomic Habits](https://jamesclear.com/atomic-habits). 
 
-The format of my Year in Review is almost the same as James’s. Nothing new, but new for me. I hope it will help refine my processes and set myself up for a productive year ahead.
+The format of my Year in Review is almost the same as James’. Nothing new, but new for me. I hope it will help refine my processes and set myself up for a productive year ahead.
 
 My Year in Review will answer the following three questions:
 
