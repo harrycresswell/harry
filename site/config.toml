@@ -1,9 +1,8 @@
 baseurl = "https://harrycresswell.com/"
-languageCode = "en-us"
+languageCode = "en"
 languageLang = "en"
 title = "Harry Cresswell"
 pluralizelisttitles = false
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 # Enable Disqus by removing comments
 #disqusShortname = "harrycresswell"
