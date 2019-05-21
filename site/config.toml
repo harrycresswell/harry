@@ -15,6 +15,14 @@ enableEmoji = true
 #PygmentsCodeFences = true
 #pygmentsCodefencesGuessSyntax = true
 
+[outputs]
+  home = [ "HTML", "RSS" ]
+
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+  
 [permalinks]
   articles = "/:section/:slug/"
   notes = "/:section/:slug/"
