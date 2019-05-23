@@ -1,5 +1,5 @@
 ---
-title: "Design System Methodology"
+title: "Design System Thinking"
 date: 2018-05-02T20:47:43+01:00
 tags: ["Sketch", "Design"]
 slug: "dsm"

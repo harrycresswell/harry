@@ -14,7 +14,7 @@ This is the point where a lot of us give up or start feeling massively overwhelm
 
 If you manage to get past that first stage, congratulations, you’re half way there. But maybe now you’re working tirelessly around the clock to perfect your product in time for launch. Then you launch, expecting great things to happen and an unmanageable stream of interest to come flooding in.
 
-In reality it’s often the complete opposite. Maybe that sounds familiar or at least you know someone who’s been there. I feel like we all have in some form at some point in our lives. Be it when launching new a business, working on an article, writing a book or whatever.
+In reality it’s often the complete opposite. Maybe this sounds familiar or at least you know someone who’s been there. I feel like we all have in some form at some point in our lives. Be it when launching new a business, working on an article, writing a book or whatever.
 
 Here’s some ideas I’ve picked up along the way, to give you the best possible chance of launching products that don’t fall flat on their face, leaving you feeling disheartened and ready to chuck it all in.
 

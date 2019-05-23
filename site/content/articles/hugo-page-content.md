@@ -1,5 +1,5 @@
 ---
-title: "Specific page content on your Hugo homepage"
+title: "Page content on your Hugo homepage"
 date: 2018-03-02T15:44:49+01:00
 tags: ["Hugo"]
 slug: hugo-page-content-on-homepage
