@@ -16,9 +16,18 @@
   p {
     @include margin-top(1);
   }
+
 }
 
-.FooterNav-link {
-  margin-right: 16px;
-  text-decoration: none;
+.FooterNav {
+  a {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 16px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
