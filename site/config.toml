@@ -52,29 +52,39 @@ enableEmoji = true
   weight = 5
 
 [[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 10
+
+[[menu.main]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 10
+  weight = 15
 
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 15
+  weight = 20
 
 [[menu.footer]]
-  name = "Imprint"
-  url = "/imprint/"
+  name = "Articles"
+  url = "/articles/"
   weight = 5
 
 [[menu.footer]]
-  name = "Mood"
-  url = "https://mood.harrycresswell.com/"
+  name = "Notes"
+  url = "/notes"
   weight = 10
 
 [[menu.footer]]
-  name = "Notes"
-  url = "/notes/"
+  name = "Newsletter"
+  url = "/newsletter/"
   weight = 15
+
+[[menu.footer]]
+  name = "About"
+  url = "/about/"
+  weight = 20
 
 [[menu.mobile]]
   name = "Articles"
