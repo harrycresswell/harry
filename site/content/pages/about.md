@@ -8,7 +8,7 @@ url = "/about/"
 
 {{< intro >}}I made this site as a place to share my experience working as a designer and building things for the internet.{{< /intro >}}
 
-You’ll find [articles on design and code](/articles/) and notes on [interesting things I’m learning](/notes/) from books, courses and talks. I hope you pick up some useful tips whilst you’re here.
+You’ll find [articles on design and code](/articles/) and [notes on things I’m learning](/notes/) from books, courses and talks.
 
 {{< cld src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
@@ -22,7 +22,7 @@ I live between London and Hamburg, where I work with a handful of clients, often
 
 ## Where to go next
 
-If you’re interested in [working with me](/how/) you might like to read about ways we can work together. If you’d like to see some projects, here are a few [things I made](/work/). And  for those who like to see one, here’s [my CV](https://harrycresswell.com/pdf/harry-cresswell-cv-april-19.pdf).
+If you’re interested in [working with me](/how/) you might like to read about ways we can work together. If you’d like to see some projects, here are a few [things I made](/things/). And  for those who like to see one, here’s [my CV](https://harrycresswell.com/pdf/harry-cresswell-cv-april-19.pdf).
 
 I write about [building UI design systems](https://medium.com/@harrycresswell) on Medium, which may interest designers. Here I write mainly about [building static sites with Hugo](/articles/), which may interest developers. My Imprint page explains [how I made this site](/imprint/). 
 
