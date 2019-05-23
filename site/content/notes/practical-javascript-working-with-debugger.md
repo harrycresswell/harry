@@ -1,5 +1,5 @@
 +++
-title = "Practical JavaScript - Working with the Debugger"
+title = "Working with the Debugger"
 date = "2018-12-17T14:44:41Z"
 description = "Debugging JavaScript using Debugger"
 slug = "/practical-javascript-debugger/"

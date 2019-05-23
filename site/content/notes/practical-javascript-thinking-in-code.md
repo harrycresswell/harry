@@ -1,5 +1,5 @@
 +++
-title = "Practical JavaScript – Thinking in Code"
+title = "Thinking in Code"
 date = "2018-11-15T11:24:19+01:00"
 description = ""
 slug = "practical-javascript-thinking-in-code"

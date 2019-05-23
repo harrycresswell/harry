@@ -1,5 +1,5 @@
 ---
-title: "Practical JavaScript – Functions"
+title: "Functions"
 date: 2018-07-30T09:40:59+01:00
 slug: "parctical-javascript-functions"
 tags: ["JavaScript"]

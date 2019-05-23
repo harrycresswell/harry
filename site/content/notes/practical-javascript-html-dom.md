@@ -1,5 +1,5 @@
 +++
-title = "Practical JavaScript – HTML and the DOM"
+title = "HTML and the DOM"
 date = "2018-11-25T12:14:41+01:00"
 description = "Build a todo app with Javascript,learn about the Document Object Model and begin building the front-end HTML to allow users to interface with our application"
 slug = "practical-javascript-html-dom"

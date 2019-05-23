@@ -1,5 +1,5 @@
 +++
-title = "Practical JavaScript – Data Types and Comparisons"
+title = "Data Types and Comparisons"
 date = "2018-11-22T11:54:12+01:00"
 description = ""
 slug = "practical-javascript-data-types-comparisons"

@@ -1,5 +1,5 @@
 +++
-title = "Practical JavaScript  – Loops for Logic"
+title = "Loops for Logic"
 date = "2018-11-08T11:29:03+01:00"
 description = "Build a todo app with Javascript, learn about using for loops for logic"
 slug = "practical-javascript-for-loops"

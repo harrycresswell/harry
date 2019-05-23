@@ -1,5 +1,5 @@
 ---
-title: "Practical JavaScript – Arrays"
+title: "Arrays"
 date: 2018-07-19T14:49:54+02:00
 slug: "practical-javascript-arrays"
 tags: ["JavaScript"]

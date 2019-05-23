@@ -1,5 +1,5 @@
 +++
-title = "Practical Javascript – Functions inside functions"
+title = "Functions inside functions"
 date = "2019-02-06T21:45:46Z"
 description = "5 different examples of using functions within functions. Lean about higher order functions and callback functions"
 slug = "practical-javascript-functions-inside-functions"
