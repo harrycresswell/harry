@@ -1,11 +1,12 @@
   <footer class="Footer">
-      <p>You can subscribe to the RSS Feeds for <a href="{{ $.Site.BaseURL }}feed.xml">all content</a>, <a href="{{ $.Site.BaseURL }}articles/feed.xml">articles</a> or <a href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.</p>
     <nav class="FooterNav">
         {{ $currentPage := . }}
         {{ range .Site.Menus.footer }}
         <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
         {{ end }}
     </nav>
+
+    <p>You can subscribe to the RSS Feeds for <a href="{{ $.Site.BaseURL }}feed.xml">all content</a>, <a href="{{ $.Site.BaseURL }}articles/feed.xml">articles</a> or <a href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.</p>
   </footer>
 
   <!-- Load jquery -->
