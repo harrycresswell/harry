@@ -5,25 +5,23 @@ description = "Things on the internet made by me"
 tags = ["Work"]
 draft = "false"
 slug = "work"
-url = "/work/"
+url = "/things/"
 +++
 
-### Personal Projects
+### Personal
 
-[In Detail](https://indtl.com/) is dedicated to immersing you in the beautiful world of fine jewellery via features written by a network of industry commentators, interactive events with industry partners and the newly launched engagement ring concierge service. I co-founded the project back in 2011, with jewellery consultant [Beanie Major](http://blake-ldn.com/journal/2016/11/8/blake-woman-beanie-major).
+[In Detail](https://indtl.com/). Jewellery focused conetent and concierge service. I co-founded the project back in 2011, with [Beanie Major](http://blake-ldn.com/journal/2016/11/8/blake-woman-beanie-major).
 
 [Type Services](https://typeservices.co/) is a small type foundry I set up in 2017 with a focus on hand drawn type and imperfection in type design.
 
+[Mood](https://mood.harrycresswell.com/) is is a visual aid for creative projects – a moodboard of things I like. None of the content is my own.
 
-## Selected client work 
+
+## Client Work 
+[Albion Cycling](http://www.albioncycling.com/). A Wordpress build with custom theme, Shopify integration and custom weather app. I designed the site in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
+
 [Rhythm&Sync](https://rhythmandsync.com/). A simple Hugo site I designed and built for a London based music, sound and visual agency. The site uses Forestry CMS, Cloudinary for media and Netlify for hosting.
   
-[Albion Cycling](http://www.albioncycling.com/). A Wordpress build with custom theme, Shopify integration and custom weather app. I designed the site in collaboration with [Luke Harvey](https://lukeharvey.co.uk/).
-  
-[AIN Prototypes](http://harrycresswell.co.uk/). Selected frontend prototypes built for Angel Investment Network, a platform connecting Investors and startups.
-  
-[Rose Beer Beauty](https://rosebeerbeauty.com/). A static site built with Hugo, for London-based journalist, consultant, creative director and stylist Rose Beer. 
-  
-[Lulafitness](https://lulafitness.co.uk/) is a simple static site built with Hugo for personal trainer and yoga teacher Lula Lucas.
+[AIN Prototypes](http://harrycresswell.co.uk/). I spend a lot of type front-end prototyping. Here’s some of  my work for Angel Investment Network, a platform connecting Investors and startups.
 
-[Dark Sky](https://soundcloud.com/dark-sky) is Matt Benyayer, an electronic music artist from south London and an old friend from school. Since 2012 I have led creative direction on Dark Sky artwork. You can see the artwork and listen to each release on [my Soundcloud page](https://soundcloud.com/harrycresswell).
+[Dark Sky](https://soundcloud.com/dark-sky) is an electronic music project by Matt Benyayer. Since 2012 we’ve collaborated on artwork for most releases. You’ll find the music and artwork on [my Soundcloud page](https://soundcloud.com/harrycresswell).
