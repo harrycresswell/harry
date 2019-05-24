@@ -17,15 +17,13 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
-    <meta property="og:image" content="{{ $.Site.BaseURL }}img/about-me.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ .Permalink }}">
     <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
-    <meta property="twitter:image" content="{{ $.Site.BaseURL }}img/about-me.jpg">
-    
+
     <base href="{{ $.Site.BaseURL }}">
 
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
