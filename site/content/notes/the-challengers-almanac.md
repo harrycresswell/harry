@@ -8,6 +8,7 @@ description = "A curation of stories — experiences, failures, lessons learnt a
 
 +++
 
+Thought’s and notes from [The Challenger’s Almanac](https://www.goodreads.com/book/show/28605442-the-challenger-s-almanac?ac=1&from_search=true) by Mark Anderson.
 
 ### Thoughts
 

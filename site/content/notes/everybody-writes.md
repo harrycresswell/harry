@@ -3,9 +3,11 @@ tags = ["Writing"]
 slug = "everybody-writes"
 description = "Your go-to guide to creating ridiculously good content."
 date = "2016-10-26T21:34:41+01:00"
-title = "Everybody Writes by Ann Handley"
+title = "Everybody Writes"
 
 +++
+
+Notes taken from [Everybody Writes](https://www.goodreads.com/book/show/23001125-everybody-writes) by Ann Handley
 
 ### Notes
 

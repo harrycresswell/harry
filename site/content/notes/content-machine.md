@@ -4,13 +4,15 @@ date = "2016-10-26T21:34:41+01:00"
 rating = "7/10"
 slug = "content-machine"
 external_link = "http://amzn.eu/jcKuctj"
-title = "Content Machine by Dan Norris"
+title = "Content Machine"
 author = "Harry Cresswell"
 description = "Use Content Marketing to Build a 7-figure Business With Zero Advertising."
 
 +++
 
-### Lessons
+Notes taken from [Content Machine](https://www.goodreads.com/book/show/36603232-content-machine?from_search=true) by Dan Norris.
+
+### Notes
 
 There is no point at all in generating mediocre content. Don’t just write about your business or your product. Your content has to be educational and solve problems.
 

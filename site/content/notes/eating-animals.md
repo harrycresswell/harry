@@ -3,10 +3,12 @@ tags = ["Impact"]
 subjects = ["Food", "Farming", "Health", "Sustainability"]
 description = "A long hard look at the current impact the meat industry is having on the health of humanity and the world we live in."
 slug = "eating-animals"
-title = "Eating Animals by Jonathan Safran Foer"
+title = "Eating Animals"
 date = "2016-10-26T21:34:41+01:00"
 
 +++
+
+Thoughts and notes taken from [Eating Animals](https://www.goodreads.com/book/show/6604712-eating-animals?from_search=true) by Jonathan Safran Foer
 
 ### Thoughts
 
