@@ -4,7 +4,7 @@ date = "2019-02-08T08:43:54Z"
 description = "A short piece on story telling, and finding purpose in your writing"
 slug = "write-what-you-like-tell-the-truth"
 tags = ["Writing"]
-draft = "false"
+draft = "true"
 +++
 
 In [On Writing: A Memoir of the Craft](https://www.goodreads.com/book/show/10569.On_Writing), Stephen King writes: “Write what you like, then imbues it with life and make it unique by blending in your own personal knowledge of life, friendship, relationships, sex, and work. People love to read about work. God knows why, but they do.” He continues, “What you need to remember is that there’s a difference between lecturing about what you know and using it to enrich the story. The latter is good. The former is not.”
