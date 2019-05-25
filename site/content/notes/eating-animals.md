@@ -10,7 +10,7 @@ date = "2016-10-26T21:34:41+01:00"
 
 ### Thoughts
 
-A real eye opener on the factory faming industry. This book will make you seriously consider your meet consumption. If not for ethical or moral reasons then at least for the benefit of your health.
+A real eye opener on the factory faming industry. This book will make you seriously consider your meet consumption. If not for ethical or environmental reasons then perhaps for the benefit of your health.
 
 ### Notes
 
