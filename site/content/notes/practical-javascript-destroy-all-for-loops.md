@@ -1,5 +1,5 @@
 +++
-title = "Destroy All for Loops"
+title = "Destroy all for Loops"
 date = "2019-05-29T16:14:14+02:00"
 description = ""
 slug = "destroy-all-for-loops"
