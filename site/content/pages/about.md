@@ -6,18 +6,18 @@ slug = "about"
 url = "/about/"
 +++
 
-{{< intro >}}I made this site as a place to share my experience working as a designer and building things for the web.{{< /intro >}}
+{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
+
+{{< intro >}}I made this site as a place to share my experience working as a user experience designer and building things for the web.{{< /intro >}}
 
 You’ll find [articles on design and code](/articles/) and [notes on things I’m learning](/notes/) from books, courses and talks.
-
-{{< cld src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
 
 ## About me
 
-I’m an independent product designer from London. My work takes place in the grey area between User Experience Design, User Interface Design and Front-end Web Development. From research and planning, to executing high fidelity prototypes in code, I’m involved in projects from concept through to launch. 
+My work takes place in the grey area between user experience design, user interface design and front-end web development. From research and planning, to executing high fidelity prototypes in code, I’m involved in projects from concept through to launch. 
 
-I live between London and Hamburg, where I work with a handful of clients. In my free time I enjoy climbing, hiking, running and skiing. I practice meditation and yoga most days.
+I split my time between London and Hamburg, where I work with a handful of clients. In my free time I enjoy running, climbing, hiking and skiing. I practice meditation and yoga most days.
 
 
 ## Where to go next
