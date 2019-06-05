@@ -6,7 +6,7 @@ slug = "now"
 url = "now"
 +++
 
-I’m in Hamburg 🇩🇪, the weather is a delightful 30°c. Between grilling sessions in the park, these are the things I’m currently focusing on.
+I’m in Hamburg 🇩🇪, the weather is a delightful 30°c. In between grilling sessions in the park, these are the things I’m focusing on.
 
 ### Current Projects
 
