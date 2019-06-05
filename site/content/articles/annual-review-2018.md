@@ -22,7 +22,7 @@ My review will also include my intentions for 2019 and the areas I wish to focus
 
 ## 1. What went well this year?
 
-**Writing.** I managed to write 12 articles across [harrycresswell.com](/) and [Medium](https://medium.com/@harrycresswell), and record notes on most of what I’ve learnt from courses (some of which I’ve published). My weekly Newsletter has been one of my most consistent projects this year, with the audience growing steadily and the content starting to show a clear direction. If I can continue on this path in 2019 I’ll be very happy.
+**Writing.** I managed to write 13 articles across [harrycresswell.com](/) and [Medium](https://medium.com/@harrycresswell), and record notes on most of what I’ve learnt from courses (some of which I’ve published). My weekly Newsletter has been one of my most consistent projects this year, with the audience growing steadily and the content starting to show a clear direction. If I can continue on this path in 2019 I’ll be very happy.
 
 **In Detail.** Perhaps the most successful project I work on, undoubtably down to the incredible mix of people involved. We all bring a different skill set and continue to use it as a vehicle to learn, experiment and collaborate. 2019 is set to be another good year for [In Detail](https://indtl.com/) with more energy focused on creating useful content for our readers, providing a service and doing what we can to make the jewellery industry more sustainable.
 
