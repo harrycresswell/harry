@@ -1,9 +1,9 @@
 +++
 tags = ["Hugo", "JavaScript", "API",]
-title = "Using Zapier to send form data"
+title = "Send form data to an inbox using Zapier"
 date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"
-description = "A simple way to receive form data directly to your email using Zapier"
+description = "A simple way to receive form data directly to your inbox using Webhooks and Zapier"
 Author = "Harry Cresswell"
 +++
 
