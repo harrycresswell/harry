@@ -13,7 +13,7 @@ I’m in London 🇬🇧 for the next few weeks, these are the things I’m focu
 - Launching [a new updates](https://harrycr.es/2Z6HF7l) to In Detail
 - I just finished [wireframing and prototyping SeedTribe v.3.0](https://harrycr.es/2IjtyVF)
 - I built [a mini jobs board](https://clever-perlman-f0786d.netlify.com/) to test out a new workflow using [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/). This is my first crack at building a React app and working with CSS-in-JS. It’s a steep learning curve but in all honesty it’s been pretty fun so far.
-- I’ve started working with [Sanity.io](https://www.sanity.io/) a ‘headless’ API based CMS and I’m loving it.
+- I’ve been playing around with [Sanity.io](https://www.sanity.io/) a ‘headless’ API CMS and I’m loving it.
 
 
 ### Currently Reading
