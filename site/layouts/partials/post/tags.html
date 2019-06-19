@@ -3,7 +3,7 @@
     <div class="PostMeta-tag">
       {{ $baseurl := .Site.BaseURL }}
       {{ range .Params.tags }}
-        <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+        <a href="/tags/{{ . | urlize }}" class="p-category">{{ . }}</a>
       {{ end }}
     </div>
 </div>
