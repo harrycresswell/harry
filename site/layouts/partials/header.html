@@ -1,6 +1,11 @@
 <section class="Header">
     <div class="Header-title">
-        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        <div hidden>
+            <img class="u-photo" src="https://harrycresswell.com/img/hc.jpg" alt="Harry Cresswell">
+            <p class="p-note">{{ .Site.Params.Strapline }}</p>
+            <a href="mailto:studio@harrycresswell.com" rel="me" class="u-email">studio@harrycresswell.com</a>
+        </div>
     </div>
     <nav class="Header-nav">
         {{ $currentPage := . }}

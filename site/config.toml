@@ -30,9 +30,9 @@ enableEmoji = true
   custom = "/:slug/"
 
 [params]
-  keywords = "Product Design, UX Design, UI Design, Front-end Development, Small businesses, Automation, Typography"
+  keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
   description = "Technical related blog posts on design and code by github.com/harrycresswell"
-  strapline = "Product Design, User Experience Design, User Interface Design and Front-end Development"
+  strapline = "Harry Cresswell is an independent user experience designer and front-end developer from London, England."
   location = "London, UK"
   twitter = "@harrycresswell"
   # Set Cloudinary URL for image hosting
