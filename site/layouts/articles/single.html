@@ -1,25 +1,22 @@
 {{ define "main" }}
-  <article id="content" class="Post">
+  <article id="content" class="Post h-entry">
 
       <header class="PostHeader">
-          <h1 class="PostHeader-title">{{ .Title }}</h1>
+          <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
       </header>
 
       <div class="PostMeta">
-        <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+        <time class="PostMeta-date dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
         {{ partial "post/tags.html" . }}
       </div>
 
-      <div class="PostBody">
+      <div class="PostBody e-content">
       {{ .Content }}
 
       {{ partial "post/related-post.html" . }}
 
       {{ partial "post/author.html" . }}
       </div>
-      <!-- Discus comments -->
-      <!--{ { template "_internal/disqus.html" . } }-->
-
 
   </article><!--/.Content -->
 {{ end }}

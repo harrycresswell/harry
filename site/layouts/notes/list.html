@@ -5,10 +5,10 @@
   </header>
   <ul class="PostList">
     {{ range .Data.Pages }}
-      <li class="PostListItem">
-        <h3 class="PostListItem-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <li class="PostListItem h-entry">
+        <h3 class="PostListItem-title p-name"><a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a></h3>
         <div class="PostMeta">
-            <time class="PostMeta-date">{{ .Date.Format "Jan 2, 2006" }}</time> —
+            <time class="PostMeta-date dt-published">{{ .Date.Format "Jan 2, 2006" }}</time> —
             {{ partial "post/tags.html" . }}
           </div>
       <li>
