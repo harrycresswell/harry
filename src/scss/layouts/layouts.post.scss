@@ -50,6 +50,13 @@ margin: 0 auto;
     color: var(--color-dark);
     text-decoration: underline;
   }
+
+  a:hover {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    text-decoration: none;
+  }
+
   a:not(:last-child):after {
     content:',';
   }

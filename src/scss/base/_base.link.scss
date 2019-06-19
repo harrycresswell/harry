@@ -5,11 +5,13 @@
 a {
   color: var(--color-link);
   text-decoration: underline;
-  transition: color .2s ease-in-out;
+  //transition: color .2s ease-in-out;
 
   &:hover {
-    color: darken($color-link, 25%);
-    text-decoration: underline;
+    //color: darken($color-link, 25%);
+    color: var(--color-white);
+    background-color: var(--color-link);
+    text-decoration: none;
   }
 
   &:visited {
