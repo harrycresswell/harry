@@ -14,8 +14,11 @@
         <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
         {{ end }}
       </h3>
+      <div hidden>
+        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+      </div>
       <div class="PostMeta">
-        <time class="PostMeta-date dt-published">{{ .Date.Format "Jan 2, 2006" }}</time> —
+        <time class="PostMeta-date dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time> —
         {{ partial "post/tags.html" . }}
       </div>
     </li>
