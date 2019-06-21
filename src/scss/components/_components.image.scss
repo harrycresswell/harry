@@ -19,6 +19,18 @@
   @include margin-top(1);
 }
 
+.Image--pullRight {
+  @include breakpoint(sm) {
+    width: 55%; 
+    float: right; 
+    margin-left: 48px; 
+    margin-bottom: 32px; 
+    margin-top: 0;
+  }
+}
+
+/* Image Aspect Ratio */
+
 .ImageRatio {
   background-color: #f6f6f6;
   height: 0;
