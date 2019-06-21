@@ -144,6 +144,6 @@ Perhaps you’re thinking about adding a few automation steps with Zapier, to se
 
 Finally, if you haven’t seen it already, make sure you check out the article below from the Netlify blog, which goes into more detail on what can be done with form data using Netlify.
 
-## Resources
+## Further reading
 
 - [Netlify Docs: Form Handling](https://www.netlify.com/docs/form-handling/)

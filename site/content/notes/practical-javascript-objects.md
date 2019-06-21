@@ -1,6 +1,6 @@
 ---
 title: "Objects"
-date: 2018-10-29T11:28:49+01:00
+date: "2018-10-29T11:28:49+01:00"
 slug: "practical-javascript-objects"
 tags: ["JavaScript"]
 ---

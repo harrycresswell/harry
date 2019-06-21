@@ -335,7 +335,7 @@ If you have any questions or problems with this method then [drop me a tweet](ht
 
 
 
-### Resources
+### Further reading
 
 - [How to use Webhooks](https://zapier.com/blog/how-use-zapier-webhooks/)
 - [A Hugo thread on static contact forms](https://discuss.gohugo.io/t/is-it-possible-to-add-a-contact-form-to-a-site/1550)

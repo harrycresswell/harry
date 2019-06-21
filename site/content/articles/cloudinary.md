@@ -187,7 +187,7 @@ Cloudinary tackles this pain point with a JavaScript method which provides autom
 
 For more on Cloudinary, head over to [the docs](https://cloudinary.com/documentation) to see what else is possible. Below you’ll find a list of resources referenced in the configuration above.
 
-## Resources
+## Further reading
 
 - [Responsive images](https://cloudinary.com/features/responsive_images) on Cloudinary
 - [Mastering Image Delivery with Cloudinary](https://forestry.io/blog/master-image-delivery-with-cloudinary/) by DJ Walker

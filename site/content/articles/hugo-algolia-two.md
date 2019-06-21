@@ -262,7 +262,7 @@ Of course you can use InstantSearch with any static site generator, or on any we
 A great place to begin is the [Getting Started with InstantSearch.js](https://community.algolia.com/instantsearch.js/v2/getting-started.html) tutorial. I’ll also list some resources I found helpful below.
 
 
-## Resources
+## Further reading
 
 - [Getting Started with InstantSearch.js](https://community.algolia.com/instantsearch.js/v2/getting-started.html)
 - [Instant Search v1 Documentation](https://community.algolia.com/instantsearch.js/v1/documentation/)

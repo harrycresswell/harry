@@ -105,6 +105,6 @@ Data files in Hugo make working with large amounts of data a whole lot less cumb
 For more on data in Hugo head to the docs, where you can learn about “data-driven content” data features, which lets you load any `JSON` or `CSV` file from nearly any resource.
 
 
-## Resources
+## Further reading
 - [How to use Data Files in Hugo: an example](https://novelist.xyz/tech/hugo-data-files/) by Peter Y. Chuang
 - [Data Templates](https://gohugo.io/templates/data-templates/) fro the Hugo Docs

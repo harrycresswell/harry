@@ -32,6 +32,6 @@ For me, it’s never been about the writing and I’m sure it’s not for you ei
 
 I’ll leave you with one last quote from Stephen King to ponder, “Write about anything you damn well want. Anything at all… as long as you tell the truth.”
 
-## Refereces 
+## Further reading 
 
 - [On Writing: A Memoir of the Craft](https://www.goodreads.com/book/show/10569.On_Writing) by Stephen King

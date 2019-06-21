@@ -117,7 +117,7 @@ As designers it is our responsibility to think deeply and consciously about the 
 _I explore the ideas found in this article in more detail [over on Medium](https://medium.com/@harrycresswell). If you have a question about UI design or building systems in Sketch, [drop me a tweet](https://twitter.com/harrycresswell) and let’s have a chat about it._
 
 
-## Resources
+## Further reading
 
 - [Hick’s Law](https://lawsofux.com/hicks-law.html), Laws of UX
 - [Interface Inventory](http://bradfrost.com/blog/post/interface-inventory/) by Brad Frost

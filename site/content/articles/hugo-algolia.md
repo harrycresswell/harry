@@ -256,7 +256,7 @@ With that said, any feedback you might have would be very welcome. [Drop me a tw
 
 <p class="Message">You can download the <a href="https://github.com/harrycresswell/hugolia">project files over on Github</a>. Bare in mind they also include code for the front end which is coming up in the next part.</p>
 
-## Resources
+## Further reading
 
 - [Static site search with Hugo + Algolia](https://forestry.io/blog/search-with-algolia-in-hugo/?q=&hPP=10&idx=blog&p=0) by Chris Macrae
 - [Add Algolia Search To Hugo Static Website](https://code.luasoftware.com/tutorials/algolia/add-algolia-search-to-hugo-static-website/) by Desmond Lua
