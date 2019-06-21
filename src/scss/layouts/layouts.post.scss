@@ -85,6 +85,7 @@ margin: 0 auto;
 
 .PostAuthor {
   display: flex;
+  @include margin-top(2);
   
   h4 {
     margin: 0;
