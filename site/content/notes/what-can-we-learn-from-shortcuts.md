@@ -2,6 +2,7 @@
 title: "What can we learn from shortcuts?"
 date: 2018-04-27T23:25:36+01:00
 tags: ["Productivity"]
+description: "People are resourceful, they will always find the low friction routes, to save money and time. Design for a real need at low friction."
 ---
 
 These are my notes from [What can we learn from shortcuts](https://www.ted.com/talks/tom_hulme_what_can_we_learn_from_shortcuts), a TED Talk by designer and Google Ventures Partner [Tom Hulme](https://twitter.com/thulme).
@@ -15,7 +16,7 @@ The point where design and user experience diverge.
 
 ## Applying this to launching products
 
-Designing for a real need at low friction.
+Design for a real need at low friction.
 
 People are resourceful, they will always find the low friction routes, to save money and time.
 

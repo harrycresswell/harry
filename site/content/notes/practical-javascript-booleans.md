@@ -1,7 +1,7 @@
 +++
 title = "Booleans"
 date = "2018-11-03T19:42:02+01:00"
-description = "Build a todo app with Javascript, learn about Boolean values"
+description = "Build a todo app with Javascript, learn about Boolean values."
 slug = "practical-javascript-booleans"
 tags = ["JavaScript"]
 +++

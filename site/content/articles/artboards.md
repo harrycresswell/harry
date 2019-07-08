@@ -3,7 +3,7 @@ tags = ["Sketch", "Process"]
 title = "Naming Artboards for responsive web design"
 date = "2017-04-02T21:34:41+01:00"
 slug = "artboards"
-description = "How to name your artboards for scaleable, maintainable Sketch projects"
+description = "A naming system to help you name your Sketch Artboards and create scaleable, maintainable Sketch projects you’re entire team can understand."
 Author = "Harry Cresswell"
 feature = "https://res.cloudinary.com/harrycresswell/image/upload/v1550264893/hc/naming-artboards-in-sketch-organised-albion-03.jpg"
 +++

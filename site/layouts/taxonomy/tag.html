@@ -18,6 +18,7 @@
         <time class="PostMeta-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
         {{ partial "post/tags.html" . }}
       </div>
+      <p>{{ .Description }}</p>
     </li>
   {{ end }}
   </ul>

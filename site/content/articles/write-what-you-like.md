@@ -1,7 +1,7 @@
 +++
 title = "Write what you like, but tell the truth"
 date = "2019-02-08T08:43:54Z"
-description = "A short piece on story telling, and finding purpose in your writing"
+description = "A short piece on story telling, and finding purpose in your writing."
 slug = "write-what-you-like-tell-the-truth"
 tags = ["Writing"]
 draft = "true"

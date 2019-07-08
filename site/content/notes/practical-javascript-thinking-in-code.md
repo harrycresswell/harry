@@ -1,7 +1,7 @@
 +++
 title = "Thinking in Code"
 date = "2018-11-15T11:24:19+01:00"
-description = ""
+description = "Build a toggleAll method."
 slug = "practical-javascript-thinking-in-code"
 tags = ["JavaScript"]
 +++
@@ -12,7 +12,7 @@ This is Part 6 of my notes on Gordon Zhu’s [Practical JavaScript](https://watc
 
 In version 6 we’ll work on 1 feature which toggles todos as complete or incomplete.
 
-You can see how this works in the finished app [here](todomvc.com/examples/vanillajs).
+You can see how this works in the finished app [here](http://todomvc.com/examples/vanillajs/).
 
 In the example, use the chevron to the left of the input box to toggle the todos you create.
 
@@ -33,10 +33,10 @@ Our first step is to work on a solution where if everything is `true` make every
 
 We want to do this in a new method called `toggleAll`.
 
-``` 
-toggleAll: function() {   
-  // If everything’s true, make everything false 
-} 
+```
+toggleAll: function() {
+  // If everything’s true, make everything false
+}
 ```
 
 ### Comparing completedTodos to totalTodos

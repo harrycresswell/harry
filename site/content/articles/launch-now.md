@@ -5,7 +5,7 @@ date = "2017-07-14T21:34:41+01:00"
 slug = "launch-now"
 Author = "Harry Cresswell"
 url = "/launch/"
-descripton = "Thoughts on launching new projects for the best possibility of long-term success."
+descripton = "Launching new projects with the best chance of long-term success."
 +++
 
 {{< intro >}}Starting a new project can be a daunting process. Often we have an idea in our head and almost always it’s this perfect, final version and it seems like an impossible task to get there. We’re at the foot of this giant mountain and theres no sight of the summit.{{< /intro >}}

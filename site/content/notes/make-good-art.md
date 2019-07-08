@@ -1,6 +1,6 @@
 +++
 slug = "good-art"
-description = "Success in creativity is about making good art"
+description = "Success in creativity is about making good art."
 tags = ["Creativity"]
 title = "Make Good Art"
 date = "2016-10-26T21:34:41+01:00"

@@ -3,6 +3,7 @@ title: "Arrays"
 date: "2018-07-19T14:49:54+02:00"
 slug: "practical-javascript-arrays"
 tags: ["JavaScript"]
+description: "In programming, lists are called Arrays. Learn how to build an array and display items from the array in the console."
 ---
 
 These are my notes from Gordon Zhu’s course [Practical JavaScript](https://watchandcode.com/p/practical-javascript).

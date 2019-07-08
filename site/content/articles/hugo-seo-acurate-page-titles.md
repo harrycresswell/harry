@@ -2,7 +2,7 @@
 title: "Hugo SEO – Unique, Accurate Page Titles"
 date: 2018-11-02T10:32:26+01:00
 slug: "hugo-seo-accurate-page-titles"
-description: "Unique, descriptive page titles lead to higher rankings by helping search engines better understand the content on your site"
+description: "Unique, descriptive page titles lead to higher rankings by helping search engines better understand the content on your site."
 tags: ["Hugo"]
 ---
 

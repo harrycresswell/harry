@@ -1,7 +1,7 @@
 +++
 title = "Click to delete"
 date = "2019-03-06T11:32:56+01:00"
-description = "Notes taken from module 10 of Practical JavaScript, a free course by Gordon Zhu. In this part we create a way to delete todo items with a todo button"
+description = "Notes taken from module 10 of Practical JavaScript, a free course by Gordon Zhu. In this part we create a way to delete todo items with a todo button."
 slug = "practical-javascript-click-to-delete"
 tags = ["JavaScript"]
 +++

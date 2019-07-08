@@ -5,6 +5,6 @@ slug = "design-systems-sketch-libraries-3"
 tags = ["Sketch", "Design"]
 type = "article"
 affiliatelink = "https://medium.com/@harrycresswell/using-sketch-libraries-to-build-a-better-ui-design-system-part-3-44ad79e1f38d"
-description = "Building complex components with particle properties, low-level elements and Sketch Libraries"
+description = "How to build complex components with particle properties, low-level elements and a collection of Sketch Libraries."
 +++
 

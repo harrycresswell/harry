@@ -1,7 +1,7 @@
 +++
 title = "Data Types and Comparisons"
 date = "2018-11-22T11:54:12+01:00"
-description = ""
+description = "Learn about the difference between objects and primatives in JavaScript."
 slug = "practical-javascript-data-types-comparisons"
 tags = ["JavaScript"]
 +++

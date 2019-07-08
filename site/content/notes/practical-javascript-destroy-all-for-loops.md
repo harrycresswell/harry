@@ -1,7 +1,7 @@
 +++
 title = "Destroy all for loops"
 date = "2019-05-29T16:14:14+02:00"
-description = ""
+description = "Making improvements to a todo list app using higher order functions and callback functions."
 slug = "destroy-all-for-loops"
 tags = ["JavaScript"]
 draft = "false"

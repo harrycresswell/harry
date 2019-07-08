@@ -1,7 +1,7 @@
 +++
 tags = ["Creativity"]
 what = "Article"
-Description = "To be a successful creator you need only thousands of true fans."
+description = "To be a successful creator you need only thousands of true fans."
 title = "1,000 true fans"
 date = "2016-10-26T21:34:41+01:00"
 slug = "1000-fans"
