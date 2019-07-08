@@ -29,7 +29,7 @@
 
  .PostListItem-title {
     font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-    @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+    @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
     line-height: 1;
     @include margin-top(0);
     @include margin-bottom(1);
