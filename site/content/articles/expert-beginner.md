@@ -6,6 +6,7 @@ slug = "expert-beginner"
 tags = ["Lessons"]
 excerpt = "notes on sharing what you know, regardless of your experience and finding an openness to learn from others"
 draft = "true"
+syndicate = "false"
 +++
 
 A few weeks back my girlfriend showed me an interesting way of building responsive grids without using media queries. The technique uses CSS Grid and the CSS `minmax()` function, and until that point I didn’t know it. Whatsmore, before 3 months ago she’d never written a line of code. 
