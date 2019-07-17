@@ -32,3 +32,11 @@ h3,
   @include margin-top(1.5);
   @include margin-bottom(0.5);
 }
+
+h4,
+.size-4 {
+  font-size: $mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1 /$min_font, $mod_2 /$min_font);
+  @include margin-top(1.5);
+  @include margin-bottom(0.5);
+}
