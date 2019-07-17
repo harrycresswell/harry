@@ -69,5 +69,6 @@
 
 
 .Form-button {
+  @include margin-top(1);
   @include margin-bottom(1);
 }
