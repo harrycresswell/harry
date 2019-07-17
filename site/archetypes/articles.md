@@ -6,4 +6,5 @@ slug = "e.g. about"
 tags = ["e.g. Sketch", "code"]
 draft = "true"
 type = "article"
+syndicate = "false"
 +++
