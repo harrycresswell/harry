@@ -3,7 +3,8 @@ title = "HTML and the DOM"
 date = "2018-11-25T12:14:41+01:00"
 description = "Build a todo app with Javascript,learn about the Document Object Model and begin building the front-end HTML to allow users to interface with our application"
 slug = "practical-javascript-html-dom"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
+syndicate = "false"
 +++
 
 This is Part 7 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript). In this part we learn about the Document Object Model and begin building the front-end HTML to allow users to interface with our application.  

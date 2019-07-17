@@ -3,7 +3,8 @@ title = "Getting data from inputs"
 date = "2019-01-07T12:43:51Z"
 description = "Build a todo app with Javascript, learn how to refactor your code and grab data from inputs"
 slug = "practical-javascript-refactoring-code"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
+syndicate = "false"
 +++
 
 This is Part 8 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript). 

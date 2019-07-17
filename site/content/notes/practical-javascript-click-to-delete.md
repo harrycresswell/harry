@@ -3,7 +3,8 @@ title = "Click to delete"
 date = "2019-03-06T11:32:56+01:00"
 description = "Notes taken from module 10 of Practical JavaScript, a free course by Gordon Zhu. In this part we create a way to delete todo items with a todo button."
 slug = "practical-javascript-click-to-delete"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
+syndicate = "false"
 +++
 
 In version 10 of our todo list app we create a way to delete todo items by added a todo button to each todo item. These are my notes from Gordon Zhu’s free course [Practical JavaScript](https://watchandcode.com/p/practical-javascript), which teaches you how to create a todo app in vanilla JavaScript.

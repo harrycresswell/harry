@@ -1,10 +1,11 @@
----
-title: "Functions"
-date: 2018-07-30T09:40:59+01:00
-slug: "parctical-javascript-functions"
-tags: ["JavaScript"]
-description: "Functions are like recipes; a set of instructions which can be given to someone so they know exactly what to do or how to make something."
----
++++
+title = "Functions"
+date = 2018-07-30T09:40:59+01:00
+slug = "parctical-javascript-functions"
+tags = ["JavaScript", "Coursenotes"]
+description = "Functions are like recipes; a set of instructions which can be given to someone so they know exactly what to do or how to make something."
+syndicate = "false"
++++
 
 This is Part 2 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript), in this part we focus on improving our Todo App by using Functions to make our commands easier to write. Here’s [Part 1](notes/practical-javascript-arrays/) incase you missed it.
 

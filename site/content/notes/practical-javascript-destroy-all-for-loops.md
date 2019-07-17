@@ -3,8 +3,9 @@ title = "Destroy all for loops"
 date = "2019-05-29T16:14:14+02:00"
 description = "Making improvements to a todo list app using higher order functions and callback functions."
 slug = "destroy-all-for-loops"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
 draft = "false"
+syndicate = "false"
 +++
 
 These are my notes from Gordon Zhu’s free course [Practical JavaScript](https://watchandcode.com/p/practical-javascript), which teaches you how to create a todo app in vanilla JavaScript.

@@ -3,7 +3,8 @@ title = "Escape the Console"
 date = "2019-01-15T11:37:09+01:00"
 description = "Version 9 of Practical Javascript course, learn how to leave the console behind and allow users to use the interface and return data to the screen"
 slug = "practical-javascript-escape-the-console"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
+syndicate = "false"
 +++
 
 In version 9 of our todo app we will completely escape the console, allowing users to not only use the interface but see the data returned aswell.
