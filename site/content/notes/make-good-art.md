@@ -1,11 +1,10 @@
 +++
 slug = "good-art"
 description = "Success in creativity is about making good art."
-tags = ["Creativity"]
+tags = ["Creativity", "Talknotes"]
 title = "Make Good Art"
 date = "2016-10-26T21:34:41+01:00"
-subject = ["Creativity", "art", "success"]
-
+syndicate = "false"
 +++
 
 Notes taken from [Make Good Art](https://www.youtube.com/watch?v=plWexCID-kA), the popular 2012 Commencement Speech by Neil Gaiman. 

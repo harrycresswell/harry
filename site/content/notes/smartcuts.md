@@ -1,11 +1,10 @@
 +++
-tags = ["Productivity"]
-subjects = ["Productivity", "Success"]
+tags = ["Productivity", "Booknotes"]
 date = "2016-10-26T21:34:41+01:00"
 description = "The breakthrough power of lateral thinking."
 title = "Smartcuts"
 slug = "smartcuts"
-
+syndicate = "false"
 +++
 
 Notes taken from [Smartcuts: How Hackers, Innovators, and Icons Accelerate Success](https://www.goodreads.com/book/show/20910174-smartcuts?from_search=true) by Shane Snow.

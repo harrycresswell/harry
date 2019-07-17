@@ -3,7 +3,8 @@ title = "Thinking in Code"
 date = "2018-11-15T11:24:19+01:00"
 description = "Build a toggleAll method."
 slug = "practical-javascript-thinking-in-code"
-tags = ["JavaScript"]
+tags = ["JavaScript", "Coursenotes"]
+syndicate = "false"
 +++
 
 This is Part 6 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript).

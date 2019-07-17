@@ -1,10 +1,11 @@
----
-title: "Objects"
-date: "2018-10-29T11:28:49+01:00"
-slug: "practical-javascript-objects"
-tags: ["JavaScript"]
-description: "Objects allow you to group your functions together, so everything related to your todo list is in one place and easy to access."
----
++++
+title = "Objects"
+date = "2018-10-29T11:28:49+01:00"
+slug = "practical-javascript-objects"
+tags = ["JavaScript", "Coursenotes"]
+description = "Objects allow you to group your functions together, so everything related to your todo list is in one place and easy to access."
+syndicate = "false"
++++
 
 This is Part 3 of my notes on Gordon Zhu’s [Practical JavaScript](https://watchandcode.com/p/practical-javascript). This part focuses on turning the standalone functions created in [part 2](notes/gordon-zhus-practical-javascript-functions/) to methods on an Object.
 

@@ -6,6 +6,7 @@ subjects = ["Business", "Ethics", "Environment"]
 description = "A philosophical handbook for the employees of legendary outdoor brand Patagonia."
 slug = "surfing"
 draft = "true"
+syndicate = "false"
 +++
 
 

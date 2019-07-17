@@ -1,11 +1,10 @@
 +++
-tags = ["Impact"]
-subjects = ["Business", "Brands"]
+tags = ["Impact", "Booknotes"]
 title = "The Challenger’s Almanac"
 date = "2016-10-26T21:34:41+01:00"
 slug = "challengers"
 description = "A curation of stories — experiences, failures, lessons learnt and ideas borrowed — from businesses and thinkers challenging the way business is done today."
-
+syndicate = "false"
 +++
 
 Thought’s and notes from [The Challenger’s Almanac](https://www.goodreads.com/book/show/28605442-the-challenger-s-almanac?ac=1&from_search=true) by Mark Anderson.

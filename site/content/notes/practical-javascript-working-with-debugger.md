@@ -3,7 +3,8 @@ title = "Working with the Debugger"
 date = "2018-12-17T14:44:41Z"
 description = "Debugging JavaScript using Debugger"
 slug = "/practical-javascript-debugger/"
-tags = ["Javascript"]
+tags = ["Javascript", "Coursenotes"]
+syndicate = "false"
 +++
 
 The process of going through your JavaScript and fixing issues with your code is called ‘debugging’.

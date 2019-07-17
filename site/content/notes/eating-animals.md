@@ -1,5 +1,5 @@
 +++
-tags = ["Impact"]
+tags = ["Impact", "Booknotes"]
 subjects = ["Food", "Farming", "Health", "Sustainability"]
 description = "A long hard look at the current impact the meat industry is having on the health of humanity and the world we live in."
 slug = "eating-animals"

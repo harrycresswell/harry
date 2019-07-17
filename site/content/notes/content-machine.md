@@ -1,5 +1,5 @@
 +++
-tags = ["Marketing"]
+tags = ["Marketing", "Booknotes"]
 date = "2016-10-26T21:34:41+01:00"
 rating = "7/10"
 slug = "content-machine"
@@ -7,7 +7,7 @@ external_link = "http://amzn.eu/jcKuctj"
 title = "Content Machine"
 author = "Harry Cresswell"
 description = "Use Content Marketing to Build a 7-figure Business With Zero Advertising."
-
+syndicate = "false"
 +++
 
 Notes taken from [Content Machine](https://www.goodreads.com/book/show/36603232-content-machine?from_search=true) by Dan Norris.
