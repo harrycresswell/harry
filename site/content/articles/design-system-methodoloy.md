@@ -1,7 +1,7 @@
 ---
 title: "Design Systems"
 date: 2018-05-02T20:47:43+01:00
-tags: ["Sketch", "Design"]
+tags: ["Design"]
 slug: "design-systems"
 description: "Using design system methodology will make you a better designer. In this piece you’ll learn some key methods to help you design in systems."
 draft: "true"

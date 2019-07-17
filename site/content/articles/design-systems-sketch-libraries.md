@@ -1,7 +1,7 @@
 ---
 title: "Better design systems in Sketch"
 date: 2017-10-19T21:15:59+01:00
-tags: ["Sketch", "Design"]
+tags: ["Design"]
 slug: "better-design-systems-sketch-libraries"
 description: "The answer to cohesive, maintainable and re-usable projects."
 ---
