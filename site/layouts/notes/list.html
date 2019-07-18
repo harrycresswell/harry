@@ -8,7 +8,7 @@
       <li class="PostListItem h-entry">
         <h3 class="PostListItem-title p-name"><a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a></h3>
         <div class="PostMeta">
-            <time class="PostMeta-date dt-published">{{ .Date.Format "Jan 2, 2006" }}</time> —
+            <time class="PostMeta-date dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
             {{ partial "post/tags.html" . }}
           </div>
           <p>{{ .Description }}</p>
