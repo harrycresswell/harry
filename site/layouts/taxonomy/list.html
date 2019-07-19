@@ -7,8 +7,8 @@
   <ul class="PostList">
   {{ $data := .Data }}
   {{ range $key, $value := .Data.Terms.Alphabetical }}
-  <li class="PostListItem">
-    <h3 class="PostListItem-title">
+  <li class="">
+    <h3 style="margin: 8px;">
       <a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a>
       {{ $value.Count }}
     </h3>
