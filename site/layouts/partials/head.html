@@ -29,8 +29,6 @@
     <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
 
-    <base href="{{ $.Site.BaseURL }}">
-
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
     <!-- Pinterest Verification -->
@@ -57,4 +55,3 @@
     {{ end -}}  
   </head>
   <body class="Wrapper h-card">
-  <a name="{{.URL}}top"></a>

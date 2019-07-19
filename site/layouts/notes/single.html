@@ -11,8 +11,7 @@
       </div>
 
       <div class="PostBody e-content">
-      {{ .Content }}
-
+        {{ partial "heading-anchor.html" .Content }}
       {{ partial "post/author.html" . }}
       </div>
 
