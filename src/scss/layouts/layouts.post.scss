@@ -29,6 +29,7 @@ max-width: 1200px;
 margin: 0 auto;
 
   h2, h3, h4, h5, h6 {
+    position: relative;
     @include margin-top(1.5);
     @include margin-bottom(0.5);
   }
@@ -95,4 +96,38 @@ margin: 0 auto;
 
 .PostRelated {
   @include margin-bottom(2);
+}
+
+.Post .heading-anchor {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 1em;
+  opacity: 0;
+  font-weight: 400;
+
+  @include breakpoint(sm) {
+    display: block;
+  }
+}
+
+.Post h2:focus > .heading-anchor, 
+.Post h2:hover > .heading-anchor, 
+.Post h3:focus > .heading-anchor, 
+.Post h3:hover > .heading-anchor, 
+.Post h4:focus > .heading-anchor, 
+.Post h4:hover > .heading-anchor {
+  opacity: 1;
+}
+
+
+.Post .heading-anchor {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--color-link);
+    background: none;
+  }
 }
