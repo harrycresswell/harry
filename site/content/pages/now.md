@@ -6,23 +6,29 @@ slug = "now"
 url = "now"
 +++
 
-I’m in London 🇬🇧 for the next few weeks, these are the things I’m focusing on.
+I’m on holiday! We’re driving our [VW Transporter camper](https://www.instagram.com/catcherontheroad_/) 🚐 from Hamburg 🇩🇪 to the UK 🇬🇧, for a hiking trip in Northumberland and the Lake District. 
 
-### Current Projects
-
-- Launching [a new updates](https://harrycr.es/2Z6HF7l) to In Detail
-- I just finished [wireframing and prototyping SeedTribe v.3.0](https://harrycr.es/2IjtyVF)
-- I built [a mini jobs board](https://clever-perlman-f0786d.netlify.com/) to test out a new workflow using [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/). This is my first crack at building a React app and working with CSS-in-JS. It’s a steep learning curve but in all honesty it’s been pretty fun so far.
-- I’ve been playing around with [Sanity.io](https://www.sanity.io/) a ‘headless’ API CMS and I’m loving it.
+Looking forward to some time away from the screen and seeing some parts of England that I’ve never been to before.
 
 
 ### Currently Reading
 
-- [Brief Answers to the Big Questions](https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions) by Stephen Hawking
+- I just finished [Brief Answers to the Big Questions](https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions) by Stephen Hawking. 
+
+Now I’m working through a few books I left unfinished:
+
 - [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
 - [The Greatest](https://www.goodreads.com/book/show/34056102-the-greatest) by Matthew Syed
 - [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
 
+
+And when I get back from holiday, this is what I’ll be up to:
+
+### Current Projects
+
+- We working on [a few new update](https://harrycr.es/2Z6HF7l) to [indtl.com](https://indtl.com/) which will launch very soon. 
+- I’m in the process of building [SeedTribe v.3.0](https://harrycr.es/2IjtyVF). We’re using [Sanity.io](https://www.sanity.io/) for the CMS. It’s what they call ’headless’, meaning you can query the data in the form of a JSON API from any front-end you choose. We went with [GatsbyJS](https://www.gatsbyjs.org/) for this and we use [GraphQL](https://graphql.org/) to query the the data.
+- I recently built [a mini jobs board](https://clever-perlman-f0786d.netlify.com/) to test out a new workflow. This is my first crack at building a React app and working with CSS-in-JS. It’s built with [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/) for a Git based CMS.
 
 ### Currently Studying
 
@@ -30,7 +36,6 @@ I’m in London 🇬🇧 for the next few weeks, these are the things I’m focu
 - [Styled System](https://styled-system.com/), a collection of utility functions that add style props to your React components
 - [Sanity.io](https://www.sanity.io/)
 
-These are pretty much my priorities right now, but if you want to talk, [drop me a message](/contact/). I’m always keen to hear from new people.
 
-- **Last Updated:** June 15, 2019.
+- **Last Updated:** July 19, 2019.
 - **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
