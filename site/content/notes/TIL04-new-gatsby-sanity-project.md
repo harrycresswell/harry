@@ -1,7 +1,7 @@
 +++
 title = "TIL #4 Create new Gatsby site to use with Sanity CMS"
 date = "2019-08-05T11:32:35+02:00"
-description = ""
+description = "How to configure Gatsby to play nice with Sanity. Including configuring the gatsby-source-sanity plugin and some cool extra development features that ship with Sanity."
 slug = "til-04-new-gatsby-site-sanity-cms"
 tags = ["Today I Learned", "CMS"]
 draft = "false"
@@ -46,7 +46,7 @@ If you chose to make your dataset private you will also need to add a permission
 	resolve: 'gatsby-source-sanity',
 	options: {
 		projectId: '<yourProjectId>',
-		dataset: '<yourDatasetName>', 	// a token with read permissions is required
+		dataset: '<yourDatasetName>',	// a token with read permissions is required
 		// if you have a private dataset
 		token: process.env.MY_SANITY_TOKEN,
 	},
