@@ -6,7 +6,7 @@ slug = "til-02-content-schema-in-sanity"
 tags = ["Today I Learned", "CMS"]
 draft = "false"
 type = "note"
-syndicate = "false"
+syndicate = "true"
 +++
 
 This is the bit where you define your data model, meaning the way you structure your content. 

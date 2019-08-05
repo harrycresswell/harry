@@ -6,7 +6,7 @@ slug = "til-03-deploy-graphql-api-sanity"
 tags = ["Today I Learned", "CMS"]
 draft = "false"
 type = "note"
-syndicate = "false"
+syndicate = "true"
 +++
 
 If you want to consume your Sanity dataset from a front-end the you will need to set up an API. You can do this using Sanity’s custom query language GROQ or GraphQL. These notes focus on the latter. 
