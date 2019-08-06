@@ -1,15 +1,24 @@
-{{ define "main" }}
+{{ partial "head.html" . }}
+  
+  {{ partial "header.html" . }}
 
-<article id="content" class="Post">
+    <main id="main" class="Container">
 
-    <header class="PostHeader">
-        <h1 class="PostHeader-title">Design & Code.</h1>
-    </header>
+      <article id="content" class="Post">
+        <header class="PostHeader">
+            <h1 class="PostHeader-title">{{ .Title }}</h1>
+        </header>
+        <div class="PostBody">
+        {{ .Content }}
 
-  <div class="PostBody">
-    <p class="intro">Hey, I’m Harry, an independent user experience designer and front-end developer from London, England.</p>
-    <p>I write <a href="/articles/">articles about building things for the web</a> and curate <a href="/newsletter">a weekly newsletter</a> for designers and developers. Find out what I'm up to <a href="/now/">right now</a>.</p>
-  </div>
-</section>
+        <!-- Discus comments -->
+        <!--{ { template "_internal/disqus.html" . } }-->
+        </div>
+    </article><!--/.Content -->
 
-{{ end }}
+    </main>
+
+
+{{ partial "newsletter.html" . }}
+
+{{ partial "footer.html" . }}
