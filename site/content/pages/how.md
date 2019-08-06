@@ -14,7 +14,9 @@ My name is Harry Cresswell, I’m an independent UX and product designer based 
 
 ## What I do
 
-My work takes place in the grey area between User Experience Design, User Interface Design and Front-end Web Development. 
+My work takes place in the grey area between user experience design, user interface design and front-end web development. 
+
+From research and planning, to executing high fidelity prototypes in code, I’m usually involved in projects from concept through to launch.
 
 I can help you conduct research to develop an understanding of your customers needs, develop wireframes and prototypes to test and validate possible solutions, then build and launch a working product. Through usability testing and iteration we can fine tune the product to make improvements.
 

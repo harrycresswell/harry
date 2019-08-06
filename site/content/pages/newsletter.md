@@ -6,7 +6,7 @@ slug = "newsletter"
 url = "newsletter"
 +++
 
-[Braintactics](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) 🤯 is a weekly newsletter for designers and developers. Given a good internet connection I send it out once a week on a Friday.
+[Braintactics](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) 🤯 is a weekly roundup of articles, tools and tips for product designers and front-end developers. Given a good internet connection I send it every Friday morning.
 
 ## What topics does it cover?
 
