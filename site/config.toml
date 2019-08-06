@@ -62,10 +62,6 @@ enableEmoji = true
   url = "/newsletter/"
   weight = 15
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 20
 
 [[menu.footer]]
   name = "Articles"
@@ -81,29 +77,3 @@ enableEmoji = true
   name = "Newsletter"
   url = "/newsletter/"
   weight = 15
-
-[[menu.footer]]
-  name = "About"
-  url = "/about/"
-  weight = 20
-
-[[menu.mobile]]
-  name = "Articles"
-  url = "/articles/"
-  weight = 5
-
-[[menu.mobile]]
-  name = "Newsletter"
-  url = "/newsletter/"
-  weight = 10
-
-[[menu.mobile]]
-  name = "Notes"
-  url = "/notes/"
-  weight = 15
-
-[[menu.mobile]]
-  name = "About"
-  url = "/about/"
-  weight = 20
-
