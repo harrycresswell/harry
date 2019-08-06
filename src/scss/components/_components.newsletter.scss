@@ -17,6 +17,12 @@
   flex-direction: column;
 }
 
+.NewsletterForm-field {
+  &:nth-child(even) {
+    @include margin-bottom(0.5);
+  }
+}
+
 @include breakpoint(md) {
   .NewsletterForm {
     flex-direction: row;
