@@ -26,8 +26,8 @@
   }
 }
 
-.Header-nav {
-  display: none;
+.Header-link {
+  display: block;
 }
 
 @include breakpoint(md) {
