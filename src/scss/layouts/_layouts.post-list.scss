@@ -14,7 +14,11 @@
 }
 
 .PostListItem {
-  @include margin-bottom(4);
+  @include margin-bottom(3);
+
+  &:first-of-type {
+    @include margin-top(2);
+  }
 }
 
 
@@ -30,7 +34,7 @@
  .PostListItem-title {
     font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
-    line-height: 1;
+    line-height: 1.2;
     @include margin-top(0);
     @include margin-bottom(1);
     max-width: 960px;
