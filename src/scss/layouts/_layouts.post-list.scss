@@ -19,6 +19,10 @@
   &:first-of-type {
     @include margin-top(2);
   }
+
+  p {
+    color: var(--color-body);
+  }
 }
 
 
@@ -32,11 +36,9 @@
  }
 
  .PostListItem-title {
-    font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-    @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
     line-height: 1.2;
     @include margin-top(0);
-    @include margin-bottom(1);
+    @include margin-bottom(0.5);
     max-width: 960px;
 
    a {
@@ -48,4 +50,11 @@
      background-color: unset;
      text-decoration: underline;
    }
+ }
+
+ .PostListItem-meta {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  @include margin-bottom(0.5);
  }
