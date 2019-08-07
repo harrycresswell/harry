@@ -65,7 +65,7 @@ margin: 0 auto;
 }
 
 .Post p.Message {
-  border: dotted 1px var(--color-link);
+  background: rgba(var(--color-link-rgb), 0.05);
   color: var(--color-link);
   padding: 2% 3%;
 
@@ -75,12 +75,12 @@ margin: 0 auto;
 }
 
 .Post .intro, .intro {
-  font-size: 110%;
-  line-height: 1.4;
+  font-size: 100%;
+  line-height: 1.5;
 
   @include breakpoint(md) {
-    font-size: 120%;
-    line-height: 1.4;
+    font-size: 140%;
+    line-height: 1.5;
   }
 }
 
