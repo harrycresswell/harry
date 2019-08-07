@@ -6,7 +6,7 @@ description: "Learn how to list your external articles amoung the posts on your 
 slug: "hugo-external-articles"
 ---
 
- {{< intro >}}Lately I’ve been publishing articles both here on my personal site and on Medium. It seems to be fairly common practice these days. Perhaps you’re doing something similar?{{< /intro >}}
+ {{< intro >}}Lately I’ve been publishing articles both here on my personal site and on Medium. It seems to be fairly common practice these days.{{< /intro >}}
 
 In order to stay organised — as I publish on various sites — it seems logic to try and keep track of everything I’m writing in one place, that means here on my personal site.
 

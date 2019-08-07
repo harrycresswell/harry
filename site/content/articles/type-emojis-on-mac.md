@@ -6,7 +6,7 @@ slug: emoji-mac
 description: "The all important Emoji shortcut, which fires open the Emoji panel, so you can Emoji away to your heart’s content."
 ---
 
-{{< intro >}}It’s hard to avoid Emoji’s these days. Whether you like using them on not they’re a great way to help visually communicate your thoughts and ideas.{{< /intro >}}
+{{< intro >}}It’s hard to avoid Emojis. Whether you like using them on not they’re a great way to help visually communicate your thoughts and ideas.{{< /intro >}}
 
 We all know how to use Emoji’s on a phone but do you know how to access the Emoji panel on a mac?
 

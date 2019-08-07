@@ -6,7 +6,7 @@ slug: hugo-page-content-on-homepage
 description: "A simple method to print page content on your homepage using the Hugo static site generator."
 ---
 
-This is a pretty simple Hugo snippet for displaying content from a specific page on your site homepage.
+{{< intro >}}A simple Hugo snippet for displaying content from a specific page on your site homepage.{{</ intro >}}
 
 Say for example I wanted to add the title and content from a page called “How it works” on my homepage.
 

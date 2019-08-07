@@ -6,7 +6,9 @@ slug = "2018-review"
 tags = ["Year in Review"]
 +++
 
-{{< intro >}}With 2018 drawing to a close, I’ve decided to share my first Year in Review. This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.{{< /intro >}}
+{{< intro >}}With 2018 drawing to a close, I’ve decided to share my first Year in Review.{{< /intro >}}
+
+This is a chance to reflect and review my successes and failures over the past year, in a conscious effort to evaluate my progress, make improvements and insure I stay focused on the right stuff in the year ahead.
 
 Having struggled with the pressures of a goal setting approach in previous years, I was drawn to this method after reading [James Clear’s Atomic Habits](https://jamesclear.com/atomic-habits). 
 

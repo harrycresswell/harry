@@ -8,8 +8,6 @@ description: "Learn how to utilise Data in Hugo to keep your code clean and your
 
 {{< intro >}}This articles demonstrates a practical use case of working with data files in Hugo. It will show you where to store your data and how to call your data into a template in order to render it on your site.{{< /intro >}}
 
-## Problem
-
 Whilst front-end prototyping the design of a [system of content search filters](http://www.harrycresswell.co.uk/client/ain/ain-filters/), I found myself in a situation where I needed to list the major countries in each inhabited Continent. The countries would take the form of checkboxes in a filter dropdown.
 
 A basic solution might be to list each country manually in an unordered list on the page. But that sound like a time consuming task and unnecessarily repetitive. No one wants a cluttered template with a verbose amount of code.
@@ -18,7 +16,7 @@ Ideally I could abstract the data away from the page and leave my template clean
 
 Enter Data files.
 
-## Solution
+## Data files and the data folder
 
 In Hugo, [data files](https://gohugo.io/templates/data-templates/) are stored in the data folder. Think of the data folder as a mini database where you can keep lists of data to use in your pages.
 

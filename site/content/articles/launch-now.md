@@ -8,9 +8,11 @@ url = "/launch/"
 description = "Launching new projects with the best chance of long-term success."
 +++
 
-{{< intro >}}Starting a new project can be a daunting process. Often we have an idea in our head and almost always it’s this perfect, final version and it seems like an impossible task to get there. We’re at the foot of this giant mountain and theres no sight of the summit.{{< /intro >}}
+{{< intro >}}Starting a new project can be a daunting process. Often we start with an idea in our head, then picture the final outcome – a finely polished product, the ideal scenario.{{< /intro >}}
 
-This is the point where a lot of us give up or start feeling massively overwhelmed. It’s so easy to feel like this. You’ve imagined up this big idea and you have no idea where to start.
+At this early stage it might feel like an impossible task to get there, like you’re at the foot of a mountain unable to see the summit.
+
+This is the point where a lot of us give up or start feeling overwhelmed by the task ahead. It’s so easy to feel like this. You’ve imagined up this big idea and you have no idea where to start.
 
 If you manage to get past that first stage, congratulations, you’re half way there. But maybe now you’re working tirelessly around the clock to perfect your product in time for launch. Then you launch, expecting great things to happen and an unmanageable stream of interest to come flooding in.
 
