@@ -16,7 +16,7 @@
     border-radius: 0;
     box-sizing: border-box;
     cursor: pointer;
-    font-family: $font-system-mn;
+    letter-spacing: 0.5px;
     outline-style: none;
     text-align: left;
     text-decoration: none;
@@ -42,11 +42,11 @@
     background: var(--color-dark);
     border: solid 2px var(--color-dark);
     color: var(--color-white);
-    height: 60px;
+    height: 48px;
     margin: 0 auto;
     outline: solid 2px var(--color-dark);
     outline-offset: 0;
-    padding: 0 32px;
+    padding: 0 24px;
 }
 
 /**
