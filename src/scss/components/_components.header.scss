@@ -13,11 +13,10 @@
   max-width: 1200px; 
   margin: 0 auto;
   padding: 7% 0;
+
   a {
     color: var(--color-dark);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 110%;
 
     &:hover {
       background-color: unset;
@@ -28,6 +27,7 @@
 
 .Header-link {
   display: block;
+  text-align: right;
 }
 
 @include breakpoint(md) {
@@ -37,6 +37,10 @@
 
   .Header-nav {
     display: flex;
+  }
+
+  .Header-link {
+    text-align: left;
   }
 
   .Header-link:not(:last-of-type) {
