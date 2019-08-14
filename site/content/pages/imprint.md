@@ -6,17 +6,13 @@ slug = "imprint"
 url = "imprint"
 +++
 
-{{< intro >}}On this page you’ll find legal information about my company, the content licence of this site and my privacy policy.{{< /intro >}}
+{{< intro >}}On this page you’ll find legal information about my company and my privacy policy.{{< /intro >}}
 
 ## Company Info
 
 [Harry Cresswell](https://harrycresswell.com/) is the trading name of:
 Studio HC Ltd, Company No. 9442649, 
 122a Spa Road, London, SE16 3FF.
-
-## Licensing
-
-The content on this site is published under a [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) licence.
 
 ## Privacy Policy
 
