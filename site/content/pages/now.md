@@ -6,23 +6,19 @@ slug = "now"
 url = "now"
 +++
 
-I’m on holiday! We’re driving our [VW Transporter camper](https://www.instagram.com/catcherontheroad_/) 🚐 from Hamburg 🇩🇪 to the UK 🇬🇧, for a hiking trip in Northumberland and the Lake District. 
-
-Looking forward to some time away from the screen and seeing some parts of England that I’ve never been to before.
+I‘m back in Hamburg after a 2 week trip to England in our van. When I’m not editing pictures this is what I’m focusing on.
 
 
 ### Currently Reading
 
 - I just finished [Brief Answers to the Big Questions](https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions) by Stephen Hawking. 
 
-Now I’m working through a few books I left unfinished:
+Now I’m working through a few books I still haven’t finished:
 
 - [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
 - [The Greatest](https://www.goodreads.com/book/show/34056102-the-greatest) by Matthew Syed
 - [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
 
-
-And when I get back from holiday, this is what I’ll be up to:
 
 ### Current Projects
 
@@ -37,5 +33,5 @@ And when I get back from holiday, this is what I’ll be up to:
 - [Sanity.io](https://www.sanity.io/)
 
 
-- **Last Updated:** July 19, 2019.
+- **Last Updated:** August 14, 2019.
 - **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
