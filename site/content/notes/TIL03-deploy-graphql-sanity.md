@@ -1,9 +1,9 @@
 +++
-title = "TIL #3 – Deploy a GraphQL API for a Sanity project"
+title = "Deploy a GraphQL API for a Sanity project"
 date = "2019-07-19T10:38:59+02:00"
 description = "If you want to consume your Sanity dataset from a front-end the you will need to set up an API. You can do this using Sanity’s custom query language GROQ or GraphQL. These notes focus on the latter."
 slug = "til-03-deploy-graphql-api-sanity"
-tags = ["Today I Learned", "CMS"]
+tags = ["Today I Learned", "GraphQL"]
 draft = "false"
 type = "note"
 syndicate = "true"

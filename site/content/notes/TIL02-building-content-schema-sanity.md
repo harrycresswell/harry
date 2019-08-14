@@ -1,5 +1,5 @@
 +++
-title = "TIL #2 – Content schema in Sanity"
+title = "Content schema in Sanity"
 date = "2019-07-18T11:17:25+02:00"
 description = "When modelling your data try and think about your content not as ‘pages’ but as content ‘types’ and establish what fields each of those content types will need."
 slug = "til-02-content-schema-in-sanity"

@@ -1,5 +1,5 @@
 +++
-title = "TIL #4 Create new Gatsby site to use with Sanity CMS"
+title = "Set up a Gatsby project with Sanity"
 date = "2019-08-05T11:32:35+02:00"
 description = "How to configure Gatsby to play nice with Sanity. Including configuring the gatsby-source-sanity plugin and some cool extra development features that ship with Sanity."
 slug = "til-04-new-gatsby-site-sanity-cms"
