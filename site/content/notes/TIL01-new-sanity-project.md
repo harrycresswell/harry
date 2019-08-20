@@ -3,7 +3,7 @@ title = "Starting a new Sanity project"
 date = "2019-07-09T15:11:58+02:00"
 description = "Sanity is a headless CMS that allows you to structure your content by building custom schemas and deliver it as a flexible API, which you can then query using a front-end of your choice. "
 slug = "01-new-sanity-project"
-tags = ["Today I Learned", "CMS"]
+tags = ["Today I Learned", "Sanity"]
 syndicate = "true"
 +++
 
