@@ -54,7 +54,12 @@
 
  .PostListItem-meta {
   display: flex;
+  font-size: 80%;
   max-width: 1200px;
   margin: 0 auto;
   @include margin-bottom(0.5);
+
+  @include breakpoint(md) {
+    font-size: 100%;
+  }
  }
