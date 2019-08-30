@@ -6,7 +6,7 @@ slug = "build"
 url = "build"
 +++
 
-{{< intro >}}This page shares the technology and techniques I used to build and host this website. If you have a specific question <a href="/contact/">drop me a message</a>, I’d be happy to help. {{< /intro >}}
+{{< intro >}}This page shares the technology and techniques I used to build and host this website. {{< /intro >}} If you have a specific question <a href="/contact/">drop me a message</a>, I’d be happy to help.
 
 ## Templating
 I’m using [Hugo](https://gohugo.io/), a [Go](https://golang.org/) based [static site generator](https://www.staticgen.com/), primarily because it’s flexible and lightning fast. The site uses a custom theme built on top of the [Victor-Hugo](https://github.com/netlify/victor-hugo) boilerplate, a great starting point for a [Gulp](https://gulpjs.com/) and [Webpack](https://webpack.js.org/) assets pipeline. I made a few modifications to include SCSS support and a [responsive image build task](https://github.com/harrycresswell/harry/blob/master/gulpfile.babel.js#L66), which generates both retina and non-retina image sizes.

@@ -6,18 +6,16 @@ slug = "now"
 url = "now"
 +++
 
-I‘m back in Hamburg after a 2 week trip to England in our van. When I’m not editing pictures this is what I’m focusing on.
+I‘m currently in London. This is what I’m focusing on.
 
 
 ### Currently Reading
 
-- I just finished [Brief Answers to the Big Questions](https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions) by Stephen Hawking. 
 
-Now I’m working through a few books I still haven’t finished:
-
-- [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
-- [The Greatest](https://www.goodreads.com/book/show/34056102-the-greatest) by Matthew Syed
 - [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
+- [Pro Git](https://www.goodreads.com/book/show/6518085-pro-git) by Scott Chacon
+- [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
+
 
 
 ### Current Projects
@@ -30,8 +28,10 @@ Now I’m working through a few books I still haven’t finished:
 
 - ReactJS, GatsbyJS and GraphQL
 - [Styled System](https://styled-system.com/), a collection of utility functions that add style props to your React components
-- [Sanity.io](https://www.sanity.io/)
+- [Sanity.io](https://www.sanity.io/), an API based CMS
+- German. This might be on here a while
 
 
-- **Last Updated:** August 14, 2019.
-- **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
+**Last Updated:** August 30, 2019.
+
+**Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).

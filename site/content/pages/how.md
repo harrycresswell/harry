@@ -6,7 +6,7 @@ slug: "how"
 url: "/how/"
 ---
 
-{{< intro >}}This page will give you a clearer picture of ways we can work together and whether I’m the right fit for your next project.{{< /intro >}}
+{{< intro >}}This page will give you a clear idea of ways we can work together and if I’m the right fit for your next project.{{< /intro >}}
 
 ## Who I am
 
