@@ -20,4 +20,4 @@ You can find out [what I'm up to right now](/now/) or read about some of the way
 
 Here’s a very crude [portfolio of recent projects](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. 
 
-I’m on [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionaly I check [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
+Find me on [Github](https://github.com/harrycresswell) or [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionaly I check [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
