@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article id="content" class="Post h-entry">
+
+      <header class="PostHeader">
+        <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
+        <p class="PostDescription">{{ .Params.Description }}</p>
+      </header>
+
+      <div class="PageBlocks">
+        {{ range .Params.blocks }}
+            {{ if eq "hero" .template }}
+              {{ partial "blocks/hero" . }}
+            {{ end }}
+        {{ end }}
+      </div>
+
+      <div class="PostBody e-content">
+        {{ partial "heading-anchor.html" .Content }}
+        {{ partial "post/author.html" . }}
+      </div>
+
+  </article><!--/.Content -->
+{{ end }}

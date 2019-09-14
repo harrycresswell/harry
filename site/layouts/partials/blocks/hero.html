@@ -1,0 +1,4 @@
+<section class="Hero">
+  {{- with .heroimage }}<img class="Hero-img" src="{{ . }}" />{{- end -}}
+  {{- with .heroimage_caption -}}<cite class="Hero-caption">{{ markdownify . }}</cite>{{- end -}}
+</section>
