@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <header class="PostHeader">
+    <h1 class="PostHeader-title">Projects</h1>
+  </header>
+  <ul class="PostList">
+  {{ range .Data.Pages }}
+    <li class="PostListItem h-entry">
+      <h3 class="PostListItem-title p-name">
+        <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
+      </h3>
+      <p class="PostDescription">{{ .Description }}</p>
+      <div hidden>
+        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+      </div>
+      <div class="PostListItem-meta">
+        {{ partial "post/tags.html" . }}
+      </div>
+    </li>
+  {{ end }}
+  </ul>
+
+{{ end }}
