@@ -1,0 +1,54 @@
+{{ define "main" }}
+  <article id="content" class="Project h-entry">
+
+      <header>
+        <div class="Grid">
+        
+          <div class="Grid-1-6">
+            <h1 class="Project-title p-name">{{ .Title }}</h1>
+          </div>
+
+          <div class="Grid-7-6">
+            <p class="Project-description">{{ .Params.Description }}</p>
+          </div>
+
+          <div class="Grid-7-3">
+            <span class="strong dark small">Role</span>
+            {{- with .Params.role -}}
+              <p class="light small">{{ markdownify . }}</p>
+            {{- end -}}
+          </div>
+
+          <div class="Grid-10-3">
+            <span class="strong dark small">Duration</span>
+            {{- with .Params.duration -}}
+              <p class="light small">{{ markdownify . }}</p>
+            {{- end -}}
+          </div>
+
+        </div>
+      </header>
+
+
+      <div class="Blocks e-content">
+        {{- range .Params.blocks -}}
+        {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{ end }}
+            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" .) }}{{ end }}
+            {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "image-grid-four" -}}{{ partial "blocks/img-grid-four" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "quote" -}}{{ partial "blocks/quote" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "link-big" -}}{{ partial "blocks/link-big" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "iframe-full" -}}{{ partial "blocks/iframe-full" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "iframe-grid-one" -}}{{ partial "blocks/iframe-grid-one" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "iframe-grid-two" -}}{{ partial "blocks/iframe-grid-two" (dict "Params" .) }}{{- end -}} 
+        {{- end -}}
+      </div>
+
+     <!--<div class="PostBody e-content">
+        {{ partial "heading-anchor.html" .Content }}
+        {{ partial "post/author.html" . }}
+      </div>--> 
+
+  </article><!--/.Content -->
+{{ end }}

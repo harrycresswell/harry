@@ -4,26 +4,20 @@
 
 blockquote {
   color: var(--color-dark);
-  float: right;
-  font-size: $mod_1*$mod_1*$mod_1 *1rem;
-  font-weight: $font-weight-medium;
+  font-size: $mod_1 *1rem;
+  font-weight: $font-weight-regular;
   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
-  line-height: 1.3;
-  max-width: 400px;
-  @include margin-top(2);
-  @include margin-bottom(1);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 
-  @include breakpoint(md) {
-    @include margin-right(8);
-  }
-  p {
-    min-width: 90%;
-  }
-
-  cite {
-    font-size: 60%;
+  cite,
+  figcaption {
+    display: block;
+    font-size: 80%;
     font-style: normal;
     font-family: $font-system-md;
     font-weight: $font-weight-regular;
+    @include margin-top(0.5);
   }
 }

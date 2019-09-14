@@ -117,7 +117,7 @@ In `index.js` first we need to import `graphql`.
 
 `import { Link, graphql } from 'gatsby'`
 
-Next we can write our query and export it as a variable. Make sure you switch out the image `src` for the ￼image fragment reference￼.
+Next we can write our query and export it as a variable. Make sure you switch out the image `src` for the ￼image fragment reference.
 
 ```graphql
 export const queryEvent = graphql`
@@ -168,5 +168,5 @@ The next step will be to generate the single pages for each event.
 
 ## Further resources
 
-- ￼[Sourcing from Sanity￼](https://www.gatsbyjs.org/docs/sourcing-from-sanity/) in the Gatsby Docs.
-- [￼Build a portfolio site with Sanity and Gatsby](https://www.youtube.com/watch?v=SLGkyodumKI)￼ from Jason Lengstorf.
+- [Sourcing from Sanity￼](https://www.gatsbyjs.org/docs/sourcing-from-sanity/) in the Gatsby Docs.
+- [￼Build a portfolio site with Sanity and Gatsby](https://www.youtube.com/watch?v=SLGkyodumKI) from Jason Lengstorf.

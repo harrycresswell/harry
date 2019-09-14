@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #UTILITIES: TYPOGRAPHY
+\*------------------------------------*/
+
+/* font family */
+.mono {
+  font-family: $font-system-mn;
+  font-size: 0.7em;
+}
+
+/* font size */
+.body {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  font-weight: $font-weight-regular;
+  @include margin-top(0);
+}
+
+.small {
+  font-size: 80%;
+}
+
+/* font weight */
+.strong {
+  font-weight: $font-weight-medium;
+}

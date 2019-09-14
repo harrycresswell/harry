@@ -1,0 +1,12 @@
+<section class="Section">
+  <div class="Image">
+    <div class="Ratio Ratio--{{- with .Params.iframe_ratio -}}{{ markdownify . }}{{- end -}}">
+      <iframe style="position: absolute; height: 100%; border: none" width="100%" src="{{- with .Params.iframe_url -}}{{ . }}{{- end -}}" allowfullscreen></iframe>
+    </div><!-- /.Ratio -->
+  </div><!-- /.Image -->
+  {{- with .Params.iframe_caption -}}
+  <figure class="Grid">
+    <figcaption class="Grid-7-6 mono">{{ markdownify . }}</figcaption>
+  </figure>
+  {{- end -}}
+</section>

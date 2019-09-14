@@ -1,0 +1,11 @@
+<section class="Section Grid">
+  <div class="Grid-1-6">
+      <h3>{{ markdownify .Params.heading }}</h3>
+      {{- with .Params.subheading -}}<h4 class="is-body light">{{ markdownify . }}</h4>{{- end -}}
+  </div>
+  {{- with .Params.content -}}
+  <div class="Grid-7-6">
+      {{ markdownify . }}
+  </div>
+  {{- end -}}
+</section>

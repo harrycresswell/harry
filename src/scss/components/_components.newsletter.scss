@@ -8,13 +8,14 @@
  */
 
 .Newsletter {
-  max-width: 1200px;
+  max-width: 1248px;
   margin: 0 auto;
 }
 
 .NewsletterForm {
   display: flex;
   flex-direction: column;
+  @include margin-top(1);
 }
 
 .NewsletterForm-field {

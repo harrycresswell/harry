@@ -1,0 +1,14 @@
+<section class="Section">
+  <div class="Image">
+    <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
+      <img
+        data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image -}}{{ markdownify . }}{{- end -}}"
+        class="cld-responsive lazyload " alt="{{- with .Params.image_alt -}}{{ markdownify . }}{{- end -}}">
+    </div><!-- /.ImageRatio -->
+  </div><!-- /.Image -->
+  {{- with .Params.image_caption -}}
+  <figure class="Grid">
+    <figcaption class="Grid-7-6 mono">{{ markdownify . }}</figcaption>
+  </figure>
+  {{- end -}}
+</section>

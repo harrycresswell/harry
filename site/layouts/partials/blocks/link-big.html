@@ -1,0 +1,10 @@
+<section class="Section Grid">
+  <div class="Grid-7-6 Message">
+    <p>Visit the live site ↓</p>
+    <h4 class="size-2 as-link">
+      <a class="link-dark" href="{{- with .Params.link_url -}}{{ . }}{{- end -}}" target="_blank" rel="noopener noreferer">
+        {{- with .Params.link_text -}}{{ markdownify . }}{{- end -}}
+      </a>
+    </h4>
+  </div>
+</section>

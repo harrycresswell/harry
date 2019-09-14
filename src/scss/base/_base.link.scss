@@ -14,6 +14,11 @@ a {
     text-decoration: none;
   }
 
+  &:focus {
+    outline: 1px dotted;
+    outline-offset: 4px;
+  }
+
   &:visited {
     text-decoration: underline;
   }

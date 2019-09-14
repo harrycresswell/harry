@@ -4,6 +4,7 @@
 
 img {
     max-width: 100%;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -20,6 +21,7 @@ figure > img {
 }
 
 figcaption {
-  color: var(--color-lighter);
-  font-size: 70%;
+  color: var(--color-light);
+  font-size: 80%;
+  @include margin-top(0.5);
 }

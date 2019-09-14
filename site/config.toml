@@ -26,6 +26,7 @@ enableEmoji = true
   
 [permalinks]
   articles = "/:section/:slug/"
+  projects = "/:section/:slug/"
   notes = "/:section/:slug/"
   page = "/:title/"
   custom = "/:slug/"
@@ -58,10 +59,9 @@ enableEmoji = true
   weight = 10
 
 [[menu.main]]
-  name = "Newsletter"
-  url = "/newsletter/"
-  weight = 15
-
+name = "Newsletter"
+url = "/newsletter/"
+weight = 15
 
 [[menu.footer]]
   name = "Articles"

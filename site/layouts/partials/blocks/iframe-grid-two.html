@@ -1,0 +1,26 @@
+<section class="Section Grid">
+  <div class="Grid-1-6">
+    <div class="Image">
+      <div class="Ratio Ratio--{{- with .Params.iframe_ratio -}}{{ markdownify . }}{{- end -}}">
+        <iframe style="position: absolute; height: 100%; border: none" width="100%" src="{{- with .Params.iframe_one_url -}}{{ . }}{{- end -}}" allowfullscreen></iframe>
+      </div><!-- /.Ratio -->
+    </div><!-- /.Image -->
+    {{- with .Params.iframe_one_caption -}}
+    <figure>
+      <figcaption class="mono">{{ markdownify . }}</figcaption>
+    </figure>
+    {{- end -}}
+  </div>
+  <div class="Grid-7-6">
+    <div class="Image">
+      <div class="Ratio Ratio--{{- with .Params.iframe_ratio -}}{{ markdownify . }}{{- end -}}">
+        <iframe style="position: absolute; height: 100%; border: none" width="100%" src="{{- with .Params.iframe_two_url -}}{{ . }}{{- end -}}" allowfullscreen></iframe>
+      </div><!-- /.Ratio -->
+    </div><!-- /.Image -->
+    {{- with .Params.iframe_two_caption -}}
+    <figure>
+      <figcaption class="mono">{{ markdownify . }}</figcaption>
+    </figure>
+    {{- end -}}
+  </div>
+</section>

@@ -19,5 +19,8 @@ body {
 
 p {
 	max-width: 680px;
-	@include margin-bottom(0.8);
+
+	&:not(:last-of-type) {
+		@include margin-bottom(0.8);
+	}
 }

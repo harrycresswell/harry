@@ -9,6 +9,8 @@
 
 .Container {
     padding-top: 24%;
+    max-width: 1248px;
+    margin: 0 auto;
 }
 
 @include breakpoint(md) {

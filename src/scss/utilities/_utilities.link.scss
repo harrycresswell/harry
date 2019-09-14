@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    #UTILITIES: COLOR
+\*------------------------------------*/
+
+.link-dark {
+  color: var(--color-dark);
+
+  &:hover {
+    color: var(--color-white);
+    background: var(--color-dark);
+  }
+}
