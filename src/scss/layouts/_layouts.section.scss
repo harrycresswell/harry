@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    #LAYOUTS: SECTION
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+ .Section {
+  @include margin-top(2);
+  @include margin-bottom(2);
+ }
