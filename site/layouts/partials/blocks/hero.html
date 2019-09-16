@@ -1,4 +1,16 @@
-<section class="Hero">
-  {{- with .heroimage }}<img class="Hero-img" src="{{ . }}" />{{- end -}}
-  {{- with .heroimage_caption -}}<cite class="Hero-caption">{{ markdownify . }}</cite>{{- end -}}
+<section class="Section Hero">
+  {{- with .heroimage }}
+  <div class="Image">
+    <div class="Ratio Ratio--16by9">
+      <img
+        data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ . }}"
+        class="cld-responsive lazyload " alt="">
+    </div><!-- /.ImageRatio -->
+  </div><!-- /.Image -->
+  {{- end -}}
+  {{- with .heroimage_caption -}}
+  <figure class="Grid">
+    <figcaption class="Grid-7-3">{{ markdownify . }}</figcaption>
+  </figure>
+  {{- end -}}
 </section>

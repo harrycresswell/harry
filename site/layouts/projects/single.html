@@ -1,23 +1,35 @@
 {{ define "main" }}
   <article id="content" class="Post h-entry">
 
-      <header class="PostHeader">
-        <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
-        <p class="PostDescription">{{ .Params.Description }}</p>
+      <header>
+        <div class="Grid">
+          <div class="Grid-1-6">
+            <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
+          </div>
+          <div class="Grid-7-6">
+            <p class="PostDescription">{{ .Params.Description }}</p>
+          </div>
+        </div>
+        <div class="Grid">
+          <div class="Grid-7-3">{{- with .Params.role -}}<p class="light">{{ markdownify . }}</p>{{- end -}}</div>
+          <div class="Grid-10-3">{{- with .Params.duration -}}<p class="light">{{ markdownify . }}</p>{{- end -}}</div>
+        </div>
       </header>
 
-      <div class="PageBlocks">
-        {{ range .Params.blocks }}
-            {{ if eq "hero" .template }}
-              {{ partial "blocks/hero" . }}
-            {{ end }}
-        {{ end }}
+
+      <div class="PostBlocks e-content">
+        {{- range .Params.blocks -}}
+            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" .) }}{{ end }}
+            {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "image-grid-four" -}}{{ partial "blocks/img-grid-four" (dict "Params" .) }}{{- end -}} 
+        {{- end -}}
       </div>
 
-      <div class="PostBody e-content">
+     <!--<div class="PostBody e-content">
         {{ partial "heading-anchor.html" .Content }}
         {{ partial "post/author.html" . }}
-      </div>
+      </div>--> 
 
   </article><!--/.Content -->
 {{ end }}
