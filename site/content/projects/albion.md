@@ -3,33 +3,65 @@ title = "Albion Cycling"
 date = "2019-08-30T16:44:00+01:00"
 description = "Building a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
 slug = "albion"
-[[blocks]]
-template = "hero"
-heroimage = "https://www.albioncycling.com/wp-content/uploads/2018/10/aw18-20-1200x800.jpg"
-heroimage_caption = "Albion A/W 18 by Rupert Hartley"
 tags = ["UX Design", "UI Design", "Prototyping", "Usability Testing", "Email marketing"]
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
-team = "Harry Cresswell (Design), Luke Harvey (Development), Albion Cycling (Client)"
 duration = "April 2016  (– Present)"
 draft = "false"
 syndicate = "false"
+[[blocks]]
+image = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
+image_caption = "Albion A/W 18 by Rupert Hartley"
+image_alt = "Albion A/W 18 by Rupert Hartley"
+image_ratio = "16by9"
+template = "image-full"
+[[blocks]]
+heading = "Overview"
+subheading = "Clarifying key objectives"
+content = "<p>Albion is a road cycling brand who create versatile clothing and accessories to suit the changing British seasons. Riding in Britain, in all seasons, is a big part of the brands identity and making products that support British manufacturing is at the core of what Albion values.</p> <p>When the team first approached Luke and I in 2016, Albion had a solid brand identity, but no visible presence online and no way to sell their products.</p><p>We set out to change that by building a solution that would allow the team to connect with their audience, sell their gear online and give other riders an idea of what Albion is about.</p>"
+template = "body-copy"
+[[blocks]]
+image = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_caption = "Harry Cresswell"
+image_alt = "Harry Cresswell"
+image_ratio = "3by2"
+template = "image-full"
+[[blocks]]
+heading = "Meeting Albion"
+subheading = "Design Research"
+content = "<p>[Luke](https://lukeharvey.co.uk) and I met the team one afternoon up on London’s Southbank, to discuss the brand vision and get a better idea of what the project involved. During our meeting we brainstormed ideas, identified objectives and discussed potential strategies.</p><p>Albion are a passionate team who live and breath cycling and have a clear vision of what the brand is about. It’s about freedom and exploring Britain by bike – forget the rules and racing. Their best stories start and finish with the weather and they endeavour to make functional products to suit this ethos.</p><p>Luke and I were inspired by the meeting and agreed to join forces with the team. We felt confident we could create a solution that would launch the new business online, in the right way.</p>"
+template = "body-copy"
+[[blocks]]
+image_one = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_one_caption = "Harry Cresswell"
+image_one_alt = "Harry Cresswell"
+image_two = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
+image_two_caption = "Albion A/W 18 by Rupert Hartley"
+image_two_alt = "Albion A/W 18 by Rupert Hartley"
+image_ratio = "3by2"
+template = "image-grid-two"
+[[blocks]]
+image_one = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_one_caption = "Harry Cresswell"
+image_one_alt = "Harry Cresswell"
+image_two = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
+image_two_caption = "Albion A/W 18 by Rupert Hartley"
+image_two_alt = "Albion A/W 18 by Rupert Hartley"
+image_three = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_three_caption = "Harry Cresswell"
+image_three_alt = "Harry Cresswell"
+image_four = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
+image_four_caption = "Albion A/W 18 by Rupert Hartley"
+image_four_alt = "Albion A/W 18 by Rupert Hartley"
+image_ratio = "1by1"
+template = "image-grid-four"
+[[blocks]]
+image = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_caption = "Harry Cresswell"
+image_alt = "Harry Cresswell"
+image_ratio = "3by2"
+template = "image-full"
 +++
 
-### Overview
-
-Albion is a road cycling brand who create versatile clothing and accessories to suit the changing British seasons. Riding in Britain, in all seasons, is a big part of the brands identity and making products that support British manufacturing is at the core of what Albion values.
-
-When the team first approached Luke and I in 2016, Albion had a solid brand identity, but no visible presence online and no way to sell their products. 
-
-We set out to change that by building a solution that would allow the team to connect with their audience, sell their gear online and give other riders an idea of what Albion is about.
-
-### Meeting Albion
-
-[Luke](https://lukeharvey.co.uk/) and I met Rupert, Jack and Charlie one afternoon up on London’s Southbank, to discuss the brand vision and get a better idea of what the project involved. During our meeting we brainstormed ideas, identified objectives and discussed potential strategies. 
-
-Albion are a passionate team with a clear vision of what their brand is about. It’s not about rules or racing. Instead it’s about having the freedom to explore Britain by bike. Their best stories start and finish with the weather and they endeavour to make functional products to suit this ethos.
-
-Luke and I agreed to join forces with the team as we felt confident we could create a solution that would launch the new online presence in the right way.
 
 {{< blockquote quote="“Albion aims to make the best functional products for cycling in all weather, focus on quality and craft in manufacturing, and inspire a generation of riders to go further and explore by bike.” " cite="Albion Cycling" >}} 
 
