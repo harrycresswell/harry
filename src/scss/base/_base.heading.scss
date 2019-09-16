@@ -40,3 +40,9 @@ h4,
   @include margin-top(1.5);
   @include margin-bottom(0.5);
 }
+
+.is-body {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  font-weight: $font-weight-regular;
+  @include margin-top(0);
+}
