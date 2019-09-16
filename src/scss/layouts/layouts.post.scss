@@ -7,10 +7,7 @@
  * Component Block
  */
 
-.PostHeader {
-  max-width: 1200px; 
-  margin: 0 auto;
-}
+//.Post {}
 
 .PostHeader-title {
   max-width: 960px;
@@ -18,14 +15,14 @@
 
 .PostMeta {
   display: flex;
-  max-width: 1200px; 
+  max-width: 1248px; 
   margin: 0 auto;
   @include margin-bottom(1);
 }
 
 .PostBody {
 @include margin-top(2);
-max-width: 1200px; 
+max-width: 1248px; 
 margin: 0 auto;
 
   h2, h3, h4, h5, h6 {
