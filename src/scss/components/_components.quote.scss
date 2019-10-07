@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #COMPONENTS: QUOTE
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+.Quote {
+  max-width: 400px;
+}
+
+/**
+ * Component Modifier
+ */
+
+.Quote--left {
+  @include margin-top(0);
+  @include margin-bottom(0);
+  @include margin-left(1);
+
+  @include breakpoint(md) {
+    @include margin-left(0);
+  }
+}
+
+.Quote--right {
+  float: right;
+  @include margin-top(1);
+  @include margin-bottom(2);
+  @include margin-left(2);
+  @include margin-right(1);
+  width: 400px;
+
+  @include breakpoint(md) {
+    @include margin-right(8);
+  }
+
+}

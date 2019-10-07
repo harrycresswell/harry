@@ -4,20 +4,15 @@
 
 blockquote {
   color: var(--color-dark);
-  float: right;
   font-size: $mod_1 *1rem;
   font-weight: $font-weight-regular;
   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
   line-height: 1.5;
-  max-width: 400px;
-  @include margin-top(2);
-  @include margin-bottom(1);
+  margin: 0;
+  padding: 0;
 
-  @include breakpoint(md) {
-    @include margin-right(8);
-  }
-
-  cite {
+  cite,
+  figcaption {
     display: block;
     font-size: 80%;
     font-style: normal;
