@@ -1,10 +1,10 @@
 <figure>
-    <blockquote>
+    <blockquote class="Quote Quote--right">
         {{ .Get "quote" }}
         {{ if .Get "cite"}}
         {{ end }}
         {{ if .Get "cite"}}
-            <cite>&mdash; {{ .Get "cite" }}</cite>
+            <figcaption>&mdash; {{ .Get "cite" }}</figcaption>
         {{ end }}
     </blockquote>
 </figure>
