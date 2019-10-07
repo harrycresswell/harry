@@ -28,7 +28,7 @@ template = "image-full"
 [[blocks]]
 heading = "Meeting Albion"
 subheading = "Design Research"
-content = "<p>[Luke](https://lukeharvey.co.uk) and I met the team one afternoon up on London’s Southbank, to discuss the brand vision and get a better idea of what the project involved. During our meeting we brainstormed ideas, identified objectives and discussed potential strategies.</p><p>Albion are a passionate team who live and breath cycling and have a clear vision of what the brand is about. It’s about freedom and exploring Britain by bike – forget the rules and racing. Their best stories start and finish with the weather and they endeavour to make functional products to suit this ethos.</p><p>Luke and I were inspired by the meeting and agreed to join forces with the team. We felt confident we could create a solution that would launch the new business online, in the right way.</p>"
+content = "<p><a href='https://lukeharvey.co.uk' target='_blank' rel='noopener noreferer'>Luke</a> and I met the team one afternoon up on London’s Southbank, to discuss the brand vision and get a better idea of what the project involved. During our meeting we brainstormed ideas, identified objectives and discussed potential strategies.</p><p>Albion are a passionate team who live and breath cycling and have a clear vision of what the brand is about. It’s about freedom and exploring Britain by bike – forget the rules and racing. Their best stories start and finish with the weather and they endeavour to make functional products to suit this ethos.</p><p>Luke and I were inspired by the meeting and agreed to join forces with the team. We felt confident we could create a solution that would launch the new business online, in the right way.</p>"
 template = "body-copy"
 [[blocks]]
 image_one = "v1550264713/hc/harry-cresswell-about-me.jpg"
@@ -60,10 +60,24 @@ image_caption = "Harry Cresswell"
 image_alt = "Harry Cresswell"
 image_ratio = "3by2"
 template = "image-full"
+[[blocks]]
+quote_text = "Albion aims to make the best functional products for cycling in all weather, focus on quality and craft in manufacturing, and inspire a generation of riders to go further by bike."
+quote_caption = "Albion Cycling"
+image = "v1550264713/hc/harry-cresswell-about-me.jpg"
+image_caption = "Harry Cresswell"
+image_alt = "Harry Cresswell"
+image_ratio = "3by2"
+template = "quote"
+[[blocks]]
+heading = "Design Brief"
+subheading = "Clarifying key objectives"
+content = "<p>Jack, who was project managing, sent us a design brief which clarified key objectives and detailed the current product offering. It covered what was expected from the look and feel of the website and specific functionality requirements. We used the brief to crosscheck our notes and identify anything we’d missed during our meeting.</p><p>Following this I conducted my own research to learn more about the market, product, target audience and competition.</p><p><a href='https://figma.com/' target='_blank' rel='noopener noreferer'>View Figma Prototype ↗</a></p>"
+template = "body-copy"
+[[blocks]]
+link_text = "albioncycling.com"
+link_url = "https://albioncycling.com/"
+template = "link-big"
 +++
-
-
-{{< blockquote quote="“Albion aims to make the best functional products for cycling in all weather, focus on quality and craft in manufacturing, and inspire a generation of riders to go further and explore by bike.” " cite="Albion Cycling" >}} 
 
 ### Design Brief
 
