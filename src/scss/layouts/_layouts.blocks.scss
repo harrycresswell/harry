@@ -1,15 +1,16 @@
 /*------------------------------------*\
-    #LAYOUTS: POST-BLOCKS
+    #LAYOUTS: BLOCKS
 \*------------------------------------*/
 
 /**
  * Component Block
  */
 
- .PostBlocks {
+ .Blocks {
    h1,
    h2,
-   h3 {
+   h3,
+   h4 {
      margin: 0;
    }
  }
