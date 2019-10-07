@@ -14,17 +14,17 @@
     {{- end -}}
   </div>
   <div class="Grid-7-6">
-      <div class="Image">
-        <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
-          <img
-            data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image_two -}}{{ markdownify . }}{{- end -}}"
-            class="cld-responsive lazyload " alt="{{- with .Params.image_two_alt -}}{{ markdownify . }}{{- end -}}">
-        </div><!-- /.ImageRatio -->
-      </div><!-- /.Image -->
-      {{- with .Params.image_two_caption -}}
-      <figure>
-        <figcaption>{{ markdownify . }}</figcaption>
-      </figure>
-      {{- end -}}
-    </div>
+    <div class="Image">
+      <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
+        <img
+          data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image_two -}}{{ markdownify . }}{{- end -}}"
+          class="cld-responsive lazyload " alt="{{- with .Params.image_two_alt -}}{{ markdownify . }}{{- end -}}">
+      </div><!-- /.ImageRatio -->
+    </div><!-- /.Image -->
+    {{- with .Params.image_two_caption -}}
+    <figure>
+      <figcaption>{{ markdownify . }}</figcaption>
+    </figure>
+    {{- end -}}
+  </div>
 </section>
