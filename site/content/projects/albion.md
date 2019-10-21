@@ -1,7 +1,7 @@
 +++
 title = "Albion Cycling"
 date = "2019-08-30T16:44:00+01:00"
-description = "Building a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
+description = "Designing a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
 slug = "albion"
 tags = ["UX Design", "UI Design", "Prototyping", "Usability Testing", "Email marketing"]
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
@@ -9,26 +9,99 @@ duration = "April 2016  (– Present)"
 draft = "false"
 syndicate = "false"
 [[blocks]]
-image = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
-image_caption = "Albion A/W 18 by Rupert Hartley"
-image_alt = "Albion A/W 18 by Rupert Hartley"
-image_ratio = "16by9"
+image = "v1571654513/hc/albion-season-a-w-19.jpg"
+image_caption = "Albion A/W 19 shot by Rupert Hartley"
+image_alt = "Albion A/W 19 shot by by Rupert Hartley"
+image_ratio = "3by2"
 template = "image-full"
 [[blocks]]
 heading = "Overview"
 subheading = "Clarifying key objectives"
-content = "<p>Albion is a road cycling brand who create versatile clothing and accessories to suit the changing British seasons. Riding in Britain, in all seasons, is a big part of the brands identity and making products that support British manufacturing is at the core of what Albion values.</p> <p>When the team first approached Luke and I in 2016, Albion had a solid brand identity, but no visible presence online and no way to sell their products.</p><p>We set out to change that by building a solution that would allow the team to connect with their audience, sell their gear online and give other riders an idea of what Albion is about.</p>"
+content = "<p>Albion create versatile clothing and accessories for road cyclists to suit the changing British weather. Riding in Britain throughout the seasons is a big part of their identity, and making products that support British manufacturing is at the core of what Albion values.</p><p>When Albion first approached <a href='https://lukeharvey.co.uk' target='_blank' rel='noopener noreferer'>Luke</a> and I, they had a solid brand identity, but lacked a way to sell products online. We set out to change that by building a website that would allow the team to connect with their audience, sell their gear and give riders an idea of what Albion is about.</p>"
 template = "body-copy"
 [[blocks]]
-image = "v1550264713/hc/harry-cresswell-about-me.jpg"
-image_caption = "Harry Cresswell"
-image_alt = "Harry Cresswell"
+quote_text = "Albion aims to make the best functional products for cycling in all weather, focus on quality and craft in manufacturing, and inspire a generation of riders to go further by bike."
+quote_caption = "Albion Cycling"
+image = "v1571655158/hc/albion-logo.png"
+image_caption = "Albion Cycling Logo"
+image_alt = "Albion Cycling Logo"
 image_ratio = "3by2"
-template = "image-full"
+template = "quote"
 [[blocks]]
-heading = "Meeting Albion"
-subheading = "Design Research"
-content = "<p><a href='https://lukeharvey.co.uk' target='_blank' rel='noopener noreferer'>Luke</a> and I met the team one afternoon up on London’s Southbank, to discuss the brand vision and get a better idea of what the project involved. During our meeting we brainstormed ideas, identified objectives and discussed potential strategies.</p><p>Albion are a passionate team who live and breath cycling and have a clear vision of what the brand is about. It’s about freedom and exploring Britain by bike – forget the rules and racing. Their best stories start and finish with the weather and they endeavour to make functional products to suit this ethos.</p><p>Luke and I were inspired by the meeting and agreed to join forces with the team. We felt confident we could create a solution that would launch the new business online, in the right way.</p>"
+heading = "Challenge"
+subheading = "Clarifying key objectives"
+content = "<p>Albion envisaged a focus on content and a growing product inventory, so we needed to design a scalable system that could seamlessly manage both content and product, and remain intuitive enough for a small team to adopt.</p><p>Working closely from the start, we identified the most appropriate technology the team would feel comfortable using and designed a solution to meet their growing needs.</p>"
+template = "body-copy"
+[[blocks]]
+image_one = "v1571657260/hc/aw18-05-1600x1067.jpg"
+image_one_caption = "Albion A/W 18 shot by Rupert Hartley"
+image_one_alt = "Albion A/W 18 shot by Rupert Hartley"
+image_two = "v1571657260/hc/aw18-02-1600x1067.jpg"
+image_two_caption = "Albion A/W 18 shot by Rupert Hartley"
+image_two_alt = "Albion A/W 18 shot by Rupert Hartley"
+image_ratio = "3by2"
+template = "image-grid-two"
+[[blocks]]
+heading = "Design Brief"
+subheading = "Design research"
+content = "<p>During an initial meeting we discussed the brand vision, identified key objectives and discussed potential strategies.</p><p>A design brief helped clarify project objectives and detailed the current product offering. Functionality requirements and look and feel were also covered. </p><p>Following this I conducted my own research to learn more about the market, target audience and competition.</p>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D39%253A2206"
+iframe_caption = "Albion Design Brief"
+iframe_ratio = "3by2"
+template = "iframe-full"
+[[blocks]]
+heading = "Mood Board"
+subheading = "Design research"
+content = "<p>Visual references helped build a picture of a style suited to the brand vision. Together we discussed the references to help pinpoint specific details which we could use to inform any design decisions.</p>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D39%253A2207"
+iframe_caption = ""
+iframe_ratio = "3by2"
+template = "iframe-grid-one"
+[[blocks]]
+heading = "The Mission"
+subheading = "Design research"
+content = "<p>We identified 3 core requirements for the project.</p><p><strong>1. Create a website and eCommerce platform</strong> with seamless experience between content and store. Provide an easy and intuitive way for the team to manage content and product inventory.</p><p><strong>2. Build an integrated weather application</strong> which helps riders discover weather conditions based on a given location. The app must pair riding advice and product suggestions with the forecast.</p><p><strong>3. Set up an email marketing funnel</strong> and design email templates, providing the team with a way to build a following and connect and share content with their customers.</p>"
+template = "body-copy"
+[[blocks]]
+quote_text = "Forget the rules and racing, it’s about having freedom to explore Britain by bike. Our best stories start and finish with the weather and we endeavour to make functional products to suit this ethos."
+quote_caption = "Albion Cycling"
+image = "v1571674593/hc/albion-cycling-s-s-19-2-1.jpg"
+image_caption = "Albion S/S 19 shot by Rupert Hartley"
+image_alt = "Albion S/S 19 shot by Rupert Hartley"
+image_ratio = "3by2"
+template = "quote"
+[[blocks]]
+heading = "Brand and Style"
+subheading = "Design exploration"
+content = "<p>The team were well organised and had a clear idea of the website structure. Written content had been finalised and initial product shots photographed. With a photographer founder, a strong focus on imagery was expected.</p><p>Beyond a small set of brand materials – logo, lead typeface and initial imagery – we had a clean slate to work with. By expanding on what already existed we introduced a contrasting typeface, a colour palette and a component library that would scale easily in the future.</p>"
+template = "body-copy"
+[[blocks]]
+image_one = "v1571655793/hc/albion-typography.png"
+image_one_caption = "Lead typface Apercu, alongside OCRB Regular"
+image_one_alt = "Lead typface Apercu, alonside OCRB Regular"
+image_two = "v1571656051/hc/albion-cycling-a-w-19-9-1.jpg"
+image_two_caption = "Albion A/W 19 by Rupert Hartley"
+image_two_alt = "Albion A/W 19 by Rupert Hartley"
+image_ratio = "3by2"
+template = "image-grid-two"
+[[blocks]]
+heading = "User Experience"
+subheading = "Design exploration"
+content = "<p>Working with data collected during the research phase, I built a basic site map to help visualise the website architecture and high level page structure. This helped guide the user experience and wireframe development.</p><p>We created several user flows to get a better idea of a potential visitor journeys. We reviewed these together to identify any pitfalls in the plan.</p>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D639%253A2"
+iframe_caption = "Albion Site Map"
+iframe_ratio = "3by2"
+template = "iframe-full"
+[[blocks]]
+heading = "Sketching"
+subheading = "Design exploration"
+content = "<p>Sketching sessions proved a fast and effective way to visualise ideas with minimal distraction. We produced several sketches to map the hierarchy of information and establish a suitable layout.</p><p>3 particular features became the websites signature:</p><ol><li><strong>Weather app homepage hero</strong><li><strong>Off-canvas basket and mobile navigation</strong></li><li><strong>Monospaced companion typeface</strong></li></ol><p>With weather a key part of the brand identity, it made sense to use the concept as a theme to guide the design. I made various sketches where a weather app became the defining feature of homepage. We visualised this as an interactive component in the hero section.</p>"
 template = "body-copy"
 [[blocks]]
 image_one = "v1550264713/hc/harry-cresswell-about-me.jpg"
@@ -40,176 +113,62 @@ image_two_alt = "Albion A/W 18 by Rupert Hartley"
 image_ratio = "3by2"
 template = "image-grid-two"
 [[blocks]]
-image_one = "v1550264713/hc/harry-cresswell-about-me.jpg"
-image_one_caption = "Harry Cresswell"
-image_one_alt = "Harry Cresswell"
-image_two = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
-image_two_caption = "Albion A/W 18 by Rupert Hartley"
-image_two_alt = "Albion A/W 18 by Rupert Hartley"
-image_three = "v1550264713/hc/harry-cresswell-about-me.jpg"
-image_three_caption = "Harry Cresswell"
-image_three_alt = "Harry Cresswell"
-image_four = "v1568631359/hc/albion-season-ss-19-rupert-hartley.jpg"
-image_four_caption = "Albion A/W 18 by Rupert Hartley"
-image_four_alt = "Albion A/W 18 by Rupert Hartley"
+heading = "Wireframing"
+subheading = "Visual design"
+content = "<p>I produced several black and white mid-fidelity wireframes, based on feedback from my initial sketches. These helped visualise the content and solidify our layout plans.</p><p>At this stage I began to consider which UI components would be necessary throughout the website.</p>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling%3Fnode-id%3D5%253A1102"
+iframe_caption = "Mid-fidelity mobile wireframes"
+iframe_ratio = "3by2"
+template = "iframe-full"
+[[blocks]]
+heading = "Design System"
+subheading = "Visual design"
+content = "<p>Approaching the design in a systematic way helped create a cohesive interface and provide a consistent rhythm throughout the design. We began by defining a typography and spacing scale, then introduced a UI color palette to use when composing UI components.</p><p>With design patterns decoupled from the design, it made it easier identify what needed to built in code.</p><p><a href='' target='_blank' rel='noopener noreferer'>View Albion Design System ↗</a>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D6%253A2571"
+iframe_caption = "Space, Color and type forming part of the Albion Design System"
+iframe_ratio = "3by2"
+template = "iframe-full"
+[[blocks]]
+heading = "Prototyping"
+subheading = "Visual design"
+content = "<p>I designed a hi-fidelity prototype, to share with the team for further feedback and testing. InVision proved an effective way to streamline feedback and communication between the team.</p><p>I carried out a user testing exercise with a closed group of volunteers to gather unbiased feedback and observe how visitors would interact with the product. Based on this research I made final adjustments and began to finalise the designs.</p><p><a href='https://www.figma.com/proto/Pdqg7pCEvLRD0Bxypj71AYaT/Albion-Cycling-2019?node-id=0%3A37&viewport=296%2C282%2C0.31877458095550537&scaling=min-zoom' target='_blank' rel='noopener noreferer'>View Clickable Prototype ↗</a>"
+template = "body-copy"
+[[blocks]]
+iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D0%253A1"
+iframe_caption = "Hi-fidelity desktop prototype"
+iframe_ratio = "3by2"
+template = "iframe-full"
+[[blocks]]
+heading = "Technology"
+subheading = "Web development"
+content = "<p>Where I lead design, Luke took charge of development. Our technology stack was decided early in the project and informed much of the design decisions that were made.</p><p><strong>Wordpress</strong> powers the core of the website, making content updates easy and familar to manage.</p></p><strong>Shopify</strong>, via the JavaScript Buy SDK, allows Albion to take payments, receive orders and manage product inventory.</p><p><strong>Weather API</strong> combined with product and riding advice provided by Albion powers the weather app.</p><p><strong>Mailchimp</strong> collects new leads and is used to manage email campaigns sent to subscribers.</p>"
+template = "body-copy"
+[[blocks]]
+image_one = "v1571665848/hc/wordpress.png"
+image_one_caption = "Wordpress"
+image_one_alt = "Wordpress Logo"
+image_two = "v1571665848/hc/shopify.png"
+image_two_caption = "Shopify"
+image_two_alt = "Shopify Logo"
+image_three = "v1571665848/hc/weather_api.png"
+image_three_caption = "Weather API"
+image_three_alt = "Weather API Logo"
+image_four = "v1571665848/hc/mailchimp.png"
+image_four_caption = "Mailchimp"
+image_four_alt = "Mailchimp Logo"
 image_ratio = "1by1"
 template = "image-grid-four"
 [[blocks]]
-image = "v1550264713/hc/harry-cresswell-about-me.jpg"
-image_caption = "Harry Cresswell"
-image_alt = "Harry Cresswell"
-image_ratio = "3by2"
-template = "image-full"
-[[blocks]]
-quote_text = "Albion aims to make the best functional products for cycling in all weather, focus on quality and craft in manufacturing, and inspire a generation of riders to go further by bike."
-quote_caption = "Albion Cycling"
-image = "v1550264713/hc/harry-cresswell-about-me.jpg"
-image_caption = "Harry Cresswell"
-image_alt = "Harry Cresswell"
-image_ratio = "3by2"
-template = "quote"
-[[blocks]]
-heading = "Design Brief"
-subheading = "Clarifying key objectives"
-content = "<p>Jack, who was project managing, sent us a design brief which clarified key objectives and detailed the current product offering. It covered what was expected from the look and feel of the website and specific functionality requirements. We used the brief to crosscheck our notes and identify anything we’d missed during our meeting.</p><p>Following this I conducted my own research to learn more about the market, product, target audience and competition.</p><p><a href='https://figma.com/' target='_blank' rel='noopener noreferer'>View Figma Prototype ↗</a></p>"
+heading = "Learnings"
+subheading = "Results"
+content = "<p>The success of the project was primarily down to fantastic organisation from a passionate young brand, who understand the power of a collaborative process. I’d like to highlight 3 areas which contributed to this success.</p><p><strong>Research and strategy produce results</strong><br/>By identifying the business objective and existing problems from the start, we were able to move efficiently towards a desired outcome.</p><p>The success of a design and development project depends on an understanding of what’s required and a knowledge of the best technologies to make it happen.</p><p><strong>Communication is a powerful tool</strong><br/>Regular communication between everyone involved from the stage of ideation is integral to the success of the project.</p><p>The more data and feedback you can gather throughout the project, the easier and faster it is to create the right solution.</p><p><strong>Iteration is inevitable</strong><br/>It’s impossible to solve every problem first time round. Inevitably new features will be required as a brand evolves and products change.</p>It’s important to embrace these changes by making progressive enhancements to the product when the needs arise.</p><p>We continue to work with Albion as their brand vision evolves.</p>"
 template = "body-copy"
 [[blocks]]
 link_text = "albioncycling.com"
 link_url = "https://albioncycling.com/"
 template = "link-big"
 +++
-
-### Design Brief
-
-Following our meeting we recieved a design brief which clarified key objectives and detailed the current product offering. 
-
-The brief covered what was expected from the look and feel of the website and specific functionality requirements. We used the brief to crosscheck our notes and identify anything we’d missed during our inital meeting. 
-
-Following this I conducted my own research to learn more about the market, product, target audience and competition.
-
-[INSERT DESIGN BRIEF DOC]
-
-### Mood Board
-
-Inspiration and visual references collected by the team helped build a picture of a style that best suited the brand vision. Together we discussed the references to help pinpoint specific details which we could use to inform the design and gathered more to fill the gaps. 
-
-With a photographer founder it was clear there would be a strong focus on imagery throughtout the website.
-
-
-[INSERT SCROLLING MOOD BOARD VIDEO]
-
-## The Mission
-
-We identified 3 core requirements for the project. 
-
-**1. Create a new website and eCommerce platform**
-Create a seamless user experience between content and store and provide an easy and intuitive way for the team to manage content and product inventory.
-
-**2. Create an integrated weather application**
-Weather conditions must be easy for riders to discover based on a given location. The app must be able to pair riding advice and product suggestions with the forecast.
-
-**3. Build an email marketing funnel**
-Using an email marketing tool, the objective was to create a way for the team to build a following, connect with their customers and share content with their supporters.
-
-## Brand and Style
-
-The team were well organised, having already mapped out the basic website structure.  Written content had also been finalised and initial product shots photographed.
-
-Other than the a small set of brand materials – logo, lead typeface (Apercu) and initial imagery – we had a clean slate to work with. My plan was to expand on what already existed by introducing a contrasting typeface, a colour palette and a component system that could scale easily in the future.
-
-[INSERT LOGO, LEAD TYPEFACE, INITIAL IMAGERY]
-
-## User experience
-
-Working with data collected during the research phase, I built a basic site map to help visualise the website architecture and high level page structure. This helped guide the user experience and wireframe development.
-
-Next, I created several user flows to get a better idea of a potential visitor journeys. We reviewed these together to identify any pitfalls in the plan.
-
-[INSERT SITE MAP]
-
-## Sketching
-
-Sketching sessions were a fast and effective way to visualise our ideas without distraction. We produced several low-fidelity sketches to map out the hierarchy of information and establish a suitable layout. 
-
-We identified 3 specific elements which would become the websites signature.
-
-1. **Weather app homepage hero**
-2. **Off-canvas basket**
-3. **Monospaced companion typeface**
-
-One of the key objectives was to help riders connect with the brand philosophy “Road cycling in all sorts of weather”. Using the concept of weather as a theme to guide the design, I  suggested the idea of the weather app becoming the lead feature of the homepage. We visualised this as an interactive component in the hero section.
-
-[INSERT PAPER SKETCHES]
-
-## Wireframing
-
-Based on feedback received, I produced several ‘black and white’ mid-fidelity wireframes in Sketch. These helped us visualise the content, and solidify our layout ideas. 
- 
-At this stage I began to consider both UI elements – buttons, form elements and icons etc – and a typography system, to define all the different components necessary throughout the website.
-
-[INSERT LO-FI WIREFRAMES]
-
-## Prototyping
-
-Using Sketch and InVision, I made a hi-fidelity clickable prototype, to share with the team for further feedback and testing. InVision proved an effective way to streamline feedback and communication between the team.
-
-[INSERT HI FI PROTOTYPES]
-
-I carried out a user testing exercise with a closed group of volunteers to gather unbiased feedback on the overall user experience and observe how visitors would interact with the product. Based on this research I made final adjustments and began to finalise the design system into a cohesive experience. 
-
-Note: Since the initial prototype designed in Sketch,  there have been several design updates and the prototype now lives in Figma.
-
-[View Figma Prototype ↗](https://)
-
-## Design System
-
-Extracting UI elements into a design system helped with design consistency and allowed us to visualise the various elements that needed to built in code. 
-
-Having a central repository for design patterns used in the website helped to establish a visual language and promotes design thinking in components and not pages.
-
-[INSERT DESIGN SYSTEM STILLS]
-
-The design system now acts as a single source of truth for both design and development and has become a useful aid when returning to the project after time to make iterations and improvements. With design patterns all in one place, we can easily identify specific components and focus on each one independently, whilst maintaining a unified design language. 
-
-[Visit Albion Design System ↗](https://)
-
-## Technology
-
-Luke and I worked together with the team from the start, to identify the most appropriate technologies for the job and those the team were most comfortable using. This made sure we were on the same page from the beginning of the project and helped us pinpoint any design restrictions and considerations we may have to make.
-
-- **Wordpress**
-- **Shopify API**
-- **Weather API**
-- **Mailchimp**
-
-The core website is powered by Wordpress, which makes blog posts, pages and look book entries easy to manage via the Wordpress CMS. Th Shopify JavaScript Buy SDK takes care of the  store functionality, allowing the Albion team to take payments, receive orders and manage inventory via the Shopify CMS.
-
-The custom weather app featured on the homepage provides riders with the weather conditions for a given location and clothing advise to match the forecast. The functionality is custom built by Luke, using a weather API combined with custom data provided by Albion.
-
-For the mailing list we choose Mailchimp for its generous free tier and ease of use. Mailchimp capturures email addresses for the Albion mailing list and is used to manage email marketing campaigns, sent weekly to subscribers. Mailchimp is a good option for new businesses who are growing a list and want to send campaigns for free.
-
-## Project learnings
-
-We have learnt a huge amount about process and collaboration through our ongoing partnership with Albion. We continue to work closely with the team to solve new problems as the brand grows. 
-
-I’d like to highlight 4 areas that have had the biggest impact in the success of the project.
-
-**Research and strategy are integral**
-Research produces desired results. The primary goal is to identify both the business objectives and problems and come up with a design that solves these things. Good design and development is built on an understanding of what’s required and a knowledge of the best technologies to make it happen. 
-
-**Effect collaboration is powerful**
-When working in a small team, communication is vital between everyone involved from the start. Engaging developers in the stage of ideation is vital to the success of the project.
-
-**Seek feedback throughout the project**
-Keeping everyone in the loop at every stage of the process is vital to the success of the project. The more feedback gathered, the easier and faster it is to create the right product.
-
-**Iteration is inevitable**
-It’s impossible to solve every problem first time round, and inevitably new features will be required. Websites are dynamic products and this one is no exception.
-
-## Key findings
-
-Albion have come along way since we launched the site and now have an active group of riders who regularly buy products and engage with the content the team creates. Here are some key facts and figures to outline their journey since launch.
-
-
-Visit the live site →
-[albioncycling.com](https://albioncycling.com/)
