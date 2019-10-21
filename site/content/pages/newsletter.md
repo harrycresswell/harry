@@ -21,7 +21,7 @@ Topics range from designing and building websites to typography, illustration an
 You can see examples [from the archive](http://us14.campaign-archive1.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.
 
 
-## What makes so good?
+### What makes it different?
 
 Glad you asked. Unlike most newsletters that do the rounds, the content is archived and categorised in a searchable [Airtable database](https://airtable.com/). No more searching your inbox for that font bookmarking tool featured in [issue 39](https://mailchi.mp/ca2d3fa2a35c/new-in-detail-design-systems-book-font-bookmarking).
 
