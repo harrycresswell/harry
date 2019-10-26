@@ -1,4 +1,4 @@
-<section class="section Grid">
+<section class="Section Grid">
   <figure class="Grid-1-6 Grid-as-center">
     <blockquote class="Quote Quote--left">
       {{- with .Params.quote_text -}}
@@ -17,7 +17,7 @@
     </div><!-- /.Image -->
     {{- with .Params.image_caption -}}
     <figure>
-      <figcaption>{{ markdownify . }}</figcaption>
+      <figcaption class="mono">{{ markdownify . }}</figcaption>
     </figure>
     {{- end -}}
   </div>
