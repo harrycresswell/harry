@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    #LAYOUTS: PROJECT
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+.Project {
+  @include margin-bottom(3);
+}
+
+.Project-description {
+  @include margin-bottom(1);
+}
+
+@include breakpoint(md) {
+  .Project-description {
+    @include margin-top(4);
+    @include margin-bottom(2);
+  }
+}
+
+.Project .Message {
+  border: dotted 1px;
+  padding: 32px 64px;
+}
