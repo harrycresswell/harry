@@ -1,4 +1,4 @@
-<section class="Section ImageFull">
+<section class="Section">
   <div class="Image">
     <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
       <img
@@ -8,7 +8,7 @@
   </div><!-- /.Image -->
   {{- with .Params.image_caption -}}
   <figure class="Grid">
-    <figcaption class="Grid-7-3">{{ markdownify . }}</figcaption>
+    <figcaption class="Grid-7-3 mono">{{ markdownify . }}</figcaption>
   </figure>
   {{- end -}}
 </section>
