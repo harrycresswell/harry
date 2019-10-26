@@ -4,10 +4,10 @@
       <header>
         <div class="Grid">
           <div class="Grid-1-6">
-            <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
+            <h1 class="Project-title p-name">{{ .Title }}</h1>
           </div>
           <div class="Grid-7-6">
-            <p class="PostDescription">{{ .Params.Description }}</p>
+            <p class="Project-description">{{ .Params.Description }}</p>
           </div>
         </div>
         <div class="Grid">
@@ -29,6 +29,7 @@
 
       <div class="Blocks e-content">
         {{- range .Params.blocks -}}
+        {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{ end }}
             {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" .) }}{{ end }}
             {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
             {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" .) }}{{- end -}}
