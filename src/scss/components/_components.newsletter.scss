@@ -15,6 +15,7 @@
 .NewsletterForm {
   display: flex;
   flex-direction: column;
+  @include margin-top(1);
 }
 
 .NewsletterForm-field {
