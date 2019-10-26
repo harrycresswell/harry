@@ -1,7 +1,12 @@
 /*------------------------------------*\
-    #UTILITIES: COLOR
+    #UTILITIES: TYPOGRAPHY
 \*------------------------------------*/
 
 .strong {
   font-weight: $font-weight-medium;
+}
+
+.mono {
+  font-family: $font-system-mn;
+  font-size: 0.7em;
 }
