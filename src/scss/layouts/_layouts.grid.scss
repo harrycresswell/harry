@@ -13,6 +13,10 @@
   grid-gap: 24px;
  }
 
+ .Grid--2col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 
 @include breakpoint(md) {
 
@@ -20,7 +24,8 @@
  * Component Block
  */
 
-  .Grid {
+  .Grid,
+  .Grid--2col {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 48px;
     max-width: 1248px;
