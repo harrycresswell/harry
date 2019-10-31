@@ -8,7 +8,7 @@ slug: "hugo-external-articles"
 
  {{< intro >}}Lately I’ve been publishing articles both here on my personal site and on Medium. It seems to be fairly common practice these days.{{< /intro >}}
 
-In order to stay organised — as I publish on various sites — it seems logic to try and keep track of everything I’m writing in one place, that means here on my personal site.
+In order to stay organised, as I publish on various sites, it seems logical to try and keep track of everything I’m writing in one place, and that means here on my personal site.
 
 To do this I came up with a super simple solution which extends the typical [Hugo List template](https://gohugo.io/templates/lists/) to include posts from external sources (in this case Medium). You’ll find this useful if like me you publish articles on multiple sites and want to link to all of them from one posts page on your [Hugo](https://gohugo.io/) site, without having to duplicate articles.
 

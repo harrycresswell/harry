@@ -12,7 +12,7 @@ I‘m currently in London. This is what I’m focusing on.
 ### Currently Reading
 
 
-- [Norse Mythology](https://www.goodreads.com/book/show/37903770-norse-mythology) by Neil Gaiman
+- [Meditations](https://www.goodreads.com/book/show/30659.Meditations) by Marcus Aurelius
 - [Pro Git](https://www.goodreads.com/book/show/6518085-pro-git) by Scott Chacon
 - [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
 
@@ -22,7 +22,7 @@ I‘m currently in London. This is what I’m focusing on.
 
 - We working on [a few new update](https://harrycr.es/2Z6HF7l) to [indtl.com](https://indtl.com/) which will launch very soon. 
 - I’m in the process of building [SeedTribe v.3.0](https://harrycr.es/2IjtyVF). We’re using [Sanity.io](https://www.sanity.io/) for the CMS. It’s what they call ’headless’, meaning you can query the data in the form of a JSON API from any front-end you choose. We went with [GatsbyJS](https://www.gatsbyjs.org/) for this and we use [GraphQL](https://graphql.org/) to query the the data.
-- I recently built [a mini jobs board](https://clever-perlman-f0786d.netlify.com/) to test out a new workflow. This is my first crack at building a React app and working with CSS-in-JS. It’s built with [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/) for a Git based CMS.
+- I recently built [a jobs board](https://jobs.angelinvestmentnetwork.co.uk/) to test out a new workflow. This is my first crack at building a React app and working with CSS-in-JS. It’s built with [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/) for a Git based CMS.
 
 ### Currently Studying
 
@@ -32,6 +32,6 @@ I‘m currently in London. This is what I’m focusing on.
 - German. This might be on here a while
 
 
-**Last Updated:** August 30, 2019.
+**Last Updated:** November 4, 2019.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).

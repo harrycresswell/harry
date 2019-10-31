@@ -49,31 +49,31 @@ enableEmoji = true
   tag = "tags"
 
 [[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 5
+
+[[menu.main]]
   name = "Articles"
   url = "/articles/"
-  weight = 5
+  weight = 10
 
 [[menu.main]]
   name = "Notes"
   url = "/notes/"
-  weight = 10
+  weight = 15
 
-[[menu.main]]
-name = "Newsletter"
-url = "/newsletter/"
-weight = 15
+[[menu.footer]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 5
 
 [[menu.footer]]
   name = "Articles"
   url = "/articles/"
-  weight = 5
+  weight = 10
 
 [[menu.footer]]
   name = "Notes"
   url = "/notes"
-  weight = 10
-
-[[menu.footer]]
-  name = "Newsletter"
-  url = "/newsletter/"
   weight = 15
