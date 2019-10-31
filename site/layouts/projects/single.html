@@ -3,26 +3,29 @@
 
       <header>
         <div class="Grid">
+        
           <div class="Grid-1-6">
             <h1 class="Project-title p-name">{{ .Title }}</h1>
           </div>
+
           <div class="Grid-7-6">
             <p class="Project-description">{{ .Params.Description }}</p>
           </div>
-        </div>
-        <div class="Grid">
+
           <div class="Grid-7-3">
-            <span class="strong dark">Role</span>
+            <span class="strong dark small">Role</span>
             {{- with .Params.role -}}
-              <p class="light">{{ markdownify . }}</p>
+              <p class="light small">{{ markdownify . }}</p>
             {{- end -}}
           </div>
+
           <div class="Grid-10-3">
-            <span class="strong dark">Duration</span>
+            <span class="strong dark small">Duration</span>
             {{- with .Params.duration -}}
-              <p class="light">{{ markdownify . }}</p>
+              <p class="light small">{{ markdownify . }}</p>
             {{- end -}}
           </div>
+
         </div>
       </header>
 
