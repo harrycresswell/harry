@@ -5,7 +5,7 @@ description = "Designing a content platform, store and weather app for a road cy
 slug = "albion"
 tags = ["UX Design", "UI Design", "Prototyping", "Usability Testing", "Email Marketing"]
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
-duration = "April 2016  (– Present)"
+duration = "September 2016 (to present)"
 draft = "false"
 syndicate = "false"
 [[blocks]]
