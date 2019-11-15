@@ -9,7 +9,11 @@ url = "build"
 {{< intro >}}This page shares the technology and techniques I used to build and host this website. {{< /intro >}} If you have a specific question <a href="/contact/">drop me a message</a>, I’d be happy to help.
 
 ## Templating
-I’m using [Hugo](https://gohugo.io/), a [Go](https://golang.org/) based [static site generator](https://www.staticgen.com/), primarily because it’s flexible and lightning fast. The site uses a custom theme built on top of the [Victor-Hugo](https://github.com/netlify/victor-hugo) boilerplate, a great starting point for a [Gulp](https://gulpjs.com/) and [Webpack](https://webpack.js.org/) assets pipeline. I made a few modifications to include SCSS support and a [responsive image build task](https://github.com/harrycresswell/harry/blob/master/gulpfile.babel.js#L66), which generates both retina and non-retina image sizes.
+The webiste is built using a [static site generator](https://www.staticgen.com/) called [Hugo](https://gohugo.io/). I’m using [a custom theme](https://github.com/harrycresswell/harry/tree/master/themes/hc-starter) I built on top of Hugo for the front-end.
+
+## Asset pipeline
+
+All assets are processed by Hugo using [Hugo Pipes](https://gohugo.io/hugo-pipes/). This means I no longer need a build tool like Gulp to compile SCSS to CSS, concatinating and minifying JavaScript and autoprefix CSS.
 
 ## Typography
 Type is currently set using [system defaults](https://css-tricks.com/snippets/css/system-font-stack/), meaning it will render differently depending on your operating system. I’m using a [fluid type mixin developed by Mike Riethmuller](https://www.madebymike.com.au/writing/fluid-type-calc-examples/) to make it responsive for different screen resolutions. Type sizes are set using 2 modular scales, [5:6 — minor third](http://www.modularscale.com/?1&em&1.2) for smaller devices and  [8:15 — major seventh](http://www.modularscale.com/?1&em&1.875) for desktop.
@@ -17,7 +21,7 @@ Type is currently set using [system defaults](https://css-tricks.com/snippets/cs
 ## CSS naming
 The CSS is written in SCSS, and follows [SuitCSS](https://suitcss.github.io/), a component based CSS methodology developed by [Nicholas Gallagher](http://nicolasgallagher.com/). It’s pretty similar to the [BEM](http://getbem.com/) method, I just prefer the syntax. Otherwise theres not much in it.
 
-I organise my SCSS partials loosely based on [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), in terms of order of specificity, however I opted to use a more conventional system for file naming and folder structure. I have [Sourcemaps](https://knpuniversity.com/screencast/gulp/sourcemaps) set up so go ahead and inspect element to see what’s going on. Alternatively you can head over to [github](https://github.com/harrycresswell/hc).
+I organise my SCSS partials loosely based on [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), in terms of order of specificity, however I opted to use a more conventional system for file naming and folder structure.
 
 
 ## Deployment and hosting
