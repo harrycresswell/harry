@@ -5,13 +5,12 @@ A Hugo starter project and theme used for [harrycresswell.com](https://harrycres
 ## Features
 
 - [Hugo](https://gohugo.io/)
-- [Hugo pipes](https://gohugo.io/hugo-pipes/) for SCSS and JS
-- Autoprefixer
+- [Hugo pipes](https://gohugo.io/hugo-pipes/) for SCSS, Sourcemaps, PostCSS Autoprefixer and JS
 - [Lazysizes.js](https://github.com/aFarkas/lazysizes) for image lazy loading
-- Sourcemaps for local development
-- Netlify Large Media
+- Responsive image with [Cloudinary](https://cloudinary.com/documentation/responsive_images#automating_responsive_images_with_javascript)
 - Minimal dependencies
 
+Read more about it in [How I built this site](https://harrycresswell.com/build/).
 
 ## Prerequisites
 
@@ -19,30 +18,39 @@ You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm
 
 ## Installation
 
-Clone this repository 
+Clone this repository:
 
 ```
-git clone ...
+git clone https://github.com/harrycresswell/harry.git
 ```
-then run `npm install`.
+
+Then run:
+
+```
+npm install
+```
 
 This will install the necessary dependencies.
 
 ## Local development
 
+To start a local development server at at `https://localhost:1313/` run:
+
 ```
 npm start
 ```
-This will start a local development server at https://localhost:1313/ in the browser. It’s shorthand for `hugo server --disableFastRender`.
 
+This is a simple NPM Script which `hugo server --disableFastRender`. 
 
 ## Production build
+
+Whe your ready to build a production ready site, update the `baseUrl` inside `config.toml` then run:
 
 ```
 Hugo
 ```
 
-This will build a production ready site to `./public`
+This will build  ready site to `./public`.
 
 ## Basic concepts
 
@@ -64,7 +72,7 @@ hugo new page/my-new/page.md
 
 Follow the same steps for notes and projects.
 
-### Writing Sass
+### Writing Sass
 
 Write your **Sass** inside `./assets/scss`. 
 
