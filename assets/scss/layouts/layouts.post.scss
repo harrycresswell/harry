@@ -1,0 +1,135 @@
+/*------------------------------------*\
+    #LAYOUTS: POST
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+//.Post {}
+
+.PostHeader-title {
+  max-width: 960px;
+}
+
+.PostMeta {
+  display: flex;
+  max-width: 1248px; 
+  margin: 0 auto;
+  @include margin-bottom(1);
+}
+
+.PostBody {
+@include margin-top(2);
+max-width: 1248px; 
+margin: 0 auto;
+
+  h2, h3, h4, h5, h6 {
+    position: relative;
+    @include margin-top(1.5);
+    @include margin-bottom(0.5);
+  }
+
+  p {
+    @include margin-bottom(0.8);
+
+  }
+
+}
+
+/**
+ * Component Element
+ */
+
+.PostMeta-tag {
+
+  a {
+    color: var(--color-dark);
+    text-decoration: underline;
+  }
+
+  a:hover {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    text-decoration: none;
+  }
+
+  a:not(:last-child):after {
+    content:',';
+  }
+
+}
+
+.Post p.Message {
+  background: rgba(var(--color-link-rgb), 0.05);
+  color: var(--color-link);
+  padding: 2% 3%;
+
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.Post .intro, .intro {
+  font-size: 100%;
+  line-height: 1.5;
+  @include margin-bottom(1);
+
+  @include breakpoint(md) {
+    font-size: 140%;
+    line-height: 1.5;
+  }
+}
+
+.PostAuthor {
+  display: flex;
+  @include margin-top(2);
+  
+  h4 {
+    margin: 0;
+  }
+
+}
+
+.PostRelated {
+  @include margin-bottom(2);
+}
+
+.Post .heading-anchor {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 1em;
+  opacity: 0;
+  font-weight: 400;
+
+  @include breakpoint(sm) {
+    display: block;
+  }
+}
+
+.Post h2:focus > .heading-anchor, 
+.Post h2:hover > .heading-anchor, 
+.Post h3:focus > .heading-anchor, 
+.Post h3:hover > .heading-anchor, 
+.Post h4:focus > .heading-anchor, 
+.Post h4:hover > .heading-anchor {
+  opacity: 1;
+}
+
+
+.Post .heading-anchor {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--color-link);
+    background: none;
+  }
+}

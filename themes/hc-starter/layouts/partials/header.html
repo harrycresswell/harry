@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Titles -->
+    <title>{{ .Title }} &ndash; {{ .Site.Title }}</title>
+    <meta name="title" content="{{ .Title }}">
+    <!-- Descriptions -->
+     <meta name="description" content="UX & UI Design. Frontend web development. Technical related blog posts on design and code by 
+    github.com/harrycresswell">
+    {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
+    {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+     <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <!-- Pinterest Verification -->
+    <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="9G-wiIrmxQgDxbcs3a3xPW--q3Mxb1VGFN7BsEfJdDk" />
+    <!-- Me -->    
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    <link href="mailto:studio@harrycresswell.com" rel="me">
+    <link href="https://twitter.com/harrycresswell" rel="me">
+    <link href="https://github.com/harrycresswell" rel="me">
+    <link href="https://linkedin.com/in/harrycresswell/" rel="me">
+    <!-- IndieCert -->
+    <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
+    <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />
+    <!-- if featured image exists in markdown file, use for open graph data -->
+    {{ if isset .Params "feature" }}
+    <meta property="og:image" content="{{ .Params.feature }}">
+    {{ else }}
+    <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
+    {{ end }}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta property="twitter:description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}">
+    <!-- Styles -->
+    {{ if .Site.IsServer }}
+      <!-- Pipe Sass to CSS, include options, enable sourcemaps -->
+      {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "enableSourceMap" true) }}
+      <!-- Load main.css-->
+      <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+    {{ else }}
+      <!-- Set target path -->
+      {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
+       <!-- Pipe Sass to CSS, include options, add postCSS autoprefixer, minify and hash -->
+      {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts | postCSS (dict "use" "autoprefixer") | minify | fingerprint }}
+      <!-- Load main.css and authenticate hashed file -->
+      <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    {{ end }}
+    <!-- Icons -->
+    <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="{{ .Site.BaseURL }}img/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="{{ .Site.BaseURL }}img/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon">
+    <!-- RSS -->
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+	</head>
+	<body class="Wrapper h-card">
+
+  <header class="Header">
+    <div class="Title">
+      <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      <div hidden>
+          <img class="u-photo" src="https://harrycresswell.com/img/hc.jpg" alt="Harry Cresswell">
+          <p class="p-note">{{ .Site.Params.Strapline }}</p>
+          <a href="mailto:studio@harrycresswell.com" rel="me" class="u-email">studio@harrycresswell.com</a>
+      </div>
+    </div>
+    <nav class="Nav">
+      <ul class="Nav-list">
+       {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="Nav-listItem">
+          <a class="Nav-listItemLink{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+      </ul>
+    </nav>
+  </header>

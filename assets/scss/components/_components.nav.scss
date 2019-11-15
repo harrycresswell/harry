@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #COMPONENTS: NAV
+\*------------------------------------*/
+
+/**
+ * Component Block
+ */
+
+.Nav-list {
+  text-align: right;
+}
+
+@include breakpoint(md) {
+
+  .Nav-list {
+    display: flex;
+    text-align: left;
+  }
+
+  .Nav-listItem:not(:last-of-type) {
+    @include margin-right(1);
+  }
+}

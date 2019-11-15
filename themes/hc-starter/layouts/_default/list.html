@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<article>
+  <header class="PostHeader">
+    <h1 class="PostHeader-title">All Posts</h1>
+  </header>
+  <ul class="PostList">
+  {{ range .Pages }}
+    <li class="PostListItem">
+      <h3 class="PostListItem-title">
+        <!-- If external link exists in post matter, else show post page-->
+        {{ if isset .Params "affiliatelink" }}
+        <a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }}</a><span>&#8599;</span>
+        {{else}}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </h3>
+      <p>{{ .Description }}</p>
+    </li>
+  {{ end }}
+  </ul>
+</article>
+
+{{ end }}

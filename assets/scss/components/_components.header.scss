@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #COMPONENTS: HEADER
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+ .Header {
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  max-width: 1248px; 
+  margin: 0 auto;
+  padding: 7% 0;
+
+  a {
+    color: var(--color-dark);
+    text-decoration: none;
+
+    &:hover {
+      background-color: unset;
+      text-decoration: underline;
+    }
+  }
+}

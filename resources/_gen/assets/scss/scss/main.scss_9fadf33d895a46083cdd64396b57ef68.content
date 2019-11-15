@@ -1,0 +1,1461 @@
+@charset "UTF-8";
+/*
+  You can use import statements to include partials:
+ */
+/*------------------------------------*\
+    #ABSTRACTS: COLORS
+\*------------------------------------*/
+:root {
+  --color-dark: #222;
+  --color-body: #373a3c;
+  --color-light: #666;
+  --color-lighter: #888;
+  --color-lightest: #f5f5f5;
+  --color-link: #542bff;
+  /* #542bff in decimal RGB */
+  --color-link-rgb: 84, 43, 255;
+  --color-white: #fff; }
+
+/*------------------------------------*\
+    #ABSTRACTS: BREAKPOINTS
+\*------------------------------------*/
+/**
+ * Breakpoints
+ *
+ *
+$base-font-size = 100%/16px
+  *
+*/
+/**
+* Mobile-first styles FTW
+*
+Example:
+*/
+aside.primary {
+  /* Regular content */ }
+  @media (min-width: 37.5em) {
+    aside.primary {
+      /* responsive content */ } }
+
+/*------------------------------------*\
+    #ABSTRACTS: TYPOGRAPHY
+\*------------------------------------*/
+/*
+* Courtesy of https://blog.codepen.io/2016/10/31/fluid-type-blogs/ and https://codepen.io/MadeByMike/pen/VvwqvW
+*/
+/*------------------------------------*\
+    #ABSTRACTS: SPACING
+\*------------------------------------*/
+/*------------------------------------*\
+    #BASE: RESET
+\*------------------------------------*/
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+html,
+body {
+  margin: 0; }
+
+a {
+  text-decoration: inherit;
+  color: inherit; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit; }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: inline-block;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+figure {
+  margin: 0; }
+
+[hidden] {
+  display: none !important; }
+
+/*------------------------------------*\
+    #BASE: BODY
+\*------------------------------------*/
+html {
+  font-feature-settings: "calt","liga","hist","onum","pnum";
+  background-color: var(--color-link); }
+  html {
+    font-size: 15px; }
+    @media screen and (min-width: 320px) {
+      html {
+        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      html {
+        font-size: 20px; } }
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-body);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: normal;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed; }
+
+p {
+  max-width: 680px; }
+  p:not(:last-of-type) {
+    margin-bottom: 1.2rem; }
+    @media screen and (min-width: 48em) {
+      p:not(:last-of-type) {
+        margin-bottom: 1.28rem; } }
+
+/*------------------------------------*\
+    #BASE: HEADINGS
+\*------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+  letter-spacing: -.015em; }
+
+h1,
+.size-1 {
+  font-size: 2.0736rem;
+  line-height: 1;
+  margin-bottom: 1.5rem; }
+  h1,
+  .size-1 {
+    font-size: 31.104px; }
+    @media screen and (min-width: 320px) {
+      h1,
+      .size-1 {
+        font-size: calc(31.104px + 55.47609375 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      h1,
+      .size-1 {
+        font-size: 86.58009375px; } }
+  @media screen and (min-width: 48em) {
+    h1,
+    .size-1 {
+      margin-bottom: 1.6rem; } }
+
+h2,
+.size-2 {
+  font-size: 1.44rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem; }
+  h2,
+  .size-2 {
+    font-size: 21.6px; }
+    @media screen and (min-width: 320px) {
+      h2,
+      .size-2 {
+        font-size: calc(21.6px + 14.4375 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      h2,
+      .size-2 {
+        font-size: 36.0375px; } }
+  @media screen and (min-width: 48em) {
+    h2,
+    .size-2 {
+      margin-top: 2.4rem; } }
+  @media screen and (min-width: 48em) {
+    h2,
+    .size-2 {
+      margin-bottom: 0.8rem; } }
+
+h3,
+.size-3 {
+  font-size: 1.44rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem; }
+  h3,
+  .size-3 {
+    font-size: 21.6px; }
+    @media screen and (min-width: 320px) {
+      h3,
+      .size-3 {
+        font-size: calc(21.6px + 14.4375 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      h3,
+      .size-3 {
+        font-size: 36.0375px; } }
+  @media screen and (min-width: 48em) {
+    h3,
+    .size-3 {
+      margin-top: 2.4rem; } }
+  @media screen and (min-width: 48em) {
+    h3,
+    .size-3 {
+      margin-bottom: 0.8rem; } }
+
+h4,
+.size-4 {
+  font-size: 1.2rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem; }
+  h4,
+  .size-4 {
+    font-size: 18px; }
+    @media screen and (min-width: 320px) {
+      h4,
+      .size-4 {
+        font-size: calc(18px + 5.25 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      h4,
+      .size-4 {
+        font-size: 23.25px; } }
+  @media screen and (min-width: 48em) {
+    h4,
+    .size-4 {
+      margin-top: 2.4rem; } }
+  @media screen and (min-width: 48em) {
+    h4,
+    .size-4 {
+      margin-bottom: 0.8rem; } }
+
+/*------------------------------------*\
+    #BASE: IMAGES
+\*------------------------------------*/
+img {
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle; }
+
+/**
+ * Figures
+ */
+figure {
+  margin: 0; }
+
+figure > img {
+  display: block; }
+
+figcaption {
+  color: var(--color-light);
+  font-size: 80%;
+  margin-top: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    figcaption {
+      margin-top: 0.8rem; } }
+
+/*------------------------------------*\
+    #BASE: LINKS
+\*------------------------------------*/
+a {
+  color: var(--color-link);
+  text-decoration: underline; }
+  a:hover {
+    color: var(--color-white);
+    background-color: var(--color-link);
+    text-decoration: none; }
+  a:focus {
+    outline: 1px dotted;
+    outline-offset: 4px; }
+  a:visited {
+    text-decoration: underline; }
+  a:before {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; }
+
+/*------------------------------------*\
+    #BASE: LISTS
+\*------------------------------------*/
+ul, ol {
+  color: var(--color-dark);
+  list-style-position: inside;
+  max-width: 675px;
+  padding-left: 0; }
+  @media (min-width: 48em) {
+    ul, ol {
+      list-style-position: outside; } }
+
+ul + p,
+ol + p {
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    ul + p,
+    ol + p {
+      margin-top: 1.6rem; } }
+
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/*------------------------------------*\
+    #BASE: QUOTES
+\*------------------------------------*/
+blockquote {
+  color: var(--color-dark);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0; }
+  blockquote {
+    font-size: 18px; }
+    @media screen and (min-width: 320px) {
+      blockquote {
+        font-size: calc(18px + 5.25 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      blockquote {
+        font-size: 23.25px; } }
+  blockquote cite,
+  blockquote figcaption {
+    display: block;
+    font-size: 80%;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    margin-top: 0.75rem; }
+    @media screen and (min-width: 48em) {
+      blockquote cite,
+      blockquote figcaption {
+        margin-top: 0.8rem; } }
+
+code,
+kbd,
+samp {
+  background: #f9f9f9;
+  color: var(--color-light);
+  font-size: 0.9rem; }
+
+pre {
+  background: #f9f9f9;
+  font-size: 0.9rem;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-wrap: normal;
+  padding: 3%; }
+
+pre + p {
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    pre + p {
+      margin-top: 1.6rem; } }
+
+p code,
+li code {
+  padding: .125rem .35rem; }
+
+code, pre {
+  font-family: Menlo,Monaco,"Courier New",monospace; }
+
+code {
+  font-size: 85%;
+  color: #396ca0;
+  background-color: #f9f9f9;
+  border-radius: 2px; }
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent; }
+
+/*------------------------------------*\
+    #BASE: SELECT
+\*------------------------------------*/
+select {
+  background: var(--color-lightest);
+  border: 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline-style: none;
+  height: 64px;
+  width: 100%; }
+
+/*------------------------------------*\
+    #BASE: VIDEO
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+video {
+  width: 100%;
+  height: auto; }
+
+/*------------------------------------*\
+    #LAYOUTS: WRAPPER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Wrapper {
+  padding: 0 4% 0 4%; }
+
+@media (min-width: 48em) {
+  .Wrapper {
+    padding: 0 7% 0 7%; } }
+
+/*------------------------------------*\
+    #LAYOUTS: CONTAINER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Container {
+  padding-top: 24%;
+  max-width: 1248px;
+  margin: 0 auto; }
+
+@media (min-width: 48em) {
+  .Container {
+    padding-top: 10%; } }
+
+/*------------------------------------*\
+    #LAYOUTS: SECTION
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Section {
+      margin-top: 1.6rem; } }
+  @media screen and (min-width: 48em) {
+    .Section {
+      margin-bottom: 1.6rem; } }
+
+@media (min-width: 48em) {
+  .Section {
+    margin-top: 3rem;
+    margin-bottom: 3rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Section {
+      margin-top: 3.2rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Section {
+      margin-bottom: 3.2rem; } }
+
+/*------------------------------------*\
+    #LAYOUTS: FLEX
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Flex {
+  display: flex; }
+
+.Flex-item {
+  flex-basis: 1; }
+
+/*------------------------------------*\
+    #LAYOUTS: GRID
+\*------------------------------------*/
+/**
+ * A utility that creates a simple 1 dimentional 12 column grid, using CSS grid
+ *
+ * Content will span a minimum of 3 columns, for sake of simplicity
+ */
+.Grid {
+  display: grid;
+  grid-gap: 24px; }
+
+.Grid--2col {
+  grid-template-columns: repeat(2, 1fr); }
+
+@media (min-width: 48em) {
+  /**
+ * Component Block
+ */
+  .Grid,
+  .Grid--2col {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 48px;
+    max-width: 1248px; }
+  /**
+ * Component Element
+ */
+  /* From column 1, span 3 columns */
+  .Grid-1-3 {
+    grid-column: 1 / span 3; }
+  /* From column 1, span 6 columns */
+  .Grid-1-6 {
+    grid-column: 1 / span 6; }
+  /* From column 1, span 12 columns */
+  .Grid-1-12 {
+    grid-column: 1 / span 12; }
+  /* From column 4, span 3 columns */
+  .Grid-4-3 {
+    grid-column: 4 / span 3; }
+  /* From column 7, span 3 columns */
+  .Grid-7-3 {
+    grid-column: 7 / span 3; }
+  /* From column 7, span 6 columns */
+  .Grid-7-6 {
+    grid-column: 7 / span 6; }
+  /* From column 10, span 3 columns */
+  .Grid-10-3 {
+    grid-column: 10 / span 3; }
+  .Grid-as-center {
+    align-self: center; } }
+
+/*------------------------------------*\
+    #LAYOUTS: POST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.PostHeader-title {
+  max-width: 960px; }
+
+.PostMeta {
+  display: flex;
+  max-width: 1248px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .PostMeta {
+      margin-bottom: 1.6rem; } }
+
+.PostBody {
+  margin-top: 3rem;
+  max-width: 1248px;
+  margin: 0 auto; }
+  @media screen and (min-width: 48em) {
+    .PostBody {
+      margin-top: 3.2rem; } }
+  .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+    position: relative;
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem; }
+    @media screen and (min-width: 48em) {
+      .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+        margin-top: 2.4rem; } }
+    @media screen and (min-width: 48em) {
+      .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+        margin-bottom: 0.8rem; } }
+  .PostBody p {
+    margin-bottom: 1.2rem; }
+    @media screen and (min-width: 48em) {
+      .PostBody p {
+        margin-bottom: 1.28rem; } }
+
+/**
+ * Component Element
+ */
+.PostMeta-tag a {
+  color: var(--color-dark);
+  text-decoration: underline; }
+
+.PostMeta-tag a:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  text-decoration: none; }
+
+.PostMeta-tag a:not(:last-child):after {
+  content: ','; }
+
+.Post p.Message {
+  background: rgba(var(--color-link-rgb), 0.05);
+  color: var(--color-link);
+  padding: 2% 3%; }
+  .Post p.Message a {
+    text-decoration: underline; }
+  .Post p.Message a:hover {
+    text-decoration: none; }
+
+.Post .intro, .intro {
+  font-size: 100%;
+  line-height: 1.5;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Post .intro, .intro {
+      margin-bottom: 1.6rem; } }
+  @media (min-width: 48em) {
+    .Post .intro, .intro {
+      font-size: 140%;
+      line-height: 1.5; } }
+
+.PostAuthor {
+  display: flex;
+  margin-top: 3rem; }
+  @media screen and (min-width: 48em) {
+    .PostAuthor {
+      margin-top: 3.2rem; } }
+  .PostAuthor h4 {
+    margin: 0; }
+
+.PostRelated {
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 48em) {
+    .PostRelated {
+      margin-bottom: 3.2rem; } }
+
+.Post .heading-anchor {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 1em;
+  opacity: 0;
+  font-weight: 400; }
+  @media (min-width: 37.5em) {
+    .Post .heading-anchor {
+      display: block; } }
+
+.Post h2:focus > .heading-anchor,
+.Post h2:hover > .heading-anchor,
+.Post h3:focus > .heading-anchor,
+.Post h3:hover > .heading-anchor,
+.Post h4:focus > .heading-anchor,
+.Post h4:hover > .heading-anchor {
+  opacity: 1; }
+
+.Post .heading-anchor {
+  text-decoration: none; }
+  .Post .heading-anchor:hover {
+    text-decoration: underline;
+    color: var(--color-link);
+    background: none; }
+
+/*------------------------------------*\
+    #LAYOUTS: POST-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.PostList {
+  list-style: none; }
+
+.PostListItem {
+  margin-bottom: 4.5rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem {
+      margin-bottom: 4.8rem; } }
+  .PostListItem:first-of-type {
+    margin-top: 3rem; }
+    @media screen and (min-width: 48em) {
+      .PostListItem:first-of-type {
+        margin-top: 3.2rem; } }
+  .PostListItem p {
+    color: var(--color-body); }
+
+/**
+ * Component Element
+ */
+.PostListItem-title span {
+  color: var(--color-dark);
+  font-size: 70%;
+  margin-left: 10px; }
+
+.PostListItem-title {
+  line-height: 1.2;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  max-width: 960px; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-top: 0rem; } }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-bottom: 0.8rem; } }
+  .PostListItem-title a {
+    color: var(--color-dark);
+    text-decoration: none; }
+  .PostListItem-title a:hover {
+    background-color: unset;
+    text-decoration: underline; }
+
+.PostListItem-meta {
+  display: flex;
+  font-size: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-meta {
+      margin-bottom: 0.8rem; } }
+  @media (min-width: 48em) {
+    .PostListItem-meta {
+      font-size: 100%; } }
+
+/*------------------------------------*\
+    #LAYOUTS: PROJECT
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Project {
+  margin-bottom: 4.5rem; }
+  @media screen and (min-width: 48em) {
+    .Project {
+      margin-bottom: 4.8rem; } }
+
+@media (min-width: 48em) {
+  .Project-description {
+    margin-top: 1.5rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Project-description {
+      margin-top: 1.6rem; } }
+
+.Project .Message {
+  border: dotted 1px;
+  padding: 32px 64px; }
+
+/*------------------------------------*\
+    #LAYOUTS: BLOCKS
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Blocks h1,
+.Blocks h2,
+.Blocks h3,
+.Blocks h4 {
+  margin: 0; }
+
+/*------------------------------------*\
+    #OBJECTS: AVATAR
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Avatar {
+  display: inline-block;
+  position: relative;
+  margin-right: 30px; }
+
+/**
+ * Component Element
+ */
+.Avatar-img {
+  background-image: url("./../img/hc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: 1; }
+
+/**
+ * Component Modifier
+ */
+.Avatar--m {
+  font-size: 1.25rem;
+  width: 80px;
+  height: 80px;
+  line-height: 80px; }
+
+.Avatar--round {
+  border-radius: 50%; }
+
+/*------------------------------------*\
+    #OBJECTS: BUTTON
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.ButtonWrap {
+  margin-bottom: 6rem; }
+  @media screen and (min-width: 48em) {
+    .ButtonWrap {
+      margin-bottom: 6.4rem; } }
+
+.Button {
+  border-width: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  outline-style: none;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none; }
+  @media (min-width: 48em) {
+    .Button {
+      font-size: 0.9rem; } }
+
+/**
+ * Component Modifier
+ */
+.Button--primary {
+  background: var(--color-dark);
+  border: solid 2px var(--color-dark);
+  color: var(--color-white);
+  height: 48px;
+  margin: 0 auto;
+  outline: solid 2px var(--color-dark);
+  outline-offset: 0;
+  padding: 0 24px; }
+
+/**
+ * Component Modifier State
+ */
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-pressed {
+  background-color: var(--color-dark);
+  box-shadow: 0 10px 28px rgba(47, 47, 47, 0.3);
+  transform: translateY(-2px); }
+
+.Button--primary:focus {
+  outline: 4px solid #e4deff; }
+
+/*------------------------------------*\
+    #OBJECTS: FORM
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Form-label {
+  display: block;
+  margin-bottom: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .Form-label {
+      margin-bottom: 0.8rem; } }
+
+::placeholder {
+  color: var(--color-lighter); }
+
+/**
+  * Component Element
+  */
+.Form-input,
+.Form-textarea,
+.Form-select {
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
+  border-radius: 0;
+  height: 60px;
+  margin-top: 0.375rem;
+  outline: 2px solid var(--color-lightest);
+  outline-offset: 0;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  -webkit-appearance: none;
+  width: 100%; }
+  @media screen and (min-width: 48em) {
+    .Form-input,
+    .Form-textarea,
+    .Form-select {
+      margin-top: 0.4rem; } }
+  .Form-input:focus, .Form-input:active,
+  .Form-textarea:focus,
+  .Form-textarea:active,
+  .Form-select:focus,
+  .Form-select:active {
+    border: 2px solid var(--color-link);
+    outline: 4px solid #e4deff;
+    outline-offset: 0;
+    transition: all .2s; }
+
+.Form-select:after {
+  color: var(--color-dark);
+  content: '▾';
+  display: block;
+  height: 14px;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  width: 14px; }
+
+.Form-textarea {
+  min-height: 96px;
+  padding-top: 16px; }
+
+.Form-button {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Form-button {
+      margin-top: 1.6rem; } }
+  @media screen and (min-width: 48em) {
+    .Form-button {
+      margin-bottom: 1.6rem; } }
+
+/*------------------------------------*\
+    #OBJECTS: VIDEO
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Video {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem; }
+  @media screen and (min-width: 48em) {
+    .Video {
+      margin-top: 2.4rem; } }
+  @media screen and (min-width: 48em) {
+    .Video {
+      margin-bottom: 2.4rem; } }
+
+/*------------------------------------*\
+    #COMPONENTS: HEADER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Header {
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 7% 0; }
+  .Header a {
+    color: var(--color-dark);
+    text-decoration: none; }
+    .Header a:hover {
+      background-color: unset;
+      text-decoration: underline; }
+
+/*------------------------------------*\
+    #COMPONENTS: NAV
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Nav-list {
+  text-align: right; }
+
+@media (min-width: 48em) {
+  .Nav-list {
+    display: flex;
+    text-align: left; }
+  .Nav-listItem:not(:last-of-type) {
+    margin-right: 1.5rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Nav-listItem:not(:last-of-type) {
+      margin-right: 1.6rem; } }
+
+/*------------------------------------*\
+    #COMPONENTS: FOOTER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Footer {
+  max-width: 1248px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding-bottom: 64px; }
+  @media screen and (min-width: 48em) {
+    .Footer {
+      margin-top: 1.6rem; } }
+  .Footer p {
+    margin-top: 1.5rem; }
+    @media screen and (min-width: 48em) {
+      .Footer p {
+        margin-top: 1.6rem; } }
+
+.FooterNav a {
+  color: var(--color-dark);
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 16px; }
+  .FooterNav a:hover {
+    background-color: unset;
+    text-decoration: underline; }
+
+/*------------------------------------*\
+    #COMPONENTS: IMAGE
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Image figcaption {
+  line-height: 20px;
+  margin-top: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .Image figcaption {
+      margin-top: 0.8rem; } }
+
+.Image + p,
+p + .Image {
+  margin-top: 2.25rem; }
+  @media screen and (min-width: 48em) {
+    .Image + p,
+    p + .Image {
+      margin-top: 2.4rem; } }
+
+.ImageCover {
+  object-fit: cover;
+  height: 350px; }
+
+@media (min-width: 37.5em) {
+  .ImageCover {
+    object-fit: fill;
+    height: auto; } }
+
+/**
+ * Component Modifier
+ */
+@media (min-width: 37.5em) {
+  .Image--pullRight {
+    width: 55%;
+    float: right;
+    margin-left: 48px;
+    margin-bottom: 32px;
+    margin-top: 0; } }
+
+/**
+ * Component Utility
+ */
+/* Animate the lazyloading */
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
+
+/*------------------------------------*\
+    #COMPONENTS: NEWSLETTER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Newsletter {
+  max-width: 1248px;
+  margin: 0 auto; }
+
+.NewsletterForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .NewsletterForm {
+      margin-top: 1.6rem; } }
+
+.NewsletterForm-field:nth-child(even) {
+  margin-bottom: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .NewsletterForm-field:nth-child(even) {
+      margin-bottom: 0.8rem; } }
+
+@media (min-width: 48em) {
+  .NewsletterForm {
+    flex-direction: row; } }
+
+.NewsletterForm-field {
+  flex: 1; }
+
+.NewsletterForm-input {
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
+  border-radius: 0;
+  height: 48px;
+  margin-top: 0.45rem;
+  margin-bottom: 0.75rem;
+  outline: 2px solid var(--color-lightest);
+  outline-offset: 0;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  width: 100%;
+  -webkit-appearance: none; }
+  @media screen and (min-width: 48em) {
+    .NewsletterForm-input {
+      margin-top: 0.48rem; } }
+  @media screen and (min-width: 48em) {
+    .NewsletterForm-input {
+      margin-bottom: 0.8rem; } }
+  .NewsletterForm-input:focus, .NewsletterForm-input:active {
+    border: 2px solid var(--color-link);
+    outline: 4px solid #e4deff;
+    outline-offset: 0;
+    transition: all .2s; }
+
+@media (min-width: 48em) {
+  .NewsletterForm-field {
+    flex-grow: 2;
+    margin-top: 0;
+    margin-right: 16px; }
+  .NewsletterForm-button {
+    flex-grow: 1;
+    margin-top: 41px; } }
+
+/*------------------------------------*\
+    #COMPONENTS: CV
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Cv {
+  background: #fff;
+  line-height: 32px;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 32px; }
+  .Cv p {
+    margin: 0;
+    max-width: 100%; }
+  .Cv img {
+    object-fit: cover;
+    height: 352px; }
+
+.Cv-header {
+  margin-bottom: 32px; }
+
+p.Cv-headerTitle {
+  font-weight: 700;
+  margin-bottom: 16px; }
+
+.Cv-headerLinks a {
+  display: block;
+  text-decoration: none; }
+
+.Cv-mainItemSection:not(:last-of-type) {
+  margin-bottom: 16px; }
+
+p.Cv-mainItemTitle {
+  border-bottom: solid 1px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  padding-bottom: 16px; }
+
+.Cv-footer {
+  margin-top: 32px; }
+  .Cv-footer a {
+    text-decoration: none; }
+
+/* Flexbox helpers */
+.Cv-flex a:not(:last-of-type) {
+  margin-right: 16px; }
+
+.Cv-flexCol:not(:first-of-type) {
+  margin-top: 16px; }
+
+@media screen and (min-width: 800px) {
+  /* Cv-container */
+  .Cv-container {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 4px 5px 0 rgba(0, 0, 0, 0.04), 0 1px 10px 0 rgba(0, 0, 0, 0.05);
+    margin: 32px;
+    padding: 128px 0; }
+  /* Cv-header */
+  .Cv-header {
+    display: grid;
+    grid-template-columns: 2fr 13fr 1fr 13fr 1fr 13fr 2fr;
+    margin-bottom: 32px; }
+  .Cv-headerTitle {
+    grid-column: 2 / 3; }
+  .Cv-headerLinks {
+    grid-column: 6 / 7; }
+  /* Cv-hero */
+  .Cv-hero {
+    display: grid;
+    grid-template-columns: 2fr 13fr 1fr 2fr 11fr 1fr 13fr 2fr;
+    margin-bottom: 64px; }
+  .Cv-heroItem:nth-child(1) {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    z-index: 1; }
+  .Cv-heroItem:nth-child(2) {
+    grid-column: 4 / 8;
+    grid-row: 1;
+    z-index: 2; }
+  .Cv-heroItemTitle {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 160px; }
+  /* Cv-main */
+  .Cv-main {
+    display: grid;
+    grid-template-columns: 2fr 13fr 1fr 27fr 2fr;
+    grid-row-gap: 64px; }
+  .Cv-mainItemSection:not(:last-of-type) {
+    margin-bottom: 32px; }
+  .Cv-mainItem:nth-child(1) {
+    grid-column: 2 / 3;
+    grid-row: 1; }
+  .Cv-mainItem:nth-child(2) {
+    grid-column: 4 / 5;
+    grid-row: 1; }
+  .Cv-mainItem:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2; }
+  .Cv-mainItem:nth-child(4) {
+    grid-column: 4 / 5;
+    grid-row: 2; }
+  .Cv-mainItem:nth-child(5) {
+    grid-column: 2 / 3;
+    grid-row: 3; }
+  .Cv-mainItem:nth-child(6) {
+    grid-column: 4 / 5;
+    grid-row: 3; }
+  .Cv-mainItem:nth-child(7) {
+    grid-column: 2 / 3;
+    grid-row: 4; }
+  .Cv-mainItem:nth-child(8) {
+    grid-column: 4 / 5;
+    grid-row: 4; }
+  .Cv-mainItem:nth-child(9) {
+    grid-column: 2 / 3;
+    grid-row: 5; }
+  .Cv-mainItem:nth-child(10) {
+    grid-column: 4 / 5;
+    grid-row: 5; }
+  .Cv-mainItem:nth-child(11) {
+    grid-column: 2 / 3;
+    grid-row: 6; }
+  .Cv-mainItem:nth-child(12) {
+    grid-column: 4 / 5;
+    grid-row: 6; }
+  .Cv-mainItem:nth-child(13) {
+    grid-column: 2 / 3;
+    grid-row: 7; }
+  .Cv-mainItem:nth-child(14) {
+    grid-column: 4 / 5;
+    grid-row: 7; }
+  p.Cv-mainItemTitle {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0; }
+  /* Cv-footer */
+  .Cv-footer {
+    margin-top: 0;
+    margin-right: 32px;
+    margin-bottom: 96px;
+    margin-left: 32px; } }
+
+/* Flexbox for > 960px */
+@media screen and (min-width: 960px) {
+  .Cv-flex {
+    display: flex; }
+  .Cv-flexCol {
+    flex: 1; }
+  .Cv-flexCol:not(:first-of-type) {
+    margin-top: 0; }
+  .Cv-flexCol:not(:last-of-type) {
+    margin-right: 48px; }
+  .Cv-flex--sb {
+    justify-content: space-between; } }
+
+/* Helpers */
+.Cv-accent {
+  font-size: 16px;
+  font-style: italic; }
+
+.Cv-tdn {
+  text-decoration: none; }
+  .Cv-tdn:hover {
+    text-decoration: none; }
+
+/*------------------------------------*\
+    #COMPONENTS: RATIO
+\*------------------------------------*/
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9: ratio wide
+ * 1:1: ratio square
+ * 3:2: ratio classic
+ */
+.Ratio {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative; }
+
+.Ratio--3by2 {
+  padding-bottom: 66.66667%; }
+
+.Ratio--16by9 {
+  padding-bottom: 56.25%; }
+
+.Ratio--1by1 {
+  padding-bottom: 100%; }
+
+.Ratio img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*------------------------------------*\
+    #COMPONENTS: QUOTE
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Quote {
+  max-width: 400px; }
+
+/**
+ * Component Modifier
+ */
+.Quote--left {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Quote--left {
+      margin-top: 0rem; } }
+  @media screen and (min-width: 48em) {
+    .Quote--left {
+      margin-bottom: 0rem; } }
+  @media screen and (min-width: 48em) {
+    .Quote--left {
+      margin-left: 1.6rem; } }
+  @media (min-width: 48em) {
+    .Quote--left {
+      margin-left: 0rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Quote--left {
+      margin-left: 0rem; } }
+
+.Quote--right {
+  float: right;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+  width: 400px; }
+  @media screen and (min-width: 48em) {
+    .Quote--right {
+      margin-top: 1.6rem; } }
+  @media screen and (min-width: 48em) {
+    .Quote--right {
+      margin-bottom: 3.2rem; } }
+  @media screen and (min-width: 48em) {
+    .Quote--right {
+      margin-left: 3.2rem; } }
+  @media screen and (min-width: 48em) {
+    .Quote--right {
+      margin-right: 1.6rem; } }
+  @media (min-width: 48em) {
+    .Quote--right {
+      margin-right: 12rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Quote--right {
+      margin-right: 12.8rem; } }
+
+/*------------------------------------*\
+    #UTILITIES: LAYOUT
+\*------------------------------------*/
+.u-visually-hidden {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
+/**
+ * FULL BLEED
+ *
+ * Add this class to an element to make it fill the width of the screen 
+ * and sit horizontally central
+ * https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/
+ */
+.full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+/*------------------------------------*\
+    #UTILITIES: COLOR
+\*------------------------------------*/
+.dark {
+  color: var(--color-dark); }
+
+.body {
+  color: var(--color-body); }
+
+.light {
+  color: var(--color-light); }
+
+.lighter {
+  color: var(--color-lighter); }
+
+.lightest {
+  color: var(--color-lightest); }
+
+.link {
+  color: var(--color-link); }
+
+/*------------------------------------*\
+    #UTILITIES: COLOR
+\*------------------------------------*/
+.link-dark {
+  color: var(--color-dark); }
+  .link-dark:hover {
+    color: var(--color-white);
+    background: var(--color-dark); }
+
+/*------------------------------------*\
+    #UTILITIES: TYPOGRAPHY
+\*------------------------------------*/
+/* font family */
+.mono {
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  font-size: 0.7em; }
+
+/* font size */
+.body {
+  font-weight: 400;
+  margin-top: 0rem; }
+  .body {
+    font-size: 15px; }
+    @media screen and (min-width: 320px) {
+      .body {
+        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
+    @media screen and (min-width: 675px) {
+      .body {
+        font-size: 20px; } }
+  @media screen and (min-width: 48em) {
+    .body {
+      margin-top: 0rem; } }
+
+.small {
+  font-size: 80%; }
+
+/* font weight */
+.strong {
+  font-weight: 500; }
+
+/*# sourceMappingURL=main.css.map */

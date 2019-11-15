@@ -1,0 +1,75 @@
+baseurl = "https://harrycresswell.com/"
+theme="hc-starter"
+languageCode = "en"
+title = "Harry Cresswell"
+pluralizelisttitles = false
+
+[params]
+  keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
+  description = "Technical related blog posts on design and code by github.com/harrycresswell"
+  strapline = "Harry Cresswell is an independent user experience designer and front-end developer from London, England."
+  location = "London, UK"
+  twitter = "@harrycresswell"
+  
+  # Set Cloudinary URL for image hosting
+  cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/upload"
+  author = "Harry Cresswell"
+
+[author]
+  name = "Harry Cresswell"
+  email = "studio@harrycresswell.com"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = [ "HTML", "RSS" ]
+
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+  
+[permalinks]
+  articles = "/:section/:slug/"
+  projects = "/:section/:slug/"
+  notes = "/:section/:slug/"
+  page = "/:title/"
+
+# Enable Emojis because why the hell not
+enableEmoji = true
+
+# Enable for syntax highlighting
+# pygmentsUseClasses=true
+# PygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 5
+
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 10
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 15
+
+[[menu.footer]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 5
+
+[[menu.footer]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 10
+
+[[menu.footer]]
+  name = "Notes"
+  url = "/notes"
+  weight = 15

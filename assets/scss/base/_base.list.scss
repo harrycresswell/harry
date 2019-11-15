@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    #BASE: LISTS
+\*------------------------------------*/
+
+ul, ol {
+  color: var(--color-dark);
+  list-style-position: inside;
+  max-width: 675px;
+  padding-left: 0;
+
+  @include breakpoint(md) {
+    list-style-position: outside;
+  }
+}
+
+ul + p,
+ol + p {
+  @include margin-top(1);
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+

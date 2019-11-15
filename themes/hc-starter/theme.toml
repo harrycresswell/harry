@@ -1,0 +1,18 @@
+name = "HC Starter"
+license = "MIT"
+licenselink = "Link to theme's license"
+description = "Theme description"
+homepage = "Website of your theme"
+tags = ["blog", "company"]
+features = ["some", "awesome", "features"]
+min_version = "0.55.0"
+
+[author]
+    name = "Your name"
+    homepage = "Your website"
+
+# If porting an existing theme
+[original]
+    author = "Harry Cresswell"
+    homepage = "https:/harrycresswell.com"
+    repo = "Link to source code of original theme"
