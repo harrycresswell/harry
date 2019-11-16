@@ -8,6 +8,7 @@ role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marke
 duration = "September 2016 (to present)"
 draft = "false"
 syndicate = "false"
+feature = "https://res.cloudinary.com/harrycresswell/image/upload/w_1700,dpr_2.0,c_scale,f_auto,q_auto/v1571654513/hc/albion-season-a-w-19.jpg"
 [[blocks]]
 image = "v1571654513/hc/albion-season-a-w-19.jpg"
 image_caption = "Nº01 Albion A/W 19 shot by Rupert Hartley"

@@ -4,6 +4,7 @@ date: 2018-06-28T16:35:12+01:00
 tags: ["Design"]
 slug: "better-design-systems-sketch-libraries-part-2"
 description: "Build a flexible system of Avatars with particle properties (primitives) and Sketch Symbol Overrides"
+feature: "https://miro.medium.com/max/5340/1*TyHlUOExsXrDz4eXY8WMzg@2x.png"
 ---
 
 {{< message >}}
