@@ -16,6 +16,6 @@ Currently I live between London and Hamburg, where I work with a handful of clie
 
 You can find out [what I'm up to right now](/now/) or read about some of the ways you can [work with me](/how/). Alternatively, take a look at [my CV](https://harrycresswell.com/pdf/harry-cresswell-cv-april-19.pdf) to get an idea of my experience.
 
-Here’s a very crude [portfolio of recent projects](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. 
+I’m currently working on a [projects](/projects/) page, to case study some of my work, but it’s taking a while. In the meantime check out a few [things I’ve made](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. 
 
-Find me on [Github](https://github.com/harrycresswell) or [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionaly I check [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
+Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionaly I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell).

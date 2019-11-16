@@ -10,15 +10,13 @@ url: "/how/"
 
 ## Who I am
 
-My name is Harry Cresswell, I’m an independent UX and product designer based between London, England and Hamburg, Germany. I’ve spent the last 7 years helping startups and individuals turn ideas into fully functional digital products.
+My name is Harry Cresswell, I’m an independent UX and product designer from London, England. I’ve spent the last 7 years helping startup businesses and independent individuals turn ideas into fully functional digital products.
 
 ## What I do
 
-My work takes place in the grey area between user experience design, user interface design and front-end web development. 
+My work takes place in the grey area between user experience design, user interface design and front-end web development. From research and planning to executing high fidelity prototypes in code, I usually involve myself in projects from concept through to launch.
 
-From research and planning, to executing high fidelity prototypes in code, I’m usually involved in projects from concept through to launch.
-
-I can help you conduct research to develop an understanding of your customers needs, develop wireframes and prototypes to test and validate possible solutions, then build and launch a working product. Through usability testing and iteration we can fine tune the product to make improvements.
+I can help you conduct research to develop an understanding of your customers needs, develop wireframes and prototypes to test and validate possible solutions, and build and launch a working product. Through usability testing and iteration I can help you fine tune the product to make improvements.
 
 	
 ## How I work
@@ -33,7 +31,7 @@ For larger project I often collaborate with [Luke Harvey](https://lukeharvey.co.
 
 I work with startups and individuals who need a product designer experienced in building businesses from the ground up and launching them online.
 
-My clients tend to be those keen to execute ideas, but don’t necessarily have the technical skills to do so. Or those who’d rather save on big agency fees by investing their budget in good design from an independent designer, at an affordable rate.
+My clients tend to be those keen to execute ideas, but don’t necessarily have the technical skills to do so. Or those who’d rather save on big agency fees by investing their budget in good design, at an affordable rate, from an independent designer.
 
 ## What I charge
 

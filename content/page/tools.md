@@ -9,8 +9,8 @@ draft = "true"
 
 ### Design tools
 
-- Sketch
 - Figma
+- Sketch
 - Framer X
 - Firefox
 - Pen & Paper

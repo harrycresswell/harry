@@ -10,7 +10,7 @@ url = "newsletter"
 
 ## What topics does it cover?
 
-Expect to find anything related to designing and building things for the web. You’ll find articles on web development, typography, writing, design process and productivity.
+Expect to find anything related to designing and building things for the web. Topics range from design and web development to typography, writing, process and productivity.
 
 Recently I’ve included interesting things on:  
 
@@ -22,21 +22,24 @@ Recently I’ve included interesting things on:
 - Variable fonts and open source typography
 - Creating generative artwork with code
 
+
 ## What’s the format?
 
-Each week I begin with a few updates from me, followed by one or two thought provoking reads – maybe an article or a quote from a book I’m reading.
+Each week I usually begin with a few updates from me, followed by one or two thought provoking reads – maybe an article or a quote from a book I’m reading.
 
-Though at first these may appear unrelated to design and development, dig a little deeper and you’ll find helpful lessons to apply to your work. After all, reading around your subject is never a bad thing.
+These may at first seem unrelated to design and development but dig a little deeper and you should find helpful lessons to apply to your work. In my view reading around a subject is one of the best things we can do to improve.
 
-For the main part you’ll find links on design and code, as you might expect, and a section on typography. Oliver Reichenstein once said; “[Web design is 95% typography](https://ia.net/topics/the-web-is-all-about-typography-period), so it’s only logical to say that a web designer should get good training in the main discipline of shaping written information.“
+For the main part you’ll find links on design and code as you might expect and also a section reserved for links about typography. 
 
-I usually wrap the email up with someone to watch. This tends to be an interesting talk or short film I find circulating the web.
+Oliver Reichenstein once said; “[Web design is 95% typography](https://ia.net/topics/the-web-is-all-about-typography-period), so it’s only logical to say that a web designer should get good training in the main discipline of shaping written information.“
+
+I usually wrap the email up with someone to watch. This tends to be an interesting talk or short film I find circulating the web. It tends to be a good way to end the week and start the weekend.
 
 You can see [examples from the archive](https://us14.campaign-archive.com/home/?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca) anytime.
 
 ## What makes it different?
 
-Unlike most newsletters that do the rounds, all the content from each email is categorised in an Airtable database. It’s still an ongoing project, but will make searching for content from specific emails much less painful.
+Unlike most newsletters that do the rounds, all the content from each email is categorised in an Airtable database. It’s an ongoing project, but will make searching for content from specific emails (I hope) much less painful.
 
 To give you an idea of how this works, here’s a few of the articles I’ve included:
 
