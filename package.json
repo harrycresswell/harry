@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "hugo server --disableFastRender"
+    "start": "hugo server --watch --disableFastRender",
+    "clean": "rm -rf public",
+    "build": "hugo --verbose"
   },
   "author": "Harry Cresswell",
   "license": "ISC",

@@ -259,7 +259,6 @@ figure > img {
   display: block; }
 
 figcaption {
-  color: var(--color-light);
   font-size: 80%;
   margin-top: 0.75rem; }
   @media screen and (min-width: 48em) {
@@ -336,7 +335,7 @@ blockquote {
     font-size: 80%;
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 0.75rem; }
     @media screen and (min-width: 48em) {
       blockquote cite,
