@@ -8,11 +8,10 @@
     <title>{{ .Title }} &ndash; {{ .Site.Title }}</title>
     <meta name="title" content="{{ .Title }}">
     <!-- Descriptions -->
-     <meta name="description" content="UX &amp; UI Design. Frontend web development. Technical related blog posts on design and code by 
-    github.com/harrycresswell">
+    <meta name="description" content="{{ .Site.Params.Description }}">
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
-     <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
@@ -21,12 +20,14 @@
     <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
     <!-- Google Verification -->
     <meta name="google-site-verification" content="9G-wiIrmxQgDxbcs3a3xPW--q3Mxb1VGFN7BsEfJdDk" />
+    <!-- Disable save to Pintrest button on images -->
+    <meta name="pinterest" content="nopin" />
     <!-- Me -->    
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <link href="mailto:studio@harrycresswell.com" rel="me">
-    <link href="https://twitter.com/harrycresswell" rel="me">
-    <link href="https://github.com/harrycresswell" rel="me">
-    <link href="https://linkedin.com/in/harrycresswell/" rel="me">
+    {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+    <link href="mailto:{{ .Site.Author.email }}" rel="me">
+    <link href="{{ .Site.Author.twitter }}" rel="me">
+    <link href="{{ .Site.Author.github }}" rel="me">
+    <link href="{{ .Site.Author.linkedin }}" rel="me">
     <!-- IndieCert -->
     <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
     <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />

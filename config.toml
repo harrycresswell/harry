@@ -9,7 +9,6 @@ pluralizelisttitles = false
   description = "Technical related blog posts on design and code by github.com/harrycresswell"
   strapline = "Harry Cresswell is an independent user experience designer and front-end developer from London, England."
   location = "London, UK"
-  twitter = "@harrycresswell"
   
   # Set Cloudinary URL for image hosting
   cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/upload"
@@ -18,6 +17,9 @@ pluralizelisttitles = false
 [author]
   name = "Harry Cresswell"
   email = "studio@harrycresswell.com"
+  twitter = "https://twitter.com/harrycresswell"
+  github = "https://github.com/harrycresswell"
+  linkedin = "https://linkedin.com/in/harrycresswell/"
 
 [taxonomies]
   tag = "tags"
@@ -36,7 +38,7 @@ pluralizelisttitles = false
   notes = "/:section/:slug/"
   page = "/:title/"
 
-# Enable Emojis because why the hell not
+# Enable Emojis
 enableEmoji = true
 
 # Enable for syntax highlighting
