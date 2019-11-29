@@ -3,14 +3,18 @@
 \*------------------------------------*/
 
 blockquote {
-  color: var(--color-dark);
-  font-size: $mod_1 *1rem;
+  border-left: 1px solid #ddd;
+  color: var(--color-light);
   font-weight: $font-weight-regular;
-  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
   line-height: 1.5;
   margin: 0;
   padding: 0;
 
+  p {
+    @include margin-left(1);
+  }
+  
   cite,
   figcaption {
     display: block;
