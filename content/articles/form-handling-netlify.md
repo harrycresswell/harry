@@ -120,7 +120,7 @@ To do something similar create a new page, for example `/success/` and add an `a
 
 If all’s well and good, your form tag should now look something like this:
 
-```
+```html
 <form name="contact" netlify-honeypot="bot-field"   method="POST" action="/success/"  netlify>
 ```
 

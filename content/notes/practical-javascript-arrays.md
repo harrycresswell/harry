@@ -31,13 +31,17 @@ This will help you debug and test your app and think in a more modular manner. B
 
 In programming, lists are called Arrays. From the console in Chrome:
 
-`['item 1', 'item 2', 'item 3']`
+```javascript
+['item 1', 'item 2', 'item 3']
+```
 
 ### Storing todos
 
 Create a variable to store the array so we can call it again and reuse it.
 
-`var todos = ['item 1', 'item 2', 'item 3'] `
+```javascript
+var todos = ['item 1', 'item 2', 'item 3'] 
+```
 
 
 ### Displaying todos
@@ -46,17 +50,23 @@ Display the Array with `todos`.
 
 Now pass the variable into the `Console.log` function.
 
-`console.log(todos)`
+```javascript
+console.log(todos)
+```
 
 _Note: variables don’t require quotes. Surronding todos in quotes; ‘todos’ would print the string **todos**_
 
-`console.log('My Todos:', todos)`
+```javascript
+console.log('My Todos:', todos)
+```
 
 ### Add new todos
 
 By binding the variable with the command `push` we can add new items to an Array.
 
-`todos.push('item 4')`
+```javascript
+todos.push('item 4')
+```
 
 Console will display the number of items.
 
@@ -69,7 +79,7 @@ To change a todo we need to first get hold of the specific item we want to chang
 `todos[0]` will get hold of `'item 1'`,
 `todos[4]` will get hold of `'item 4'` and so on.
 
-_ Note: Unlike humans who start from 1, computers start counting from 0._
+_Note: Unlike humans who start from 1, computers start counting from 0._
 
 Add a new value in the specific todo item, use `=` followed baby the new value.
 
@@ -77,7 +87,9 @@ Add a new value in the specific todo item, use `=` followed baby the new value.
 
 `todos` will now display the update Array showing the new value for `item 1`:
 
-`['item 1 updated', 'item 2', 'item 3', 'item 4']`
+```javascript
+['item 1 updated', 'item 2', 'item 3', 'item 4']
+```
 
 
 ### Deleting a todo
@@ -107,19 +119,25 @@ What We’ve learnt so far:
 
 - Store Arrays using Variables:
 
-`var todos = ['item1', 'item 2', 'item 3', 'item 4']`
+```javascript
+var todos = ['item1', 'item 2', 'item 3', 'item 4']
+```
 
 - Display Array with `console.log`:
 
-`console.log('My Todos:', todos)`
+```javascript
+console.log('My Todos:', todos)
+```
 
 - Add todos:
 
-`todos.push('new todo item')`
+```javascript
+todos.push('new todo item')
+```
 
 - Change a todo:
 
-`todos[0] = `changed todo!`
+`todos[0] = ` changed todo!`
 
 - Delete todos:
 
