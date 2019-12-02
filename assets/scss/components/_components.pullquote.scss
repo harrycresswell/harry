@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #COMPONENTS: QUOTE
+    #COMPONENTS: PULLQUOTE
 \*------------------------------------*/
 
 
@@ -7,15 +7,26 @@
  * Component Block
  */
 
-.Quote {
+.PullQuote {
+  border-left: none;
+  color: var(--color-dark);
   max-width: 400px;
+
+  p {
+    font-size: 120%;
+    @include margin-bottom(0.5);
+  }
+
+  figcaption {
+    @include margin-left(1);
+  }
 }
 
 /**
  * Component Modifier
  */
 
-.Quote--left {
+.PullQuote--left {
   @include margin-top(0);
   @include margin-bottom(0);
   @include margin-left(1);
@@ -25,7 +36,7 @@
   }
 }
 
-.Quote--right {
+.PullQuote--right {
   float: right;
   @include margin-top(1);
   @include margin-bottom(2);

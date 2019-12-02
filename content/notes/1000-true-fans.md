@@ -23,7 +23,7 @@ The number 1,000 is not absolute — I.e if you only earn $50 per year per true 
 
 This idea has been made possible by peer-to-peer communication and payment systems — in other words the internet.
 
-{{< blockquote quote="..everyone has access to excellent tools that allow anyone to sell directly to anyone else in the world." cite="Kevin Kelly" >}}
+{{< blockquote quote="“Everyone has access to excellent tools that allow anyone to sell directly to anyone else in the world.”" cite="Kevin Kelly" >}}
 
 This new technology permits creators to maintain relationships, so that the customer can become a fan, and so that the creator keeps the total amount of payment, which reduces the number of fans needed.
 
