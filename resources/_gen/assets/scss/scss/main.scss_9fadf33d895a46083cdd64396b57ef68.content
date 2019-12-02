@@ -394,6 +394,38 @@ pre code {
   background-color: transparent; }
 
 /*------------------------------------*\
+    #BASE: INPUT
+\*------------------------------------*/
+input {
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
+  border-radius: 0;
+  height: 48px;
+  outline: 2px solid var(--color-lightest);
+  outline-offset: 0;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  width: 100%;
+  -webkit-appearance: none; }
+  input:focus, input:active {
+    border: 2px solid var(--color-link);
+    outline: 4px solid #e4deff;
+    outline-offset: 0;
+    transition: all .2s; }
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.375rem; }
+  @media screen and (min-width: 48em) {
+    label {
+      margin-top: 0.8rem; } }
+  @media screen and (min-width: 48em) {
+    label {
+      margin-bottom: 0.4rem; } }
+
+/*------------------------------------*\
     #BASE: SELECT
 \*------------------------------------*/
 select {
@@ -1171,12 +1203,11 @@ video {
 /**
  * Component Block
  */
-.Form-label {
-  display: block;
-  margin-bottom: 0.75rem; }
+.Form {
+  margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
-    .Form-label {
-      margin-bottom: 0.8rem; } }
+    .Form {
+      margin-bottom: 1.6rem; } }
 
 ::placeholder {
   color: var(--color-lighter); }
@@ -1184,14 +1215,12 @@ video {
 /**
   * Component Element
   */
-.Form-input,
 .Form-textarea,
 .Form-select {
   background: var(--color-lightest);
   border: solid 2px var(--color-lightest);
   border-radius: 0;
   height: 60px;
-  margin-top: 0.375rem;
   outline: 2px solid var(--color-lightest);
   outline-offset: 0;
   padding: 0 16px;
@@ -1199,14 +1228,7 @@ video {
   transition: all .2s;
   -webkit-appearance: none;
   width: 100%; }
-  @media screen and (min-width: 48em) {
-    .Form-input,
-    .Form-textarea,
-    .Form-select {
-      margin-top: 0.4rem; } }
-  .Form-input:focus, .Form-input:active,
-  .Form-textarea:focus,
-  .Form-textarea:active,
+  .Form-textarea:focus, .Form-textarea:active,
   .Form-select:focus,
   .Form-select:active {
     border: 2px solid var(--color-link);
@@ -1226,17 +1248,13 @@ video {
 
 .Form-textarea {
   min-height: 96px;
-  padding-top: 16px; }
+  padding: 8px 16px; }
 
 .Form-button {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem; }
+  margin-top: 0.75rem; }
   @media screen and (min-width: 48em) {
     .Form-button {
-      margin-top: 1.6rem; } }
-  @media screen and (min-width: 48em) {
-    .Form-button {
-      margin-bottom: 1.6rem; } }
+      margin-top: 0.8rem; } }
 
 /*------------------------------------*\
     #OBJECTS: VIDEO
@@ -1394,52 +1412,36 @@ p + .Image {
       margin-top: 1.6rem; } }
 
 .NewsletterForm-field:nth-child(even) {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
     .NewsletterForm-field:nth-child(even) {
-      margin-bottom: 0.8rem; } }
+      margin-bottom: 1.6rem; } }
 
 @media (min-width: 48em) {
   .NewsletterForm {
-    flex-direction: row; } }
-
-.NewsletterForm-field {
-  flex: 1; }
-
-.NewsletterForm-input {
-  background: var(--color-lightest);
-  border: solid 2px var(--color-lightest);
-  border-radius: 0;
-  height: 48px;
-  margin-top: 0.45rem;
-  margin-bottom: 0.75rem;
-  outline: 2px solid var(--color-lightest);
-  outline-offset: 0;
-  padding: 0 16px;
-  position: relative;
-  transition: all .2s;
-  width: 100%;
-  -webkit-appearance: none; }
-  @media screen and (min-width: 48em) {
-    .NewsletterForm-input {
-      margin-top: 0.48rem; } }
-  @media screen and (min-width: 48em) {
-    .NewsletterForm-input {
-      margin-bottom: 0.8rem; } }
-  .NewsletterForm-input:focus, .NewsletterForm-input:active {
-    border: 2px solid var(--color-link);
-    outline: 4px solid #e4deff;
-    outline-offset: 0;
-    transition: all .2s; }
+    flex-direction: row; }
+  .NewsletterForm-label {
+    margin-top: 0rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .NewsletterForm-label {
+      margin-top: 0rem; } }
 
 @media (min-width: 48em) {
   .NewsletterForm-field {
-    flex-grow: 2;
-    margin-top: 0;
-    margin-right: 16px; }
-  .NewsletterForm-button {
-    flex-grow: 1;
-    margin-top: 41px; } }
+    flex: 1;
+    align-self: flex-end; }
+    .NewsletterForm-field:nth-child(even) {
+      margin-bottom: 0rem; } }
+    @media screen and (min-width: 48em) and (min-width: 48em) {
+      .NewsletterForm-field:nth-child(even) {
+        margin-bottom: 0rem; } }
+
+@media (min-width: 48em) {
+    .NewsletterForm-field:not(:last-of-type) {
+      margin-right: 0.75rem; } }
+    @media screen and (min-width: 48em) and (min-width: 48em) {
+      .NewsletterForm-field:not(:last-of-type) {
+        margin-right: 0.8rem; } }
 
 /*------------------------------------*\
     #COMPONENTS: CV

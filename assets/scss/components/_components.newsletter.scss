@@ -19,8 +19,8 @@
 }
 
 .NewsletterForm-field {
-  &:nth-child(even) {
-    @include margin-bottom(0.5);
+  &:nth-child( even ) {
+    @include margin-bottom(1);
   }
 }
 
@@ -28,45 +28,21 @@
   .NewsletterForm {
     flex-direction: row;
   }
-}
-.NewsletterForm-field {
-  flex: 1;
-}
 
-.NewsletterForm-input {
-  background: var(--color-lightest);
-  border: solid 2px var(--color-lightest);
-  border-radius: 0;
-  height: 48px;
-  @include margin-top(0.3);
-  @include margin-bottom(0.5);
-  outline: 2px solid var(--color-lightest);
-  outline-offset: 0;
-  padding: 0 16px;
-  position: relative;
-  transition: all .2s;
-  width: 100%;
-  -webkit-appearance: none;
-
-    &:focus,
-    &:active {
-      border: 2px solid var(--color-link);
-      outline: 4px solid lighten($color-link, 35%);
-      outline-offset: 0;
-      transition: all .2s;
-    }
-}
-
-@include breakpoint(md) {
-
-  .NewsletterForm-field {
-    flex-grow: 2;
-    margin-top: 0;
-    margin-right: 16px;
+  .NewsletterForm-label {
+    @include margin-top(0);
   }
 
-  .NewsletterForm-button {
-    flex-grow: 1;
-    margin-top: 41px;
+  .NewsletterForm-field {
+    flex: 1;
+    align-self: flex-end;
+
+    &:nth-child( even ) {
+      @include margin-bottom(0);
+    }
+
+    &:not(:last-of-type) {
+      @include margin-right(0.5);
+    }
   }
 }

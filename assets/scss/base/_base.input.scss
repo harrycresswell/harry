@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #BASE: INPUT
+\*------------------------------------*/
+
+input {
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
+  border-radius: 0;
+  height: 48px;
+  outline: 2px solid var(--color-lightest);
+  outline-offset: 0;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  width: 100%;
+  -webkit-appearance: none;
+
+    &:focus,
+    &:active {
+      border: 2px solid var(--color-link);
+      outline: 4px solid lighten($color-link, 35%);
+      outline-offset: 0;
+      transition: all .2s;
+    }
+}
+
+label {
+  display: block;
+  @include margin-top(0.5);
+  @include margin-bottom(0.25);
+}

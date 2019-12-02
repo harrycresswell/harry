@@ -6,11 +6,8 @@
  * Component Block
  */
 
- //.Form {}
-
- .Form-label {
-   display: block;
-   @include margin-bottom(0.5);
+ .Form {
+  @include margin-bottom(1);
  }
 
  ::placeholder {
@@ -21,14 +18,12 @@
   * Component Element
   */
 
-.Form-input,
 .Form-textarea,
 .Form-select {
   background: var(--color-lightest);
   border: solid 2px var(--color-lightest);
   border-radius: 0;
   height: 60px;
-  @include margin-top(0.25);
   outline: 2px solid var(--color-lightest);
   outline-offset: 0;
   padding: 0 16px;
@@ -64,11 +59,9 @@
 
 .Form-textarea {
   min-height: 96px;
-  padding-top: 16px;
+  padding: 8px 16px;
 }
 
-
 .Form-button {
-  @include margin-top(1);
-  @include margin-bottom(1);
+  @include margin-top(0.5);
 }
