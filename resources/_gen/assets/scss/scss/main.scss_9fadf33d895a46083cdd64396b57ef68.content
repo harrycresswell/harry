@@ -12,6 +12,8 @@
   --color-lighter: #888;
   --color-lightest: #f5f5f5;
   --color-link: #542bff;
+  --color-teal: #287088;
+  --color-sea: #396ca0;
   /* #542bff in decimal RGB */
   --color-link-rgb: 84, 43, 255;
   --color-white: #fff; }
@@ -377,7 +379,7 @@ code, pre {
 
 code {
   font-size: 85%;
-  color: #396ca0;
+  color: var(--color-teal);
   background-color: #f9f9f9;
   border-radius: 2px; }
 
@@ -414,6 +416,323 @@ select {
 video {
   width: 100%;
   height: auto; }
+
+/* Background */
+.chroma {
+  background-color: #f9f9f9; }
+
+/* Error */
+.chroma .err {
+  background-color: #a848a8; }
+
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block; }
+
+/* LineHighlight */
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc; }
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* Keyword */
+.chroma .k {
+  color: #2838b0; }
+
+/* KeywordConstant */
+.chroma .kc {
+  color: #444444;
+  font-style: italic; }
+
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #2838b0;
+  font-style: italic; }
+
+/* KeywordNamespace */
+.chroma .kn {
+  color: #2838b0; }
+
+/* KeywordPseudo */
+.chroma .kp {
+  color: #2838b0; }
+
+/* KeywordReserved */
+.chroma .kr {
+  color: #2838b0; }
+
+/* KeywordType */
+.chroma .kt {
+  color: #2838b0;
+  font-style: italic; }
+
+/* NameAttribute */
+.chroma .na {
+  color: #388038; }
+
+/* NameBuiltin */
+.chroma .nb {
+  color: #388038; }
+
+/* NameBuiltinPseudo */
+.chroma .bp {
+  font-style: italic; }
+
+/* NameClass */
+.chroma .nc {
+  color: #287088; }
+
+/* NameConstant */
+.chroma .no {
+  color: #b85820; }
+
+/* NameDecorator */
+.chroma .nd {
+  color: #287088; }
+
+/* NameEntity */
+.chroma .ni {
+  color: #709030; }
+
+/* NameException */
+.chroma .ne {
+  color: #908828; }
+
+/* NameFunction */
+.chroma .nf {
+  color: #785840; }
+
+/* NameFunctionMagic */
+.chroma .fm {
+  color: #b85820; }
+
+/* NameLabel */
+.chroma .nl {
+  color: #289870; }
+
+/* NameNamespace */
+.chroma .nn {
+  color: #289870; }
+
+/* NameTag */
+.chroma .nt {
+  color: #2838b0; }
+
+/* NameVariable */
+.chroma .nv {
+  color: #b04040; }
+
+/* NameVariableGlobal */
+.chroma .vg {
+  color: #908828; }
+
+/* NameVariableMagic */
+.chroma .vm {
+  color: #b85820; }
+
+/* LiteralString */
+.chroma .s {
+  color: #b83838; }
+
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #444444; }
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #b83838; }
+
+/* LiteralStringChar */
+.chroma .sc {
+  color: #a848a8; }
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #b85820; }
+
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #b85820;
+  font-style: italic; }
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #b83838; }
+
+/* LiteralStringEscape */
+.chroma .se {
+  color: #709030; }
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #b83838; }
+
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #b83838;
+  text-decoration: underline; }
+
+/* LiteralStringOther */
+.chroma .sx {
+  color: #a848a8; }
+
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #a848a8; }
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #b83838; }
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #b83838; }
+
+/* LiteralNumber */
+.chroma .m {
+  color: #444444; }
+
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #444444; }
+
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #444444; }
+
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #444444; }
+
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #444444; }
+
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #444444; }
+
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #444444; }
+
+/* Operator */
+.chroma .o {
+  color: #666666; }
+
+/* OperatorWord */
+.chroma .ow {
+  color: #a848a8; }
+
+/* Punctuation */
+.chroma .p {
+  color: #888888; }
+
+/* Comment */
+.chroma .c {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentHashbang */
+.chroma .ch {
+  color: #287088;
+  font-style: italic; }
+
+/* CommentMultiline */
+.chroma .cm {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSingle */
+.chroma .c1 {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSpecial */
+.chroma .cs {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentPreproc */
+.chroma .cp {
+  color: #289870; }
+
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #289870; }
+
+/* GenericDeleted */
+.chroma .gd {
+  color: #c02828; }
+
+/* GenericEmph */
+.chroma .ge {
+  font-style: italic; }
+
+/* GenericError */
+.chroma .gr {
+  color: #c02828; }
+
+/* GenericHeading */
+.chroma .gh {
+  color: #666666; }
+
+/* GenericInserted */
+.chroma .gi {
+  color: #388038; }
+
+/* GenericOutput */
+.chroma .go {
+  color: #666666; }
+
+/* GenericPrompt */
+.chroma .gp {
+  color: #444444; }
+
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold; }
+
+/* GenericSubheading */
+.chroma .gu {
+  color: #444444; }
+
+/* GenericTraceback */
+.chroma .gt {
+  color: #2838b0; }
+
+/* GenericUnderline */
+.chroma .gl {
+  text-decoration: underline; }
+
+/* TextWhitespace */
+.chroma .w {
+  color: #a89028; }
 
 /*------------------------------------*\
     #LAYOUTS: WRAPPER
@@ -607,7 +926,7 @@ video {
       margin-bottom: 1.6rem; } }
   @media (min-width: 48em) {
     .Post .intro, .intro {
-      font-size: 120%;
+      font-size: 125%;
       line-height: 1.5; } }
 
 .PostAuthor {
@@ -1324,38 +1643,51 @@ p.Cv-mainItemTitle {
   left: 0; }
 
 /*------------------------------------*\
-    #COMPONENTS: QUOTE
+    #COMPONENTS: PULLQUOTE
 \*------------------------------------*/
 /**
  * Component Block
  */
-.Quote {
+.PullQuote {
+  border-left: none;
+  color: var(--color-dark);
   max-width: 400px; }
+  .PullQuote p {
+    font-size: 120%;
+    margin-bottom: 0.75rem; }
+    @media screen and (min-width: 48em) {
+      .PullQuote p {
+        margin-bottom: 0.8rem; } }
+  .PullQuote figcaption {
+    margin-left: 1.5rem; }
+    @media screen and (min-width: 48em) {
+      .PullQuote figcaption {
+        margin-left: 1.6rem; } }
 
 /**
  * Component Modifier
  */
-.Quote--left {
+.PullQuote--left {
   margin-top: 0rem;
   margin-bottom: 0rem;
   margin-left: 1.5rem; }
   @media screen and (min-width: 48em) {
-    .Quote--left {
+    .PullQuote--left {
       margin-top: 0rem; } }
   @media screen and (min-width: 48em) {
-    .Quote--left {
+    .PullQuote--left {
       margin-bottom: 0rem; } }
   @media screen and (min-width: 48em) {
-    .Quote--left {
+    .PullQuote--left {
       margin-left: 1.6rem; } }
   @media (min-width: 48em) {
-    .Quote--left {
+    .PullQuote--left {
       margin-left: 0rem; } }
   @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Quote--left {
+    .PullQuote--left {
       margin-left: 0rem; } }
 
-.Quote--right {
+.PullQuote--right {
   float: right;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
@@ -1363,22 +1695,22 @@ p.Cv-mainItemTitle {
   margin-right: 1.5rem;
   width: 400px; }
   @media screen and (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-top: 1.6rem; } }
   @media screen and (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-bottom: 3.2rem; } }
   @media screen and (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-left: 3.2rem; } }
   @media screen and (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-right: 1.6rem; } }
   @media (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-right: 12rem; } }
   @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Quote--right {
+    .PullQuote--right {
       margin-right: 12.8rem; } }
 
 /*------------------------------------*\
