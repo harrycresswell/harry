@@ -81,7 +81,7 @@ margin: 0 auto;
   @include margin-bottom(1);
 
   @include breakpoint(md) {
-    font-size: 120%;
+    font-size: 125%;
     line-height: 1.5;
   }
 }
