@@ -106,15 +106,15 @@ In this case, 3 objects – all identical in the fact they are empty – are sav
 
 ```
 {}  // Memory Address 1
- {}  // Memory Address 2
- {}  // Memory Address 3
+{}  // Memory Address 2
+{}  // Memory Address 3
 ```
 
 When JavaScript is comparing the first object to the second, it’s actually comparing the memory addresses. It’s doing this to understand if we’re looking at the exact same object or 2 separate objects.
 
 A general rule of thumb, if you’re comparing 2 objects it will be `false`. The only time you can have an object comparison equal is if you assign the object to a variable and compare those variables.
 
-'' var houseA = {}; houseA === houseA true
+'' var houseA = {}; houseA === houseA true
 
 As you see in the example above, this comparison returns `true`.
 
@@ -132,8 +132,8 @@ So remember, when you’re comparing objects you’re actually comparing 2 memor
 
 ## Code example 1
 
-```
-var myPrimitive = 10; 
+```javascript
+var myPrimitive = 10;
 var myObject = {name: 'harry'};
 ```
 
@@ -147,9 +147,9 @@ The diagram below should help illustrate how this works.
 
 ## Code example 2
 
-```
+```javascript
 var myHouse = {color: 'blue'};
- myHouse.color = 'red';
+myHouse.color = 'red';
 ```
 
 In line 1 of the example above, JavaScript starts by creating a variable called `myHouse`. Then it creates an object which has the color property equal to `blue`. Once it’s created it’ll have a memory address which is stored inside the variable.
@@ -166,10 +166,10 @@ The diagram below should help illustrate how this works.
 
 ## Code example 3
 
-```
+```javascript
 var myHouse = {color: 'blue'};
- var color = myHouse.color;
- color = 'red';
+var color = myHouse.color;
+color = 'red';
 ```
 
 Here in line 1, we’re telling JavaScript to create a variable called `myHouse`. Then we’re creating an object with the color property value of blue. Next JavaScript will create a memory address and store that in the variable.
@@ -184,9 +184,9 @@ The diagram below should help illustrate how this works.
 
 ## Code example 4
 
-```
+```javascript
 var myHouse1 = {color: 'blue'};
- var myHouse2 = myHouse1; 
+var myHouse2 = myHouse1;
 myHouse2.color = 'red';
 ```
 
@@ -204,10 +204,10 @@ The diagram below should help illustrate how this works.
 
 ### Code example 5
 
-```
+```javascript
 var myHouse1 = {color: 'blue'};
- var myHouse2 = {color: 'blue'};
- myHouse2.color = 'red';
+var myHouse2 = {color: 'blue'};
+myHouse2.color = 'red';
 ```
 
 In this final example, line 1 creates a variable called `myHouse1`. Then we create an object with the color property `‘blue’`. Then JavaScript creates a memory address associated with this object and stores it in the variable `myHouse1`.

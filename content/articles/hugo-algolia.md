@@ -41,7 +41,7 @@ Algolia deals with JSON, so we’ll need set up Hugo to output our content as JS
 
 Inside your `config.toml` file add the following:
 
-```
+```yaml
 [outputFormats.Algolia]
   baseName = "algolia"
   isPlainText = true
@@ -61,7 +61,7 @@ A JSON template will allow Hugo to render the custom JSON output. This will repl
 
 Create a new file at `layouts/_default/list.algolia.json` and add the following:
 
-```
+```js
 {{/* Generates a valid Algolia search index */}}
 {{- $hits := slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
@@ -124,7 +124,7 @@ Now we have our custom output layout, variables and page-level params configured
 
 Back inside your `config.toml` file, add the following:
 
-```
+```yaml
 [outputs]
   home = ["HTML", "RSS", "Algolia"]
 ```
@@ -156,7 +156,7 @@ Next, open the newly created `package.json` file, find "scripts", and add the 
 
 Now create a `.env` file at the root of your project to store our environment variables. Add the following:
 
-```
+```js
 ALGOLIA_APP_ID={{ YOUR_APP_ID }}
 ALGOLIA_ADMIN_KEY={{ YOUR_ADMIN_KEY }}
 ALGOLIA_INDEX_NAME={{ YOUR_INDEX_NAME }}
@@ -177,7 +177,9 @@ Using Forestry’s [open-source serverless Webtask Function](https://github.com/
 
 To get started, clone the template to your local machine by running:
 
-`git clone https://github.com/forestryio-templates/serverless-atomic-algolia.git `
+```
+git clone https://github.com/forestryio-templates/serverless-atomic-algolia.git 
+```
 
 Then install the dependencies:
 
@@ -198,7 +200,7 @@ Next, you’ll need to configure the function with your Indices and Algolia app 
 
 First, copy `config/secrets.yml.stub` to `config/secrets.yml` and then open it up in your text editor.
 
-```
+```js
 ALGOLIA_APP_ID: {{ YOUR_APP_ID }}
 ALGOLIA_ADMIN_KEY: {{ YOUR_ADMIN_KEY }}
 DEBOUNCE: 0
@@ -206,7 +208,7 @@ DEBOUNCE: 0
 
 Then, open `config/index.js` and update name to the name of your index that you set up earlier, and url to `yourdomain.com/algola.json`.
 
-```
+```js
 module.exports = () => {
 var indexes = [
   {

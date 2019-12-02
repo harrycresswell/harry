@@ -31,7 +31,7 @@ Inside the front matter of your new post, include a new param for your external 
 
 Your posts should now look something like this:
 
-```
+```yaml
 ---
 title: "Sketch Libraries and primitives to build buttons"
 date: 2018-01-26T21:29:52+01:00
@@ -47,7 +47,7 @@ In order to get external articles showing on your [list page](https://gohugo.io/
 
 If you haven’t made any major changes your list page should look something like this:
 
-```
+```go
 {{ define "main" }}
     {{ range .Data.Pages }}
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
@@ -60,7 +60,7 @@ Pretty simple stuff. All we’re doing here is looping through our posts and pri
 Now we need to extend this to include links to our external articles within the same loop:
 
 
-```
+```go
 {{ define "main" }}
     {{ range .Data.Pages }}
         <h3>

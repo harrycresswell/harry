@@ -17,7 +17,7 @@ Type `allSanity` to launch the options and explore the available document schema
 
 One of the available options in my API is `allSanityEvent` which contains all the data associated with a document type I have created called ‘Event’.
 
-```graphql
+```GraphQL
 {
 	allSanityEvent
 }
@@ -25,7 +25,7 @@ One of the available options in my API is `allSanityEvent` which contains all th
 
 We can make a basic query for an event title like this:
 
-```graphql
+```GraphQL
 {
 	allSanityEvent {
 		edges {
@@ -115,11 +115,13 @@ Now we have our query we want to show the content in our Gatsby site.
 
 In `index.js` first we need to import `graphql`.
 
-`import { Link, graphql } from 'gatsby'`
+```
+import { Link, graphql } from 'gatsby'
+```
 
 Next we can write our query and export it as a variable. Make sure you switch out the image `src` for the ￼image fragment reference.
 
-```graphql
+```
 export const queryEvent = graphql`
 {
 	allSanityEvent {
@@ -145,7 +147,7 @@ export const queryEvent = graphql`
 
 Now we can grab the data in our layout.
 
-```js
+```
 const IndexPage = ({ data }) => (
 <Layout>
 	<h1>Events</h1>
@@ -168,5 +170,5 @@ The next step will be to generate the single pages for each event.
 
 ## Further resources
 
-- [Sourcing from Sanity￼](https://www.gatsbyjs.org/docs/sourcing-from-sanity/) in the Gatsby Docs.
-- [￼Build a portfolio site with Sanity and Gatsby](https://www.youtube.com/watch?v=SLGkyodumKI) from Jason Lengstorf.
+- [Sourcing from Sanity](https://www.gatsbyjs.org/docs/sourcing-from-sanity/) in the Gatsby Docs.
+- [Build a portfolio site with Sanity and Gatsby](https://www.youtube.com/watch?v=SLGkyodumKI) from Jason Lengstorf.

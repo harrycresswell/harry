@@ -74,7 +74,7 @@ The final thing we need to do to get this working is to add the JavaScript call.
 
 To initialise the Cloudinary instance, call the responsive method in your JavaScript file:
 
-```html
+```js
 const cl = cloudinary.Cloudinary.new({ cloud_name: 'YOUR_CLOUD_NAME' })
 cl.responsive()
 ```
@@ -125,7 +125,7 @@ If you built your site with Hugo, like this one, you’ll likely want to create 
 
 Inside `site/layouts/shortcodes`, create a new file to store your shortcode. I named mine `cld.html` (as in Cloudinary) as it’s nice and short and easy to remember. Inside the HTML file I added the following:
 
-```html
+```go
 <div class="Image">
  <img
  data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
@@ -150,7 +150,7 @@ cloudinary_url = "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload"
 To access your new Shortcode in any markdown file use the following:
 
 
-```yaml
+```go
 # Hugo Shortcode to use in markdown files
 { {< cld src="naming-artboards-in-sketch-organised-albion-03.jpg" alt="" caption="Your Caption" >} }
 ```

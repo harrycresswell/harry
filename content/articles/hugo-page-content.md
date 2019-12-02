@@ -12,7 +12,7 @@ Say for example I wanted to add the title and content from a page called “How 
 
 First I’d need to create a page called how it works.
 
-```
+```Bash
 $ hugo new page/how-it-works.md
 ```
 
@@ -20,7 +20,7 @@ In the page front matter add a parameter called `type` and give it a value which
 
 That might look something like this:
 
-```
+```yaml
 ---
 title: "How It Works"
 date: 2018-03-02T14:58:10+01:00
@@ -30,7 +30,7 @@ type: "how"
 
 Then in your `index.html` add the following:
 
-```
+```go
 <!-- show contents of how it works page -->
   {{ range .Data.Pages }}
       {{if eq .Type "how" }} <!-- look for type in the front matter of page -->

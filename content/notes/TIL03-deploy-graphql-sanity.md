@@ -30,9 +30,9 @@ Hit `Y` and you’ll be able to explore the Schema in a GraphQL Playground.
 
 ## Explore the Schema from a Gatsby project
 
-Explore `￼http://localhost:8000/___graphql`￼ after running `gatsby develop` to understand the created data and create a new query and checking available collections and fields by typing `CTRL + SPACE`.
+Explore `￼http://localhost:8000/___graphql` after running `gatsby develop` to understand the created data and create a new query and checking available collections and fields by typing `CTRL + SPACE`.
  
 ## Further Resources
 
-For more on this step ￼[check out the docs￼](https://www.sanity.io/docs/data-store/graphql#deploying-the-graph-ql-api).
+For more on this step [check out the docs](https://www.sanity.io/docs/data-store/graphql#deploying-the-graph-ql-api).
 

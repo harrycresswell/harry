@@ -39,7 +39,7 @@ First we need to go into our HTML document and create 2 buttons, one for display
 
 Inside the body tags, we can write:
 
-```
+```html
 <button>Display Todos</button>
 <button>Toggle All</button>
 ```
@@ -51,7 +51,7 @@ Next we need our new display todos button to run the `todoList.displayTodos` met
 In our JavaScript code we can start by writing out some comments for what we want to happen.
 
 ```
-// 1. We want to get access to the display todos button. 
+// 1. We want to get access to the display todos button.
 // 2. We want to run displayTodos method, when someone clicks the display todos button
 ```
 
@@ -61,43 +61,46 @@ Starting with the first requirement, we can create a new variable called `displa
 
 Then, in order to access the DOM, we can use the `document` object, which is built into JavaScript. The `document` object has methods on it that allow you to select a specific element. One of these methods is called `getElementById` which will grab an `id` on an element.
 
-```
+```javascript
 // 1. We want to get access to the display todos button.
- var displayTodosButton = document.getElementById();
+var displayTodosButton = document.getElementById();
 ```
 
 In order for the `getElementById` method to run we will need to head back to our HTML and add an `id` to our display todos button.
 
-```
-<button id="displayTodosButton">Display Todos</button>
+```html
+<button id="displayTodosButton">Display Todos
+</button>
 ```
 
 This will allow us to reference this specific button in our JavaScript:
 
-```
-// 1. We want to get access to the display todos button. var displayTodosButton = document.getElementById('displayTodosButton');
+```javascript
+// 1. We want to get access to the display todos button. 
+var displayTodosButton = document.getElementById('displayTodosButton');
 ```
 
 ### Moving script.js references to the end of the page
 
 Now our code will grab the button we want. Let’s add a `console.log` to our code to check it‘s working correctly.
 
-```
-// 1. We want to get access to the display todos button. var displayTodosButton = document.getElementById('displayTodosButton'); console.log(displayTodosButton);
+```javascript
+// 1. We want to get access to the display todos button. 
+var displayTodosButton = document.getElementById('displayTodosButton'); console.log(displayTodosButton);
 ```
 
 If we run our code you might well see an error, this is likely because of how we’re loading the JavaScript. Check to see if your link to `script.js` is inside the `<head>` of your document. If it is, remove it from the head and move it just above the closing `</body>` tag.
 
-```
+```html
 <script src="script.js"></script>
- </body>
+</body>
 ```
 
 Now the browser can see the `id` in the HTML document before it runs the JavaScript code. Whereas before, we were loading the JavaScript before the browser parsed the HTML, which is no good.
 
 This time when we run the code, our error should have disappeared and instead we see
 
-```
+```html
 <button id="displayTodosButton>Display Todos</button>
 ```
 
@@ -111,28 +114,28 @@ First, we grab our `displayTodosButton` variable, then add an event listener, wh
 
 In this case we’re listening for anytime someone clicks the button, and when that happens it runs a function which runs the `displayTodos` method.
 
-```
+```javascript
 // 1. We want to get access to the display todos button.
 
-var displayTodosButton = document.getElementById('displayTodosButton'); 
-console.log(displayTodosButton);  
+var displayTodosButton = document.getElementById('displayTodosButton');
+console.log(displayTodosButton);
 
 // 2. We want to run displayTodos method, when someone clicks the display todos button.
 
-  displayTodosButton.addEventListener('click', function() {   
+displayTodosButton.addEventListener('click', function() {
   todoList.displayTodos();
- });
+  });
 ```
 
 Now we can run our code to make sure its working. If all went well the console should return `“Your todo list is empty!”`
 
 Now we can clean up our code by removing the comments and the `console.log`.
 
-```
+```javascript
 var displayTodosButton = document.getElementById('displayTodosButton');
-  displayTodosButton.addEventListener('click', function() {   
+displayTodosButton.addEventListener('click', function() { 
   todoList.displayTodos();
- });
+});
 ```
 
 ## Step 3: Clicking “Toggle all” should run todoList.toggleAll
@@ -141,22 +144,22 @@ The toggle all button will work exactly the same.
 
 First we need to get a reference to the toggle all button via an `id`, so we start by giving the button an `id`.
 
-```
+```html
 <button id="toggleAllButton">Toggle All</button>
 ```
 
 Next we need to grab the button, so create the variable `toggleAllButton` and use the `getElementById` method as before and parse in the `id` we just created.
 
-```
+```javascript
 var toggleAllButton = document.getElementById('toggleAllButton');
 ```
 
 Next we need to add the event listener to it, to listen for clicks.
 
-```
+```javascript
 var toggleAllButton = document.getElementById('toggleAllButton');
-  toggleAllButton.addEventListener('click', function () {
-  todoList.toggleAll(); 
+toggleAllButton.addEventListener('click', function () {
+  todoList.toggleAll();
 });
 ```
 
@@ -164,7 +167,7 @@ Now try adding some todo items to your todo list with:
 
 ```
 todoList.addTodo(‘first’);
- todoList.addTodo(‘second’);
+todoList.addTodo(‘second’);
 ```
 
 Now try clicking the toggle all button to change the todos to completed, then click again to make incomplete.

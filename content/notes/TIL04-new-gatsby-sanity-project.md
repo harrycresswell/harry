@@ -27,7 +27,7 @@ Install Gatsby Source Sanity plugin to your project.
 
 Inside `gatsby-config.js` add plugin:
 
-```
+```javascript
 {
 	resolve: 'gatsby-source-sanity',
 		options: {
@@ -41,7 +41,7 @@ You will find your `projectId` and `dataset` inside `sanity.json` found within y
 
 If you chose to make your dataset private you will also need to add a permissions token like this:
 
-```
+```javascript
 {
 	resolve: 'gatsby-source-sanity',
 	options: {

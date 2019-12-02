@@ -21,10 +21,10 @@ Navigate to `manage.sanity.io` > settings > API > Add New Token.
 
 Create a Read token called Gatsby and add to your `gatsby-config.js.`
 
-```
+```javascript
 {
 	resolve: "gatsby-source-sanity",
-		options: {
+	options: {
 		projectId: "your_project_id",
 		dataset: "your_dataset_name",
 		overlayDrafts: true,

@@ -27,21 +27,25 @@ This is data that is related to a specific object: **myComputer**. Objects in Ja
 
 In Javascript, Curly braces can be used to group data in an Object:
 
-```
-{   
-  operatingSystem: 'mac',    
-  screenSize: '15 inches',    
+```javascript
+{  
+  operatingSystem: 'mac', 
+  screenSize: '15 inches',  
   purchaseYear: 2015
 }
 ```
 
 Each of these 3 things is called a `property`. Each property needs to be separated by a comma. The format of the property needs to contain a name and a value:
 
-`propertyName: PropertyValue,`
+```javascript
+propertyName: PropertyValue,
+```
 
 In other words:
 
-`operatingSystem: mac,`
+```
+operatingSystem: mac,
+```
 
 Any text value will need to be surrounded by quotes. A number doesn’t need quotes.
 
@@ -49,12 +53,12 @@ Any text value will need to be surrounded by quotes. A number doesn’t need quo
 
 To use an Object you will need to assign it to a Variable.
 
-```
-var myComputer = {   
-  operatingSystem: mac,   
-  screenSize: '15 inches',   
+```javascript
+var myComputer = {
+  operatingSystem: mac, 
+  screenSize: '15 inches', 
   purchaseYear: 2015
- };
+};
 ```
 
 Then you can type the variable in the console to retrieve the entire Object:
@@ -69,12 +73,12 @@ To print out a specific part of the Object. You can do that by aappending a peri
 
 Functions can be placed on Objects.
 
-```
-var harry = {   
-  name: 'Harry',   
-  sayName: function() { 
-    console.log(this);   
-  } 
+```javascript
+var harry = {
+  name: 'Harry',  
+  sayName: function() {
+    console.log(this); 
+  }
 }
 ```
 
@@ -82,13 +86,13 @@ It’s optional to name functions on Objects. Most programmers leave out the nam
 
 In other words,
 
-```
+```javascript
 sayName: function sayName() {}
 ```
 
 becomes:
 
-```
+```javascript
 sayName: function(){}
 ```
 
@@ -100,13 +104,13 @@ In this case, when we run our `sayName` Function: `harry.sayName` will print out
 
 To print out a property on the Object, for example the name only, you can add `.name` to `this`
 
-```
-var harry = {   
-  name: 'Harry',   
-  sayName: function() { 
-    console.log(this.name);   
+```javascript
+var harry = { 
+  name: 'Harry',  
+  sayName: function() {
+    console.log(this.name); 
   }
- }
+}
 ```
 
 This pattern of putting a function on an Object is a common pattern in Javascript, and is referred to as ‘a Method’. A Method is simply a property which is equal to a Function.
@@ -131,13 +135,15 @@ This will help us organise our code better. So everything related to our todo li
 
 In the previous version of our app we stored our todos array in a variable:
 
-`var todos = ['item 1', 'item 2', 'item 3'];`
+```javascript
+var todos = ['item 1', 'item 2', 'item 3'];
+```
 
 For this version we need to take our Array and put the data onto an Object.
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'] 
+```javascript
+var todoList = {
+  todos: ['item 1', 'item 2', 'item 3']
 };
 ```
 
@@ -149,26 +155,28 @@ We can now type `todoList` in the console to retrieve the data.
 
 Next we need to change displayTodos from the standard function we made in [version 2](notes/parctical-javascript-functions):
 
-```
-function displayTodos(){   
-  console.log('My Todos:', todos); 
+```javascript
+function displayTodos(){  
+  console.log('My Todos:', todos);
 };
 ```
 
 …to a method on our new todos object:
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'], 
-  displayTodos: function() {     
-    console.log('My Todos', this.todos);   
+```javascript
+var todoList = {  
+  todos: ['item 1', 'item 2', 'item 3'],
+  displayTodos: function() {  
+    console.log('My Todos', this.todos);
   }
- };
+};
 ```
 
 To print out our todos on the console we type `todosList` followed by the `displayTodos` method, preppended with a dot:
 
-`todoList.displayTodos`
+```javascript
+todoList.displayTodos
+```
 
 You should now see your todos.
 
@@ -182,33 +190,35 @@ Another difference is we’re now using `this.todos` instead of `todos`, as we n
 
 Now we need to change the addTodo function:
 
-```
-function addTodo(todo) {   
-  todos.push(todo);   
-  displayTodos(); 
+```javascript
+function addTodo(todo) {  
+  todos.push(todo); 
+  displayTodos();
 }
 ```
 
 …to an Method on our todoList Object:
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'], 
-  displayTodos: function() {     
-    console.log('My Todos', this.todos); 
-  },   
-  addTodo: function(todo) {   
-    this.todos.push(todo);    
-    this.displayTodos();   
+```javascript
+var todoList = { 
+  todos: ['item 1', 'item 2', 'item 3'],
+  displayTodos: function() {   
+    console.log('My Todos', this.todos);
+  }, 
+  addTodo: function(todo) {  
+    this.todos.push(todo);   
+    this.displayTodos();  
   }
- };
+};
 ```
 
 Now `todos` and `displayTodos` are on this Object, we need to prepend with the `this.` keyword to reference those two properties. Otherwise it works exactly the same, just using an anonymous function, like in the previous step.
 
 Now you can use the addTodo method and add todos by typing:
 
-`todoList.addTodo('New Todo');`
+```javascript
+todoList.addTodo('New Todo');
+```
 
 Where ‘New Todo’ is the new value you would like to add.
 
@@ -216,30 +226,30 @@ Where ‘New Todo’ is the new value you would like to add.
 
 Next we need to turn our changeTodo function:
 
-```
-function changeTodo(position, newValue) { 
-  todos[position] = newValue;   
+```javascript
+function changeTodo(position, newValue) {
+  todos[position] = newValue;  
   displayTodos();
- }
+}
 ```
 
 …into a method on our object:
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'], 
-  displayTodos: function() {     
+```javascript
+var todoList = {  
+  todos: ['item 1', 'item 2', 'item 3'],
+  displayTodos: function() {   
     console.log('My Todos', this.todos);
-  },   
-  addTodo: function(todo) {      
-    this.todos.push(todo);    
-    this.displayTodos();   
-  },   
-  changeTodo: function(position, newValue) {    
-    this.todos[position] = newValue;    
-    this.displayTodos(); 
+  },
+  addTodo: function(todo) {    
+    this.todos.push(todo);   
+    this.displayTodos();  
+  },
+  changeTodo: function(position, newValue) {   
+    this.todos[position] = newValue;   
+    this.displayTodos();
   }
- };
+};
 ```
 
 You should now start to see the pattern; when you want to reference something on an object, use `this.`, to refer to the object itself.
@@ -248,7 +258,9 @@ In this case we prefixed `todos` and `displayTodos` with `this.` because they ar
 
 Now change a todo by running the change todo method:
 
-`todoList.changeTodo(0, 'first');`
+```javascript
+todoList.changeTodo(0, 'first');
+```
 
 Where ‘0’ is the position of the todo (remember javaScript starts counting from  zero), and ‘first’ is the new value of the todo at position zero.
 
@@ -256,38 +268,41 @@ Where ‘0’ is the position of the todo (remember javaScript starts counting f
 
 Finally, we need to make our deleteTodo function:
 
-```
-function deleteTodo(position) {      
-   todos.splice(position, 1);   
-   displayTodos(); 
+```javascript
+function deleteTodo(position) {    
+   todos.splice(position, 1);  
+   displayTodos();
  }
 ```
 
-…into a method on our object: 
+…into a method on our object:
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'], 
-  displayTodos: function() {     
+```javascript
+var todoList = {  
+  todos: ['item 1', 'item 2', 'item 3'],
+  displayTodos: function() {    
     console.log('My Todos', this.todos);
-  },   
-  addTodo: function(todo) {    
-    this.todos.push(todo); 
-    this.displayTodos();   
-  },   
-  changeTodo: function(position, newValue) {    
-    this.todos[position] = newValue;   
-    this.displayTodos(); 
-  },   
-  deleteTodo: function(postion) { 
-    this.todos.splice(position, 1);  this.displayTodos();   
+  },  
+  addTodo: function(todo) {   
+    this.todos.push(todo);
+    this.displayTodos();  
+  }, 
+  changeTodo: function(position, newValue) {   
+    this.todos[position] = newValue;  
+    this.displayTodos();
+  },  
+  deleteTodo: function(postion) {
+    this.todos.splice(position, 1);
+    this.displayTodos();  
   }
- };
+};
 ```
 
 Similar to before, to delete an item in the todo list, use the todoList object and prepend the deleteTodo method, specifying to position of the item you wish to delete:
 
-`todoList.deleteTodo(1);`
+```javascript
+todoList.deleteTodo(1);
+```
 
 In this case we delete the second item.
 
@@ -295,7 +310,7 @@ By now you should see the pattern. The only real difference in a method on an ob
 
 ## v.3.0 Review
 
- Now all our code is on an object, this is good for code organisation, as all code related to our `todoList` is grouped together.
+Now all our code is on an object, this is good for code organisation, as all code related to our `todoList` is grouped together.
 
 We practiced writing methods, which are simply functions on objects.
 

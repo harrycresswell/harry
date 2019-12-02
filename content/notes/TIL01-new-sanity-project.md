@@ -11,15 +11,21 @@ syndicate = "true"
 
 ## Install Sanity
 
-Install Sanity studio globally
-`npm install -g @sanity/cli`
+Install Sanity studio globally:
+
+```
+npm install -g @sanity/cli
+```
 
 This will allow you to use the `sanity` CLI and scaffold new projects directly from the command line.
 
 ## Create a new project
 
-To start a new project create a new project directory and move into it
-`mkdir new-project && cd new-project`
+To start a new project create a new project directory and move into it:
+
+```
+mkdir new-project && cd new-project
+```
 
 Run `sanity init` to log in Sanity, set up a dataset, and generate the files needed to run the editing environment locally.
 

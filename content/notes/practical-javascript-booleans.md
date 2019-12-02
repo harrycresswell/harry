@@ -23,11 +23,15 @@ Booleans are a representation of `true` or `false`.
 
 First we need to change the addTodo method from adding text items like this:
 
-`['item 1', 'item 2', 'item 3']`
+```javascript
+['item 1', 'item 2', 'item 3']
+```
 
 …to adding objects like this:
 
-''{  todoText: 'item 1',  completed: false // Boolean true or false }
+```javascript
+{ todoText: 'item 1', completed: false // Boolean true or false}
+```
 
 We want to do this so we can add as many properties as we like. The first property we want is a text value, for example the text we want to add.
 
@@ -39,55 +43,59 @@ Later when we go through our todos and mark as completed this value will change 
 
 This is where we left off in our version 3 app.
 
-```
-var todoList = {   
-  todos: ['item 1', 'item 2', 'item 3'],   
-  displayTodos: function() {     
+```javascript
+var todoList = {
+  todos: ['item 1', 'item 2', 'item 3'], 
+  displayTodos: function() {   
     console.log('My Todos', this.todos);
-  },   
-  addTodo: function(todo) {    
-    this.todos.push(todo);    
-    this.displayTodos();   
-  },   
-  changeTodo: function(position, newValue) {    
-    this.todos[position] = newValue;    
-    this.displayTodos(); 
-  },   
-  deleteTodo: function(position) {    
-    this.todos.splice(position, 1);    
-    this.displayTodos(); 
+  }, 
+  addTodo: function(todo) { 
+    this.todos.push(todo);  
+    this.displayTodos();  
+  }, 
+  changeTodo: function(position, newValue) {   
+    this.todos[position] = newValue;   
+    this.displayTodos();
+  },
+  deleteTodo: function(position) { 
+    this.todos.splice(position, 1);   
+    this.displayTodos();
   }
- };
+};
 ```
 
 First step is to remove the items in our existing array, as we now want to use an object instead.
 
 In the code above, change:
 
-`todos: ['item 1', 'item 2', 'item 3'],`
+```javascript
+todos: ['item 1', 'item 2', 'item 3'],
+```
 
 to the following:
 
-`todos: [],`
+```javascript
+todos: [],
+```
 
 Next we need to modify our `addTodo` function. Find the code which reads:
 
-```
-addTodo: function(todo) {    
-  this.todos.push(todo);    
-  this.displayTodos();   
+```javascript
+addTodo: function(todo) {   
+  this.todos.push(todo);   
+  this.displayTodos(); 
 },
 ```
 
 And change it to:
 
-```
-addTodo: function(todoText) {    
-  this.todos.push({      
-    todoText: todoText,      
-    completed: false 
+```javascript
+addTodo: function(todoText) {  
+  this.todos.push({   
+    todoText: todoText,    
+    completed: false
   });
- this.displayTodos(); 
+this.displayTodos();
 },
 ```
 
@@ -99,7 +107,12 @@ A few things to note in our new code:
 
 For example if we write `addTodo('hi');` the value of `todoText` will be `'hi'`:
 
-''this.todos.push({      todoText: ''hi,      completed: false });
+```javascript
+this.todos.push({   
+  todoText: ''hi,    
+  completed: false
+});
+```
 
 ### Using todoList.addTodo
 
@@ -121,20 +134,20 @@ First, we need to update the `newValue` parameter to something more descriptive,
 
 So, find the `newValue` parameter in the code and change it to `todoText`.
 
-```
-changeTodo: function(position, newValue) { 
-  this.todos[position] = newValue;    
+```javascript
+changeTodo: function(position, newValue) {
+  this.todos[position] = newValue;   
   this.displayTodos();
- },
+},
 ```
 
 Your code should now look like this:
 
-```
-changeTodo: function(position, todoText) { 
-  this.todos[position] = newValue;    
+```javascript
+changeTodo: function(position, todoText) {
+  this.todos[position] = newValue;   
   this.displayTodos();
- },
+},
 ```
 
 ### update this.todo position to reference the todoText property in the object
@@ -151,10 +164,10 @@ In our changes above, `.todoText` grabs the `todoText` property on the object, a
 
 Our new code should look like this:
 
-```
-changeTodo: function(position, todoText) {   
-  this.todos[position].todoText = todoText;    
-  this.displayTodos(); 
+```javascript
+changeTodo: function(position, todoText) {  
+  this.todos[position].todoText = todoText;   
+  this.displayTodos();
 },
 ```
 
@@ -176,11 +189,15 @@ We can get the opposite of `true` with `!true`, which returns `false`. Where `!f
 
 We can take this a step further:
 
-`var harryBoolean = false;`
+```javascript
+var harryBoolean = false;
+```
 
 In this case `!harryBoolean` will return `true`. What if we set `harryBoolean` to the opposite of itself:
 
-`harryBoolean = !harryBoolean`
+```javascript
+harryBoolean = !harryBoolean
+```
 
 With the exclamation point we can take the current value of a variable and switch it to the opposite value. We can use this technique in our `toggleCompleted` method.
 
@@ -188,12 +205,12 @@ With the exclamation point we can take the current value of a variable and switc
 
 Now let’s put this into practice and write a new method for `toggleCompleted`:
 
-```
-toggleCompleted: function(position) {     
-  var todo = this.todos[postion]; 
-  todo.completed = !todo.completed;     
+```javascript
+toggleCompleted: function(position) {  
+  var todo = this.todos[postion];
+  todo.completed = !todo.completed;    
   this.displayTodos();
- }
+}
 ```
 
 So, whats going on here?
@@ -202,23 +219,23 @@ So, whats going on here?
 
 First we add our new method fo `toggleCompleted`, and give it a position so we can target the specific todo we want to modify:
 
-```
-toggleCompleted: function(position) { 
+```javascript
+toggleCompleted: function(position) {
 }
 ```
 
 Next, we create a reference to our `todo` in the form of a variable. This will save us from having to write this repetitive code in 2 different places. You’ll see what I mean in the line that will follow.
 
-```
-toggleCompleted: function(position) { 
+```javascript
+toggleCompleted: function(position) {
   var todo = this.todos[position];
 }
 ```
 
 Now, we flip the value of `todo.completed`, by grabbing the value of `todo.completed` and setting it to the opposite of the current value using the bang operator. So if the value is `false` it will be `true` and if it’s `true` it will be `false`.
 
-```
-toggleCompleted: function(position) { 
+```javascript
+toggleCompleted: function(position) {
   var todo = this.todos[position];
   todo.completed = !todo.completed;
 }
@@ -226,10 +243,10 @@ toggleCompleted: function(position) { 
 
 Finally we add the ability to display our updated changes with `displayTodos`, again using `this` to target the displayTodos method.
 
-```
-toggleCompleted: function(position) { 
+```javascript
+toggleCompleted: function(position) {
   var todo = this.todos[position];
-  todo.completed = !todo.completed; 
+  todo.completed = !todo.completed;
   this.displayTodos();
 }
 ```

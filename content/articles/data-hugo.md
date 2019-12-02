@@ -46,7 +46,7 @@ I called the top level sub-folder countries so the data type was clearly organis
 
 Inside each continent `YAML` file, I listed the countries in that continent under `country`, using an object `name` where the value is the country name.
 
-```
+```yaml
 country:
   - name: Algeria
   - name: Angola
@@ -80,7 +80,7 @@ By using the `range` function you can loop through the content, accessing the da
 
 To retrieve data from my `africa.yaml` data file I used the following code:
 
-```
+```go
 {{ range .Site.Data.countries.continent.africa.country }}
   <li>
     <input class="material-icons" type="checkbox" />

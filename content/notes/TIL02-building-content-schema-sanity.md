@@ -33,13 +33,15 @@ It’s worth reading [Dont’s and Dos](https://www.sanity.io/docs/the-schema/do
 
 To begin, fire open `schemas/schema.js` from inside your Sanity project. The first import you see is the `createSchema` function which allows us to create a schema.
 
-`import createSchema from 'part:@sanity/base/schema-creator`
+```
+import createSchema from 'part:@sanity/base/schema-creator
+```
 
 Next you’ll see `schemaTypes` which imports any schema types required from plugins. To see what plugins are used head to `sanity.json`.
 
 The part we’re most concerned with is the `createSchema` object. The array inside this object called `types` is where we define content types.
 
-```
+```javascript
 export default createSchema({
 	// We name our schema
 	name: 'default',
@@ -62,7 +64,7 @@ You can see we have 3 content types `post`, `author`, and `category`. As we star
 
 Above this block of code you’ll see each content type is stored in an external file and then imported. As our schema grows this will keep our project well organised.
 
-```
+```javascript
 // We import object and document schemas
 import blockContent from './blockContent'
 import category from './category'
@@ -76,7 +78,7 @@ The comment tell us that we are importing both `object` and `document` schemas. 
 
 Let’s create a new content type for notes. Create a new file `schemas/note.js` and create a new object. We’ll also need to export the object so we can use it elsewhere.
 
-```
+```javascript
 export default {
 
 }
@@ -84,7 +86,7 @@ export default {
 
 Next we need to name our content type and define what type of content it is. In this case it’s a `document`.
 
-```
+```javascript
 export default {
     name: 'note',
     type: 'document',
@@ -99,7 +101,7 @@ Back in `schema.js` add the following below the `author` import:
 
 Then we need to update the types array to include the `note` content type:
 
-```
+```javascript
 export default createSchema({
 	// We name our schema
 	name: 'default',
@@ -121,7 +123,7 @@ export default createSchema({
 
 Now run the studio locally, head to the browser and you’ll notice a few errors. We need a title for our new content type and an array of fields.
 
-```
+```javascript
 export default {
     name: 'note',
     type: 'document',
@@ -134,7 +136,7 @@ export default {
 
 Our notes will need a `title`, which will be a basic text string type and of course a title so we can identity the field in the studio.
 
-```
+```javascript
 export default {
     name: 'note',
     type: 'document',
@@ -159,7 +161,7 @@ Inside `note.js` let’s add a reference that points to the `author` content typ
 
 To specific what content type we want author to reference  we can use the `to` field. This takes one rule, that the type is `author`. Now author will only allow references to the author content type. 
 
-```
+```javascript
 export default {
     name: 'note',
     type: 'document',

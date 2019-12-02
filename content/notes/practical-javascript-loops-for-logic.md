@@ -17,10 +17,10 @@ Using `for` loops and `if else` statements.
 
 The `for` loop allows you to repeat a certain amount of code, any number of times. For example, if you wanted to tell a computer in english to say “hey” 3 times, this is how you might do it in 3 steps:
 
-```
+```javascript
 i = 0
- Say "hey" if i < 3
- Increase i by 1 
+Say "hey" if i < 3
+Increase i by 1
 ```
 
 So whats going on here?
@@ -31,11 +31,11 @@ So whats going on here?
 
 This might result in the following:
 
-```
+```javascript
 0 "hey"
- 1 "hey" 
-2 "hey" 
-3 
+1 "hey"
+2 "hey"
+3
 ```
 
 ### Whats going on here?
@@ -49,10 +49,10 @@ This might result in the following:
 
 In Javascript, the 3 steps outlined above have specific names.
 
-```
- i = 0                  // Initialization 
-Say "hey" if i < 3     // Condition 
-Increase i by 1        // Final-expression 
+```javascript
+i = 0                  // Initialization
+Say "hey" if i < 3     // Condition
+Increase i by 1        // Final-expression
 ```
 
 The first step is the **Initialization**, this is essentially a variable we create to keep track of how many times we want to do something. In this case we use zero to keep track of how many times we want to print “hey”.
@@ -65,23 +65,23 @@ The third step is the **Final Expression**, this is what happens after each roun
 
 We can use the `for` loop to make this work in code:
 
-```
- for (initialization; condition; final expression) {   
-  console.log("hey"); 
-} 
+```javascript
+for (initialization; condition; final expression) {  
+  console.log("hey");
+}
 ```
 
 With our steps from before, this looks something like:
 
-```
-for (var i = 0; i < 3; i = i + 1) {   
-  console.log("hey"); 
-} 
+```javascript
+for (var i = 0; i < 3; i = i + 1) { 
+  console.log("hey");
+}
 ```
 
 As it’s a common occurrence in Javascript, we can shorthand the final expression to `i++`, meaning `i = i + 1`.
 
-```
+```javascript
 for (var i = 0; i < 3; i++) {
   console.log("hey");
 }
@@ -91,7 +91,7 @@ for (var i = 0; i < 3; i++) {
 
 Carrying on with the example from the last video, instead of printing “hey”, with `console.log`, we can actually just `console.log` our variable. In this case, `i`:
 
-```
+```javascript
 for (var i = 0; i < 3; i++) {
   console.log(i);
 }
@@ -99,41 +99,41 @@ for (var i = 0; i < 3; i++) {
 
 Now our code will return the following:
 
-``` 
-0 
+```javascript
+0
 1
- 2
+2
 ```
 
 Next, let’s create a new array:
 
-``` 
-var testArray = ['item 1', 'item 2', 'item 3'] 
+```javascript
+var testArray = ['item 1', 'item 2', 'item 3']
 ```
 
 Remember, you can access specific items in an array using the square brackets:
 
 `testArray[0]`, for the first item, `testArray[1]` for the second, and so on. We can use this inside our `for` loop.
 
-``` 
-for (var i = 0; i < 3; i++) {   
+```javascript
+for (var i = 0; i < 3; i++) {  
   console.log(testArray[i]);
- } 
+}
 ```
 
 By console logging our `testArray` with `i` as the parameter, we can loop through the 3 items in the array:
 
-``` 
+```javascript
 item 1
- item 2
- item 3
+item 2
+item 3
 ```
 
 The problem now is that using 3 in our `for` loop condition will only return the first 3 items.
 
 It would be better to make the condition dynamic and return as many items as are in our array. We can do this with the `.length` property. `Length` will tell us how many items are in the array.
 
-```
+```javascript
 for (var i = 0; i < testArray.length; i++) {
   console.log(testArray[i]);
 }
@@ -145,11 +145,11 @@ For example, add a new item with `testArray.push('extra item');`. Then run the o
 
 However run the updated code with `testArray.length` instead of the value 3 and `length` will check the number of items then return those items.
 
-```
- item 1
- item 2
- item 3
- extra item
+```javascript
+item 1
+item 2
+item 3
+extra item
 ```
 
 Now, our code will work with `testArray` no matter how many items are in the array.
@@ -172,21 +172,21 @@ As we have to do some processing on each object in the array, we can use the `fo
 
 We can write the structure the `for` loop inside the `displayTodos` method, as we learnt before:
 
-```
-displayTodos: function() {   
-  console.log('My Todos', this.todos);   
-  for (initialization; condition; final-expression) { 
-  } 
+```javascript
+displayTodos: function() { 
+  console.log('My Todos', this.todos);  
+  for (initialization; condition; final-expression) {
+  }
 }
 ```
 
 This time, instead of using `testArray` which doesn’t make much sense now, we can use our `todos` array.
 
-```
-displayTodos: function() {   
-  console.log('My Todos', this.todos);   
-  for (var i = 0; i < this.todos.length; i++) { 
-  } 
+```javascript
+displayTodos: function() {
+  console.log('My Todos', this.todos);
+  for (var i = 0; i < this.todos.length; i++) {
+  }
 }
 ```
 
@@ -194,7 +194,7 @@ displayTodos: function() { 
 
 Say for example, `this.todos` has 3 items, in that case, the first time `i = 0`, the second `i = 1`, the third `i = 2`, then it will stop as `i` will equal 3 and the condition is no longer true. 3 is not less than 3 so the loop will end.
 
-```
+```javascript
 displayTodos: function() {
   console.log('My Todos', this.todos);
   for (var i = 0; i < this.todos.length; i++) {
@@ -210,7 +210,7 @@ We can use the values of `i` to access specific items in the array. Remember, wh
 
 We can use `i` as the value inside the brackets to loop through the items.
 
-```
+```javascript
 displayTodos: function() {
   console.log('My Todos', this.todos);
   for (var i = 0; i < this.todos.length; i++) {
@@ -229,7 +229,7 @@ In our app we want to access the `todoText` property, which we can do using dot 
 
 By putting our code inside a `console.log` statement, we can display the items on the console:
 
-```
+```javascript
 displayTodos: function() {
   console.log('My Todos', this.todos);
   for (var i = 0; i < this.todos.length; i++) {
@@ -241,12 +241,12 @@ displayTodos: function() {
   }
 }
 ```
- 
+
 Finally we can remove `this.todos` from the first `console.log` statement, as this prints out objects to the console, which isn’t particularly useful.
 
 Our final code (with comments removed) will look like this:
 
-```
+```javascript
 displayTodos: function() {
   console.log('My Todos:');
   for (var i = 0; i < this.todos.length; i++) {
@@ -261,10 +261,10 @@ Add `todoList.addTodo('first');`, then `todoList.addTodo('second');`
 
 This will return:
 
-``` 
-My Todos: 
-first 
-second 
+```
+My Todos:
+first
+second
 ```
 
 ## Step 2: displayTodos should tell you if .todos is empty
@@ -274,32 +274,32 @@ Next we want `displayTodos` to tell us if the todos array is empty.
 We can do this by adding some logic using an `if else` statement. This might work something like this:
 
 ```
- // if there are no todos   
-  // console.log('Your todo list is empty!'); 
-// else   
-  // print todos as normal 
+// if there are no todos
+  // console.log('Your todo list is empty!');
+// else 
+  // print todos as normal
 ```
 
 We can make this more specific:
 
 
 ```
- // if there are no todos 
-// if this.todos.length is equal to 0 
-  // console.log('Your todo list is empty!'); 
-// else   
-  // print todos as normal 
+// if there are no todos
+// if this.todos.length is equal to 0
+  // console.log('Your todo list is empty!');
+// else
+  // print todos as normal
 ```
 
 And more specific still:
 
 ```
-// if there are no todos 
-// if this.todos.length is equal to 0 
-// if this.todos.length === 0   
-  // console.log('Your todo list is empty!'); 
-// else   
-  // print todos as normal 
+// if there are no todos
+// if this.todos.length is equal to 0
+// if this.todos.length === 0  
+  // console.log('Your todo list is empty!');
+// else  
+  // print todos as normal
 ```
 
 Notice we’re using triple equals (`===`). This is the strictest form of comparison in Javascript. It’s the most consistent way of comparing values and the recommended way. You’ll sometimes see double equals (`==`) but it’s not that consistent so avoid using it for now.
@@ -308,55 +308,55 @@ Notice we’re using triple equals (`===`). This is the strictest form of compar
 
 We can use the `if` keyword and then test a condition:
 
-``` 
-if (condition) {   
-  // run code here if the statement is true 
-} 
+```javascript
+if (condition) {  
+  // run code here if the statement is true
+}
 ```
 
 For our purposes, that would look like this:
 
-``` 
-if (this.todos.length === 0) {   
+```javascript
+if (this.todos.length === 0) { 
   console.log('Your todo list is empty!');
-} 
+}
 ```
 
 Then we can add the `else` statement if the condition is `false`:
 
 
-``` 
-if (this.todos.length === 0) {   
+```javascript
+if (this.todos.length === 0) {  
   console.log('Your todo list is empty!');
-}  else {
-  // print todos as normal 
+} else {
+  // print todos as normal
 }
 ```
 
 For our `else` statement we can use the code we wrote in step 1:
 
-``` 
-if (this.todos.length === 0) {   
+```javascript
+if (this.todos.length === 0) { 
   console.log('Your todo list is empty!');
-}  else {
+} else {
   console.log('My Todos:');
-  for (var i = 0; i < this.todos.length; i++) { 
-    console.log(this.todos[i].todoText);   
-  }  
+  for (var i = 0; i < this.todos.length; i++) {
+    console.log(this.todos[i].todoText);  
+  }
 }
 ```
 
 So now our `displayTodos` method should look like this:
 
-``` 
- displayTodos : function() { 
-  if (this.todos.length === 0) {   
+```javascript
+displayTodos : function() {
+  if (this.todos.length === 0) {  
     console.log('Your todo list is empty!');
-  }  else {
+  } else {
     console.log('My Todos:');
-    for (var i = 0; i < this.todos.length; i++) { 
-      console.log(this.todos[i].todoText);   
-    }  
+    for (var i = 0; i < this.todos.length; i++) {
+      console.log(this.todos[i].todoText); 
+    }
   }
 }
 ```
@@ -369,8 +369,8 @@ Next, head to the console to test everything is working correctly.
 
 Try adding a new todo, `todoList.addTodo('an item')` will return:
 
-``` 
-My Todos: 
+```
+My Todos:
 an item
 ```
 
@@ -380,26 +380,26 @@ Next, delete the todo with `todoList.deleteTodo(0);` to return `Your todo list i
 
 By adding some logic to our program we can check to see if this case is `true`, then run some code, otherwise run this code. with can do this with an `if` statement. The `if` statement uses the keyword `if` followed by a condition.
 
-In our case, we’re using `if` to check to see if `this.todos.length` is equal to 0, which will be the case if there are no items in our todo list. If the case is true we will run the code `Your todo list is empty!`. 
+In our case, we’re using `if` to check to see if `this.todos.length` is equal to 0, which will be the case if there are no items in our todo list. If the case is true we will run the code `Your todo list is empty!`.
 If the length is not 0, we will print our todos as normal. We can achieve this with the `else` statement using the `for` loop we wrote in Step 1.
 
 ### More on if statements and else
 
 You can use `if` without else:
 
-```
+```javascript
 if (condition) {
-  // code that runs if condition is true 
+  // code that runs if condition is true
 }
 ```
 
 But with `else` it looks like this:
 
-```
+```javascript
 if (condition) {
-  // code that runs if condition is true 
-} else { 
-  // code that runs if condition is false 
+  // code that runs if condition is true
+} else {
+  // code that runs if condition is false
 }
 ```
 
@@ -421,13 +421,13 @@ Where a parentheses containing an x; `(x)` represents a complete todo item and a
 
 We can do this inside our `for` loop:
 
-```
+```javascript
 for (var i = 0; i < this.todos.length; i++) {
   console.log(this.todos[i].todoText);
-  // check if .completed is true        
-    // print with (x)     
-  // else        
-    // print with ( ) 
+  // check if .completed is true       
+    // print with (x)   
+  // else      
+    // print with ( )
 }
 ```
 
@@ -435,14 +435,14 @@ for (var i = 0; i < this.todos.length; i++) {
 
 We can translate our notes into JavaScript like this:
 
-``` 
-for (var i = 0; i < this.todos.length; i++) {       
-  console.log(this.todos[i].todoText);            
-  // check if .completed is true      
-  if (this.todos[i].completed === true) {        
-    // print with (x)     
-  } else {        
-    // print with ( )    
+```javascript
+for (var i = 0; i < this.todos.length; i++) {      
+  console.log(this.todos[i].todoText);     
+  // check if .completed is true     
+  if (this.todos[i].completed === true) {       
+    // print with (x)   
+  } else {       
+    // print with ( )  
   }
 } 
 ```
@@ -458,12 +458,12 @@ Then, we check the completed property, to see if it’s `true`. We can use the t
 Lastly we need to print out the todo text for the specific object, with an `(x)` if completed is `true` and `( )` when completed is `false`.
 
 
-```
+```javascript
 for (var i = 0; i < this.todos.length; i++) {
   if (this.todos[i].completed === true) {
-    console.log('(x)', this.todos[i].todoText); 
+    console.log('(x)', this.todos[i].todoText);
   } else {
-    console.log('( )', this.todos[i].todoText); 
+    console.log('( )', this.todos[i].todoText);
   }
 }
 ```
@@ -478,7 +478,7 @@ Now we can get rid of `console.log(this.todos[i].todotext)` at the top of the `f
 
 Now we can add a few todos.
 
-```
+```javascript
 todoList.addTodo('first');
 todoList.addTodo('second');
 todoList.addTodo('third');
@@ -489,7 +489,7 @@ You should see these print out with an empty parenthesises as none of them have 
 ```
 My Todos:
 ( ) first
- ( ) second 
+( ) second
 ( ) third
 ```
 
@@ -502,21 +502,21 @@ To toggle our second todo we can use:
 Which will return:
 
 ```
- My Todos: 
-( ) first 
-(x) second 
-( ) third 
+My Todos:
+( ) first
+(x) second
+( ) third
 ```
 
 We can toggle it again by repeating the same step.
 
 `todoList.toggleCompleted(1);` will now return:
 
-``` 
-My Todos: 
+```
+My Todos:
 ( ) first
- ( ) second 
-( ) third 
+( ) second
+( ) third
 ```
 
 ### Interesting observations

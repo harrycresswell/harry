@@ -34,7 +34,7 @@ Our first step is to work on a solution where if everything is `true` make every
 
 We want to do this in a new method called `toggleAll`.
 
-```
+```javascript
 toggleAll: function() {
   // If everything’s true, make everything false
 }
@@ -46,29 +46,29 @@ To make this happen we could use an `if` statement and count the the number of `
 
 If that returns `true`, we’d know we we’d met the first condition.
 
-```
- toggleAll: function() {   
-  // If everything’s true   
-  if (completedTodos === totalTodos) {     
-    // Make everything false   
+```javascript
+toggleAll: function() {
+  // If everything’s true  
+  if (completedTodos === totalTodos) {  
+    // Make everything false  
   }
- } 
+}
 ```
 
 ### Setting the required variables
 
 The problem now is that the variables `completedTodos` and `totalTodos` don’t exist yet, so we need to create those next.
 
-``` 
-toggleAll: function() {   
-  var totalTodos = this.todos.length;   
-  var completedTodos = 0;    
-  // If everything’s true   
-  if (completedTodos === totalTodos) {     
-    // Make everything false   
+```javascript
+toggleAll: function() {  
+  var totalTodos = this.todos.length;
+  var completedTodos = 0;
+  // If everything’s true
+  if (completedTodos === totalTodos) {   
+    // Make everything false  
   }
- }
- ```
+}
+```
 
 For our `totalTodos` variable, we can use `this.todos.length` to check the number of items in our todo list, so this works great.
 
@@ -78,19 +78,19 @@ For our `totalTodos` variable, we can use `this.todos.length` to check the numbe
 
 In the first part of our `for` loop we can use a variable  `i = 0` again as a counter. We want to keep going whilst `i` is less than the `totalTodos`, then increment `i`  by 1 using `i++`. This will loop through our todos.
 
-``` 
-toggleAll: function() {   
-  var totalTodos = this.todos.length;   
-  var completedTodos = 0;    
-  // Count number of completed todos   
-  for (var i = 0; i < totalTodos; i++ ) {    
+```javascript
+toggleAll: function() {
+  var totalTodos = this.todos.length;
+  var completedTodos = 0;  
+  // Count number of completed todos
+  for (var i = 0; i < totalTodos; i++ ) {
 
-  }   
-  // If everything’s true   
-  if (completedTodos === totalTodos) {     
-    // Make everything false   
+  }  
+  // If everything’s true 
+  if (completedTodos === totalTodos) {   
+    // Make everything false 
   }
- } 
+}
 ```
 
 ### Check if todo is completed, update completedTodos variable
@@ -99,22 +99,22 @@ Then we want to look at each todo item in our array. Using `if` we can check to 
 
 And then with `completedTodos++`, increment completedTodos by 1 if the statement is `true`.
 
-``` 
-toggleAll: function() {   
-  var totalTodos = this.todos.length;   
-  var completedTodos = 0;    
-  // Count number of completed todos   
-  for (var i = 0; i < totalTodos; i++ ) {     
-    if (this.todos[i].completed === true) {       
-      completedTodos++     
-    }   
-  }   
-  // If everything’s true   
-  if (completedTodos === totalTodos) {     
-    // Make everything false   
+```javascript
+toggleAll: function() {  
+  var totalTodos = this.todos.length;  
+  var completedTodos = 0; 
+  // Count number of completed todos  
+  for (var i = 0; i < totalTodos; i++ ) {    
+    if (this.todos[i].completed === true) {     
+      completedTodos++  
+    } 
+  }  
+  // If everything’s true 
+  if (completedTodos === totalTodos) {   
+    // Make everything false  
   }
- }
- ```
+}
+```
 
 This code will go through and return the number of todos that are completed, updating the value in our `completedTodos` variable with the number of completed todos.
 
@@ -124,24 +124,24 @@ To make everything `false` if all our todos are set to `true`, we can use the ex
 
 This time using `this.todos[i].completed = false;` to set all todos to `false`, if the number of `completedTodos` is equal to the number of `totalTodos`.
 
-```
- toggleAll: function() {   
-  var totalTodos = this.todos.length;   
-  var completedTodos = 0;    
-  // Count number of completed todos   
-  for (var i = 0; i < totalTodos; i++ ) {     
-    if (this.todos[i].completed === true) {       
-      completedTodos++     
-    }   
-  }   
-  // Case 1: If everything’s true, make everything false   
-  if (completedTodos === totalTodos) {     
-    for (var i = 0; i < totalTodos; i++) {       
-      this.todos[i].completed = false;     
-    }   
+```javascript
+toggleAll: function() { 
+  var totalTodos = this.todos.length;  
+  var completedTodos = 0; 
+  // Count number of completed todos  
+  for (var i = 0; i < totalTodos; i++ ) {    
+    if (this.todos[i].completed === true) {    
+      completedTodos++    
+    }  
+  }  
+  // Case 1: If everything’s true, make everything false  
+  if (completedTodos === totalTodos) {    
+    for (var i = 0; i < totalTodos; i++) {      
+      this.todos[i].completed = false;  
+    }  
   }
- }
- ```
+}
+```
 
 ### Understanding the code
 
@@ -153,33 +153,33 @@ In order to get the number of completedTodos in the first place, we use a `for` 
 
 Now we can test the code to see if it’s working correctly. In the console add 2 new todos.
 
+```javascript
+todoList.addTodo('first');
+todoList.addTodo('second');
 ```
- todoList.addTodo('first');
- todoList.addTodo('second');
- ```
 
 This will return:
 
-```
- My Todos: 
-( ) first 
-( ) second 
+```javascript
+My Todos:
+( ) first
+( ) second
 ```
 
 Now toggle those 2 todos to completed with `todoList.toggleCompleted(0);` and `todoList.toggleCompleted(1);` to return:
 
-```
- My Todos: 
+```javascript
+My Todos:
 (x) first
- (x) second
- ```
+(x) second
+```
 
 Finally, use `todoList.toggleAll();` to toggle both todos to `false`, in other words back to incompleted:
 
-``` 
+```javascript
 My Todos:
- ( ) first 
-( ) second 
+( ) first
+( ) second
 ```
 
 That wraps up the first requirement of our v.6.0 app.
@@ -190,29 +190,29 @@ The last requirement of version 6 is pretty simple as we’ve done most of the w
 
 A big tip here; if you ever find yourself saying “Otherwise”, it’s the perfect time to use an `else` statement.
 
-``` 
-toggleAll: function() {   
-  var totalTodos = this.todos.length;   
-  var completedTodos = 0;    
-  // Count number of completed todos   
-  for (var i = 0; i < totalTodos; i++ ) {     
-    if (this.todos[i].completed === true) {       
-      completedTodos++     
-    }   
-  }   
-  // Case 1: If everything’s true, make everything false   
-  if (completedTodos === totalTodos) {     
-    for (var i = 0; i < totalTodos; i++) {       
-      this.todos[i].completed = false;     
-    }   
-    // Case 2: Otherwise, make everything true   
-  } else {      
-    for (var i = 0; i < totalTodos; i++) {        
-      this.todos[i].completed = true;     
-    }   
+```javascript
+toggleAll: function() {  
+  var totalTodos = this.todos.length;  
+  var completedTodos = 0;  
+  // Count number of completed todos  
+  for (var i = 0; i < totalTodos; i++ ) {    
+    if (this.todos[i].completed === true) {      
+      completedTodos++   
+    } 
+  } 
+  // Case 1: If everything’s true, make everything false 
+  if (completedTodos === totalTodos) {    
+    for (var i = 0; i < totalTodos; i++) {      
+      this.todos[i].completed = false;   
+    }
+    // Case 2: Otherwise, make everything true
+  } else {    
+    for (var i = 0; i < totalTodos; i++) {      
+      this.todos[i].completed = true;   
+    } 
   }
- }
- ```
+}
+```
 
 You’ll notice our `else` statement is almost identical to our `if` statement, except in this case we’re making everything `true` instead of `false`.
 
@@ -222,44 +222,44 @@ First we use the `for` loop to count through the todos, and then `this.todos[i].
 
 As we did before, add some todo items:
 
+```javascript
+todoList.addTodo('first');
+todoList.addTodo('second');
 ```
- todoList.addTodo('first');
- todoList.addTodo('second');
- ```
 
 Then run `todoList.toggleAll();`. This should make everything `true`.
 
-```
- My Todos:
- (x) first 
+```javascript
+My Todos:
+(x) first
 (x) second
- ```
+```
 
 Run `todoList.toggleAll();` again and it should make everything `false`.
 
-```
- My Todos: 
-( ) first 
-( ) second 
+```javascript
+My Todos:
+( ) first
+( ) second
 ```
 
 Now test the final case, where some are `true` and some `false` to see if `toggleAll` sets all items to `true`.
 
 So use `todoList.toggleCompleted(0);` to toggle the first item to `true`.
 
-``` 
-My Todos: 
+```javascript
+My Todos:
 (x) first
- ( ) second
- ```
+( ) second
+```
 
 Now, run `todoList.toggleAll();` again to toggle all to `true`:
 
-``` 
+```javascript
 My Todos:
- (x) first
- (x) second
- ```
+(x) first
+(x) second
+```
 
 Great, our code is working as expected.
 
