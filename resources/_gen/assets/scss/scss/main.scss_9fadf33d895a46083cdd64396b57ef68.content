@@ -1652,34 +1652,34 @@ p.Cv-mainItemTitle {
   border-left: none;
   color: var(--color-dark);
   max-width: 400px; }
-  .PullQuote p {
+  .PullQuote > p {
     font-size: 120%;
-    margin-bottom: 0.75rem; }
+    margin-bottom: 0.75rem;
+    margin-left: 0rem; }
     @media screen and (min-width: 48em) {
-      .PullQuote p {
+      .PullQuote > p {
         margin-bottom: 0.8rem; } }
-  .PullQuote figcaption {
-    margin-left: 1.5rem; }
     @media screen and (min-width: 48em) {
-      .PullQuote figcaption {
-        margin-left: 1.6rem; } }
+      .PullQuote > p {
+        margin-left: 0rem; } }
+  .PullQuote > figcaption {
+    margin-left: 0rem; }
+    @media screen and (min-width: 48em) {
+      .PullQuote > figcaption {
+        margin-left: 0rem; } }
 
 /**
  * Component Modifier
  */
 .PullQuote--left {
   margin-top: 0rem;
-  margin-bottom: 0rem;
-  margin-left: 1.5rem; }
+  margin-bottom: 0rem; }
   @media screen and (min-width: 48em) {
     .PullQuote--left {
       margin-top: 0rem; } }
   @media screen and (min-width: 48em) {
     .PullQuote--left {
       margin-bottom: 0rem; } }
-  @media screen and (min-width: 48em) {
-    .PullQuote--left {
-      margin-left: 1.6rem; } }
   @media (min-width: 48em) {
     .PullQuote--left {
       margin-left: 0rem; } }

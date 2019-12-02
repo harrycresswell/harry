@@ -1,9 +1,11 @@
 <section class="Section Grid">
   <figure class="Grid-1-6 Grid-as-center">
-    <blockquote class="Quote Quote--left">
+    <blockquote class="PullQuote PullQuote--left">
+      <p>
       {{- with .Params.quote_text -}}
         {{ markdownify . }}
       {{- end -}}
+      </p>
       {{- with .Params.quote_caption -}}<figcaption>&mdash; {{ markdownify . }}</figcaption>{{- end -}}
     </blockquote>
   </figure>

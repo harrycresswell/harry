@@ -12,13 +12,14 @@
   color: var(--color-dark);
   max-width: 400px;
 
-  p {
+  > p {
     font-size: 120%;
     @include margin-bottom(0.5);
+    @include margin-left(0);
   }
 
-  figcaption {
-    @include margin-left(1);
+  > figcaption {
+    @include margin-left(0);
   }
 }
 
@@ -29,11 +30,11 @@
 .PullQuote--left {
   @include margin-top(0);
   @include margin-bottom(0);
-  @include margin-left(1);
 
   @include breakpoint(md) {
     @include margin-left(0);
   }
+
 }
 
 .PullQuote--right {

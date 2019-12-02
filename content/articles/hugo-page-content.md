@@ -12,7 +12,7 @@ Say for example I wanted to add the title and content from a page called “How 
 
 First I’d need to create a page called how it works.
 
-```Bash
+```
 $ hugo new page/how-it-works.md
 ```
 
