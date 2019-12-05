@@ -1,9 +1,9 @@
 ---
-title: "Syntax Highlighting in Hugo with Chroma"
+title: "Performant syntax highlighting in Hugo"
 date: 2019-12-02T12:56:26Z
 draft: false
 description: "The quickest and most performant way to set up syntax highlighting in Hugo."
-slug: "syntax-highlighting-in-hugo-with-chroma"
+slug: "performant-syntax-highlighting-in-hugo"
 tags: ["Hugo"]
 syndicate: "false"
 ---
