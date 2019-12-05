@@ -1,5 +1,5 @@
 ---
-title: "Static Site Form Handling with Netlify"
+title: "Static site form handling with Netlify"
 date: 2018-04-05T09:49:36+02:00
 tags: ["Hugo", "API"]
 slug: "forms-with-netlify"
