@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partial "header.html" . .Section  }}
 
     <main id="main" class="Container">
     
@@ -8,4 +8,4 @@
 
     {{ partial "newsletter.html" . }}
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer.html" . }}
