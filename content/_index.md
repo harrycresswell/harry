@@ -18,4 +18,4 @@ You can find out [what I'm up to right now](/now/) or read about some of the way
 
 I’m currently working on a [projects](/projects/) page, to case study some of my work, but it’s taking a while. In the meantime check out a few [things I’ve made](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. 
 
-Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionaly I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
+Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionally I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
