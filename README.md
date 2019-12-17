@@ -77,3 +77,8 @@ Follow the same steps for notes and projects.
 Write your **Sass** inside `./assets/scss`. 
 
 With the server running (`npm start`) Hugo will watch your Sass for changes, then pipe them to `./public/css/main.css` and reload the browser.
+
+
+### Site structure
+
+The main structure of the site live is `./themes/hc-starter`, so this is where you will need to go to change layouts, partials, shorcodes and taxonomies.
