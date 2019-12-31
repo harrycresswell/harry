@@ -15,7 +15,7 @@ With 2019 almost over, it’s time to reflect on what have been another busy 12 
 - What didn’t go so well this year?
 - What did I learn this year?
 
-If you’ve ever read Atomic Habits by James Clear, then these questions should sound familiar. 
+If you’ve ever read Atomic Habits by James Clear, then these questions will sound familiar. 
 
 By reflecting on these questions I hope to better understand where I need to focus my time and energy in the year ahead. Life moves fast and I find time and time again that slowing down is the best way to stay ahead.
 
