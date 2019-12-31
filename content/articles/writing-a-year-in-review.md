@@ -2,7 +2,7 @@
 title: "A Year in Review"
 date: 2018-12-30T12:25:59Z
 draft: false
-description: "Why write a review your year and how do you go about writing one? Here are the reasons why I choose to start writing one."
+description: "Why write a review of your year and how do you go about writing one? Here are the reasons why I decided to start writing one and the format I follow."
 slug: "year-in-review"
 tags: ["Year in Review"]
 syndicate: "false"
@@ -14,18 +14,18 @@ This is very much my own take to what has become an annual practice for many and
 
 ## Why I write a review of my year
 
-I was drawn to the idea of writing an annual review after reading Atomic Habits by James Clear and James’s writing at [jameclear.com](https://jamesclear.com/).
+I was drawn to the idea of writing an annual review after reading Atomic Habits by James Clear, in which he proposes that habits are the compound interest of self-improvement and that success is the product of good daily habits. In other words, the effects of your habits multiple as you repeat them.
 
 James writes; “Improvement is not just about learning new habits, it’s also about fine-tuning them. Reflection and review ensures that you spend your time on the right things and make course corrections whenever necessary.“
 
-It very much boils down to these things:
+You could boil this down to the following:
 
-- Build good habits
+- Build good daily habits
 - Reflect to identify what’s working and what isn’t
-- Fine-tune, re-focus, drop ineffective habits
-- Improve and become the person you wish to become
+- Where necessary; fine-tune, re-focus, drop ineffective habits
+- Improve and become the person you wish to be
 
-Reflection gives you a better sense of perspective, makes you more self-aware and helps you identify areas in need of improvement. It helps you reframe your identity and become better at whatever it is you choose to do.
+With reflection we get a better sense of perspective, we become more self-aware and identify areas in need of improvement. It helps you reframe your identity and become better at whatever it is you choose to do.
 
 ## How I write a review of my year
 
@@ -45,6 +45,6 @@ Finally, by asking “What did I learn this year?” I remind myself that I’m 
 
 ## Final words
 
-Whatever you choose to call it, writing a year in review is a helpful exercise in reflection. Reflection can bring a sense of perspective and writing a review each year can help you identify whether you are becoming the person you wish to become.
+Whatever you choose to call it, taking the time to reflect on your achievements by writing a year in review is a helpful exercise that helps you learn more about yourself and make necessary improvements. Reflection can bring a sense of perspective and writing a review each year can help you identify whether you are becoming the person you wish to be.
 
 For more on this check out my [year in review archive](https://harrycresswell.com/tags/year-in-review/) and pick up a copy of [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) if you haven’t read it already. It’s an important book full of helpful insights.
