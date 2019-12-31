@@ -6,7 +6,7 @@ description: "With 2019 almost over, it’s time to reflect on what have been an
 slug: "2019-review"
 tags: ["Year in Review"]
 syndicate: "false"
-feature: "https://res.cloudinary.com/harrycresswell/image/upload/v1577804619/hc/2019-in-review.png"
+feature: "https://res.cloudinary.com/harrycresswell/image/upload/v1577808208/hc/2019-in-review.png"
 ---
 
 With 2019 almost over, it’s time to reflect on what have been another busy 12 months. This is a chance to take note of my successes and failures and pinpoint potential areas for improvement. I’ll do so by asking three simple questions: 
