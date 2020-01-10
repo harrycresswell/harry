@@ -10,7 +10,7 @@ syndicate: "false"
 
 No unrealistic goals for this year. Instead, all I want to do is outline the things I’m keen to focus regular time and energy on in 2020. I’ve also chosen a set of principles which I plan to use on a daily basis, to help guide my behaviour throughout the year.
 
-I’m sure not all this will work out, and I’m ok with that. This exercise is about finding clarity in how I wish to spend my time. It’s a rough plan of action that provides myself with a sense of direction. And ensures I make some progress towards positive long-term results.
+I’m sure not all this will work out, and I’m ok with that. This exercise is about finding clarity in how I wish to spend my time. It’s a rough plan of action that provides myself with a sense of direction, and ensures I make some progress towards positive long-term results.
 
 To kick things off, here are the areas I’ll focus on.
 
@@ -30,7 +30,7 @@ We worked hard on the evolution of [In Detail](https://indtl.com/) last year. Th
 - Client acquisition
 - Marketing funnel
 
-We plan to work on internal tooling to improve the efficiency of our process. And spend time working on our inbound marketing strategy. I’m excited to see what else is in store for In Detail this year.
+We plan to work on internal tooling to improve the efficiency of our process and spend time working on our inbound marketing strategy. I’m excited to see what else is in store for In Detail this year.
 
 ## Learning
 
@@ -64,7 +64,7 @@ I also have a few on my non-design related list:
 - 12 Rules for Life by Jordan B. Peterson
 - Future Ethics by Cennydd Bowles
 
-I’d like to read more non-fiction, it’s something I’m not very good at. I promised Rebekka I’ll give Harry Potter a shot (in German) a while back, so it’s time I fulfilled that promise.
+I’d like to read more non-fiction, it’s something I’m not very good at. I promised Rebekka I’ll give Harry Potter a shot (in German) a while back, so it’s time to fulfill that promise.
 
 ## Writing
 
@@ -93,22 +93,20 @@ I’d like to pick up where I left off with the spreadsheet that accompanies the
 In 2019 I managed to stick to a regular weekly routine of running, meditation and yoga. I plan to keep this up in 2020, with the addition of a few new plans:
 
 - Climb more
-- Get better at batching meal prep
+- Get better at batch meal prep
 - Increase my headstand practice to 2min/day
-- Fermentation (I started making my own Sauerkraut last year, which is good fun and much cheaper)
+- Fermentation (I started making my own Sauerkraut last year, which is good fun and much cheaper than buying it)
 - Find a new meditation app (I’ve used Headspace for years so it’s time for a change). Right now I’m trying out Waking Up by Sam Harris and Insight Timer.
 
 ## Travel
 
 I’m going for 4 countries this year. That’s two on top of the usual (UK and Germany), which will include France and I expect one other (?).
 
-Rebekka and I have a few summer road trip ideas. Either driving the van down to the Alps or possible to Slovenia, Denmark or Sweden. We’re still undecided.
+Rebekka and I have a few summer road trip ideas. We’re thinking of driving the van either down to the Alps or possibly to Slovenia, Denmark or Sweden. We’re still undecided.
 
 ## Networking
 
-I’d like to make more of an effort to meet up with other designers and developers this year. I’ll start reaching out to people more and find an interesting Meetup to join.
-
-I’d also like to go to an industry conference. I’ve not done much of this in the past, so need to change this.
+I’d like to make more of an effort to meet up with other designers and developers this year. Finding an interesting Meetup to join is a top priority. I’d also like to make it to an industry conference. I’ve not done much of this in the past, so need to work on this.
 
 ## Side projects
 
@@ -118,33 +116,33 @@ A few of the projects I’m interested in pursuing this year are:
 
 ### Type Design
 
-It’s time to evolve Type Services in a new direction, a rebrand and new website might well happen.
+It’s time to evolve Type Services in a new direction to better reflect my current interests in typography.
 
-Most important of all, this year I want to create at least one new typeface. Something simple like a geometric monospaced font could be a good place to start. I’ll stick to Latin letters for now, but I’d like to build something systematic, which I can expand in the future.
+This year I’d like to create at least one new typeface. Something simple like a geometric monospaced font could be a good place to start. I’ll stick to Latin letters for now, but I’d like to build something systematic, which I can expand in the future.
 
 Something else I’m keen to look into more is variable fonts. I haven’t found much out there in the way of learning material, but I’m up for the challenge.
 
+I expect this will include rebranding the project and building a new website.
+
 ### Generative Art
 
-[Matt](https://soundcloud.com/dark-sky) and I had a few discussions about generative art towards the end of last year.
+[Matt](https://soundcloud.com/dark-sky) and I had a few discussions about generative art towards the end of last year. We talked about making graphics that connect with the music he creates, in the literal sense. Coding graphics that interface with music is something that interests me a lot.
 
-We talked about making graphics that connect with the music he creates, in the literal sense. Coding graphics that interface with music is something that interests me a lot.
-
-I’ve been playing around with P5.js following videos from [Daniel Shiffman](https://www.youtube.com/thecodingtrain/), who I discover through [Dan Eden](https://daneden.me/2016/11/02/drawing-with-numbers/). Dan’s videos are a great introduction to processing and I’m keen to see how this evolves.
+Lately I’ve been playing around with [P5.js](https://p5js.org/), following videos from [Daniel Shiffman](https://www.youtube.com/thecodingtrain/), who I discover through [Dan Eden](https://daneden.me/2016/11/02/drawing-with-numbers/). Daniel’s videos are a great introduction to processing and I’m keen to see how this evolves.
 
 ### Moodboard
 
-I used to create personal mood boards to spot themes in my interests. I’ve not been doing this so much lately and I’d like to get back into it. A while back I set up a [mood board](https://mood.harrycresswell.com/) but have since let it fall by the wayside. It’s time to pick this up again and start posting ideas.
+I used to create personal mood boards to spot themes in my interests. I’ve not been doing this so much lately and I’d like to get back into it. A while back I set up a [mood board](https://mood.harrycresswell.com/) but have since let it fall by the wayside. It’s time to pick this up again and start posting some ideas.
 
 ### Music
 
-If time permits I’d like to get back into making some music this year. It’s been over 10 years since I made anything. I dug out a few old tracks towards the end of last year which reminded me how much fun it is to play around with sound.
+If time permits I’d like to get back into making some music. It’s been over 10 years since I made anything notable. I dug out a few old tracks towards the end of last year which reminded me how much fun it is to play around with sound.
 
 ### Other ideas
 
-- Course creation. This is something I will be considering more in 2020. Particularly when I find myself wanting to write long articles. I’ll ask myself whether I can make a series of articles and whether it would make sense as a course.
+- Course creation. This is something I will be considering more in 2020. Particularly when I find myself tempted to write long articles. I’ll ask myself whether I can make a series of articles or whether it would make sense to create a course.
 - Aggregation sites. I have a few spreadsheets collating tools, open-source fonts, and UX resources. I figured it could be helpful to build these out into searchable websites.
-- Printmaking. I used to screen print and I have to say I miss it a lot. Mono printing might be a simple alternative that I could do at home, without a studio.
+- Printmaking. I used to screen print and I have to say I miss it a lot. Mono printing might be a simple alternative that I could do at home without needing a studio.
 
 ## Principles for 2020
 
@@ -162,15 +160,17 @@ Avoid complexity when it makes sense to do so. This could mean any number of thi
 - subtract not add
 - simplify
 
-Through simplification, we remove things standing in the way of progression. By simplifying we find clarity in our thoughts. Focusing on less can reduce cognitive load and lead to an increase in productivity.
+Through simplification we remove things standing in the way of progression. By simplifying we find clarity in our thoughts. Focusing on less can reduce cognitive load and lead to an increase in productivity.
 
-This year I’ll ask myself: “What constraints are preventing you from getting X done?” To be clear, do not confuse these with design constraints, which can have the opposite effect.
+A few question I’ve been asking myself a lot lately; “What constraints are preventing you from getting X done?” and “What can you remove to make things easier?”
+
+To be clear, constraints of this type shouldn’t be confused with design constraints, which often have the opposite effect.
 
 [Occam’s Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) is a useful mental model to apply to this way of thinking. To paraphrase; “the simplest solution is more likely to be the correct than the complicated one”.
 
 ### Be Consistent
 
-Consistency comes up for a second year running. Ironic maybe, but important nonetheless. Generally speaking, the more consistent I am with commitments, the more I seem to create good habits. With time, good habits result in improvement.
+Consistency comes up for a second year running. Ironic maybe, but important nonetheless. Generally speaking, the more consistent I am with commitments, the more I seem to create good habits. With time, good habits result in positive improvement.
 
 I continue to remind myself each day that “consistency is key”.
 
@@ -186,4 +186,4 @@ This was a rough outline of how I wish to spend my time in 2020, and the princip
 
 I decided against setting any fixed outcome goals this year. Strict weekly, monthly or even quarterly planning seems to stress me out. Instead, I’ll follow whatever course my energy chooses to take me and keep these affirmations at the front of my mind.
 
-This means I can be flexible with my commitments as things change throughout the year. Providing I put in regular time and effort working on a few of these things, I’ll make good progress in the right direction.
+This way I remain flexible with my commitments, as things change throughout the year. Providing I put regular time and effort into a few of these things, I’ll make good progress in the right direction.
