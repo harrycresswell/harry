@@ -1,9 +1,9 @@
 ---
-title: "2020"
+title: "Intentions for 2020"
 date: 2020-01-10T11:16:15Z
 draft: false
 description: "No unrealistic goals for this year. Instead, all I want to do is outline the things I’m keen to focus regular time and energy on in 2020."
-slug: "2020"
+slug: "intentions-2020"
 tags: ["Process"]
 syndicate: "false"
 ---
