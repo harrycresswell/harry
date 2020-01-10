@@ -177,7 +177,7 @@ Assuming you’ve imported your site to Forestry, you will need to update your w
 
 One final thing to note, if you find yourself setting up a Front Matter Template in Forestry, and use the ‘Image/File Upload’ field, you might need to override the public path for front matter fields, to get your images working. You can do this in the Advanced Media Settings under ‘Front Matter Path’. Depending on how you’ve set things up in your layout templates you might want to include any transformations in the URL you provide.
 
-For more on Foretry head over to the [Forestry Docs](https://forestry.io/docs/media/cloudinary/) for more on getting started.
+For more on Forestry head over to the [Forestry Docs](https://forestry.io/docs/media/cloudinary/) for more on getting started.
 
 ## Wrapping up
 
