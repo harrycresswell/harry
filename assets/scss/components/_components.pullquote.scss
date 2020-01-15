@@ -10,15 +10,15 @@
 .PullQuote {
   border-left: none;
   color: var(--color-dark);
-  max-width: 400px;
+  max-width: 430px;
 
-  > p {
-    font-size: 120%;
+  >p {
+    font-size: 110%;
     @include margin-bottom(0.5);
     @include margin-left(0);
   }
 
-  > figcaption {
+  >figcaption {
     @include margin-left(0);
   }
 }
