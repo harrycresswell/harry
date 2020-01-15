@@ -62,6 +62,11 @@ enableEmoji = true
   url = "/notes/"
   weight = 15
 
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
 [[menu.footer]]
   name = "Projects"
   url = "/projects/"
@@ -74,5 +79,10 @@ enableEmoji = true
 
 [[menu.footer]]
   name = "Notes"
-  url = "/notes"
+  url = "/notes/"
   weight = 15
+
+[[menu.footer]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20

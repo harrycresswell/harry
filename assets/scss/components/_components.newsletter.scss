@@ -19,7 +19,7 @@
 }
 
 .NewsletterForm-field {
-  &:nth-child( even ) {
+  &:nth-child(even) {
     @include margin-bottom(1);
   }
 }
@@ -37,7 +37,7 @@
     flex: 1;
     align-self: flex-end;
 
-    &:nth-child( even ) {
+    &:nth-child(even) {
       @include margin-bottom(0);
     }
 
