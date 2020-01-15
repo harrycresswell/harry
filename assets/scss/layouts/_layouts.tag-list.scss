@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    #LAYOUTS: TAG-LIST
+\*------------------------------------*/
+
+
+/**
+ * Component Block
+ */
+
+@include breakpoint(md) {
+  .TagList {
+    column-count: 2;
+    column-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+@include breakpoint(lg) {
+  .TagList {
+    column-count: 3;
+  }
+}
+
+.TagListItem {
+  margin: 0 0 16px 0;
+}
+
+
+.TagListItem-title {
+  margin: 0;
+}
+
+// .TagListItem {
+//   border: 1px dotted var(--color-link);
+//   padding: 32px;
+// }

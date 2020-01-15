@@ -1061,6 +1061,29 @@ video {
       font-size: 100%; } }
 
 /*------------------------------------*\
+    #LAYOUTS: TAG-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+@media (min-width: 48em) {
+  .TagList {
+    column-count: 2;
+    column-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px; } }
+
+@media (min-width: 75em) {
+  .TagList {
+    column-count: 3; } }
+
+.TagListItem {
+  margin: 0 0 16px 0; }
+
+.TagListItem-title {
+  margin: 0; }
+
+/*------------------------------------*\
     #LAYOUTS: PROJECT
 \*------------------------------------*/
 /**
