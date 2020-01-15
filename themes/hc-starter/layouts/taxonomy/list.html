@@ -1,19 +1,17 @@
 {{ define "main" }}
-<section>
   <header class="PostHeader">
     <h1 class="PostHeader-title">Tags</h1>
   </header>
 
-  <ul class="PostList">
+  <section class="PostList">
   {{ $data := .Data }}
   {{ range $key, $value := .Data.Terms.Alphabetical }}
-  <li class="">
-    <h3 style="margin: 8px;">
-      <a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a>
-      {{ $value.Count }}
-    </h3>
-  </li>
+    <article>
+      <h3 style="margin: 16px 0;">
+        <a class="u-url" href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a>
+        {{ $value.Count }}
+      </h3>
+    </article>
   {{ end }}
-  </ul>
-</section>
+  </section>
 {{ end }}

@@ -1,12 +1,10 @@
 {{ define "main" }}
-
-<article>
   <header class="PostHeader">
     <h1 class="PostHeader-title">All Posts</h1>
   </header>
-  <ul class="PostList">
+  <section class="PostList">
   {{ range .Pages }}
-    <li class="PostListItem">
+    <article class="PostListItem">
       <h3 class="PostListItem-title">
         <!-- If external link exists in post matter, else show post page-->
         {{ if isset .Params "affiliatelink" }}
@@ -16,9 +14,7 @@
         {{ end }}
       </h3>
       <p>{{ .Description }}</p>
-    </li>
+    </article>
   {{ end }}
-  </ul>
-</article>
-
+  </section>
 {{ end }}

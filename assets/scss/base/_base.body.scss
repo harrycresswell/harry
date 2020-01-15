@@ -4,7 +4,7 @@
 // Set fulid type on the root
 html {
 	@include fluid-type($min_width, $max_width, $min_font, $max_font);
-	font-feature-settings: "calt","liga","hist","onum","pnum";
+	font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
 	background-color: var(--color-link);
 }
 
@@ -16,8 +16,8 @@ body {
 	line-height: $baseline;
 	font-style: normal;
 	min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
 }
 
 p {

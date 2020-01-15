@@ -4,9 +4,9 @@
     <h1 class="PostHeader-title">Projects</h1>
     <h2 class="u-visually-hidden">A collection of recent project case studies</h2>
   </header>
-  <ul class="PostList">
+  <section class="PostList">
   {{ range .Data.Pages }}
-    <li class="PostListItem h-entry">
+    <article class="PostListItem h-entry">
       <h3 class="PostListItem-title p-name">
         <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
       </h3>
@@ -14,8 +14,8 @@
       <div hidden>
         <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
       </div>
-    </li>
+    </article>
   {{ end }}
-  </ul>
+  </section>
 
 {{ end }}

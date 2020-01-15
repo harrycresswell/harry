@@ -1,11 +1,10 @@
 {{ define "main" }}
-<section>
   <header class="PostHeader">
     <h1 class="PostHeader-title"><span class="u-visually-hidden">Posts tagged with</span>“{{ .Title }}”</h1>
   </header>
-  <ul class="PostList">
+  <section class="PostList">
   {{ range .Data.Pages }}
-    <li class="PostListItem">
+    <article class="PostListItem">
       <h3 class="PostListItem-title">
         <!-- If external link exists in post matter, else show post page-->
         {{ if isset .Params "affiliatelink" }}
@@ -19,8 +18,7 @@
         {{ partial "post/tags.html" . }}
       </div>
       <p>{{ .Description }}</p>
-    </li>
+    </article>
   {{ end }}
-  </ul>
-</section>
+  </section>
 {{ end }}

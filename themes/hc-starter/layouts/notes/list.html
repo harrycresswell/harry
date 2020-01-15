@@ -1,21 +1,19 @@
 {{ define "main" }}
-<section>
   <header class="PostHeader">
     <h1 class="PostHeader-title">Notes</h1>
     <h2 class="u-visually-hidden">Notes on interesting things I’m learning from courses, books, talks and articles on the internet.</h2>
   </header>
-  <ul class="PostList">
+  <section class="PostList">
     {{ range .Data.Pages }}
-      <li class="PostListItem h-entry">
+      <article class="PostListItem h-entry">
         <h3 class="PostListItem-title p-name"><a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a></h3>
         <div class="PostListItem-meta">
-            <time class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
-            {{ partial "post/tags.html" . }}
-          </div>
+          <time class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+          {{ partial "post/tags.html" . }}
+        </div>
           <p>{{ .Description }}</p>
-      <li>
+      <article>
     {{ end }}
-  </ul>
-</section>
+  </section>
 
 {{ end }}

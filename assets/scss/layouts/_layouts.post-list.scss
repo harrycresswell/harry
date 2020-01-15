@@ -7,9 +7,7 @@
  * Component Block
  */
 
-.PostList {
-  list-style: none;
-}
+//.PostList {}
 
 .PostListItem {
   @include margin-bottom(3);
@@ -27,37 +25,36 @@
 /**
  * Component Element
  */
- .PostListItem-title span {
-   color: var(--color-dark);
-   font-size: 70%;
-   margin-left: 10px;
- }
+.PostListItem-title span {
+  color: var(--color-dark);
+  font-size: 70%;
+  margin-left: 10px;
+}
 
- .PostListItem-title {
-    line-height: 1.2;
-    @include margin-top(0);
-    @include margin-bottom(0.5);
-    max-width: 960px;
+.PostListItem-title {
+  line-height: 1.2;
+  @include margin-top(0);
+  @include margin-bottom(0.5);
+  max-width: 960px;
 
-   a {
-     color: var(--color-dark);
-     text-decoration: none;
-   }
+  a {
+    color: var(--color-dark);
+    text-decoration: none;
+  }
 
-   a:hover {
-     background-color: unset;
-     text-decoration: underline;
-   }
- }
+  a:hover {
+    background-color: unset;
+    text-decoration: underline;
+  }
+}
 
- .PostListItem-meta {
+.PostListItem-meta {
   display: flex;
   font-size: 80%;
   max-width: 1200px;
-  margin: 0 auto;
   @include margin-bottom(0.5);
 
   @include breakpoint(md) {
     font-size: 100%;
   }
- }
+}

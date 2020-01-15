@@ -108,7 +108,7 @@ figure {
     #BASE: BODY
 \*------------------------------------*/
 html {
-  font-feature-settings: "calt","liga","hist","onum","pnum";
+  font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
   background-color: var(--color-link); }
   html {
     font-size: 15px; }
@@ -1009,9 +1009,6 @@ video {
 /**
  * Component Block
  */
-.PostList {
-  list-style: none; }
-
 .PostListItem {
   margin-bottom: 4.5rem; }
   @media screen and (min-width: 48em) {
@@ -1055,7 +1052,6 @@ video {
   display: flex;
   font-size: 80%;
   max-width: 1200px;
-  margin: 0 auto;
   margin-bottom: 0.75rem; }
   @media screen and (min-width: 48em) {
     .PostListItem-meta {

@@ -5,15 +5,15 @@
           <h1 class="PostHeader-title p-name">{{ .Title }}</h1>
       </header>
 
-      <div class="PostMeta">
+      <section class="PostMeta">
         <time class="PostMeta-date dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
         {{ partial "post/tags.html" . }}
-      </div>
+      </section>
 
-      <div class="PostBody e-content">
+      <section class="PostBody e-content">
         {{ partial "heading-anchor.html" .Content }}
         {{ partialCached "post/author.html" . }}
-      </div>
+      </section>
 
   </article><!--/.Content -->
 {{ end }}
