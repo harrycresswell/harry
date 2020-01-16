@@ -1672,9 +1672,9 @@ p.Cv-mainItemTitle {
 .PullQuote {
   border-left: none;
   color: var(--color-dark);
-  max-width: 400px; }
+  max-width: 430px; }
   .PullQuote > p {
-    font-size: 120%;
+    font-size: 110%;
     margin-bottom: 0.75rem;
     margin-left: 0rem; }
     @media screen and (min-width: 48em) {
