@@ -16,6 +16,12 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ if eq $isHomePage false }}{{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    <!-- if featured image exists in markdown file, use for open graph data -->
+    {{ if isset .Params "feature" }}
+    <meta property="og:image" content="{{ .Params.feature }}">
+    {{ else }}
+    <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
+    {{ end }}
     <!-- Pinterest Verification -->
     <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
     <!-- Google Verification -->
@@ -31,12 +37,6 @@
     <!-- IndieCert -->
     <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
     <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />
-    <!-- if featured image exists in markdown file, use for open graph data -->
-    {{ if isset .Params "feature" }}
-    <meta property="og:image" content="{{ .Params.feature }}">
-    {{ else }}
-    <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
-    {{ end }}
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ .Permalink }}">
