@@ -15,7 +15,7 @@ A boolean value is either `true` or `false`. Like a light switch it’s either o
 
 Booleans are used for logic, such as if statements. They can be calculated or manually set.
 
-```
+```javascript
 let isDrawing = false;
 ```
 
@@ -23,7 +23,7 @@ In this case we have a manually set flag variable which might describe the users
 
 We can also calculate booleans:
 
-```
+```javascript
 // set the age
 let age = 18;
 // age is greater than 19
@@ -36,7 +36,7 @@ console.log(ofAge);
 
 We use one equal sign operator (=) to set a variable.
 
-```
+```javascript
 const age = 100;
 ```
 
@@ -47,25 +47,25 @@ Double equals (==) checks the value of the left and right are the same. However 
 
 Take this example. Both left and right values equal 10, however even though the left value is of type string and the right is a number it still returns `true`.
 
-```
-'10' == 10
-true
+```javascript
+"10" == 10;
+true;
 ```
 
 In contrast, triple equals (===) will always check that both the value _and_ the type of the left and right equal the same
 
 The example below returns `true` as the value of the left and right is 10. And both data types are the same. In this case they are both numbers.
 
-```
-10 === 10
-true
+```javascript
+10 === 10;
+true;
 ```
 
 Next take the following example:
 
-```
-'10' === 10
-false
+```javascript
+"10" === 10;
+false;
 ```
 
 Here the values are the same, but the types differ. The left is a string and the right is a number. So `false` is returned.
