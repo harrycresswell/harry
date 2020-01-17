@@ -6,9 +6,10 @@ description: "There are two ways to express nothing in JavaScript; null and unde
 slug: "js-data-types-null-undefined"
 tags: ["Coursenotes", "JavaScript"]
 syndicate: "false"
+feature: "https://res.cloudinary.com/harrycresswell/image/upload/v1579251062/hc/null-undefined.png"
 ---
 
-_These notes are taken from [Beginner JavaScript](https://beginnerjavascript.com/) by Wes Bos_
+_These notes are taken from [Beginner JavaScript](https://beginnerjavascript.com/) by Wes Bos. Go buy it!_
 
 There are two ways to express nothing in JavaScript; `null` and `undefined`. But how do they differ?
 
