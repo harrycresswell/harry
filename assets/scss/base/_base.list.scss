@@ -2,8 +2,9 @@
     #BASE: LISTS
 \*------------------------------------*/
 
-ul, ol {
-  color: var(--color-dark);
+ul,
+ol {
+  color: var(--color-body);
   list-style-position: inside;
   max-width: 675px;
   padding-left: 0;
@@ -13,8 +14,8 @@ ul, ol {
   }
 }
 
-ul + p,
-ol + p {
+ul+p,
+ol+p {
   @include margin-top(1);
 }
 
@@ -22,5 +23,3 @@ ul[class],
 ol[class] {
   list-style: none;
 }
-
-
