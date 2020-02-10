@@ -10,22 +10,28 @@
 //.Post {}
 
 .PostHeader-title {
-  max-width: 960px;
+  max-width: 18ch;
 }
 
 .PostMeta {
   display: flex;
-  max-width: 1248px; 
+  max-width: 1248px;
   margin: 0 auto;
   @include margin-bottom(1);
 }
 
 .PostBody {
-@include margin-top(2);
-max-width: 1248px; 
-margin: 0 auto;
+  @include margin-top(2);
+  max-width: 1248px;
+  margin: 0 auto;
 
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: 30ch;
+    line-height: 1.2;
     position: relative;
     @include margin-top(1.5);
     @include margin-bottom(0.5);
@@ -56,7 +62,7 @@ margin: 0 auto;
   }
 
   a:not(:last-child):after {
-    content:',';
+    content: ',';
   }
 
 }
@@ -75,7 +81,8 @@ margin: 0 auto;
   }
 }
 
-.Post .intro, .intro {
+.Post .intro,
+.intro {
   font-size: 100%;
   line-height: 1.5;
   @include margin-bottom(1);
@@ -89,7 +96,7 @@ margin: 0 auto;
 .PostAuthor {
   display: flex;
   @include margin-top(2);
-  
+
   h4 {
     margin: 0;
   }
@@ -114,12 +121,12 @@ margin: 0 auto;
   }
 }
 
-.Post h2:focus > .heading-anchor, 
-.Post h2:hover > .heading-anchor, 
-.Post h3:focus > .heading-anchor, 
-.Post h3:hover > .heading-anchor, 
-.Post h4:focus > .heading-anchor, 
-.Post h4:hover > .heading-anchor {
+.Post h2:focus>.heading-anchor,
+.Post h2:hover>.heading-anchor,
+.Post h3:focus>.heading-anchor,
+.Post h3:hover>.heading-anchor,
+.Post h4:focus>.heading-anchor,
+.Post h4:hover>.heading-anchor {
   opacity: 1;
 }
 

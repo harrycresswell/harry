@@ -35,7 +35,7 @@
   line-height: 1.2;
   @include margin-top(0);
   @include margin-bottom(0.5);
-  max-width: 960px;
+  max-width: 30ch;
 
   a {
     color: var(--color-dark);
