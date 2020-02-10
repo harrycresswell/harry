@@ -292,13 +292,15 @@ a {
 /*------------------------------------*\
     #BASE: LISTS
 \*------------------------------------*/
-ul, ol {
-  color: var(--color-dark);
+ul,
+ol {
+  color: var(--color-body);
   list-style-position: inside;
   max-width: 675px;
   padding-left: 0; }
   @media (min-width: 48em) {
-    ul, ol {
+    ul,
+    ol {
       list-style-position: outside; } }
 
 ul + p,
@@ -891,7 +893,7 @@ video {
  * Component Block
  */
 .PostHeader-title {
-  max-width: 960px; }
+  max-width: 18ch; }
 
 .PostMeta {
   display: flex;
@@ -909,15 +911,29 @@ video {
   @media screen and (min-width: 48em) {
     .PostBody {
       margin-top: 3.2rem; } }
-  .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+  .PostBody h2,
+  .PostBody h3,
+  .PostBody h4,
+  .PostBody h5,
+  .PostBody h6 {
+    max-width: 30ch;
+    line-height: 1.2;
     position: relative;
     margin-top: 2.25rem;
     margin-bottom: 0.75rem; }
     @media screen and (min-width: 48em) {
-      .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+      .PostBody h2,
+      .PostBody h3,
+      .PostBody h4,
+      .PostBody h5,
+      .PostBody h6 {
         margin-top: 2.4rem; } }
     @media screen and (min-width: 48em) {
-      .PostBody h2, .PostBody h3, .PostBody h4, .PostBody h5, .PostBody h6 {
+      .PostBody h2,
+      .PostBody h3,
+      .PostBody h4,
+      .PostBody h5,
+      .PostBody h6 {
         margin-bottom: 0.8rem; } }
   .PostBody p {
     margin-bottom: 1.2rem; }
@@ -949,15 +965,18 @@ video {
   .Post p.Message a:hover {
     text-decoration: none; }
 
-.Post .intro, .intro {
+.Post .intro,
+.intro {
   font-size: 100%;
   line-height: 1.5;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
-    .Post .intro, .intro {
+    .Post .intro,
+    .intro {
       margin-bottom: 1.6rem; } }
   @media (min-width: 48em) {
-    .Post .intro, .intro {
+    .Post .intro,
+    .intro {
       font-size: 125%;
       line-height: 1.5; } }
 
@@ -1034,7 +1053,7 @@ video {
   line-height: 1.2;
   margin-top: 0rem;
   margin-bottom: 0.75rem;
-  max-width: 960px; }
+  max-width: 30ch; }
   @media screen and (min-width: 48em) {
     .PostListItem-title {
       margin-top: 0rem; } }
