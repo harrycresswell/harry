@@ -65,7 +65,7 @@ function makeTurkeySandwich(filling){
 The `filling` variable is whats know as a **Parameter**.
 
 ```javascript
-makeSandwichWith('ham');
+makeSandwichWith("ham");
 ```
 
 When using the function the variable is what’s known as an **Argument**.
@@ -81,16 +81,15 @@ In this project we want to do the following:
 
 Our functions will simplify complex tasks; turning a list of instructions into one simple command.
 
-
 ## Step 1: Display Todos
 
 In the console:
 
 ```javascript
-var todos = ['item1', 'item2', 'item3']
+var todos = ["item1", "item2", "item3"];
 
 function displayTodos() {
-  console.logo('My Todos:', todos);
+  console.log("My Todos:", todos);
 }
 ```
 
@@ -100,7 +99,7 @@ Then hit enter. Now the function is ready to use.
 To display todos call the function with:
 
 ```javascript
-displayTodos()
+displayTodos();
 ```
 
 The function will now display:
@@ -115,7 +114,7 @@ To add new todos to the Array of todos, first create a new function called `addT
 
 ```javascript
 function addTodo() {
-  todos.push('new todo');
+  todos.push("new todo");
 }
 ```
 
@@ -124,7 +123,7 @@ function addTodo() {
 This will add `new todo` to the array of todos. To see the updated Array use the `displayTodos` function:
 
 ```javascript
-displayTodos()
+displayTodos();
 ```
 
 Hit enter and you should see:
@@ -141,7 +140,7 @@ Press the up arrow a few times to pull up the addTodo function. At the end of th
 
 ```javascript
 function addTodo() {
-  todos.push('new todo');
+  todos.push("new todo");
   displayTodos();
 }
 ```
@@ -162,7 +161,7 @@ function addTodo(todo) {
 Now when we run the function we need to parse an argument.
 
 ```javascript
-addTodo('hello there')
+addTodo("hello there");
 ```
 
 Hit enter and you should see:
@@ -187,7 +186,7 @@ If we used the method from [Version 1], our function might look something like:
 
 ```javascript
 function changeTodo() {
-  todos[0] = 'some new value';
+  todos[0] = "some new value";
 }
 ```
 
@@ -250,7 +249,7 @@ To recap, we wrote a change todo function which takes 2 parameters, `position` a
 As before, create a new function to delete todos:
 
 ```javascript
-function deleteTodo(){
+function deleteTodo() {
   // statement goes here
 }
 ```
@@ -258,7 +257,7 @@ function deleteTodo(){
 Using the `splice` method/command from [Version 1] we can set the ‘position’ and the ‘number of items’ we want to delete.
 
 ```javascript
-function deleteTodo(){
+function deleteTodo() {
   todos.splice(0, 1);
 }
 ```
@@ -266,7 +265,7 @@ function deleteTodo(){
 Again, to make this flexible we can use custom parameters like we did last time:
 
 ```javascript
-function deleteTodo(position){
+function deleteTodo(position) {
   todos.splice(position, 1);
   displayTodos();
 }
@@ -277,7 +276,7 @@ Remember to add the `displayTodos` function so we can see what’s happened.
 Now run the function and delete the first item from the item Array:
 
 ```javascript
-deleteTodo(0)
+deleteTodo(0);
 ```
 
 You should now see:
@@ -310,7 +309,7 @@ What we’ve learnt so far:
 First we created our Todos Array so we have some data to work with:
 
 ```javascript
-var todos = ['item 1', 'item 2', 'item 3'];
+var todos = ["item 1", "item 2", "item 3"];
 ```
 
 Then we created a function to _display todos_:
@@ -318,7 +317,7 @@ Then we created a function to _display todos_:
 ```javascript
 // It should have a function to display todos
 function displayTodos() {
-  console.log('My Todos:', todos);
+  console.log("My Todos:", todos);
 }
 ```
 
@@ -334,7 +333,7 @@ function addTodos(todo) {
 }
 ```
 
-This way we can write `addTodo('new todo')` to create a new todo called ‘new todo’. Adding the `displayTodos `function allows us to see our changes.
+This way we can write `addTodo('new todo')` to create a new todo called ‘new todo’. Adding the `displayTodos`function allows us to see our changes.
 
 From here we crated a _change todo_ function, to allow us to make changes to existing todos in the Array. this function took 2 parameters, for position and value:
 
