@@ -6,29 +6,28 @@ slug = "now"
 url = "now"
 +++
 
-I‘m currently in London. This is how I’m spending my time right now.
+I’m in Hamburg. I was meant to be on my way back to London, but my flight got cancelled due to the storms. This is how I’m spending my time right now.
 
 ### Currently Reading
 
-- [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear (for a second time)
-- [Meditations](https://www.goodreads.com/book/show/30659.Meditations) by Marcus Aurelius
+- [Company for One](https://www.goodreads.com/book/show/37570605-company-of-one) by Paul Jarvis
+- [Wild Fermentation](https://www.goodreads.com/book/show/109800.Wild_Fermentation?ac=1&from_search=true&qid=lMMKTFuhua&rank=1) by Sandor Ellix Katz
 - [Pro Git](https://www.goodreads.com/book/show/6518085-pro-git) by Scott Chacon
 - [Don’t make me think](https://www.goodreads.com/book/show/41009404-dont-make-me-think) by Steve Krug
 
 ### Current Projects
 
-- We’re working on [a few new update](https://harrycr.es/2Z6HF7l) to [indtl.com](https://indtl.com/) which will launch very soon.
-- I’m in the process of building [SeedTribe v.3.0](https://harrycr.es/2IjtyVF). We’re using [Sanity.io](https://www.sanity.io/) for the CMS. It’s what they call ’headless’, meaning you can query the data in the form of a JSON API from any front-end you choose. We went with [GatsbyJS](https://www.gatsbyjs.org/) for this and we use [GraphQL](https://graphql.org/) to query the the data.
-- I recently built [a jobs board](https://jobs.angelinvestmentnetwork.co.uk/) to test out a new workflow. This is my first crack at building a React app and working with CSS-in-JS. It’s built with [GatsbyJS](https://www.gatsbyjs.org/), [Styled Components](https://www.styled-components.com/), [Styled System](https://styled-system.com/) and [Forestry](https://forestry.io/) for a Git based CMS.
+- We just launched [a shiny new look for In Detail](https://indtl.com/)
+- I’m helping my friend Oli set up his new website [opm.london](https://opm.london/)
+- Working
 
 ### Currently Studying
 
 - [Beginner JavaScript](https://beginnerjavascript.com/) by Wes Bos
 - ReactJS, GatsbyJS and GraphQL
-- [Styled System](https://styled-system.com/), a collection of utility functions that add style props to your React components
 - [Sanity.io](https://www.sanity.io/), an API based CMS
 - German. This might be on here a while
 
-**Last Updated:** January 13, 2020.
+**Last Updated:** February 10, 2020.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
