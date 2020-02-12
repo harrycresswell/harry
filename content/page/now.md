@@ -18,8 +18,8 @@ I’m in Hamburg. I was meant to be on my way back to London, but my flight got 
 ### Current Projects
 
 - We just launched [a shiny new look for In Detail](https://indtl.com/)
-- I’m helping my friend Oli set up his new website [opm.london](https://opm.london/)
-- Working
+- [Ed](https://twitter.com/Ed_Stephens_1) and I are working on [AIN Jobs](https://www.jobs.angelinvestmentnetwork.co.uk/), a simple Gatsby powered jobsboard which uses Netlify Forms, Zapier, Airtable and Mailchimp to process data
+- Oli and I are working on a simple Hugo and Forestry powered website for his new business [opm.london](https://opm.london/)
 
 ### Currently Studying
 
@@ -28,6 +28,6 @@ I’m in Hamburg. I was meant to be on my way back to London, but my flight got 
 - [Sanity.io](https://www.sanity.io/), an API based CMS
 - German. This might be on here a while
 
-**Last Updated:** February 10, 2020.
+**Last Updated:** February 12, 2020.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
