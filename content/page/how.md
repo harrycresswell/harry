@@ -3,7 +3,7 @@ title: "Work with me."
 date: 2018-03-27T20:36:08+01:00
 description: "This page will give you a clearer picture of how I work and whether I’m the right fit for your next project"
 slug: "how"
-url: "/how/"
+url: "work-with-me"
 ---
 
 {{< intro >}}This page will give you a clear idea of ways we can work together and if I’m the right fit for your next project.{{< /intro >}}
@@ -18,12 +18,11 @@ My work takes place in the grey area between user experience design, user interf
 
 I can help you conduct research to develop an understanding of your customers needs, develop wireframes and prototypes to test and validate possible solutions, and build and launch a working product. Through usability testing and iteration I can help you fine tune the product to make improvements.
 
-	
 ## How I work
 
 I believe product design is about solving real problems for real people. So research, understanding, communication and collaboration are vital to a projects sucess.
 
-I use recognised UX strategies and Lean development practices to keep the process as dynamic and fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we find the right solution.  
+I use recognised UX strategies and Lean development practices to keep the process as dynamic and fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we find the right solution.
 
 For larger project I often collaborate with [Luke Harvey](https://lukeharvey.co.uk/). Over the years Luke and I have worked on many successful projects, for a number of well established clients. Recently we helped launched an online presence and eCommerce platform for British cycling brand [Albion](https://www.albioncycling.com/). We continue to work together on a regular basis as part of the [In Detail](https://indtl.com/) team.
 

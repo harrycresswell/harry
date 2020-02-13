@@ -13,7 +13,7 @@ Currently I live between London and Hamburg, where I work with a handful of clie
 
 ## Where to go next
 
-You can find out [what I'm up to right now](/now/) or read about some of the ways you can [work with me](/how/). Alternatively, take a look at [my CV](pdf/harry-cresswell-cv-feb-20.pdf) to get an idea of my experience.
+You can find out [what I'm up to right now](/now/) or read about some of the ways you can [work with me](/work-with-me/). Alternatively, take a look at [my CV](pdf/harry-cresswell-cv-feb-20.pdf) to get an idea of my experience.
 
 I’m currently working on a [projects](/projects/) page, to case study some of my work, but it’s taking a while. In the meantime check out a few [things I’ve made](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used.
 
