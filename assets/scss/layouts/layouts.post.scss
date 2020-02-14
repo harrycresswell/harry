@@ -95,9 +95,11 @@
 
 .PostAuthor {
   display: flex;
+  align-items: center;
   @include margin-top(2);
 
-  h4 {
+  h4,
+  p {
     margin: 0;
   }
 
