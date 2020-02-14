@@ -1,5 +1,5 @@
 +++
-title = "Things I’ve made."
+title = "Things I’ve made"
 date = "2019-02-20T22:30:25Z"
 description = "Things on the internet made by Harry Cresswell"
 draft = "false"

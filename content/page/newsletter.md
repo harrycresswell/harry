@@ -1,5 +1,5 @@
 +++
-title = "Newsletter."
+title = "Newsletter"
 date = "2016-10-24T17:23:17+01:00"
 description = "Bran–tactics is a brief, weekly newsletter for creative types which may well improve your skills and enhance your brain capacity."
 slug = "newsletter"
@@ -12,7 +12,7 @@ url = "newsletter"
 
 Expect to find anything related to designing and building things for the web. Topics range from design and web development to typography, writing, process and productivity.
 
-Recently I’ve included interesting things on:  
+Recently I’ve included interesting things on:
 
 - HTML and CSS fundamentals
 - Building component libraries
@@ -22,14 +22,13 @@ Recently I’ve included interesting things on:
 - Variable fonts and open source typography
 - Creating generative artwork with code
 
-
 ## What’s the format?
 
 Each week I usually begin with a few updates from me, followed by one or two thought provoking reads – maybe an article or a quote from a book I’m reading.
 
 These may at first seem unrelated to design and development but dig a little deeper and you should find helpful lessons to apply to your work. In my view reading around a subject is one of the best things we can do to improve.
 
-For the main part you’ll find links on design and code as you might expect and also a section reserved for links about typography. 
+For the main part you’ll find links on design and code as you might expect and also a section reserved for links about typography.
 
 Oliver Reichenstein once said; “[Web design is 95% typography](https://ia.net/topics/the-web-is-all-about-typography-period), so it’s only logical to say that a web designer should get good training in the main discipline of shaping written information.“
 

@@ -1,5 +1,5 @@
 ---
-title: "Awesome."
+title: "Awesome"
 date: 2018-03-12T21:14:42Z
 description: "Thanks for sending me a message"
 url: "/success/"
