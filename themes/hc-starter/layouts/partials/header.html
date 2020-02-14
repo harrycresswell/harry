@@ -19,7 +19,7 @@
     <!-- if featured image exists in markdown file, use for open graph data -->
     {{ if isset .Params "feature" }}
     <meta property="og:image" content="{{ .Params.feature }}">
-    {{ else }}
+    {{ else if ne .Section "articles" }}
     <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
     {{ end }}
     <!-- Pinterest Verification -->
