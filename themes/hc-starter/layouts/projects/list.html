@@ -1,21 +1,21 @@
 {{ define "main" }}
 
-  <header class="PostHeader">
-    <h1 class="PostHeader-title">Projects</h1>
-    <h2 class="u-visually-hidden">A collection of recent project case studies</h2>
-  </header>
-  <section class="PostList">
+<header class="PostHeader">
+  <h1 class="PostHeader-title">Projects</h1>
+  <h2 class="u-visually-hidden">A collection of recent project case studies</h2>
+</header>
+<section class="PostList">
   {{ range .Data.Pages }}
-    <article class="PostListItem h-entry">
-      <h3 class="PostListItem-title p-name">
-        <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
-      </h3>
-      <p class="PostDescription">{{ .Description }}</p>
-      <div hidden>
-        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
-      </div>
-    </article>
+  <article class="PostListItem h-entry">
+    <h3 class="PostListItem-title p-name">
+      <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
+    </h3>
+    <p class="PostDescription">{{ .Description | markdownify }}</p>
+    <div hidden>
+      <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+    </div>
+  </article>
   {{ end }}
-  </section>
+</section>
 
 {{ end }}

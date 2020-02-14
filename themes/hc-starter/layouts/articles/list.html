@@ -22,7 +22,7 @@
       <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
       {{ partial "post/tags.html" . }}
     </div>
-    <p>{{ .Description }}</p>
+    <p>{{ .Description | markdownify }}</p>
   </article>
   {{ end }}
 </section>
