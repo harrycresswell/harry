@@ -1,7 +1,7 @@
 ---
 title: "Design & Code"
 date: "2016-10-24T17:23:17+01:00"
-description: "Hey, I’m Harry Cresswell, a freelance front-end web developer and UX/UI designer from London, England."
+description: "Harry Cresswell is a professional Front-end web developer from London, England. Read technical articles and notes on design and code."
 draft: false
 ---
 
