@@ -12,14 +12,17 @@
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{.}}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
     <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
+    {{ $isHomePage := eq .Title .Site.Title }}
+    <meta property="og:description" content="{{ if eq $isHomePage false }}{{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    <meta property="og:site_name" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}">
-    <meta property="og:description" content="{{ if eq $isHomePage false }}{{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
-    <!-- if featured image exists in markdown file, use for open graph data -->
+    <!-- if featured image exists in file frontmatter, use for open graph data -->
     {{ if isset .Params "feature" }}
     <meta property="og:image" content="{{ .Params.feature }}">
-    {{ else if ne .Section "articles" }}
+    <!-- else if no image in frontmatter, and sections are not equal to articles or notes, then display image --> 
+    {{ else if and (ne .Section "articles") (ne .Section "notes") }}
     <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
     {{ end }}
     <!-- Pinterest Verification -->
@@ -42,6 +45,7 @@
     <meta property="twitter:url" content="{{ .Permalink }}">
     <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ if eq $isHomePage false }} {{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    <link rel="canonical" href="{{ .Permalink }}">
     <!-- Styles -->
     {{ if .Site.IsServer }}
       <!-- Pipe Sass to CSS, include options, enable sourcemaps -->
