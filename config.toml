@@ -12,8 +12,8 @@ pygmentsCodeFences = true
 
 [params]
   keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
-  description = "Harry Cresswell is a professional Front-end web developer from London, England. Read technical articles and notes on design and code."
-  strapline = "Front-end web developer and UX/UI designer from London, England."
+  description = "Harry Cresswell is a professional front-end web developer from London, England. Read technical articles and notes on designing and coding websites."
+  strapline = "Front-end web developer and UX/UI designer"
   location = "London, UK"
   
   # Set Cloudinary URL for image hosting
