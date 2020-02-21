@@ -11,8 +11,9 @@
     <!-- Load JS files independently -->
     {{ $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" }}
     {{ $lazysizes := resources.Get "js/lazysizes.js" }}
+    {{ $likes := resources.Get "js/likes.js" }}
     <!-- Concat JS and generate app.js, force cache refresh -->
-    {{ $scripts := slice $cloudinary $lazysizes | resources.Concat "app.js" | minify | fingerprint }}
+    {{ $scripts := slice $cloudinary $lazysizes $likes | resources.Concat "app.js" | minify | fingerprint }}
     <!-- Load app.js and authenticate of hashed file -->
     <script type="text/javascript" src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>
 

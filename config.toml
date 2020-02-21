@@ -67,6 +67,11 @@ enableEmoji = true
   url = "/tags/"
   weight = 20
 
+[[menu.main]]
+  name = "Likes"
+  url = "/likes/"
+  weight = 25
+
 [[menu.footer]]
   name = "Projects"
   url = "/projects/"
@@ -86,3 +91,8 @@ enableEmoji = true
   name = "Tags"
   url = "/tags/"
   weight = 20
+
+[[menu.footer]]
+  name = "Likes"
+  url = "/likes/"
+  weight = 25
