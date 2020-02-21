@@ -71,7 +71,7 @@
     {{ end -}}
 	</head>
 	<body class="Wrapper h-card">
-
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="Header">
     <div class="Title">
       <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
@@ -81,7 +81,7 @@
           <a href="mailto:studio@harrycresswell.com" rel="me" class="u-email">studio@harrycresswell.com</a>
       </div>
     </div>
-    <nav class="Nav">
+    <nav class="Nav" aria-label="Main Navigation">
       <ul class="Nav-list">
        {{ $currentPage := . }}
         {{ range .Site.Menus.main }}

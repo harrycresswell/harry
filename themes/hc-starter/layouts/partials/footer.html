@@ -1,5 +1,5 @@
-  <footer class="Footer">
-    <nav class="FooterNav">
+  <footer class="Footer" role="contentinfo">
+    <nav class="FooterNav" aria-label="Footer Navigation">
         {{ $currentPage := . }}
         {{ range .Site.Menus.footer }}
         <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
