@@ -1,5 +1,5 @@
 ---
-title: "Hugo SEO – Unique, Accurate Page Titles"
+title: "Hugo SEO: Unique, Accurate Page Titles"
 date: 2018-11-02T10:32:26+01:00
 slug: "hugo-seo-accurate-page-titles"
 description: "Unique, descriptive page titles lead to higher rankings by helping search engines better understand the content on your site."
@@ -43,6 +43,7 @@ A better solution would be to use the conditional `if` statement and reach for t
   <title>{{ .Title }} – {{ .Site.Title }}</title>
 {{- end }}
 ```
+
 The difference here is that `{{ .Site.Title }}` is only used if the current page is the homepage.
 
 For every other page, we use the page title specified in the page front matter, which should almost always be unique and therefore good for SEO.
@@ -50,7 +51,9 @@ For every other page, we use the page title specified in the page front matter, 
 For an alternative solution try:
 
 ```html
-<title>{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}</title>
+<title>
+  {{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ .Site.Title }}
+</title>
 ```
 
 This should be fairly self explanatory and produces the same results, in an arguably cleaner single line of code.
@@ -67,6 +70,7 @@ title: "Hugo SEO: Unique, Accurate page titles"
 description: "Get an SEO boost on your website pages with descriptive page titles which make search engines happy"
 author: "Harry Cresswell"
 ---
+
 ```
 
 Then call the `Parmeter` in a meta tag in your `<head>`:
