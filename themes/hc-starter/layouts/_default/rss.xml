@@ -12,10 +12,6 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    <author>
-      <name>{{.Site.Author.name}}</name>
-      <email>{{.Site.Author.email}}</email>
-    </author>
     {{ range .Pages }}
       {{ if isset .Params "affiliatelink" }}
       {{ else }}
