@@ -1,8 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <author>{{.Site.Author.name}}</author>
-    <title>{{ .Site.Title }} – {{ with .Title }}{{.}}{{ end }}</title>
+    <title>{{ .Site.Title }} - {{ with .Title }}{{.}}{{ end }}</title>
     <link>{{ .Permalink }}</link>
+    <author>
+      <name>{{.Site.Author.name}}</name>
+      <email>{{.Site.Author.email}}</email>
+    </author>
     <description>{{ .Site.Title }}{{ if ne  .Title  .Site.Title }}{{ with .Title }} – {{.}}{{ end }}{{ end }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -17,11 +20,9 @@
       {{ if isset .Params "affiliatelink" }}
       {{ else }}
       <item>
-        <author>{{.Site.Author.name}}</author>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-        {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Content | html }}</description>
       </item>
