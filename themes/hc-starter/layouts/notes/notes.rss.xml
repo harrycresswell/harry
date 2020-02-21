@@ -2,10 +2,6 @@
   <channel>
     <title>{{ .Site.Title }} – {{ with .Title }}{{.}}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <author>
-      <name>{{.Site.Author.name}}</name>
-      <email>{{.Site.Author.email}}</email>
-    </author>
     <description>{{ .Site.Title }}{{ if ne  .Title  .Site.Title }}{{ with .Title }} – {{.}}{{ end }}{{ end }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -16,6 +12,10 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
+    <author>
+      <name>{{.Site.Author.name}}</name>
+      <email>{{.Site.Author.email}}</email>
+    </author>
     {{ range .Pages }}
     <item>
       <title>{{ .Title }}</title>
