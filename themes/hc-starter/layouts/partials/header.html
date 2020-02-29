@@ -13,8 +13,7 @@
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
-    {{ $isHomePage := eq .Title .Site.Title }}
-    <meta property="og:description" content="{{ if eq $isHomePage false }}{{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    <meta property="og:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
     <meta property="og:site_name" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
