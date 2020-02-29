@@ -149,15 +149,21 @@ Most of the improvements I made this year – particularly in my health, my news
 
 ### The power of inversion
 
-[Inversion](https://fs.blog/2013/10/inversion/) is a powerful mental model which I’ve begun using more consciously. The idea is you turn a problem on its head, start with the desired outcome and work backwards to find the solution. It’s a great way to remove obstacles which may be standing in the way and avoid obvious stupid mistakes. Often it starts with the simple question – ”what is my goal?” Then, consider the question - “what is preventing me from achieving this goal?”. Thinking about what you want to avoid can be more effective at making progress than simply asking asking yourself – “what can I do to solve this problem?”
+[Inversion](https://fs.blog/2013/10/inversion/) is a powerful mental model which I’ve begun using more consciously. The idea is you turn a problem on its head, start with the desired outcome and work backwards to find the solution.
+
+This is a great way to remove obstacles which may be standing in the way, and avoid obvious stupid mistakes. Often it starts with the simple question – ”what is my goal?” Then, consider the question - “what is preventing me from achieving this goal?”.
+
+Thinking about what you want to avoid can be more effective for making progress than simply asking asking yourself – “what can I do to solve this problem?”
 
 ### You are what you eat
 
 It’s been a long time since my body has felt as good as it has this year. I’ve spent a lot of time on my health and my diet and I’ve finally started to master what I need to put into my body and how to look after it properly.
 
-For me, much of this is based on the gut. IBS has plagued me for years, but since discovering the power of fermented foods by reading [Gut](https://www.goodreads.com/book/show/23013953-gut?from_search=true&qid=mVZRHNHpBT&rank=5) and [Cultured Food for Health](https://www.goodreads.com/book/show/24886264-cultured-food-for-health?ac=1&from_search=true&qid=FT9nTVtfqm&rank=2) I’ve started to get a hold of these issue.
+For me, much of this is based on the gut. IBS has plagued me for years, but since discovering the power of fermented foods, by reading [Gut](https://www.goodreads.com/book/show/23013953-gut?from_search=true&qid=mVZRHNHpBT&rank=5) and [Cultured Food for Health](https://www.goodreads.com/book/show/24886264-cultured-food-for-health?ac=1&from_search=true&qid=FT9nTVtfqm&rank=2), I’ve started to get a hold of these issue.
 
-The 3 K’s (as I like to call them) – Kimchi, Kombucha and Kefir – have been a real game changer. And whilst this might not work for everyone they’ve certainly helped me. I only wish I’d discovered this stuff sooner. In 2020 I’d like to spend more time learning about fermentation and giving it a go myself.
+The 3 K’s (as I like to call them) – Kimchi, Kombucha and Kefir – have been a real game changer. And whilst this might not work for everyone they’ve certainly helped me. I only wish I’d discovered this stuff sooner.
+
+In 2020 I’d like to spend more time learning about fermentation and giving it a go myself.
 
 ## 2019 in numbers
 
