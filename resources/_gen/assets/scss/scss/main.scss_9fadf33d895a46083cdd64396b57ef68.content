@@ -939,10 +939,13 @@ video {
       .PostBody h6 {
         margin-bottom: 0.8rem; } }
   .PostBody p {
+    max-width: 60ch;
     margin-bottom: 1.2rem; }
     @media screen and (min-width: 48em) {
       .PostBody p {
         margin-bottom: 1.28rem; } }
+  .PostBody .intro {
+    max-width: 48ch; }
 
 /**
  * Component Element

@@ -38,8 +38,13 @@
   }
 
   p {
+    max-width: 60ch;
     @include margin-bottom(0.8);
 
+  }
+
+  .intro {
+    max-width: 48ch;
   }
 
 }
