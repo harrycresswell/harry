@@ -133,7 +133,7 @@ template = "iframe-full"
 [[blocks]]
 heading = "Prototyping"
 subheading = ""
-content = "<p>I designed a hi-fidelity prototype, to share with the team for further feedback and testing. InVision (now Figma) proved an effective way to streamline feedback and communication between the team.</p><p>I carried out a user testing exercise with a closed group of volunteers to gather unbiased feedback and observe how visitors would interact with the product. Based on this research I made final adjustments and began to finalise the designs.</p><p><a href='https://www.figma.com/proto/Pdqg7pCEvLRD0Bxypj71AYaT/Albion-Cycling-2019?node-id=0%3A37&viewport=296%2C282%2C0.31877458095550537&scaling=min-zoom' target='_blank' rel='noopener noreferer'>View Clickable Prototype ↗</a>"
+content = "<p>I designed a hi-fidelity prototype, to share with the team for further feedback and testing. InVision (now Figma) proved an effective way to streamline feedback and communication between the team.</p><p>I carried out a user testing exercise with a closed group of volunteers to gather unbiased feedback and observe how visitors would interact with the product. Based on this research I made final adjustments and began to finalise the designs.</p><p><a href='https://www.figma.com/proto/Pdqg7pCEvLRD0Bxypj71AYaT/Albion-Cycling-2019?node-id=0%3A37&viewport=296%2C282%2C0.31877458095550537&scaling=min-zoom' target='_blank' rel='noopener noreferer'>View Figma Prototype ↗</a>"
 template = "body-copy"
 [[blocks]]
 iframe_url = "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPdqg7pCEvLRD0Bxypj71AYaT%2FAlbion-Cycling-2019%3Fnode-id%3D0%253A1"
