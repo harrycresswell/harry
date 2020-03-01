@@ -11,6 +11,12 @@
   @include margin-bottom(3);
 }
 
+.Project-description {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  font-weight: $font-weight-regular;
+  letter-spacing: unset;
+}
+
 @include breakpoint(md) {
   .Project-description {
     @include margin-top(1);
