@@ -26,6 +26,6 @@ I like this pragmatic approach to problemn solving. It reminds me that it’s no
 
 To quote [Charlie Munger](https://fs.blog/2013/10/inversion/); “..many hard problems are best solved when they are addressed backward.” It reminds me of [the power of inversion](/articles/2019-review/#the-power-of-inversion).
 
-### Source
+## Source
 
 - [How I think about solving problems](https://humanwhocodes.com/blog/2020/02/how-i-think-about-solving-problems/) by Nicholas C. Zakas

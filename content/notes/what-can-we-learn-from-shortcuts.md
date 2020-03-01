@@ -1,7 +1,7 @@
 +++
 title = "What can we learn from shortcuts?"
 date = 2018-04-27T23:25:36+01:00
-tags = ["Productivity"]
+tags = ["Productivity", "Talknotes"]
 description = "People are resourceful, they will always find the low friction routes, to save money and time. Design for a real need at low friction."
 syndicate = "false"
 +++
