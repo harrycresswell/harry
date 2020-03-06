@@ -14,6 +14,7 @@ a {
     text-decoration: none;
   }
 
+  &:active,
   &:focus {
     outline: 1px dotted;
     outline-offset: 4px;

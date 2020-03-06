@@ -280,7 +280,7 @@ a {
     color: var(--color-white);
     background-color: var(--color-link);
     text-decoration: none; }
-  a:focus {
+  a:active, a:focus {
     outline: 1px dotted;
     outline-offset: 4px; }
   a:visited {
