@@ -5,6 +5,7 @@ draft: false
 description: "This is a collection of articles I’ve starred on Feedbin, my go-to RSS reader. Feedbin creates an RSS feed for these articles, which you can fetch and parse as text using JavaScript."
 slug: "likes"
 syndicate: "false"
+type: "likes"
 ---
 
 This page collects my starred articles in <a href="https://feedbin.com/" target="_blank" rel="noopener">Feedbin</a>. I stole the idea from [Robin](https://www.robinrendle.com/notes/rss-favorites), who learn’t about it from [Dave](https://daverupert.com/likes/), who was inspired by [this post from Chris](https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/).
