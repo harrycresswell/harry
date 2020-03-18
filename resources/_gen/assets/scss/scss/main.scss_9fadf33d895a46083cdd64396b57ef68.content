@@ -1299,7 +1299,7 @@ video {
   .Form-select:focus,
   .Form-select:active {
     border: 2px solid var(--color-link);
-    outline: 4px solid #e4deff;
+    outline: #d9ddff solid 3px;
     outline-offset: 0;
     transition: all .2s; }
 

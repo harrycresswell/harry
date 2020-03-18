@@ -6,15 +6,15 @@
  * Component Block
  */
 
- .Form {
+.Form {
   @include margin-bottom(1);
- }
+}
 
- ::placeholder {
-   color: var(--color-lighter);
- }
+::placeholder {
+  color: var(--color-lighter);
+}
 
- /**
+/**
   * Component Element
   */
 
@@ -32,29 +32,29 @@
   -webkit-appearance: none;
   width: 100%;
 
-    &:focus,
-    &:active {
-      border: 2px solid var(--color-link);
-      outline: 4px solid lighten($color-link, 35%);
-      outline-offset: 0;
-      transition: all .2s;
-    }
+  &:focus,
+  &:active {
+    border: 2px solid var(--color-link);
+    outline: rgb(217, 221, 255) solid 3px;
+    outline-offset: 0;
+    transition: all .2s;
+  }
 
 }
 
 .Form-select {
 
-    &:after {
-      color: var(--color-dark);
-      content: '▾';
-      display: block;
-      height: 14px;
-      position: absolute;
-      right: 24px;
-      top: 16px;
-      width: 14px;
+  &:after {
+    color: var(--color-dark);
+    content: '▾';
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 24px;
+    top: 16px;
+    width: 14px;
 
-   }
+  }
 }
 
 .Form-textarea {
