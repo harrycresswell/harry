@@ -1,5 +1,5 @@
 +++
-tags = ["Hugo", "JavaScript", "API",]
+tags = ["Hugo", "JavaScript", "API", "Automation"]
 title = "Send form data to an inbox using Zapier"
 date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"
@@ -37,18 +37,17 @@ Zapier recommends several workflows you can use to integrate different apps, but
 
 If you are a developer then you might be familiar with endpoints. Webhooks are pretty much the same thing. If you have no idea what I’m talking about, don’t worry, it’s really quite straight forward to implement.
 
-
 ### Why not use a static form provider instead
 
 I initially looked into a few different ways to process form data on static sites before deciding to go with Zapier. The main two I looked at were FormKeep and Formspree.
 
-[FormKeep](https://formkeep.com/) looks like a great solution, but it comes at a serious price. The cheapest plan is _$59/month for 10 forms_. Formkeep might be worth considering for client projects but for a personal website I’d rather keep my costs to a minimum.
+[FormKeep](https://formkeep.com/) looks like a great solution, but it’s not cheap. Formkeep might be worth considering for client projects but for a personal website I’d rather keep my costs to a minimum.
 
 [Formspree](https://formspree.io/) is another great option. One I really quite like in fact. It’s free and does exactly what we are trying to achieve, it is probably even quicker to implement. Although Formspree and our Zapier method are very similar, in the end I choose to go with Zapier for a couple of reasons:
 
 ### Familiarity
 
-I kept coming back to Zapier because it’s familiar. I already use Zapier for several other automated sequences in my business — for social media, for my email list and a whole bunch of other stuff.  It’s also super quick and easy to set up automation connecting different apps.
+I kept coming back to Zapier because it’s familiar. I already use Zapier for several other automated sequences in my business — for social media, for my email list and a whole bunch of other stuff. It’s also super quick and easy to set up automation connecting different apps.
 
 ### Flexibility
 
@@ -63,7 +62,6 @@ Then, let’s say, we wanted to send an automated email response, or send a “G
 With Zapier our form can trigger any series of automated occurrences we want and connect our form up to a variety of different apps.
 
 As cool as this stuff is, it’s not something we’ll be covering right now. But hopefully it gives you an idea of the power and possibilities Zapier can bring to a contact form.
-
 
 ## Building the form
 
@@ -88,9 +86,13 @@ The end result should look something like this:
 
 ```html
 <form id="myForm" action="#" type="POST">
-  <input type="text" name="full-name" placeholder="What's your name?"/>
-  <input type="email" name="email-address" placeholder="What's your email address?"/>
-  <input type="submit" value="Submit" id="Form-submit"/>
+  <input type="text" name="full-name" placeholder="What's your name?" />
+  <input
+    type="email"
+    name="email-address"
+    placeholder="What's your email address?"
+  />
+  <input type="submit" value="Submit" id="Form-submit" />
 </form>
 ```
 
@@ -101,7 +103,6 @@ Let’s break this down. First make sure you give your form a suitable `id`.
 ```
 
 We’re using `id="myForm"` here to keep things nice and simple. We’ll need this later when we use some Ajax to redirect the page.
-
 
 Next, make sure you add an `action` attribute. Leave it blank for now, we will come back to this later.
 
@@ -117,19 +118,22 @@ Finally add `type="POST"`. This is our HTTP request which submits the data to Za
 
 ### Adding name attributes
 
-
 Remember to assign a `name=""` attribute to all the form elements you want to collect data from _(that pretty much means all of them)_. You can name them however you like, but just make sure they are there.
 
 Let’s add one for our name input and one for our email input:
 
 ```html
-<input type="text" name="full-name" placeholder="What's your name?"/>
+<input type="text" name="full-name" placeholder="What's your name?" />
 ```
 
 Here I’ve used `name="full-name"` and `email="email-address"`.
 
 ```html
-<input type="email" name="email-address" placeholder="What's your email address?"/>
+<input
+  type="email"
+  name="email-address"
+  placeholder="What's your email address?"
+/>
 ```
 
 Zapier will look out for the `name=""` attribute when it tries to grab the values inputed by the user, so it’s important you remember to add them or your form won’t work.
@@ -138,15 +142,13 @@ Zapier will look out for the `name=""` attribute when it tries to grab the value
 
 Finally we’ll need to add a very basic button, so the user can submit their data. Let’s give our button an `id` of `Form-submit`:
 
-
 ```html
-<input type="submit" value="Submit" id="Form-submit"/>
+<input type="submit" value="Submit" id="Form-submit" />
 ```
 
 The rest should be fairly obvious — `type="submit"` declares what type of `input` we would like to use, and the value declares the text shown on our button. In this case `Submit`.
 
 _Note: I’ve removed all CSS classes used to style the form for this tutorial, however you would probably want to add some classes to style your form elements otherwise they won’t look all that pretty._
-
 
 ## Step 2: Setting up Zapier to collect the data
 
@@ -172,22 +174,33 @@ Head back to your form and replace the **#** symbol in `action="#"` with the Web
 
 Your form should now look something like this:
 
-
 ```html
-<form id="myForm" action="https://hooks.zapier.com/hooks/catch/1707140/msf6zi/" type="POST">
-  <input type="text" name="full-name" placeholder="What's your name?"/>
-  <input type="email" name="email-address" placeholder="What's your email address?"/>
-  <input type="submit" value="Submit" id="Form-submit"/>
+<form
+  id="myForm"
+  action="https://hooks.zapier.com/hooks/catch/1707140/msf6zi/"
+  type="POST"
+>
+  <input type="text" name="full-name" placeholder="What's your name?" />
+  <input
+    type="email"
+    name="email-address"
+    placeholder="What's your email address?"
+  />
+  <input type="submit" value="Submit" id="Form-submit" />
 </form>
 ```
-
 
 Now we need to test our form to see if it’s working. Fill out your form and hit submit.
 
 If all went well your browser window should be redirected to the Zapier Webhook URL. You’ll see a string of data. Something like this:
 
 ```json
-{"status": "success", "attempt": "58b94713-f62a-4f1b-a418-9a4a992774c0", "id": "a0139409-2c05-4adb-a33c-111dd0e3e895", "request_id": "Nx5Ew2eUJxPBY1p5"}
+{
+  "status": "success",
+  "attempt": "58b94713-f62a-4f1b-a418-9a4a992774c0",
+  "id": "a0139409-2c05-4adb-a33c-111dd0e3e895",
+  "request_id": "Nx5Ew2eUJxPBY1p5"
+}
 ```
 
 Now let’s head back to Zapier to see if our data was received.
@@ -206,7 +219,7 @@ The next step is to automate an email to our inbox, which sends every time someo
 
 Search for **Email by Zapier** in the "Choose an action app" step.
 
-Hit **save and continue** on Send an outbound email. This will create your action step sequence and bring up the email template where we can decide what our automated email will say.   
+Hit **save and continue** on Send an outbound email. This will create your action step sequence and bring up the email template where we can decide what our automated email will say.
 
 {{< mp4 src="v1531988549/hc/zapier-contact-form-add-outbound-email-action-step" caption="Add outbound email action step" >}}
 
@@ -232,7 +245,6 @@ You might want to filter your automated emails from Zapier by marking them with 
 
 At this point everything should be set up correctly, so that Zapier sends an automated email to your inbox when someone fills out your form.
 
-
 ## Step 4: Using Ajax to redirect the URL
 
 The final step is to redirect the user when they fill out our form.
@@ -252,20 +264,19 @@ Before the closing `</body>` tag in the footer of your page, load a copy of jQue
 
 Beneath that you will need the following Javascript:
 
-
 ```javascript
 // POST form data to zapier on submit
-$('#myForm').submit(function(e){
-    e.preventDefault();
-    $.ajax({
-        url:'YOUR_ZAPIER_WEBHOOK_URL_GOES_HERE',
-        type:'post',
-        data:$('#myForm').serialize(),
-        success:function(){
-          // Redirect to another success page
-          window.location = "http://google.com";
-        }
-    });
+$("#myForm").submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    url: "YOUR_ZAPIER_WEBHOOK_URL_GOES_HERE",
+    type: "post",
+    data: $("#myForm").serialize(),
+    success: function() {
+      // Redirect to another success page
+      window.location = "http://google.com";
+    }
+  });
 });
 ```
 
@@ -277,9 +288,13 @@ The HTML for our form should now look something like this:
 
 ```html
 <form id="myForm">
-  <input type="text" name="full-name" placeholder="What's your name?"/>
-  <input type="email" name="email-address" placeholder="What's your email address?"/>
-  <input type="submit" value="Submit" id="Form-submit"/>
+  <input type="text" name="full-name" placeholder="What's your name?" />
+  <input
+    type="email"
+    name="email-address"
+    placeholder="What's your email address?"
+  />
+  <input type="submit" value="Submit" id="Form-submit" />
 </form>
 ```
 
@@ -305,23 +320,32 @@ This will prevent a user from submitting your form without inputting the necessa
 
 ### Accessibility
 
-To make sure your forms are accessible to everyone and to prevent your site from getting penalised by Google, you will want to add labels to your form elements. Make sure you add a `for` attribute equal to the  `id` attribute of the related element to each label. This will bind them together.
+To make sure your forms are accessible to everyone and to prevent your site from getting penalised by Google, you will want to add labels to your form elements. Make sure you add a `for` attribute equal to the `id` attribute of the related element to each label. This will bind them together.
 
 With this in mind, our might look like this:
 
 ```html
 <form id="myForm">
   <label for="Form-name">Name</label>
-  <input type="text" id="Form-name" name="full-name" placeholder="What's your name?"/>
+  <input
+    type="text"
+    id="Form-name"
+    name="full-name"
+    placeholder="What's your name?"
+  />
   <label for="Form-email">Email Address</label>
-  <input type="email" id="Form-email" name="email-address" placeholder="What's your email address?"/>
+  <input
+    type="email"
+    id="Form-email"
+    name="email-address"
+    placeholder="What's your email address?"
+  />
   <label for="Form-submit" class="u-visually-hidden">Submit</label>
-  <input type="submit" value="Submit" id="Form-submit"/>
+  <input type="submit" value="Submit" id="Form-submit" />
 </form>
 ```
 
 Notice I’m using a class called `u-visually-hidden` to hide the button label from everyone except screen readers and crawlers.
-
 
 ### Adding more fields
 
@@ -332,8 +356,6 @@ I hope this has been a helpful introduction into using Zapier to process form da
 <p class="message">If you want to grab the source code from this tutorial you can get hold of that on <a href="https://github.com/harrycresswell/zapier-contact-form">github</a>.</p>
 
 If you have any questions or problems with this method then [drop me a tweet](https://twitter.com/harrycresswell), I’d be happy to help.
-
-
 
 ### Further reading
 
