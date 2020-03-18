@@ -1,4 +1,4 @@
-# Hugo Starter 1.0
+# harrycresswell.com
 
 A Hugo starter project and theme used for [harrycresswell.com](https://harrycresswell.com/).
 
@@ -40,17 +40,17 @@ To start a local development server at at `https://localhost:1313/` run:
 npm start
 ```
 
-This is a simple NPM Script which `hugo server --disableFastRender`. 
+This is a simple NPM Script which `hugo server --disableFastRender`.
 
 ## Production build
 
 Whe your ready to build a production ready site, update the `baseUrl` inside `config.toml` then run:
 
 ```
-Hugo
+npm run clean && npm run build
 ```
 
-This will build  ready site to `./public`.
+This will remove the `/public` folder and run a fresh build ready for production.
 
 ## Basic concepts
 
@@ -74,11 +74,10 @@ Follow the same steps for notes and projects.
 
 ### Writing Sass
 
-Write your **Sass** inside `./assets/scss`. 
+Write your **Sass** inside `./assets/scss`.
 
 With the server running (`npm start`) Hugo will watch your Sass for changes, then pipe them to `./public/css/main.css` and reload the browser.
 
+### Making layout changes
 
-### Site structure
-
-The main structure of the site live is `./themes/hc-starter`, so this is where you will need to go to change layouts, partials, shorcodes and taxonomies.
+To make changes to the layout head to `./themes/hc-starter` where you will find `/layouts`. Inside there you will find templates for partials, shortcodes and taxonomies.
