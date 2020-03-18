@@ -17,12 +17,12 @@
   {{ $lazysizes := resources.Get "js/lazysizes.js" }}
   {{ $likes := resources.Get "js/likes.js" }}
 
-  <!-- Concat JS generate default app.js and app-likes -->
+  <!-- Concat JS, generate default app.js and app-likes -->
   {{ $defaultJS := slice $cloudinary $lazysizes | resources.Concat "app.js" }}
   {{ $likesJS := slice $cloudinary $lazysizes $likes | resources.Concat "app-likes.js" }}
   <!-- Set default -->
   {{ $script := $defaultJS }}
-  <!-- Overwrite script for projects -->
+  <!-- Where type = likes in frontmatter, override default with likesJS -->
   {{if eq .Type "likes" }}
   {{ $script = $likesJS }}
   {{ end }}
