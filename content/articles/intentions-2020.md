@@ -116,7 +116,7 @@ A few of the projects I’m interested in pursuing this year are:
 
 ### Type Design
 
-It’s time to evolve Type Services in a new direction to better reflect my current interests in typography.
+It’s time to evolve [Type Services](https://typeservices.co/) in a new direction to better reflect my current interests in typography.
 
 This year I’d like to create at least one new typeface. Something simple like a geometric monospaced font could be a good place to start. I’ll stick to Latin letters for now, but I’d like to build something systematic, which I can expand in the future.
 
