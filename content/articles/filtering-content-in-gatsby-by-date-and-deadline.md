@@ -2,7 +2,7 @@
 title: "Filtering content in Gatsby by date and deadline"
 date: 2020-03-17T00:00:00Z
 draft: false
-description: "How to filter content at query time using GraphQL and automate"
+description: "A problem I’ve been facing is how to remove content in Gatsby that has a deadline. Here I’ll show you the approach I’m using to filter content at query time using GraphQL and then automate the build process."
 slug: "filtering-content-in-gatsby-by-date-and-deadline"
 tags: ["Gatsby", "GraphQl", "Automation"]
 syndicate: "false"
