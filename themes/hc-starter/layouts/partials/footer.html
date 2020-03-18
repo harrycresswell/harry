@@ -24,7 +24,6 @@
   {{ $script := $defaultJS }}
   <!-- Overwrite script for projects -->
   {{if eq .Type "likes" }}
-
   {{ $script = $likesJS }}
   {{ end }}
   <!-- Assign script to global, minify and fingerprint -->

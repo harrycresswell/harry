@@ -8,4 +8,4 @@
 
     {{ partial "newsletter.html" . }}
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer.html" . .Type }}
