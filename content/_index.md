@@ -8,14 +8,16 @@ draft: false
 
 {{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
-I write [articles on design and code](/articles/) and curate [a weekly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things I’m learning](/notes/) from books, courses and talks.
+I write [articles on design and code](/articles/) and curate [a weekly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things I’m learning](/notes/) from books, courses and interesting things I find on the internet.
 
-Currently I live between London and Hamburg, where I work with a handful of clients. In my free time I enjoy running, climbing, hiking and skiing. I practice yoga and meditation most days.
+Currently I live between London and Hamburg, where I work with a handful of clients. In my free time I enjoy running, climbing, hiking and skiing. I practice yoga and meditation most mornings.
 
 ## Where to go next
 
 You can find out [what I'm up to right now](/now/) or read about some of the ways you can [work with me](/work-with-me/). Alternatively, take a look at [my CV](pdf/harry-cresswell-cv-feb-20.pdf) to get an idea of my experience.
 
-I’m currently working on a [projects](/projects/) page, to case study some of my work, but it’s taking a while. In the meantime check out a few [things I’ve made](/things/). For those interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used.
+I’m working on a [projects](/projects/) page, to case study some of my work, but it’s taking me a while. So, in the meantime check out a few [things I’ve made](/things/).
 
-Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionally I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell).
+If you’re more interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. Check out my [uses](/uses/) page, if you want to know more about my office set up and the tools I use most days.
+
+Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionally I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell), but I’m not very good at responding.
