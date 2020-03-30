@@ -18,6 +18,6 @@ You can find out [what I'm up to right now](/now/) or read about some of the way
 
 I’m working on a [projects](/projects/) page, to case study some of my work, but it’s taking me a while. So, in the meantime check out a few [things I’ve made](/things/).
 
-If you’re more interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. Check out my [uses](/uses/) page, if you want to know more about my office set up and the tools I use most days.
+If you’re more interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. Check out my [uses](/uses/) page, if you want to know more about my office setup and the tools I use most days.
 
 Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. Very occassionally I check my [LinkedIn](https://uk.linkedin.com/in/harrycresswell), but I’m not very good at responding.

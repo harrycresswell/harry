@@ -6,7 +6,7 @@ slug = "uses"
 draft = "false"
 +++
 
-I collection of tools I use, inspired by [Wes Bos](https://wesbos.com/uses/).
+My office setup, and the tools I use from day to day.
 
 ## Hardware
 
@@ -64,3 +64,5 @@ I collection of tools I use, inspired by [Wes Bos](https://wesbos.com/uses/).
 - [Forestry](https://forestry.io/)
 - [Netlify](https://www.netlify.com/)
 - [Cloudinary](https://cloudinary.com/)
+
+This page was inspired by [Wes Bos](https://wesbos.com/uses/).
