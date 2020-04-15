@@ -8,7 +8,6 @@ description: "Learn how to implement Algolia InstantSearch on a Hugo based stati
 
 <p class="Message">You can download <a href="https://github.com/harrycresswell/hugolia">the project files</a> for this article over on Github.</p>
 
-
 {{< intro >}}We’re about to walk through setting up Algolia search on a Hugo static site with a Forestry CMS, so you can search your posts instantaneously and edit content directly from the browser.{{< /intro >}}
 
 This first part is heavily based on [Chris Macrae’s awesome article on Forestry.io](https://forestry.io/blog/search-with-algolia-in-hugo/#creating-the-json-template), with some adaptations to fit my specific needs. In the second article we’ll implement Instantsearch.js on the front end, which aims to pick up where the Chris’s article left off.
@@ -25,15 +24,13 @@ With that said, let’s break down the plan so you know what’s coming up.
 
 ## What are trying to do?
 
--  Send a search index to Algolia when a new post is added (via [Forestry](https://forestry.io/) or a `git push` from the CLI).
+- Send a search index to Algolia when a new post is added (via [Forestry](https://forestry.io/) or a `git push` from the CLI).
 - Update the search index on our site with a [webtask function](https://webtask.io/), whenever the index is update on Algolia.
 - Build a front end search using Algolia’s [Instantsearch.js](https://community.algolia.com/instantsearch.js/) library, so visitors can interface with our content (we’ll do this bit in the second article).
-
 
 For a very basic prototype of what we’re building, [head over here](https://heuristic-hoover-2ec537.netlify.com/).
 
 I’m assuming you already have a Hugo site set up. If not, I recommend starting out with the [Forestry’s Hugo boilerplate](https://github.com/forestryio-templates/hugo-boilerplate). Here’s [a great how-to guide](https://forestry.io/blog/up-and-running-with-hugo/) which will help you get off on the right foot.
-
 
 ## Step 1: Generate JSON search index
 
@@ -116,7 +113,7 @@ Create a new file at `layouts/_default/list.algolia.json` and add the following:
 {{- jsonify ($.Scratch.GetSortedMapValues "hits") -}}
 ```
 
-Here we loop through all of content inside of `content/posts`. So if, let’s say, your posts folder is called  ‘articles’, make sure you update your code to reflect that. Chris’s tutorial loops through all content including pages, so I modified this to serve only post content as I didn’t want to include pages.
+Here we loop through all of content inside of `content/posts`. So if, let’s say, your posts folder is called ‘articles’, make sure you update your code to reflect that. Chris’s tutorial loops through all content including pages, so I modified this to serve only post content as I didn’t want to include pages.
 
 ## Step 3: Output the Index
 
@@ -135,12 +132,11 @@ Build your site with `npm run build` and you should now find `algolia.json` in t
 
 ## Step 4: Create an index in Algolia
 
-[Create an account](https://www.algolia.com/users/sign_up) on Algolia and click *New Application*. Make sure you choose a memorable application name. Next select the region closest to you. Then you’ll be redirected to the app dashboard.
+[Create an account](https://www.algolia.com/users/sign_up) on Algolia and click _New Application_. Make sure you choose a memorable application name. Next select the region closest to you. Then you’ll be redirected to the app dashboard.
 
-Click the *Indises* tab, and choose *Add New Index*. Give your new Index a unique name. I used ’hugolia’ for the hell of it, but you can use what you like; your domain name will do.
+Click the _Indices_ tab, and choose _Add New Index_. Give your new Index a unique name. I used ’hugolia’ for the hell of it, but you can use what you like; your domain name will do.
 
 Finally, select the *API Keys* tab, and copy your *Application ID* and *Admin API Key*. We’ll need these later, to update the index.
-
 
 ## Step 5: Send search index to Algolia
 
@@ -178,7 +174,7 @@ Using Forestry’s [open-source serverless Webtask Function](https://github.com/
 To get started, clone the template to your local machine by running:
 
 ```
-git clone https://github.com/forestryio-templates/serverless-atomic-algolia.git 
+git clone https://github.com/forestryio-templates/serverless-atomic-algolia.git
 ```
 
 Then install the dependencies:
@@ -201,23 +197,31 @@ Next, you’ll need to configure the function with your Indices and Algolia app 
 First, copy `config/secrets.yml.stub` to `config/secrets.yml` and then open it up in your text editor.
 
 ```js
-ALGOLIA_APP_ID: {{ YOUR_APP_ID }}
-ALGOLIA_ADMIN_KEY: {{ YOUR_ADMIN_KEY }}
-DEBOUNCE: 0
+ALGOLIA_APP_ID: {
+  {
+    YOUR_APP_ID;
+  }
+}
+ALGOLIA_ADMIN_KEY: {
+  {
+    YOUR_ADMIN_KEY;
+  }
+}
+DEBOUNCE: 0;
 ```
 
 Then, open `config/index.js` and update name to the name of your index that you set up earlier, and url to `yourdomain.com/algola.json`.
 
 ```js
 module.exports = () => {
-var indexes = [
-  {
-    name: "YOUR_INDEX_NAME",
-    url: "PUBLIC_URL_OF_INDEX"
-  }
- ]
-return JSON.stringify(indexes)
-}
+  var indexes = [
+    {
+      name: "YOUR_INDEX_NAME",
+      url: "PUBLIC_URL_OF_INDEX",
+    },
+  ];
+  return JSON.stringify(indexes);
+};
 ```
 
 ### Deploying the function
@@ -254,7 +258,7 @@ I wrote this down as much for my own understanding as I hope it has been helpful
 
 With that said, any feedback you might have would be very welcome. [Drop me a tweet](https://twitter.com/harrycresswell) or [send me a message](/contact/). I’d be happy to hear from others exploring the world of serverless.
 
-*Note: In the next part we’ll build the front end, so users can interface with our content and see the power of Algolia on a Hugo static site.*
+_Note: In [part 2 of this article](https://harrycresswell.com/articles/hugo-algolia-2/) we’ll build the front end, so users can interface with our content and see the power of Algolia on a Hugo static site._
 
 <p class="Message">You can download the <a href="https://github.com/harrycresswell/hugolia">project files over on Github</a>. Bare in mind they also include code for the front end which is coming up in the next part.</p>
 

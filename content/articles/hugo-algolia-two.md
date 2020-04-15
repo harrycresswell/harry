@@ -10,8 +10,7 @@ description: "Implement Instantsearch.js on your Hugo site and provide users wit
 
 <p class="Message">You can download <a href="https://github.com/harrycresswell/hugolia">the project files</a> for this article over on Github.</p>
 
-
-In [Part 1](articles/hugo-algolia/) we configured Algolia’s search API to index content from a Hugo site and provide instantaneous search results, whenever a search takes place.
+In [Part 1](https://harrycresswell.com/articles/hugo-algolia/) we configured Algolia’s search API to index content from a Hugo site and provide instantaneous search results, whenever a search takes place.
 
 In this part we’ll implement [Algolia Instantsearch.js](https://community.algolia.com/instantsearch.js/), a framework of prepackaged widgets which will help us design the perfect search experience.
 
@@ -30,7 +29,7 @@ So how do we make this good stuff happen?
 - Install Algolia InstantSearch JavaScript library
 - Display content from our JSON index (Hits in Algolia talk)
 - Add a search bar to allow for searches
--  Set up post filtering by tag
+- Set up post filtering by tag
 
 With that, let’s get right to it.
 
@@ -39,8 +38,16 @@ With that, let’s get right to it.
 In the head of your Hugo site add the Algolia stylesheet and default theme:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch-theme-algolia.min.css">`
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch.min.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.1/dist/instantsearch-theme-algolia.min.css"
+/>`
 ```
 
 This will deliver the necessary styles from the [jsDeliver](https://www.jsdelivr.com/) CDN.
@@ -63,16 +70,16 @@ In `app.js` or wherever you store your pre compiled Javascript add the following
 
 ```javascript
 // Set Algolia options
-  const options = {
-    appId: 'YOUR_APP_ID',
-    apiKey: 'YOUR_API_KEY',
-    indexName: 'YOUR_INDEX_NAME',
-    hitsPerPage: 10,
-    routing: true
- }
+const options = {
+  appId: "YOUR_APP_ID",
+  apiKey: "YOUR_API_KEY",
+  indexName: "YOUR_INDEX_NAME",
+  hitsPerPage: 10,
+  routing: true,
+};
 
 // Parse options to instantsearch
-  const search = instantsearch(options);
+const search = instantsearch(options);
 ```
 
 Making sure you replace all instances of `YOUR_...` as you go.
@@ -97,20 +104,20 @@ Now you’ll need to add your hits widget to your instantsearch instance, using�
 
 ```javascript
 // initialize hits widget
-  search.addWidget(
-    instantsearch.widgets.hits({
-      // define container
-      container: '#hits',
-      // add classes for styling
-      cssClasses: {
-        root:'Search-hits',
-        empty:'Search-hits--empty'
-},
-  templates:{
-    // call custom hit template
-    item: hitTemplate,
-    empty: 'Didn’t find any results for the search  <em>\"{{query}}\"</em>'
-    }
+search.addWidget(
+  instantsearch.widgets.hits({
+    // define container
+    container: "#hits",
+    // add classes for styling
+    cssClasses: {
+      root: "Search-hits",
+      empty: "Search-hits--empty",
+    },
+    templates: {
+      // call custom hit template
+      item: hitTemplate,
+      empty: 'Didn’t find any results for the search  <em>"{{query}}"</em>',
+    },
   })
 );
 ```
@@ -119,33 +126,31 @@ Notice I’ve specified the variable `hitTemplate` for my template item. Setting
 
 ```javascript
 // create variable for custom hit template
-  var hitTemplate =
+var hitTemplate =
   '<a href="{{ permalink }}" class="List-item">' +
   '<div class="List-image">' +
-  '<img src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale/{{{featuredimage}}}" />'
-     + '</div>' +
-      '<div class="List-title">{{{_highlightResult.title.value}}}</div>' +
- '</a>'
-+ '<div class="List-summary">{{{summary}}}</div>';
+  '<img src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale/{{{featuredimage}}}" />' +
+  "</div>" +
+  '<div class="List-title">{{{_highlightResult.title.value}}}</div>' +
+  "</a>" +
+  '<div class="List-summary">{{{summary}}}</div>';
 ```
 
 A few things to notice here; values pulled from the Algolia index should be wrapped in 3 curly braces, this prevents conflicts with Hugo templating, as seen in `permalink` which is wrapped in 2 braces.
 
 Using the `_highlightResult` attribute will, by default, add `<em>` tags to your search results to give feedback on any matching results.
 
-My particular template pulls in a featured image, which I specified in the post front matter. You’ll notice I’m using [Cloudinary](https://cloudinary.com/) to host my images. By abstracting images away from  the repo, build times remain super fast, as now there are no images to process. I’ve added options in the URL for retina and responsive sizing. I cover a lot of these features in [resposives images with Cloudinary](articles/cloudinary/).
-
+My particular template pulls in a featured image, which I specified in the post front matter. You’ll notice I’m using [Cloudinary](https://cloudinary.com/) to host my images. By abstracting images away from the repo, build times remain super fast, as now there are no images to process. I’ve added options in the URL for retina and responsive sizing. I cover a lot of these features in [resposives images with Cloudinary](articles/cloudinary/).
 
 ## Step 3: Configure hits in Algolia
 
 For this part you need to head back to your Algolia Dashboard to set searchable Attributes:
 
-*Indices > Ranking > Searchable Attributes > Add a Searchable Attribute*
+_Indices > Ranking > Searchable Attributes > Add a Searchable Attribute_
 
-This will tell Algolia what you want it to pick up in search results. In my case I kept it simple and stuck with `title` by choosing it from the dropdown list.  
+This will tell Algolia what you want it to pick up in search results. In my case I kept it simple and stuck with `title` by choosing it from the dropdown list.
 
 Great, title searches should now be configured.
-
 
 ## Step 4: Add a Search bar (..and Algolia logo)
 
@@ -153,7 +158,7 @@ In order to querying our index we’re going to need a search bar. To do this ad
 
 ```html
 <div id="search-box">
-    <!-- SearchBox widget will appear here -->
+  <!-- SearchBox widget will appear here -->
 </div>
 ```
 
@@ -161,20 +166,23 @@ Back in your `app.js` file, add the following:
 
 ```javascript
 // Parse options to instantsearch
-  const search = instantsearch(options);
+const search = instantsearch(options);
 
 // initialize SearchBox
-  search.addWidget(
-    instantsearch.widgets.searchBox({
-      container: '#search-box',
-      placeholder: 'Search for post',
-      reset: false,
-      cssClasses: {
-        root: 'Search-box-container',
-        input: 'Search-box-input',
-      }
-    })
-  );
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: "#search-box",
+    placeholder: "Search for post",
+    reset: false,
+    cssClasses: {
+      root: "Search-box-container",
+      input: "Search-box-input",
+    },
+  })
+);
+
+// make all this stuff happen
+search.start();
 ```
 
 Now we can search our index and see what matches our query.
@@ -209,16 +217,15 @@ Now, from the terminal run `npm run build` to rebuild your site, then deploy you
 
 This will trigger your search index to be updated.
 
-Next head to *Indices > Browse > Preview* in your Algolia Dashboard and providing all went well you should see your new tags listed in your JSON search index.
+Next head to _Indices > Browse > Preview_ in your Algolia Dashboard and providing all went well you should see your new tags listed in your JSON search index.
 
 At this point we need to tell Algolia to filter our tags when we set up our refinement list widget in the next step. To do this head to:
 
-*Indices > Display > Faceting > Attributes for faceting*
+_Indices > Display > Faceting > Attributes for faceting_
 
-Hit *Add an Attribute*.
+Hit _Add an Attribute_.
 
 You should see `tags` appear in the dropdown list. Make sure you select them and you’re good to go.
-
 
 ### Adding the refinement list widget
 
@@ -238,16 +245,15 @@ Just above `search.start();` in your `app.js` file, add the following:
 
 ```javascript
 // initialize RefinementList
-  search.addWidget(
-    instantsearch.widgets.refinementList({
-      container: '#refinement-list',
-      attributeName: 'tags'
-    })
-  );
+search.addWidget(
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list",
+    attributeName: "tags",
+  })
+);
 ```
 
 Your tags should now appear on your site and filter your index.
-
 
 ## Taking it further
 
@@ -260,7 +266,6 @@ Great job. You should now have an InstantSearch results page working with your b
 Of course you can use InstantSearch with any static site generator, or on any webpage, it doesn’t have to be Hugo. There’s a ton of great resources and tutorials to help you get going on the [Algolia Community](https://community.algolia.com/) page .
 
 A great place to begin is the [Getting Started with InstantSearch.js](https://community.algolia.com/instantsearch.js/v2/getting-started.html) tutorial. I’ll also list some resources I found helpful below.
-
 
 ## Further reading
 
