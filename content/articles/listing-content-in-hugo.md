@@ -1,6 +1,6 @@
 ---
 title: "Listing page content in Hugo"
-date: 2020-04-03T10:50:11+01:00
+date: 2020-04-15T10:50:11+01:00
 draft: false
 description: "The ins and outs of listing content in Hugo. Breaking down the various functions and variables it takes to create lists of the different content types."
 slug: "listing-page-content-in-hugo"
