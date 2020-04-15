@@ -8,12 +8,12 @@
  * Content will span a minimum of 3 columns, for sake of simplicity
  */
 
- .Grid {
+.Grid {
   display: grid;
   grid-gap: 24px;
- }
+}
 
- .Grid--2col {
+.Grid--2col {
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -28,7 +28,7 @@
   .Grid--2col {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 48px;
-    max-width: 1248px;
+    max-width: 1600px;
   }
 
   /**
@@ -45,8 +45,8 @@
     grid-column: 1 / span 6;
   }
 
-   /* From column 1, span 12 columns */
-   .Grid-1-12 {
+  /* From column 1, span 12 columns */
+  .Grid-1-12 {
     grid-column: 1 / span 12;
   }
 

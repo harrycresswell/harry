@@ -7,13 +7,13 @@
  * Component Block
  */
 
- .Header {
+.Header {
   display: flex;
   font-weight: 500;
   justify-content: space-between;
-  max-width: 1248px; 
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 7% 0;
+  padding: 4% 0;
 
   a {
     color: var(--color-dark);

@@ -792,7 +792,7 @@ video {
  */
 .Container {
   padding-top: 24%;
-  max-width: 1248px;
+  max-width: 1600px;
   margin: 0 auto; }
 
 @media (min-width: 48em) {
@@ -861,7 +861,7 @@ video {
   .Grid--2col {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 48px;
-    max-width: 1248px; }
+    max-width: 1800px; }
   /**
  * Component Element
  */
@@ -900,7 +900,7 @@ video {
 
 .PostMeta {
   display: flex;
-  max-width: 1248px;
+  max-width: 1800px;
   margin: 0 auto;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
@@ -909,7 +909,7 @@ video {
 
 .PostBody {
   margin-top: 3rem;
-  max-width: 1248px;
+  max-width: 1800px;
   margin: 0 auto; }
   @media screen and (min-width: 48em) {
     .PostBody {
@@ -1093,16 +1093,14 @@ video {
 /**
  * Component Block
  */
+.TagList {
+  columns: 14rem auto; }
+
 @media (min-width: 48em) {
   .TagList {
-    column-count: 2;
     column-gap: 64px;
     margin-top: 64px;
     margin-bottom: 64px; } }
-
-@media (min-width: 75em) {
-  .TagList {
-    column-count: 3; } }
 
 .TagListItem {
   margin: 0 0 16px 0; }
@@ -1159,12 +1157,10 @@ video {
 
 .Likes {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 32px;
   justify-content: space-between;
   margin: calc(var(--space)*6) 0; }
-  @media (min-width: 37.5em) {
-    .Likes {
-      grid-template-columns: 1fr 1fr; } }
 
 .LikesItem {
   border: dotted 1px var(--color-dark);
@@ -1349,9 +1345,9 @@ video {
   display: flex;
   font-weight: 500;
   justify-content: space-between;
-  max-width: 1248px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 7% 0; }
+  padding: 4% 0; }
   .Header a {
     color: var(--color-dark);
     text-decoration: none; }
@@ -1385,7 +1381,7 @@ video {
  * Component Block
  */
 .Footer {
-  max-width: 1248px;
+  max-width: 1600px;
   margin: 0 auto;
   margin-top: 1.5rem;
   padding-bottom: 64px; }
@@ -1467,7 +1463,7 @@ p + .Image {
  * Component Block
  */
 .Newsletter {
-  max-width: 1248px;
+  max-width: 1600px;
   margin: 0 auto; }
 
 .NewsletterForm {

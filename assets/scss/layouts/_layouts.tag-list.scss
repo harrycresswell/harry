@@ -7,20 +7,15 @@
  * Component Block
  */
 
-
+.TagList {
+  columns: 14rem auto;
+}
 
 @include breakpoint(md) {
   .TagList {
-    column-count: 2;
     column-gap: 64px;
     margin-top: 64px;
     margin-bottom: 64px;
-  }
-}
-
-@include breakpoint(lg) {
-  .TagList {
-    column-count: 3;
   }
 }
 

@@ -1,9 +1,6 @@
 .Likes {
   display: grid;
-
-  @include breakpoint(sm) {
-    grid-template-columns: 1fr 1fr;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 
   grid-gap: 32px;
   justify-content: space-between;
