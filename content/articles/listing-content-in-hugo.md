@@ -26,9 +26,11 @@ In plain old HTML that might look something like this:
 
 But that’s just the basics. You can create a list of any data associated with your content.
 
-In Hugo, unfortunately there’s no one size fits all approach to rending content. Context of the code you write changes depending on which template you’re working in. And this can often produce unexpected results.
+In Hugo, unfortunately there’s no one size fits all approach to rending content.
 
-In this piece we’ll explore how context effects the content rendered on a page and learn about the specific functions and variables you can use to create lists of different content types.
+The context of the code you write changes depending on which template you’re working in. This can often produce unexpected results.
+
+In this piece we’ll learn about the specific functions and variables you can use to create lists of different content types and look at how context effects the content rendered on a page.
 
 Let’s start by considering how we create lists of data, from a technical perspective, when using a static site generator like Hugo.
 
@@ -42,7 +44,7 @@ In Hugo, in the context of pages, you do this with the range function.
 
 ## Understanding range
 
-The [range](https://gohugo.io/functions/range/) function provides an easy way to iterate over a map, array or slice of data. Think of it as grabbing a collection or “range” of pages.
+The [range](https://gohugo.io/functions/range/) function provides an easy way to iterate over a map, array or slice of data. Think of it as grabbing a collection of pages, or a “range” of pages.
 
 Range is fundamental to templating in Hugo and it’s the only function we’ll need to return a lists of pages.
 
@@ -54,7 +56,7 @@ Range is fundamental to templating in Hugo and it’s the only function we’ll 
 
 But using range alone won't return any data.
 
-To get hold of our pages, we need to pass a [page variable](https://gohugo.io/variables/page/) to the range function. This variable will give you access to different collections of content, depending on which variable you pass in.
+To get hold of our pages, we need to pass a [page variable](https://gohugo.io/variables/page/) to the range function. This variable will give you access to different collections of content, depending on which variable you pass in and which template you write the code in.
 
 There’s quite a few different variables you can choose from, but for now, let’s focus on some of the main ones.
 
@@ -62,7 +64,7 @@ There’s quite a few different variables you can choose from, but for now, let�
 
 [.Site](https://gohugo.io/variables/site/) gives you access to global values in your templates.
 
-So regardless of where you are writing your code, with `.Site` you can get hold of all site-wide variables, which are either defined in your site’s configuration or built-in to Hugo.
+So regardless of where you are writing your code, with `.Site` you can get hold of all site-wide variables. These are either defined in your site’s configuration or directly built-in to Hugo.
 
 In the interest of listing page content, we can combine `.Site` with a built-in variable called `.Pages` to access all pages across our website.
 
@@ -90,15 +92,15 @@ A few things to note.
 
 Where `.Site` gives you access to the global values in your templates, `.Pages` only returns a collection of regular pages and only first-level section pages under the current list page.
 
-To make sense of this let’s turn now to list template, what they are and how you can use them.
+To make sense of this let’s turn now to list templates, and talk a bit about what they are and how you can use them.
 
 ## The list template
 
-List templates are key part of rendering specific collections or, for the sake of clarity, ”lists” of pages.
+List templates are key part of rendering specific collections of pages. For the sake of clarity, let’s call these ”lists” of pages.
 
 The only `list.html` template you need to render a list of pages in Hugo is kept at `.layouts/_default/list.html`.
 
-This acts as the default template for all collections, sections, taxonomies and terms, it’s the first list template Hugo will look for when it tries to render lists.
+This acts as the default template for all collections, sections, taxonomies and terms. It’s the first list template Hugo will look for when it tries to render lists.
 
 ```go
 // ./layouts/_default/list.html
@@ -120,7 +122,7 @@ To do this you might want to override the default list template by adding anothe
 {{ end }}
 ```
 
-Notice the location mirrors the content directory structure.
+Notice the location of this list template mirrors the content directory structure.
 
 Now we can customise the template however we like and Hugo will only return content from the corresponding folder at `./content/posts`. Whilst all other pages will continue to use the default list template.
 
@@ -128,15 +130,17 @@ Now we can customise the template however we like and Hugo will only return cont
 // ./layouts/posts/list.html
 {{ range .Pages }}
 	<a href="{{ .Permalink }}">{{ .Tite }}</a>
-	{{ .Summary }}
+	<p class="intro">{{ .Summary }}</p>
 {{ end }}
 ```
 
-It’s important to note that if we used `.Site.Pages`, as we have done previously, Hugo will return an object of all our site pages, which isn’t what we want in this case. We’re interested in a specific collection of pages, so we use the `.Page` variable in a new list template kept in a directory which mirrors our content structure.
+It’s important to note that if we used `.Site.Pages`, as we have done previously, Hugo will return an object of all our site pages, which isn’t what we want in this case.
+
+We’re specifically interesed in the collection of post pages, so we use the `.Page` variable in a new list template, kept in a directory which mirrors our content structure.
 
 Now we’re starting to see how context effects the results of the code we write.
 
-Let’s look at another example to make this completely clear.
+Let’s look at another example to make this absolutely clear.
 
 Say we have another template with the exact same code at `./layouts/notes/list.html`.
 
@@ -151,7 +155,9 @@ This time `list.html` will only return content from the corresponding content fo
 
 We can see now that the context of `.Pages` changes, depending on the location of your list template. And it’s something to keep in mind, as it can be confusing at first.
 
-Hugo knows which templates to use based on something called the lookup order.
+Ok, so how does Hugo know which template to use?
+
+Hugo picks the template it uses to render content based on something called the lookup order.
 
 Let’s get into that next.
 
@@ -165,13 +171,13 @@ This is what is happening with our list template at `./layouts/posts/list.html`.
 
 Understanding the lookup order, and how context changes, will help you understand which variables to use in certain situations and why the same variable can produce different results.
 
-Ok, let’s move on to some other stuff.
+Ok, let’s move on to a few other interesting things we can do.
 
 ## Using the first function
 
-Now let’s try something a bit different, this time with the first function.
+Now let’s try something a bit different, this time with [the first function](https://gohugo.io/functions/first/).
 
-You can add the [first](https://gohugo.io/functions/first/) function to reduce the array of data returned to only the first N elements. Where N is the value you set.
+You can add the first function to range, to reduce the array of data returned to only the first N elements. Where N is the value you set.
 
 Think of first as an argument which you pass in alongside your page variables.
 
@@ -185,7 +191,7 @@ Here we’re returning the first 10 pages across all our content.
 
 But what if you want to loop through a specific collection of content? Let’s use our example of a collection posts stored inside `./content/posts` again.
 
-Let’s say we want to list our posts on the `index.html` page. We can’t just use `.Pages` in this case, as we’re no longer in our post specific `list.html` template.
+Let’s say now we want to list our posts on the `index.html` page. We can’t just use `.Pages` in this case, as we’re no longer in our post specific `list.html` template.
 
 This is where `.Site.RegularPages` is helpful.
 
@@ -205,7 +211,7 @@ To give you an example, on this site I have three collections of content. `./con
 
 Here, the `.Site.RegularPages` variable would return all pages from across these three collections, and ignore any else, such as pages inside `./content/pages` or taxonomy pages.
 
-Now, let’s say you only want to loop through your `./content/articles` collection. How do you handle this kind of behaviour?
+But what if you only want to loop through your `./content/articles` collection? How might you handle this kind of behaviour?
 
 The `.Type` variable is useful in the scenario.
 
@@ -213,7 +219,7 @@ The `.Type` variable is useful in the scenario.
 
 As per the docs; “Hugo resolves the content type from either the type in front matter or, if not set, the first directory in the file path.” So what does this mean, exactly?
 
-Tt means that if we want to render specific content types, we have two options.
+It means that if we want to render specific content types, we have two options.
 
 We can either a), set `type` inline in the front matter of our pages, like this:
 
@@ -222,7 +228,9 @@ title: My first post
 type: post
 ```
 
-Or b), make directories within `./content` to mirror how we want to filter our content, as we’ve already seen in the earlier examples. So for our post example, this approach means we have to keep our posts inside `./content/post` for it to work.
+Or b), make directories within `./content` to mirror how we want to filter our content, as we’ve already seen in the earlier examples.
+
+So for our post example, this approach means we have to keep our posts inside `./content/post` for it to work.
 
 Regardless of whether you go with a) the frontmatter method or b) the directory structure method, you use the same code to render the content.
 
@@ -238,19 +246,19 @@ Here we combine range with the conditional [where](https://gohugo.io/functions/w
 
 This is a useful snippet. The frontmatter approach is particular useful when you want to group together a selection of pages, perhaps as featured content.
 
-You’ll also find this approach useful when you want to render specific content outside of the context of a list template, for example on the homepage of your website.
+You’ll also find this approach useful when you want to render specific content outside of the context of a list template, for example on the homepage of your website, as we’ve imagined here.
 
 ## Wrapping up
 
 This was a quick introduction to the functions and variables in Hugo that help you list different pages of content, in different places on a Hugo website.
 
-At times it can be confusing to know which variable to use, in any given situation, to effectively render the content you wish.
+At times it can be confusing to know which variable to use in a given situation to effectively render the content you wish. But with some practice it will start to sink in.
 
-So I hope this has made things a bit clearer and given you a few ideas for your next project. We’ve only just scratched the surface, but what we’ve covered should help get you off to a good start, with a good idea of some of what’s possible.
+I hope this has made things a bit clearer and given you a few ideas for your next project. We’ve only just scratched the surface, but what we’ve covered should help get you off to a good start, with a good idea of some of what’s possible.
 
 As always, if you spot any mistakes or something doesn’t look quite right, please let me know and I will make sure I make changes.
 
-I’m aiming to keep this post updated with new examples and scenarios, as I come across them and use them in my own projects.
+I’m aiming to keep this post updated with new examples and scenarios, as I come across them and use them in my own projects. In the meantime, here’s a list of articles which should help give you a better understanding of what we’ve covered.
 
 ## Further reading
 

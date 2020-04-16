@@ -861,7 +861,7 @@ video {
   .Grid--2col {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 48px;
-    max-width: 1800px; }
+    max-width: 1600px; }
   /**
  * Component Element
  */
@@ -900,7 +900,7 @@ video {
 
 .PostMeta {
   display: flex;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 0 auto;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
@@ -909,7 +909,7 @@ video {
 
 .PostBody {
   margin-top: 3rem;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 0 auto; }
   @media screen and (min-width: 48em) {
     .PostBody {
