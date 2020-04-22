@@ -6,6 +6,10 @@ draft = "false"
 url = "/things/"
 +++
 
+[Local London](https://locallondon.life) is a directory of London food & drink suppliers who deliver to your door. I’m working on the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local Londoners and local suppliers.
+
+[Remote Cards](https://remote.cards/) is a fun card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown.
+
 [Albion Cycling](http://www.albioncycling.com/). A Wordpress build with custom theme, Shopify integration and custom weather app. I designed the site in collaboration with [Luke Harvey](https://lukeharvey.co.uk/). [Read the full case study](/projects/albion/) to find out the process.
 
 [AIN Jobs](https://jobs.angelinvestmentnetwork.co.uk). A Gatsby site which generates it’s content directly from markdown files. Simple as it gets with Gatsby and React.
