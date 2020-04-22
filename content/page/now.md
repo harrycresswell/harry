@@ -17,6 +17,7 @@ I’m in London, on lockdown due to the Covid-19 Coronavirus outbreak. I’m wel
 
 ### Current Projects
 
+- I’m building a UI style guide generator with Eleventy, which takes a set of [design tokens](https://css-tricks.com/what-are-design-tokens/) stored as yaml data and turns them into Sass variables to use in your styles, and JSON to use in your templates. The idea is inspired by [Andy Bell’s Hylia Starter Kit](https://hylia.website/styleguide/).
 - I just launched [Local London](https://locallondon.life), a directory of London food & drink suppliers who deliver to your door. I’m working on the project with my friend Rozzy in response to the Covid-19 outbreak.
 - [Ben](https://benmclaren.xyz/) and I built [Remote Cards](https://remote.cards/) over the weekend, a fun tool for live streaming, which helps you promote when you’re going live
 - [Beanie](https://www.instagram.com/beaniemajor/), [Luke](https://lukeharvey.co.uk/) and I recently launched [a shiny new look for In Detail](https://indtl.com/)
@@ -32,6 +33,6 @@ I’m in London, on lockdown due to the Covid-19 Coronavirus outbreak. I’m wel
 - [Sanity.io](https://www.sanity.io/), an API based CMS
 - German (this one might be here for a while)
 
-**Last Updated:** April 15, 2020.
+**Last Updated:** April 22, 2020.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
