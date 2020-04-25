@@ -1157,10 +1157,12 @@ video {
 
 .Likes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 32px;
   justify-content: space-between;
   margin: calc(var(--space)*6) 0; }
+  @media (min-width: 48em) {
+    .Likes {
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); } }
 
 .LikesItem {
   border: dotted 1px var(--color-dark);
