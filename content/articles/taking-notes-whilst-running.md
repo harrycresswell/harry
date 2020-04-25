@@ -27,7 +27,7 @@ So here’s a dirt simple approach, which you might have more luck with. It invo
 5. You speak your idea and Siri creates a new note
 6. You carry on thinking up ideas while you run
 
-I told you it was simple. I like simple.
+I told you it was simple. [I like to keep it simple](https://harrycresswell.com/articles/intentions-2020/#keep-it-simple).
 
 Now, if this worked with [Notion](https://www.notion.so/) then we’d really be in business. I wouldn’t have to transfer notes manually and that would be awesome. Maybe that time will come.
 
