@@ -10,9 +10,9 @@ syndicate: "false"
 
 Your macOS machine will read any document out loud to you. Did you know that? Until only a few weeks ago, I honestly had no idea about most of the accessibility features Mac ships with.
 
-I found myself watching [Molly Burke](https://www.youtube.com/watch?v=TiP7aantnvE&t=248s), a partially sighted Youtuber, explain how she uses her laptop on a daily basis. Molly, like many, depends on a screen reader and accessibility features to do the things like surf the internet. Something many of us take for granted.
+I found myself watching [Molly Burke](https://www.youtube.com/watch?v=TiP7aantnvE&t=248s), a partially sighted Youtuber, explain how she uses her laptop on a daily basis. Molly, like many, depends on a screen reader and accessibility features to do simple things that most of us take for granted, like surfing the internet.
 
-Not long after that I heard Amruta Ranade mention a macOS tool called ”text to speech”, in her video on [The four-drafts](https://dev.to/amrutaranade/how-to-write-a-blog-post-the-four-drafts-method-1k7b) method. In short, Amruta uses Text to Speech to listen for any awkward phrasing or weird sentence structure in her writing.
+Not long after that I heard Amruta Ranade mention a macOS tool called ”text to speech” in her video on [The four-drafts](https://dev.to/amrutaranade/how-to-write-a-blog-post-the-four-drafts-method-1k7b) method. In short, Amruta uses Text to Speech to listen for any awkward phrasing or weird sentence structure in her writing.
 
 This totally blew my mind. Why wasn’t I doing this? After giving it some thought, I had one of those real ”ahah” moments.
 
@@ -20,7 +20,7 @@ It went something like this:
 
 > If your writing doesn’t make sense when you hear it read by a screen reader, then it’s simply not accessible to everyone.
 
-Now I’ve written it down it seems kinda obvious now. But I guarantee it’s something many of us overlook. It’s certainly something I failed to appreciate until very recently.
+Now I’ve written it down it seems kinda obvious. But I’m ashamed to say it something I’ve failed to appreciate until very recently. I’m sure I’m not the only one either.
 
 So I want to show you how to change that.
 
