@@ -24,7 +24,7 @@ Now I’ve written it down it seems kinda obvious. But I’m ashamed to say it s
 
 So I want to show you how to change that.
 
-Text to Speech is super easy to set up. You don’t need to install any fancy software, you just need to be a Mac user.
+Text to Speech is super easy to set up. You don’t need to install any fancy software, you just need to be a Mac user running Mac Sierra or above.
 
 ## Setting up Text to Speech
 
