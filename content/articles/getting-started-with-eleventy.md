@@ -16,13 +16,13 @@ This article will get you up and running with a simple [Eleventy](https://www.11
 
 We’ll cover templating, working with data, setting up collections, and compiling Sass to CSS using NPM Scripts. By the end you should have a solid foundation, ready to build upon for your next project.
 
-So what’s the big deal is with Eleventy and why is it’s becoming so popular? You may be wondering why we even need another static site generator (SSG) when there’s literally hundreds of SSG’s out there. I had these questions too, so before we get into it I’ll do my best to answer them.
+So what’s the big deal with Eleventy and why is it becoming so popular? You may be wondering why we even need another static site generator (SSG) when there’s literally hundreds of SSG’s out there. I had these questions too, so before we get into it I’ll do my best to answer some of them.
 
 ## Why Eleventy?
 
-Zach Leatherman built Eleventy in 2017 as a JavaScript alternative to Jekyll. So it will appeal, if like me, you’d rather write JavaScript than Ruby, and you’re more familiar with the NPM package library than with Ruby Gems.
+[Zach Leatherman](https://twitter.com/zachleat/) built Eleventy in 2017 as a JavaScript alternative to Jekyll. So it will appeal, if like me, you’d rather write JavaScript than Ruby, and you’re more familiar with the NPM package library than with Ruby Gems.
 
-Eleventy is extremely simple. Zach describes it as more of a utility, than a framework. At it’s core, all it does is take templates and outputs HTML. And it takes very few files and very little code to get all this working.
+Eleventy is extremely simple. Zach describes Eleventy as more of a utility, than a framework. At it’s core, all it does is take templates and outputs HTML. And it takes very few files and very little code to get all this working.
 
 Perhaps the biggest sell with Eleventy is flexibility. Eleventy is, by default, zero config. Which means you don’t need a config file or in fact need to do anything much to build a website.
 
@@ -652,7 +652,7 @@ Remember, we set `includes: "_includes"` inside our config file, so Eleventy wil
 
 By doing this we avoid the need to install further NPM packages such as [Browsersync](https://www.browsersync.io/) and keep our dependencies to a minimum.
 
-### Watch for changes
+### Watching for changes
 
 Although Eleventy will watch for changes to our CSS, we still need a way to watch for changes to our SCSS, so we don’t have to run our _scss_ script every single time we add styles or make a change.
 
@@ -775,11 +775,15 @@ Now we have six scripts, however in most cases we’ll only ever need to run our
 
 We can now use the command `npm run build` anytime we want to build a fresh copy of the site to the `_site` folder.
 
-## Adding the finish touches
+## Adding the finishing touches
 
 Before we finish we still need to do a couple of things. If you haven’t already done so, you will want to initiate Git, so you can keep track of changes in your project and push your work to Github.
 
-Let’s start by adding a `.gitignore` file at the project root and inside the file add the following two lines:
+```
+git init
+```
+
+Next let’s add a `.gitignore` file at the project root. Inside the file add the following two lines:
 
 ```
 node_modules
@@ -790,7 +794,7 @@ The first line will prevent Git from tracking our _node modules_ directory. Our 
 
 Likewise we don’t want to upload our _\_site_ directory to Github as this will be created when we run our scripts or automated by a deployment tool such as Netlify. So the second line takes care of that.
 
-Finally, let’s create a [README.md file](https://github.com/harrycresswell/eleventy-starter/blob/master/README.md). This acts as helpful documentation, both for us – so we remember how to install and use our project – and for any other developer who might want to clone a copy from Github and build something with it.
+Finally, let’s create a [README.md](https://github.com/harrycresswell/eleventy-starter/blob/master/README.md) file. This acts as helpful documentation, both for us – so we remember how to install and use our project – and for other developers who might want to [clone a copy from Github](https://github.com/harrycresswell/eleventy-starter) and build something with it.
 
 ## Conclusion
 
@@ -802,14 +806,14 @@ With the addition of a few NPM Scripts we can maintain a minimal build process w
 
 Until recently [Hugo](https://gohugo.io/) has been my go-to SSG of choice, primarily because it’s super fast and has zero dependencies, which makes it a solid choice. But writing JavaScript over Go is certainly appealing, and perhaps the more familiar language for many of us.
 
-Web development has become increasingly complex over the years, but it doesn’t have to be. There are some great tools out there to help you keep it simple and Eleventy sure fits that bill.
+Web development has become increasingly complex over the years, but it doesn’t have to be. There are some great tools out there to help you [keep it simple](https://harrycresswell.com/articles/intentions-2020/#keep-it-simple) and Eleventy sure fits that bill.
 
 ## Further reading and credits
 
 I wanted to add this last part to give credit where credit is due. Most of what I know about Eleventy I’ve learnt from the following resources.
 
 - [Introducing Eleventy](https://www.zachleat.com/web/introducing-eleventy/) by Zach Letherman
-- The [Official Eleventy Docs](https://www.11ty.io/docs/)
+- [Official Eleventy Docs](https://www.11ty.io/docs/) by Zach Letherman
 - [What I like about Eleventy](https://daverupert.com/2019/08/what-i-like-about-eleventy/) from Dave Rupert
 - [Creating a blog with Eleventy](https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/) from Jon Keeping
 - [Turn Jekyll up to Eleventy](https://24ways.org/2018/turn-jekyll-up-to-eleventy/) from Paul Lloyd
@@ -823,4 +827,4 @@ My understanding of NPM Scripts and the script workflow I used was heavily inspi
 - [A modern front-end workflow](https://css-irl.info/a-modern-front-end-workflow-part-1/) by Michelle Barker
 - [Why NPM Scripts](https://css-tricks.com/why-npm-scripts/) by Damon Bauer
 
-_As always, if you spot any mistakes or have any issues at any point [please let me know](mailto:studio@harrycresswell.com) and I will endeavor to make the necessary changes to put things right._
+_I’ve done my best to crosscheck everything in this article, but if you spot any mistakes or have any issues [please let me know](mailto:studio@harrycresswell.com) and I will endeavor to make the necessary changes or help you out where I can._
