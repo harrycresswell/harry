@@ -76,7 +76,7 @@ country:
 
 ### Using the data
 
-By using the `range` function you can loop through the content, accessing the data folder with `.Site.Data` followed by the name of the file and the nested data structure.
+By using the [range](https://gohugo.io/functions/range/#readout) function you can loop through the content, accessing the data folder with `.Site.Data` followed by the name of the file and the nested data structure.
 
 To retrieve data from my `africa.yaml` data file I used the following code:
 
@@ -92,7 +92,7 @@ To retrieve data from my `africa.yaml` data file I used the following code:
 
 Where `{{ .name }}` prints out the name of the country.
 
-To see this in action [check out this prototype](http://www.harrycresswell.co.uk/client/ain/ain-filters/) and hit the filter button  above the search called `country`.
+To see this in action [check out this prototype](http://www.harrycresswell.co.uk/client/ain/ain-filters/) and hit the filter button above the search called `country`.
 
 If you are applying this to your own data be sure to update `countries.continent.africa.country` with your specific data structure.
 
@@ -102,7 +102,7 @@ Data files in Hugo make working with large amounts of data a whole lot less cumb
 
 For more on data in Hugo head to the docs, where you can learn about “data-driven content” data features, which lets you load any `JSON` or `CSV` file from nearly any resource.
 
-
 ## Further reading
+
 - [How to use Data Files in Hugo: an example](https://novelist.xyz/tech/hugo-data-files/) by Peter Y. Chuang
 - [Data Templates](https://gohugo.io/templates/data-templates/) fro the Hugo Docs

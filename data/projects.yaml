@@ -1,0 +1,24 @@
+- title: Local London
+  description: A directory of London food & drink suppliers who deliver to your door. I started the project in response to the Covid-19 lockdown, to help support local Londoners and local suppliers who are still operating.
+  link: https://locallondon.life/
+- title: Remote Cards
+  description: A “Hello” card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown, in response to the increasing use of video tools.
+  link: https://remote.cards/
+- title: AIN Jobs
+  description: A jobs board prototype which generates it’s content directly from markdown files. Built using Gatsby, React and GraphQL.
+  link: https://jobs.angelinvestmentnetwork.co.uk/
+- title: In Detail
+  description: An engagememnt ring concierge service which started life as a jewellery blog. I co-founded the project back in 2011, with [Beanie Major](http://instagram.com/beaniemajor).
+  link: https://indtl.com/
+- title: OPM
+  description: A simple Hugo site with a Git based CMS. Designed and built for a London based music, sound and visual agency. The site uses Forestry CMS, Cloudinary for media and Netlify for hosting.
+  link: https://opm.london/
+- title: Type Services
+  description: A type foundry I set up in 2017 with a focus on hand drawn type and imperfection in type design.
+  link: https://typeservices.co/
+- title: Mood
+  description: A visual aid for creative projects – a moodboard of things I like. None of the content is my own. Built with Hugo, hosted with Netlify.
+  link: https://mood.harrycresswell.com/
+- title: Dark Sky
+  description: is an electronic music project by Matt Benyayer. Since 2012 we’ve collaborated on artwork for most of Matts releases. You’ll find the music and artwork on my [Soundcloud](https://soundcloud.com/harrycresswell) page.
+  link: https://soundcloud.com/dark-sky
