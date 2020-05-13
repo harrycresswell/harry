@@ -1,8 +1,8 @@
 ---
 title: "Design & Code"
 date: "2016-10-24T17:23:17+01:00"
-description: "Harry Cresswell is a professional Front-end web developer from London, England. Read technical articles and notes on design and code."
-intro: "Hey, I’m Harry Cresswell, a freelance front-end web developer and UX/UI designer from London, England."
+description: "Harry Cresswell is a professional designer Front-end web developer from London, England. Read technical articles and notes on design and code."
+intro: "Hey, I’m Harry Cresswell, a freelance designer and front-end web developer from London, England."
 draft: false
 ---
 
@@ -14,7 +14,7 @@ Currently I live between London and Hamburg, where I work with a handful of clie
 
 ## Where to go next
 
-You can find out [what I'm up to right now](/now/), check out a few of my [recent projects](/projects/) or read about some of the ways you can [work with me](/work-with-me/). Alternatively, take a look at [my CV](pdf/harry-cresswell-cv-feb-20.pdf) to get an idea of my experience.
+You can find out [what I'm up to right now](/now/), check out a few of my [recent projects](/projects/) or read about some of the ways you can [work with me](/work-with-me/). Alternatively, take a look at [my CV](pdf/harry-cresswell-cv-may-20.pdf) to get an idea of my experience.
 
 If you’re more interested in [how I buit this site](/build/), I’ve tried my best to list all the tools and techniques I used. Check out my [uses](/uses/) page, if you want to know more about my office setup and the tools I use most days.
 
