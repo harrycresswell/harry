@@ -1,6 +1,6 @@
 ---
 title: "Passing data to templates and tables in Hugo"
-date: 2020-05-14T13:16:48+01:00
+date: 2020-05-15T08:44:48+01:00
 draft: false
 description: "Using data files to generate lists and tables, which can then be managed and updated from Git-backed Forestry CMS."
 slug: "passing-data-to-templates-hugo"
