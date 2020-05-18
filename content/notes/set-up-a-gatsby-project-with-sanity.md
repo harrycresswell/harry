@@ -2,7 +2,7 @@
 title = "Set up a Gatsby project with Sanity"
 date = "2019-08-05T11:32:35+02:00"
 description = "How to configure Gatsby to play nice with Sanity. Including configuring the gatsby-source-sanity plugin and some cool extra development features that ship with Sanity."
-slug = "til-04-new-gatsby-site-sanity-cms"
+slug = "new-gatsby-site-sanity-cms"
 tags = ["Today I Learned", "Sanity", "Gatsby"]
 draft = "false"
 type = "note"
@@ -57,10 +57,10 @@ If you chose to make your dataset private you will also need to add a permission
 
 Sanity has a cool feature which allows for realtime content updates in local development. So if you have your content studio and front end side-by-side in two different browser windows, you will see any changes you make to the content in the studio change in realtime in Gatsby.
 
-To get this set up correctly 
+To get this set up correctly
 
 - go to `manage.sanity.io` and find your project (or run the command `sanity manage` in the studio folder).
-- Head to `Settings > API`,  then scroll down to the Tokens section
+- Head to `Settings > API`, then scroll down to the Tokens section
 - Add a new token and give it read privileges.
 - Back in the root of your `/web` project locate `.env.development.template` and rename it to `.env.development`.
 - Add your new token to the key: `SANITY_READ_TOKEN="<token here>"`
