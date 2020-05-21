@@ -40,9 +40,15 @@ I work with startups, small businesses, agencies and individuals who need a web 
 
 My clients tend to be those keen to execute ideas, but don’t necessarily have the technical skills to do so. Or those who’d rather save on big agency fees by investing their budget in good design, at an affordable rate, from an independent designer.
 
-## What I charge
+## How I charge
 
-My rate is £1.5k — £2.5k per week, depending on the requirements and my involvement in the project. I charge a flat fee for all projects, so no hourly rate, just a single project price.
+My rate varies depending on your situation and needs.
+
+If you are an independent individual just starting then I will charge a considerable amount less than if you are an established business who has just raised investment.
+
+If you are a non-profit or charity then I will often waiver my fee entirely.
+
+I charge a flat fee for all projects, so no hourly rate, just a single project price.
 
 ## Get in touch
 
