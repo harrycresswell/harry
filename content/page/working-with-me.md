@@ -56,8 +56,4 @@ If you are a non-profit organisation or charity then I will often waiver my fee 
 
 ## Get in touch
 
-If you have a project in mind, and you think I might be a good fit, then let’s talk about it and we can take it from there.
-
-## Get in touch
-
 If you have a project in mind, and you think I might be a good fit, then [let’s talk about it](/contact/) and we can take it from there.

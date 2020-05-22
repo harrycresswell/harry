@@ -1,18 +1,17 @@
 <!-- Post Author. -->
 <div class="PostAuthor">
-    <img class="Avatar Avatar--round Avatar--m u-photo" src="https://harrycresswell.com/img/hc.jpg"
-        alt="Harry Cresswell">
-    <div class="PostAuthor-text">
-        <h4>Did you enjoy this?</h4>
-        <p>If so, consider signing up for my newsletter &darr;</p>
-    </div>
+  <img alt="Harry Cresswell" class="Avatar Avatar--round Avatar--m u-photo" src="https://harrycresswell.com/img/hc.jpg">
+  <div class="PostAuthor-text">
+    <h4>Did you enjoy this?</h4>
+    <p>Sign up for my newsletter below &darr;</p>
+  </div>
 </div>
 
 <!-- Microformat2 data -->
 <div hidden>
-    <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
-    <p class="h-card p-author">
-        <a class="p-name u-url" href="{{ $.Site.BaseURL }}" rel="author">Harry Cresswell</a>
-        <img class="u-photo" src="https://harrycresswell.com/img/hc.jpg" alt="Harry Cresswell">
-    </p>
+  <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
+  <p class="h-card p-author">
+    <a class="p-name u-url" href="{{ $.Site.BaseURL }}" rel="author">Harry Cresswell</a>
+    <img alt="Harry Cresswell" class="u-photo" src="https://harrycresswell.com/img/hc.jpg">
+  </p>
 </div>
