@@ -16,11 +16,11 @@ This should give you an idea of whether I'm the right person to design and build
 
 Essentially, what we’ll be doing is designing and building a bespoke website which represents your brand and meets your expectations.
 
-First we’ll discuss the requirements for the website, then set the goals for the project. Then we’ll explore design ideas and decide the appropriate direction to take. From here I’ll then create designs based on these decisions.
+First we’ll discuss the requirements for the website, then set the goals for the project. From here we’ll explore design ideas and decide the appropriate direction to take. Then I’ll work on some designs based on our discussion and decisions.
 
-Once you’re happy with the design and any required revisions have been made, I’ll build the design in code, ready for launch.
+Once you’re happy with the design and any required revisions have been made, I’ll build the design in code, and add initial content so we’re ready to test before launch.
 
-We’ll keep this process as dynamic and fluid as possible, and keep in regular contact throughout the project.
+We’ll keep the project as dynamic and fluid as possible, and stay in regular contact throughout the process.
 
 When it comes to building your website, behind the design and code your shop will be powered by a popular eCommerce solution called Shopify.
 
@@ -67,7 +67,7 @@ I request a **50% payment upfront** to make sure we’re both committed to the p
 
 This fee covers any technical help you may need to get up and running, including guidance using Shopify’s content management system to manage your products and process orders.
 
-This price won’t change and there won’t be any other hidden costs involved. However, If you require content creation such as copywriting or photography, this can be discussed at an additional cost.
+This price won’t change and there won’t be any other hidden costs involved. However, if you require content creation such as copywriting or photography, this can be discussed at an additional cost.
 
 ## How long it takes
 
@@ -75,7 +75,7 @@ This price won’t change and there won’t be any other hidden costs involved. 
 
 This timeframe is largely dependent on how far along you are with the content for the website, and how clear you are about what you want to achieve from the project.
 
-Creating content for your website is often the most time-consuming part. This includes writing copy for pages (about page, delivery and returns, privacy policy, etc), photographing products and organising initial imagery for launch.
+Creating content for a website is often the most time-consuming part. This includes writing copy for pages (about page, delivery and returns, privacy policy, etc), photographing products and organising initial imagery for launch.
 
 If you already have content for you website that’s great, we should be able to complete the project within this timeframe.
 
@@ -90,4 +90,4 @@ If this sounds good and you’re happy with my approach, then please fill out th
 
 The aim of the project planner is to get a better understanding of what stage you’re currently at with the planning of your website, and what’s required from the project. This will help make sure we’re both on the same page before we begin.
 
-Following this we can jump on a call to discuss the project in more detail and identify any specific requirements. Then if all is well we can get the project underway.
+Following this we can jump on a call to discuss the project in more detail and identify any specific requirements. Then, if all is well we can get the project underway.
