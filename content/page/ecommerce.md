@@ -14,13 +14,15 @@ This should give you an idea of whether I'm the right person to design and build
 
 ## About the process
 
-Essentially what we’ll be doing is designing and building a bespoke website which fits your brand and style.
+Essentially, what we’ll be doing is designing and building a bespoke website which represents your brand and meets your expectations.
 
-First we’ll discuss the requirements for the website, then set the goals and expectations for the project. Then we’ll explore design ideas and decide the appropriate direction to take. I’ll then create designs based on these decisions.
+First we’ll discuss the requirements for the website, then set the goals for the project. Then we’ll explore design ideas and decide the appropriate direction to take. From here I’ll then create designs based on these decisions.
 
 Once you’re happy with the design and any required revisions have been made, I’ll build the design in code, ready for launch.
 
-Behind the design and code of your website, your shop will be powered by a popular eCommerce solution called Shopify.
+We’ll keep this process as dynamic and fluid as possible, and keep in regular contact throughout the project.
+
+When it comes to building your website, behind the design and code your shop will be powered by a popular eCommerce solution called Shopify.
 
 ## About Shopify
 
@@ -30,7 +32,7 @@ Using Shopify makes it much faster and more affordable to get up and running sel
 
 The platform has excellent support and a whole host of integrations to extend the functionality of your website, should you want to add custom features or wish to scale in the future.
 
-Basically, Shopify is awesome and trusted by loads of businesses.
+Basically, Shopify is a great product that’s trusted by lots of businesses.
 
 ## Shopify fees
 
@@ -44,11 +46,13 @@ You can find more information about Shopify’s fees [here](https://www.shopify.
 
 ## Previous project
 
-To give you an idea of how your eCommerce website might function, I previously designed a Shopify powered website for [albioncycling.com](https:/>/www.albioncycling.com/).
+To give you an idea of how your eCommerce website might function, I previously designed a Shopify powered website for [albioncycling.com](https://www.albioncycling.com/).
 
 For a detailed look at my process for this project, you can find a case study here: [Albioncycling.com case study](https://harrycresswell.com/projects/albion/).
 
 ## Client testimonials
+
+Here are a couple of testimonials in case you’re interested to read what a few of my previous clients have to say:
 
 > “Harry manages to at once meet seriously impressive digital skills with a great eye for design and an attention to detail that can satisfy even a client with OCD...Nothing is ever too much trouble.”
 > – Rose Beer @ Rose Beer Beauty.
@@ -59,7 +63,7 @@ For a detailed look at my process for this project, you can find a case study he
 
 To keep things simple, I charge a flat fee of **£1500** to design and build an eCommerce website.
 
-I request a **50% payment upfront**, so we’re both committed to the project, and the final **50% on completed**, once you’re happy with the final outcome.
+I request a **50% payment upfront** to make sure we’re both committed to the project, and **50% on completion**. I only request the final payment once you’ve confirmed you’re happy with the final outcome.
 
 This fee covers any technical help you may need to get up and running, including guidance using Shopify’s content management system to manage products and track your orders.
 
@@ -75,7 +79,8 @@ Creating content for your website is often the most time-consuming part. This in
 
 If you already have content for you website that’s great, we should be able to complete the project within this timeframe.
 
-If you haven’t even thought about content yet, then not to worry. But it might be worth taking a step back to focus on this part first, before we begin designing and building the website. We can figure out the best direction to take next.
+If you haven’t even thought about content yet, or only have some, then not to worry.
+We can discuss the best direction to take before getting underway with the project.
 
 ## Next steps
 
@@ -83,8 +88,6 @@ If this sounds good and you’re happy with my approach, then please fill out th
 
 [eCommerce Website Project Planner](https://harrycresswell.typeform.com/to/JlvvVS)
 
-The aim of the project planner is to get a better understanding of where you’re currently at with the planning of your website, and what’s required from the project. This will get me up to speed and make sure we’re both be on the same page from the start. From here I’ll get a good of where to take the project next.
+The aim of the project planner is to get a better understanding of what stage you’re currently at with the planning of your website, and what’s required from the project. This will help make sure we’re both on the same page before we begin.
 
-Following this we can jump on a call to discuss specific requirements, and if all is well get the project underway.
-
-If you have any questions at any point then please let me know!
+Following this we can jump on a call to discuss the project in more detail and identify any specific requirements. Then if all is well we can get the project underway.
