@@ -65,7 +65,7 @@ To keep things simple, I charge a flat fee of **£1500** to design and build an 
 
 I request a **50% payment upfront** to make sure we’re both committed to the project, and **50% on completion**. I only request the final payment once you’ve confirmed you’re happy with the final outcome.
 
-This fee covers any technical help you may need to get up and running, including guidance using Shopify’s content management system to manage products and track your orders.
+This fee covers any technical help you may need to get up and running, including guidance using Shopify’s content management system to manage your products and process orders.
 
 This price won’t change and there won’t be any other hidden costs involved. However, If you require content creation such as copywriting or photography, this can be discussed at an additional cost.
 
@@ -80,7 +80,7 @@ Creating content for your website is often the most time-consuming part. This in
 If you already have content for you website that’s great, we should be able to complete the project within this timeframe.
 
 If you haven’t even thought about content yet, or only have some, then not to worry.
-We can discuss the best direction to take before getting underway with the project.
+We can discuss the best direction to take before getting the project underway.
 
 ## Next steps
 
