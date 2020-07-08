@@ -61,7 +61,7 @@ Here are a couple of testimonials in case you’re interested to read what a few
 
 ## What I charge
 
-To keep things simple, I charge a flat fee of **£1500** to design and build an eCommerce website.
+To keep things simple, I charge a flat fee of **£3000** to design and build a fully custom eCommerce website.
 
 I request a **50% payment upfront** to make sure we’re both committed to the project, and **50% on completion**. I only request the final payment once you’ve confirmed you’re happy with the final outcome.
 
