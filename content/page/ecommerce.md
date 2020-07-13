@@ -16,7 +16,7 @@ This should give you an idea of whether I'm the right person to design and build
 
 Essentially, what we’ll be doing is designing and building a bespoke website which represents your brand and meets your expectations.
 
-First we’ll discuss the requirements for the website, then set the goals for the project. From here we’ll explore design ideas and decide the appropriate direction to take. Then I’ll work on some designs based on our discussion and decisions.
+First we’ll discuss the requirements for the website, then set the goals for the project. From here we’ll explore design ideas and decide the appropriate direction to take. I’ll work on designs prototypes based on our discussion and decisions.
 
 Once you’re happy with the design and any required revisions have been made, I’ll build the design in code, and add initial content so we’re ready to test before launch.
 
@@ -32,7 +32,7 @@ Using Shopify makes it much faster and more affordable to get up and running sel
 
 The platform has excellent support and a whole host of integrations to extend the functionality of your website, should you want to add custom features or wish to scale in the future.
 
-Basically, Shopify is a great product that’s trusted by lots of businesses.
+Basically, Shopify is a great product trusted by many businesses.
 
 ## Shopify fees
 
@@ -61,7 +61,7 @@ Here are a couple of testimonials in case you’re interested to read what a few
 
 ## What I charge
 
-To keep things simple, I charge a flat fee of **£3000** to design and build a fully custom eCommerce website.
+To keep things simple, I charge a flat fee of **£4000** to design and build a fully custom eCommerce website.
 
 I request a **50% payment upfront** to make sure we’re both committed to the project, and **50% on completion**. I only request the final payment once you’ve confirmed you’re happy with the final outcome.
 
@@ -71,16 +71,11 @@ This price won’t change and there won’t be any other hidden costs involved. 
 
 ## How long it takes
 
-**2-3 weeks** should be more than enough time to design and build the website, however I usually allow **4 weeks** as a buffer, just in case there are any issues or setbacks during the process.
+Allow **6-8 weeks** from the project start date to completion.
 
-This timeframe is largely dependent on how far along you are with the content for the website, and how clear you are about what you want to achieve from the project.
+If content for your website is provided upfront and you are clear about what you want to achieve from the design, then we should be able to complete the project within this timeframe. The project may well complete in a shorter timeframe. However, if you haven’t finalised product and text content then expect the project to take longer.
 
-Creating content for a website is often the most time-consuming part. This includes writing copy for pages (about page, delivery and returns, privacy policy, etc), photographing products and organising initial imagery for launch.
-
-If you already have content for you website that’s great, we should be able to complete the project within this timeframe.
-
-If you haven’t even thought about content yet, or only have some, then not to worry.
-We can discuss the best direction to take before getting the project underway.
+Creating content for a website is often the most time-consuming part. This includes writing copy for pages (about page, delivery and returns, privacy policy, etc), photographing products and organising initial imagery for launch. So it’s worth taking the time to consider want you want on your website and collecting content before the project begins. This is the best way to ensure deadlines are met and the cost is kept to a minimum.
 
 ## Next steps
 
