@@ -16,4 +16,4 @@ Studio HC Ltd, Company No. 9442649,
 
 ## Privacy Policy
 
-Here‘s my [privacy policy](/privacy) for those interested in what data I collect, what I do with it and how I keep it safe.
+Here’s my [privacy policy](/privacy) for those interested in what data I collect, what I do with it and how I keep it safe.
