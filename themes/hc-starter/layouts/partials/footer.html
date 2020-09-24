@@ -15,17 +15,17 @@
   <!-- Store JS files independently -->
   {{ $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" }}
   {{ $lazysizes := resources.Get "js/lazysizes.js" }}
-  {{ $likes := resources.Get "js/likes.js" }}
+  {{/*  {{ $likes := resources.Get "js/likes.js" }} */}}
 
   <!-- Concat JS, generate default app.js and app-likes -->
   {{ $defaultJS := slice $cloudinary $lazysizes | resources.Concat "app.js" }}
-  {{ $likesJS := slice $cloudinary $lazysizes $likes | resources.Concat "app-likes.js" }}
+  {{/*  {{ $likesJS := slice $cloudinary $lazysizes $likes | resources.Concat "app-likes.js" }} */}}
   <!-- Set default -->
   {{ $script := $defaultJS }}
   <!-- Where type = likes in frontmatter, override default with likesJS -->
-  {{if eq .Type "likes" }}
+  {{/*  {{if eq .Type "likes" }}
   {{ $script = $likesJS }}
-  {{ end }}
+  {{ end }} */}}
   <!-- Assign script to global, minify and fingerprint -->
   {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
   <!-- Load script and authenticate hashed file -->

@@ -3,7 +3,6 @@ title = "Albion"
 date = "2019-08-30T16:44:00+01:00"
 description = "Designing a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
 slug = "albion"
-tags = ["UX Design", "UI Design", "Prototyping", "Usability Testing", "Email Marketing"]
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
 duration = "September 2016 (to present)"
 draft = "false"
