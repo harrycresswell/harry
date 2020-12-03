@@ -6,53 +6,47 @@ slug: "how"
 url: "work-with-me"
 ---
 
-{{< intro >}}This page will give you a clear idea of ways we can work together and if I’m the right fit for your next project.{{< /intro >}}
-
-## Who I am
+{{< intro >}}Here are a few ideas of how we can work together and whether I’m the right fit for your next project.{{< /intro >}}
 
 My name is Harry Cresswell, I’m an independent designer and front-end web developer from London, England.
 
-I’ve spent the last 7 years helping startup businesses and independent individuals get set up online.
+I’ve spent the last 8 years helping startups and independent individuals set up online.
 
 ## What I do
 
-To put it simply I design and code content based websites.
+From early stage concepts through to product lauch, I wireframe, prototype and code content based websites using HTML, CSS and JavaScript.
 
-From concept through to launch, I wireframe, prototype and code designs into fully functioning websites.
+I specialise in creating [Jamstack](https://jamstack.org/) websites from scratch using [Hugo](https://gohugo.io/) and [Eleventy](https://www.11ty.dev/), and eCommerce stores using [Shopify](https://www.shopify.com/). I am well versed in content modeling and creating content management systems using [Forestry](https://forestry.io/), [NetlifyCMS](https://www.netlifycms.org/) and [Sanity](https://www.sanity.io/).
 
-My tools of choice are HTML, CSS and JavaScript. I specialise in creating “Jamstack” websites with Hugo and Eleventy, and eCommerce stores using Shopify.
+I tend to build clean, simple websites, with a focus on typography. I don’t belive in overcomplicating things. Expect a performant, robust website which is quick to load and cost effective to run.
 
-I also implement content management systems using Forestry, Netlify CMS and Sanity, so you can manage the content on your website.
+## What I don’t do
 
-If you are looking for an app developer, or someone to help create a website driven by user data, then I’m not your guy.
+If you are looking to build a native IOS or Andriod app, or anything powered by user driven data, then I’m not the right person for the job.
 
-The websites I build are robust and cost effective to run. They load fast and are optimised for search engines. They aim to meet accessibility standards and be as inclusive as possible, so you can call those who use assistive technologies your customers.
+If you have a ridculous brief like “Just make people go WOW” (yes, that was the brief) or aren’t prepared to offer any input or direction, then I suggest looking elsewhere.
+
+If you’re looking to tweak an existing theme, you need help with your Squarespace, Wix site or Bebo page, then I’m not your guy. There was a time, but thankfully that time has now past.
 
 ## How I work
 
-I believe that communication and collaboration are vital to the success of a project.
+I believe communication and collaboration are vital to the success of a project. I like to ask questions and involve clients in every step of product development, so we’re on the same page from start to finish.
 
-I like to keep the process as dynamic and fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we find the right solution.
-
-I’m not afraid to ask questions, sometimes they might sound stupid, but the better I understand your vision, the sooner I can help you create the right product.
-
-I won’t disappear for weeks on end then deliver a product which doesn’t meet your expectations. Instead you’ll be involved through every step of product development, so we’re on the same page from start to finish.
+I keep my process dynamic and as fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we find the right solution.
 
 ## Who hires me
 
-I work with startups, small businesses, agencies and individuals who need a web developer with a good understanding of design, who is experienced in launching products online.
+I work with startups, small independent businesses, agencies and individuals looking for a web developer who understands design, and knows how to turn ideas from design mockups into code.
 
-My clients tend to be those keen to execute ideas, but don’t necessarily have the technical skills to do so. Or those who’d rather save on big agency fees by investing their budget in good design, at an affordable rate, from an independent designer.
+My clients are keen to execute ideas, but don’t necessarily have the technical skills or time to do so. They would rather invest their budget in good design, at an affordable rate, from an independent designer. Rather than spending the earth on agency fees.
 
 ## What I charge
 
 My rate varies depending on your situation and needs.
 
+If you are an independent individual just starting out, then I will charge a considerable amount less than if you are an established business who has just raised investment. If you are a non-profit organisation or charity then I will often waiver my fee entirely.
+
 I charge a flat fee for all projects, so no hourly rate, just a single project price.
-
-If you are an independent individual just starting out, then I will charge a considerable amount less than if you are an established business who has just raised investment.
-
-If you are a non-profit organisation or charity then I will often waiver my fee entirely.
 
 ## Get in touch
 
