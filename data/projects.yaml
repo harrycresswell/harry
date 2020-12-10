@@ -10,6 +10,9 @@
 - title: In Detail
   description: An engagememnt ring concierge service which started life as a jewellery blog. I co-founded the project back in 2011, with [Beanie Major](http://instagram.com/beaniemajor).
   link: https://indtl.com/
+- title: Rebekka Writes
+  description: A personal blog for German copywriter Rebekka Villbrandt. The websites is built using Hugo and is the first site I’ve designed and built specifically for German content.
+  link: https://rebekkawrites.com/
 - title: OPM
   description: A simple Hugo site with a Git based CMS. Designed and built for a London based music, sound and visual agency. The site uses Forestry CMS, Cloudinary for media and Netlify for hosting.
   link: https://opm.london/
