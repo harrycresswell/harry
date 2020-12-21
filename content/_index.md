@@ -8,7 +8,7 @@ draft: false
 
 {{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
 
-I write [articles on design and code](/articles/) and curate [a weekly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things](/notes/) I’m learning.
+I write [articles on design and code](/articles/) and curate [a ~~weekly~~ monthly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things](/notes/) I’m learning.
 
 Currently I live between London and Hamburg, where I work with a handful of clients. In my free time I enjoy running, climbing, hiking and skiing in winter. I practice yoga and meditation most mornings.
 

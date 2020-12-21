@@ -63,9 +63,14 @@ enableEmoji = true
   weight = 15
 
 [[menu.main]]
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 20
+
+[[menu.main]]
   name = "Tags"
   url = "/tags/"
-  weight = 20
+  weight = 25
 
 [[menu.footer]]
   name = "Projects"
@@ -83,6 +88,11 @@ enableEmoji = true
   weight = 15
 
 [[menu.footer]]
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 20
+
+[[menu.footer]]
   name = "Tags"
   url = "/tags/"
-  weight = 20
+  weight = 25

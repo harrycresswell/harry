@@ -6,7 +6,7 @@
       </header>
 
       <section class="PostMeta">
-        <time class="PostMeta-date dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+        <time class="PostMeta-date dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
         {{ partial "post/tags.html" . }}
       </section>
 

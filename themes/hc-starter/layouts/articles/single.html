@@ -12,8 +12,11 @@
 
       <section class="PostBody e-content">
         {{ partial "heading-anchor.html" .Content }}
-        {{ partialCached "post/author.html" . }}
       </section>
+
+      <footer>
+        {{ partialCached "post/author.html" . }}
+      </footer>
 
   </article><!--/.Content -->
 {{ end }}

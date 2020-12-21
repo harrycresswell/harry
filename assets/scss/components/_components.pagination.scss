@@ -1,0 +1,24 @@
+ul.Pagination {
+  display: flex;
+  margin-top: calc(var(--space) *12);
+  margin-bottom: calc(var(--space) *12);
+
+  .Pagination-item:not(:first-of-type) {
+    margin-left: var(--space);
+  }
+
+  .Pagination-itemLink {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-xs);
+    @include breakpoint(md) {
+      font-size: var(--font-size-xxs);
+    }
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: var(--space) calc(var(--space) *2);
+  }
+
+  .Pagination-item--current {
+    background-color: var(--color-lightest);
+  }
+}

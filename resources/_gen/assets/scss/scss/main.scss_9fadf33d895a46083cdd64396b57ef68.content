@@ -1611,6 +1611,24 @@ p + .Image {
     .PullQuote--right {
       margin-right: 12.8rem; } }
 
+ul.Pagination {
+  display: flex;
+  margin-top: calc(var(--space) *12);
+  margin-bottom: calc(var(--space) *12); }
+  ul.Pagination .Pagination-item:not(:first-of-type) {
+    margin-left: var(--space); }
+  ul.Pagination .Pagination-itemLink {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: var(--space) calc(var(--space) *2); }
+    @media (min-width: 48em) {
+      ul.Pagination .Pagination-itemLink {
+        font-size: var(--font-size-xxs); } }
+  ul.Pagination .Pagination-item--current {
+    background-color: var(--color-lightest); }
+
 /*------------------------------------*\
     #UTILITIES: LAYOUT
 \*------------------------------------*/

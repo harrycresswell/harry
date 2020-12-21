@@ -1,20 +1,54 @@
 {{ define "main" }}
-  <header class="PostHeader">
-    <h1 class="PostHeader-title">All Posts</h1>
-  </header>
-  <section class="PostList">
-  {{ range .Pages }}
-    <article class="PostListItem">
-      <h3 class="PostListItem-title">
-        <!-- If external link exists in post matter, else show post page-->
-        {{ if isset .Params "affiliatelink" }}
-        <a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }}</a><span>&#8599;</span>
-        {{else}}
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-      </h3>
-      <p>{{ .Description }}</p>
-    </article>
+<header class="PostHeader">
+  <h1 class="PostHeader-title">{{ .Title }}</h1>
+  <h2 class="u-visually-hidden">{{ .Description }}</h2>
+</header>
+<section class="PostList">
+  {{ range .Paginator.Pages }}
+  <article class="PostListItem h-entry">
+    <h3 class="PostListItem-title p-name">
+      <!-- If external link exists in post matter, else show post page-->
+      {{ if isset .Params "affiliatelink" }}
+      <a href="{{ .Params.affiliatelink }}" target="_blank" class="u-url">{{ .Title }}</a
+      ><span>&#8599;</span>
+      {{else}}
+      <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
+      {{ end }}
+    </h3>
+    <div hidden>
+      <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+    </div>
+    <div class="PostListItem-meta">
+        <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        {{ $tags := .Params.tags }}
+        {{- with $tags -}}
+          <span>—</span>
+          <div class="PostMeta-tags">
+              <div class="PostMeta-tag">
+                {{ range $tags }}
+                  <a href="/tags/{{ . | urlize }}" class="p-category">{{ . }}</a>
+                {{ end }}
+              </div>
+          </div>
+        {{- end -}}
+    </div>
+    <p>{{ .Description | markdownify }}</p>
+  </article>
   {{ end }}
-  </section>
+  {{ if eq .Type "projects"}}
+    {{ range .Site.Data.projects }}
+    <article class="PostListItem h-entry">
+      <h3 class="PostListItem-title p-name">
+        <a class="u-url" href="{{ .link }}" target="_blank" rel="noopener nofollow">{{  .title }}</a>
+      </h3>
+
+      <p class="PostDescription">{{ .description | markdownify }}</p>
+      <div hidden>
+        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+      </div>
+    </article>
+    {{ end }}
+  {{ end }}
+</section>
+  {{ partial "pagination.html" . }}
 {{ end }}
