@@ -6,18 +6,17 @@ slug = "now"
 url = "now"
 +++
 
-I’m finally back in Hamburg after 4 months stuck in London. Life is finally returning to normal. This is how I’m spending my time right now.
+I’m in London gearing up for a tier 4 Christmas.
 
 ### Currently Reading
 
-- [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead) by Ayn Rand
-- [Every Layout](https://every-layout.dev/) by Haydon Pickering and Andy Bell
+- [Permanent Record](https://www.goodreads.com/book/show/46223297-permanent-record) by Edward Snowdon
+- [Hugo in Action](https://www.goodreads.com/book/show/50515045-hugo-in-action) by Atishay Jain
 
-### Current Projects
+### Recent Projects
 
-- [Local London](https://locallondon.life), we’re working on an interview section, to share the stories of London food and drink founders
-- Working on the rebrand and website of a Florist based in Bath
-- Working on Shopify store for a protein bar startup
+- [Local London](https://locallondon.life/interview) is now sharing stories from London food and drink founders.
+
 - I just built [a style guide generator with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy), which takes a set of [design tokens](https://css-tricks.com/what-are-design-tokens/) stored as yaml data and turns them into Sass variables to use in your styles, and JSON to use in your templates. The idea is inspired by [Andy Bell’s Hylia Starter Kit](https://hylia.website/styleguide/).
 
 ### Currently Studying
@@ -27,6 +26,6 @@ I’m finally back in Hamburg after 4 months stuck in London. Life is finally re
 - [Sanity.io](https://www.sanity.io/), an API based CMS
 - German (this one might be here for a while)
 
-**Last Updated:** July 16, 2020.
+**Last Updated:** December 22, 2020.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
