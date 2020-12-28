@@ -6,7 +6,7 @@ intro: "Hey, I’m Harry Cresswell, a freelance designer and front-end web devel
 draft: false
 ---
 
-{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" >}}
+{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" caption="" >}}
 
 I write [articles on design and code](/articles/) and curate [a ~~weekly~~ monthly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things](/notes/) I’m learning.
 
