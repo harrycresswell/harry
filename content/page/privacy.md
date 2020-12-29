@@ -10,18 +10,28 @@ In compliance with the data and privacy laws (“GDPR”), effective of May 25th
 
 ## What data I collect
 
-The only data I collect is the name and email address of those who sign up for [my weekly newsletter](/newsletter/) via the sign up form on the bottom of each page.
+From this website I collect the name and email address of those who sign up for [my newsletter](/newsletter/) and/or contact me via my [contact](/contact/) page.
+
+I also keep the full name and business address of clients I work with. This is usually collected through email correspondence.
+
+I do not collect cookies, use Google Analytics or any other tracking software on this website.
 
 ## What I do with data
 
-I only email people who have genuinely signed up to receive my newsletter each week. I do not add contacts, clients or people I meet randomly on the climbing wall.
+The data I collect via my newsletter sign up form is used for the sole purpose of sending newsletters. I only email people who have genuinely signed up to receive my newsletters. I have no intention of selling you anything, advertising or passing your data on to any 3rd party services.
 
-I use [double opt-in](https://kb.mailchimp.com/lists/signup-forms/single-opt-in-vs.-double-opt-in) during the sign up process to prevent spam accounts and include an unsubscribe link on each and every email I send out.
-
-By signing up for my mailing list you are agreeing to receive an email from me containing useful content, once a week on a Friday and that’s it. I have no intention of selling you anything, advertising or passing your data on to any 3rd party services.
-
-I do not use Google Analytics or any other tracking software.
+Data I collect from clients is used for communication and accounting purposes only.
 
 ## How I keep your data safe
 
-I store your data securely inside my [Mailchimp](https://mailchimp.com/features/landing-pages/) account and use a generated password from [1Password](https://1password.com/) and [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep it safe. Rest assured, your details aren’t lying around in an old spreadsheet or .csv file somewhere.
+I store data in my [Mailchimp](https://mailchimp.com/features/landing-pages/) account. I use a generated password from [1Password](https://1password.com/) and [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep it as safe as possible.
+
+I use [double opt-in](https://kb.mailchimp.com/lists/signup-forms/single-opt-in-vs.-double-opt-in) during the sign up process to prevent spam accounts and include an unsubscribe link on every email I send out.
+
+Client data is kept in my FreeAgent accounting software.
+
+The security of your personal data is important, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While I strive to use commercially acceptable means to protect your personal data, I cannot guarantee its absolute security.
+
+## Contact
+
+If you have any questions about how your data is being used, you can contact me by email: studio@harrycresswell.com or by leaving a message via the [contact](https://harrycresswell.com/contact) page.
