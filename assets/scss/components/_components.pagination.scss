@@ -1,10 +1,16 @@
 ul.Pagination {
   display: flex;
+  flex-wrap: wrap;
   margin-top: calc(var(--space) *12);
   margin-bottom: calc(var(--space) *12);
 
+  .Pagination-item {
+    margin-top: calc(var(--space) *1.5);
+    margin-bottom: calc(var(--space) *1.5);
+  }
+
   .Pagination-item:not(:first-of-type) {
-    margin-left: var(--space);
+    margin-left: calc(var(--space) /1.5);
   }
 
   .Pagination-itemLink {
@@ -15,10 +21,15 @@ ul.Pagination {
     }
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: var(--space) calc(var(--space) *2);
+    padding: calc(var(--space) /1.5) calc(var(--space) *1.5);
   }
 
   .Pagination-item--current {
-    background-color: var(--color-lightest);
+    background-color: var(--color-link);
+
+    a  {
+      color: var(--color-white);
+      text-decoration: none;
+    }
   }
 }

@@ -1613,21 +1613,28 @@ p + .Image {
 
 ul.Pagination {
   display: flex;
+  flex-wrap: wrap;
   margin-top: calc(var(--space) *12);
   margin-bottom: calc(var(--space) *12); }
+  ul.Pagination .Pagination-item {
+    margin-top: calc(var(--space) *1.5);
+    margin-bottom: calc(var(--space) *1.5); }
   ul.Pagination .Pagination-item:not(:first-of-type) {
-    margin-left: var(--space); }
+    margin-left: calc(var(--space) /1.5); }
   ul.Pagination .Pagination-itemLink {
     font-family: var(--font-mono);
     font-size: var(--font-size-xs);
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: var(--space) calc(var(--space) *2); }
+    padding: calc(var(--space) /1.5) calc(var(--space) *1.5); }
     @media (min-width: 48em) {
       ul.Pagination .Pagination-itemLink {
         font-size: var(--font-size-xxs); } }
   ul.Pagination .Pagination-item--current {
-    background-color: var(--color-lightest); }
+    background-color: var(--color-link); }
+    ul.Pagination .Pagination-item--current a {
+      color: var(--color-white);
+      text-decoration: none; }
 
 /*------------------------------------*\
     #UTILITIES: LAYOUT
