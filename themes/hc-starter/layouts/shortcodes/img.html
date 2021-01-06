@@ -1,5 +1,4 @@
-<div class="Image">
-    <picture>
+<picture class="Image">
       <!-- Large screens -->
       <source
         media="(min-width: 535px)"
@@ -20,13 +19,7 @@
         data-original-set="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
         alt="{{ .Get "alt" }}"{{ if .Get "caption"}} class="img-fluid figure-img"{{ end }}
         srcset="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x" src="{{ .Get "src" }}.{{ .Get "type" }}">
-    </picture>
     {{ if .Get "caption"}}
-    <figure>
+    <div>{{ .Get "caption" }}</div>
     {{ end }}
-    {{ if .Get "caption"}}
-      <figcaption>{{ .Get "caption" }}</figcaption>
-    </figure>
-    {{ end }}
-
-</div>
+</picture>

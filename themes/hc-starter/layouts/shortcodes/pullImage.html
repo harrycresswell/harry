@@ -1,12 +1,17 @@
 <figure class="Image Image--pullRight">
   <div class="Ratio Ratio--3by2">
-    <img
-      data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
-      class="cld-responsive lazyload {{ if .Get "class"}}{{ .Get "class" }}{{ end }}" alt="{{ .Get "alt" }}">
-  </div><!-- /.ImageRatio -->
+      <img
+        sizes="(min-width: 37.5em) 55vw, 100vw"
+        srcset="{{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_256/{{ .Get "src" }} 256w,
+                {{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_512/{{ .Get "src" }} 512w,
+                {{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_768/{{ .Get "src" }} 768w,
+                {{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_1024/{{ .Get "src" }} 1024w,
+                {{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_1280/{{ .Get "src" }} 1280w"
+        src="{{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_512/{{ .Get "src" }}"
+        alt="{{ .Get "alt" }}"
+        class="lazyload" />
+    </div>
   {{ if .Get "caption"}}
-      {{ if .Get "caption"}}
-        <figcaption>{{ .Get "caption" }}</figcaption>
-      {{ end }}
+    <figcaption>{{ .Get "caption" }}</figcaption>
   {{ end }}
 </figure><!-- /.Image -->
