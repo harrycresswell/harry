@@ -8,9 +8,7 @@ url: "work-with-me"
 
 {{< intro >}}Here are a few ideas of how we can work together and whether I’m the right fit for your next project.{{< /intro >}}
 
-My name is Harry Cresswell, I’m an independent designer and front-end web developer from London, England.
-
-I’ve spent the last 8 years helping startups and independent individuals set up online.
+My name is Harry Cresswell, I’m an independent designer and front-end web developer from London, England. I’ve spent the last 8 years helping startups and independent individuals set up online.
 
 ## What I do
 
@@ -24,7 +22,7 @@ I tend to build clean, simple websites, with a focus on typography. I don’t be
 
 I can’t help you build an IOS or Andriod app, or anything powered by user driven data. It’s not my focus and I won’t do a good job of it.
 
-If you want a highly illustrative design or something heavy on animation, then I’m probably not the right person for the job.
+If you want a highly illustrative design or something heavy on animation, then I’m probably not the right person either.
 
 If you’re looking to tweak an existing theme, you need help with your Squarespace or Wix site then I’m not your guy. There was a time, but that time has now past.
 
@@ -34,19 +32,19 @@ If your brief is vague and you aren’t prepared to offer any input or direction
 
 I believe communication and collaboration are vital to the success of a project. I like to ask a lot of questions and involve clients in every step of product development. That way we’re on the same page from start to finish.
 
-I keep my process dynamic and as fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we arrive at the right solution.
+I keep my process dynamic and as fluid as possible. We’ll move thoughtfully and efficiently in the most appropriate direction until we arrive at the solution.
 
 ## Who hires me
 
 I work with startups, small independent businesses, agencies and individuals looking for a web developer who has a design background and knows how to turn ideas from design mockups into code.
 
-My clients are keen to execute ideas, but don’t necessarily have the technical skills or time to do so. They would rather invest their budget in good design, at an affordable rate, from an independent designer. Instead of spending the earth on agency fees.
+My clients are keen to execute ideas, but don’t necessarily have the technical skills or time to do so. They would rather invest their budget in good design, at an affordable rate, from an independent designer. Instead of spending big money on agency fees.
 
 ## What I charge
 
 My rate varies depending on your situation and needs.
 
-If you are an independent individual just starting out, then I will charge a considerable amount less than if you are an established business who has just raised investment. If you are a non-profit organisation or charity then I will often waiver my fee entirely.
+If you’re an independent individual just starting out then I will charge a considerable amount less than if you are an established business or you’ve just raised investment. If you’re a non-profit organisation or charity then I will often waiver my fee entirely.
 
 I charge a flat fee for all projects, so no hourly rate, just a single project price.
 

@@ -4,9 +4,14 @@
         <header class="PostHeader">
             <h1 class="PostHeader-title">{{ .Title }}</h1>
         </header>
-        <section class="PostBody">
-          {{ .Content }}
-        </section>
+    
+          <section class="PostBody e-content">
+            {{ partial "heading-anchor.html" .Content }}
+          </section>
+    
+          <footer>
+            {{ partialCached "post/author.html" . }}
+          </footer>
     </article><!--/.Content -->
 
 {{ end }}
