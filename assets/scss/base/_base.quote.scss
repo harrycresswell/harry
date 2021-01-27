@@ -4,8 +4,9 @@
 
 blockquote {
   border-left: 1px solid #ddd;
-  color: var(--color-light);
+  color: var(--color-body);
   font-weight: $font-weight-regular;
+  font-style: italic;
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
   line-height: 1.5;
   margin: 0;

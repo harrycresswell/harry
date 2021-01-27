@@ -323,8 +323,9 @@ ol[class] {
 \*------------------------------------*/
 blockquote {
   border-left: 1px solid #ddd;
-  color: var(--color-light);
+  color: var(--color-body);
   font-weight: 400;
+  font-style: italic;
   line-height: 1.5;
   margin: 0;
   padding: 0; }
