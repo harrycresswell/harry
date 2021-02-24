@@ -38,7 +38,6 @@ aside.primary {
   @media (min-width: 37.5em) {
     aside.primary {
       /* responsive content */ } }
-
 /*------------------------------------*\
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
@@ -121,7 +120,6 @@ html {
     @media screen and (min-width: 675px) {
       html {
         font-size: 20px; } }
-
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth; } }
@@ -144,7 +142,6 @@ p {
     @media screen and (min-width: 48em) {
       p:not(:last-of-type) {
         margin-bottom: 1.28rem; } }
-
 /* 
 	* See https://piccalil.li/quick-tip/add-scroll-margin-to-all-elements-which-can-be-targeted
 */
@@ -180,7 +177,6 @@ h1,
     h1,
     .size-1 {
       margin-bottom: 1.6rem; } }
-
 h2,
 .size-2 {
   font-size: 1.44rem;
@@ -205,7 +201,6 @@ h2,
     h2,
     .size-2 {
       margin-bottom: 0.8rem; } }
-
 h3,
 .size-3 {
   font-size: 1.44rem;
@@ -230,7 +225,6 @@ h3,
     h3,
     .size-3 {
       margin-bottom: 0.8rem; } }
-
 h4,
 .size-4 {
   font-size: 1.2rem;
@@ -255,7 +249,6 @@ h4,
     h4,
     .size-4 {
       margin-bottom: 0.8rem; } }
-
 /*------------------------------------*\
     #BASE: IMAGES
 \*------------------------------------*/
@@ -279,7 +272,6 @@ figcaption {
   @media screen and (min-width: 48em) {
     figcaption {
       margin-top: 0.8rem; } }
-
 /*------------------------------------*\
     #BASE: LINKS
 \*------------------------------------*/
@@ -315,7 +307,6 @@ ol {
     ul,
     ol {
       list-style-position: outside; } }
-
 ul + p,
 ol + p {
   margin-top: 1.5rem; }
@@ -323,7 +314,6 @@ ol + p {
     ul + p,
     ol + p {
       margin-top: 1.6rem; } }
-
 ul[class],
 ol[class] {
   list-style: none; }
@@ -364,7 +354,6 @@ blockquote {
       blockquote cite,
       blockquote figcaption {
         margin-top: 0.8rem; } }
-
 code,
 kbd,
 samp {
@@ -385,7 +374,6 @@ pre + p {
   @media screen and (min-width: 48em) {
     pre + p {
       margin-top: 1.6rem; } }
-
 p code,
 li code {
   padding: .125rem .35rem; }
@@ -440,7 +428,6 @@ label {
   @media screen and (min-width: 48em) {
     label {
       margin-bottom: 0.4rem; } }
-
 /*------------------------------------*\
     #BASE: SELECT
 \*------------------------------------*/
@@ -825,7 +812,6 @@ video {
   @media screen and (min-width: 48em) {
     .Section {
       margin-bottom: 1.6rem; } }
-
 @media (min-width: 48em) {
   .Section {
     margin-top: 3rem;
@@ -836,7 +822,6 @@ video {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Section {
       margin-bottom: 3.2rem; } }
-
 /*------------------------------------*\
     #LAYOUTS: FLEX
 \*------------------------------------*/
@@ -917,7 +902,6 @@ video {
   @media screen and (min-width: 48em) {
     .PostMeta {
       margin-bottom: 1.6rem; } }
-
 .PostBody {
   margin-top: 3rem;
   max-width: 1600px;
@@ -996,7 +980,6 @@ video {
     .intro {
       font-size: 125%;
       line-height: 1.5; } }
-
 .PostAuthor {
   display: flex;
   align-items: center;
@@ -1013,7 +996,6 @@ video {
   @media screen and (min-width: 48em) {
     .PostRelated {
       margin-bottom: 3.2rem; } }
-
 .Post .heading-anchor {
   display: none;
   position: absolute;
@@ -1025,7 +1007,6 @@ video {
   @media (min-width: 37.5em) {
     .Post .heading-anchor {
       display: block; } }
-
 .Post h2:focus > .heading-anchor,
 .Post h2:hover > .heading-anchor,
 .Post h3:focus > .heading-anchor,
@@ -1097,7 +1078,6 @@ video {
   @media (min-width: 48em) {
     .PostListItem-meta {
       font-size: 100%; } }
-
 /*------------------------------------*\
     #LAYOUTS: TAG-LIST
 \*------------------------------------*/
@@ -1130,7 +1110,6 @@ video {
   @media screen and (min-width: 48em) {
     .Project {
       margin-bottom: 4.8rem; } }
-
 .Project-description {
   font-weight: 400;
   letter-spacing: unset; }
@@ -1142,14 +1121,12 @@ video {
     @media screen and (min-width: 675px) {
       .Project-description {
         font-size: 20px; } }
-
 @media (min-width: 48em) {
   .Project-description {
     margin-top: 1.5rem; } }
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Project-description {
       margin-top: 1.6rem; } }
-
 .Project .Message {
   border: dotted 1px;
   padding: 32px 64px; }
@@ -1174,7 +1151,6 @@ video {
   @media (min-width: 48em) {
     .Likes {
       grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); } }
-
 .LikesItem {
   border: dotted 1px var(--color-dark);
   display: flex;
@@ -1224,7 +1200,6 @@ video {
   @media screen and (min-width: 48em) {
     .ButtonWrap {
       margin-bottom: 6.4rem; } }
-
 .Button {
   border-width: 0;
   border-radius: 0;
@@ -1245,7 +1220,6 @@ video {
   @media (min-width: 48em) {
     .Button {
       font-size: 0.9rem; } }
-
 /**
  * Component Modifier
  */
@@ -1284,7 +1258,6 @@ video {
   @media screen and (min-width: 48em) {
     .Form {
       margin-bottom: 1.6rem; } }
-
 ::placeholder {
   color: var(--color-lighter); }
 
@@ -1331,7 +1304,6 @@ video {
   @media screen and (min-width: 48em) {
     .Form-button {
       margin-top: 0.8rem; } }
-
 /*------------------------------------*\
     #OBJECTS: VIDEO
 \*------------------------------------*/
@@ -1347,7 +1319,6 @@ video {
   @media screen and (min-width: 48em) {
     .Video {
       margin-bottom: 2.4rem; } }
-
 /*------------------------------------*\
     #COMPONENTS: HEADER
 \*------------------------------------*/
@@ -1386,7 +1357,6 @@ video {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Nav-listItem:not(:last-of-type) {
       margin-right: 1.6rem; } }
-
 /*------------------------------------*\
     #COMPONENTS: FOOTER
 \*------------------------------------*/
@@ -1406,7 +1376,6 @@ video {
     @media screen and (min-width: 48em) {
       .Footer p {
         margin-top: 1.6rem; } }
-
 .FooterNav a {
   color: var(--color-dark);
   text-decoration: none;
@@ -1428,7 +1397,6 @@ video {
   @media screen and (min-width: 48em) {
     .Image figcaption {
       margin-top: 0.8rem; } }
-
 .Image + p,
 p + .Image {
   margin-top: 2.25rem; }
@@ -1436,7 +1404,6 @@ p + .Image {
     .Image + p,
     p + .Image {
       margin-top: 2.4rem; } }
-
 .ImageCover {
   object-fit: cover;
   height: 350px; }
@@ -1486,13 +1453,11 @@ p + .Image {
   @media screen and (min-width: 48em) {
     .NewsletterForm {
       margin-top: 1.6rem; } }
-
 .NewsletterForm-field:nth-child(even) {
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
     .NewsletterForm-field:nth-child(even) {
       margin-bottom: 1.6rem; } }
-
 @media (min-width: 48em) {
   .NewsletterForm {
     flex-direction: row; }
@@ -1501,7 +1466,6 @@ p + .Image {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .NewsletterForm-label {
       margin-top: 0rem; } }
-
 @media (min-width: 48em) {
   .NewsletterForm-field {
     flex: 1;
@@ -1511,14 +1475,12 @@ p + .Image {
     @media screen and (min-width: 48em) and (min-width: 48em) {
       .NewsletterForm-field:nth-child(even) {
         margin-bottom: 0rem; } }
-
 @media (min-width: 48em) {
     .NewsletterForm-field:not(:last-of-type) {
       margin-right: 0.75rem; } }
     @media screen and (min-width: 48em) and (min-width: 48em) {
       .NewsletterForm-field:not(:last-of-type) {
         margin-right: 0.8rem; } }
-
 /*------------------------------------*\
     #COMPONENTS: RATIO
 \*------------------------------------*/
@@ -1576,7 +1538,6 @@ p + .Image {
     @media screen and (min-width: 48em) {
       .PullQuote > figcaption {
         margin-left: 0rem; } }
-
 /**
  * Component Modifier
  */
@@ -1595,7 +1556,6 @@ p + .Image {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .PullQuote--left {
       margin-left: 0rem; } }
-
 .PullQuote--right {
   float: right;
   margin-top: 1.5rem;
@@ -1621,7 +1581,6 @@ p + .Image {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .PullQuote--right {
       margin-right: 12.8rem; } }
-
 ul.Pagination {
   display: flex;
   flex-wrap: wrap;
@@ -1736,7 +1695,6 @@ ul.Pagination {
   @media screen and (min-width: 48em) {
     .body {
       margin-top: 0rem; } }
-
 .small {
   font-size: 80%; }
 
