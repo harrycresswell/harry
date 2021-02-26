@@ -2,7 +2,7 @@
 title: "Accessing HTML data attributes in JavaScript with dataSet"
 date: 2021-02-24T10:15:48Z
 draft: false
-description: "You can easily add custom data to any HTML element using custom data attributes. By how do you access those attributes using JavaScript?"
+description: "You can easily add custom data to any HTML element using custom data attributes. But how do you access those attributes using JavaScript?"
 slug: "accessing-data-attributes-with-dataset"
 tags: ["JavaScript"]
 syndicate: "false"
