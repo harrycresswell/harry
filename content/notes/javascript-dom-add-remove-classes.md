@@ -2,7 +2,7 @@
 title: "JavaScript and the DOM: Adding and removing classes"
 date: 2021-02-26T08:33:54Z
 draft: false
-description: "This is a quick look at JavaScript interaction based on my notes from Beginner JavaScript by Wes Bos"
+description: "This is a quick look at JavaScript interaction based on my notes from Beginner JavaScript by Wes Bos."
 slug: "javascript-dom-add-remove-classes"
 tags: ["JavaScript", "Coursenotes"]
 syndicate: "false"

@@ -2,7 +2,7 @@
 title: "Process JSON data from the command line with JQ"
 date: 2020-03-30T17:20:31+01:00
 draft: false
-description: "jq is a handy little utility for processing JSON in the command line. It’s useful for turning it into a more readable format when using curl"
+description: "jq is a handy little utility for processing JSON in the command line. It’s useful for turning it into a more readable format when using curl."
 slug: "process-json-data-with-jq"
 tags: ["CLI", "JavaScript"]
 syndicate: "false"
