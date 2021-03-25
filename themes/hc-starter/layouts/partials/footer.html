@@ -10,7 +10,9 @@
           href="{{ $.Site.BaseURL }}feed.xml">all content</a>, <a
           href="{{ $.Site.BaseURL }}articles/feed.xml">articles</a>,
           <a href="{{ $.Site.BaseURL }}newsletter/feed.xml">newsletter</a> or <a
-          href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.</p>
+          href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.
+      </p>
+      <!--<div id="wcb" class="carbonbadge"></div>-->
     </footer>
 
     <!-- Store JS files independently -->
@@ -24,5 +26,7 @@
     {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
     <!-- Load script and authenticate hashed file -->
     <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
+    <!-- Load carbon badge script, see: https://www.websitecarbon.com/badge/ -->
+    <!--<script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>-->
   </body>
   </html>

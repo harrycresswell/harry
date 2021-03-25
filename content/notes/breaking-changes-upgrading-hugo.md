@@ -1,5 +1,5 @@
 ---
-title: "Breaking changes when upgrading Hugo"
+title: "Fixing breaking changes when upgrading Hugo"
 date: 2021-03-08T09:29:40Z
 draft: false
 description: "Documenting errors which might break a Hugo site as you upgrade and the solutions to fix them."

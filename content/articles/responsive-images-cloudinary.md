@@ -1,5 +1,5 @@
 ---
-title: "Responsive images with Cloudinary"
+title: "Automating responsive images with Cloudinary"
 date: 2018-07-23T10:18:59+02:00
 tags: ["Hugo", "Javascript", "API"]
 slug: "cloudinary"
@@ -12,7 +12,7 @@ Ideally we want to create multiple versions of each image, sending users the ver
 
 [Cloudinary](https://cloudinary.com/), a cloud based image solution makes this laborious task somewhat simple, by automatically adapting images for delivery in any context.
 
-The article presents a problem Cloudinary helps solve, then provides a quickstart guide to help you get set up. This is particularly suited to those working with static or serverless sites, where hosting images directly within a repository can lead to issues down the line.
+The article presents a problem Cloudinary helps solve, then provides a quickstart guide to help you get set up. This is particularly suited to those working with static or serverless sites, where hosting images directly within a repository can lead to performance issues down the line.
 
 ## The Problem
 
@@ -24,12 +24,11 @@ Flawless workflow, until deployment. Now I’m committing multiple images for ev
 
 The solution to all this is fairly simple, abstract images assets away from your repo and let a service like Cloudinary take care of your media storage.
 
-
 ## Introducing Cloudinary
 
 _“Cloudinary simplifies responsive images by dynamically adapting image properties — dimensions, crop, format, quality — on-the-fly and delivering the optimal version based on the content and viewing context.”_
 
-By adding transformations – custom parameters set in the URL which we’ll look at later – you can customise your image in any number of ways. Think automatic photoshopping in the cloud.
+By adding transformations – custom parameters set in the URL which we’ll look at later – you can customise your image in any number of ways. Think automatic Photoshopping in the cloud.
 
 Using a CDN, Cloudinary delivers media faster based on your visitors location, and now images are out of the repo, build times are back to optimum speeds. Portable also makes total sense. No more syncing your media library when you change environment or make changes down the line.
 
@@ -48,8 +47,7 @@ First, [Create an Account](https://cloudinary.com/users/register/free) at Cloudi
 Add Cloudinary to your project by including `cloudinary-core-shrinkwrap.js` in the footer of your page, right before the closing `<body>`.
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js">
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js"></script>
 ```
 
 ### Step 3: Include images with data-src
@@ -58,12 +56,12 @@ Head to your Media Library in Cloudinary and hover over your image thumbnail to 
 
 Now we have the URL for an image we can add it to an `<img>` tag in our HTML using `data-src`. It’s important you use the `data-src` attribute and not `src` as Cloudinary will dynamically create the `src` images using JavaScript.
 
-
 ```html
 <img
-data-src="https://res.cloudinary.com/harrycresswell/image/upload/naming-artboards-in-sketch-01.png"
-alt=""
-class="cld-responsive" />
+  data-src="https://res.cloudinary.com/harrycresswell/image/upload/naming-artboards-in-sketch-01.png"
+  alt=""
+  class="cld-responsive"
+/>
 ```
 
 Next we need to add the `cld-responsive` class to our image, this will allow `cloudinary-core-shrinkwrap.js` to find the image in our HTML and perform the necessary transformations, which we’ll get into a bit later. Remember you’ll need to do this for all images on your site hosted by Cloudinary.
@@ -75,14 +73,13 @@ The final thing we need to do to get this working is to add the JavaScript call.
 To initialise the Cloudinary instance, call the responsive method in your JavaScript file:
 
 ```js
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'YOUR_CLOUD_NAME' })
-cl.responsive()
+const cl = cloudinary.Cloudinary.new({ cloud_name: "YOUR_CLOUD_NAME" });
+cl.responsive();
 ```
 
 You can find your `YOUR_CLOUD_NAME` in your Cloudinary Dashboard under Account Details.
 
 At this point you should now be seeing you Cloudinary hosted image. But right now Cloudinary is just devilering the image. We still need to set up some image transformations on the URL the make it responsive.
-
 
 ## Step 5: Responsive image transformations
 
@@ -90,9 +87,10 @@ In the image URL, right after `upload/`, include `w_auto,c_scale` this will ensu
 
 ```html
 <img
-data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,c_scale/naming-artboards-in-sketch-01.png"
-alt=""
-class="cld-responsive" />
+  data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,c_scale/naming-artboards-in-sketch-01.png"
+  alt=""
+  class="cld-responsive"
+/>
 ```
 
 So what’s going on here?
@@ -138,7 +136,7 @@ Inside `site/layouts/shortcodes`, create a new file to store your shortcode. I n
  </figure>
  {{ end }}
  </div>
- ```
+```
 
 Inside your `config.toml` file, add the following line, remembering to updated `YOUR_CLOUD_NAME` accordingly.
 
@@ -149,7 +147,6 @@ cloudinary_url = "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload"
 
 To access your new Shortcode in any markdown file use the following:
 
-
 ```go
 # Hugo Shortcode to use in markdown files
 { {< cld src="naming-artboards-in-sketch-organised-albion-03.jpg" alt="" caption="Your Caption" >} }
@@ -157,8 +154,7 @@ To access your new Shortcode in any markdown file use the following:
 
 Here `src` is the last part of your image URL and caption is optional and takes a string of plain text for the image caption.
 
-*Note: In the example above I have spaces between the curly brackets to prevent Hugo from rendering the image. You will want to make sure yours are written without spaces*
-
+_Note: In the example above I have spaces between the curly brackets to prevent Hugo from rendering the image. You will want to make sure yours are written without spaces_
 
 ### Cloudinary with Forestry CMS
 
