@@ -5,9 +5,3 @@
 [context.production.environment]
   HUGO_VERSION = "0.80.0"
   HUGO_ENV = "production"
-
-[[redirects]]
-  from = "https://harrycresswell.com/"
-  to = "https://www.harrycresswell.com/"
-  status = 302
-  force = true
