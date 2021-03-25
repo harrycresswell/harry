@@ -7,6 +7,7 @@
   HUGO_ENV = "production"
 
 [[redirects]]
-  from = "/*"
+  from = "https://harrycresswell.com/"
   to = "https://www.harrycresswell.com/"
   status = 302
+  force = true
