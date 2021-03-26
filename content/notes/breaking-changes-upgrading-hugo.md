@@ -18,9 +18,9 @@ The main issue - which seems like a common one - is content from sections not re
 
 To render section specific content on a homepage in the past you might have nested a where clause in your range. Something like this:
 
-```go
+```golang
 {{ range (where .Pages "Type" "supplier") | first 2  }}
-	{{ .Content }}
+  {{ .Content }}
 {{ end }}
 ```
 
@@ -34,10 +34,10 @@ In easiest way to fix this (in plain english) is as follows:
 
 In Go templating that will look something like this:
 
-```go
+```golang
 {{ $pages := where site.RegularPages "Type" "in" site.Params.supplierSection }}
 {{ range $pages | first 2  }}
-	{{ .Content }}
+  {{ .Content }}
 {{ end }}
 ```
 
@@ -55,7 +55,7 @@ If you have a few different sections and don’t want to combine content from bo
 
 I had another very similar issue on another project which involved paginating through pages in a section from on the homepage.
 
-```go
+```golang
 {{ $paginator := .Paginate (where .Pages "Type" "writing") 6 }}
 <ul class="PostList">
 {{ range (.Paginator 6).Pages }}
@@ -68,7 +68,7 @@ I had another very similar issue on another project which involved paginating th
 
 The fix was almost identical as before. But this time passing the `$pages` variable to `.Paginate` function stored in a second variable called `$paginator` and ranging over that instead.
 
-```go
+```golang
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ $paginator := .Paginate $pages }}
 <ul class="PostList">

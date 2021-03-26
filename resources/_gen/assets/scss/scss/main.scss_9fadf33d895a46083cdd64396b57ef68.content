@@ -458,7 +458,7 @@ video {
 
 /* Error */
 .chroma .err {
-  background-color: #a848a8; }
+  color: #2838b0; }
 
 /* LineTableTD */
 .chroma .lntd {
