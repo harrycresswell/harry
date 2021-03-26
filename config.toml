@@ -5,7 +5,7 @@ title = "Harry Cresswell"
 pluralizelisttitles = false
 
 # Enable for syntax highlighting
-pygmentsUseClasses=true
+pygmentsUseClasses = true
 # Enable highlighting for code fences
 pygmentsCodeFences = true
 # pygmentsCodefencesGuessSyntax = true
