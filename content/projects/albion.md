@@ -3,12 +3,13 @@ title = "Albion"
 date = "2019-08-30T16:44:00+01:00"
 description = "Designing a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
 slug = "albion"
+layout = "project"
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
-duration = "September 2016 (to present)"
+duration = "September 2016"
 draft = "false"
 syndicate = "false"
 feature = "https://res.cloudinary.com/harrycresswell/image/upload/w_1700,dpr_2.0,c_scale,f_auto,q_auto/v1571654513/hc/albion-season-a-w-19.jpg"
-tags = ["Shopify", "Wordpress", "Client"]
+tags = ["Client", "Website", "eCommerce", "Shopify", "Wordpress"]
 [[blocks]]
 image = "v1571654513/hc/albion-season-a-w-19.jpg"
 image_caption = "Nº01 Albion A/W 19 shot by Rupert Hartley"

@@ -1,5 +1,5 @@
 ---
-title: "Chasing the Hype"
+title: "Chasing the hype"
 date: 2021-01-27T09:59:54Z
 draft: false
 description: "A few thoughts on focusing on your interests and choosing your own path. You don’t have to learn that fancy framework to be a successful web developer."

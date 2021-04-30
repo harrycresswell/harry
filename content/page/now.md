@@ -16,10 +16,11 @@ Things I’m up to right now.
 
 ### Projects
 
-- A new website for [BuxtonThreeTwo](https://www.buxtonthreetwo.com/)
-- A new article on how to Roll your own [typeform](https://www.typeform.com/)
+- Working with [Kitt Offices](https://www.kittoffices.com/) to prototype their new product
+- Just launched a new website for [BuxtonThreeTwo](https://www.buxtonthreetwo.com/)
+- Working on new article on how to build your own [Typeform](https://www.typeform.com/) with Hugo
 - [Local London](https://locallondon.life/interview) is now sharing stories from London food and drink founders
-- [A style guide generator with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy), which takes a set of [design tokens](https://css-tricks.com/what-are-design-tokens/) stored as yaml data and turns them into Sass variables to use in your styles, and JSON to use in your templates. The idea is inspired by [Andy Bell’s Hylia Starter Kit](https://hylia.website/styleguide/)
+- I built [a style guide generator with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy), which takes a set of [design tokens](https://css-tricks.com/what-are-design-tokens/) stored as yaml data and turns them into Sass variables to use in your styles, and JSON to use in your templates. The idea is inspired by [Andy Bell’s Hylia Starter Kit](https://hylia.website/styleguide/)
 
 ### Learning
 
@@ -29,6 +30,6 @@ Things I’m up to right now.
 - [Sanity.io](https://www.sanity.io/) an API based CMS
 - German
 
-**Last Updated:** Janurary 29, 2021.
+**Last Updated:** April 30, 2021.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).

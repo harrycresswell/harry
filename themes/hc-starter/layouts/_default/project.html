@@ -1,39 +1,44 @@
 {{ define "main" }}
   <article id="content" class="Project h-entry">
-
+  
       <header>
-        <div class="Grid">
-        
-          <div class="Grid-1-6">
-            <h1 class="Project-title p-name">{{ .Title }}</h1>
-          </div>
+        <h1 class="Project-title p-name">{{ .Title }}</h1>
+        <h2 class="Project-description">{{ .Params.Description | markdownify }}</h2>
 
-          <div class="Grid-7-6">
-            <h2 class="Project-description">{{ .Params.Description }}</h2>
-          </div>
-
-          <div class="Grid-7-3">
+        {{/*  <div class="">
+          <div>
             <span class="strong dark small">Role</span>
             {{- with .Params.role -}}
               <p class="light small">{{ markdownify . }}</p>
             {{- end -}}
           </div>
 
-          <div class="Grid-10-3">
+          <div>
             <span class="strong dark small">Duration</span>
             {{- with .Params.duration -}}
               <p class="light small">{{ markdownify . }}</p>
             {{- end -}}
           </div>
-
-        </div>
+        </div>  */}}
+        <div class="PostListItem-meta">
+          <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          {{ $tags := .Params.tags }}
+          {{- with $tags -}}
+            <span>—</span>
+            <div class="PostMeta-tags">
+                <div class="PostMeta-tag">
+                  {{ range $tags }}
+                    <a href="/tags/{{ . | urlize }}" class="p-category">{{ . }}</a>
+                  {{ end }}
+                </div>
+            </div>
+          {{- end -}}
+      </div>
       </header>
-
-
       <div class="Blocks e-content">
         {{- range .Params.blocks -}}
-        {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{ end }}
-            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" .) }}{{ end }}
+            {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" . ) }}{{- end -}}
+            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" . ) }}{{- end -}}
             {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
             {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" .) }}{{- end -}}
             {{- if eq .template "image-grid-four" -}}{{ partial "blocks/img-grid-four" (dict "Params" .) }}{{- end -}} 

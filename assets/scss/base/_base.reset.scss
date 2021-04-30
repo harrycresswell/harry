@@ -24,32 +24,35 @@ html {
 	line-height: inherit;
 }
 
-// Must be 100% for off canvas to work
-html,
-body {
-	margin: 0;
-}
 
 a {
 	text-decoration: inherit;
 	color: inherit;
 }
 
-p,
+/* Remove default margin */
+body,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-	margin: 0;
-	font-size: inherit;
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-ul,
-ol {
-	margin: 0;
-	padding: 0;
+/* Remove default padding and list style */
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
 }
 
 // Responsive images

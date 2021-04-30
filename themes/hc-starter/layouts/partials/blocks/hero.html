@@ -1,9 +1,18 @@
+
 <section class="Section">
   <div class="Image full-bleed">
     <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
       <img
-        data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image -}}{{ markdownify . }}{{- end -}}"
-        class="cld-responsive lazyload " alt="{{- with .Params.image_alt -}}{{ markdownify . }}{{- end -}}">
+      {{ with .Params.image -}}
+      srcset="https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_256/{{ . }} 256w,
+        https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_512/{{ . }} 512w,
+        https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_768/{{ . }} 768w,
+        https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_1024/{{ . }} 1024w,
+        https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_1280/{{ . }} 1280w,
+        https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_80,w_1640/{{ . }} 1640w"
+      data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ . }}"
+      {{- end }}
+      class="cld-responsive lazyload " alt="{{- with .Params.image_alt -}}{{ . }}{{- end -}}">
     </div><!-- /.ImageRatio -->
   </div><!-- /.Image -->
   {{- with .Params.image_caption -}}

@@ -35,20 +35,6 @@
     <p>{{ .Description | markdownify }}</p>
   </article>
   {{ end }}
-  {{ if eq .Type "projects"}}
-    {{ range .Site.Data.projects }}
-    <article class="PostListItem h-entry">
-      <h3 class="PostListItem-title p-name">
-        <a class="u-url" href="{{ .link }}" target="_blank" rel="noopener nofollow">{{  .title }}</a>
-      </h3>
-
-      <p class="PostDescription">{{ .description | markdownify }}</p>
-      <div hidden>
-        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
-      </div>
-    </article>
-    {{ end }}
-  {{ end }}
 </section>
   {{ partial "pagination.html" . }}
 {{ end }}

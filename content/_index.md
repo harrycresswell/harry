@@ -1,16 +1,16 @@
 ---
 title: "Design & Code"
 date: "2016-10-24T17:23:17+01:00"
-description: "Harry Cresswell is a professional designer Front-end web developer from London, England. Read technical articles and notes on design and code."
-intro: "Hey, I’m Harry Cresswell, a freelance designer and front-end web developer from London, England."
+description: "Harry Cresswell is a professional Front-end web developer based in London, England. Read technical articles and notes on design and code."
+intro: "Hey, I’m Harry Cresswell, a freelance designer and front-end web developer based in London, England."
 draft: false
 ---
 
-{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – UI/UI Design & Development" caption="" >}}
+{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – Front-end Web Development" caption="" >}}
 
-I write [articles on design and code](/articles/) and curate [a ~~weekly~~ monthly newsletter](/newsletter/) for designers and front-end web developers. I also keep [notes on things](/notes/) I’m learning.
+I focus on creating hand-coded [Jamstack](https://jamstack.org/) websites, with tools like [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/), [Netlify](https://www.netlify.com/) and [Sanity](https://www.sanity.io/).
 
-Currently I live between London and Hamburg, where I work with a handful of clients. In my free time I enjoy running, climbing, hiking and skiing in winter. I practice yoga and meditation most mornings.
+I also write [articles on building websites](/articles/) and curate [a ~~weekcly~~ monthly newsletter](/newsletter/) mainly for front-end web developers. When I remember I try and keep [notes on things](/notes/) I’m learning.
 
 ## Where to go next
 
