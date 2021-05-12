@@ -6,14 +6,15 @@ description: "Learn how to list your external articles amoung the posts on your 
 slug: "hugo-external-articles"
 ---
 
- {{< intro >}}Lately I’ve been publishing articles both here on my personal site and on Medium. It seems to be fairly common practice these days.{{< /intro >}}
+{{< message >}}
+This solution will create a page for each external article which may effect your sitemap. If this is a problem then consider the approach in <a href="/articles/data-no-page/">Working with data which doesn’t require a page</a>.
+{{< /message >}}
+
+{{< intro >}}Lately I’ve been publishing articles both here on my personal site and on Medium. It seems to be fairly common practice these days.{{< /intro >}}
 
 In order to stay organised, as I publish on various sites, it seems logical to try and keep track of everything I’m writing in one place, and that means here on my personal site.
 
 To do this I came up with a super simple solution which extends the typical [Hugo List template](https://gohugo.io/templates/lists/) to include posts from external sources (in this case Medium). You’ll find this useful if like me you publish articles on multiple sites and want to link to all of them from one posts page on your [Hugo](https://gohugo.io/) site, without having to duplicate articles.
-
-_For a quick demo of this in action click on a few of my [articles](/articles/) and you’ll notice some link to internal pages on this site and some link to external sources._
-
 
 ## Solution
 
@@ -58,7 +59,6 @@ If you haven’t made any major changes your list page should look something lik
 Pretty simple stuff. All we’re doing here is looping through our posts and printing out the post title. In this case clicking the title will take you do to the single post url. This should look familiar.
 
 Now we need to extend this to include links to our external articles within the same loop:
-
 
 ```go
 {{ define "main" }}
