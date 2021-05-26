@@ -895,9 +895,6 @@ video {
 /**
  * Component Block
  */
-.PostHeader-title {
-  max-width: 18ch; }
-
 .PostMeta {
   display: flex;
   max-width: 1600px;
@@ -1610,6 +1607,16 @@ ul.Pagination {
     ul.Pagination .Pagination-item--current a {
       color: var(--color-white);
       text-decoration: none; }
+
+.Hero--list,
+.Hero--page {
+  margin-bottom: 6rem; }
+  @media screen and (min-width: 48em) {
+    .Hero--list,
+    .Hero--page {
+      margin-bottom: 6.4rem; } }
+.Hero-title {
+  max-width: 18ch; }
 
 /*------------------------------------*\
     #UTILITIES: LAYOUT

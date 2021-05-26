@@ -1,16 +1,12 @@
 {{ define "main" }}
 
   <article id="content" class="Post">
-    <header class="PostHeader">
-        <h1 class="PostHeader-title">{{ .Title }}</h1>
+    <header class="Hero Hero--home">
+        <h1 class="Hero-title">{{ .Title }}</h1>
         <p class="intro">{{ .Params.intro }}</p>
     </header>
-    
     <section class="PostBody">
-    
-    {{ .Content }}
-
-        
+      {{ .Content }}
     </section>
   </article><!--/.Content -->
 

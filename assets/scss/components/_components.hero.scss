@@ -1,0 +1,8 @@
+.Hero--list,
+.Hero--page {
+  @include margin-bottom(4);
+}
+
+.Hero-title {
+  max-width: 18ch;
+}
