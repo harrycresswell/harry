@@ -28,7 +28,7 @@ pygmentsCodeFences = true
   linkedin = "https://linkedin.com/in/harrycresswell/"
 
 [taxonomies]
-  tag = "tags"
+  topic = "topics"
 
 [outputs]
   home = [ "HTML", "RSS" ]
@@ -39,9 +39,8 @@ pygmentsCodeFences = true
   baseName = "feed"
   
 [permalinks]
-  articles = "/:section/:slug/"
+  writing = "/:section/:slug/"
   projects = "/:section/:slug/"
-  notes = "/:section/:slug/"
   page = "/:title/"
 
 # Enable Emojis
@@ -53,24 +52,19 @@ enableEmoji = true
   weight = 5
 
 [[menu.main]]
-  name = "Articles"
-  url = "/articles/"
+  name = "Writing"
+  url = "/writing/"
   weight = 10
-
-[[menu.main]]
-  name = "Notes"
-  url = "/notes/"
-  weight = 15
 
 [[menu.main]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 20
+  weight = 15
 
 [[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 25
+  name = "Topics"
+  url = "/topics/"
+  weight = 20
 
 [[menu.footer]]
   name = "Projects"
@@ -78,21 +72,16 @@ enableEmoji = true
   weight = 5
 
 [[menu.footer]]
-  name = "Articles"
-  url = "/articles/"
+  name = "Writing"
+  url = "/writing/"
   weight = 10
-
-[[menu.footer]]
-  name = "Notes"
-  url = "/notes/"
-  weight = 15
 
 [[menu.footer]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 20
+  weight = 15
 
 [[menu.footer]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 25
+  name = "Topics"
+  url = "/topics/"
+  weight = 20

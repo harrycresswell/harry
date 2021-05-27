@@ -1,32 +1,16 @@
-    <footer class="Footer" role="contentinfo">
-      <nav class="FooterNav" aria-label="Footer Navigation">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.footer }}
-        <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}"
-          href="{{.URL}}">{{ .Name }}</a>
-        {{ end }}
-      </nav>
-      <p>Content &copy;{{ now.Format "2006"}} Harry Cresswell, unless otherwise specified. Subscribe to RSS Feeds for <a
-          href="{{ $.Site.BaseURL }}feed.xml">all content</a>, <a
-          href="{{ $.Site.BaseURL }}articles/feed.xml">articles</a>,
-          <a href="{{ $.Site.BaseURL }}newsletter/feed.xml">newsletter</a> or <a
-          href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.
-      </p>
-      <!--<div id="wcb" class="carbonbadge"></div>-->
-    </footer>
-
-    <!-- Store JS files independently -->
-    {{ $lazysizes := resources.Get "js/lazysizes.js" }}
-
-    <!-- Concat JS, generate default app.js and app-likes -->
-    {{ $defaultJS := slice $lazysizes | resources.Concat "app.js" }}
-    <!-- Set default -->
-    {{ $script := $defaultJS }}
-    <!-- Assign script to global, minify and fingerprint -->
-    {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
-    <!-- Load script and authenticate hashed file -->
-    <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
-    <!-- Load carbon badge script, see: https://www.websitecarbon.com/badge/ -->
-    <!--<script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>-->
-  </body>
-  </html>
+<footer class="Footer" role="contentinfo">
+  <nav class="FooterNav" aria-label="Footer Navigation">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.footer }}
+    <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}"
+      href="{{.URL}}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+  <p>Content &copy;{{ now.Format "2006"}} Harry Cresswell, unless otherwise specified. Subscribe to RSS Feeds for <a
+      href="{{ $.Site.BaseURL }}feed.xml">all content</a>, <a
+      href="{{ $.Site.BaseURL }}articles/feed.xml">articles</a>,
+      <a href="{{ $.Site.BaseURL }}newsletter/feed.xml">newsletter</a> or <a
+      href="{{ $.Site.BaseURL }}notes/feed.xml">notes</a>.
+  </p>
+  <!--<div id="wcb" class="carbonbadge"></div>-->
+</footer>

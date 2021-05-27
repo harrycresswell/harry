@@ -1,10 +1,10 @@
 {{ define "main" }}
   <header class="Hero Hero--list">
-    <h1 class="Hero-title">Tags</h1>
+    <h1 class="Hero-title">{{ .Title }}</h1>
   </header>
 
   <section class="TagList">
-  {{ range .Site.Taxonomies.tags }}
+  {{ range .Site.Taxonomies.topics }}
     <article class="TagListItem">
       <h3 class="TagListItem-title">
         <a class="u-url" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}

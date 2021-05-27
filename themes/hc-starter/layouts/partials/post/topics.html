@@ -1,0 +1,8 @@
+<!-- Tags. -->
+<div class="PostMeta-tags">
+    <div class="PostMeta-tag">
+      {{ range .Params.topics }}
+        <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
+      {{ end }}
+    </div>
+</div>

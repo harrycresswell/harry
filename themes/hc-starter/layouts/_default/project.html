@@ -22,13 +22,13 @@
         </div>  */}}
         <div class="PostListItem-meta">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-          {{ $tags := .Params.tags }}
-          {{- with $tags -}}
+          {{ $topics := .Params.topics }}
+          {{- with $topics -}}
             <span>—</span>
             <div class="PostMeta-tags">
                 <div class="PostMeta-tag">
-                  {{ range $tags }}
-                    <a href="/tags/{{ . | urlize }}" class="p-category">{{ . }}</a>
+                  {{ range $topics }}
+                    <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
                   {{ end }}
                 </div>
             </div>

@@ -1,11 +1,50 @@
-{{ partial "header.html" . .Section  }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  {{ partial "head.html" . .Section  }}
+  <body class="Wrapper h-card">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="Header">
+    <div class="Title">
+      <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      <div hidden>
+          <img class="u-photo" src="https://harrycresswell.com/img/hc.jpg" alt="Harry Cresswell">
+          <p class="p-note">{{ .Site.Params.Strapline }}</p>
+          <a href="mailto:studio@harrycresswell.com" rel="me" class="u-email">studio@harrycresswell.com</a>
+      </div>
+    </div>
+    <nav class="Nav" aria-label="Main Navigation">
+      <ul class="Nav-list">
+      {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="Nav-listItem">
+          <a class="Nav-listItemLink{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+      </ul>
+    </nav>
+  </header>
 
-    <main id="main-content" class="Container">
-    
-      {{ block "main" . }}{{ end }}
+  <main id="main-content" class="Container">
+  
+    {{ block "main" . }}{{ end }}
 
-    </main>
+  </main>
 
-    {{ partial "newsletter.html" . }}
+  {{ partial "newsletter.html" . }}
 
-{{ partialCached "footer.html" . .Type }}
+  {{ partialCached "footer.html" . .Type }}
+  <!-- Store JS files independently -->
+  {{ $lazysizes := resources.Get "js/lazysizes.js" }}
+
+  <!-- Concat JS, generate default app.js and app-likes -->
+  {{ $defaultJS := slice $lazysizes | resources.Concat "app.js" }}
+  <!-- Set default -->
+  {{ $script := $defaultJS }}
+  <!-- Assign script to global, minify and fingerprint -->
+  {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
+  <!-- Load script and authenticate hashed file -->
+  <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
+  <!-- Load carbon badge script, see: https://www.websitecarbon.com/badge/ -->
+  <!--<script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>-->
+</body>
+</html>
