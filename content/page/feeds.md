@@ -10,6 +10,5 @@ url: "feeds"
 A list of all the availabe RSS feeds on this website.
 
 - [All content](https://harrycresswell.com/feed.xml)
-- [Articles](https://harrycresswell.com/articles/feed.xml)
+- [Writing](https://harrycresswell.com/writing/feed.xml)
 - [Newsletter](https://harrycresswell.com/newsletter/feed.xml)
-- [Notes](https://harrycresswell.com/notes/feed.xml)
