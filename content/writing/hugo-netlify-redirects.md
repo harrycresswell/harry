@@ -21,7 +21,7 @@ https://harrycresswell.com/notes/some-content // old path
 https://harrycresswell.com/writing/some-content // new path
 ```
 
-Although it’s easy to move content around in Hugo websites, before you do it’s worth considering the impact these changes will have. Arguably the most important things to understand is that any change you make to a URL path will have a serious impact on both how your content appears in search results and backlinks to your content from other websites. 
+Although it’s easy to move content around in Hugo websites, before you do it’s worth considering the impact these changes will have. Arguably the most important thing to understand is that any change you make to a URL path will have a serious impact on both how your content appears in search results and backlinks to your content from other websites. 
 
 ## The impact of URL changes to search results and backlinks
 
@@ -40,7 +40,7 @@ What follows is my research into setting up redirects with Hugo and the approach
 
 ## Hugo Aliases or Netlify Redirects
 
-If you’re site is built with Hugo then you might consider using [Hugo Aliases](https://gohugo.io/content-management/urls/#aliases). For those using Netlify, you have the option of [Netlify Redirects](https://docs.netlify.com/routing/redirects/). Both these approaches pretty much do the same thing, but there are some caveats.
+If your site is built with Hugo then you might consider using [Hugo Aliases](https://gohugo.io/content-management/urls/#aliases). For those using Netlify, you have the option of [Netlify Redirects](https://docs.netlify.com/routing/redirects/). Both these approaches pretty much do the same thing, but there are some caveats.
 
 As [David points out on the Hugo Discourse](https://discourse.gohugo.io/t/hugo-aliases-vs-netlify-redirect/19364/3?u=harrycresswell):
 
@@ -58,7 +58,7 @@ You can choose to either set up a `_redirects` file in the static folder of your
 
 Alternatively you might decide to add the redirects to a [netlify.toml](https://docs.netlify.com/configure-builds/file-based-configuration/) configuration file at the root of your project. 
 
-Both approaches will result in the same outcome. However the benefit of the first option is that it’s portable and recognised outside of the Netlify ecosystem. This would make life much easier if you ever decide to move away from Hugo.
+Both approaches will result in the same outcome. However the benefit of the first option is that it’s portable and recognised outside of the Netlify ecosystem. This would make life much easier if you ever decide to move away from Netlify.
 
 The downside is you can’t configure quite as much as you can inside your `netlify.toml`. In my case I don’t need to do much more than the very basics. I know I can do everything I need to do with a `_redirects` file, so I decided to go with that.
 
@@ -88,7 +88,7 @@ As I mentioned earlier, make sure you put your `_redirects` file in your static 
 
 ## Wrapping up
 
-Set up redirects when you want to make changes to your content structure without loosing the integrity of the links to your content from around the web.
+Set up redirects when you want to make changes to your content structure without losing the integrity of the links to your content from around the web.
 
 With Hugo sites you have the option of using Hugo Aliases, but if you use Netlify to host and deploy your website, then it seems like Netlify Redirects is the more favoured approach. 
 
