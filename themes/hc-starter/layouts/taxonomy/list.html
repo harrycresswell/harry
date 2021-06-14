@@ -6,9 +6,9 @@
   <section class="TagList">
   {{ range .Site.Taxonomies.topics }}
     <article class="TagListItem">
-      <h3 class="TagListItem-title">
+      <h2 class="TagListItem-title">
         <a class="u-url" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}
-      </h3>
+      </h2>
     </article>
   {{ end }}
   </section>
