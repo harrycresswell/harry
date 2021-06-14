@@ -988,7 +988,9 @@ video {
   @media screen and (min-width: 48em) {
     .PostAuthor {
       margin-top: 3.2rem; } }
-  .PostAuthor h4,
+  .PostAuthor h2 {
+    font-size: 1.25rem; }
+  .PostAuthor h2,
   .PostAuthor p {
     margin: 0; }
 

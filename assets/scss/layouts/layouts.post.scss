@@ -99,7 +99,11 @@
   align-items: center;
   @include margin-top(2);
 
-  h4,
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h2,
   p {
     margin: 0;
   }
