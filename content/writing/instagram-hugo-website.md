@@ -2,7 +2,7 @@
 title: "Instagram on Hugo websites"
 date: 2021-06-22T09:49:34+01:00
 draft: false
-description: "How to build a lightweight, GDPR compliant Instagram feed using Hugo, JSON and Profile Page Images Loader."
+description: "Learn how to build a simple lightweight, GDPR compliant Instagram feed using Hugo and Profile Page Images Loader in under 5 minutes."
 slug: "instagram-hugo-websites"
 topics: ["Hugo"]
 syndicate: "false"
