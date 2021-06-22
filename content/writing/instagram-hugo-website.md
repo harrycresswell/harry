@@ -26,7 +26,7 @@ To combat this Joost has built a very slick solution which solves the problem of
 
 To avoid the issue of GDPR, PPI Loader hosts your content on it’s own servers, meaning you never need to make a request to the Instagram API. 
 
-If you’re wondering whether this is allowed, the answer is yes. Instagram actually gives you the ability to download your data directly from the security settings in your Instagram account. Depending on your circumstances, you may need to sign a DPA (Data Processing Agreement), so be sure to read [the FAQs](https://profilepageimages.usecue.com/faq) to find out more.
+If you’re wondering whether this is allowed, the answer is yes. Instagram actually gives you the ability to download your data directly from the security settings in your Instagram account. Depending on your circumstances you may need to sign a DPA (Data Processing Agreement), so be sure to read [the FAQs](https://profilepageimages.usecue.com/faq) to find out more.
 
 What’s nice about PPI loader is that it also creates a JSON object of all your data, so you can work with your data just as you would if you were using the Instagram API. 
 
@@ -38,9 +38,9 @@ In under 5 minutes you can have a lightweight GDPR compliant Instagram feed set 
 
 First you’ll need to follow [the getting started docs](https://profilepageimages.usecue.com/getting-started) to sign up for a PPI Loader account. 
 
-During this process you’ll need to grant PPI permission to access your Instagram account. PPI Loader has [a stringent approach to privacy](https://profilepageimages.usecue.com/privacy) which should satisfy most, however if you’re concerned about sharing your data then make sure you do your own due diligence before using the PPI service.
+During this process you’ll need to grant PPI permission to access your Instagram account. PPI Loader has [a stringent approach to privacy](https://profilepageimages.usecue.com/privacy) which should satisfy most, however if you’re concerned about sharing your data then make sure you do your own due diligence before using PPI Loader.
 
-Assuming you’re happy to share your data, you’ve signed up and granted access to your Instagram account, you’ll now be able to find all your images hosted on the PPI Loader servers and accessible via the following link: 
+Assuming you’re happy to share your data wih PPI Loader – you’ve signed up and granted access to your Instagram account – you’ll now be able to find all your images hosted on the PPI Loader servers and accessible via the following link: 
 
 ```
 https://profilepageimages.usecue.com/images/[YOUR_USERNAME]/
@@ -55,7 +55,7 @@ https://profilepageimages.usecue.com/images/[YOUR_URSERNAME]/images.json
 ```
 
 
-If you head to this URL in a browser you’ll struggle to make sense of the content as it hasn’t been formatted. Copy and paste the contents of the URL into [JSON Prettier](https://jsonprettier.com/) to format the JSON so it’s easier to read. Now you’ll be able to see what your working with.
+If you head to this URL in a browser you’ll struggle to make sense of the content as it hasn’t been formatted. Copy and paste the contents of the URL into [JSON Prettier](https://jsonprettier.com/) to format the JSON so it’s easier to read. Now you’ll be able to see what you’re working with.
 
 You should see a bunch of JSON objects in an array. Something that starts like this:
 
@@ -76,7 +76,7 @@ You should see a bunch of JSON objects in an array. Something that starts like t
 
 ```
 
-This is what we’ll need to build the feed in our Hugo project, so let’s now turn to Hugo. At this point I’m assuming you have an existing Hugo project to work with.
+This is what we’ll need to build the feed in our Hugo project, so let’s turn to Hugo next. I’ll assume you have an existing Hugo project to work with.
 
 ## Building an Instagram feed in Hugo
 
@@ -162,7 +162,7 @@ Now create an `<img>` tag inside the `<li>` to render each image in the feed.
 </ul>
 ```
 
-Here we’re using `media_type` as the class name to allow for different CSS styling depending on the media type. 
+By using `media_type` as the class name we allow for different CSS styling, depending on the media type. 
 
 `image_small` returns the URL of the image, so we can use it for the image src.
 
