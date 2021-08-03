@@ -1147,29 +1147,6 @@ video {
 .Blocks h4 {
   margin: 0; }
 
-.Likes {
-  display: grid;
-  grid-gap: 32px;
-  justify-content: space-between;
-  margin: calc(var(--space)*6) 0; }
-  @media (min-width: 48em) {
-    .Likes {
-      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); } }
-.LikesItem {
-  border: dotted 1px var(--color-dark);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: calc(var(--space)*3); }
-  .LikesItem h3 {
-    min-width: 100%;
-    margin: 0; }
-  .LikesItem:focus-within {
-    border: solid 1px var(--color-dark); }
-
-.LikesItem-url {
-  margin-top: calc(var(--space) *3); }
-
 /*------------------------------------*\
     #OBJECTS: AVATAR
 \*------------------------------------*/

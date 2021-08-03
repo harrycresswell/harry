@@ -32,16 +32,16 @@ Nobody wants to fire open a sketch file in 6 months time and find a mess of arbi
 
 So the point is this; we want to be able to know exactly what state, in what stage, of what flow any given Artboard belongs to. In order to do this we need a system. A system that is quick to understand — by anyone in our team — and efficient in its implementation. No nonsense. Minimal fuss.
 
-I'm sure you'll agree with me here. The sketch file below — where the Artboards are clearly named and numbered — will be easier to manage than the Sketch file below that.
-
-This Sketch file isn't doing anyone any favours. As this file grows it'll become a nightmare to deal with.
+I'm sure you'll agree with me here. The sketch file above — where the Artboards are clearly named and numbered — will be easier to manage than the Sketch file below – which will become a nightmare to deal with as the number of Artborards grows.
 
 {{< cld src="v1550264893/hc/naming-artboards-in-sketch-unorganised.jpg" alt="A badly organised Sketch file" caption="A badly organised Sketch file" >}}
 
 
 ## Scalability
 
-**Does it scale?** We're not talking about front end frameworks here (let's leave that for another one). Instead, we're trying to solve the problem you have when you need to add in an extra step (or stage) to a flow you created a last week, let's say. **Does your system allow you to add in extra Artboards — anywhere in the sequence** — without you having to go through and rename the rest of your Artboards to maintain some sort of order?
+**Does it scale?** We're not talking about front end frameworks here (let's leave that for another one). Instead, we're trying to solve the problem you have when you need to add in an extra step (or stage) to a flow you created last week, let's say. 
+
+**Does your system allow you to add in extra Artboards — anywhere in the sequence** — without you having to go through and rename the rest of your Artboards to maintain some sort of order?
 
 {{< cld src="v1550264893/hc/naming-artboards-in-sketch-organised-albion-02.jpg" alt="Another well organised Sketch file" caption="Another well organised Sketch file" >}}
 
@@ -49,15 +49,15 @@ This Sketch file isn't doing anyone any favours. As this file grows it'll become
 
 In most cases the design process tends to involve a few more people than just one designer.
 
-So the question is; **does the rest of our team also understand what's going on in our Sketch file?**
+So the question is; **does the rest of your team understand what's going on in the Sketch file?**
 
-Ok, I doubt all team members will need access to our Sketch files, but they will have to see them at some point. Without a naming system, the problems will start to show when you start using a prototyping tool like Invison. Unless your working on a side project, your team, your client or whoever will need to feedback on your designs. Sure they can comment on Invision, but all too often you'll find you need a simple way to verbally discuss an Artboard. Let's say by using a reference code.  
+Ok, I doubt all team members will need access to our Sketch files, but they will have to see them at some point. Without a naming system, the problems will start to show when you start using a prototyping tool like Invison. Unless your working on a side project, your team, your client or whoever will need to feedback on your designs. Sure they can comment on Invision, but all too often you'll find you need a simple way to verbally discuss an Artboard. Which is much easier when you have a reference code.  
 
 **Giving your team a quick and easy way to reference Artboards will make your life a lot easier**, particularly as your project grows.  We like our team right? Let's introduce a system which is great for them and not just ourselves.
 
 {{< cld src="v1550264893/hc/naming-artboards-in-sketch-invision.jpg" alt="Prefixing Artboard names with a reference short code makes discussion and organisation easier" caption="Prefixing Artboard names with a reference short code makes discussion and organisation easier" >}}
 
-Ok enough of the reasoning, i'm sure you get the idea by now. Let's look take a look at the system and explain how it works.
+Ok enough of the reasoning, I'm sure you get the idea by now. Let's look take a look at the system and explain how it works.
 
 ## How the system works
 
@@ -69,7 +69,7 @@ Ok, the basic idea is this:
 
 ### Using a 4 level sequence
 
-I'm using **a 4 level numerical sequence followed by a description**, where the purpose of the description is to explain the numerical sequence in a more verbose manor.
+I'm using **a 4 level numerical sequence followed by a description**, where the purpose of the description is to explain the numerical sequence in a more verbose manner.
 
 {{< cld src="v1550264882/hc/naming-artboards-in-sketch-01.jpg" alt="4 level sequence — Breakpoint, Flow, Stage, State" caption="4 level sequence — Breakpoint, Flow, Stage, State" >}}
 
@@ -104,7 +104,7 @@ If you are design a responsive website you're design will most likely change at 
 
 Let's say our design isn't a mockup of the large desktop view (like in the example above), but in fact a regular desktop view or a mockup of our website at a breakpoint of `960px`. In this case we would create a new Artboard and change the breakpoint in our Artboard name to reflect that.
 
-In the example below you can see the Breakpoint is `960`. this, of course, stands for `960px` or our desktop size. Suggesting the Artboard shows how our website will look on a Desktop browser.
+In the example below you can see the Breakpoint is `960`. This, of course, stands for 960 pixels (our desktop size) and suggests how our website will look on a Desktop browser.
 
 {{< cld src="v1550264892/hc/naming-artboards-in-sketch-03.jpg" alt="Breaking down the identifier code" caption="Breaking down the identifier code" >}}
 
@@ -113,7 +113,7 @@ In the example below you can see the Breakpoint is `960`. this, of course, stand
 
 Flow is second in the sequence. This is **the particular user flow you are designing**. An obvious example would be, let's say, the `Checkout` flow. Think UX here. **A flow is the journey a user takes around a site to complete a particular action**. A flow will most likely consist of a number of pages or stages, if you like.
 
-Ok, so you've got the hand of it now.
+Ok, so you've got the hang of it now.
 
 {{< cld src="v1550264892/hc/naming-artboards-in-sketch-04.jpg" alt="The checkout (or second) flow at a breakpoint of 960px" caption="The checkout (or second) flow at a breakpoint of 960px" >}}
 
@@ -153,12 +153,12 @@ This happens quite a lot when you return to past projects and you need to add Ar
 
 ## Wrapping up
 
-Ok, this technique might seem a little over the top for a small project, but if like me, you work on big on-going websites and web apps then then having an Artboard naming system is 100% the way to go. It will save your skin 10 times over.
+Ok, this technique might seem a little over the top for a small project. But if like me you work on big ongoing website projects, then then having an Artboard naming system is very helpful, and will save your skin 10 times over.
 
-Whatever system you choose to use, the most important thing is that **your Artboards names are descriptive of the design that is on it**. Now this might sound obvious, but you'd be surprised. I've seen some strange Artboards names before now, which give you no indication of what the design consists of and are totally illegible to a team. Furthermore, **Artboards should be quick and easy to understand and reference**.
+Whatever system you use, the most important thing is that **your Artboards names are descriptive of the design that is on it**. Now this might sound obvious, but you'd be surprised. I've seen some strange Artboards names before now, which give you no indication of what the design consists of and are totally illegible to a team. Furthermore, **Artboards should be quick and easy to understand and reference**.
 
-**Always discuss a new system with your team**, so that everyone understands it and is on the same page. Above all this will allow you to communicate any design decision you make effectively and with minimal fuss.
+**Always discuss a new system with your team**, so that everyone understands it and is on the same page. Above all, this will allow you to communicate any design decision you make effectively and with minimal fuss.
 
-If you have any thoughts on this approach or ways to improve it, i’d love to hear from you. Likewise any questions I will do my best to answer.
+If you have any thoughts on this approach or ways to improve it, I’d love to hear from you. Likewise, if you have any questions I will do my best to provide you with an answer.
 
-Heres to a stress free time with Artboards in Sketch.  `#artboardmaster`
+Heres to a stress free time with Artboards. 
