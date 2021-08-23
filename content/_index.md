@@ -16,7 +16,7 @@ I curate [a monthly newsletter](/newsletter/) for front-end web developers who a
 
 ## Where to go next
 
-Find out [what I'm up to right now](/now/) or check out my [recent projects](/projects/) to see what I’ve been working on. Read about the [ways you can work with me](/work-with-me/), or take a look at [my CV](pdf/harry-cresswell-cv-may-20.pdf) to get an idea of my experience.
+Find out [what I'm up to right now](/now/) or check out my [recent projects](/projects/) to see what I’ve been working on. Read about the [ways you can work with me](/work-with-me/), or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to get an idea of my experience.
 
 To learn more about the tools and techniques I use, read [how I built this site](/build/). I have a [uses](/uses/) page, if you want to know about my office setup and the tools I use most days.
 
