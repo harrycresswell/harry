@@ -10,9 +10,9 @@ draft: false
 
 I design and code fast, lightweight, content-based websites, mainly using HTML, CSS, and a bit of JavaScript.
 
-I also write about [building performant websites](/writing/) using popular tools like [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/), [Netlify](https://www.netlify.com/) and [Sanity](https://www.sanity.io/).
+I also write about [building performant websites](/writing/) using popular tools like [Hugo](/topics/hugo/), [Eleventy](/topics/eleventy/) and [Sanity](/topics/sanity/).
 
-I curate [a monthly newsletter](/newsletter/) for front-end web developers who are interested in [Jamstack](https://jamstack.org/) technology and generally keeping it simple.
+I curate [a monthly newsletter](/newsletter/) for front-end web developers who are interested in using [Jamstack](https://jamstack.org/) technology and generally like to keep it lean, clean and simple.
 
 ## Where to go next
 
@@ -20,4 +20,4 @@ Find out [what I'm up to right now](/now/) or check out my [recent projects](/pr
 
 To learn more about the tools and techniques I use, read [how I built this site](/build/). I have a [uses](/uses/) page, if you want to know about my office setup and the tools I use most days.
 
-Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. You can follow all the content I create via [RSS feed](/feeds/) if that’s your thing.
+Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell) if you have questions. You can follow all the content I create via [RSS feed](/feeds/) if that’s your thing, or sign up for my newsletter below.
