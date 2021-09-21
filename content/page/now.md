@@ -15,7 +15,7 @@ Things I’m up to right now.
 
 
 ### Projects
-- Just finished a new [brand guidelines microsite](https://epic-mayer-9d22cf.netlify.app/) for AIN.
+- Just finished a new [brand guidelines microsite](https://design.angelinvestmentnetwork.co.uk/) for AIN
 - [Local London](https://locallondon.life/interview) is now sharing stories from London food and drink founders
 - I built [a style guide generator with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy), which takes a set of [design tokens](https://css-tricks.com/what-are-design-tokens/) stored as yaml data and turns them into Sass variables to use in your styles, and JSON to use in your templates. The idea is inspired by [Andy Bell’s Hylia Starter Kit](https://hylia.website/styleguide/)
 
