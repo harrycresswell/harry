@@ -5,6 +5,7 @@ draft: false
 description: "A list of all the availabe RSS feeds on this website. Subscribe to feeds for all content, or articles, Newsletter issues or Notes individually."
 slug: "feeds"
 url: "feeds"
+layout: "page"
 ---
 
 A list of all the availabe RSS feeds on this website.

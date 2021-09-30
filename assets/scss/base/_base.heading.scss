@@ -10,33 +10,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, 
-.size-1 {
-  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2*$mod_2 *$min_font);
-  line-height: 1;
+.h1 {
+  font-size: var(--step-3);
+  line-height: 1.2;
   @include margin-bottom(1);
 }
 
 h2,
-.size-2 {
-  font-size: $mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
-  @include margin-top(1.5);
-  @include margin-bottom(0.5);
+.h2 {
+  font-size: var(--step-2);
+  @include margin-top(2.5);
+  @include margin-bottom(1);
 }
 
 h3,
-.size-3  {
-  font-size: $mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+.h3 {
+  font-size: var(--step-1);
   @include margin-top(1.5);
   @include margin-bottom(0.5);
 }
 
 h4,
-.size-4 {
-  font-size: $mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+.h4 {
+  font-size: var(--step-0);
   @include margin-top(1.5);
   @include margin-bottom(0.5);
 }

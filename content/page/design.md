@@ -5,6 +5,7 @@ description = "Let’s make your business better"
 slug = "design"
 url = "/design/"
 draft = true
+layout= "page"
 +++
 
 {{< intro >}}I’m here to help you bring your project to life. If you’re aiming to grow your business online I can help you in a number of ways:{{< /intro >}}

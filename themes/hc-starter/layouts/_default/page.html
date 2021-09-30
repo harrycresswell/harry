@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <article id="content" class="Post">
+        <header class="Hero Hero--page">
+            <h1 class="Hero-title">{{ .Title }}</h1>
+        </header>
+    
+          <section class="PostBody e-content">
+            {{ partial "heading-anchor.html" .Content }}
+          </section>
+    
+          <footer>
+            {{ partialCached "post/author.html" . }}
+          </footer>
+    </article><!--/.Content -->
+{{ end }}

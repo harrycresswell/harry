@@ -12,3 +12,5 @@ link_text = "roofsimple.com"
 link_url = "https://roofsimple.com/"
 template = "link-big"
 +++
+
+## building a low-tech zipcode search using Hugo, Foresrty and JavaScript

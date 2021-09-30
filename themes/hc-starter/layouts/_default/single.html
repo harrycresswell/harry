@@ -1,15 +1,24 @@
 {{ define "main" }}
-    <article id="content" class="Post">
-        <header class="Hero Hero--page">
-            <h1 class="Hero-title">{{ .Title }}</h1>
-        </header>
-    
-          <section class="PostBody e-content">
-            {{ partial "heading-anchor.html" .Content }}
-          </section>
-    
-          <footer>
-            {{ partialCached "post/author.html" . }}
-          </footer>
-    </article><!--/.Content -->
+
+  <article id="content" class="Post h-entry">
+      <header class="Hero Hero--page">
+          <h1 class="Hero-title p-name">{{ .Title }}</h1>
+          <div class="PostMeta">
+            <time class="PostMeta-date dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            {{ if .Params.topics }} 
+            <span>— </span>
+            {{ partial "post/topics.html" . }}
+            {{ end }}
+          </div>
+      </header>
+
+      <section class="PostBody e-content">
+        {{ partial "heading-anchor.html" .Content }}
+      </section>
+
+      <footer>
+        {{ partialCached "post/author.html" . }}
+      </footer>
+
+  </article><!--/.Content -->
 {{ end }}

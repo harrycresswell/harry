@@ -3,6 +3,7 @@ title: "Awesome"
 date: 2018-03-12T21:14:42Z
 description: "Thanks for sending me a message"
 url: "/success/"
+layout: "page"
 ---
 
 Thanks for your message. It’s flying through the internet right now.

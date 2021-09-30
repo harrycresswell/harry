@@ -8,7 +8,7 @@
  */
 
 .TagList {
-  columns: 14rem auto;
+  columns: 17rem auto;
 }
 
 @include breakpoint(md) {
@@ -26,4 +26,5 @@
 
 .TagListItem-title {
   margin: 0;
+  font-size: var(--step-2);
 }

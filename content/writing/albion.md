@@ -1,9 +1,10 @@
 +++
-title = "Albion"
+title = "Albion: designing a weather app and eCommerce store for a UK cycling brand"
 date = "2019-08-30T16:44:00+01:00"
-description = "Designing a content platform, store and weather app for a road cycling brand not adverse to the challenges of British weather."
+description = "A look into my process when designing the website for Albion cycling, a brand not adverse to the challenges of the great British weather."
 slug = "albion"
 layout = "project"
+topics = ["Project"]
 role = "UX Design, Visual UI Design, Prototyping, Usability Testing, Email marketing"
 duration = "September 2016"
 draft = "false"

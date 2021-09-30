@@ -1,7 +1,7 @@
 ---
 title: "Automating responsive images with Cloudinary"
 date: 2018-07-23T10:18:59+02:00
-topics: ["Hugo", "Javascript", "API"]
+topics: ["Hugo", "Javascript", "Cloudinary", "API"]
 slug: "cloudinary"
 description: "Stop committing images to your git repo and use Cloudinary to create automatic responsive images that don’t slow down your build times."
 ---

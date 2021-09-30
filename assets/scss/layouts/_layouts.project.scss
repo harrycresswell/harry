@@ -12,7 +12,8 @@
 }
 
 .Project-description {
-  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  //@include fluid-type($min_width, $max_width, $min_font, $max_font);
+  font-size: var(--step-0);
   font-weight: $font-weight-regular;
   max-width: 55ch;
   letter-spacing: unset;

@@ -6,6 +6,7 @@ description: "This is a collection of articles I’ve starred on Feedbin, my go-
 slug: "likes"
 syndicate: "false"
 type: "likes"
+layout: "page"
 ---
 
 This page collects my starred articles in <a href="https://feedbin.com/" target="_blank" rel="noopener">Feedbin</a>. I stole the idea from [Robin](https://www.robinrendle.com/notes/rss-favorites), who learn’t about it from [Dave](https://daverupert.com/likes/), who was inspired by [this post from Chris](https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/).

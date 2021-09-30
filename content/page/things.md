@@ -4,6 +4,7 @@ date = "2019-02-20T22:30:25Z"
 description = "Things on the internet made by Harry Cresswell"
 draft = "true"
 url = "/things/"
+layout= "page"
 +++
 
 [Local London](https://locallondon.life) is a directory of London food & drink suppliers who deliver to your door. I’m working on the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local Londoners and local suppliers.

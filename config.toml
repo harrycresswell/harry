@@ -47,41 +47,31 @@ pygmentsCodeFences = true
 enableEmoji = true
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 5
-
-[[menu.main]]
   name = "Writing"
   url = "/writing/"
-  weight = 10
+  weight = 5
 
 [[menu.main]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 15
+  weight = 10
 
 [[menu.main]]
   name = "Topics"
   url = "/topics/"
-  weight = 20
-
-[[menu.footer]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 5
+  weight = 15
 
 [[menu.footer]]
   name = "Writing"
   url = "/writing/"
-  weight = 10
+  weight = 5
 
 [[menu.footer]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 15
+  weight = 10
 
 [[menu.footer]]
   name = "Topics"
   url = "/topics/"
-  weight = 20
+  weight = 15

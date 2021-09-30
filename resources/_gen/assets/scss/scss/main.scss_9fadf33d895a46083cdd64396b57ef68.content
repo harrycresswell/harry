@@ -41,9 +41,52 @@ aside.primary {
 /*------------------------------------*\
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
-/*
-* Courtesy of https://blog.codepen.io/2016/10/31/fluid-type-blogs/ and https://codepen.io/MadeByMike/pen/VvwqvW
-*/
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1140,20,1.5,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+:root {
+  --fluid-min-width: 320;
+  --fluid-max-width: 1140;
+  --fluid-screen: 100vw;
+  --fluid-bp: calc(
+    (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) /
+      (var(--fluid-max-width) - var(--fluid-min-width))
+  ); }
+
+@media screen and (min-width: 1140px) {
+  :root {
+    --fluid-screen: calc(var(--fluid-max-width) * 1px); } }
+
+:root {
+  --f--1-min: 14.22;
+  --f--1-max: 13.33;
+  --step--1: calc(
+    ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
+      var(--fluid-bp)
+  );
+  --f-0-min: 16.00;
+  --f-0-max: 20.00;
+  --step-0: calc(
+    ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
+      var(--fluid-bp)
+  );
+  --f-1-min: 18.00;
+  --f-1-max: 30.00;
+  --step-1: calc(
+    ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
+      var(--fluid-bp)
+  );
+  --f-2-min: 20.25;
+  --f-2-max: 45.00;
+  --step-2: calc(
+    ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
+      var(--fluid-bp)
+  );
+  --f-3-min: 22.78;
+  --f-3-max: 67.50;
+  --step-3: calc(
+    ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
+      var(--fluid-bp)
+  ); }
+
 /*------------------------------------*\
     #ABSTRACTS: SPACING
 \*------------------------------------*/
@@ -116,14 +159,7 @@ figure {
 html {
   font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
   background-color: var(--color-link); }
-  html {
-    font-size: 15px; }
-    @media screen and (min-width: 320px) {
-      html {
-        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      html {
-        font-size: 20px; } }
+
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth; } }
@@ -132,6 +168,7 @@ body {
   background-color: var(--color-white);
   color: var(--color-body);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: var(--step-0);
   font-weight: 400;
   line-height: 1.6;
   font-style: normal;
@@ -162,96 +199,52 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.015em; }
 
 h1,
-.size-1 {
-  font-size: 2.0736rem;
-  line-height: 1;
+.h1 {
+  font-size: var(--step-3);
+  line-height: 1.2;
   margin-bottom: 1.5rem; }
-  h1,
-  .size-1 {
-    font-size: 31.104px; }
-    @media screen and (min-width: 320px) {
-      h1,
-      .size-1 {
-        font-size: calc(31.104px + 55.47609375 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      h1,
-      .size-1 {
-        font-size: 86.58009375px; } }
   @media screen and (min-width: 48em) {
     h1,
-    .size-1 {
+    .h1 {
       margin-bottom: 1.6rem; } }
 h2,
-.size-2 {
-  font-size: 1.44rem;
-  margin-top: 2.25rem;
-  margin-bottom: 0.75rem; }
-  h2,
-  .size-2 {
-    font-size: 21.6px; }
-    @media screen and (min-width: 320px) {
-      h2,
-      .size-2 {
-        font-size: calc(21.6px + 14.4375 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      h2,
-      .size-2 {
-        font-size: 36.0375px; } }
+.h2 {
+  font-size: var(--step-2);
+  margin-top: 3.75rem;
+  margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
     h2,
-    .size-2 {
-      margin-top: 2.4rem; } }
+    .h2 {
+      margin-top: 4rem; } }
   @media screen and (min-width: 48em) {
     h2,
-    .size-2 {
-      margin-bottom: 0.8rem; } }
+    .h2 {
+      margin-bottom: 1.6rem; } }
 h3,
-.size-3 {
-  font-size: 1.44rem;
+.h3 {
+  font-size: var(--step-1);
   margin-top: 2.25rem;
   margin-bottom: 0.75rem; }
-  h3,
-  .size-3 {
-    font-size: 21.6px; }
-    @media screen and (min-width: 320px) {
-      h3,
-      .size-3 {
-        font-size: calc(21.6px + 14.4375 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      h3,
-      .size-3 {
-        font-size: 36.0375px; } }
   @media screen and (min-width: 48em) {
     h3,
-    .size-3 {
+    .h3 {
       margin-top: 2.4rem; } }
   @media screen and (min-width: 48em) {
     h3,
-    .size-3 {
+    .h3 {
       margin-bottom: 0.8rem; } }
 h4,
-.size-4 {
-  font-size: 1.2rem;
+.h4 {
+  font-size: var(--step-0);
   margin-top: 2.25rem;
   margin-bottom: 0.75rem; }
-  h4,
-  .size-4 {
-    font-size: 18px; }
-    @media screen and (min-width: 320px) {
-      h4,
-      .size-4 {
-        font-size: calc(18px + 5.25 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      h4,
-      .size-4 {
-        font-size: 23.25px; } }
   @media screen and (min-width: 48em) {
     h4,
-    .size-4 {
+    .h4 {
       margin-top: 2.4rem; } }
   @media screen and (min-width: 48em) {
     h4,
-    .size-4 {
+    .h4 {
       margin-bottom: 0.8rem; } }
 /*------------------------------------*\
     #BASE: IMAGES
@@ -330,17 +323,8 @@ blockquote {
   color: var(--color-body);
   font-weight: 400;
   font-style: italic;
-  line-height: 1.5;
   margin: 0;
   padding: 0; }
-  blockquote {
-    font-size: 15px; }
-    @media screen and (min-width: 320px) {
-      blockquote {
-        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      blockquote {
-        font-size: 20px; } }
   blockquote p {
     margin-left: 1.5rem; }
     @media screen and (min-width: 48em) {
@@ -363,11 +347,10 @@ kbd,
 samp {
   background: #f9f9f9;
   color: var(--color-light);
-  font-size: 0.9rem; }
+  font-size: 90%; }
 
 pre {
   background: #f9f9f9;
-  font-size: 0.9rem;
   overflow: auto;
   overflow-x: scroll;
   overflow-wrap: normal;
@@ -386,7 +369,6 @@ code, pre {
   font-family: Menlo,Monaco,"Courier New",monospace; }
 
 code {
-  font-size: 85%;
   color: var(--color-teal);
   background-color: #f9f9f9;
   border-radius: 2px; }
@@ -396,8 +378,8 @@ pre {
   margin-bottom: 1rem; }
 
 pre code {
+  font-size: 90%;
   padding: 0;
-  font-size: 100%;
   color: inherit;
   background-color: transparent; }
 
@@ -917,31 +899,15 @@ video {
   .PostBody h6 {
     max-width: 30ch;
     line-height: 1.2;
-    position: relative;
-    margin-top: 2.25rem;
-    margin-bottom: 0.75rem; }
-    @media screen and (min-width: 48em) {
-      .PostBody h2,
-      .PostBody h3,
-      .PostBody h4,
-      .PostBody h5,
-      .PostBody h6 {
-        margin-top: 2.4rem; } }
-    @media screen and (min-width: 48em) {
-      .PostBody h2,
-      .PostBody h3,
-      .PostBody h4,
-      .PostBody h5,
-      .PostBody h6 {
-        margin-bottom: 0.8rem; } }
+    position: relative; }
   .PostBody p {
-    max-width: 60ch;
+    max-width: 65ch;
     margin-bottom: 1.2rem; }
     @media screen and (min-width: 48em) {
       .PostBody p {
         margin-bottom: 1.28rem; } }
   .PostBody .intro {
-    max-width: 48ch; }
+    max-width: 45ch; }
 
 /**
  * Component Element
@@ -969,18 +935,13 @@ video {
 
 .Post .intro,
 .intro {
-  font-size: 100%;
+  font-size: var(--step-1);
   line-height: 1.5;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
     .Post .intro,
     .intro {
       margin-bottom: 1.6rem; } }
-  @media (min-width: 48em) {
-    .Post .intro,
-    .intro {
-      font-size: 125%;
-      line-height: 1.5; } }
 .PostAuthor {
   display: flex;
   align-items: center;
@@ -989,7 +950,7 @@ video {
     .PostAuthor {
       margin-top: 3.2rem; } }
   .PostAuthor h2 {
-    font-size: 1.25rem; }
+    font-size: var(--step-1); }
   .PostAuthor h2,
   .PostAuthor p {
     margin: 0; }
@@ -1088,7 +1049,7 @@ video {
  * Component Block
  */
 .TagList {
-  columns: 14rem auto; }
+  columns: 17rem auto; }
 
 @media (min-width: 48em) {
   .TagList {
@@ -1100,7 +1061,8 @@ video {
   margin: 0 0 16px 0; }
 
 .TagListItem-title {
-  margin: 0; }
+  margin: 0;
+  font-size: var(--step-2); }
 
 /*------------------------------------*\
     #LAYOUTS: PROJECT
@@ -1114,17 +1076,11 @@ video {
     .Project {
       margin-bottom: 4.8rem; } }
 .Project-description {
+  font-size: var(--step-0);
   font-weight: 400;
   max-width: 55ch;
   letter-spacing: unset; }
-  .Project-description {
-    font-size: 15px; }
-    @media screen and (min-width: 320px) {
-      .Project-description {
-        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      .Project-description {
-        font-size: 20px; } }
+
 @media (min-width: 48em) {
   .Project-description {
     margin-top: 1.5rem; } }
@@ -1594,9 +1550,6 @@ ul.Pagination {
     .Hero--list,
     .Hero--page {
       margin-bottom: 6.4rem; } }
-.Hero-title {
-  max-width: 18ch; }
-
 /*------------------------------------*\
     #UTILITIES: LAYOUT
 \*------------------------------------*/
@@ -1673,16 +1626,9 @@ ul.Pagination {
 
 /* font size */
 .body {
+  font-size: var(--step-0);
   font-weight: 400;
   margin-top: 0rem; }
-  .body {
-    font-size: 15px; }
-    @media screen and (min-width: 320px) {
-      .body {
-        font-size: calc(15px + 5 * ((100vw - 320px) / 355)); } }
-    @media screen and (min-width: 675px) {
-      .body {
-        font-size: 20px; } }
   @media screen and (min-width: 48em) {
     .body {
       margin-top: 0rem; } }
