@@ -1,5 +1,5 @@
 ---
-title: "Responsive images and next-gen formats"
+title: "Responsive images and next-gen formats with Hugo"
 date: 2021-09-30T10:25:59+01:00
 draft: false
 description: "Optimising image delivery with Hugo, Cloudinary and Forestry."
@@ -9,18 +9,18 @@ syndicate: "false"
 ---
 
 {{< intro >}}
-The HTTP Archive’s [2020 State of the Web](https://almanac.httparchive.org/en/2020/page-weight#fig-2) report shows  images are still the most popular resource type on the web, contributing more to page weight than JavaScript, CSS and HTML, combined. 
+The HTTP Archive’s [2020 State of the Web](https://almanac.httparchive.org/en/2020/page-weight#fig-2) reports that images are still the most popular resource type on the web. Contributing more to page weight than JavaScript, CSS and HTML, combined. 
 {{< /intro >}}
 
-Unoptimized images are often the greatest contributor to page weight. Whilst page weight directly effects site speed, studies also show that slow speed and poor user experience have a direct impact on conversion rate. 
+The problem is that many of these images remain unoptimised. Created heavier than necessary pages, which result in slower site speeds and lower conversion rates.
 
 According to [Google](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/); “as page load time goes from one second to 10 seconds, the probability of a mobile site visitor bouncing increases 123%. Similarly, as the number of elements—text, titles, images—on a page goes from 400 to 6,000, the probability of conversion drops 95%.”
 
-So, if you want to make your website faster – and increase conversion – one of the best places to start is with your images. Delivering only what’s necessary, in the lightest possible way. 
+So, if you want to make your website faster – and increase conversion – one of the best things you can do is optimise your images. Delivering only what’s necessary, and doing so in the lightest possible way. 
 
-Whilse there are a number of different ways to optimise image delivery, today I want to focus on just two – responsive images and delivering next-gen formats. Specifically, I want to share the workflow I use when building websites with [Hugo](/topics/hugo). Where image content is hosted by [Cloudinary](/topics/cloudinary) and the website, itself, is managed via [Forestry](/topics/forestry). 
+Whilst there are a number of different ways to optimise image delivery, today I want to focus on just two – responsive images and delivering next-gen formats. Specifically, I want to share the workflow I use when building websites with [Hugo](/topics/hugo). Where image content is hosted by [Cloudinary](/topics/cloudinary) and the website, itself, is managed via [Forestry](/topics/forestry). 
 
-It’s a popular stack and these two optimisations are clearly big wins when it comes to web performance. So, I was surprised to find little out there explaining how to tie all this good stuff together. My aim here is to fill those gaps and provide you with some insight. 
+It’s a popular stack and when it comes to web performance, these two optimisations are well documented. So, I was surprised to find little out there explaining how to tie all this good stuff together. My aim here is to fill those gaps and provide you with some insight. 
 
 Let’s begin with the basics.
 
@@ -68,7 +68,7 @@ Here we discover an important insight.
 
 The preferred image is always selected at the discretion of the browser, rather than the developer. In other words, you, as the developer, can only make suggestions as to which images should be used. But ultimately, the browser makes the final decision.
 
-This can sometimes make it [difficult test srcset implementation](https://stackoverflow.com/questions/28365079/do-latest-chrome-opera-get-srcset-wrong) and validate the quality of your code.
+This can often make it [difficult to test srcset implementation](https://stackoverflow.com/questions/28365079/do-latest-chrome-opera-get-srcset-wrong) and validate the quality of your code.
 
 When using `srcset`, it’s important to include a `src` attribute containing your smallest image size. This will be used as a fallback for older browsers which don’t support `srcset`. Given older browsers are usually less performant, it makes sense to offer the smallest size.
 
