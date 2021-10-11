@@ -1,48 +1,28 @@
 {{ define "main" }}
   <article id="content" class="Project h-entry">
   
-      <header>
-        <h1 class="Project-title p-name">{{ .Title }}</h1>
-        <h2 class="Project-description">{{ .Params.Description | markdownify }}</h2>
-
-        {{/*  <div class="">
-          <div>
-            <span class="strong dark small">Role</span>
-            {{- with .Params.role -}}
-              <p class="light small">{{ markdownify . }}</p>
-            {{- end -}}
-          </div>
-
-          <div>
-            <span class="strong dark small">Duration</span>
-            {{- with .Params.duration -}}
-              <p class="light small">{{ markdownify . }}</p>
-            {{- end -}}
-          </div>
-        </div>  */}}
-        <div class="PostListItem-meta">
+      <header class="Project-header flow">
+        <h1 class="p-name">{{ .Title }}</h1>
+        <h2>{{ .Params.Description | markdownify }}</h2>
+        <div class="flex">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
           {{ $topics := .Params.topics }}
           {{- with $topics -}}
             <span>—</span>
-            <div class="PostMeta-tags">
-                <div class="PostMeta-tag">
-                  {{ range $topics }}
-                    <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
-                  {{ end }}
-                </div>
-            </div>
+            {{ range $topics }}
+              <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
+            {{ end }}
           {{- end -}}
       </div>
       </header>
       <div class="Blocks e-content">
         {{- range .Params.blocks -}}
-            {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" . ) }}{{- end -}}
-            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" . ) }}{{- end -}}
+            {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url ) }}{{- end -}}
+            {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url ) }}{{- end -}}
             {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
-            {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" .) }}{{- end -}}
-            {{- if eq .template "image-grid-four" -}}{{ partial "blocks/img-grid-four" (dict "Params" .) }}{{- end -}} 
-            {{- if eq .template "quote" -}}{{ partial "blocks/quote" (dict "Params" .) }}{{- end -}} 
+            {{- if eq .template "image-grid-two" -}}{{ partial "blocks/img-grid-two" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url) }}{{- end -}}
+            {{- if eq .template "image-grid-four" -}}{{ partial "blocks/img-grid-four" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url) }}{{- end -}} 
+            {{- if eq .template "quote" -}}{{ partial "blocks/quote" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url) }}{{- end -}} 
             {{- if eq .template "link-big" -}}{{ partial "blocks/link-big" (dict "Params" .) }}{{- end -}} 
             {{- if eq .template "iframe-full" -}}{{ partial "blocks/iframe-full" (dict "Params" .) }}{{- end -}} 
             {{- if eq .template "iframe-grid-one" -}}{{ partial "blocks/iframe-grid-one" (dict "Params" .) }}{{- end -}} 

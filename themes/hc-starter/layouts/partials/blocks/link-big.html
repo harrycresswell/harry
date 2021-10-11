@@ -1,10 +1,8 @@
-<section class="Section Grid">
-  <div class="Grid-7-6 Message">
+<section class="Grid">
+  <div class="Grid-7-6">
     <p>Visit the live site ↓</p>
-    <h4 class="h3 as-link">
-      <a class="link-dark" href="{{- with .Params.link_url -}}{{ . }}{{- end -}}" target="_blank" rel="noopener noreferer">
-        {{- with .Params.link_text -}}{{ markdownify . }}{{- end -}}
-      </a>
-    </h4>
+    <a class="h2 font-bold" href="{{- with .Params.link_url -}}{{ . }}{{- end -}}" target="_blank" rel="noopener noreferer">
+      {{- with .Params.link_text -}}{{ markdownify . }}{{- end -}}
+    </a>
   </div>
 </section>

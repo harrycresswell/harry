@@ -7,7 +7,6 @@ a {
   text-decoration: underline;
 
   &:hover {
-    //color: darken($color-link, 25%);
     color: var(--color-white);
     background-color: var(--color-link);
     text-decoration: none;

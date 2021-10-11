@@ -13,4 +13,16 @@
    h4 {
      margin: 0;
    }
- }
+
+  section {
+    @include margin-top(2);
+    @include margin-bottom(2);
+  }
+
+ @include breakpoint(md) {
+  section {
+        @include margin-top(3);
+        @include margin-bottom(3);
+    }
+  }
+}

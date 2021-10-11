@@ -41,7 +41,7 @@ aside.primary {
 /*------------------------------------*\
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
-/* @link https://utopia.fyi/type/calculator?c=320,14,1.25,1140,20,1.414,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,14,1.2,1140,20,1.414,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 :root {
   --fluid-min-width: 320;
   --fluid-max-width: 1140;
@@ -56,7 +56,7 @@ aside.primary {
     --fluid-screen: calc(var(--fluid-max-width) * 1px); } }
 
 :root {
-  --f--1-min: 11.20;
+  --f--1-min: 11.67;
   --f--1-max: 14.14;
   --step--1: calc(
     ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
@@ -68,25 +68,25 @@ aside.primary {
     ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
       var(--fluid-bp)
   );
-  --f-1-min: 17.50;
+  --f-1-min: 16.80;
   --f-1-max: 28.28;
   --step-1: calc(
     ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
       var(--fluid-bp)
   );
-  --f-2-min: 21.88;
+  --f-2-min: 20.16;
   --f-2-max: 39.99;
   --step-2: calc(
     ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
       var(--fluid-bp)
   );
-  --f-3-min: 27.34;
+  --f-3-min: 24.19;
   --f-3-max: 56.54;
   --step-3: calc(
     ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
       var(--fluid-bp)
   );
-  --f-4-min: 34.18;
+  --f-4-min: 29.03;
   --f-4-max: 79.95;
   --step-4: calc(
     ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .h1 {
   font-size: var(--step-4);
-  line-height: 1.2;
+  line-height: 1.1;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
     h1,
@@ -815,18 +815,6 @@ video {
     .Section {
       margin-bottom: 3.2rem; } }
 /*------------------------------------*\
-    #LAYOUTS: FLEX
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Flex {
-  display: flex; }
-
-.Flex-item {
-  flex-basis: 1; }
-
-/*------------------------------------*\
     #LAYOUTS: GRID
 \*------------------------------------*/
 /**
@@ -1081,21 +1069,19 @@ video {
   @media screen and (min-width: 48em) {
     .Project {
       margin-bottom: 4.8rem; } }
-.Project-description {
-  font-size: var(--step-0);
+.Project-header h2 {
+  font-size: var(--step-1);
   font-weight: 400;
-  max-width: 55ch;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65ch;
   letter-spacing: unset; }
 
-@media (min-width: 48em) {
-  .Project-description {
-    margin-top: 1.5rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Project-description {
-      margin-top: 1.6rem; } }
-.Project .Message {
-  border: dotted 1px;
-  padding: 32px 64px; }
+@media (min-width: 75em) {
+  .Project-header {
+    text-align: center; }
+    .Project-header div {
+      justify-content: center; } }
 
 /*------------------------------------*\
     #LAYOUTS: BLOCKS
@@ -1109,6 +1095,25 @@ video {
 .Blocks h4 {
   margin: 0; }
 
+.Blocks section {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 48em) {
+    .Blocks section {
+      margin-top: 3.2rem; } }
+  @media screen and (min-width: 48em) {
+    .Blocks section {
+      margin-bottom: 3.2rem; } }
+@media (min-width: 48em) {
+  .Blocks section {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Blocks section {
+      margin-top: 4.8rem; } }
+  @media screen and (min-width: 48em) and (min-width: 48em) {
+    .Blocks section {
+      margin-bottom: 4.8rem; } }
 /*------------------------------------*\
     #OBJECTS: AVATAR
 \*------------------------------------*/
@@ -1262,6 +1267,22 @@ video {
   @media screen and (min-width: 48em) {
     .Video {
       margin-bottom: 2.4rem; } }
+.skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; }
+
+.skip-link:focus {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 /*------------------------------------*\
     #COMPONENTS: HEADER
 \*------------------------------------*/
@@ -1425,38 +1446,6 @@ p + .Image {
       .NewsletterForm-field:not(:last-of-type) {
         margin-right: 0.8rem; } }
 /*------------------------------------*\
-    #COMPONENTS: RATIO
-\*------------------------------------*/
-/**
- * A utility that provides you with a predictable aspect ratio
- *
- * 16:9: ratio wide
- * 1:1: ratio square
- * 3:2: ratio classic
- */
-.Ratio {
-  background-color: #f6f6f6;
-  display: block;
-  position: relative; }
-
-.Ratio--3by2 {
-  padding-bottom: 66.66667%; }
-
-.Ratio--16by9 {
-  padding-bottom: 56.25%; }
-
-.Ratio--1by1 {
-  padding-bottom: 100%; }
-
-.Ratio img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-/*------------------------------------*\
     #COMPONENTS: PULLQUOTE
 \*------------------------------------*/
 /**
@@ -1557,42 +1546,6 @@ ul.Pagination {
     .Hero--page {
       margin-bottom: 6.4rem; } }
 /*------------------------------------*\
-    #UTILITIES: LAYOUT
-\*------------------------------------*/
-.u-visually-hidden {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important; }
-
-/**
- * FULL BLEED
- *
- * Add this class to an element to make it fill the width of the screen 
- * and sit horizontally central
- * https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/
- */
-.full-bleed {
-  width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%); }
-
-.skip-link:not(:focus) {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; }
-
-.skip-link:focus {
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-/*------------------------------------*\
     #UTILITIES: COLOR
 \*------------------------------------*/
 .dark {
@@ -1644,5 +1597,96 @@ ul.Pagination {
 /* font weight */
 .strong {
   font-weight: 500; }
+
+.font-bold {
+  font-weight: 700; }
+
+.text-center {
+  text-align: center; }
+
+/*------------------------------------*\
+    #LAYOUTS: FLEX
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.flex {
+  display: flex; }
+
+.justify-center {
+  justify-content: center; }
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1em); }
+
+/**
+ * FULL BLEED
+ *
+ * Add this class to an element to make it fill the width of the screen 
+ * and sit horizontally central
+ * https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/
+ */
+.full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+  .full-bleed figcaption {
+    margin-left: calc(var(--space) *2); }
+
+/*------------------------------------*\
+    #UTILITIES: LAYOUT
+\*------------------------------------*/
+.u-visually-hidden {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
+/*------------------------------------*\
+    #COMPONENTS: RATIO
+\*------------------------------------*/
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9 = ratio wide
+ * 1:1 = ratio square
+ * 3:2 = ratio classic
+ * 4:3 = ratio landscape
+ * 3:4 = ratio portrait
+ */
+[class*='ratio-'] {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative; }
+
+[class*='ratio-'] > * {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.aspect-ratio-wide {
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */ }
+
+.aspect-ratio-square {
+  padding-bottom: 100%;
+  /* 1:1 Aspect Ratio */ }
+
+.aspect-ratio-landscape {
+  padding-bottom: 66.6666%;
+  /* 3:2 Aspect Ratio */ }
+
+.aspect-ratio-portrait {
+  padding-bottom: calc(564 / 395 * 100%);
+  /* 5:7 Aspect Ratio */ }
+
+.aspect-ratio-full {
+  padding-top: calc(276 / 414 * 100%);
+  object-fit: cover; }
+  @media (min-width: 48em) {
+    .aspect-ratio-full {
+      padding-top: calc(886 / 2880 * 100%); } }
 
 /*# sourceMappingURL=main.css.map */

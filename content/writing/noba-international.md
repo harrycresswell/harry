@@ -6,9 +6,9 @@ description = "Brand identity and marketing website for executive search startup
 slug = "noba-international"
 topics = ["Project", "Visual Identity", "Hugo"]
 syndicate = "false"
-layout = "project"
-[[blocks]]
-link_text = "nobainternational.com"
-link_url = "https://nobainternational.com/"
-template = "link-big"
 +++
+
+Brand identity and marketing website for executive search startup Noba International. Built using Hugo with Forestry CMS."
+slug = "noba-international
+
+[nobainternational.com](https://nobainternational.com/)

@@ -6,9 +6,8 @@ description = "A directory of London food & drink suppliers who deliver to your 
 slug = "local-london"
 topics = ["Project", "Hugo"]
 syndicate = "false"
-layout = "project"
-[[blocks]]
-link_text = "locallondon.life"
-link_url = "https://locallondon.life/"
-template = "link-big"
 +++
+
+A directory of London food & drink suppliers who deliver to your door. I started the project in response to the Covid-19 lockdown, to help Londoners find local suppliers and producers who are still operating.
+
+[locallondon.life](https://locallondon.life/)

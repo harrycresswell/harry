@@ -1,30 +1,78 @@
-<section class="Section Grid">
+{{ $baseURL := .baseURL }}
+{{ $ratio := .Params.image_ratio }}
+<section class="Grid">
   <div class="Grid-1-6">
-    <div class="Image">
-      <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
+    {{ $image_one := .Params.image_one }}
+    {{ $image_one_alt := .Params.image_one_alt }}
+    {{ $image_one_caption := .Params.image_one_caption }}
+    <figure class="Image">
+      <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
+        {{- with $image_one -}}
         <img
-          data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image_one -}}{{ markdownify . }}{{- end -}}"
-          class="cld-responsive lazyload " alt="{{- with .Params.image_one_alt -}}{{ markdownify . }}{{- end -}}">
+          srcset="
+          {{ $baseURL }}/f_auto,q_80,w_256/{{ . }} 256w,
+          {{ $baseURL }}/f_auto,q_80,w_512/{{ . }} 512w,
+          {{ $baseURL }}/f_auto,q_80,w_768/{{ . }} 768w,
+          {{ $baseURL }}/f_auto,q_80,w_1024/{{ . }} 1024w,
+          {{ $baseURL }}/f_auto,q_80,w_1280/{{ . }} 1280w,
+          {{ $baseURL }}/f_auto,q_80,w_1640/{{ . }} 1640w"
+          sizes="(min-width: 768px) 50vw, 100vw"
+          src="{{ $baseURL }}/f_auto,q_80,w_500/{{ . }}"
+          class="lazyload " 
+          alt="{{- with $image_one_alt -}}{{ markdownify . }}{{- end -}}"
+          decoding="async"
+          {{ if (eq $ratio "square") }}
+            width="1000"
+            height="1000"
+          {{ else if (eq $ratio "landscape") }}
+            width="100%"
+            height="853"
+          {{ else if (eq $ratio "portrait") }}
+            width="960"
+            height="1280"
+          {{ end }}>
+        {{- end -}}
       </div><!-- /.ImageRatio -->
-    </div><!-- /.Image -->
-    {{- with .Params.image_one_caption -}}
-    <figure>
-      <figcaption class="mono">{{ markdownify . }}</figcaption>
+      {{- with $image_one_caption -}}
+        <figcaption class="mono">{{ markdownify . }}</figcaption>
+      {{- end -}}
     </figure>
-    {{- end -}}
   </div>
   <div class="Grid-7-6">
-    <div class="Image">
-      <div class="Ratio Ratio--{{- with .Params.image_ratio -}}{{ markdownify . }}{{- end -}}">
+    {{ $image_two := .Params.image_two }}
+    {{ $image_two_alt := .Params.image_two_alt }}
+    {{ $image_two_caption := .Params.image_two_caption }}
+    <figure class="Image">
+      <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
+        {{- with $image_two -}}
         <img
-          data-src="https://res.cloudinary.com/harrycresswell/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{- with .Params.image_two -}}{{ markdownify . }}{{- end -}}"
-          class="cld-responsive lazyload " alt="{{- with .Params.image_two_alt -}}{{ markdownify . }}{{- end -}}">
+          srcset="
+          {{ $baseURL }}/f_auto,q_80,w_256/{{ . }} 256w,
+          {{ $baseURL }}/f_auto,q_80,w_512/{{ . }} 512w,
+          {{ $baseURL }}/f_auto,q_80,w_768/{{ . }} 768w,
+          {{ $baseURL }}/f_auto,q_80,w_1024/{{ . }} 1024w,
+          {{ $baseURL }}/f_auto,q_80,w_1280/{{ . }} 1280w,
+          {{ $baseURL }}/f_auto,q_80,w_1640/{{ . }} 1640w"
+          sizes="(min-width: 768px) 50vw, 100vw"
+          src="{{ $baseURL }}/f_auto,q_80,w_500/{{ . }}"
+          class="lazyload " 
+          alt="{{- with $image_two_alt -}}{{ markdownify . }}{{- end -}}"
+          decoding="async"
+          {{ if (eq $ratio "square") }}
+            width="1000"
+            height="1000"
+          {{ else if (eq $ratio "landscape") }}
+            width="100%"
+            height="853"
+          {{ else if (eq $ratio "portrait") }}
+            width="960"
+            height="1280"
+          {{ end }}>
+        {{- end -}}
       </div><!-- /.ImageRatio -->
-    </div><!-- /.Image -->
-    {{- with .Params.image_two_caption -}}
-    <figure>
-      <figcaption class="mono">{{ markdownify . }}</figcaption>
-    </figure>
-    {{- end -}}
+      {{- with $image_two_caption -}}
+        <figcaption class="mono">{{ markdownify . }}</figcaption>
+      {{- end -}}
+    </figure><!-- /.Image -->
   </div>
 </section>

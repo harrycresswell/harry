@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    #COMPONENTS: RATIO
+\*------------------------------------*/
+
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9 = ratio wide
+ * 1:1 = ratio square
+ * 3:2 = ratio classic
+ * 4:3 = ratio landscape
+ * 3:4 = ratio portrait
+ */
+
+ [class*='ratio-'] {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative;
+}
+
+[class*='ratio-']>* {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.aspect-ratio-wide {
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */
+}
+
+.aspect-ratio-square {
+  padding-bottom: 100%;
+  /* 1:1 Aspect Ratio */
+}
+
+.aspect-ratio-landscape {
+  padding-bottom: 66.6666%;
+  /* 3:2 Aspect Ratio */
+}
+
+.aspect-ratio-portrait {
+  padding-bottom: calc(564 / 395 * 100%);
+  /* 5:7 Aspect Ratio */
+}
+
+.aspect-ratio-full {
+  padding-top: calc(276 / 414 * 100%);
+
+  @include breakpoint(md) {
+    padding-top: calc(886 / 2880 * 100%);
+  }
+
+  object-fit: cover;
+}
