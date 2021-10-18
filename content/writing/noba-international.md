@@ -9,6 +9,5 @@ syndicate = "false"
 +++
 
 Brand identity and marketing website for executive search startup Noba International. Built using Hugo with Forestry CMS."
-slug = "noba-international
 
 [nobainternational.com](https://nobainternational.com/)
