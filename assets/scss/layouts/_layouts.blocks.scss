@@ -8,11 +8,15 @@
 
  .Blocks {
    h1,
-   h2,
-   h3,
-   h4 {
+   h2 {
      margin: 0;
+     line-height: 1.1;
    }
+
+   h3 {
+    line-height: 1.2;
+   }
+   
 
   section {
     @include margin-top(2);
@@ -21,8 +25,8 @@
 
  @include breakpoint(md) {
   section {
-        @include margin-top(3);
-        @include margin-bottom(3);
+        @include margin-top(4);
+        @include margin-bottom(4);
     }
   }
 }

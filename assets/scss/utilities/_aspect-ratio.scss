@@ -7,8 +7,7 @@
  *
  * 16:9 = ratio wide
  * 1:1 = ratio square
- * 3:2 = ratio classic
- * 4:3 = ratio landscape
+ * 3:2 = ratio landscape
  * 3:4 = ratio portrait
  */
 
@@ -25,6 +24,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 
 .aspect-ratio-wide {

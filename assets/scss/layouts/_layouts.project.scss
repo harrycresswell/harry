@@ -15,18 +15,9 @@
   h2 {
     font-size: var(--step-1);
     font-weight: $font-weight-regular;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.4;
     max-width: 65ch;
     letter-spacing: unset;
-  }
-
-  @include breakpoint(lg) {
-    text-align: center;
-
-    div {
-      justify-content: center;
-    }
   }
 }
 

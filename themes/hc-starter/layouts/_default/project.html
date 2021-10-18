@@ -9,9 +9,13 @@
           {{ $topics := .Params.topics }}
           {{- with $topics -}}
             <span>—</span>
-            {{ range $topics }}
-              <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
-            {{ end }}
+            <div class="PostMeta-tags">
+                <div class="PostMeta-tag">
+                  {{ range $topics }}
+                    <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
+                  {{ end }}
+                </div>
+            </div>
           {{- end -}}
       </div>
       </header>

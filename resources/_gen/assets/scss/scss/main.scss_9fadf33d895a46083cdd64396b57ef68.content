@@ -242,6 +242,7 @@ h3,
 h4,
 .h4 {
   font-size: var(--step-0);
+  line-height: 1.4;
   margin-top: 2.25rem;
   margin-bottom: 0.75rem; }
   @media screen and (min-width: 48em) {
@@ -1072,16 +1073,9 @@ video {
 .Project-header h2 {
   font-size: var(--step-1);
   font-weight: 400;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 1.4;
   max-width: 65ch;
   letter-spacing: unset; }
-
-@media (min-width: 75em) {
-  .Project-header {
-    text-align: center; }
-    .Project-header div {
-      justify-content: center; } }
 
 /*------------------------------------*\
     #LAYOUTS: BLOCKS
@@ -1090,10 +1084,12 @@ video {
  * Component Block
  */
 .Blocks h1,
-.Blocks h2,
-.Blocks h3,
-.Blocks h4 {
-  margin: 0; }
+.Blocks h2 {
+  margin: 0;
+  line-height: 1.1; }
+
+.Blocks h3 {
+  line-height: 1.2; }
 
 .Blocks section {
   margin-top: 3rem;
@@ -1106,14 +1102,14 @@ video {
       margin-bottom: 3.2rem; } }
 @media (min-width: 48em) {
   .Blocks section {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem; } }
+    margin-top: 6rem;
+    margin-bottom: 6rem; } }
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Blocks section {
-      margin-top: 4.8rem; } }
+      margin-top: 6.4rem; } }
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Blocks section {
-      margin-bottom: 4.8rem; } }
+      margin-bottom: 6.4rem; } }
 /*------------------------------------*\
     #OBJECTS: AVATAR
 \*------------------------------------*/
@@ -1649,8 +1645,7 @@ ul.Pagination {
  *
  * 16:9 = ratio wide
  * 1:1 = ratio square
- * 3:2 = ratio classic
- * 4:3 = ratio landscape
+ * 3:2 = ratio landscape
  * 3:4 = ratio portrait
  */
 [class*='ratio-'] {
@@ -1664,7 +1659,8 @@ ul.Pagination {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  object-fit: cover; }
 
 .aspect-ratio-wide {
   padding-bottom: 56.25%;
