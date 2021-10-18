@@ -2,7 +2,7 @@
 title: "Heffernan Utilities: visual identity and website for a multi-utility contractor"
 date: 2021-10-13T10:21:54+01:00
 draft: false
-description: "Creating an identity, brand identity guidelines and marketing website for a family run multi-utility contractor based in the North of England."
+description: "Creating a visual identity, brand guidelines and marketing website for a family run multi-utility contractor based in the North of England."
 slug: "heffernan-utilities"
 topics: ["Project", "Visual Identity"]
 syndicate: "false"
