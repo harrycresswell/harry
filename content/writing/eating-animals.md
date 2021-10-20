@@ -1,5 +1,5 @@
 +++
-topics = ["Impact", "Books"]
+topics = ["Books"]
 description = "A long hard look at the current impact the meat industry is having on the health of humanity and the world we live in."
 slug = "eating-animals"
 title = "Eating Animals"

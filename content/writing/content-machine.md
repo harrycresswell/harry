@@ -1,5 +1,5 @@
 +++
-topics = ["Marketing", "Books"]
+topics = ["Books"]
 date = "2016-10-26T21:34:41+01:00"
 rating = "7/10"
 slug = "content-machine"

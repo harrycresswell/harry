@@ -1,5 +1,5 @@
 +++
-topics = ["Writing", "Books"]
+topics = ["Books"]
 slug = "everybody-writes"
 description = "Your go-to guide to creating ridiculously good content."
 date = "2016-10-26T21:34:41+01:00"
