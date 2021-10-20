@@ -16,19 +16,19 @@
     <meta property="og:site_name" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ .Permalink }}">
-    <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
-    <meta property="twitter:description" content="{{ if eq $isHomePage false }} {{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
-    <link rel="canonical" href="{{ .Permalink }}">
     <!-- if featured image exists in file frontmatter, use for open graph data -->
     {{ if isset .Params "feature" }}
     <meta property="og:image" content="{{ .Params.feature }}">
     <!-- else if no image in frontmatter, and sections are not equal to articles or notes, then display image --> 
-    {{ else if and (ne .Section "articles") (ne .Section "notes") }}
-    <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/w_700,dpr_2.0,c_scale,f_auto,q_auto/v1550264713/hc/harry-cresswell-about-me.jpg">
+    {{ else }}
+    <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/v1634728990/hc/harrycresswell-og-image.png">
     {{ end }}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+    <meta property="twitter:description" content="{{ if eq $isHomePage false }} {{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    <link rel="canonical" href="{{ .Permalink }}">
     <!-- Pinterest Verification -->
     <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
     <!-- Google Verification -->
