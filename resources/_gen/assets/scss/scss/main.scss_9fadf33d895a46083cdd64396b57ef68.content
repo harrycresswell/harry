@@ -179,7 +179,6 @@ body {
   line-height: 1.6;
   font-style: normal;
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed; }
 
 p {
