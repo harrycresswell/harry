@@ -6,8 +6,26 @@
     {{ $image_one_alt := .Params.image_one_alt }}
     {{ $image_one_caption := .Params.image_one_caption }}
     <figure class="Image">
-      <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
+      <picture class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
         {{- with $image_one -}}
+        <source 
+          type="image/avif" 
+          class="lazyload object-fit-cover"
+          srcset="{{ $baseURL }}/f_avif,q_auto,w_256/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 256w,
+                  {{ $baseURL }}/f_avif,q_auto,w_512/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 512w,
+                  {{ $baseURL }}/f_avif,q_auto,w_768/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 768w,
+                  {{ $baseURL }}/f_avif,q_auto,w_1024/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1024w,
+                  {{ $baseURL }}/f_webp,q_auto,w_1280/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1280w,
+                  {{ $baseURL }}/f_webp,q_auto,w_1640/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1640w">
+        <source 
+          type="image/webp"
+          class="lazyload object-fit-cover"
+          srcset="{{ $baseURL }}/f_webp,q_auto,w_500/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 256w,
+                  {{ $baseURL }}/f_webp,q_auto,w_710/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 512w,
+                  {{ $baseURL }}/f_webp,q_auto,w_768/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 768w,
+                  {{ $baseURL }}/f_webp,q_auto,w_1024/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1024w,
+                  {{ $baseURL }}/f_webp,q_auto,w_1280/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1280w,
+                  {{ $baseURL }}/f_webp,q_auto,w_1640/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1640w" >
         <img
           srcset="
           {{ $baseURL }}/f_auto,q_80,w_256/{{ . }} 256w,
@@ -32,7 +50,7 @@
             height="1280"
           {{ end }}>
         {{- end -}}
-      </div><!-- /.ImageRatio -->
+      </picture>
       {{- with $image_one_caption -}}
         <figcaption class="mono">{{ markdownify . }}</figcaption>
       {{- end -}}
@@ -43,8 +61,26 @@
     {{ $image_two_alt := .Params.image_two_alt }}
     {{ $image_two_caption := .Params.image_two_caption }}
     <figure class="Image">
-      <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
+      <picture class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
         {{- with $image_two -}}
+        <source 
+        type="image/avif" 
+        class="lazyload object-fit-cover"
+        srcset="{{ $baseURL }}/f_avif,q_auto,w_256/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 256w,
+                {{ $baseURL }}/f_avif,q_auto,w_512/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 512w,
+                {{ $baseURL }}/f_avif,q_auto,w_768/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 768w,
+                {{ $baseURL }}/f_avif,q_auto,w_1024/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1024w,
+                {{ $baseURL }}/f_webp,q_auto,w_1280/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1280w,
+                {{ $baseURL }}/f_webp,q_auto,w_1640/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} 1640w">
+      <source 
+        type="image/webp"
+        class="lazyload object-fit-cover"
+        srcset="{{ $baseURL }}/f_webp,q_auto,w_500/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 256w,
+                {{ $baseURL }}/f_webp,q_auto,w_710/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 512w,
+                {{ $baseURL }}/f_webp,q_auto,w_768/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 768w,
+                {{ $baseURL }}/f_webp,q_auto,w_1024/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1024w,
+                {{ $baseURL }}/f_webp,q_auto,w_1280/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1280w,
+                {{ $baseURL }}/f_webp,q_auto,w_1640/{{ . | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} 1640w" >
         <img
           srcset="
           {{ $baseURL }}/f_auto,q_80,w_256/{{ . }} 256w,
@@ -69,7 +105,7 @@
             height="1280"
           {{ end }}>
         {{- end -}}
-      </div><!-- /.ImageRatio -->
+      </picture>
       {{- with $image_two_caption -}}
         <figcaption class="mono">{{ markdownify . }}</figcaption>
       {{- end -}}
