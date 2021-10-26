@@ -5,6 +5,7 @@ draft: false
 description: "How publishing content on your personal website first, then using RSS to automate newsletter campaigns can save you a ton of time and effort."
 slug: "automating-newsletter-posse-rss"
 topics: ["IndieWeb", "Automation"]
+keywords: ["IndieWeb", "Automation", "POSSE", "RSS", "Really Simple Syndication", "Mailchimp", "Newsletter", "Newsletter automation"]
 ---
 
 Earlier in the year I decided to create [an archive of all my newsletters](/newsletter/), right here on my website. My aim was to make past issues easier to access, as, until that point, most of them were lost somewhere in the abyss of many inboxes.
