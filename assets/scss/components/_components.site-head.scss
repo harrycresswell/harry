@@ -7,19 +7,22 @@
  * Component Block
  */
 
-.Header {
+.SiteHead {
   display: flex;
-  font-weight: 500;
   justify-content: space-between;
   max-width: 1600px;
   margin: 0 auto;
   padding: 4% 0;
+}
 
+.SiteHead-title {
   a {
     color: var(--color-dark);
+    font-weight: 500;
     text-decoration: none;
 
     &:hover {
+      color: inherit;
       background-color: unset;
       text-decoration: underline;
     }

@@ -1,10 +1,14 @@
 <footer class="Footer" role="contentinfo">
-  <nav class="FooterNav" aria-label="Footer Navigation">
+  <nav class="Nav" aria-label="Footer Navigation">
     {{ $currentPage := . }}
+    <ul class="Nav-list">
     {{ range .Site.Menus.footer }}
-    <a class="FooterNav-link{{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}"
-      href="{{.URL}}">{{ .Name }}</a>
+      <li class="Nav-listItem">
+        <a class="Nav-listItemLink {{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}"
+        href="{{.URL}}">{{ .Name }}</a>
+      </li>
     {{ end }}
+    </ul>
   </nav>
   <p>&copy;{{ now.Format "2006"}} Harry Cresswell, unless otherwise credited.</p>
   <!--<div id="wcb" class="carbonbadge"></div>-->

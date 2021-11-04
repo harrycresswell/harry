@@ -9,13 +9,6 @@
 
 //.Post {}
 
-.PostMeta {
-  display: flex;
-  max-width: 1600px;
-  margin: 0 auto;
-  @include margin-bottom(1);
-}
-
 .PostBody {
   @include margin-top(2);
   max-width: 1600px;

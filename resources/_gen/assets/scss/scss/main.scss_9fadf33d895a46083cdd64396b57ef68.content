@@ -286,7 +286,7 @@ a {
     background-color: var(--color-link);
     text-decoration: none; }
   a:active, a:focus {
-    outline: 1px dotted;
+    outline: 2px dotted;
     outline-offset: 4px; }
   a:visited {
     text-decoration: underline; }
@@ -871,14 +871,6 @@ video {
 /**
  * Component Block
  */
-.PostMeta {
-  display: flex;
-  max-width: 1600px;
-  margin: 0 auto;
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .PostMeta {
-      margin-bottom: 1.6rem; } }
 .PostBody {
   margin-top: 3rem;
   max-width: 1600px;
@@ -979,84 +971,6 @@ video {
     text-decoration: underline;
     color: var(--color-link);
     background: none; }
-
-/*------------------------------------*\
-    #LAYOUTS: POST-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
-.PostListItem {
-  margin-bottom: 4.5rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem {
-      margin-bottom: 4.8rem; } }
-  .PostListItem:first-of-type {
-    margin-top: 3rem; }
-    @media screen and (min-width: 48em) {
-      .PostListItem:first-of-type {
-        margin-top: 3.2rem; } }
-  .PostListItem p {
-    color: var(--color-body); }
-
-/**
- * Component Element
- */
-.PostListItem-title span {
-  color: var(--color-dark);
-  font-size: 70%;
-  margin-left: 10px; }
-
-.PostListItem-title {
-  line-height: 1.2;
-  margin-top: 0rem;
-  margin-bottom: 0.75rem;
-  max-width: 30ch; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-top: 0rem; } }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-bottom: 0.8rem; } }
-  .PostListItem-title a {
-    color: var(--color-dark);
-    text-decoration: none; }
-  .PostListItem-title a:hover {
-    background-color: unset;
-    text-decoration: underline; }
-
-.PostListItem-meta {
-  display: flex;
-  font-size: 80%;
-  max-width: 1200px;
-  margin-bottom: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-meta {
-      margin-bottom: 0.8rem; } }
-  @media (min-width: 48em) {
-    .PostListItem-meta {
-      font-size: 100%; } }
-/*------------------------------------*\
-    #LAYOUTS: TAG-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
-.TagList {
-  columns: 17rem auto; }
-
-@media (min-width: 48em) {
-  .TagList {
-    column-gap: 64px;
-    margin-top: 64px;
-    margin-bottom: 64px; } }
-
-.TagListItem {
-  margin: 0 0 16px 0; }
-
-.TagListItem-title {
-  margin: 0;
-  font-size: var(--step-2); }
 
 /*------------------------------------*\
     #LAYOUTS: PROJECT
@@ -1191,63 +1105,6 @@ video {
   outline: 4px solid #e4deff; }
 
 /*------------------------------------*\
-    #OBJECTS: FORM
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Form {
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .Form {
-      margin-bottom: 1.6rem; } }
-::placeholder {
-  color: var(--color-lighter); }
-
-/**
-  * Component Element
-  */
-.Form-textarea,
-.Form-select {
-  background: var(--color-lightest);
-  border: solid 2px var(--color-lightest);
-  border-radius: 0;
-  height: 60px;
-  outline: 2px solid var(--color-lightest);
-  outline-offset: 0;
-  padding: 0 16px;
-  position: relative;
-  transition: all .2s;
-  -webkit-appearance: none;
-  width: 100%; }
-  .Form-textarea:focus, .Form-textarea:active,
-  .Form-select:focus,
-  .Form-select:active {
-    border: 2px solid var(--color-link);
-    outline: #d9ddff solid 3px;
-    outline-offset: 0;
-    transition: all .2s; }
-
-.Form-select:after {
-  color: var(--color-dark);
-  content: '▾';
-  display: block;
-  height: 14px;
-  position: absolute;
-  right: 24px;
-  top: 16px;
-  width: 14px; }
-
-.Form-textarea {
-  min-height: 96px;
-  padding: 8px 16px; }
-
-.Form-button {
-  margin-top: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    .Form-button {
-      margin-top: 0.8rem; } }
-/*------------------------------------*\
     #OBJECTS: VIDEO
 \*------------------------------------*/
 /**
@@ -1275,8 +1132,8 @@ video {
 
 .skip-link:focus {
   position: absolute;
-  top: 0;
-  left: 0; }
+  top: 1rem;
+  left: 1rem; }
 
 /*------------------------------------*\
     #COMPONENTS: HEADER
@@ -1284,19 +1141,21 @@ video {
 /**
  * Component Block
  */
-.Header {
+.SiteHead {
   display: flex;
-  font-weight: 500;
   justify-content: space-between;
   max-width: 1600px;
   margin: 0 auto;
   padding: 4% 0; }
-  .Header a {
-    color: var(--color-dark);
-    text-decoration: none; }
-    .Header a:hover {
-      background-color: unset;
-      text-decoration: underline; }
+
+.SiteHead-title a {
+  color: var(--color-dark);
+  font-weight: 500;
+  text-decoration: none; }
+  .SiteHead-title a:hover {
+    color: inherit;
+    background-color: unset;
+    text-decoration: underline; }
 
 /*------------------------------------*\
     #COMPONENTS: NAV
@@ -1305,7 +1164,16 @@ video {
  * Component Block
  */
 .Nav-list {
+  font-weight: 500;
   text-align: right; }
+
+.Nav-listItemLink {
+  color: var(--color-dark);
+  text-decoration: none; }
+  .Nav-listItemLink:hover {
+    color: inherit;
+    background-color: unset;
+    text-decoration: underline; }
 
 @media (min-width: 48em) {
   .Nav-list {
@@ -1335,15 +1203,6 @@ video {
     @media screen and (min-width: 48em) {
       .Footer p {
         margin-top: 1.6rem; } }
-.FooterNav a {
-  color: var(--color-dark);
-  text-decoration: none;
-  font-weight: 500;
-  margin-right: 16px; }
-  .FooterNav a:hover {
-    background-color: unset;
-    text-decoration: underline; }
-
 /*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
@@ -1382,18 +1241,6 @@ p + .Image {
     margin-left: 48px;
     margin-bottom: 32px;
     margin-top: 0; } }
-
-/**
- * Component Utility
- */
-/* Animate the lazyloading */
-.lazyload,
-.lazyloading {
-  opacity: 0; }
-
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms; }
 
 /*------------------------------------*\
     #COMPONENTS: NEWSLETTER
@@ -1540,6 +1387,141 @@ ul.Pagination {
     .Hero--list,
     .Hero--page {
       margin-bottom: 6.4rem; } }
+/*------------------------------------*\
+    #OBJECTS: FORM
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Form {
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Form {
+      margin-bottom: 1.6rem; } }
+::placeholder {
+  color: var(--color-lighter); }
+
+/**
+  * Component Element
+  */
+.Form-textarea,
+.Form-select {
+  background: var(--color-lightest);
+  border: solid 2px var(--color-lightest);
+  border-radius: 0;
+  height: 60px;
+  outline: 2px solid var(--color-lightest);
+  outline-offset: 0;
+  padding: 0 16px;
+  position: relative;
+  transition: all .2s;
+  -webkit-appearance: none;
+  width: 100%; }
+  .Form-textarea:focus, .Form-textarea:active,
+  .Form-select:focus,
+  .Form-select:active {
+    border: 2px solid var(--color-link);
+    outline: #d9ddff solid 3px;
+    outline-offset: 0;
+    transition: all .2s; }
+
+.Form-select:after {
+  color: var(--color-dark);
+  content: '▾';
+  display: block;
+  height: 14px;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  width: 14px; }
+
+.Form-textarea {
+  min-height: 96px;
+  padding: 8px 16px; }
+
+.Form-button {
+  margin-top: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .Form-button {
+      margin-top: 0.8rem; } }
+/*------------------------------------*\
+    #LAYOUTS: POST-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.PostListItem {
+  margin-bottom: 4.5rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem {
+      margin-bottom: 4.8rem; } }
+  .PostListItem:first-of-type {
+    margin-top: 3rem; }
+    @media screen and (min-width: 48em) {
+      .PostListItem:first-of-type {
+        margin-top: 3.2rem; } }
+  .PostListItem p {
+    color: var(--color-body); }
+
+/**
+ * Component Element
+ */
+.PostListItem-title span {
+  color: var(--color-dark);
+  font-size: 70%;
+  margin-left: 10px; }
+
+.PostListItem-title {
+  line-height: 1.2;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  max-width: 30ch; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-top: 0rem; } }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-bottom: 0.8rem; } }
+  .PostListItem-title a {
+    color: var(--color-dark);
+    text-decoration: none; }
+  .PostListItem-title a:hover {
+    background-color: unset;
+    text-decoration: underline; }
+
+.PostListItem-meta {
+  display: flex;
+  font-size: 80%;
+  max-width: 1200px;
+  margin-bottom: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-meta {
+      margin-bottom: 0.8rem; } }
+  @media (min-width: 48em) {
+    .PostListItem-meta {
+      font-size: 100%; } }
+/*------------------------------------*\
+    #LAYOUTS: TAG-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.TagList {
+  columns: 17rem auto; }
+
+@media (min-width: 48em) {
+  .TagList {
+    column-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px; } }
+
+.TagListItem {
+  margin: 0 0 16px 0; }
+
+.TagListItem-title {
+  margin: 0;
+  font-size: var(--step-2); }
+
 /*------------------------------------*\
     #UTILITIES: COLOR
 \*------------------------------------*/

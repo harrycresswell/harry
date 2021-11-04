@@ -7,7 +7,19 @@
  */
 
 .Nav-list {
+  font-weight: 500;
   text-align: right;
+}
+
+.Nav-listItemLink {
+  color: var(--color-dark);
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    background-color: unset;
+    text-decoration: underline;
+  }
 }
 
 @include breakpoint(md) {
