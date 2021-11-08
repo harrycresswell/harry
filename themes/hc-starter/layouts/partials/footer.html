@@ -1,7 +1,7 @@
 <footer class="Footer" role="contentinfo">
   <nav class="Nav" aria-label="Footer Navigation">
     {{ $currentPage := . }}
-    <ul class="Nav-list">
+    <ul class="Nav-list Nav-list--foot">
     {{ range .Site.Menus.footer }}
       <li class="Nav-listItem">
         <a class="Nav-listItemLink {{if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} active{{end}}"

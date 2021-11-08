@@ -1131,6 +1131,8 @@ video {
   white-space: nowrap; }
 
 .skip-link:focus {
+  color: var(--color-link);
+  background-color: var(--color-white);
   position: absolute;
   top: 1rem;
   left: 1rem; }
@@ -1151,7 +1153,8 @@ video {
 .SiteHead-title a {
   color: var(--color-dark);
   font-weight: 500;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: calc(var(--space) /2); }
   .SiteHead-title a:hover {
     color: inherit;
     background-color: unset;
@@ -1165,25 +1168,29 @@ video {
  */
 .Nav-list {
   font-weight: 500;
-  text-align: right; }
+  text-align: right;
+  display: flex;
+  gap: calc(var(--space) *2); }
+
+.Nav-list--head {
+  flex-direction: column; }
 
 .Nav-listItemLink {
   color: var(--color-dark);
-  text-decoration: none; }
+  text-decoration: none;
+  padding: calc(var(--space) /2); }
   .Nav-listItemLink:hover {
     color: inherit;
     background-color: unset;
     text-decoration: underline; }
 
 @media (min-width: 48em) {
-  .Nav-list {
-    display: flex;
-    text-align: left; }
-  .Nav-listItem:not(:last-of-type) {
-    margin-right: 1.5rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Nav-listItem:not(:last-of-type) {
-      margin-right: 1.6rem; } }
+  .Nav-list--head {
+    text-align: left;
+    flex-direction: row; }
+  .Nav-list--foot {
+    flex-direction: row; } }
+
 /*------------------------------------*\
     #COMPONENTS: FOOTER
 \*------------------------------------*/
@@ -1665,5 +1672,16 @@ ul.Pagination {
   @media (min-width: 48em) {
     .aspect-ratio-full {
       padding-top: calc(886 / 2880 * 100%); } }
+/**
+ * Component Utility
+ */
+/* Animate the lazyloading */
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
 
 /*# sourceMappingURL=main.css.map */

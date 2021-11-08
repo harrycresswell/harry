@@ -9,11 +9,18 @@
 .Nav-list {
   font-weight: 500;
   text-align: right;
+  display: flex;
+  gap: calc(var(--space) *2);
+}
+
+.Nav-list--head {
+  flex-direction: column;
 }
 
 .Nav-listItemLink {
   color: var(--color-dark);
   text-decoration: none;
+  padding: calc(var(--space) /2);
 
   &:hover {
     color: inherit;
@@ -24,12 +31,13 @@
 
 @include breakpoint(md) {
 
-  .Nav-list {
-    display: flex;
+  .Nav-list--head {
     text-align: left;
+    flex-direction: row;
   }
 
-  .Nav-listItem:not(:last-of-type) {
-    @include margin-right(1);
+  .Nav-list--foot {
+    flex-direction: row;
   }
+
 }

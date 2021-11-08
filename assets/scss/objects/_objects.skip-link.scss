@@ -11,6 +11,8 @@
 }
 
 .skip-link:focus {
+  color: var(--color-link);
+  background-color: var(--color-white);
   position: absolute;
   top: 1rem;
   left: 1rem;

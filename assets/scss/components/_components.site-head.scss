@@ -20,6 +20,7 @@
     color: var(--color-dark);
     font-weight: 500;
     text-decoration: none;
+    padding: calc(var(--space) /2);
 
     &:hover {
       color: inherit;
