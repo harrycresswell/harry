@@ -1200,11 +1200,11 @@ video {
 .Footer {
   max-width: 1600px;
   margin: 0 auto;
-  margin-top: 1.5rem;
+  margin-top: 4.5rem;
   padding-bottom: 64px; }
   @media screen and (min-width: 48em) {
     .Footer {
-      margin-top: 1.6rem; } }
+      margin-top: 4.8rem; } }
   .Footer p {
     margin-top: 1.5rem; }
     @media screen and (min-width: 48em) {
