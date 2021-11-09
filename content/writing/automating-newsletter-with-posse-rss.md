@@ -8,17 +8,24 @@ topics: ["IndieWeb", "Automation"]
 keywords: ["IndieWeb", "Automation", "POSSE", "RSS", "Really Simple Syndication", "Mailchimp", "Newsletter", "Newsletter automation"]
 ---
 
-Earlier in the year I decided to create [an archive of all my newsletters](/newsletter/), right here on my website. My aim was to make past issues easier to access, as, until that point, most of them were lost somewhere in the abyss of many inboxes.
+{{< intro >}}
+Earlier in the year I made [an archive of all my newsletters](/newsletter/), here on my website. My aim was to revive past issues from the abyss of many inboxes. Then came the power of RSS and automation.
+{{< /intro >}}
+## Owning your content
 
-Whilst going through the tedious task of creating markdown files for each issue, I realised that hosting newsletters on my site also made a lot of sense from a content ownership perspective. 
+Whilst going through the tedious task of creating markdown files for all past issues, I realised hosting newsletters on my site also made a lot of sense from a content ownership perspective. 
 
-What if I didn’t just archive each issue, but actually posted each issue on my site first, before sharing the link elsewhere? That way I’d actually _own_ the original content. I’d have that all important canonical URL. A single source of truth for my newsletters, which I could link to from elsewhere – always bringing readers back to my website.
+Ok, I realise that might sound obvious, but hear me out.
+
+What if I didn’t just archive each issue, but actually posted each one on my site _first_, before sharing the link elsewhere? That way I’d actually _own_ the original content, rather than handing it over to Mailchimp. I’d have that all important canonical URL. A single source of truth for, which I could link to from elsewhere – always bringing readers back to my website.
 
 If you’re a follower of the [IndieWeb](https://indieweb.org/), you’ll know this approach as  ‘Publish (on your) Own Site, Syndicate Elsewhere’, or simply; [POSSE](https://indieweb.org/POSSE).
 
-When I shared the [changes I’m making to my newsletter](/newsletter/newsletter-changes/), I briefly mentioned one of the benefits of POSSE is the ability to leverage [RSS](https://en.wikipedia.org/wiki/RSS). But I didn’t go into any detail about how this works. Let me do that now.
+When I shared the [changes I’m making to my newsletter](/newsletter/newsletter-changes/) earlier this year, I briefly mentioned one of the benefits of POSSE is the ability to leverage [RSS](https://en.wikipedia.org/wiki/RSS). But I didn’t go into any detail about how this works. Let me do that now.
 
-Essentially, by publishing on your website, you can create an RSS feed of your content with very little effort. In fact, most Static Site Generators either do this automatically or via a plugin. 
+## The power of RSS
+
+By publishing on your website, you can create an RSS feed of your content with very little effort. In fact, most Static Site Generators either do this automatically or via a plugin. 
 
 The next thing to realise is that most email newsletter providers include a feature that allows you to create campaigns directly from an RSS feed. 
 
@@ -30,7 +37,7 @@ Before now I would write each newsletter in [Notion](https://www.notion.so/) (ma
 
 With an RSS workflow, I only have to set this up once. Mailchimp will take care of the rest automatically. No more copying each newsletter over to Mailchimp. I can now focus 100% on writing my newsletter, which I now write in Markdown, directly in a text editor. Just as if I’m writing a blog post, like this one. 
 
-When I publish my newsletter (aka push to Github), my RSS feed updates. When the schedule time I set in Mailchimp comes around, Mailchimp will grab the content from my RSS feed and send out the email. All this happens without me ever having to sign into Mailchimp to compose and test the campaign. Result.
+When I publish my newsletter (aka push to Github), my RSS feed updates. When the schedule time I set in Mailchimp comes around, Mailchimp will grab the new content from my RSS feed and send out the email. All this happens without me ever having to sign into Mailchimp to compose and test the campaign. Result.
 
 Thanks to RSS I now own my content _and_ save myself a good bit of time.
 
@@ -55,9 +62,10 @@ At the next step you need to paste in your RSS feed (most likely `your-domain.co
 
 Run through the Campaign Info set up, tracking, etc, as usual.
 
-When you get to Template, **choose a template built with blocks**. In other words, not a ‘Code your own’ one. Now design your template how you want and **include the RSS items block.** This is important, without the block your email won’t render any content. If you just want your newsletter content and nothing else (like mine), then remove all the other blocks in the template, except for the RSS Items block you just added.
+When you get to Template, **choose a template built with blocks**. In other words, not a ‘Code your own’ one. 
+Now design your template how you want and **include the RSS items block.** This is important, without the block your email won’t render any content. If you just want your newsletter content and nothing else (like mine), then remove all the other blocks in the template, except for the RSS Items block you just added.
 
-Under the RSS Items settings, makes sure **Content > RSS Items Style** is set to **Custom**. Now you can [edit the RSS Merge tags](https://mailchimp.com/help/rss-merge-tags/) as you like. When you’re done hit **Save & Close**.
+Under the RSS Items settings, makes sure _Content > RSS Items Style_ is set to **Custom**. Now you can [edit the RSS Merge tags](https://mailchimp.com/help/rss-merge-tags/) as you like. When you’re done hit **Save & Close**.
 
 Now click **Preview & Test,** then **Enter Preview Mode**. The email should now pull in the most recent entry in your RSS feed.
 
@@ -68,6 +76,6 @@ Click **Start RSS** when you’re ready to start the schedule.
 
 ## Summary
 
-Publishing your content on your own website is a no-brainer from an ownership perspective. It also makes it much easier to automate the repetitive process of composing newsletter campaigns on third-party providers. The secret to all this is good old RSS. So learn to love it, RSS is very much your friend.
+Publishing your content on your own website is a no-brainer from an ownership perspective. It also makes it much easier to automate the repetitive process of composing newsletter campaigns on third-party providers. The secret to all this is good old RSS. So learn to love it. RSS is very much your friend.
 
-I hope this has helped you get your head around some of the benefits of POSSE and working RSS feeds. Now you should be well on your way to owning your content and automating your emails newsletters.
+I hope this has helped you get your head around some of the benefits of POSSE and working with RSS feeds. Now you should be well on your way to owning your content and automating your emails newsletters.
