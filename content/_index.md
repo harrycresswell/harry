@@ -9,16 +9,16 @@ draft: false
 
 {{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – Front-end Web Development" caption="" >}}
 
-I design and code fast, lightweight, content-based websites, mainly using HTML, CSS, and a bit of JavaScript.
+I design and code fast, accessible, content-based websites, mainly using HTML, CSS, and JavaScript.
 
-Here I write about [building performant websites](/writing/) using popular tools like [Hugo](/topics/hugo/), [Eleventy](/topics/eleventy/) and [Sanity](/topics/sanity/).
+On my blog I write about [building performant websites](/writing/) using popular tools like [Hugo](/topics/hugo/), [Eleventy](/topics/eleventy/) and [Sanity](/topics/sanity/).
 
-I also curate [a monthly newsletter](/newsletter/) for front-end web developers who like to keep it lean, clean and simple by using [Jamstack](https://jamstack.org/) technology.
+Once a month I curate [a newsletter for web designs and developers](/newsletter/) who like to keep it lean, clean and simple, by using [Jamstack](https://jamstack.org/) architecture.
 
 ## Where to go next
 
-Find out [what I'm up to right now](/now/), check out some [recent projects](/projects/) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn my experience.
+Check out some [recent client case studies](/topics/case-study/) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience.
 
-To learn more about the tools and techniques I use, read [how I built this site](/build/). I also have a [uses](/uses/) page, if you want to know about my office setup and the tools I use day to day.
+Read about [how I built this site](/build/) to learn about the techniques I tend to use. Find out [what I'm up to right now](/now/) or check out [the tools I use](/uses/) on a daily basis.
 
-Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell), or [email](mailto:studio@harrycresswell.com) me if you have any questions. You can follow all the content I create via [RSS feed](/feeds/), or sign up for my newsletter below, if that’s more your thing.
+Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell), or [email](mailto:studio@harrycresswell.com) me if you have any questions. You can follow all the content I create by subscribing via [RSS feed](/feeds/), or by signing up to my newsletter.

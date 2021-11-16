@@ -2,7 +2,7 @@
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
 
-/* @link https://utopia.fyi/type/calculator?c=320,14,1.2,1140,20,1.414,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,20,1.414,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
 :root {
   --fluid-min-width: 320;
@@ -22,42 +22,42 @@
 }
 
 :root {
-  --f--1-min: 11.67;
+  --f--1-min: 13.33;
   --f--1-max: 14.14;
   --step--1: calc(
     ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
       var(--fluid-bp)
   );
 
-  --f-0-min: 14.00;
+  --f-0-min: 16.00;
   --f-0-max: 20.00;
   --step-0: calc(
     ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
       var(--fluid-bp)
   );
 
-  --f-1-min: 16.80;
+  --f-1-min: 19.20;
   --f-1-max: 28.28;
   --step-1: calc(
     ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
       var(--fluid-bp)
   );
 
-  --f-2-min: 20.16;
+  --f-2-min: 23.04;
   --f-2-max: 39.99;
   --step-2: calc(
     ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
       var(--fluid-bp)
   );
 
-  --f-3-min: 24.19;
+  --f-3-min: 27.65;
   --f-3-max: 56.54;
   --step-3: calc(
     ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
       var(--fluid-bp)
   );
 
-  --f-4-min: 29.03;
+  --f-4-min: 33.18;
   --f-4-max: 79.95;
   --step-4: calc(
     ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
