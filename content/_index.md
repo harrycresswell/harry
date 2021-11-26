@@ -21,4 +21,8 @@ Check out some [recent client case studies](/topics/case-study/) or take a look 
 
 Read about [how I built this site](/build/) to learn about the techniques I tend to use. Find out [what I'm up to right now](/now/) or check out [the tools I use](/uses/) on a daily basis.
 
-Find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Twitter](https://twitter.com/harrycresswell), or [email](mailto:studio@harrycresswell.com) me if you have any questions. You can follow all the content I create by subscribing via [RSS feed](/feeds/), or by signing up to my newsletter.
+Follow me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Polywork](https://www.polywork.com/harrycresswell) or [Twitter](https://twitter.com/harrycresswell). 
+
+You can follow all the content I create on this site by subscribing via [RSS feed](/feeds/), or by signing up to my newsletter below.
+
+[Email](mailto:studio@harrycresswell.com) me if you have any questions. 
