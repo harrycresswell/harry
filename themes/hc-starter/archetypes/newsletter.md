@@ -8,7 +8,7 @@ slug: "{{ replace .Name "-" "-" | title }}"
 
 Hey everyone,
 
-Welcome to issue #{{ replace .Name "-" " " | title }}, your weekly monthly of what’s happening in design, code and typography.
+Welcome to issue #{{ replace .Name "-" " " | title }}, your monthly of what’s happening in design, code and typography.
 
 ## Thought provoking
 
