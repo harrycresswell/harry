@@ -19,10 +19,10 @@ Once a month I curate [a newsletter for web designs and developers](/newsletter/
 
 Check out some [recent client case studies](/topics/case-study/) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience.
 
-Read about [how I built this site](/build/) to learn about the techniques I tend to use. Find out [what I'm up to right now](/now/) or check out [the tools I use](/uses/) on a daily basis.
-
-Follow me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Polywork](https://www.polywork.com/harrycresswell) or [Twitter](https://twitter.com/harrycresswell). 
+Learn [how I built this site](/build/) to find out the techniques I tend to use. Find out [what I'm up to right now](/now/), read [my latest updates](/updates) or check out [the tools I use](/uses/) on a daily basis.
 
 You can follow all the content I create on this site by subscribing via [RSS feed](/feeds/), or by signing up to my newsletter below.
 
-[Email](mailto:studio@harrycresswell.com) me if you have any questions. 
+You can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Twitter](https://twitter.com/harrycresswell) and now [Polywork](https://www.polywork.com/harrycresswell). 
+
+Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions. 

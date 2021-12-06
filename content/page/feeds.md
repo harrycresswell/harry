@@ -10,6 +10,7 @@ layout: "page"
 
 A list of all the availabe RSS feeds on this website.
 
-- [All content](https://harrycresswell.com/feed.xml)
-- [Writing](https://harrycresswell.com/writing/feed.xml)
-- [Newsletter](https://harrycresswell.com/newsletter/feed.xml)
+- [All content](/feed.xml)
+- [Writing](/writing/feed.xml)
+- [Newsletter](/newsletter/feed.xml)
+- [Updates](/updates/feed.xml)

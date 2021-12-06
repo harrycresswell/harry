@@ -1,6 +1,6 @@
 baseurl = "https://harrycresswell.com/"
 theme="hc-starter"
-languageCode = "en"
+languageCode = "en-GB"
 title = "Harry Cresswell"
 pluralizelisttitles = false
 
@@ -41,6 +41,7 @@ pygmentsCodeFences = true
 [permalinks]
   writing = "/:section/:slug/"
   projects = "/:section/:slug/"
+  updates = "/:section/:slug/"
   page = "/:title/"
 
 # Enable Emojis
