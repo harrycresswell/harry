@@ -5,23 +5,14 @@ draft: false
 description: ""
 slug: "learn-hugo"
 layout: "page"
+
 ---
 
 Welcome the humble beginnings of my course on building websites with [Hugo](https://gohugo.io/). 
 
-Currently a work in progress, my aim is to share entire process through [daily updates](/updates).
+Currently a work in progress, my aim is to share entire process through [daily updates](/updates). If you’d like to join me on this journey you can [subscribe to progress updates via RSS](/updates/feed.xml).
 
-You can subscribe to these updates [via RSS](/updates/feed.xml) if you’d like to join me on this journey. 
+I plan on publishing each chapter of the course on this page as I write it. If you would like to receive a copy of each chapter in your inbox when it goes live, then please ~~sign up for course content by email~~ . Alternatively, you can [subscribe to course content via RSS](/learn-hugo/feed.xml) and have all course material sent to your RSS reader of choice.
 
-I will publish each chapter of the course on this page as I write it.
-
-Please [sign up via email](/) if you would like to receive a copy of each chapter in your inbox. You can also subscribe via RSS to recieve each chapter to your RSS reader of choice.
-
-Below you will find some early details about the course.
-
-## Launch date
-
-Some time in **Spring 2022**
-
-## Course updates
+I don’t have much information about the course yet as it’s still very early days, no more than an intention at this stage. What I can tell you is I’m giving myself 3-6 months to write it. This seems like a reasonable amount of time given my other work commitments. I aim to set a hard deadline soon, but you can expect the final course to **launch sometime in Spring 2022**.
 
