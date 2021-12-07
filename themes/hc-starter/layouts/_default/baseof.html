@@ -3,6 +3,7 @@
   {{ partial "head.html" . .Section  }}
   <body class="Wrapper h-card">
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  {{- partial "promo-banner.html" . -}}
   <header class="SiteHead" role="banner">
     <div class="SiteHead-title">
       <a class="p-name u-url" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>

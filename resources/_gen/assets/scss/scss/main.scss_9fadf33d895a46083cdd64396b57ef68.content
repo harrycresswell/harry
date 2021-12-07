@@ -1021,6 +1021,41 @@ video {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Blocks section {
       margin-bottom: 6.4rem; } }
+.skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; }
+
+.skip-link:focus {
+  color: var(--color-link);
+  background-color: var(--color-white);
+  position: absolute;
+  z-index: 2;
+  top: 4.5rem;
+  left: 4rem; }
+
+.PromoBanner {
+  background-color: var(--color-link);
+  color: var(--color-white);
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  font-size: var(--step--1);
+  padding: calc(var(--space) / 2) var(--space);
+  text-align: center; }
+  .PromoBanner p {
+    max-width: 100%; }
+  .PromoBanner a {
+    background-color: var(--color-link);
+    color: var(--color-white); }
+    .PromoBanner a:hover {
+      background-color: var(--color-white);
+      color: var(--color-link); }
+
 /*------------------------------------*\
     #OBJECTS: AVATAR
 \*------------------------------------*/
@@ -1072,9 +1107,7 @@ video {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none; }
-  @media (min-width: 48em) {
-    .Button {
-      font-size: 0.9rem; } }
+
 /**
  * Component Modifier
  */
@@ -1117,24 +1150,6 @@ video {
   @media screen and (min-width: 48em) {
     .Video {
       margin-bottom: 2.4rem; } }
-.skip-link:not(:focus) {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; }
-
-.skip-link:focus {
-  color: var(--color-link);
-  background-color: var(--color-white);
-  position: absolute;
-  top: 1rem;
-  left: 1rem; }
-
 /*------------------------------------*\
     #COMPONENTS: HEADER
 \*------------------------------------*/

@@ -1,0 +1,22 @@
+.PromoBanner {
+  background-color: var(--color-link);
+  color: var(--color-white);
+  font-family: $font-system-mn;
+  font-size: var(--step--1);
+  padding: calc(var(--space) / 2) var(--space);
+  text-align: center;
+
+  p {
+    max-width: 100%;
+  }
+
+  a {
+    background-color: var(--color-link);
+    color: var(--color-white);
+
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-link);
+    }
+  }
+}

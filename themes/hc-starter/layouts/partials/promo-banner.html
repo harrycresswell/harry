@@ -1,0 +1,7 @@
+{{ if eq .Site.Data.settings.promobanner.show true }}
+<aside class="PromoBanner full-bleed">
+  <p class="PromoBanner-text">
+    {{ .Site.Data.settings.promobanner.text | markdownify }}
+  </p>
+</aside>
+{{ end }}

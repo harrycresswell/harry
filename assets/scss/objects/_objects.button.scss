@@ -28,10 +28,6 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
-
-    @include breakpoint(md) {
-        font-size: 0.9rem;
-    }
 }
 
 /**
