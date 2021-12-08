@@ -22,7 +22,7 @@ I don’t have much information about the course yet as it’s still early days,
 
 ## Roadmap
 
-- Change the form below to capture emails for Hugo course
+- ~~Change the form below to capture emails for Hugo course~~
 - Pull in course related updates to the bottom of this page
 - Start planing course structure and content
 
