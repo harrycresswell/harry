@@ -2,7 +2,7 @@
 title: "Doing the work"
 date: 2021-12-08T09:44:30Z
 draft: false
-description: "Things are starting to take shape. Here’s where I’m at"
+description: "Things are starting to take shape and my Hugo course is no longer just an idea. Here’s where I’m at and where I’m heading next."
 slug: "doing-the-work"
 update_freq:  ["Daily"]
 ---
