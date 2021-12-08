@@ -1,8 +1,14 @@
-<section class="Newsletter" id="braintactics">
-    <h2 class="Newsletter-title">Monthly Newsletter</h2>
-    <p>Once a month I curate a newletter for designers and developers interested in CSS, Jamstack and keeping it simple. Check out <a href="/newsletter">past issues</a> to get an idea.</p>
+<section class="Newsletter" id="signup">
+    <h2 class="Newsletter-title">{{ with .Params.signup_title }}{{ . }}{{ else }}Monthly Newsletter{{ end }}</h2>
+    <p>
+      {{ with .Params.signup_desc }}
+        {{ . | markdownify }}
+      {{ else }} 
+        {{ .Site.Data.settings.signup.desc | markdownify }}
+      {{ end }}
+    </p>
 
-    <form class="NewsletterForm validate" action="https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&amp;id=d6ad2b65ca" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <form class="NewsletterForm validate" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&amp;id=d6ad2b65ca{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
         
         <div class="NewsletterForm-field">
             <label class="NewsletterForm-label" for="name">
@@ -24,15 +30,15 @@
             <!-- Automagically add folks to Brain—tactics group in Mailchimp -->
         
             <div class="Form-options" style="display:none">
-                <strong>Product </strong>
+                <strong>Product</strong>
                 <ul>
                     <li>
-                        <input type="checkbox" value="4" name="group[6417][4]" id="mce-group[6417]-6417-0" checked>
+                        <input type="checkbox" value="4" name="group[6417][4]" id="mce-group[6417]-6417-0" {{ if ne .Params.signup_group "hugo" }}checked{{ end }}>
                         <label for="mce-group[6417]-6417-0">Braintactics</label>
                     </li>
                     <li>
-                        <input type="checkbox" value="8" name="group[6417][8]" id="mce-group[6417]-6417-1">
-                        <label for="mce-group[6417]-6417-1">DS in Sketch</label>
+                        <input type="checkbox" value="8" name="group[6417][8]" id="mce-group[6417]-6417-1" {{ if eq .Params.signup_group "hugo" }}checked{{ end }}>
+                        <label for="mce-group[6417]-6417-1">Learn Hugo</label>
                     </li>
                 </ul>
             </div><!-- End the magic -->
@@ -47,8 +53,8 @@
             </div>
 
             <div class="NewsletterForm-button">
-                <label class="NewsletterForm-label u-visually-hidden" for="subscribe">Subscribe</label>
-                <input class="Button Button--primary" name="subscribe" type="submit" value="Subscribe">
+                <label class="NewsletterForm-label u-visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
+                <input class="Button Button--primary" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">
             </div>
         </div><!-- /.NewsletterForm-field-->
     </form>
