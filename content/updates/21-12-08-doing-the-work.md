@@ -5,6 +5,7 @@ draft: false
 description: "Things are starting to take shape and my Hugo course is no longer just an idea. Here’s where I’m at and where I’m heading next."
 slug: "doing-the-work"
 update_freq:  ["Daily"]
+topics: ["Hugo"]
 ---
 
 In [my last update](/updates/learning-exhaust/) I wrote about my intentions to write **a course on building websites with Hugo**, and explained why **I’m documenting the process in public**. I wrote about how I needed a better plan of action and some way of staying accountable – so I actually turn up and make progress each day. 

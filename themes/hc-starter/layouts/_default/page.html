@@ -1,4 +1,5 @@
 {{ define "main" }}
+
     <article id="content" class="Post">
         <header class="Hero Hero--page">
             <h1 class="Hero-title">{{ .Title }}</h1>
@@ -9,4 +10,22 @@
         </section>
     
     </article><!--/.Content -->
+
+    <!-- render if URL returns true -->
+    {{- if eq .URL "/learn-hugo/" }}
+      <!-- grab updates -->
+      {{ $updates := where .Site.RegularPages "Type" "updates" }}  
+      <ul>
+      <!-- loop through updates -->
+      {{ range $updates }}
+        <!-- render if topic returns true -->
+        {{ if in .Params.topics "Hugo" }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
+          </li>   
+        {{ end }}
+      {{ end }}
+      </ul>
+    {{ end }}
+
 {{ end }}

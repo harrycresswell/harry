@@ -378,8 +378,7 @@ code {
   border-radius: 2px; }
 
 pre {
-  margin-top: 0;
-  margin-bottom: 1rem; }
+  margin: 3rem 0; }
 
 pre code {
   font-size: 90%;

@@ -1,5 +1,11 @@
 <section class="Newsletter" id="signup">
-    <h2 class="Newsletter-title">{{ with .Params.signup_title }}{{ . }}{{ else }}Monthly Newsletter{{ end }}</h2>
+    <h2 class="Newsletter-title">
+      {{ with .Params.signup_title }}
+        {{ . }}
+      {{ else }}
+        {{ .Site.Data.settings.signup.title | markdownify }}
+      {{ end }}
+    </h2>
     <p>
       {{ with .Params.signup_desc }}
         {{ . | markdownify }}
@@ -8,7 +14,7 @@
       {{ end }}
     </p>
 
-    <form class="NewsletterForm validate" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&amp;id=d6ad2b65ca{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <form class="NewsletterForm validate" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}{{ .Site.Data.settings.signup.list_url }}{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
         
         <div class="NewsletterForm-field">
             <label class="NewsletterForm-label" for="name">
