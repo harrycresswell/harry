@@ -1,6 +1,6 @@
 baseurl = "https://harrycresswell.com/"
 theme="hc-starter"
-languageCode = "en-GB"
+languageCode = "en-gb"
 title = "Harry Cresswell"
 pluralizelisttitles = false
 
