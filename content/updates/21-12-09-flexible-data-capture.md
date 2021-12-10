@@ -2,7 +2,7 @@
 title: "Flexible data capture"
 date: 2021-12-09T12:00:01Z
 draft: false
-description: "My course needed a specific signup form, so I improved the data capture in the footer of my site so it can be changed on every page. Here’s how I did it."
+description: "My course needed a dedicated signup form, so I improved the one in the footer of my site so it can be changed on a page-by-page basis. Here’s how I did it."
 slug: "flexible-data-capture"
 update_freq:  ["Daily"]
 topics: ["Hugo"]
