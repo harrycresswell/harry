@@ -10,11 +10,9 @@ topics: ["Hugo"]
 
 Trying not to loose focus in the run up to Christmas, so today I set myself a simple goal – get something live on [practicalhugo.com](http://www.practicalhugo.com/) by the end of the day.
 
-It’s not much right now, but it’s something. 
+It’s not much, but it’s something and I’m telling myself that’s all that matters – move fast with easy wins and make progress through iteration.
 
-My aim right now is to move fast with easy wins and make progress via iteration.
-
-I hoped to add a sign up form already, but I was working on it between meetings. Then I went down a rabbit whole thinking about how to make the _leanest Hugo site possible_, as you so often do.
+I hoped to add a sign up form, but I was working on it between meetings. Then I went down a rabbit whole thinking about how to make the _leanest Hugo site possible_, as you so often do.
 
 Some very quick thoughts on this, before I switch off for th evening.
 
