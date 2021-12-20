@@ -18,7 +18,7 @@ If you’re familiar with Hugo, then you might well recognise the mark as an abs
 
 Remove the color and the type, round the corners and tweaked the shape (to satisfy my obsession with the 8pt grid). Now I have something different, yet familiar – try and do me for plagiarism.
 
-Alongside this work I’ve been putting a curriculum outline together. I know content is where I should focus my energy. But planning content is a lot more difficult than I was expecting. I’m used turning notes into articles, so this is a real mindset shift.
+I’ve been putting a curriculum outline together alongside this, as I know content is where I should focus my energy. But planning content is a lot more difficult than I was expecting. I’m used turning notes into articles, so this is a real mindset shift.
 
 Maybe I’m overthinking it, but that’s only because I want this course to be more than the typical  tutorial. At least this *lite* branding exercise has helped make it feel like more of a thing.
 
