@@ -12,7 +12,7 @@
   "author": "Harry Cresswell",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^9.7.1",
+    "autoprefixer": "^9.8.8",
     "postcss-cli": "^7.1.1"
   }
 }

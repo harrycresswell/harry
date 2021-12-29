@@ -5,11 +5,11 @@ description = "Theme description"
 homepage = "Website of your theme"
 tags = ["blog", "company"]
 features = ["some", "awesome", "features"]
-min_version = "0.55.0"
+min_version = "0.80.0"
 
 [author]
-    name = "Your name"
-    homepage = "Your website"
+    name = "Harry Cresswell"
+    homepage = "https:/harrycresswell.com"
 
 # If porting an existing theme
 [original]
