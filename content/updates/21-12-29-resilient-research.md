@@ -32,7 +32,7 @@ Of course, the number 12 is arbitrary, at this stage, but here’s what I’m th
 
 What if the course is built around several different projects? One website per project.
 
-Start small and beginner friendly – a one-pager perhaps, like the one I just mention. 
+Start small and beginner friendly – a one-pager perhaps, like the one I just mentioned. 
 
 With each new project we introduce new concepts, new functionality, new ways of working with Hugo. You learn by doing, through a series of practical projects.
 
