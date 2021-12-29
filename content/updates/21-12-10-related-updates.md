@@ -98,8 +98,8 @@ Currently I’m writing this logic in [a template called page.html](https://gith
 The simple solution is to check if the current page URL is the same as the URL of the page in question – in my case that’s /learn-hugo/.  To do this you can use the [eq function](https://gohugo.io/functions/eq/) and the .URL variable to check if the  statement evaluates `true`. Simply put, *if the current page URL equals /learn-hugo/, then run this code*. 
 
 ```go
-<!-- render if URL returns true -->
-{{- if eq .URL "/learn-hugo/" }}
+<!-- render if permalink returns true -->
+{{- if eq .Permalink "/learn-hugo/" }}
   <h2>Course updates</h2>
   <!-- grab updates -->
   {{ $updates := where site.RegularPages "Type" "updates" }}  

@@ -12,7 +12,7 @@
     </article><!--/.Content -->
 
     <!-- render if URL returns true -->
-    {{- if eq .URL "/learn-hugo/" }}
+    {{- if eq .RelPermalink "/learn-hugo/" }}
       <!-- grab updates -->
       {{ $updates := where .Site.RegularPages "Type" "updates" }}  
       <ul>
