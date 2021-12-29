@@ -13,6 +13,7 @@ Things I’m up to right now.
 
 - [Resilient Web Design](https://resilientwebdesign.com/) by Jeremy Keith
 - [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) by Cal Newport
+- [How to Live](https://sive.rs/h) by Derek Sivers
 - [Dune Messiah](https://www.goodreads.com/book/show/44492285-dune-messiah) by Frank Herbert
 
 ### Writing
