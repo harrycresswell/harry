@@ -21,6 +21,7 @@
     <meta property="og:site_name" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Site.Params.card_image }}{{ . }}{{ else }}img/apple-touch-icon.png{{ end }}">
     <!-- if featured image exists in file frontmatter, use for open graph data -->
     {{ if isset .Params "feature" }}
     <meta property="og:image" content="{{ .Params.feature }}">
@@ -29,10 +30,24 @@
     <meta property="og:image" content="https://res.cloudinary.com/harrycresswell/image/upload/v1634728990/hc/harrycresswell-og-image.png">
     {{ end }}
     <!-- Twitter -->
+    {{ if not .Site.Params.Twitter.hide }}
     <meta property="twitter:card" content="summary">
     <meta property="twitter:url" content="{{ .Permalink }}">
     <meta property="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
     <meta property="twitter:description" content="{{ if eq $isHomePage false }} {{ .Description }}{{ end }} {{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}">
+    {{ with .Site.Params.twitter.handle }}
+    <meta property="twitter:site" content="{{ . }}">
+    <meta property="twitter:creator" content="{{ . }}">
+    {{ end }}
+    <!-- if featured image exists in file frontmatter, use for open graph data -->
+    {{ if isset .Params "feature" }}
+    <meta property="twitter:image" content="{{ .Params.feature }}">
+    <!-- else if no image in frontmatter, and sections are not equal to articles or notes, then display image --> 
+    {{ else }}
+    <meta property="twitter:image" content="https://res.cloudinary.com/harrycresswell/image/upload/v1634728990/hc/harrycresswell-og-image.png">
+    {{ end }}
+    {{ end }}
+    <!-- canonical link tag -->
     <link rel="canonical" href="{{ .Permalink }}">
     <!-- Pinterest Verification -->
     <meta name="p:domain_verify" content="c60dc1e9be844be29f0fb5525b9afe6f"/>
