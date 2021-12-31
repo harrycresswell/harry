@@ -15,6 +15,8 @@ On my blog I write about [building performant websites](/writing/) using popular
 
 Once a month I curate [a newsletter for web designs and developers](/newsletter/) who like to keep it lean, clean and simple, by using [Jamstack](https://jamstack.org/) architecture.
 
+Currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building websites with Hugo and the Jamstack.
+
 ## Where to go next
 
 Check out some [recent client case studies](/topics/case-study/) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience.
