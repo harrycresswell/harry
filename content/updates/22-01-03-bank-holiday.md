@@ -4,8 +4,7 @@ date: 2022-01-03T19:13:02Z
 draft: false
 description: "It’s a bank holiday here today in the UK, so it was nice and quiet – a good chance to focus on developing this course outline."
 slug: "bank-holiday"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 It’s a bank holiday here today in the UK, so it was nice and quiet – a good chance to focus on developing this course outline. If all goes well I’ll get an early version up on [practicalhugo.com](https://practicalhugo.com/) by the end of the week, then look to get some feedback.

@@ -4,8 +4,7 @@ date: 2021-12-09T12:00:01Z
 draft: false
 description: "My course needed a dedicated signup form, so I improved the one in the footer of my site so it can be changed on a page-by-page basis. Here’s how I did it."
 slug: "flexible-data-capture"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 I just improved the sign up form in the footer of my site 👇. Now it can be modified on a page by page basis. What does this mean? 

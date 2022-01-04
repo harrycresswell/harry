@@ -19,7 +19,7 @@
       <!-- loop through updates -->
       {{ range $updates }}
         <!-- render if topic returns true -->
-        {{ if in .Params.topics "Hugo" }}
+        {{ if in .Params.topics "Hugo course" }}
           <li>
             <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
           </li>   

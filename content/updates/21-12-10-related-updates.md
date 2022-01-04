@@ -4,8 +4,7 @@ date: 2021-12-10T10:03:55Z
 draft: false
 description: "Course related updates now automatically display on my Hugo course page. It took some thought but the solution was pretty simple in the end."
 slug: "related-updates"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 I had the idea of displaying updates related to [the Hugo course](/learn-hugo/) I’m writing at [the bottom of the  course landing page](/learn-hugo/#updates).  Until I have some course material to share I figured I might as well get these updates on the page so you can see how I’m getting on. 

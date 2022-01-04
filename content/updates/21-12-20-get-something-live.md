@@ -4,8 +4,7 @@ date: 2021-12-20T18:09:53Z
 draft: false
 description: "Trying not to loose focus in the run up to Christmas, so today I set myself a simple goal – get something live on practicalhugo.com by the end of the day."
 slug: "get-something-live"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 Trying not to loose focus in the run up to Christmas, so today I set myself a simple goal – get something live on [practicalhugo.com](http://www.practicalhugo.com/) by the end of the day.

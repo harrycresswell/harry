@@ -4,8 +4,7 @@ date: 2021-12-29T16:09:10Z
 draft: false
 description: "Now in the research phase, where I try and figure out how best to structure this course. I don’t have the answer yet, maybe the name holds a clue?"
 slug: "resilient-research"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 First day back since the holidays, so I wasn’t expecting much. 

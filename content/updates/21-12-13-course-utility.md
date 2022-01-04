@@ -4,8 +4,7 @@ date: 2021-12-13T17:32:22Z
 draft: false
 description: "I spent the morning thinking about how best to structure this course. To get the ball rolling a had a poke around in some of the courses I’ve taken recently."
 slug: "course-utility"
-update_freq:  ["Daily"]
-topics: ["Hugo"]
+topics: ["Daily", "Hugo course"]
 ---
 
 I’ll be honest, I wasn’t expecting to get many of these updates out over weekends, and I’m fine with that. These days I’m not one to work myself into the ground, I’ve done it in the past and it doesn’t end well. I value time off, I think it’s important.
