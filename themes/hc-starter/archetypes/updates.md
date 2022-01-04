@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: false
 description: ""
 slug: "{{ replace .Name "-" "-" | title | lower }}"
-topics: ["Daily"]
+topics: ["Daily", "Hugo course"]
 ---
