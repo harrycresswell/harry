@@ -4,7 +4,7 @@ date: 2022-01-10T20:00:26Z
 draft: false
 description: ""
 slug: "22-01-10-tiny-ideas"
-topics: ["Daily"]
+topics: ["Daily", "Hugo course"]
 ---
 
 I added [a Changelog](https://practicalhugo.com/changelog/) to practicalhugo.com, because I’ve been writing the past few days and, quite honestly, I needed a change of scene. 
