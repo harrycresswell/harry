@@ -2,7 +2,7 @@
 title: "Tiny ideas"
 date: 2022-01-10T20:00:26Z
 draft: false
-description: "I’ve been keeping a list of all sorts of tiny ideas, to implement I need a change of scene. "
+description: "I’ve been keeping a list of all sorts of tiny ideas, to implement when I need a change of scene. "
 slug: "tiny-ideas"
 topics: ["Daily", "Hugo course"]
 ---
