@@ -2,3 +2,8 @@
 .Hero--page {
   @include margin-bottom(4);
 }
+
+.Hero-date {
+  display: flex;
+  margin-bottom: calc(var(--space) *4);
+}

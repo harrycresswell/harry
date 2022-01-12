@@ -1,0 +1,5 @@
+.Badge {
+  color: var(--color-link);
+  background-color: rgba(var(--color-link-rgb), 0.05);
+  padding: calc(var(--space) /1.5);
+}

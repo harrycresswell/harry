@@ -1149,6 +1149,11 @@ video {
   @media screen and (min-width: 48em) {
     .Video {
       margin-bottom: 2.4rem; } }
+.Badge {
+  color: var(--color-link);
+  background-color: rgba(var(--color-link-rgb), 0.05);
+  padding: calc(var(--space) /1.5); }
+
 /*------------------------------------*\
     #COMPONENTS: HEADER
 \*------------------------------------*/
@@ -1406,6 +1411,10 @@ ul.Pagination {
     .Hero--list,
     .Hero--page {
       margin-bottom: 6.4rem; } }
+.Hero-date {
+  display: flex;
+  margin-bottom: calc(var(--space) *4); }
+
 /*------------------------------------*\
     #OBJECTS: FORM
 \*------------------------------------*/

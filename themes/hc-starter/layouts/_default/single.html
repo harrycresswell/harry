@@ -3,13 +3,18 @@
   <article id="content" class="Post h-entry">
       <header class="Hero Hero--page">
           <h1 class="Hero-title p-name">{{ .Title }}</h1>
-          <div class="flex">
+          <div class="Hero-date">
             <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             {{ if .Params.topics }} 
             <span>— </span>
             {{ partial "post/topics.html" . }}
             {{ end }}
           </div>
+          {{ if ne .Lastmod .Date }}
+          <span class="Badge">
+            Updated: {{ .Lastmod.Format "Jan 2, 2006" }}
+          </span> 
+          {{ end }}
       </header>
 
       <section class="PostBody e-content">
