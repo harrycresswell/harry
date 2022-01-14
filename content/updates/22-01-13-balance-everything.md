@@ -2,7 +2,7 @@
 title: "Balance everything"
 date: 2022-01-13T18:56:08Z
 draft: false
-description: ""
+description: "It’s not always easy to find a balance in life. I’ve got a bad habit of going all in on one thing, and letting other stuff slip."
 slug: "balance-everything"
 topics: ["Daily"]
 ---
@@ -26,6 +26,6 @@ Derek has a helpful analogy:
 
 Derek goes on to talk about how important it is to “schedule everything to ensure balance of your your time and effort.“ 
 
-It got me thinking about time blocking, again. And how helpful it is to have a clear roadmap of how you spend your time. A reminder of whats important, an intentional plan for each day. Surely that’s a great way to create balance.
+It got me thinking about time blocking, again and how helpful it is to have a clear roadmap of how you spend your time. A reminder of whats important, an intentional plan for each day. No chance of getting the balance wrong if you’ve planned it all out up front.
 
 I’ve neglected my time blocks. Maybe I should try again.
