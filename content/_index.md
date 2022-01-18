@@ -27,4 +27,4 @@ You can follow all the content I create on this site by subscribing via [RSS fee
 
 You can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Twitter](https://twitter.com/harrycresswell) and now [Polywork](https://www.polywork.com/harrycresswell). 
 
-Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions. 
+Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions.
