@@ -13,11 +13,10 @@ Things I’m up to right now.
 
 - [Resilient Web Design](https://resilientwebdesign.com/) by Jeremy Keith
 - [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) by Cal Newport
-- [How to Live](https://sive.rs/h) by Derek Sivers
 - [Dune Messiah](https://www.goodreads.com/book/show/44492285-dune-messiah) by Frank Herbert
+- ~~[How to Live](https://sive.rs/h) by Derek Sivers~~
 
 ### Writing
-- 2021 year end review
 - Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo
 
 ### Learning
@@ -33,6 +32,6 @@ Things I’m up to right now.
 - A better system for note taking using Obsidian
   
 
-**Last Updated:** December 29, 2021.
+**Last Updated:** Jan 19, 2022.
 
 **Page inspired by:** [Zen Habits](https://zenhabits.net/now/) and [Derek Sivers](https://nownownow.com/about).
