@@ -15,16 +15,18 @@ On my blog I write about [building performant websites](/writing/) using popular
 
 Once a month I curate [a newsletter for web designs and developers](/newsletter/) who like to keep it lean, clean and simple, by using [Jamstack](https://jamstack.org/) architecture.
 
-Currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building websites with Hugo and the Jamstack.
+I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building websites with Hugo and the Jamstack.
 
 ## Where to go next
 
-Check out some [recent client case studies](/topics/case-study/) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience.
+Read some [client case studies](/topics/case-study/), check out a few [things I’ve built](/things) or take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience. 
 
-Learn [how I built this site](/build/) to find out the techniques I tend to use. Find out [what I'm up to right now](/now/), read [my latest updates](/updates) or check out [the tools I use](/uses/) on a daily basis.
+Learn more about [how I built this site](/build/) or check out [the tools I use](/uses/) on a daily basis.
 
-You can follow all the content I create on this site by subscribing via [RSS feed](/feeds/), or by signing up to my newsletter below.
+Find out [what I'm up to right now](/now/) or [follow my daily updates](/updates) for the latest.
 
-You can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Twitter](https://twitter.com/harrycresswell) and now [Polywork](https://www.polywork.com/harrycresswell). 
+Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
+
+Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Twitter](https://twitter.com/harrycresswell) and now [Polywork](https://www.polywork.com/harrycresswell). 
 
 Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions.
