@@ -15,4 +15,4 @@ Started looking into hosting sites via [InterPlanetary File System](https://ipfs
 
 This afternoon I found a spare few minutes, so bought back my [/things](/things) page. It’s not much, but it will do for now. Somewhere to keep track of personal projects, tools I’ve built, things like that.
 
-Work related projects are now [case studies}(/topics/case-study/). Still lots to add.
+Work related projects are now [case studies](/topics/case-study/). Still lots to add.
