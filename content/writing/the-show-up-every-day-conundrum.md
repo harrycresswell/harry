@@ -1,18 +1,16 @@
 ---
-title: "The just ‘show up every day’ conundrum"
+title: "Showing up"
 date: 2020-02-29T13:14:02Z
 draft: false
 description: "You often read that the best way to make progress and achieve your goals is to show up every day and put in the hours. But this doesn’t make it any easier to make happen."
-slug: "show-up-every-day-conundrum"
+slug: "showing-up"
 topics: ["Reflections"]
 syndicate: "false"
 ---
 
-{{< intro >}}You often read that the best way to make progress and achieve your goals is to just show up every day and put in the hours.{{</ intro >}}
+{{< intro >}}You often read that the best way to make progress and achieve your goals is by showing up every day and putting in the hours.{{</ intro >}}
 
-Whether you’re working towards writing a book, running a marathon or something else, it works the same, regardless of your goals.
-
-Success is largely based on repetition. It’s the result of what you choose to commit to and practice on a regular basis. It’s the total sum of your habits.
+Success is based on repetition. It’s the result of what you choose to commit to and practice on a regular basis. It’s the total sum of your daily habits. Whether you’re writing a book, trying to get fit or something else, it works the same, regardless of your goal
 
 _Show up every day_ is generally very good advice, but often it leaves me feeling like I want more from it. Let me explain what I mean.
 
@@ -32,13 +30,13 @@ How do I stay committed to each and every one of these things, and invest my tim
 
 There’s lots we all want to achieve with the time we have each day, and not enough is written about the strategies to help us get there. Strategies that can help us manage a whole range of commitments without feeling overwhelmed.
 
-[Staying committed](/articles/implementation-intentions/) isn’t always easy. The more you take on, the harder it becomes to prioritise your commitments and juggle your time. It’s like having too many tabs open in your browser. The more you have open, the harder it becomes to make decisions and focus on your next actions.
+[Staying committed](/writing/implementation-intentions/) isn’t always easy. The more you take on, the harder it becomes to prioritise your commitments and juggle your time. It’s like having too many tabs open in your browser. The more you have open, the harder it becomes to make decisions and focus on your next actions.
 
-This leads to procrastination. You struggle to make progress. You end up focusing your energy on all the wrong things, or you give more attention to one project over another. In some cases you loose sight of your [intentions](/articles/intentions-2020/) entirely.
+This leads to procrastination. You struggle to make progress. You end up focusing your energy on all the wrong things, or you give more attention to one project over another. In some cases you loose sight of your [intentions](/writing/intentions-2020/) entirely.
 
 But you continue to read the same old advice; if you want to to reach your goals you must _show up every day_ and consistently put in the work. And that seems to be the extent of it. I’m not saying this is bad advice. Quite the opposite, in fact. But without any practical guidance on how to actually ‘show up’, this advice isn’t particularly helpful.
 
-I’ve written previously about how [implementation intentions](/articles/implementation-intentions/) can help you stick with your commitments. The formula it provides, works by applying situational cues to a specific commitment. But, now I’m looking for a strategy that helps apply this formula to a variety of commitments, rather than treating each commitment independently. Think [habit stacking](https://jamesclear.com/habit-stacking), if it helps you make sense of it.
+I’ve written previously about how [implementation intentions](/writing/implementation-intentions/) can help you stick with your commitments. The formula it provides, works by applying situational cues to a specific commitment. But, now I’m looking for a strategy that helps apply this formula to a variety of commitments, rather than treating each commitment independently. Think [habit stacking](https://jamesclear.com/habit-stacking), if it helps you make sense of it.
 
 I need a solid framework to help achieve these things. A solution that helps you show up daily and make progress towards all of your goals, not just one. A method you can apply to your process, that helps you prioritise your schedule and structure your days to make the most of your time.
 
