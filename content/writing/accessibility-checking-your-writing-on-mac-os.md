@@ -4,7 +4,7 @@ date: 2020-04-30T11:08:58+01:00
 draft: false
 description: "A quick tip for anyone running Mac Sierra and beyond, to help you make your writing more inclusive."
 slug: "accessibility-checking-writing-mac-os"
-topics: ["Accessibility", "Writing"]
+topics: ["Accessibility"]
 syndicate: "false"
 ---
 
