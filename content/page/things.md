@@ -7,8 +7,8 @@ url = "/things/"
 layout= "page"
 +++
 
-{{< intro >}}Personal projects and various other things I’ve built.{{</ intro >}}
-## Side projects
+{{< intro >}}Personal projects I’m currently working on and various other things I’ve built in the past.{{</ intro >}}
+## Projects
 
 [Practical Hugo](https://practicalhugo.com) is a course about building resilient websites with Hugo & the Jamstack. I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
 
