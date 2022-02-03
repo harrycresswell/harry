@@ -2,7 +2,7 @@
 title: "0.029g per visit"
 date: 2022-02-02T17:46:31Z
 draft: false
-description: "Carbon calculating, working in Figma (publically), adding skip-links, improving layouts, and familiar link :hover styles."
+description: "Calculating the carbon footprint of a webpage, working on Figma designs in public, adding skip-links and using familiar link :hover styles."
 slug: "co2-per-visit"
 topics: ["Daily", "Hugo course"]
 ---
