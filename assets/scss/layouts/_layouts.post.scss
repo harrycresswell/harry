@@ -59,20 +59,6 @@
 
 }
 
-.Post p.Message {
-  background: rgba(var(--color-link-rgb), 0.05);
-  color: var(--color-link);
-  padding: 2% 3%;
-
-  a {
-    text-decoration: underline;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-}
-
 .Post .intro,
 .intro {
   font-size: var(--step-1);

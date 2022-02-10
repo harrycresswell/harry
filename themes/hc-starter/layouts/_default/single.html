@@ -18,6 +18,11 @@
       </header>
 
       <section class="PostBody e-content">
+        {{ if in .Params.topics "Hugo" }}
+          <div class="Callout" style="margin-bottom: 3rem; max-width: 800px;">
+            <strong>Interested in learning Hugo?</strong> Check out <a href="https://practicalhugo.com/">practicalhugo.com</a> for more.
+          </div>
+        {{ end }}
         {{ partial "heading-anchor.html" .Content }}
       </section>
       
