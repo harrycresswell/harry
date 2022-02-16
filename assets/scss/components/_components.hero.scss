@@ -1,9 +1,13 @@
-.Hero--list,
-.Hero--page {
-  @include margin-bottom(4);
+// .Hero--list,
+// .Hero--page {
+//   @include margin-bottom(4);
+// }
+
+.Hero {
+  margin: 10% 0;
 }
 
 .Hero-date {
   display: flex;
-  margin-bottom: calc(var(--space) *4);
+  margin-top: calc(var(--space) *4);
 }

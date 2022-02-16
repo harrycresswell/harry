@@ -9,16 +9,14 @@
 
 .SiteHead {
   display: flex;
-  justify-content: space-between;
-  max-width: 1600px;
+  gap: 1rem;
   margin: 0 auto;
-  padding: 4% 0;
+  padding-top: 4%;
 }
   
 .SiteHead-title {
   a {
     color: var(--color-dark);
-    font-weight: 500;
     text-decoration: none;
     padding: calc(var(--space) /2);
 

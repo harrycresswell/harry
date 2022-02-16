@@ -2,9 +2,9 @@
 
   <article id="content" class="Project h-entry">
   
-      <header class="Project-header flow">
+      <header class="Hero flow">
         <h1 class="p-name">{{ .Title }}</h1>
-        <h2>{{ .Params.Description | markdownify }}</h2>
+        <p>{{ .Params.Description | markdownify }}</p>
         <div class="flex">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
           {{ $topics := .Params.topics }}

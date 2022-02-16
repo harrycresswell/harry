@@ -6,15 +6,13 @@
  * Component Block
  */
 
-.Nav-list {
-  font-weight: 500;
-  text-align: right;
-  display: flex;
-  gap: calc(var(--space) *2);
-}
+// .Nav {
+//   font-family: $font-system-mn;
+// }
 
-.Nav-list--head {
-  flex-direction: column;
+.Nav-list {
+  display: flex;
+  gap: var(--space);
 }
 
 .Nav-listItemLink {

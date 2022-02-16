@@ -11,7 +11,6 @@
 
 .PostBody {
   @include margin-top(2);
-  max-width: 1600px;
   margin: 0 auto;
 
   h2,
@@ -25,13 +24,13 @@
   }
 
   p {
-    max-width: 65ch;
+    max-width: 57ch;
     @include margin-bottom(0.8);
 
   }
 
   .intro {
-    max-width: 45ch;
+    max-width: 52ch;
   }
 
 }
@@ -61,7 +60,7 @@
 
 .Post .intro,
 .intro {
-  font-size: var(--step-1);
+  font-size: 110%;
   line-height: 1.5;
   @include margin-bottom(1);
 }

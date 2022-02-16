@@ -1,5 +1,5 @@
 ---
-title: "Hi, I’m Harry, a freelance web designer from London, UK, interested in privacy, web performance and sustainability."
+title: "Hi, I’m Harry, a freelance web designer interested in privacy, web performance and sustainability."
 date: "2016-10-24T17:23:17+01:00"
 description: "Harry Cresswell is a professional Front-end web developer based in London, England. Read technical articles and notes on design and code."
 draft: false

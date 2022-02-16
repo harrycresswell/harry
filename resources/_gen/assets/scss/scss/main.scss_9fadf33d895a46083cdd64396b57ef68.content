@@ -39,7 +39,7 @@ aside.primary {
 /*------------------------------------*\
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
-/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 :root {
   --fluid-min-width: 320;
   --fluid-max-width: 1140;
@@ -54,7 +54,7 @@ aside.primary {
     --fluid-screen: calc(var(--fluid-max-width) * 1px); } }
 
 :root {
-  --f--1-min: 13.33;
+  --f--1-min: 14.22;
   --f--1-max: 16.00;
   --step--1: calc(
     ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
@@ -66,25 +66,25 @@ aside.primary {
     ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
       var(--fluid-bp)
   );
-  --f-1-min: 19.20;
+  --f-1-min: 18.00;
   --f-1-max: 25.00;
   --step-1: calc(
     ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
       var(--fluid-bp)
   );
-  --f-2-min: 23.04;
+  --f-2-min: 20.25;
   --f-2-max: 31.25;
   --step-2: calc(
     ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
       var(--fluid-bp)
   );
-  --f-3-min: 27.65;
+  --f-3-min: 22.78;
   --f-3-max: 39.06;
   --step-3: calc(
     ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
       var(--fluid-bp)
   );
-  --f-4-min: 33.18;
+  --f-4-min: 25.63;
   --f-4-max: 48.83;
   --step-4: calc(
     ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
@@ -234,7 +234,7 @@ h3,
       margin-bottom: 0.8rem; } }
 h4,
 .h4 {
-  font-size: var(--step-0);
+  font-size: var(--step-1);
   line-height: 1.4;
   margin-top: 2.25rem;
   margin-bottom: 0.75rem; }
@@ -768,21 +768,6 @@ video {
     padding: 0 7% 0 7%; } }
 
 /*------------------------------------*\
-    #LAYOUTS: CONTAINER
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Container {
-  padding-top: 24%;
-  max-width: 1600px;
-  margin: 0 auto; }
-
-@media (min-width: 48em) {
-  .Container {
-    padding-top: 10%; } }
-
-/*------------------------------------*\
     #LAYOUTS: SECTION
 \*------------------------------------*/
 /**
@@ -866,7 +851,6 @@ video {
  */
 .PostBody {
   margin-top: 3rem;
-  max-width: 1600px;
   margin: 0 auto; }
   @media screen and (min-width: 48em) {
     .PostBody {
@@ -880,13 +864,13 @@ video {
     line-height: 1.2;
     position: relative; }
   .PostBody p {
-    max-width: 65ch;
+    max-width: 57ch;
     margin-bottom: 1.2rem; }
     @media screen and (min-width: 48em) {
       .PostBody p {
         margin-bottom: 1.28rem; } }
   .PostBody .intro {
-    max-width: 45ch; }
+    max-width: 52ch; }
 
 /**
  * Component Element
@@ -905,7 +889,7 @@ video {
 
 .Post .intro,
 .intro {
-  font-size: var(--step-1);
+  font-size: 110%;
   line-height: 1.5;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48em) {
@@ -1149,14 +1133,12 @@ video {
  */
 .SiteHead {
   display: flex;
-  justify-content: space-between;
-  max-width: 1600px;
+  gap: 1rem;
   margin: 0 auto;
-  padding: 4% 0; }
+  padding-top: 4%; }
 
 .SiteHead-title a {
   color: var(--color-dark);
-  font-weight: 500;
   text-decoration: none;
   padding: calc(var(--space) /2); }
   .SiteHead-title a:hover {
@@ -1171,13 +1153,8 @@ video {
  * Component Block
  */
 .Nav-list {
-  font-weight: 500;
-  text-align: right;
   display: flex;
-  gap: calc(var(--space) *2); }
-
-.Nav-list--head {
-  flex-direction: column; }
+  gap: var(--space); }
 
 .Nav-listItemLink {
   color: var(--color-dark);
@@ -1202,7 +1179,6 @@ video {
  * Component Block
  */
 .Footer {
-  max-width: 1600px;
   margin: 0 auto;
   margin-top: 4.5rem;
   padding-bottom: 64px; }
@@ -1391,16 +1367,12 @@ ul.Pagination {
       color: var(--color-white);
       text-decoration: none; }
 
-.Hero--list,
-.Hero--page {
-  margin-bottom: 6rem; }
-  @media screen and (min-width: 48em) {
-    .Hero--list,
-    .Hero--page {
-      margin-bottom: 6.4rem; } }
+.Hero {
+  margin: 10% 0; }
+
 .Hero-date {
   display: flex;
-  margin-bottom: calc(var(--space) *4); }
+  margin-top: calc(var(--space) *4); }
 
 /*------------------------------------*\
     #OBJECTS: FORM
@@ -1581,8 +1553,7 @@ ul.Pagination {
 \*------------------------------------*/
 /* font family */
 .mono {
-  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
-  font-size: 0.7em; }
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace; }
 
 /* font size */
 .body {
