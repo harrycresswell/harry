@@ -39,7 +39,7 @@ aside.primary {
 /*------------------------------------*\
     #ABSTRACTS: TYPOGRAPHY
 \*------------------------------------*/
-/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,20,1.414,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 :root {
   --fluid-min-width: 320;
   --fluid-max-width: 1140;
@@ -55,7 +55,7 @@ aside.primary {
 
 :root {
   --f--1-min: 13.33;
-  --f--1-max: 14.14;
+  --f--1-max: 16.00;
   --step--1: calc(
     ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
       var(--fluid-bp)
@@ -67,25 +67,25 @@ aside.primary {
       var(--fluid-bp)
   );
   --f-1-min: 19.20;
-  --f-1-max: 28.28;
+  --f-1-max: 25.00;
   --step-1: calc(
     ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
       var(--fluid-bp)
   );
   --f-2-min: 23.04;
-  --f-2-max: 39.99;
+  --f-2-max: 31.25;
   --step-2: calc(
     ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
       var(--fluid-bp)
   );
   --f-3-min: 27.65;
-  --f-3-max: 56.54;
+  --f-3-max: 39.06;
   --step-3: calc(
     ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
       var(--fluid-bp)
   );
   --f-4-min: 33.18;
-  --f-4-max: 79.95;
+  --f-4-max: 48.83;
   --step-4: calc(
     ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
       var(--fluid-bp)
@@ -204,12 +204,8 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .h1 {
   font-size: var(--step-4);
-  line-height: 1.1;
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    h1,
-    .h1 {
-      margin-bottom: 1.6rem; } }
+  line-height: 1.2; }
+
 h2,
 .h2 {
   font-size: var(--step-2);
