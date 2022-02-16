@@ -16,7 +16,7 @@
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
         <li class="Nav-listItem">
-          <a class="Nav-listItemLink{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+          <a class="Nav-listItemLink{{ if eq $currentPage.RelPermalink .URL }} is-active{{ end }}" href="{{.URL}}">{{ .Name }}</a>
         </li>
       {{ end }}
       </ul>

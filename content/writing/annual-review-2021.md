@@ -12,9 +12,7 @@ syndicate: "false"
 In what’s now become somewhat of a tradition, I spent the final few days of 2021 reflecting on what I’ve been up to over the past 12 months – what went well, what didn’t go well and what I learnt by living through it.
 {{</ intro >}}
 
-If you’d like to know more about the way I approach writing this thing, a few years back I wrote [A Year in Review](/writing/year-in-review/). Not a great deal has changed since then, so make sure you check it out.
-
-Ok, let’s get right to it.
+If you’d like to know more about the way I approach writing this thing, a few years back I wrote [A Year in Review](/writing/year-in-review/). Not a great deal has changed since then, so make sure you check it out. Ok, let’s get right to it.
 
 
 ## What went well this year?

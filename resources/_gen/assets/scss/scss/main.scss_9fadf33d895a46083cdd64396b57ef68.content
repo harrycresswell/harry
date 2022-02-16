@@ -1154,15 +1154,17 @@ video {
  */
 .Nav-list {
   display: flex;
-  gap: var(--space); }
+  gap: calc(var(--space) *1.5); }
 
 .Nav-listItemLink {
   color: var(--color-dark);
   text-decoration: none;
-  padding: calc(var(--space) /2); }
+  padding: calc(var(--space) *.5); }
   .Nav-listItemLink:hover {
     color: inherit;
     background-color: unset;
+    text-decoration: underline; }
+  .Nav-listItemLink.is-active {
     text-decoration: underline; }
 
 @media (min-width: 48em) {
