@@ -1,5 +1,4 @@
-<footer class="Footer flex justify-between items-center" role="contentinfo">
-  <p>&copy; {{ .Site.Params.author }}</p>
+<footer class="Footer flow" role="contentinfo">
   <nav class="Nav" aria-label="Footer Navigation">
     {{ $currentPage := . }}
     <ul class="Nav-list Nav-list--foot">
@@ -11,4 +10,5 @@
     {{ end }}
     </ul>
   </nav>
+  <p>&copy; {{ .Site.Params.author }}</p>
 </footer>

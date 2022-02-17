@@ -1201,11 +1201,11 @@ video {
  * Component Block
  */
 .Footer {
-  margin-top: 4.5rem;
-  padding-bottom: 64px; }
+  margin-top: 3rem;
+  padding-bottom: 3rem; }
   @media screen and (min-width: 48em) {
     .Footer {
-      margin-top: 4.8rem; } }
+      margin-top: 3.2rem; } }
 /*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
@@ -1392,12 +1392,20 @@ ul.Pagination {
  * Component Block
  */
 .Hero {
-  margin: 12% 0; }
-
+  margin-top: 9rem;
+  margin-bottom: 9rem; }
+  @media screen and (min-width: 48em) {
+    .Hero {
+      margin-top: 9.6rem; } }
+  @media screen and (min-width: 48em) {
+    .Hero {
+      margin-bottom: 9.6rem; } }
 .Hero-date {
   display: flex;
-  margin-top: calc(var(--space) *4); }
-
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .Hero-date {
+      margin-top: 1.6rem; } }
 /*------------------------------------*\
     #COMPONENTS: CALLOUT
 \*------------------------------------*/

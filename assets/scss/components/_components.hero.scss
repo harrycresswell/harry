@@ -7,10 +7,11 @@
  */
 
 .Hero {
-  margin: 12% 0;
+  @include margin-top(6);
+  @include margin-bottom(6);
 }
 
 .Hero-date {
   display: flex;
-  margin-top: calc(var(--space) *4);
+  @include margin-top(1);
 }
