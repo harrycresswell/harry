@@ -9,17 +9,17 @@ layout: "page"
 
 <p>If you have a question please leave a message, I’m always happy to hear from interesting people doing interesting things.</p>
 
-<form class="Form" name="contact" id="ContactForm" method="POST" netlify-honeypot="bot-field" action="/success/" netlify>
+<form name="contact" id="ContactForm" method="POST" netlify-honeypot="bot-field" action="/success/" netlify>
     <p class="u-visually-hidden">
         <label>Don’t fill this out if you're human: <input name="bot-field"></label>
     </p>
-    <label class="Form-label" for="full-name">Full Name</label>
-    <input class="Form-input" name="full-name" type="text" placeholder="Your full name" required>
-    <label class="Form-label" for="email-address">Email Address</label>
-    <input class="Form-input" name="email-address" type="email" placeholder="Your email" required>
-    <label class="Form-label" for="message">Message</label>
-		<textarea class="Form-textarea" name="message" type="text" placeholder="Your message..." required></textarea>
-	<button class="Form-button Button Button--primary" type="submit" value="Submit" id="Form-submit">Submit</button>
+    <label for="full-name">Full Name</label>
+    <input name="full-name" type="text" placeholder="Your full name" required>
+    <label for="email-address">Email Address</label>
+    <input name="email-address" type="email" placeholder="Your email" required>
+    <label for="message">Message</label>
+    <textarea name="message" type="text" placeholder="Your message..." required></textarea>
+	<button class="Button Button--primary" type="submit" value="Submit" id="Form-submit">Submit</button>
 </form>
 
 <p>You can also <a href="https://twitter.com/harrycresswell" target="_blank">find me on Twitter</a> if that’s more your thing.</p>

@@ -18,15 +18,12 @@
   h4,
   h5,
   h6 {
-    max-width: 30ch;
     line-height: 1.2;
     position: relative;
   }
 
   p {
-    max-width: 57ch;
     @include margin-bottom(0.8);
-
   }
 
   .intro {
@@ -68,7 +65,8 @@
 .PostAuthor {
   display: flex;
   align-items: center;
-  @include margin-top(2);
+  @include margin-top(3);
+  @include margin-bottom(3);
 
   h2 {
     font-size: var(--step-1);

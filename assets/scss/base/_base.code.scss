@@ -1,13 +1,18 @@
+/*------------------------------------*\
+    #BASE: CODE
+\*------------------------------------*/
+
+
 code,
 kbd,
 samp {
-  background: #f9f9f9;
+  background: var(--color-lightest);
   color: var(--color-light);
   font-size: 90%;
 }
 
 pre {
-  background: #f9f9f9;
+  background: var(--color-lightest);
   overflow: auto;
   overflow-x: scroll;
   overflow-wrap: normal;
@@ -29,13 +34,11 @@ code,pre {
 
 code {
 	color: var(--color-teal);
-	background-color: #f9f9f9;
+	background-color: var(--color-lightest);
 	border-radius: 2px
 }
 
 pre {
-	// margin-top: 0;
-	// margin-bottom: 1rem
   margin: 3rem 0;
 }
 

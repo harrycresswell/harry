@@ -162,12 +162,12 @@ But here’s the thing. You only have 5 days in a week, so unless you can keep i
 
 The trick is to stop pricing projects based on how long you think they will take. Instead, start charging for the value of your expertise, and the potential value you create for your clients.
 
-Clients pay you for your experience. [You’re the person who knows which screw to turn](https://www.instagram.com/p/CSFIWtAJ683/0) and that’s the experience they should be willing to pay you good money for.
+Clients pay you for your experience. [You’re the person who knows which screw to turn](https://www.instagram.com/p/CSFIWtAJ683/) and that’s the experience they should be willing to pay you good money for.
 
 It’s more of a mindset shift, than anything else. It takes time and some confidence to get comfortable with. The main thing is to believe in your abilities, find the right clients who are prepared to pay well, and start charging your worth.
 
 
-### Bespoke is only scalable when you have a good system
+### Bespoke is only scalable when you have a good system.
 
 I’ve done a lot of heavily custom design work over the years - 2021 had it’s fair share. It can really drain your time and your energy, if not done right. 
 

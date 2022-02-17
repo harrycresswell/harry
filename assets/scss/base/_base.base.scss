@@ -1,6 +1,7 @@
 /*------------------------------------*\
     #BASE: BODY
 \*------------------------------------*/
+
 html {
 	font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
 	background-color: var(--color-link);
@@ -25,7 +26,7 @@ body {
 }
 
 p {
-	max-width: 680px;
+	max-width: 57ch;
 
 	&:not(:last-of-type) {
 		@include margin-bottom(0.8);

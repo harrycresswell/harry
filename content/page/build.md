@@ -7,7 +7,7 @@ layout= "page"
 url = "build"
 +++
 
-{{< intro >}}This page shares the technology and techniques I used to build and host this website. {{< /intro >}} If you have a specific question <a href="/contact/">drop me a message</a>, I’d be happy to help.
+{{< intro >}}This page shares the technology and techniques I used to build and host this website.  If you have a specific question [drop me a message](/contact), I’m always happy to talk websites. {{< /intro >}}
 
 ## Templating
 
@@ -23,7 +23,7 @@ Typography on the site is set using [system defaults](https://css-tricks.com/sni
 
 ~~I use a [fluid type mixin developed by Mike Riethmuller](https://www.madebymike.com.au/writing/fluid-type-calc-examples/) to make it responsive for different screen resolutions. Type sizes are set using 2 modular scales, [5:6 — minor third](http://www.modularscale.com/?1&em&1.2) for smaller devices and [8:15 — major seventh](http://www.modularscale.com/?1&em&1.875) for desktop.~~
 
-I recently started using [Utopia](https://utopia.fyi/) by James Gilyead & Trys Mudford, to create buttery smooth fluid responsive type. The [exact config](https://utopia.fyi/type/calculator/?c=320,16,1.2,1140,20,1.414,4,1,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l) uses the [Minor Third](https://www.modularscale.com/?1&em&1.2) modular scale for smaller screen resolutions and the [Augmented Fourth](https://www.modularscale.com/?1&em&1.414) scale for larger resolutions.
+I recently started using [Utopia](https://utopia.fyi/) by James Gilyead & Trys Mudford, to create buttery smooth fluid responsive type. The [exact config](https://utopia.fyi/type/calculator?c=320,16,1.125,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l) uses the [Major Second](https://www.modularscale.com/?1&em&1.125) modular scale for smaller screen resolutions and the [Major Third](https://www.modularscale.com/?1&em&1.25) scale for larger resolutions.
 
 
 ## CSS methodology

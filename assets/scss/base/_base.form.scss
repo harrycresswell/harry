@@ -2,7 +2,20 @@
     #BASE: INPUT
 \*------------------------------------*/
 
-input {
+form {
+  @include margin-bottom(1);
+}
+
+// ::placeholder {
+//   color: var(--color-lighter);
+// }
+
+/**
+  * Component Element
+  */
+
+input,
+textarea {
   background: var(--color-lightest);
   border: solid 2px var(--color-lightest);
   border-radius: 0;
@@ -22,6 +35,34 @@ input {
       outline-offset: 0;
       transition: all .2s;
     }
+}
+
+textarea {
+  min-height: 96px;
+  padding: 8px 16px;
+}
+
+select {
+  background: var(--color-lightest);
+  border: 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline-style: none;
+  height: 64px;
+  width: 100%;
+
+  &:after {
+    color: var(--color-dark);
+    content: '▾';
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 24px;
+    top: 16px;
+    width: 14px;
+  }
 }
 
 label {

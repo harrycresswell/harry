@@ -1,0 +1,19 @@
+:root {
+ // vertical rhythm unit based on 4px implicit grid 
+ // 1rem = 16px (browsers default base font size)
+ --vr: calc(1rem);
+ --size-10: calc(var(--vr) * 0.25); // 4px
+ --size-20: calc(var(--vr) * 0.5); // 8px
+ --size-30: calc(var(--vr) * 0.75); // 12px
+ --size-40: calc(var(--vr) *1); // 16px
+ --size-50: calc(var(--vr) *1.25); // 20px
+ --size-60: calc(var(--vr) *1.5); // 24px
+ --size-70: calc(var(--vr) *2); // 32px
+ --size-80: calc(var(--vr) *2.5); // 40px
+ --size-90: calc(var(--vr) *3); // 48px
+ --size-100: calc(var(--vr) *3.5); // 56px
+ --size-110: calc(var(--vr) *4.5); // 72px
+ --size-120: calc(var(--vr) *6); // 96px
+ --size-130: calc(var(--vr) *8); // 128px
+ --size-140: calc(var(--vr) *11); // 176px
+}
