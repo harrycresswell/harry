@@ -1402,10 +1402,8 @@ ul.Pagination {
       margin-bottom: 9.6rem; } }
 .Hero-date {
   display: flex;
-  margin-top: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .Hero-date {
-      margin-top: 1.6rem; } }
+  margin-top: .8rem; }
+
 /*------------------------------------*\
     #COMPONENTS: CALLOUT
 \*------------------------------------*/
