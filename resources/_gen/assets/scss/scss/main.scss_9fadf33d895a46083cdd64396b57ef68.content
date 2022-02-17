@@ -1529,7 +1529,7 @@ ul.Pagination {
  * 3:4 = ratio portrait
  */
 [class*='ratio-'] {
-  background-color: #f6f6f6;
+  background-color: var(--color-lightest);
   display: block;
   position: relative; }
 

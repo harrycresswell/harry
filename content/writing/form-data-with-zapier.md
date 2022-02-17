@@ -1,5 +1,5 @@
 +++
-topics = ["Hugo", "JavaScript", "API", "Automation"]
+topics = ["Hugo", "JavaScript"]
 title = "Send form data to an inbox using Zapier"
 date = "2017-03-06T21:34:41+01:00"
 slug = "form-data-with-zapier"

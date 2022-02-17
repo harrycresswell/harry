@@ -4,7 +4,7 @@ date: 2021-01-13T09:55:00Z
 draft: false
 description: "How to query data from a Sanity schema and use it to build a navigation component on a Gatsby powered website."
 slug: "navigation-component-gatsby-sanity"
-topics: ["Gatsby", "Sanity", "React"]
+topics: ["Gatsby", "Sanity"]
 syndicate: "false"
 ---
 

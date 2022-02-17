@@ -4,7 +4,7 @@ date: 2021-10-13T10:21:54+01:00
 draft: false
 description: "Creating a visual identity, brand guidelines and marketing website for a family run multi-utility contractor based in the North of England."
 slug: "heffernan-utilities"
-topics: ["Case Study", "Visual Identity"]
+topics: ["Case Study"]
 keywords: ["visual identity design", "branding", "website design", "website developement"]
 syndicate: "false"
 layout: "project"

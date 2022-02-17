@@ -4,7 +4,7 @@ date: 2021-09-30T10:25:59+01:00
 draft: false
 description: "Optimising image delivery with Hugo, Cloudinary and Forestry."
 slug: "responsive-images-next-gen-formats"
-topics: ["Performance", "Hugo", "Cloudinary", "Forestry"]
+topics: ["Performance", "Hugo"]
 syndicate: "false"
 ---
 

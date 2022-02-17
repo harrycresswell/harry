@@ -19,7 +19,7 @@
         <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
       </div>
       <div class="PostListItem-meta">
-          <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
           {{ $topics := .Params.topics }}
           {{- with $topics -}}
             <span>—</span>

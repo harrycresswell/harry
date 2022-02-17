@@ -3,7 +3,7 @@ title = "Query data from Sanity using GraphQL"
 date = "2019-08-14T09:32:35+02:00"
 description = "Learn how to query structured content in Sanity with GraphQl and display the content in a Gatsby website"
 slug = "query-data-from-sanity-using-graphql-and-gatsby"
-topics = ["Today I Learned", "Gatsby", "GraphQL", "Sanity"]
+topics = ["Gatsby", "GraphQL", "Sanity"]
 syndicate = "true"
 +++
 
