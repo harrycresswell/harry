@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #COMPONENTS: HEADER
+    #COMPONENTS: SITE-HEAD
 \*------------------------------------*/
 
 
@@ -8,22 +8,5 @@
  */
 
 .SiteHead {
-  display: flex;
-  gap: 1rem;
-  margin: 0 auto;
   padding-top: 4%;
-}
-  
-.SiteHead-title {
-  a {
-    color: var(--color-dark);
-    text-decoration: none;
-    padding: calc(var(--space) /2);
-
-    &:hover {
-      color: inherit;
-      background-color: unset;
-      text-decoration: underline;
-    }
-  }
 }

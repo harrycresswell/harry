@@ -26,16 +26,3 @@
     text-decoration: underline;
   }
 }
-
-@include breakpoint(md) {
-
-  .Nav-list--head {
-    text-align: left;
-    flex-direction: row;
-  }
-
-  .Nav-list--foot {
-    flex-direction: row;
-  }
-
-}

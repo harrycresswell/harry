@@ -2,64 +2,17 @@
     #LAYOUTS: POST
 \*------------------------------------*/
 
-
 /**
  * Component Block
  */
 
-//.Post {}
-
-.PostBody {
-  @include margin-top(2);
-  margin: 0 auto;
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    line-height: 1.2;
-    position: relative;
-  }
-
-  p {
-    @include margin-bottom(0.8);
-  }
-
-  .intro {
-    max-width: 52ch;
-  }
-
-}
-
-/**
- * Component Element
- */
-
-.PostMeta-tag {
-
-  a {
-    color: var(--color-dark);
-    text-decoration: underline;
-  }
-
-  a:hover {
-    background-color: var(--color-dark);
-    color: var(--color-white);
-    text-decoration: none;
-  }
-
-  a:not(:last-child):after {
-    content: ',';
-  }
-
-}
 
 .Post .intro,
 .intro {
   font-size: 110%;
   line-height: 1.5;
   @include margin-bottom(1);
+  max-width: 52ch;
 }
 
 .PostAuthor {
@@ -77,10 +30,6 @@
     margin: 0;
   }
 
-}
-
-.PostRelated {
-  @include margin-bottom(2);
 }
 
 .Post .heading-anchor {

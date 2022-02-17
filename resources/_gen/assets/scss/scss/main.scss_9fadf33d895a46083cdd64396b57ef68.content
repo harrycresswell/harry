@@ -10,7 +10,7 @@
   --color-body: #373a3c;
   --color-light: #767676;
   --color-lighter: #969EB6;
-  --color-lightest: #E5E7ED;
+  --color-lightest: #eff0f6;
   --color-link: #542bff;
   /* #542bff in decimal RGB */
   --color-link-rgb: 84, 43, 255;
@@ -201,10 +201,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -.015em; }
 
+h1, h2, h3, h4 {
+  line-height: 1.2; }
+
 h1,
 .h1 {
-  font-size: var(--step-4);
-  line-height: 1.2; }
+  font-size: var(--step-4); }
 
 h2,
 .h2 {
@@ -323,8 +325,10 @@ blockquote {
   color: var(--color-body);
   font-weight: 400;
   font-style: italic;
-  margin: 0;
-  padding: 0; }
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    blockquote {
+      margin-bottom: 1.6rem; } }
   blockquote p {
     margin-left: 1.5rem; }
     @media screen and (min-width: 48em) {
@@ -779,44 +783,6 @@ video {
   color: #a89028; }
 
 /*------------------------------------*\
-    #LAYOUTS: WRAPPER
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Wrapper {
-  padding: 0 4% 0 4%; }
-
-@media (min-width: 48em) {
-  .Wrapper {
-    padding: 0 7% 0 7%; } }
-
-/*------------------------------------*\
-    #LAYOUTS: SECTION
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Section {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .Section {
-      margin-top: 1.6rem; } }
-  @media screen and (min-width: 48em) {
-    .Section {
-      margin-bottom: 1.6rem; } }
-@media (min-width: 48em) {
-  .Section {
-    margin-top: 3rem;
-    margin-bottom: 3rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Section {
-      margin-top: 3.2rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Section {
-      margin-bottom: 3.2rem; } }
-/*------------------------------------*\
     #LAYOUTS: GRID
 \*------------------------------------*/
 /**
@@ -873,47 +839,12 @@ video {
 /**
  * Component Block
  */
-.PostBody {
-  margin-top: 3rem;
-  margin: 0 auto; }
-  @media screen and (min-width: 48em) {
-    .PostBody {
-      margin-top: 3.2rem; } }
-  .PostBody h2,
-  .PostBody h3,
-  .PostBody h4,
-  .PostBody h5,
-  .PostBody h6 {
-    line-height: 1.2;
-    position: relative; }
-  .PostBody p {
-    margin-bottom: 1.2rem; }
-    @media screen and (min-width: 48em) {
-      .PostBody p {
-        margin-bottom: 1.28rem; } }
-  .PostBody .intro {
-    max-width: 52ch; }
-
-/**
- * Component Element
- */
-.PostMeta-tag a {
-  color: var(--color-dark);
-  text-decoration: underline; }
-
-.PostMeta-tag a:hover {
-  background-color: var(--color-dark);
-  color: var(--color-white);
-  text-decoration: none; }
-
-.PostMeta-tag a:not(:last-child):after {
-  content: ','; }
-
 .Post .intro,
 .intro {
   font-size: 110%;
   line-height: 1.5;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  max-width: 52ch; }
   @media screen and (min-width: 48em) {
     .Post .intro,
     .intro {
@@ -935,11 +866,6 @@ video {
   .PostAuthor p {
     margin: 0; }
 
-.PostRelated {
-  margin-bottom: 3rem; }
-  @media screen and (min-width: 48em) {
-    .PostRelated {
-      margin-bottom: 3.2rem; } }
 .Post .heading-anchor {
   display: none;
   position: absolute;
@@ -965,24 +891,6 @@ video {
     text-decoration: underline;
     color: var(--color-link);
     background: none; }
-
-/*------------------------------------*\
-    #LAYOUTS: PROJECT
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Project {
-  margin-bottom: 4.5rem; }
-  @media screen and (min-width: 48em) {
-    .Project {
-      margin-bottom: 4.8rem; } }
-.Project-header h2 {
-  font-size: var(--step-1);
-  font-weight: 400;
-  line-height: 1.4;
-  max-width: 65ch;
-  letter-spacing: unset; }
 
 /*------------------------------------*\
     #LAYOUTS: BLOCKS
@@ -1017,6 +925,82 @@ video {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .Blocks section {
       margin-bottom: 6.4rem; } }
+/*------------------------------------*\
+    #LAYOUTS: POST-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.PostListItem {
+  margin-bottom: 4.5rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem {
+      margin-bottom: 4.8rem; } }
+  .PostListItem:first-of-type {
+    margin-top: 3rem; }
+    @media screen and (min-width: 48em) {
+      .PostListItem:first-of-type {
+        margin-top: 3.2rem; } }
+  .PostListItem p {
+    color: var(--color-body); }
+
+/**
+ * Component Element
+ */
+.PostListItem-title {
+  line-height: 1.2;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  max-width: 30ch; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-top: 0rem; } }
+  @media screen and (min-width: 48em) {
+    .PostListItem-title {
+      margin-bottom: 0.8rem; } }
+  .PostListItem-title a {
+    color: var(--color-dark);
+    text-decoration: none; }
+    .PostListItem-title a:hover {
+      background-color: unset;
+      text-decoration: underline; }
+
+.PostListItem-meta {
+  display: flex;
+  margin-bottom: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .PostListItem-meta {
+      margin-bottom: 0.8rem; } }
+/*------------------------------------*\
+    #LAYOUTS: TAG-LIST
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.TagList {
+  columns: 17rem auto; }
+
+@media (min-width: 48em) {
+  .TagList {
+    column-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px; } }
+
+.TagListItem {
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 48em) {
+    .TagListItem {
+      margin-bottom: 1.6rem; } }
+.TagListItem-title {
+  margin: 0;
+  font-size: var(--step-2); }
+
+/*------------------------------------*\
+    #OBJECTS: SKIP-LINK
+\*------------------------------------*/
+/**
+ * Component Block
+ */
 .skip-link:not(:focus) {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1036,6 +1020,12 @@ video {
   top: 1rem;
   right: 1rem; }
 
+/*------------------------------------*\
+    #OBJECTS: PROMOBANNER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
 .PromoBanner {
   background-color: var(--color-link);
   color: var(--color-white);
@@ -1146,31 +1136,42 @@ video {
   @media screen and (min-width: 48em) {
     .Video {
       margin-bottom: 2.4rem; } }
+/*------------------------------------*\
+    #OBJECTS: BADGE
+\*------------------------------------*/
+/**
+ * Component Block
+ */
 .Badge {
   color: var(--color-link);
   background-color: rgba(var(--color-link-rgb), 0.05);
   padding: calc(var(--space) /1.5); }
 
 /*------------------------------------*\
-    #COMPONENTS: HEADER
+    #OBJECTS: TAG
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Tag a {
+  color: var(--color-dark); }
+
+.Tag a:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  text-decoration: none; }
+
+.Tag a:not(:last-child):after {
+  content: ','; }
+
+/*------------------------------------*\
+    #COMPONENTS: SITE-HEAD
 \*------------------------------------*/
 /**
  * Component Block
  */
 .SiteHead {
-  display: flex;
-  gap: 1rem;
-  margin: 0 auto;
   padding-top: 4%; }
-
-.SiteHead-title a {
-  color: var(--color-dark);
-  text-decoration: none;
-  padding: calc(var(--space) /2); }
-  .SiteHead-title a:hover {
-    color: inherit;
-    background-color: unset;
-    text-decoration: underline; }
 
 /*------------------------------------*\
     #COMPONENTS: NAV
@@ -1193,13 +1194,6 @@ video {
   .Nav-listItemLink.is-active {
     text-decoration: underline; }
 
-@media (min-width: 48em) {
-  .Nav-list--head {
-    text-align: left;
-    flex-direction: row; }
-  .Nav-list--foot {
-    flex-direction: row; } }
-
 /*------------------------------------*\
     #COMPONENTS: FOOTER
 \*------------------------------------*/
@@ -1207,17 +1201,11 @@ video {
  * Component Block
  */
 .Footer {
-  margin: 0 auto;
   margin-top: 4.5rem;
   padding-bottom: 64px; }
   @media screen and (min-width: 48em) {
     .Footer {
       margin-top: 4.8rem; } }
-  .Footer p {
-    margin-top: 1.5rem; }
-    @media screen and (min-width: 48em) {
-      .Footer p {
-        margin-top: 1.6rem; } }
 /*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
@@ -1263,10 +1251,6 @@ p + .Image {
 /**
  * Component Block
  */
-.Newsletter {
-  max-width: 1600px;
-  margin: 0 auto; }
-
 .NewsletterForm {
   display: flex;
   flex-direction: column;
@@ -1370,6 +1354,12 @@ p + .Image {
   @media screen and (min-width: 48em) and (min-width: 48em) {
     .PullQuote--right {
       margin-right: 12.8rem; } }
+/*------------------------------------*\
+    #COMPONENTS: PAGINATION
+\*------------------------------------*/
+/**
+ * Component Block
+ */
 ul.Pagination {
   display: flex;
   flex-wrap: wrap;
@@ -1395,90 +1385,18 @@ ul.Pagination {
       color: var(--color-white);
       text-decoration: none; }
 
+/*------------------------------------*\
+    #COMPONENTS: HERO
+\*------------------------------------*/
+/**
+ * Component Block
+ */
 .Hero {
   margin: 12% 0; }
 
 .Hero-date {
   display: flex;
   margin-top: calc(var(--space) *4); }
-
-/*------------------------------------*\
-    #LAYOUTS: POST-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
-.PostListItem {
-  margin-bottom: 4.5rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem {
-      margin-bottom: 4.8rem; } }
-  .PostListItem:first-of-type {
-    margin-top: 3rem; }
-    @media screen and (min-width: 48em) {
-      .PostListItem:first-of-type {
-        margin-top: 3.2rem; } }
-  .PostListItem p {
-    color: var(--color-body); }
-
-/**
- * Component Element
- */
-.PostListItem-title span {
-  color: var(--color-dark);
-  font-size: 70%;
-  margin-left: 10px; }
-
-.PostListItem-title {
-  line-height: 1.2;
-  margin-top: 0rem;
-  margin-bottom: 0.75rem;
-  max-width: 30ch; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-top: 0rem; } }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-bottom: 0.8rem; } }
-  .PostListItem-title a {
-    color: var(--color-dark);
-    text-decoration: none; }
-  .PostListItem-title a:hover {
-    background-color: unset;
-    text-decoration: underline; }
-
-.PostListItem-meta {
-  display: flex;
-  font-size: 80%;
-  max-width: 1200px;
-  margin-bottom: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-meta {
-      margin-bottom: 0.8rem; } }
-  @media (min-width: 48em) {
-    .PostListItem-meta {
-      font-size: 100%; } }
-/*------------------------------------*\
-    #LAYOUTS: TAG-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
-.TagList {
-  columns: 17rem auto; }
-
-@media (min-width: 48em) {
-  .TagList {
-    column-gap: 64px;
-    margin-top: 64px;
-    margin-bottom: 64px; } }
-
-.TagListItem {
-  margin: 0 0 16px 0; }
-
-.TagListItem-title {
-  margin: 0;
-  font-size: var(--step-2); }
 
 /*------------------------------------*\
     #COMPONENTS: CALLOUT
@@ -1565,6 +1483,9 @@ ul.Pagination {
 .justify-center {
   justify-content: center; }
 
+.justify-between {
+  justify-content: space-between; }
+
 .flow > * + * {
   margin-top: var(--flow-space, 1em); }
 
@@ -1648,5 +1569,21 @@ ul.Pagination {
 .lazyloaded {
   opacity: 1;
   transition: opacity 300ms; }
+
+/*------------------------------------*\
+    #LAYOUTS: WRAPPER
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.wrapper {
+  padding: 0 4% 0 4%; }
+
+@media (min-width: 48em) {
+  .wrapper {
+    padding: 0 7% 0 7%; } }
+
+.items-center {
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */

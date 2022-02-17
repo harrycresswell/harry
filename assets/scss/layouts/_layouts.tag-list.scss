@@ -20,7 +20,7 @@
 }
 
 .TagListItem {
-  margin: 0 0 16px 0;
+  @include margin-bottom(1);
 }
 
 

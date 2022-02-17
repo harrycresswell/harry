@@ -7,8 +7,6 @@
  * Component Block
  */
 
-//.PostList {}
-
 .PostListItem {
   @include margin-bottom(3);
 
@@ -25,11 +23,6 @@
 /**
  * Component Element
  */
-.PostListItem-title span {
-  color: var(--color-dark);
-  font-size: 70%;
-  margin-left: 10px;
-}
 
 .PostListItem-title {
   line-height: 1.2;
@@ -40,21 +33,15 @@
   a {
     color: var(--color-dark);
     text-decoration: none;
-  }
 
-  a:hover {
-    background-color: unset;
-    text-decoration: underline;
+    &:hover {
+      background-color: unset;
+      text-decoration: underline;
+    }
   }
 }
 
 .PostListItem-meta {
   display: flex;
-  font-size: 80%;
-  max-width: 1200px;
   @include margin-bottom(0.5);
-
-  @include breakpoint(md) {
-    font-size: 100%;
-  }
 }

@@ -8,12 +8,12 @@
  */
 
  
-.Wrapper {
+.wrapper {
     padding: 0 4% 0 4%;
 }
 
 @include breakpoint(md) {
-    .Wrapper {
+    .wrapper {
         padding: 0 7% 0 7%;
     }
 }

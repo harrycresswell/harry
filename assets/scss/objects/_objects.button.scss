@@ -12,22 +12,22 @@
 }
 
 .Button {
-    border-width: 0;
-    border-radius: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    outline-style: none;
-    text-align: left;
-    text-decoration: none;
-    transition-duration: 0.4s;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: none;
+	border-width: 0;
+	border-radius: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+	outline-style: none;
+	text-align: left;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: none;
 }
 
 /**
@@ -35,14 +35,14 @@
  */
 
 .Button--primary {
-    background: var(--color-dark);
-    border: solid 2px var(--color-dark);
-    color: var(--color-white);
-    height: 48px;
-    margin: 0 auto;
-    outline: solid 2px var(--color-dark);
-    outline-offset: 0;
-    padding: 0 24px;
+	background: var(--color-dark);
+	border: solid 2px var(--color-dark);
+	color: var(--color-white);
+	height: 48px;
+	margin: 0 auto;
+	outline: solid 2px var(--color-dark);
+	outline-offset: 0;
+	padding: 0 24px;
 }
 
 /**
@@ -53,11 +53,11 @@
 .Button--primary:focus,
 .Button--primary:active,
 .Button--primary.is-pressed {
-    background-color: var(--color-dark);
-    box-shadow: 0 10px 28px rgba(47,47,47,.3);
-    transform: translateY(-2px);
+	background-color: var(--color-dark);
+	box-shadow: 0 10px 28px rgba(47,47,47,.3);
+	transform: translateY(-2px);
 }
 
 .Button--primary:focus {
-    outline: 4px solid #e4deff;
+	outline: 4px solid #e4deff;
 }
