@@ -282,7 +282,7 @@ a {
     background-color: var(--color-link);
     text-decoration: none; }
   a:active, a:focus {
-    outline: 2px dotted;
+    outline: 2px dotted var(--color-dark);
     outline-offset: 4px; }
   a:visited {
     text-decoration: underline; }
