@@ -24,7 +24,8 @@ My office setup, the software and tools I use day to day.
 ## Software (paid)
 
 - [Figma](https://www.figma.com/)
-- [Bitwarden](https://bitwarden.com/)
+- [Affinity Photo](https://affinity.serif.com/en-gb/photo/)
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - [Notion](https://www.notion.so/)
 - [Sync](https://www.sync.com/)
 - [Tutanota](https://tutanota.com/)
@@ -37,6 +38,7 @@ My office setup, the software and tools I use day to day.
 - [Freeagent](https://www.freeagent.com/)
 ## Software (free)
 
+- [Bitwarden](https://bitwarden.com/)
 - [Obsidian](https://obsidian.md/)
 - [Alfred](https://www.alfredapp.com/)
 - [Firefox](https://www.mozilla.org/)
