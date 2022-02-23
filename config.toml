@@ -68,16 +68,21 @@ enableEmoji = true
   weight = 20
 
 [[menu.footer]]
+  name = "Index"
+  url = "/"
+  weight = 5
+
+[[menu.footer]]
   name = "Writing"
   url = "/writing/"
-  weight = 5
+  weight = 10
 
 [[menu.footer]]
   name = "Newsletter"
   url = "/newsletter/"
-  weight = 10
+  weight = 15
 
 [[menu.footer]]
   name = "Topics"
   url = "/topics/"
-  weight = 15
+  weight = 20
