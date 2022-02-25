@@ -10,8 +10,6 @@
  padding: 2% 0;
  border-top: 2px dotted;
  border-bottom: 2px dotted;
- margin-bottom: 4rem !important;
-
  a {
    text-decoration: underline;
  }
@@ -19,4 +17,12 @@
  a:hover {
    text-decoration: none;
  }
+}
+
+p.Callout:not(:last-of-type) {
+  margin-bottom: 3rem;
+ }
+
+p.Callout:not(:first-of-type) {
+ margin-top: 3rem;
 }
