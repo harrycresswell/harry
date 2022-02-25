@@ -11,7 +11,7 @@ I design and code fast, accessible, content-based websites, mainly using HTML, C
 
 On my blog I write about [building performant websites](/writing/) using popular tools like [Hugo](/topics/hugo/), [Eleventy](/topics/eleventy/) and [Sanity](/topics/sanity/).
 
-Once a month I curate [a newsletter for web designs and developers](/newsletter/) who like to keep it lean, clean and simple, by using [Jamstack](https://jamstack.org/) architecture.
+Once a month I curate [a newsletter for web designs and developers](/newsletter/) interested in static sites, web performance, privacy and sustainability.
 
 I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building resilient websites with Hugo.
 
