@@ -70,3 +70,7 @@ label {
   @include margin-top(0.5);
   @include margin-bottom(0.25);
 }
+
+form button {
+  @include margin-top(0.5);
+}

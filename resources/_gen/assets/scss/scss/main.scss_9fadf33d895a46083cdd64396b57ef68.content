@@ -456,6 +456,11 @@ label {
   @media screen and (min-width: 48em) {
     label {
       margin-bottom: 0.4rem; } }
+form button {
+  margin-top: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    form button {
+      margin-top: 0.8rem; } }
 /*------------------------------------*\
     #BASE: VIDEO
 \*------------------------------------*/
@@ -1103,7 +1108,6 @@ video {
   border: solid 2px var(--color-dark);
   color: var(--color-white);
   height: 48px;
-  margin: 0 auto;
   outline: solid 2px var(--color-dark);
   outline-offset: 0;
   padding: 0 24px; }
@@ -1412,9 +1416,10 @@ ul.Pagination {
  * Component Block
  */
 .Callout {
-  background: rgba(var(--color-link-rgb), 0.05);
-  color: var(--color-link);
-  padding: 2% 3%; }
+  padding: 2% 0;
+  border-top: 2px dotted;
+  border-bottom: 2px dotted;
+  margin-bottom: 4rem !important; }
   .Callout a {
     text-decoration: underline; }
   .Callout a:hover {
