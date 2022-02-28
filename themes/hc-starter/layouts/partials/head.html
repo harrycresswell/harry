@@ -32,7 +32,7 @@
   {{ if not .Site.Params.Twitter.hide }}
   <meta property="twitter:card" content="summary">
   <meta property="twitter:url" content="{{ .Permalink }}">
-  <meta property="twitter:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} &middot; {{ $.Site.Params.strapline }} {{- end }}">
+  <meta property="twitter:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
   <meta property="twitter:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
   {{ with .Site.Params.twitter.handle }}
   <meta property="twitter:site" content="{{ . }}">
