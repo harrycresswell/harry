@@ -9,7 +9,7 @@ topics: ["Daily"]
 
 How little CSS is too little CSS? How few lines can get away with before a site starts to feel, well, unstyled? To what extent can we rely on default user-agent styles? Do you need anything more than a tiny CSS reset, these days? 
 
-Lately, these are the questions I’ve been kicking around in my head, so I devised a little exercise to explore these ideas further.
+These are the questions I’ve been kicking around in my head lately, so I devised a little exercise to explore these ideas further.
 
 It’s nothing fancy, or new, for that matter. Rather rudimentary, in fact. It may even feel like we‘re going backwards, to some. What am I talking about? Inlining CSS directly in your HTML, of course. Here’s how it works...
 
