@@ -28,6 +28,6 @@ layout= "page"
 
 ## Past
 
-[Remote Cards](https://remote.cards/) is a fun card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown.
+[Remote Cards](https://remotecards.netlify.app/) is a fun card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown.
 
 [In Detail](https://indtl.com/). An engagememnt ring concierge service which started life as a jewellery blog. I co-founded the project back in 2011, with [Beanie Major](http://blake-ldn.com/journal/2016/11/8/blake-woman-beanie-major).
