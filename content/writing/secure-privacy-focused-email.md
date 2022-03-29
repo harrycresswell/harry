@@ -79,12 +79,9 @@ Ditching my convoluted G-suite/Workspace set up is something I should have done 
 
 But, this project wasn’t just about simplifying my email setup. It was also about moving away from big tech and making more responsible software choices. I’m not 100% there yet, but switching email from Google to Tutanota feels like a huge step towards achieving this goal. 
 
-Backing an independent company, who puts the privacy and security of their customers first, is satisfying. So is supporting a transparent, open-source product. There’s not a great deal I’d rather invest my money in. 
+It’s satisfying to know that I’m now backing an independent company, who puts the privacy and security of their customers first. This is the future I want to see, so there’s not much I’d rather invest in. 
 
-With a more affordable price tag than Google, it seems switching to a secure, private focused email provider can also save you a good bit of money, too.
-
-I’m reminding myself that building the type of future you want to see is only possible if you start making better decisions, today. Not only in the [ESG funds](https://www.vanguard.co.uk/professional/investment-capabilities/esg) you to add to your ISA, but also in the software you use and choose to invest in.
-
+With a cheaper price tag than Google, it turns out that switching to a secure, private focused email provider can also save you a good bit of money. So, although it took work, it’s was a bit of a no-brainer.
 
 ## Resources
 

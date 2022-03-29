@@ -873,16 +873,10 @@ video {
     margin: 0; }
 
 .Post .heading-anchor {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: -1em;
-  width: 1em;
-  opacity: 0;
-  font-weight: 400; }
-  @media (min-width: 37.5em) {
-    .Post .heading-anchor {
-      display: block; } }
+  display: inline;
+  margin-left: .5rem;
+  opacity: 0; }
+
 .Post h2:focus > .heading-anchor,
 .Post h2:hover > .heading-anchor,
 .Post h3:focus > .heading-anchor,

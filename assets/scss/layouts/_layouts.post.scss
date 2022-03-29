@@ -33,17 +33,9 @@
 }
 
 .Post .heading-anchor {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: -1em;
-  width: 1em;
+  display: inline;
+  margin-left: .5rem;
   opacity: 0;
-  font-weight: 400;
-
-  @include breakpoint(sm) {
-    display: block;
-  }
 }
 
 .Post h2:focus>.heading-anchor,
