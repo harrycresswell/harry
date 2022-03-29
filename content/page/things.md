@@ -10,7 +10,7 @@ layout= "page"
 {{< intro >}}Personal projects I’m currently working on and various other things I’ve built in the past.{{</ intro >}}
 ## Active projects
 
-[Practical Hugo](https://practicalhugo.com) is a course about building resilient websites with Hugo & the Jamstack. I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
+[Practical Hugo](https://practicalhugo.com) is a course on building resilient websites with Hugo & the Jamstack. I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
 
 [Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers.
 

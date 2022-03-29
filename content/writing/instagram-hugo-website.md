@@ -80,7 +80,7 @@ This is what we’ll need to build the feed in our Hugo project, so let’s turn
 
 ## Building an Instagram feed in Hugo
 
-Inside your Hugo, open the partials directory and create a new file called `instafeed.html`. Now include the partial in your template somewhere. 
+Inside your Hugo project, open the partials directory or create one if it doesn’t exist and add a new file called `instafeed.html`. Now include the partial in your template somewhere. 
 
 I’ve added mine to `index.html` at the root of my project.
 
@@ -200,7 +200,7 @@ Joost has put together two helpful demos; one [simple](https://codepen.io/joosts
 
 Since GDPR became a thing and Facebook introduced expiring tokens, Instagram feeds have been frustrating to build and maintain. 
 
-Thanks to Joost’s hard work on PPI Loader, we now have a low-tech and easy to implement solution which also happens to be a perfect fit for Hugo websites. If you like to keep things simple whilst also adhering to GDPR regulations then this approach is a very strong option. I’ll certainly be using it again in the future.
+Thanks to Joost’s hard work on PPI Loader, we now have a low-tech and easy to implement solution which also happens to be a perfect fit for Hugo websites. If you like to keep things simple whilst also adhering to GDPR regulations then this approach is a strong option. I’ll certainly be using it again in the future.
 
 All the code from this tutorial can be found over on [Github](https://github.com/harrycresswell/instagram-hugo). I’ve also created [a simple demo site](https://instagram-hugo.netlify.app/) of the final working implementation. 
 
