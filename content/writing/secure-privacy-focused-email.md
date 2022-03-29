@@ -21,19 +21,19 @@ In the process I’ve managaged to consolidate my inboxes into one, regain contr
 
 There are a bunch of better email providers than Google these days. I spent a good while looking into each one and a handful stood out. 
 
-[ProtonMail](https://protonmail.com/) is one of the most popular and reputable choices among the privacy community. Based in Switzerland, ProtonMail offers an encrypted email service that’s hard to beat. But at €6.25/month for a pro account, it’s not the cheapest. 
+[ProtonMail](https://protonmail.com/) is one of the most popular and reputable choices among the privacy community. Based in Switzerland, ProtonMail offers an encrypted email service that’s hard to beat. But, at €6.25/month for a pro account, it’s not the cheapest. 
 
-[Posteo](https://posteo.de/en) is listed on all the reviews you’ll read as another great option. Posteo is ad-free, can be used anonymously, and the company has a strong focus on sustainability. Following Pretty Good Privacy (PGP) encryption standards, it’s hard to fault at €1/month. But with no current support for custom domains, Posteo is perhaps better suited to use for personal email.
+[Posteo](https://posteo.de/en) is listed on all the reviews you’ll read as another great option. Posteo is ad-free, can be used anonymously, and the company has a strong focus on sustainability. Following Pretty Good Privacy (PGP) encryption standards, it’s ticks a lot of the boxes and only costs €1/month. But, with no current support for custom domains, Posteo is perhaps better suited to use for personal email.
 
 [Soverin](https://soverin.net/) is an independent company based in Amsterdam offering a privacy focused mailbox for €3.25/month. For that you get unlimited domains and aliases using plus-notation. If you're likely to need lots of email addresses, then it’s one of the best options out there. I’ll add that Soverin’s servers also run on sustainable energy sources.
 
-[Tutanota](https://tutanota.com/) is a small company based in Hannover, Germany, who offer end-to-end encrypted email, calendar, and contacts. If you’re not already aware, Germany’s data privacy policy;  the Federal Data Protection Act (Bundesdatenschutzgesetz) is one of the strictest privacy laws in the world, making it a solid choice for privacy enthusiasts.
+[Tutanota](https://tutanota.com/) is a small company based in Hannover, Germany, who offer end-to-end encrypted email, calendar, and contacts. If you’re not already aware, Germany’s data privacy policy–the Federal Data Protection Act (Bundesdatenschutzgesetz)–is one of the strictest privacy laws in the world, making it a solid choice for privacy enthusiasts.
 
 Tutanota software is [open source](https://github.com/tutao/tutanota), so you can hack around with code and spin up your own Tutanota web client, as you like. This says a lot about how the company approach software development and transparency. Tutanota [servers run on 100% renewable energy](https://tutanota.com/blog/posts/green-emaill), making it another sustainable choice. 
 
-Judging by [Tutanota’s about page](https://tutanota.com/about/), the team are clearly dedicated to protecting the privacy of their customers. It’s reassuring to know that there are no dependencies on external investors or owners. Making it unlikely that the company will pivot from its values or sell out to the highest bidder.
+Judging by [Tutanota’s about page](https://tutanota.com/about/), the team are clearly dedicated to protecting the privacy of their customers. It’s reassuring to know that there are no dependencies on external investors or owners, making it unlikely that the company will pivot from its values or sell out to the highest bidder.
 
-Private email, using a Tutanota address, is free, and premium email starts at €1/month per user, for which you get 1 custom domain and 5 alias’. To put this in perspective, with Google Workspace you’ll pay £4.14/month, per user.
+Private email, using a Tutanota address, is free, and premium email starts at €1/month per user, for which you get 1 custom domain and 5 aliases. To put this in perspective, with Google Workspace you’ll pay £4.14/month, per user.
 
 
 ## Switching to Tutanota
@@ -57,7 +57,7 @@ Tutanota doesn’t load pictures automatically, which can feel weird at first. Y
 
 Tutanota encrypts emails sent to other users by default, but it’s worth noting that [sending encrypted emails to an external recipient](https://tutanota.com/faq#encrypted-emails-external) will require a password.  You will then need to share this password with the recipient via an encrypted messaging app, such as [Signal](https://signal.org/) or [Telegram](https://telegram.org/). Using this password, the recipient will be able to access the email you’ve sent them on Tutanota’s encrypted servers. 
 
-I’m pointing this out because it’s easy to think the “end-to-end encrypted email” thing happens automatically, as soon as you hit send. In reality, this is only the case when both the sender and recipient are using Tutanota. If full encryption is something that’s important to you, then you’ll have to get used to sharing passwords, as the large majority simply aren’t using Tutanota.
+I’m pointing this out because it’s easy to think the “end-to-end encrypted email” thing happens automatically, as soon as you hit send. In reality, this is only the case when both the sender and recipient are using Tutanota. If full encryption is something that’s important to you, then you’ll have to get used to sharing passwords, as the large majority aren’t using Tutanota.
 
 The good news is that Tutanota still provides a high level of encryption in transit, and all the emails you receive remain encrypted on Tutanota’s servers. But, if the recipient uses Gmail, Outlook or another unencrypted email service, then any email they receive will be unencrypted at rest. That is, unless you use a password.
 
@@ -70,7 +70,7 @@ Business Premium gives you unlimited custom domains and 5 aliases, which is more
 
 I read some concerns on Reddit about delays with account approval, but I didn’t experience any of this myself. Setting up custom domains was easy enough. I had visions of DNS settings taking forever to propagate, but all went smoothly and everything was working within a few minutes.
 
-This week I set up a separate user (a dedicated inbox) for [Local London](https://locallondon.life/), as there are a few of us sending emails. For €1/month, the three of us can share an inbox and send emails from our own alias. On G-Suite I’d set everyone up as a user, so email would have cost £12.42/month for this project alone. We’d also be handing over all of our data in return.
+This week I set up a separate user (a dedicated inbox) for [Local London](https://locallondon.life/), as there are a few of us sending emails. For €1/month, the three of us can share an inbox and send emails from our own alias. To put this in perspective, with G-Suite I’d set everyone up as a separate user, so email would have cost a minimum of £12.42/month, for this project alone. Plus, we’d be handing over all our data, in return.
 
 
 ## Final thoughts
