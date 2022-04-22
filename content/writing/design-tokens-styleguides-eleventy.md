@@ -16,7 +16,7 @@ If you‘re new to design tokens, here’s [a good explanation from Robin Rendle
 
 There’s some great tools out there that help you generate design tokens. [Theo](https://github.com/salesforce-ux/theo) used by the Salesforce team is a popular choice, as is [Chromatic](https://github.com/ui-js/chromatic) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/). However, for my particular needs, most of theses solutions are either overkill or not exactly what I was looking for.
 
-All I want to do start is with some basic tokens which are stored in their own file, independent of whatever will eventually consume them. Then I’d like to make these tokens accessible in my stylesheets and templates. By doing this I’ll be able to use my tokens to style the website and build a styleguide to visually represent them.
+All I want to do is start with some basic tokens which are stored in their own file, independent of whatever will eventually consume them. Then I’d like to make these tokens accessible in my stylesheets and templates. By doing this I’ll be able to use my tokens to style the website and build a styleguide to visually represent them.
 
 When my tokens are updated at the source, I want these changes to cascade down to the styleguide template, SCSS styles and whatever else in the website uses them.
 
