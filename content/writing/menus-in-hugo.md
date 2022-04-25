@@ -8,11 +8,11 @@ topics: [ "Hugo"]
 syndicate: "false"
 ---
 
-There’s many ways to build a menu with Hugo. As is often the case, it’s this flexibility which makes Hugo one of the more powerful static site generators. But, it can also leave you scratching your head, wondering which approach makes the most sense for your project. 
+There are many ways to build a menu with Hugo. As is often the case, it’s this flexibility which makes Hugo one of the more powerful static site generators. But, it’s not always obvious which approach is best suited to your project. And, you’re often left scratching your head, wondering which approach to choose.
 
-This article will guide you through the different approaches. From a simple list of hard coded links, right the way through to an advanced config menu. We’ll also cover some of the more challenging aspects of building menus, including highlighting current items, working with sub menus, and adding external links. 
+This article will guide you through the different approaches. From a simple list of hard-coded links, right through to an advanced config menu. We’ll also cover some of the more challenging aspects of building menus. Including highlighting current items, working with sub-menus, and adding external links. 
 
-I’ve done my best to highlight the nuances of each approach where appropriate, and give some indication about the way I like to do things, personally.
+I’ve done my best to highlight the nuances of each approach, where appropriate. And, provide some insight into how I prefer to do things.
 
 
 ## Creating a `nav.html` partial
@@ -876,13 +876,13 @@ Run `hugo server` and you will find that the link of any menu item–which inclu
 
 ## Wrapping up
 
-Setting up a menu in Hugo isn’t too difficult, but there are various approaches to consider. Which one you choose will ultimately depend on the size of your project and complexity of its content structure.
+Setting up a menu in Hugo isn’t too difficult, but there are various approaches to consider. Which one you choose will depend on the size of your project, and the complexity of its content structure.
 
-The most challenging aspect is highlighting current menu items. But, since the [pageRef](https://github.com/gohugoio/hugo/releases/tag/v0.86.0) variable was introduced in v0.86.0, the process has been made easier. For that reason I highly recommend keeping your Hugo version up-to-date.
+The most challenging aspect is highlighting current menu items. But, since Hugo v0.86.0, the [pageRef](https://github.com/gohugoio/hugo/releases/tag/v0.86.0) variable makes the process much easier. For that reason, I highly recommend keeping your Hugo version up-to-date.
 
-With the abilty to assign Params, we can do all sorts of things to customise our menu items. We’ve looked at creating external links, but you might consider adding custom icons, or even custom classes to change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
+With the ability to assign Params, we can do all sorts of things to customise our menu items. We’ve looked at creating external links. But you might consider adding custom icons, to illustated your menu items. Or, even add custom classes, to change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
 
-There’s a lot more to cover on the topic of menus. Managing menus from a `config/menus.toml` file and dealing with multi-ligual site navigation both come to mind. But these topics could easily be articles in themselves, so I’ll leave it there for today. 
+There’s lots more to cover on the topic of menus. Managing menus from a `config/menus.toml` file and dealing with multi-lingual site navigation both come to mind. But these topics could easily be articles in themselves, so I’ll leave it there for today. 
 
 
 ## Resources
