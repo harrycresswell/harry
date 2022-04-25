@@ -880,7 +880,7 @@ Setting up a menu in Hugo isn’t too difficult, but there are various approache
 
 The most challenging aspect is highlighting current menu items. But, since Hugo v0.86.0, the [pageRef](https://github.com/gohugoio/hugo/releases/tag/v0.86.0) variable makes the process much easier. For that reason, I highly recommend keeping your Hugo version up-to-date.
 
-With the ability to assign Params, we can do all sorts of things to customise our menu items. We’ve looked at creating external links. But you might consider adding custom icons, to illustated your menu items. Or, even add custom classes, to change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
+With the ability to assign Params, we can do all sorts of things to customise our menu items. We’ve looked at creating external links. But you might consider adding custom icons, to illustrate your menu items. Or, even add custom classes, to change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
 
 There’s lots more to cover on the topic of menus. Managing menus from a `config/menus.toml` file and dealing with multi-lingual site navigation both come to mind. But these topics could easily be articles in themselves, so I’ll leave it there for today. 
 
