@@ -281,7 +281,7 @@ The `_default/baseof.html` template might be the obvious place, as we want it to
 {{ partial "nav.html" . }}
 ```
 
-Remember to pass the dot (`.`) into the partal, just before the closing curly brackets. The dot passes context to the partial. Without it, the partial won’t have access to the menu data.
+Remember to pass the dot (`.`) into the partial, just before the closing curly brackets. The dot passes context to the partial. Without it, the partial won’t have access to the menu data.
 
 At this point we have a working menu. So let’s look at some other ways to add content to it.
 
