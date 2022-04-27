@@ -1,35 +1,34 @@
 {{ define "main" }}
 
-  <article id="content" class="Post h-entry">
-      <header class="Hero Hero--page">
-          <h1 class="Hero-title p-name">{{ .Title }}</h1>
-          <div class="Hero-date">
-            <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
-            {{ if .Params.topics }} 
-            <span>— </span>
-            {{ partial "post/topics.html" . }}
-            {{ end }}
-          </div>
-          {{ if ne .Lastmod .Date }}
-          <span class="Badge">
-            Updated: {{ .Lastmod.Format "Jan 2, 2006" }}
-          </span> 
-          {{ end }}
-      </header>
+<article id="content" class="Post h-entry">
+  <header class="Hero Hero--page">
+    <h1 class="Hero-title p-name">{{ .Title }}</h1>
+    <div class="Hero-date">
+      <time class="dt-published" datetime="{{ .Date }}"
+        >{{ .Date.Format "Jan 2 2006" }}</time
+      >
+      {{ if .Params.topics }}
+      <span>— </span>
+      {{ partial "post/topics.html" . }} {{ end }}
+    </div>
+    {{ if ne .Lastmod .Date }}
+    <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2, 2006" }} </span>
+    {{ end }}
+  </header>
 
-      <section class="e-content">
-        {{ partial "heading-anchor.html" .Content }}
-        {{ if in .Params.topics "Hugo" }}
+  <section class="e-content">
+    {{ partial "heading-anchor.html" .Content }} {{ if in .Params.topics "Hugo"
+    }}
 
-        <aside class="Callout" style="margin-top: 3rem; max-width: 800px;">
-          <strong>Interested in learning Hugo?</strong> I’m working on a free course over at <a href="https://practicalhugo.com/">practicalhugo.com</a>.
-        </aside>
-      {{ end }}
-      </section>
-      
-      <footer>
-        {{ partialCached "post/author.html" . }}
-      </footer>
-  </article><!--/.Content -->
-  
+    <aside class="Callout" style="margin-top: 3rem; max-width: 800px">
+      <strong>Interested in learning Hugo?</strong> I’m working on a free course
+      over at <a href="https://practicalhugo.com/">practicalhugo.com</a>.
+    </aside>
+    {{ end }}
+  </section>
+
+  <footer>{{ partialCached "post/author.html" . }}</footer>
+</article>
+<!--/.Content -->
+
 {{ end }}

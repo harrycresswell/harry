@@ -490,12 +490,6 @@ In [v0.86.0](https://github.com/gohugoio/hugo/releases/tag/v0.86.0) Hugo introdu
   url = '/about'
   weight = 20
 [[menu.main]]
-  pageRef="team"  
-  name = 'Team'
-  url = '/team'
-  weight = 25
-  parent = "About"
-[[menu.main]]
   pageRef="contact"
   name = 'Contact'
   url = '/contact'
@@ -532,7 +526,7 @@ Ok, now we’re on the same page, how do we build this functionality in Hugo?
 
 ### Addding `parent` keyword to sub menu items
 
-We can create child menu items (or nested items) but heading to `config.toml`, and assigning a menu item with the *parent* keyword. 
+We can create child menu items (or nested items) by heading to `config.toml`, and assigning a menu item with the *parent* keyword. 
 
 The value of `parent` must match the name of another item in our menu. The one we want to make the parent.
 
@@ -554,6 +548,11 @@ The value of `parent` must match the name of another item in our menu. The one w
   url = '/team'
   weight = 25
   parent = "About"
+[[menu.main]]
+  pageRef="contact"
+  name = 'Contact'
+  url = '/contact'
+  weight = 30
 ```
 
 
@@ -579,6 +578,11 @@ Note, if you’re menu items include an `identifier`, then the value of `parent`
   url = '/team'
   weight = 25
   parent = "About us"
+[[menu.main]]
+  pageRef="contact"
+  name = 'Contact'
+  url = '/contact'
+  weight = 30
 ```
 
 My understanding is that an `identifier` is only necessary if two or more menu entries have the same `name`. In which case you will need to add a unique identifier to identify each.
