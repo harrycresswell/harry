@@ -11,8 +11,12 @@
       <span>— </span>
       {{ partial "post/topics.html" . }} {{ end }}
     </div>
-    {{ if ne .Lastmod .Date }}
-    <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2, 2006" }} </span>
+    {{ if ne .Section "newsletter" }}
+    <div class="Hero-mod">
+      {{ if ne .Lastmod .Date }}
+      <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2, 2006" }} </span>
+      {{ end }}
+    </div>
     {{ end }}
   </header>
 

@@ -32,7 +32,7 @@ I wrote about [secure, privacy-focused email](/writing/privacy-focused-email/) r
 
 I’ve been with Tutanota for a few months now and I’m enjoying it. 
 
-Sure, there are quirks to get used to. Such as images not loading by default–a privacy thing. Then there’s the counterintuitive feel when you delete an email. Tutanota marks the next email read, whether you want to read it or not.
+Sure, there are quirks to get used to. Such as images not loading by default (a privacy thing). Then there’s the counterintuitive feel when you delete an email. Tutanota marks the next email read, whether you want to read it or not.
 
 But, you get used to these things fast and the pros outweigh the cons.
 
@@ -44,25 +44,25 @@ The interface is simple and distraction-free. It’s much cheaper than Google Wo
 
 Tutanota includes an encrypted calendar. It’s not as feature-rich as Google Calendar, and there’s no seamless way to add a video call to an event, but I can deal with that. It does the basics well. 
 
-Custom event colours are a subtle feature which I love. With Google Calendar you’re stuck with the Material design colour palette.
+Custom event colours are a subtle feature which I love. With Google Calendar you’re stuck with the Material Design colour palette.
 
 As I’ve mentioned, there’s something about how simple and stripped back Tutanota feels that appeals to me. The Calendar is a great example of this.
 
 
 ### Google Analytics &#8594; Netlify Analytics
 
-There are a bunch of [responsible analytics options](https://rigorousthemes.com/blog/open-source-google-analytics-alternatives/) out there these days.  Most are far simpler than Google Analytics.
+There are a bunch of [responsible analytics options](https://rigorousthemes.com/blog/open-source-google-analytics-alternatives/) out there these days. Most are far easier to work with and much lighter in weight, when compared with Google Analytics.
 
-Running server-side analytics over client-side makes [Netlify Analytics](https://www.netlify.com/products/analytics/) difficult to beat. If only for the privacy gains. Server-side analytics usually don’t require third-party scripts. So there are also performance gains to consider.
+Most of the sites I manage are hosted by Netlify, so I’ve started using [Netlify Analytics](https://www.netlify.com/products/analytics/). It only takes a few clicks to add analytics to a site. Unlike many of the other options out there, Netlify Analytics runs on the server, rather than the client. Meaning there’s no third-party scripts to add to your website. If you’re looking for secure, performant analytics, then Netlify is tough to beat.
 
-Most of the sites I manage are currently hosted by Netlify, so it only takes a few clicks to add analytics to a site. The downside of this approach is that if you’re not using Netlify, then you won’t be able to use their Analytics. So you’ll have to go with another option.
+The downside to this approach is that you need to host your sites with Netlify to use their Analytics.
 
 
 ### Google Authenticator &#8594; Raivo
 
-I discovered Raivo OTP (One Time Password) on [Privacy Tools](https://www.privacytools.io/#2fa). Then read a review on [The New Oil](https://blog.thenewoil.org/ios-2fa-apps-review-2021-or-ravio-otp-the-only-ios-2fa-app-worth-recommending) which convinced me to make the switch.
+I discovered Raivo OTP (One Time Password) on [Privacy Tools](https://www.privacytools.io/#2fa). Then I read a review on [The New Oil](https://blog.thenewoil.org/ios-2fa-apps-review-2021-or-ravio-otp-the-only-ios-2fa-app-worth-recommending) which convinced me to make the switch.
 
-Why Raivo? First of all, it’s [open-source](https://github.com/raivo-otp) and actively maintained. Second, you can sync the Raivo app across multiple devices and make local backups easily. This means, that if you lose your phone, you’re far less likely to lose access to all the services you use. Neither of these things you can do with Authenticator. 
+Why Raivo? First of all, it’s [open-source](https://github.com/raivo-otp) and actively maintained. Second, you can sync the Raivo app across multiple devices and make local backups easily. Meaning that if you lose your phone, you’re far less likely to lose access to all the services you use. Neither of these things you can do with Authenticator. 
 
 Switching from Google Authenticator involves disabling two-factor authentication (2FA) on all your accounts. You then need to re-enabling it using your new 2FA app, be it Raivo, or another. This is usually a manual process, so if you’re big on 2FA then expect it to take some time.
 
@@ -97,7 +97,7 @@ I’ve tried various writing tools over the years, [iAWriter](https://ia.net/wri
 
 I’ve been a paying Notion customer since 2019. I use it for most things. Journaling, long-form writing, project and task management, client CRM, bookmarking, and a whole lot more. It’s a brilliant all-in-one tool, but it’s not ideal for security or offline use. 
 
-For that reason, I’ve started using [Obsidian](https://obsidian.md/) for taking notes. Although its primary focus is on knowledge management, I’ve been using it to draft articles, too. There’s a certain resilience in creating a system based on a set of markdown files stored in a local folder. Store that folder in a secure cloud and you’ll have access via mobile. Even when offline. It feels much closer to a text editor + static site generator experience, which I’m quite used to.
+For that reason, I’ve started using [Obsidian](https://obsidian.md/) for taking notes. Although its primary focus is on knowledge management, I’ve been using it to draft articles, too. There’s a certain resilience in creating a system based on a set of markdown files stored in a local folder. Store that folder in a secure cloud and you’ll have access via mobile. Even when offline.
 
 I’ve been toying with the idea of using Obsidian for project management and moving away from Notion. But, I fear that might be pushing Obsidian beyond its limits.
 
@@ -110,7 +110,7 @@ I'm sure you can do most of what Google Sheets does with Notion. But I’ve been
 
 I have a couple of big tables that I actively manage. One for dev resources and the other for [Local London](https://locallondon.life/) content. I can’t see much point in moving these over to Notion, so I continue to use Airtable. 
 
-I’d say Airtable feels more Notion-like than Sheets-like. If you want a similar experience to Sheets, then [Cryptpad](https://cryptpad.fr/) has a suite of Google replacements. The software is open-source, with the addition of end-to-end encryption. Cryptpad also has a strong focus on collaboration.
+I’d say Airtable feels more Notion-like than Sheets-like. But if you want a similar experience to Sheets, then [Cryptpad](https://cryptpad.fr/) has a suite of Google replacements. The software is open-source, with the addition of end-to-end encryption. Cryptpad also has a strong focus on collaboration.
 
 
 ### Google Maps &#8594; Apple Maps + Citymapper
@@ -119,7 +119,7 @@ Apple has a much healthier approach to privacy than Google, in general. It makes
 
 [Apple Maps](https://www.apple.com/uk/legal/privacy/data/en/apple-maps/) keeps your data in sync across all your devices using end-to-end encryption. This includes your favourites, history and guides. It will also hide your exact location after 24 hours.
 
-Living in London, I find myself using [Citymapper](https://citymapper.com/) quite a bit for travel advice. It’s excellent for navigating public transport. The only downside is that it only works in certain cities.
+Living in London, I find myself using [Citymapper](https://citymapper.com/) quite a bit for travel advice. It’s excellent for navigating public transport. The downside is that it only works in certain cities.
 
 I recently discovered [Maps.me](https://maps.me/) and [Organic Maps](https://organicmaps.app/), both of which use open-source data from  [OpenStreetMap](https://www.openstreetmap.org/). It’s early days, but the ability to use these maps offline makes them very appealing.
 
@@ -139,18 +139,18 @@ I guess old habits die hard. I like to test sites on as many different browsers 
 
 ### Google Search Console
 
-It seems unwise to neglect Search Console given the popularity of Google Search. But, as far as I’m aware there’s no obvious replacement.
+It seems unwise to neglect Search Console given the popularity of Google Search. And as far as I’m aware there’s no obvious replacement.
 
 Before closing my G-Suite/Workspace account, I decided to move the sites I manage over to my personal Gmail account. I guess this is the best solution for now.
 
 
 ### YouTube
 
-I’m a big fan of YouTube, and can’t see myself quitting anytime soon. Some of the best content creators post videos on YouTube, so it’s a big one to give up.
+I’m a big fan of YouTube, and can’t see myself quitting anytime soon. Some of the best content creators post videos on YouTube, so it’s a difficult one to give up.
 
 For now, I’ve resubscribed to the subscriptions I still follow from my personal Gmail account. Same as I did for my Search Console accounts. 
 
-I did the same thing with playlists, which took a while, as I’ve built up quite a few playlists over the years. YouTube is still one of the best places to find old music, that you can’t find anywhere else.
+I did a similar thing for playlists. It took a while, as I’ve created loads over the years. Most of which are music. YouTube is the best places to find all the old music I listened to as a kid. The stuff you can’t find anywhere else.
 
 
 ## Final thoughts

@@ -8,7 +8,8 @@ pluralizelisttitles = false
 pygmentsUseClasses = true
 # Enable highlighting for code fences
 pygmentsCodeFences = true
-# pygmentsCodefencesGuessSyntax = true
+# Get LastMod data from Git
+enableGitInfo = true
 
 [params]
   keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
