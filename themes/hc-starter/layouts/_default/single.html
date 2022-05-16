@@ -4,9 +4,9 @@
   <header class="Hero Hero--page">
     <h1 class="Hero-title p-name">{{ .Title }}</h1>
     <div class="Hero-date">
-      <time class="dt-published" datetime="{{ .Date }}"
-        >{{ .Date.Format "Jan 2 2006" }}</time
-      >
+      <time class="dt-published" datetime="{{ .Date }}">
+        {{ .Date.Format "Jan 2 2006" }}
+      </time>
       {{ if .Params.topics }}
       <span>— </span>
       {{ partial "post/topics.html" . }} {{ end }}
@@ -14,7 +14,7 @@
     {{ if ne .Section "newsletter" }}
     <div class="Hero-mod">
       {{ if ne .Lastmod .Date }}
-      <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2, 2006" }} </span>
+      <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
       {{ end }}
     </div>
     {{ end }}
