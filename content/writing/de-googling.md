@@ -12,7 +12,7 @@ I’m doing what I can to minimise my dependence on Google services.
 
 This is by no means a new idea. You’ll find more than 75,000 members in the [r/DeGoogle](https://www.reddit.com/r/degoogle/) subreddit, and [a Wikipedia page](https://en.wikipedia.org/wiki/DeGoogle) all about the movement. 
 
-My reasons for De-Googling are similar to most. I have growing concerns about privacy and the dominance of big tech. Google also has [a history of pulling the plug on well-loved products](https://killedbygoogle.com/). So, in general, going all-in with Google is a bad idea. 
+My reasons for De-Googling are similar to most. I have growing concerns about privacy and the dominance of big tech. Google also has [a history of pulling the plug on well-loved products](https://killedbygoogle.com/). So going all-in with Google is probably a bad idea. 
 
 If investing has taught me anything it’s that diversification is important. 
 
