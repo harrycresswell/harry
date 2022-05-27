@@ -23,7 +23,7 @@ Intended as much for my reference, as, I hope, some insight and encouragement fo
 
 ## Google alternatives 
 
-These days there are plenty of great alternatives to Google services. So it’s never been easier to start making better choices. Most have a much healthier approach to privacy and security.   
+These days there are plenty of great alternatives to Google services. So it’s never been easier to start making better choices. Most have a much healthier approach to privacy and security.
 
 
 ### Google Workspace &#8594; Tutanota
