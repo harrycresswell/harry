@@ -1,3 +1,4 @@
 /articles/* /writing/:splat   301
 /tags/*     /topics/:splat    301
 /notes/*    /writing/:splat   301
+/success/   /thanks/          301
