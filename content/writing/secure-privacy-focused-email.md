@@ -52,7 +52,7 @@ The responsive layouts are also worth a mention. The app looks great in a browse
 
 Tutanota doesn’t load pictures automatically, which can feel weird at first. You can choose to show images when you open an email, but once you learn about the [privacy concerns of images in email](https://tutanota.com/faq/#load-images), you will think twice about which images you decide to load. 
 
-[No tracking allowed](https://tutanota.com/blog/posts/most-secure-email-service/#no-tracking-allowed) explains the problem with images further. I also recommend taking a look at Dave Smyth’s [No to Spy Pixels](https://notospypixels.com/).
+**Updated 2nd June, 2022**: [No tracking allowed](https://tutanota.com/blog/posts/most-secure-email-service/#no-tracking-allowed) explains the problem with images further. I also recommend taking a look at Dave Smyth’s [No to Spy Pixels](https://notospypixels.com/).
 
 ## End-to-end encryption
 
