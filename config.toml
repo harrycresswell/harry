@@ -23,7 +23,6 @@ enableGitInfo = true
 
 [author]
   name = "Harry Cresswell"
-  email = "studio@harrycresswell.com"
   twitter = "https://twitter.com/harrycresswell"
   github = "https://github.com/harrycresswell"
   linkedin = "https://linkedin.com/in/harrycresswell/"
