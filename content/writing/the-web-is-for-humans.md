@@ -28,7 +28,7 @@ It’s a small way to acknowledge the people who helped build your website, in o
 
 Typically, a *humans.txt* file includes a list of team members who have contributed to the project. However, you may prefer to list those who you’ve taking inspiration from, or who you’ve learnt most from over the years. The choice is yours, but its purpose remains the same.
 
-Personally, I’m using this is a chance to pause, reflect and express some gratitude towards the people who have helped me get to where I am today.
+Personally, I’m using this as a chance to pause for a moment, reflect and express some gratitude towards the people who have helped me get to where I am today.
 
 
 ## Create your own humans.txt file
