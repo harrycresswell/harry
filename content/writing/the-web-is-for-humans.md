@@ -16,7 +16,11 @@ Along with my contact info, and the technology used to build this site, this fil
 
 In the grand scheme of things, this isn’t all that important. But it’s been on my list of things to add to my site for a while, so I’m pleased to finally get it live. 
 
-Whilst at it, I jotted down a few thoughts about humans.txt files – how they differ from robots.txt and how I’m approaching mine – and a quick 3 step tutorial to show you how to create one for yourself.
+For those that are new to humans.txt files, I’ve written a short post about them – how they differ from robots.txt and how I’m approaching mine. 
+
+Whilst at it, I jotted down a few thoughts about humans.txt files – how they differ from robots.txt and how I’m approaching mine.
+
+I’ve also included a quick 3 step tutorial to show you how to create one for yourself.
 
 
 
