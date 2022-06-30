@@ -4,7 +4,7 @@ date: 2022-03-23T11:36:30Z
 draft: false
 description: "Moving email away from Google is a project that’s long overdue."
 slug: "privacy-focused-email"
-topics: ["Privacy"]
+topics: ["Privacy", "Tools"]
 syndicate: "false"
 ---
 
