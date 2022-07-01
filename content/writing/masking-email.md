@@ -7,7 +7,7 @@ slug: "masking-email"
 topics: ["Privacy", "Tools"]
 ---
 
-I’ve started using email aliaeses. They help you stay anonymous when signing up for things, and give you control over who can send you email.
+I’ve started using email aliases. They help you stay anonymous when signing up for things, and give you control over who can send you email.
 
 Various terms are flying around for this technology, but I’ve been calling it email masking. Whatever you choose to call it, the concept is simple.
 
