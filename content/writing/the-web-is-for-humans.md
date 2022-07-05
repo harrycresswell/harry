@@ -115,9 +115,9 @@ If you have a humans.txt file, then please let me know. I’d love to take a loo
 
 ## Final thoughts
 
-To the best of my knowledge, a *humans.txt* file won’t get you more followers, help you grow your email list, improve your search ranking or  increase your conversion rate. So what’s the point, I here you say? 
+To the best of my knowledge, a *humans.txt* file won’t get you more followers, help you grow your email list, improve your search ranking or increase your conversion rate. So what’s the point, I here you say? 
 
-I like to think of my *humans.txt* file as a small reminder that *the web is for Humans* and it’s made by humans. When you’re caught up with SEO, algorithms and other ways to satify bots, it’s easy to forget sometimes.
+I like to think of my *humans.txt* file as a small reminder that *the web is for Humans*. When you’re caught up with SEO, algorithms and other ways to satify bots, it’s easy to forget that, sometimes.
 
 It’s also just a bit of fun, because sometimes that’s important, too.
 
