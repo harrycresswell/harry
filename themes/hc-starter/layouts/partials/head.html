@@ -6,7 +6,7 @@
   <title>{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} | {{ .Site.Title }} {{- end }}</title>
   <meta name="title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
   <!-- Descriptions -->
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
+  <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ with .Params.keywords  }}
     {{ $items := delimit . ", " }}
     <meta name="keywords" content="{{ $items | lower }}">

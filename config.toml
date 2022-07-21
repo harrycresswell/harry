@@ -1,5 +1,5 @@
 baseurl = "https://harrycresswell.com/"
-theme="hc-starter"
+theme= "hc-starter"
 languageCode = "en-gb"
 title = "Harry Cresswell"
 pluralizelisttitles = false
@@ -42,7 +42,7 @@ enableGitInfo = true
   writing = "/:section/:slug/"
   projects = "/:section/:slug/"
   updates = "/:section/:slug/"
-  page = "/:title/"
+  page = "/:slug/"
 
 # Enable Emojis
 enableEmoji = true

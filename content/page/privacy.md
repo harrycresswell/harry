@@ -3,7 +3,6 @@ title: "Privacy Policy"
 date: 2018-05-21T13:16:53+01:00
 description: "Find out what I do to keep the data you share with me safe, and how I comply with data and privacy laws"
 slug: "privacy"
-url: "privacy"
 layout: "page"
 ---
 
