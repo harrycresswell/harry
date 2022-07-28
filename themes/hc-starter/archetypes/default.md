@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+publishdate: {{ now.Format "2006-01-02" }}
+lastmod: {{ now.Format "2006-01-02" }}
 draft: true
-description: ""
-slug: "e.g. about"
+slug: "some-url-slug"
 topics: ["Hugo", "Tools"]
-syndicate: "false"
+description: ""
 ---

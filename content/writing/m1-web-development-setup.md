@@ -1,18 +1,23 @@
 ---
 title: "M1 web development setup"
 date: 2022-07-28T11:27:26+01:00
+publishdate: 2022-07-28
+lastmod: 2022-07-28T11:27:26+01:00
 draft: false
-description: ""
+description: "I just picked up a MacBookPro M1. I held out for a while, but with the summer we’re having here in the UK, my MacBookPro 2015’s fan spinning days are over."
 slug: "m1-web-development-setup"
 topics: ["Tools"]
-syndicate: "false"
 ---
 
-I finally bit the bullet and bought a new MacBook Pro M1. I ran my well-loved MacBook Pro 2015 deep into the ground.
+I just picked up a MacBookPro M1. 
 
-My aim with this machine is to try and keep it as lean as possible. So, I’ve refrained from mindlessly copying over my entire harddrive. Instead, I’ve tried to only install the essentials. Tools that I use on a daily basis for design and web development.
+I held out for a while, but with the summer we’re having here in the UK, no amount of fan spinning could keep my MacBookPro 2015 from overheating and griding to a hault. It’s been a valiant servant over the years, but  sadly the time has come.
 
-For those who are interesting, here are the steps I went through, including the apps I’ve installed and my general settings.
+My aim with this M1 is to keep it as lean as possible. I’ve refrained from copying over my entire machine. Instead, most of it’s gone onto an external hard drive, whereas the projects I’m actively working are in the cloud with Sync or Github.
+
+App-wise, I’ve only installed the absolute essentials – design and web development tools that I use on a daily basis.
+
+For those who are interesting, here are the steps I went through to get set up, including the apps I’ve installed and my general settings.
 
 
 ## Steps
@@ -74,58 +79,70 @@ brew update
 
 Install Shell applications using Homebrew.
 
-| Application | Purpose               |
-| ----------- | --------------------- |
-| git         | version control       |
-| go          | programming language  |
-| hugo        | static site generator |
-
-
 ```bash
-brew install \
-  git \
-  go \
-  hugo \
+brew install git
+brew install go
+brew install hugo
 ```
 
+- [git](https://git-scm.com) (version control)
+- [go](https://go.dev) (programming)
+- [Hugo](https://gohugo.io) (static site generator)
 
 ## Install GUI applications.
 
-Install GUI applications using Homebrew
-
-```bash
-brew install --cask \
-  affinity-photo \
-  affinity-designer \
-  bitwarden \
-  brave-browser \
-  figma \
-  firefox \
-  glyphs \
-  hyper \
-  iconjar \
-  imageoptim \
-  maccy \
-  nordvpn \
-  numi \
-  obsidian \
-  rectangle \
-  signal \
-  slack \
-  spotify \
-  sync \
-  tutanota \
-  typora \
-  visual-studio-code \
-  vivaldi \
-```
+Install GUI applications using Homebrew.
 
 Use [Homebrew Formulae](https://formulae.brew.sh/cask/figma#default) to find out if there is a cask available for the app you want to install.
 
+```bash
+brew install --cask affinity-photo
+brew install --cask affinity-designer
+brew install --cask bitwarden
+brew install --cask figma
+brew install --cask firefox
+brew install --cask glyphs
+brew install --cask hyper
+brew install --cask imageoptim
+brew install --cask nordvpn
+brew install --cask numi
+brew install --cask obsidian
+brew install --cask rectangle
+brew install --cask signal
+brew install --cask slack
+brew install --cask spotify
+brew install --cask sync
+brew install --cask tutanota
+brew install --cask typora
+brew install --cask visual-studio-code
+brew install --cask vivaldi
+```
+
+- [Affinity Photo](https://affinity.serif.com/en-gb/photo/#top) (Photo editing)
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) (Vector and illustration)
+- [Bitwarden](https://bitwarden.com) (Password manager)
+- [Figma](https://www.figma.com/) (Web design)
+- [Firefox](https://www.mozilla.org/en-GB/firefox/new/) (Browser for web development)
+- [Glyphs](https://glyphsapp.com) (Type design)
+- [Hyper](https://hyper.is) (Terminal)
+- [ImageOptim](https://imageoptim.com/mac) (Image compression)
+- [NordVPN](https://nordvpn.com) (VPN and malware blocker)
+- [Numi](https://numi.app) (Calculator)
+- [Obsidian](https://obsidian.md) (Note taking and second brain)
+- [Rectangle](https://rectangleapp.com) (Window manager)
+- [Signal](https://www.signal.org) (Encyrpted messaging)
+- [Slack](https://slack.com/) (Team and community communication)
+- [Spotify](https://open.spotify.com) (Music)
+- [Sync](https://www.sync.com) (Secure cloud storage)
+- [Tutanota](https://tutanota.com) (Secure email)
+- [Typora](https://typora.io) (Writing markdown)
+- [Visual Studio Code](https://code.visualstudio.com) (Code editor)
+- [Vivaldi](https://vivaldi.com) (Web browser for browsing)
+
 Apps without a cask to install manually:
 
-- [Raivo OTP](https://github.com/raivo-otp/)
-- [Firefox developer edition](https://www.mozilla.org/en-US/firefox/developer/)
+- [Raivo OTP](https://github.com/raivo-otp/) (2FA authenticator)
+- [Firefox developer edition](https://www.mozilla.org/en-US/firefox/developer/) (Browser for web development)
 
 
 ## Setup shell with Oh My Zsh
@@ -179,9 +196,13 @@ nvm install node --reinstall-packages-from=node
 
 ### Change version
 
+Install new version.
+
 ```shell
 nvm install xx.xx
 ```
+
+Switch to new version. 
 
 ```shell
 nvm use xx.xx
@@ -253,8 +274,6 @@ open ~/.gitconfig
   lall   = log --oneline --decorate --graph --all
   ls     = log --oneline --decorate --graph --stat
 ```
-
-https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 
 ## GitHub CLI and SSH keys
@@ -393,8 +412,7 @@ github.com
 
 ## Application settings
 
-
-
+Here are my settings for the applications you’re most likely interested in.
 
 ### Visual Studio Code
 
@@ -472,11 +490,13 @@ From your new machine, head to *Settings > Sync* to sync all your settings.
 
 ## Summary
 
-How you setup a new machine is always going to be a personal thing, but I hope you’ve found some of this helpful for your own. 
+How you setup a new machine is always going to be a personal thing. But nonetheless, I hope you find some of this helpful for your own setup. 
 
-I’ll add that writing this stuff down is a great idea. If not just for yourself. Setting up a new machine for web development can be overwhelming, but with a roadmap to follow the process is a whole lot easier.
+This is actually the first time I’ve bothered to document this process. Seems kinda bizzare now I think of it, as I’m sure–like with most the words I remember to write down–I’ll be grateful I did, when I return to them later. 
 
-Whilst much of my setup was inspired by my previous one, I have to shout out the folk below. To some extent these setups have inspired my own.
+After all, setting up a new machine for web development can be a dauting process. But with a roadmap to follow, the process should be a whole lot easier.
+
+Whilst much of my setup was inspired by my previous one, I have to shout out the folk below. To some extent, their setups have inspired my own.
 
 
 

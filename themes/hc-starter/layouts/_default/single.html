@@ -5,15 +5,19 @@
     <h1 class="Hero-title p-name">{{ .Title }}</h1>
     <div class="Hero-date">
       <time class="dt-published" datetime="{{ .Date }}">
-        {{ .Date.Format "Jan 2 2006" }}
+        {{ with .PublishDate.Format "Jan 2, 2006" }}
+          {{ . }}
+        {{ else }}
+          {{ .Date.Format "Jan 2 2006" }}
+        {{ end }}
       </time>
       {{ if .Params.topics }}
       <span>— </span>
       {{ partial "post/topics.html" . }} {{ end }}
     </div>
     {{ if ne .Section "newsletter" }}
-    <div class="Hero-mod">
-      {{ if ne .Lastmod .Date }}
+    <div class="Hero-mod"> 
+      {{ if ne .PublishDate .Lastmod }}
       <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
       {{ end }}
     </div>
