@@ -384,8 +384,9 @@ p code,
 li code {
   padding: .125rem .35rem; }
 
-code, pre {
-  font-family: Menlo,Monaco,"Courier New",monospace; }
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace; }
 
 code {
   color: var(--color-teal);
@@ -393,7 +394,7 @@ code {
   border-radius: 2px; }
 
 pre {
-  margin: 3rem 0; }
+  margin: 2rem 0; }
 
 pre code {
   font-size: 90%;

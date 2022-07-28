@@ -19,7 +19,7 @@ pre {
   padding: 3%;
 }
 
-pre + p {
+pre+p {
   @include margin-top(1);
 }
 
@@ -28,23 +28,24 @@ li code {
   padding: .125rem .35rem;
 }
 
-code,pre {
-	font-family: Menlo,Monaco,"Courier New",monospace
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace
 }
 
 code {
-	color: var(--color-teal);
-	background-color: var(--color-lightest);
-	border-radius: 2px
+  color: var(--color-teal);
+  background-color: var(--color-lightest);
+  border-radius: 2px
 }
 
 pre {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 pre code {
   font-size: 90%;
-	padding: 0;
-	color: inherit;
-	background-color: transparent
+  padding: 0;
+  color: inherit;
+  background-color: transparent
 }

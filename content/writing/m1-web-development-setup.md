@@ -301,7 +301,7 @@ Enter a passphrase for your new SSH key (Optional)
 
 Then press `Enter` to leave this blank.  Unless you want to enter a passphrase each time you commit and push changes to GitHub. In which case, enter a passphrase of your choice.
 
-```
+```shell
 Title for your SSH key
 ```
 
@@ -426,10 +426,10 @@ code ~/.hyper.js
 
 Then update the exports object with the following config and plugins.
 
-```
+```javascript
 module.exports = {
 	config: {
-		 ...
+		...
 		fontSize: 13,
 		...
 		hyperBorder: {
