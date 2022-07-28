@@ -4,6 +4,6 @@ date: {{ .Date }}
 draft: true
 description: ""
 slug: "e.g. about"
-topics: ["e.g. Sketch", "code"]
+topics: ["Hugo", "Tools"]
 syndicate: "false"
 ---
