@@ -11,11 +11,11 @@ topics: ["Tools"]
 
 I just picked up a MacBookPro M1. 
 
-I held out for a while, but with the summer we’re having here in the UK, no amount of fan spinning could keep my MacBookPro 2015 from overheating and griding to a hault. It’s been a valiant servant over the years, but  sadly the time has come.
+I held out for as long as I could. But with these summer temperatures, no amount of fan spinning could keep my MacBookPro 2015 from overheating and griding to a hault. It’s been a valiant servant over the years, but sadly its time has come.
 
-My aim with this M1 is to keep it as lean as possible. I’ve refrained from copying over my entire machine. Instead, most of it’s gone onto an external hard drive, whereas the projects I’m actively working are in the cloud with Sync or Github.
+My aim with this M1 is to keep it as lean as possible. I’ve refrained from copying over my entire machine. Instead, most of it’s gone on to an external hard drive. Only projects I’m actively working are in the cloud with Sync or Github.
 
-App-wise, I’ve only installed the absolute essentials – design and web development tools that I use on a daily basis.
+App-wise, I’ve only installed the absolute essentials – design and web development tools that I use on a daily basis. Let’s hope I can keep it that way and make this beast last for another 7 years, if not longer.
 
 For those who are interesting, here are the steps I went through to get set up, including the apps I’ve installed and my general settings.
 
@@ -490,9 +490,9 @@ From your new machine, head to *Settings > Sync* to sync all your settings.
 
 ## Summary
 
-How you setup a new machine is always going to be a personal thing. But nonetheless, I hope you find some of this helpful for your own setup. 
+How you setup a new machine will always be a personal thing. But nonetheless, I hope you find some of this helpful for your own setup. 
 
-This is actually the first time I’ve bothered to document this process. Seems kinda bizzare now I think of it, as I’m sure–like with most the words I remember to write down–I’ll be grateful I did, when I return to them later. 
+This is actually the first time I’ve bothered to document this process. Seems kinda bizzare now I think of it, as I’m sure–like with most the words I write down–I’ll be grateful I did, when I return to them later. 
 
 After all, setting up a new machine for web development can be a dauting process. But with a roadmap to follow, the process should be a whole lot easier.
 
