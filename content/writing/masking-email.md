@@ -15,29 +15,26 @@ With the click of a button, generate a random email address for every account yo
 
 The idea is you create a unique, anonymous address for any app, website or newsletter you wish to sign up for.
 
-Adding an extra step to the signup process might seem convoluted. But, the advantages of doing so are well worth a little extra effort.
+Adding an extra step to the signup process might seem convoluted. But, the advantages of doing so are well worth the extra effort.
 
   
 ## Taking back control of your inbox
 
-When you reveal your real email address, there’s little you can do to prevent inbox abuse. Spam, phishing, data breaches, account hacks are all real problems. These problem only gets worse, the longer you use your address.
+When you reveal your real email address, there’s little you can do to prevent inbox abuse. Spam, phishing, data breaches, account hacks are all real problems. These problem only gets worse with time.
 
-The solution is to create accounts using a unique, anonymous forwarding address. That way, the integrity of your real address always remains intact. By “masking” your private email, it remains a secret and it’s safe from abuse.
-
-This is huge for privacy, but also security.
+The solution is to create accounts using a unique, anonymous forwarding address. That way, the integrity of your real address always remains intact. By “masking” your private email, your address remains a secret and stays safe from abuse. This is huge for privacy, but also security.
 
 Discovered a data breach or sick of spam? Delete the forwarding address for that account, and you’ll never hear from the offender again. Problem solved.
 
-With a unique email address for each account, tracing the source of spam is also more manageable. A quick look at the “sent to” address and you’ll identify exactly who shared, leaked or sold your address.
+Tracing the source of spam is also effortless. A quick look at the “sent to” address and you’ll identify exactly who shared, leaked or sold your address.
 
-Now you’re using a random email address for every account–none of which follow a recognisable pattern. Think about how much harder it will be for hackers to guess your login details.
+When every account uses a random email address, your login details no longer follow a recognisable pattern. This makes it much harder to hack your account. 
 
-Combined with a generated password, password manager and two-factor authentication (2FA). And your setup is almost impenetrable.
+When combined with a generated password and two-factor authentication (2FA), your accounts are almost impenetrable.
 
-Many services can help you with email masking.
-
-  
 ## Email masking services
+
+There are many services can help you with email masking.
 
 [Simple Login](https://simplelogin.io/) premium allows you to create an unlimited number of email aliases. And use custom domains. The software is open source and very well documented. It’s also possible to add PGP Encryption to your aliases.
 
@@ -58,13 +55,13 @@ I've been using SimpleLogin for the past few months. Here’s how it works.
 
 Before generating forwarding addresses for all your accounts. You first need to set up a primary email address that all emails will forward to.
 
-You do this by adding a default Mailbox from inside the SimpleLogin app. This should be a private email address that you never reveal. So, make sure you don’t give to anyone. Its sole purpose is for use as a forwarding address. And it should remain a secret, at all times. 
+You do this by adding a default Mailbox from inside the SimpleLogin app. This should be a private email address that you never reveal. So don’t give to anyone. The sole purpose of this address is for use as a forwarding address. And it should remain a secret, at all times. 
 
 Now you’re ready to generate a forwarding address.
 
 SimpleLogin has a browser extension, available for [blink-based browsers](https://chrome.google.com/webstore/detail/simpleloginreceive-send-e/dphilobhebphkdjbpfohgikllaljmgbn), Safari and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/). 
 
-Whenever you land on a website and want to create an account. Fire up the browser extension and generate a new forwarding address. Then use it to sign up with, instead of your real address. It works the same as generating a password using a password manager.
+Whenever you land on a website and want to create an account, fire up the browser extension and generate a new forwarding address. Now use it to sign up with, instead of your real address. The process works the same as generating a password using a password manager.
 
 By default, SimpleLogin will create an email address based on the domain name of the website open in your current browser tab. To give you an example, let’s say you’re on the notion.so website. And you want to create an account. In this case, SimpleLogin might suggest: notion.ds5s@aleeas.com.
 
@@ -98,7 +95,7 @@ But, what if you’re composing a new email, to a new contact, and want to use a
 
 In this case, you need to set up a reverse alias yourself. As far as I understand, this is a manual process.
 
-In SimpleLogin, you need to add your new contact to the forward address you want to send from. For example, let’s say I want to contact elon@tesla.com from a new forwarding address. First I generate the forwarding address. Then add Elon’s email address as a contact of that forwarding address. This generates a reverse alias. It will usually look like a long string of random letters. 
+In SimpleLogin, you need to add your new contact to the forward address you want to send from. For example, let’s say I want to contact elon@tesla.com from a new forwarding address. First, I generate the forwarding address. Then, I add Elon’s email address as a contact of that forwarding address. This generates a reverse alias, which looks like a long string of random letters. 
 
 kutcaqldjyywoxyfrlsmneathjpnjjzpwqlgmqb@simplelogin.co, for example.
 
@@ -121,9 +118,9 @@ To give you an example, a couple of different estate agents recently valued my a
 
 As soon as the valuation process was complete, I turned off the aliases I had set up for each agent. Now, I no longer receive the constant flow of emails about properties for sale in my area.
 
-Of course, this wouldn’t be possible if I provided my private email address. Then I’d have to unsubscribe from each mailing lists, one by one. Not much fun.
+Of course, this wouldn’t be possible if I had given these agents my private email address. If I had, I’d have to unsubscribe from each mailing lists, one by one. Not much fun.
 
-But, it’s possible to do this without a custom domain, too. You can personalise a forwarding address using SimpleLogin’s default domain names. For example, harrycresswell.vv6j9@aleeas.com achieves the same results.
+But, it’s also possible to do this without a custom domain. You can personalise a forwarding address using SimpleLogin’s default domain names. For example, harrycresswell.vv6j9@aleeas.com achieves the same results.
 
 Notice the random string of letters and numbers before the @ sign. This creates a unique address. Meaning you can create as many personalised addresses as you like. 
 
@@ -132,9 +129,9 @@ With this approach, I reveal my identity, but maintain control over who has acce
   
 ## It’s all the same thing
 
-I mentioned the various terms out there. All attempting to make this technology approachable and descriptive.
+I mentioned the various terms out there, that all attempt to make this technology approachable and descriptive.
 
-From a technical perspective, creating email aliases is what this *is*. But the term “alias” doesn’t exactly describe what it *does*. That is unless you’re a real tech nerd and you know your stuff.
+From a technical perspective, creating email aliases is what this *is*. But the term “alias” doesn’t exactly describe what it *does*. That is unless you’re a tech nerd and you really know your stuff.
 
 To appeal to the broadest range of people, this technology needs a better sales pitch. And, there are several attempts to do that. 
 
@@ -156,7 +153,7 @@ If you hear any of these terms, they most likely mean the same thing. No doubt t
 
 How nice it would be to have zero footprint online. With a brand new email address, that we can mask from the start. In reality, most of us aren’t lucky enough to be in a position where we’re starting out fresh. 
 
-Like me, you probably have a bunch of existing subscriptions and accounts. Most of which you’ll need to work your way through. Updating every username to a random forwarding address, one by one. It’s a manual process, which will take a good bit of time.
+Like me, you probably have a bunch of existing subscriptions and accounts. Most of which you’ll need to work your way through. Updating every username to a random forwarding address, one by one. It’s a manual process, which will take time.
 
 This isn’t about password managers. But using one will make the process of identifying all your accounts less painful. It also means you won’t have to remember all your forwarding addresses. Win win.
 
