@@ -11,20 +11,15 @@ These are the things I’m focuing my time and energy on right now.
 ## Reading
 
 - [Sustainable Web Deisgn](https://abookapart.com/products/sustainable-web-design) by Tom Greenwood
-- [Project Hail Mary](https://www.goodreads.com/book/show/54493401-project-hail-mary) by Andy Weir
+- [The Wim Hof Method](https://www.goodreads.com/book/show/50403522-the-wim-hof-method?from_search=true&from_srp=true&qid=hty0XYAacq&rank=1) by Wim Hof
+- ~~[Project Hail Mary](https://www.goodreads.com/book/show/54493401-project-hail-mary) by Andy Weir~~
 - ~~[Resilient Web Design](https://resilientwebdesign.com/) by Jeremy Keith~~
 - ~~[Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) by Cal Newport~~
-- ~~[Dune Messiah](https://www.goodreads.com/book/show/44492285-dune-messiah) by Frank Herbert~~
-- ~~[How to Live](https://sive.rs/h) by Derek Sivers~~
 
 ## Writing
 - Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo
-- A series of articles about making intentional softwares choices
-- ~~Working with [Menus in Hugo](/writing/menus-in-hugo/)~~
 
 ## Building
-
-- A Tailwind based UI kit for AIN
 - A minimal Hugo theme for writers
 
 ## Learning
@@ -37,4 +32,4 @@ These are the things I’m focuing my time and energy on right now.
 
 Page inspired by [Derek Sivers](https://nownownow.com/about).
 
-**Last Updated:** Apr 25, 2022.
+**Last Updated:** Aug 1, 2022.
