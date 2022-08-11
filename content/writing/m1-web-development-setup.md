@@ -393,6 +393,8 @@ github.com
 			- Disable *Capitalise word automatically*
 			- Disable *Add full stop with double space*
 			- Disable *Use Smart quotes and dashes*
+		- Shortcuts
+			- Enable *Use keyboard navigation to move focus between controls*
 	- Displays
 		- Night Shift > Sunset to Sunrise
 	- Sharing:
@@ -474,9 +476,23 @@ module.exports = {
 ### Vivaldi
 
 Create an account with Vivaldi on your previous machine, if you haven’t already. 
-From your new machine, head to *Settings > Sync* to sync all your settings.
 
-- Settings > Search > Set Default Seach Engine to DuckDuckGo
+From your new machine, head to *Preferences > Sync* to sign in to your account and sync all your settings.
+
+- Preferences:
+	- Keyboard
+		- Full Keyboard Access 
+			- Enable *Inherit from System Preferences*
+			- Enable *Focus all controls*
+		- Keyboad Shortcuts
+			- Enable *Keyboard Shortcuts*
+	- Search 
+		- Set Default Seach Engine to DuckDuckGo
+	- Webpages
+		- Enable *Smooth Scrolling*
+		- Webpage Focus
+			- Enable *Focus All Controls and Links*
+
 
 #### Browser extensions
 
