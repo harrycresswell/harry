@@ -161,7 +161,6 @@ figure {
     #BASE: BODY
 \*------------------------------------*/
 html {
-  font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
   background-color: var(--color-link); }
 
 @media (prefers-reduced-motion: no-preference) {
