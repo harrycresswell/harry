@@ -340,9 +340,12 @@ But this doesn’t give us much control over how our content appears in the menu
   parent = "About"
 ```
 
-Front matter menus won’t give quite the same level of control as you get from the *config.toml* file. But, you can order your content in a menu by adding a *weight*. Or, nest your content as sub menu, by adding a value for *parent*.
+Front matter menus won’t give quite the same level of control as you get from the *config.toml* file. But, you can order your content in a menu by adding a *weight*. Or, nest your content as sub menu, by adding a value for *parent*. 
 
-You may find reason to add content to a menu via front matter. However, I tend to avoid them, as I find it easier to manage menu items all in one place–from the `config.toml` file.
+Another advantage of controling menu items from the content is that when you delete a page, you delete the menu item along with it. There’s no chance of broken links in your menu.
+
+
+You may find reason to add content to a menu via front matter. However, I tend to avoid them, as I prefer to manage menu items all in one place–from the `config.toml` file.
 
 Now we’ve looked at rending menus, and the various ways to add content them, let’s look at some of the challenges we might face.
 
