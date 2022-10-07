@@ -60,7 +60,7 @@ I recently discovered Brian Lovin’s [Security Checklist](https://brianlovin.co
 
 Thanks for tuning in for another issue.
 
-Please [share this with a friend](https://harrycresswell.com/newsletter/188) if you think they might enjoy it.
+Please [share this with a friend](https://harrycresswell.com/newsletter/188)  if you think they might enjoy it.
 
 If this is your first time here you can [subscribe via RSS](https://harrycresswell.com/feeds/) or [subscribe via email](https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca). It would be great to have you onboard.
 
