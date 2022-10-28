@@ -2,7 +2,7 @@
 title: "#190 – Slow lane"
 date: 2022-10-07T13:22:29+03:00
 draft: false
-description: "Welcome to issue #190, your monthly roundup of what’s happening in design, code and typography."
+description: "After what has been a busy couple of months, I’m rather enjoying being back in the slow lane, again."
 slug: "190"
 ---
 
