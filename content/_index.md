@@ -25,4 +25,4 @@ Find out [what I'm up to right now](/now/) or [follow my daily updates](/updates
 
 Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
 
-Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell), [Twitter](https://twitter.com/harrycresswell) and now [Polywork](https://www.polywork.com/harrycresswell). Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions.
+Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Polywork](https://www.polywork.com/harrycresswell). Please [send me an email](mailto:studio@harrycresswell.com) if you have any questions.
