@@ -15,7 +15,7 @@ As with every year there’s been highs and lows. Some of which I’ll try to su
 
 To learn more about how I approach this thing, I wrote [a year in review](/writing/year-in-review/) a few years back, all about why I write this and the inspiration I borrow from for the structure. Make sure you take a look if it’s of interest to you. 
 
-Ok, here goes.
+Ok, here it goes.
 
 
 ## What went well
@@ -67,7 +67,7 @@ Talking about what didn’t go well is never easy, but I’ve found in the past 
 
 ### Health
 
-In June, out of nowhere, I starting having panic attacks. I’m still not exactly sure what caused them, but my guess is a whole bunch of things coming together and boiling over. 
+In June, out of nowhere, I started having panic attacks. I’m still not exactly sure what caused them, but my guess is a whole bunch of things coming together and boiling over. 
 
 A panic attack is essentially anxiety manifesting as a variety of physical symptoms. I can best describe what I feel during a panic attack as something close to an out-of-body experience. It’s a feeling of disconnect from your mind, body or surroundings – something I’ve come to know as [dissociation](https://www.mind.org.uk/information-support/types-of-mental-health-problems/dissociation-and-dissociative-disorders/about-dissociation/) – making you feel like you’ve lost control or you’re going crazy. You may also experience feeling numb, shaking, your legs turning to jelly or struggling to breath. Whatever the symptoms, panic attacks can be extremely unconfortable.
 
@@ -86,7 +86,7 @@ In short, although I haven’t released much into the wild this year, I am worki
 
 ### Sticking with habits
 
-**Exercise** has ebbed and flowed this year. I was out of the habit of meditating for the first part of the year, but picked it up again when I got sick. Running was the exact opposite. Yoga I’ve been a bit more consistent with, I usually attribute this to it being fairly low intensity and easy roll out a mat.
+**Exercise** has ebbed and flowed this year. I was out of the habit of meditating for the first part of the year, but picked it up again when I got sick. Running was the exact opposite. Yoga I’ve been a bit more consistent with, I usually attribute this to it being fairly low intensity and easy to roll out a mat.
 
 **Writing** is another one I struggled with. I was writing consistently and wrote a fair amount, up until I got sick at the beginning of June. Then I lost motivation and I’ve struggled to find it again, until the last few weeks that is. I guess my energy was elsewhere – focusing on my health, travel and generally taking a break from it all.
 
@@ -166,4 +166,4 @@ Just to recap 2022 was a year in which, I:
 - Started to get on top of my digital footprint, mainly through the process of deleting stuff, which I like to call subtraction (and should write about more)
 - Realised that social media is, in fact, optional and you might be better off without it
 
-Ok, that’s all I’ve got. Hears to 2023!
+Ok, that’s all I’ve got. Here’s to 2023!
