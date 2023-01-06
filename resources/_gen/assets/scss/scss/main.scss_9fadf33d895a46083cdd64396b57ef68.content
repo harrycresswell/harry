@@ -1097,7 +1097,7 @@ video {
   outline-style: none;
   text-align: left;
   text-decoration: none;
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
   vertical-align: middle;
   white-space: nowrap;
   width: 100%;
@@ -1116,7 +1116,7 @@ video {
   height: 48px;
   outline: solid 2px var(--color-dark);
   outline-offset: 0;
-  padding: 0 24px; }
+  padding: 0 16px; }
 
 /**
  * Component Modifier State
