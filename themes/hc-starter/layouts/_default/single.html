@@ -35,6 +35,8 @@
     {{ end }}
   </section>
 
+  {{ partial "reply-by-email.html" . }}
+
   <footer>{{ partialCached "post/author.html" . }}</footer>
 </article>
 <!--/.Content -->

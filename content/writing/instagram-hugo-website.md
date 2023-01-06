@@ -204,7 +204,7 @@ Thanks to Joost’s hard work on PPI Loader, we now have a low-tech and easy to 
 
 All the code from this tutorial can be found over on [Github](https://github.com/harrycresswell/instagram-hugo). I’ve also created [a simple demo site](https://instagram-hugo.netlify.app/) of the final working implementation. 
 
-If I’ve made a mistake or got something wrong at any point during this article then please [drop me a message](mailto:studio@harrycresswell.com) or [open a pull request](https://github.com/harrycresswell/instagram-hugo/pulls). 
+If I’ve made a mistake or got something wrong at any point during this article then please [drop me a message](#reply-by-email) or [open a pull request](https://github.com/harrycresswell/instagram-hugo/pulls). 
 
 ## Resources
 

@@ -22,7 +22,3 @@ I’ve been putting a curriculum outline together alongside this, as I know cont
 Maybe I’m overthinking it, but that’s only because I want this course to be more than the typical  tutorial. At least this *lite* branding exercise has helped make it feel like more of a thing.
 
 At some point I should share [this course on Twitter](https://twitter.com/practicalhugo) and I will in time. But it’s almost the holidays and I doubt many of you are listening. One thing at a time, I’m in no rush and I’m having fun with it.
-
-But if you are listening then maybe you can help me? 
-
-Is there’s anything specific you’re struggling with, or would like to learn about Hugo? [Let’s have a chat](mailto:studio@harrycresswell.com), I’d love to hear about it.

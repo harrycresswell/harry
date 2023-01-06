@@ -34,4 +34,4 @@ The security of your personal data is important, but remember that no method of 
 
 ## Contact
 
-If you have any questions about how your data is being used, you can contact me by email: studio@harrycresswell.com or by leaving a message via the [contact](https://harrycresswell.com/contact) page.
+If you have any questions about how your data is being used, you can contact me by leaving a message via my [contact](https://harrycresswell.com/contact) page.

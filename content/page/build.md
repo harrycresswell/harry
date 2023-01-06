@@ -46,5 +46,3 @@ All form handling is taken care of by Netlify, so when a visitor submits the for
 All media on the site (images, GIFs etc) is hosted by [Cloudinary](https://cloudinary.com/), a cloud based storage service. This way I’m not committing large media files to GitHub and can avoid slow build times. ~~Cloudinary provides automatic responsive images and compression with 'transformations' set in the URL. You can read [more about how that works here](/articles/cloudinary/)~~. 
 
 I’ve now switched to [a simple responsive image workflow](/writing/responsive-images-next-gen-formats/) which utilises the power of Cloudinary URL transformations and automatic creation of next-gen image formats. The approach avoids the need for JavaScript and ensures the most optimum format is rendered. 
-
-If you have any further questions [drop me an email](mailto:studio@harrycresswell.com) or a [tweet](https://twitter.com/harrycresswell/). I'd be more than happy to help.
