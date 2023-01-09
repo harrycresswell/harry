@@ -10,8 +10,10 @@ These are the things I’m focuing my time and energy on right now.
 
 ## Reading
 
-- [Sustainable Web Deisgn](https://abookapart.com/products/sustainable-web-design) by Tom Greenwood
-- [The Wim Hof Method](https://www.goodreads.com/book/show/50403522-the-wim-hof-method?from_search=true&from_srp=true&qid=hty0XYAacq&rank=1) by Wim Hof
+- [The Checklist Manifesto](https://www.goodreads.com/book/show/6667514-the-checklist-manifesto?ac=1&from_search=true&qid=fO0UIBttWe&rank=1) by Atul Gawande
+- ~~[Barbarian Days](https://www.goodreads.com/book/show/18693910-barbarian-days?ac=1&from_search=true&qid=JY85fYUI7X&rank=1) by William Finnegan~~
+- ~~[Sustainable Web Deisgn](https://abookapart.com/products/sustainable-web-design) by Tom Greenwood~~
+- ~~[The Wim Hof Method](https://www.goodreads.com/book/show/50403522-the-wim-hof-method?from_search=true&from_srp=true&qid=hty0XYAacq&rank=1) by Wim Hof~~
 - ~~[Project Hail Mary](https://www.goodreads.com/book/show/54493401-project-hail-mary) by Andy Weir~~
 - ~~[Resilient Web Design](https://resilientwebdesign.com/) by Jeremy Keith~~
 - ~~[Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) by Cal Newport~~
@@ -32,4 +34,4 @@ These are the things I’m focuing my time and energy on right now.
 
 Page inspired by [Derek Sivers](https://nownownow.com/about).
 
-**Last Updated:** Aug 1, 2022.
+**Last Updated:** Jan 9, 2023.
