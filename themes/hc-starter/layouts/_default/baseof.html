@@ -34,31 +34,22 @@
   {{ partialCached "footer.html" . .Type }}
   <!-- Store JS files independently -->
   {{ $lazysizes := resources.Get "js/lazysizes.js" }}
+  {{ $emailmask := resources.Get "js/email-mask.js" }}
 
   <!-- Concat JS, generate default app.js and app-likes -->
   {{ $defaultJS := slice $lazysizes | resources.Concat "app.js" }}
+  <!-- Concat JS, generate default app.js and app-likes -->
+  {{ $customJS := slice $lazysizes $emailmask | resources.Concat "app-custom.js" }}
   <!-- Set default -->
   {{ $script := $defaultJS }}
+  <!-- If content is writing, change script to custom -->
+  {{ if or (eq .Type "writing") (eq .Type "updates") }}
+    {{ $script = $customJS }}
+  {{ end }}
   <!-- Assign script to global, minify and fingerprint -->
   {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
   <!-- Load script and authenticate hashed file -->
   <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
-  <!-- Load carbon badge script, see: https://www.websitecarbon.com/badge/ -->
-  <!--<script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>-->
-  <script>
-    function decodeStringBase64() {
-      let elemsToDecode = document.querySelectorAll('[data-decode]');
-      elemsToDecode.forEach(function(elem) {
-        elem.href = 'mailto:' + atob(elem.getAttribute('data-decode'));
-      });
-    }
-  
-    let replyButton = document.querySelectorAll('[data-decode]');
-    replyButton.forEach(function(elem) {
-      elem.addEventListener('click', e => {
-        decodeStringBase64()
-      });
-    });
-  </script>
+
 </body>
 </html>
