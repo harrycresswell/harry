@@ -1,3 +1,4 @@
-<section id="reply-by-email">
-  <a class="Button Button--secondary" href="mailto:{{ .Site.Author.email }}">Reply by email</a>
+<section style="margin-top: 4rem;" id="reply-by-email">
+  {{ $email := .Site.Author.email | base64Encode }}
+  <a data-decode="{{ $email }}" class="Button Button--secondary"  href="mailto:">Reply by email</a>
 </section>

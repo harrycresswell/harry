@@ -418,10 +418,9 @@ textarea {
   background: var(--color-lightest);
   border: solid 2px var(--color-lightest);
   border-radius: 0;
-  height: 48px;
   outline: 2px solid var(--color-lightest);
   outline-offset: 0;
-  padding: 0 16px;
+  padding: 4px 16px;
   position: relative;
   transition: all .2s;
   width: 100%;
@@ -446,7 +445,6 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   outline-style: none;
-  height: 64px;
   width: 100%; }
   select:after {
     color: var(--color-dark);
@@ -1093,7 +1091,6 @@ video {
   border-radius: 0;
   box-sizing: border-box;
   cursor: pointer;
-  letter-spacing: 0.5px;
   outline-style: none;
   text-align: left;
   text-decoration: none;
@@ -1113,10 +1110,15 @@ video {
   background: var(--color-dark);
   border: solid 2px var(--color-dark);
   color: var(--color-white);
-  height: 48px;
   outline: solid 2px var(--color-dark);
   outline-offset: 0;
-  padding: 0 16px; }
+  padding: 4px 16px; }
+
+.Button--secondary {
+  background: var(--color-white);
+  border: solid 2px var(--color-dark);
+  color: var(--color-dark);
+  padding: 8px 16px; }
 
 /**
  * Component Modifier State
@@ -1124,13 +1126,19 @@ video {
 .Button--primary:hover,
 .Button--primary:focus,
 .Button--primary:active,
-.Button--primary.is-pressed {
+.Button--secondary:hover,
+.Button--secondary:focus,
+.Button--secondary:active {
   background-color: var(--color-dark);
   box-shadow: 0 10px 28px rgba(47, 47, 47, 0.3);
   transform: translateY(-2px); }
 
 .Button--primary:focus {
   outline: 4px solid #e4deff; }
+
+.Button--secondary:focus {
+  color: var(--color-white);
+  outline: 2px dotted var(--color-dark); }
 
 /*------------------------------------*\
     #OBJECTS: VIDEO
