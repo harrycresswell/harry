@@ -1,13 +1,17 @@
 function decodeStringBase64() {
-  let elemsToDecode = document.querySelectorAll('[data-decode]');
+  // Grab Reply by email link tag
+  let elemsToDecode = document.querySelectorAll('[data-decode="email"]');
+  // For each link found
   elemsToDecode.forEach(function(elem) {
-    elem.href = 'mailto:' + atob(elem.getAttribute('data-decode'));
+    // Grap href data
+    let hrefData = elem.href;
+    // Split the href data after the colon
+    let splitData = hrefData.split(/[:,]/);
+    // Decode the second item in the array
+    let decodedString = atob(splitData[1]);
+    // Dump encodedString and “mailto:” in href
+    elem.href = 'mailto:' + decodedString;
   });
 }
 
-let replyButton = document.querySelectorAll('[data-decode]');
-replyButton.forEach(function(elem) {
-  elem.addEventListener('click', e => {
-    decodeStringBase64()
-  });
-});
+decodeStringBase64();
