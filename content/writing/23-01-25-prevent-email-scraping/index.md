@@ -9,7 +9,7 @@ topics: ["Privacy", "JavaScript"]
 description: "Tackling spam with base64 encoding and a few lines of JavaScript."
 ---
 
-I’ve made all the mistakes to ensure my email receives a sinful amount of spam. 
+I’ve made all the mistakes to ensure my email receives a sickening amount of spam. 
 
 A while back, my address somehow crept into the meta data of a client website. Now I’m constantly bombarded with industry specific spam relating to that particular client. Not the end of the world, but kind of annoying, nonetheless.
 
