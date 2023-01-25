@@ -4,7 +4,7 @@ date: 2020-04-22T11:01:05+01:00
 draft: false
 description: "In a ideal world good ideas arrive just at the right time, when you’re sat at a desk with a pen in hand and paper to write on. But the reality is that it doesn’t always work this way."
 slug: "taking-notes-while-running"
-topics: ["Productivity", "Strategy"]
+topics: ["Process", "Tools"]
 syndicate: "false"
 ---
 

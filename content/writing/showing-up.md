@@ -4,7 +4,7 @@ date: 2020-02-29T13:14:02Z
 draft: false
 description: "You often read that the best way to make progress and achieve your goals is to show up every day and put in the hours. But this doesn’t make it any easier to make happen."
 slug: "showing-up"
-topics: ["Reflections"]
+topics: ["Daily"]
 syndicate: "false"
 ---
 

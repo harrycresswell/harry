@@ -4,7 +4,7 @@ date: 2021-01-27T09:59:54Z
 draft: false
 description: "A few thoughts on focusing on your interests and choosing your own path. You don’t have to learn that fancy framework to be a successful web developer."
 slug: "chasing-the-hype"
-topics: ["Reflections"]
+topics: ["Daily"]
 syndicate: "false"
 updated: 2021-02-10T09:59:54Z
 ---

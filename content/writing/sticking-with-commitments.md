@@ -4,7 +4,7 @@ date: 2020-02-12T10:39:01+01:00
 draft: false
 description: "By setting goals you typically define a desired future behaviour or specific outcome. But goal setting doesn’t provide any kind of plan to help you achieve your goals. A strategy known as “Implementation Intentions” can help."
 slug: "implementation-intentions"
-topics: ["Strategy", "Productivity"]
+topics: ["Strategy"]
 syndicate: "false"
 ---
 
