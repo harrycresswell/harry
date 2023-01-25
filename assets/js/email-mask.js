@@ -3,7 +3,7 @@ function decodeStringBase64() {
   let elemsToDecode = document.querySelectorAll('[data-decode="email"]');
   // For each link found
   elemsToDecode.forEach(function(elem) {
-    // Grap href data
+    // Grab href data
     let hrefData = elem.href;
     // Split the href data after the colon
     let splitData = hrefData.split(/[:,]/);
