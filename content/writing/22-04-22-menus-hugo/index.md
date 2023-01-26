@@ -599,11 +599,12 @@ Ok, back to our template. How doe we render our child items in our menu?
 
 Hugo has a method on menu called `.HasChildren` which returns `true` if a menu item contains children. We can use an if statement to check the condition.
 
-If the condition returns `true`, we loop through the child menu items by passing `.Children` into the range fuction.
+If the condition returns `true`, we loop through the child menu items by passing `.Children` into the range function.
 
 ```html
 <nav aria-label="Main Navigation">
   <ul>
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <li>
@@ -645,6 +646,7 @@ Altogether that looks like this:
 ```html
 <nav aria-label="Main Navigation">
   <ul>
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <li>
@@ -687,6 +689,7 @@ And, here it is in the context of our menu.
 ```html
 <nav aria-label="Main Navigation">
   <ul>
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <li>
@@ -718,6 +721,7 @@ Finally, we include an else statement, to return any menu item that doesn’t ha
 ```html
 <nav aria-label="Main Navigation">
   <ul>
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <li>
@@ -763,6 +767,7 @@ All we need to do is move the `{{ if .HasChildren }}` logic to wrap the nested c
 ```html
 <nav aria-label="Main Navigation">
   <ul>
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <li>
         <a 
