@@ -76,7 +76,7 @@ We’ll get to exactly what’s going on in this code a little later. But, that�
 
 If we include this code somewhere in our templates, our Section Menu will _just_ work. No need to add our menu items anywhere, or configure anything else in the config file. That’s because Section Menus are based on content structure. 
 
-So. Section Menus quick and easy to build. But, they depend on our content structure, meaning we have to structure our content in a particular way. This creates certain limitations, which we’ll look at next.
+So. The benefit of Section Menus is that they’re quick and easy to build. But, they depend on our content structure, meaning we have to structure our content in a particular way. This creates certain limitations, which we’ll look at next.
 
 The first limitation is that we can’t structure pages as top level markdown files. 
 
@@ -104,11 +104,11 @@ Instead, we need to make sure our pages are structured as content Sections.
 
 Sections require their own named folder, which contains either an *index.md* file, or a collection of pages, with or without an *index.md* file. As illustrated above.
 
-What’s the difference between  `index.md` and `_index.md`? The former creates a [Leaf Bundle](https://gohugo.io/content-management/page-bundles/) (used for single pages) and the latter a [Branch Bundle](https://gohugo.io/content-management/page-bundles/) (used for section pages). But, I digress.
+What’s the difference between `index.md` and `_index.md`? The former creates a [Leaf Bundle](https://gohugo.io/content-management/page-bundles/) (used for single pages) and the latter a [Branch Bundle](https://gohugo.io/content-management/page-bundles/) (used for section pages). But, I digress.
 
 More to the point, without Section folders, your Section Menu will not work. 
 
-For a small site, we might decided to reorganise the content folder to get a Section Menu working. But, for a big site, with a mature content structure, this process could take some time, and might not be worthwhile.
+For a small site, we might decided to reorganise the content folder to get a Section Menu working. But, for a larger site, perhaps with a mature content structure, this process could take some time, and might not be worthwhile.
 
 The second limitation of Section Menus is that they only work for top level pages. To illustrate this, imagine we have a *projects* section with two projects inside.
 
@@ -183,7 +183,7 @@ There’s no hard and fast rule about how you format the weight of each menu ite
   weight = 3
 ```
 
-Increasing weight values by 1 works. But, I tend to avoid it. Otherwise you end up having to update the weight of every menu item, anytime you want to add a new item, somewhere in the middle of your menu.
+Increasing weight values by increments of 1 works. But, I tend to avoid doing this. That’s because anytime you want to add a new item somewhere in the middle of your menu, you usually end up having to update the weight of every menu item to accomodate the change.
 
 For this reason, my prefered method is using increments of 10. Doing so makes it much easier to add menu items later, anywhere in your menu. 
 
@@ -304,7 +304,7 @@ Assuming we have something similar to below in one of our templates.
 </nav>
 ```
 
-We could add the following to the front matter of any content file, to add it to our main menu.
+We could add the following to the front matter of any content file, to add the page to our main menu.
 
 ```toml
 menu = 'main'
@@ -316,7 +316,7 @@ One advantage of front matter menus is that we can quickly add content to any nu
 menu = ['main', 'footer']
 ```
 
-The code above will add our content to both the *main* and *footer* menu. That is, assuming we also have the a footer menu rendered somewhere in our templates.
+The code above will add our content to both the *main* and *footer* menu. That is, assuming we also have a footer menu rendered somewhere in our templates.
 
 
 ```html
@@ -394,7 +394,7 @@ The problem now is that `is-active` is being applied to every one of our menu it
 
 Hugo provides a method on the `Page` object called [.IsMenuCurrent](https://gohugo.io/functions/ismenucurrent/) which can help us achieve this functionality. 
 
-`.IsMenuCurrent` will return _true_ if the current page is the same as the page in our menu item.
+`.IsMenuCurrent` will return _true_ if the current page matches an item in our menu.
 
 Update your menu with the following code:
 
@@ -888,11 +888,11 @@ Run `hugo server` and you will find that the link of any menu item–which inclu
 
 ## Wrapping up
 
-Setting up a menu in Hugo isn’t too difficult, but there are various approaches to consider. Which one you choose will depend on the size of your project, and the complexity of its content structure.
+Setting up a menu in Hugo isn’t too difficult, but there are various approaches to consider. Which one you choose will depend on the size of your website, and the complexity of its content structure.
 
 The most challenging aspect is highlighting current menu items. But, since Hugo v0.86.0, the [pageRef](https://github.com/gohugoio/hugo/releases/tag/v0.86.0) variable makes the process much easier. For that reason, I highly recommend keeping your Hugo version up-to-date.
 
-With the ability to assign Params, we can do all sorts of things to customise our menu items. We’ve looked at creating external links. But you might consider adding custom icons, to illustrate your menu items. Or, even add custom classes, to change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
+With the ability to assign Params, we can do all sorts of things to customise our menu items. From creating external links to adding custom icons which help illustrate your menu items. You might even decide to add custom classes, so you can change the style of a menu item based on a certain condition. I’ll leave that for you to explore.
 
 There’s lots more to cover on the topic of menus. Managing menus from a `config/menus.toml` file and dealing with multi-lingual site navigation both come to mind. But these topics could easily be articles in themselves, so I’ll leave it there for today. 
 
