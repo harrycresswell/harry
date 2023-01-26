@@ -34,15 +34,13 @@ With this idea in mind, let’s look at a few examples.
 
 Say your goal is to _write a book_. To achieve your goal you might decide to _build a daily writing habit_. Makes sense. It’s less intimidating to focus on a regular commitment, than fixating on an end goal, which feels impossible to achieve.
 
-To build your daily writing habit, you might employ an “if-then plan,” to increase your changes of staying committed and achieving your goal.
+To build your daily writing habit, you might employ an “if-then plan,” to increase your chances of staying committed and achieving your goal.
 
 Your ”if-then plan” may look something like this:
 
 > _If_ the time is 6 am, _then_ I will sit down to write in the study.
 
 In this case, 6 am is the _cue_, which prompts a _response_ – sitting down to write in the study.
-
-In reality this is probably over simplified. _If_ the time is 6 am _then_ your alarm would likely go off, _then_ you would wake up, _then_ sit down to write. But that’s beside the point, you get the general idea.
 
 Let’s take a look at another example.
 
@@ -92,7 +90,7 @@ Creating situational cues – for when and where you will act – improves your 
 
 Assigning specific cues to a chosen behaviour, creates clarity in your mind and a concrete plan of action. This is a strategy know as _implementation intentions_.
 
-Having a concrete plan for your commitments makes your decisions more autonomous. You spend less time thinking about your actions or fixating on the end goal, and more time being productive. You make things easy.
+Having a concrete plan for your commitments makes your decision making autonomous. You spend less time thinking about your actions or fixating on the end goal, and more time being productive. You make things easy.
 
 ### Further reading
 
