@@ -30,7 +30,7 @@ Use the email address provided to sign up to the newsletter with. It will look s
 
 Next, paste the URL provided into your RSS reader, so you can subscribe to the Atom feed. That URL will look something like this: https://kill-the-newsletter.com/feeds/k05ft3le3bra9ac7.xml.
 
-As a little extra step, I decided to set up a Notion table to keep a record of each newsletter I’ve subscribed to. For each entry in the table I record the name of the newsletter, the email address I subscribed with and Atom feed URL, for reference. Now I easily unsubscribe or remove the feed from my RSS reader.
+As a little extra step, I decided to set up a Notion table to keep a record of each newsletter I’ve subscribed to. For each entry in the table I record the name of the newsletter, the email address I subscribed with and Atom feed URL, for reference. Now I can easily unsubscribe or remove the feed from my RSS reader.
 
 ## Doing it yourself
 
