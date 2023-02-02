@@ -5,7 +5,7 @@ publishdate: 2023-02-02
 lastmod:
 draft: false
 slug: "feedbin-to-netnewswire"
-topics: ["Tools"]
+topics: ["Tools", "RSS"]
 description: "Switching RSS readers for a better experience."
 ---
 
