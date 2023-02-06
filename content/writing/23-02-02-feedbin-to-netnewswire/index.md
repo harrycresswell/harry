@@ -9,9 +9,9 @@ topics: ["Tools", "RSS"]
 description: "Switching RSS readers for a better experience."
 ---
 
-I’ve been using [Feedbin](https://feedbin.com/) as my RSS reader of choice for a number of years now. But the iPhone app just seems to open the web version. Not much of an experience on mobile.
+I’ve been using [Feedbin](https://feedbin.com/) as my RSS reader of choice for a number of years now. But the iOS app just seems to open the web version. Not much of an experience on mobile.
 
-The solution I found was to import my Feedbin subscriptions to the NetNewsWire iPhone app and use that instead. NetNewsWire is basic but it works like a charm. It’s also just another RSS reader, meaning I don’t really need to keep paying for Feedbin.
+The solution I found was to import my Feedbin subscriptions to the NetNewsWire iOS app and use that instead. NetNewsWire is basic but it works like a charm. It’s also just another RSS reader, meaning I don’t really need to keep paying for Feedbin.
 
 But what kept me with Feedbin was the newsletter feature, which provides you with an email address to use when you sign up for newsletters. That way, you can get all your subscriptions out of your inbox and into your Feedbin reader. Very useful if you prefer to read email without distraction.
 
