@@ -3,14 +3,17 @@ function decodeStringBase64() {
   let elemsToDecode = document.querySelectorAll('[data-decode="email"]');
   // For each link found
   elemsToDecode.forEach(function(elem) {
-    // Grab href data
-    let hrefData = elem.href;
-    // Split the href data after the colon
-    let splitData = hrefData.split(/[:,]/);
-    // Decode the second item in the array
-    let decodedString = atob(splitData[1]);
-    // Dump encodedString and “mailto:” in href
-    elem.href = 'mailto:' + decodedString;
+    // listen for click event
+    elem.addEventListener('click', e => {
+      // Grab href data
+      let hrefData = elem.href;
+      // Split the href data after the colon
+      let splitData = hrefData.split(/[:,]/);
+      // Decode the second item in the array
+      let decodedString = atob(splitData[1]);
+      // Dump encodedString and “mailto:” in href
+      elem.href = 'mailto:' + decodedString;
+    });
   });
 }
 
