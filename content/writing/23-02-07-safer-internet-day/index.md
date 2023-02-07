@@ -44,7 +44,7 @@ Apple users can use [Hide my Email](https://support.apple.com/en-gb/HT210425), a
 
 ## Use a VPN
 
-A Virtual Private Network (VPN) hides everything you do online, allowing you to browse in privacy and safely connected to unsecured networks, such as public wifi spots.
+A Virtual Private Network (VPN) hides everything you do online, allowing you to browse in private and safely connected to unsecured networks, such as public wifi spots.
 
 VPNs do this by changing your IP address (which is used to identify your device), so that when you browse online, any actions you take can’t be traced back to you.
 
@@ -58,23 +58,23 @@ Privacy focused web browsers prevent you from being targeted by intrusive ads an
 
 [Tor](https://www.torproject.org/) is another popular privacy browser which comes pre-installed with privacy add-ons, encryption, and an advanced proxy. 
 
-[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) offers simple ”one tab only” private mobile browsing. It’s swiftly become my browser of choice on iOS.
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) offers simple ”one tab only” private mobile browsing. It has swiftly become my browser of choice on iOS.
 
 ## Use a privacy search engine
 
-Non-private search engines are notorious for tracking, meaning they collect data about your search habits and build profiles about your search history. This information is often then sold to third parties, or used to identify you directly and target you with advertising.
+Non-private search engines are notorious for tracking. Meaning they collect data about your search habits and build profiles about your search history. This information is often then sold to third parties, or used to identify you directly and target you with advertising.
 
 A good private search engine will allow you to browse the web anonymously, and store nothing about you or your search habits.
 
-[Qwant](https://www.qwant.com/) and [Qwant Junior](https://www.qwantjunior.com/) for young people are great places to start with private search. [DuckDuckGo]() and [Startpage](https://www.startpage.com/) are also popular options and can usually be set as the default search engine within your browser.  
+[Qwant](https://www.qwant.com/), or [Qwant Junior](https://www.qwantjunior.com/) for young people, are great places to start with private search. [DuckDuckGo](https://duckduckgo.com/) and [Startpage](https://www.startpage.com/) are also popular options and can usually be set as the default search engine within your browser.  
 
-[SwissCows](https://swisscows.com/), [Metager](https://metager.org/) and [Mojeek](https://www.mojeek.com/) are not quite as popular but still very good options.
+[SwissCows](https://swisscows.com/), [Metager](https://metager.org/) and [Mojeek](https://www.mojeek.com/) are not quite as mainstream but still very good options.
 
 ## Install a content blocker extension
 
-Many privacy focused browsers and search engines come pre-installed with extensions to block ads and tracking cookies. However, if the browser you use doesn’t have this feature, you can make sure you’re still protected by installing extensions yourself.
+Many privacy focused browsers and search engines come pre-installed with extensions to block ads and tracking cookies. If the browser you use doesn’t have this feature, you can make sure you’re still protected by installing extensions yourself.
 
-[uBlock Origin](https://ublockorigin.com/) and [AdGuard Blocker](https://adguard.com/en/welcome.html?aid=33271) are both very popular tools for this purpose.
+[uBlock Origin](https://ublockorigin.com/) and [AdGuard Blocker](https://adguard.com/en/welcome.html?aid=33271) are both popular tools for this purpose.
 
 
 ## Use an encrypted messaging app
@@ -111,23 +111,23 @@ To avoid becoming the victim of phishing, always check the email address of the 
 
 If the origin of an email is unclear, then reach out to the company claiming to be the sender directly, to ask if they were indeed the sender. 
 
-[Jigsaw | Google: Can you spot when you’re being Phished](https://phishingquiz.withgoogle.com/) is a handy tool that will help you identify phishing emails.
+[Jigsaw | Google: Can you spot when you’re being Phished](https://phishingquiz.withgoogle.com/) is a handy tool that will help you learn how to identify phishing emails.
 
 
 ## Identify hacks and data breaches
 
 If you are concerned that one of your accounts has been comprimised, there are ways to find out.
 
-Use [Have I been pwned](https://haveibeenpwned.com/) to check if your email or phone has been leaked or is part of a data breach. You can also set up notifications, for if and when your account is compromised. 
+Use [Have I been pwned](https://haveibeenpwned.com/) to check if your email or phone has been leaked or is part of a data breach. You can also set up notifications, to notify you if/when your account has been compromised. 
 
-[Jumbo](https://www.withjumbo.com/) is a privacy and security assistant that protects you from online risks such as data breaches and online tracking. It helps you protect your social media accounts and also allows you to scan your contacts and notify friends if their data has been leaked.
+[Jumbo](https://www.withjumbo.com/) is a privacy and security assistant that protects you from online risks such as data breaches and online tracking. It helps protect your social accounts and allows you to scan your contacts, so you can notify friends if their data has been leaked.
 
 
 ## Delete your personal data
 
 In the past, removing you personal data once it’s “out there” has been a difficult task. These days, there are a growing number of services that will do this for you.
 
-[Incogni](https://incogni.com/) is a paid service that offers to hunt down data brokers who are collecting, aggregating, and trading your personal data without you knowing anything about it.  Using GDPR, CCPA, and other applicable privacy laws they force these brokers to remove your personal information from their databases.
+[Incogni](https://incogni.com/) is a paid service that offers to hunt down data brokers who are collecting, aggregating, and trading your personal data without you knowing. Using GDPR, CCPA, and other applicable privacy laws they force these brokers to remove your personal information from their databases.
 
 [Redact](https://redact.dev/download) is more of a content management tool, which will automatically clean up your old posts from services like Twitter, Reddit, Facebook and Discord. It’s free to use for personal use.
 
