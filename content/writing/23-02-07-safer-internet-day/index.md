@@ -44,7 +44,7 @@ Apple users can use [Hide my Email](https://support.apple.com/en-gb/HT210425), a
 
 ## Use a VPN
 
-A Virtual Private Network (VPN) hides everything you do online, allowing you to browse in private and safely connected to unsecured networks, such as public wifi spots.
+A Virtual Private Network (VPN) hides everything you do online, allowing you to browse in private and safely connect to unsecured networks, such as public wifi spots.
 
 VPNs do this by changing your IP address (which is used to identify your device), so that when you browse online, any actions you take can’t be traced back to you.
 
