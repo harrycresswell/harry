@@ -10,7 +10,7 @@ Hey everyone,
 
 I hope you’re doing well.
 
-This month has really flown by, but I suppose February always does! I’m deep into a client project at the moment, so it’s only a short one this month.
+The past month has really flown by, but I suppose February always does! I’m deep into a client project at the moment, so it’s only a short one this month.
 
 
 ## ✨ Highlights from last month
