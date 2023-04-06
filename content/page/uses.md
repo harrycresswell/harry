@@ -130,12 +130,16 @@ I use [Wise](https://wise.com/invite/u/harryc454)* to collect international paym
 
 [Maccy](https://maccy.app)** I discovered recently. It keeps a history of all the things you’ve copied to your clipboard to make them easier to access. Very handy, particularly for web development.
 
-- [CCleaner](https://www.ccleaner.com/)
-- [Buttondown](https://buttondown.email/)
-- [Mailchimp](https://mailchimp.com/)
-- [Zapier](https://zapier.com/)
-- [IFTTT](https://ifttt.com/)
-- [Gumroad](https://gumroad.com/)
+- [CCleaner](https://www.ccleaner.com/) is a handy tool for finding large files and freeing up space on your machine.
+
+I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
+
+I use [IFTTT](https://ifttt.com/) mainly to send emails to myself reminding me to do things that only happen periodically. Things like updating masked email addresses or sending out my newsletter. I also use [Zapier](https://zapier.com/), mostly to pass form submissions to a spreadsheet.
+
+[Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
+
+I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
+
 
 \* This is an affiliate link, meaning we’ll both get a small reward if you click the link and sign up.
 
