@@ -130,7 +130,7 @@ I use [Wise](https://wise.com/invite/u/harryc454)* to collect international paym
 
 [Maccy](https://maccy.app)** I discovered recently. It keeps a history of all the things you’ve copied to your clipboard to make them easier to access. Very handy, particularly for web development.
 
-- [CCleaner](https://www.ccleaner.com/) is a handy tool for finding large files and freeing up space on your machine.
+[CCleaner](https://www.ccleaner.com/) is a handy tool for finding large files and freeing up space on your machine.
 
 I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
 
