@@ -115,3 +115,5 @@ Realising this, I now feel far less need for a dedicated email address on my web
 I assume folks might end up saving the address in their contacts, and if I delete and update the address, then emails will start to bounce. But it’s easily enough to head back to my website and find a new way to contact me, if this happens.
 
 In any case, I still have [a contact form](/contact), so all bases are covered.
+
+Sidenote: I’m pretty sure I got the idea for this after reading [Saying Thank You](https://blog.jim-nielsen.com/2022/saying-thank-you/) from Jim Nielsen.
