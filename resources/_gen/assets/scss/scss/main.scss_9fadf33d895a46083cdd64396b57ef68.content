@@ -192,6 +192,11 @@ p {
 [id] {
   scroll-margin-top: 2ex; }
 
+hr {
+  border: dashed 1px;
+  max-width: 60%;
+  margin: 3rem 0; }
+
 /*------------------------------------*\
     #BASE: HEADINGS
 \*------------------------------------*/

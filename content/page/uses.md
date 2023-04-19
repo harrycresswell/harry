@@ -124,6 +124,12 @@ I use [Freeagent](http://fre.ag/44clni8a)* for accounting and have done for a nu
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect international payments from clients abroad. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
 
+## Health
+
+I use [Strava](https://www.strava.com/) to track running and Notion for general tracking of workouts and habits.
+
+Having tried many of the meditation apps out there, my current favourite for guided meditation is [Balance](https://balanceapp.com/). For unguided meditation I use [Insight Timer](https://insighttimer.com/).
+
 ## Misc
 
 [Numi](https://numi.app/)** is my go-to calculator app. It looks and feels more like a terminal and you can write commands in a natural way. For example: “1 inch in cm” will return `1 inch in cm`.
@@ -144,6 +150,7 @@ I use [IFTTT](https://ifttt.com/) mainly to send emails to myself reminding me t
 
 I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
+--- 
 
 \* This is an affiliate link, meaning we’ll both get a small reward if you click the link and sign up.
 
