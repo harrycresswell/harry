@@ -11,6 +11,7 @@ layout: page
 
 ## 2023
 
+- Winter in Madrid by C.J. Sansom
 - The Checklist Manifesto by Atul Gawande
 
 ## 2022
