@@ -14,7 +14,7 @@ This is my final month of training before the Hackney Half Marathon, so I’ve b
 
 I wasn’t planning on running until a friend broke her knee and was forced to pull out. So I’m running on her behalf and I’m enjoying training for it. 
 
-I’m getting into these longer runs. The feeling and clarity you get is something special. They also happen to be a great way to explore the city and find new spots you otherwise wouldn’t have thought to visit.
+I’m getting into these longer runs. The feeling and clarity you get from them is something special. They also happen to be a great way to explore the city and find new spots you otherwise wouldn’t have thought to visit.
 
 Anyway, here’s the latest.
 
