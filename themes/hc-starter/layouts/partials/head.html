@@ -13,7 +13,6 @@
   {{ else }}
     <meta name="keywords" content="{{ .Site.Params.keywords | lower }}">
   {{ end }}
-  {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
   <meta property="og:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
