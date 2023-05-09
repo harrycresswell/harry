@@ -49,7 +49,7 @@
   <!-- Assign script to global, minify and fingerprint -->
   {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
   <!-- Load script and authenticate hashed file -->
-  <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
+  <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
 
 </body>
 </html>
