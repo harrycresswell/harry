@@ -170,3 +170,5 @@ decodeStringBase64();
 Whilst this does a nice job of preventing scraper scripts, it still depends on human visitors using a JavaScript enabled browser, which you can’t always rely on. 
 
 Unfortunately, that means it’s not quite a perfect solution. Although it may well be worth implementing, depending on the depth of the problem and how much you can handle spam. In my case, I feel it’s worth it.
+
+**Update 17th May 2023**: I’ve since discovered the handy [Hugo Cloak Email](https://github.com/martignoni/hugo-cloak-email) shortcode by Nicolas Martignoni, which could be another option to consider.
