@@ -25,13 +25,13 @@ My phone is an [Apple iPhone X](https://www.apple.com/uk/newsroom/2017/09/the-fu
 
 My [Apple AirPods Pro](https://www.apple.com/airpods-pro/) were a more recent purchase, and I only have good things to say–one of the best Apple product releases in a good while.
 
-I work at a [606 Universal Shelving System Desk Shelf](https://www.vitsoe.com/gb/606/components#desk-shelf). Combined with the shelving itslef, this the most expensive piece of furniture I own. But I use it everyday, so it was well worth the price. 
+I work at a [606 Universal Shelving System Desk Shelf](https://www.vitsoe.com/gb/606/components#desk-shelf). Combined with the rest of the shelving, this the most expensive piece of furniture I own. But I use it everyday, and it’s home to many of my favourite books, so it was well worth the price. 
 
 I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/aeron-chairs/) which I found on eBay for a decent price.
 
 ## Design
 
-[Figma](https://www.figma.com/) is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into an open-source competitor called [Penpot](https://penpot.app/)**, particularly for personal projects.
+[Figma](https://www.figma.com/) is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for personal projects.
 
 [Affinity Photo](https://affinity.serif.com/en-gb/photo/) has replaced Photoshop as my choice for photo editing and creating raster based graphics. Affinity software is fast, intuitive to learn and you can’t beat a one-off payment over a monthly subscription.
 
@@ -44,21 +44,21 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 ## Web development
 
-[Hyper](https://hyper.is/) is my go-to terminal. I use it with a couple of plugins installed; [hyper-night-owl](https://hyper.is/store/hyper-night-owl) and [hyperborder](https://github.com/webmatze/hyperborder).
+[Hyper](https://hyper.is/) is my go-to terminal. I use it with a couple of plugins installed–[hyper-night-owl](https://hyper.is/store/hyper-night-owl) theme and [hyperborder](https://github.com/webmatze/hyperborder)–to improve the visual apperence.
 
-[VSCode](https://code.visualstudio.com/) is my text editor of choice. However, I also use [Typora](https://typora.io/) when writing markdown. 
+[VSCode](https://code.visualstudio.com/) is my text editor of choice. However, I also use [Typora](https://typora.io/) when writing markdown for its seemless preview. 
 
-[Git](https://git-scm.com/) is a key part of workflow. Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) it’s hard to avoid. I use [Github](https://github.com/) to host all my code remotely.
+[Git](https://git-scm.com/) is a key part of my workflow. Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) it’s hard to avoid. I use [Github](https://github.com/) to host all my code remotely.
 
-In 2021 I committed to using [Hugo](https://gohugo.io/) to build content based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite.
+In 2021 I committed to using [Hugo](https://gohugo.io/) to build content based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
 
-I use [Cloudcannon](https://cloudcannon.com/) for any client project which requires CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with both Netlify CMS (now called [Decap](https://decapcms.org/)) and Forestry (now discontinued) in the past, it’s the best for websites built using Hugo. 
+I use [Cloudcannon](https://cloudcannon.com/) for any client project which requires CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with both Netlify CMS (now [Decap](https://decapcms.org/)) and Forestry (now discontinued) in the past, it’s the best I’ve found for websites built with Hugo. 
 
 For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) for personal projects. 
 
-[Cloudinary](https://cloudinary.com/) is a digital asset manager used to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times.
+[Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times.
 
-In 2023 I switch my clients from Google to [Fathom Analytics](https://usefathom.com/). Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you build a lot of websites. I run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
+In 2023 I switch my clients from Google to [Fathom Analytics](https://usefathom.com/). Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you build a lot of websites. I also run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
 
 [Codepen](https://codepen.io/) is where I test ideas with code in a self contained environment. It’s a helpful tool if you want to try something out or work on specific feature without the distraction of an entire codebase.
 
@@ -70,27 +70,27 @@ I use [Simplelogin](https://simplelogin.io/) to generate email aliases for all t
 
 [Bitwarden](https://bitwarden.com/)** is my prefered password manager and I’ve tried many over the years. It integrates nicely with SimpleLogin, which means I can generate email aliases, along with passwords, from directly within the app.
 
-I have [NordVPN](https://nordvpn.com/) set up to open at login. If my laptop is on, then NordVPN is running. It masks my IP, protects me from trackers and malware, and when on public Wi-Fi. 
+I have [NordVPN](https://nordvpn.com/) set up to open at login. If my laptop is on, then NordVPN is running. It masks my IP, protects me from trackers and malware, and when using the internet on public Wi-Fi. 
 
 [Signal](https://www.signal.org)** is the open source messaging app we should probably all be using.
 
 I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning of 2021 after researching secure, end-to-end encrypted cloud storage providers.
 
-I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the beginning of 2022 and haven’t looked back. I wrote about my experience with Tutanota in [Secure, privacy focused email](https://harrycresswell.com/writing/privacy-focused-email/). I also use Tutanota’s encrypted Calendar.
+I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the beginning of 2022 and haven’t looked back. I’ve written about [my experience with Tutanota](/writing/privacy-focused-email/) in detail. I also use Tutanota’s encrypted Calendar.
 
 [Raivo OTP](https://apps.apple.com/us/app/raivo-otp/id1459042137)** is a fantastic open source authenticator app which I use to generate one-time passwords. It seemlessly handles back up and sync across iOS and MacOS devices.
 
-[Jitsi Meet](https://meet.jit.si)** is a fantastic open source encrypted tool for video calls. You don’t need an account to use it which is a plus.
+[Jitsi Meet](https://meet.jit.si)** is another fantastic open source tool which I use for video calls. Calls are encrypted and you don’t need an account to use it which is a plus.
 
 [Tresorit Send](https://send.tresorit.com) is brilliant for sending big files, end-to-end encrypted.
 
-[Malwarebytes](https://www.malwarebytes.com/) is a lightweight anti-malware and virus removal software which will perform a daily scan of your system to keep it protected.
+[Malwarebytes](https://www.malwarebytes.com/) is a lightweight anti-malware and virus removal software which runs quietly in the background, performing a daily scan of your system to keep it protected.
 
 ## Reading
 
-[NetNewsWire](https://netnewswire.com)** for RSS. If that doesn’t mean much to you then think of it as curating your own feed of content from people or websites that you want to follow – but without some dumb algorithm controlling how you receive content. It’s chronological and super simple.
+[NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you then think of it as curating your own feed of content from people or websites that you want to follow – but without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
 
-[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. I use the former to save highlights form eBooks and articles, which are then   rolled up in a daily review. The latter I use as a “read it later” app–for saving long form content, though it can also be used as an RSS reader.
+[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. I use the former to save highlights from eBooks and articles, which are then rolled up in a daily review. The latter I use as a “read it later” app — for saving long form content — though it can also be used as an RSS reader.
 
 I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite-8-gb-now-with-a-68-display-and-adjustable-warm-light-with-ads/dp/B08N3TCP2F).
 
@@ -107,11 +107,11 @@ I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for pi
 
 ## Project management
 
-I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years. I use [the P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility. I also use it as a general bookmarking tool, by saving web pages using the Notion Web Clipper. My final use for Notion is for tracking health related things, like running, meditation, workouts, and so on.
+I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years, using the [P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility. I also use it as a general bookmarking tool, saving web pages using the Notion Web Clipper. My final use for Notion is for tracking health related things, like running, meditation, workouts, and so on.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
-[Screenity](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji?ref=producthunt)** is a great tool for async video communication. Record quick videos via a browser extension, get a link to the video and share the URL with clients or colleagues. It’s a great way to get out of unecessary meetings.
+[Screenity](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji?ref=producthunt)** is a great tool for async video communication. Record quick videos via a browser extension, get a link to the video and share the URL with clients or colleagues. It’s a great way to get out of unnecessary meetings.
 
 [Kap](https://getkap.co/)** is my screen capture tool of choice.
 
@@ -122,7 +122,7 @@ I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* for my busi
 
 I use [Freeagent](http://fre.ag/44clni8a)* for accounting and have done for a number of years. My accountant uses it too, which makes the process straight forward. If you run your own business and you’re not using a digital accounting tool, then I highly recommend looking into one.
 
-I use [Wise](https://wise.com/invite/u/harryc454)* to collect international payments from clients abroad. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
+I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
 
 ## Health
 
@@ -136,7 +136,7 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 [Noisli](https://www.noisli.com/) is a great little app that helps you stay focused by allowing you to mix and match different background sounds. I use the iOS version mainly, but there’s also a web app.
 
-[Rectangle](https://rectangleapp.com)** is an application window manager that helps you neatly resize and organise open windows using keyboard shortcuts.
+[Rectangle](https://rectangleapp.com)** is an application window manager that helps you neatly resize and organise open windows using keyboard shortcuts. It’s great for resizing your code editor and a web browser side-by-side.
 
 [Maccy](https://maccy.app)** I discovered recently. It keeps a history of all the things you’ve copied to your clipboard to make them easier to access. Very handy, particularly for web development.
 
@@ -144,7 +144,7 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
 
-I use [IFTTT](https://ifttt.com/) mainly to send emails to myself reminding me to do things that only happen periodically. Things like updating masked email addresses or sending out my newsletter. I also use [Zapier](https://zapier.com/), mostly to pass form submissions to a spreadsheet.
+I use [IFTTT](https://ifttt.com/) mainly to send emails to myself reminding me to do things that happen infrequently but periodically. Things like updating masked email addresses or sending out my newsletter, which I do once a month, and are easy to forget. I also use [Zapier](https://zapier.com/), mostly to pass form submissions to a spreadsheet.
 
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 
