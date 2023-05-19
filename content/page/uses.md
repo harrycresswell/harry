@@ -144,7 +144,9 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
 
-I use [IFTTT](https://ifttt.com/) mainly to send emails to myself reminding me to do things that happen infrequently but periodically. Things like updating masked email addresses or sending out my newsletter, which I do once a month, and are easy to forget. I also use [Zapier](https://zapier.com/), mostly to pass form submissions to a spreadsheet.
+I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of which I only do once a month, so are easy to forget without IFTTT. 
+
+I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 
