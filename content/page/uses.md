@@ -31,7 +31,7 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 ## Design
 
-[Figma](https://www.figma.com/) is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for personal projects.
+[Figma](https://www.figma.com/) is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for use with personal projects.
 
 [Affinity Photo](https://affinity.serif.com/en-gb/photo/) has replaced Photoshop as my choice for photo editing and creating raster based graphics. Affinity software is fast, intuitive to learn and you can’t beat a one-off payment over a monthly subscription.
 
@@ -72,7 +72,7 @@ I use [Simplelogin](https://simplelogin.io/) to generate email aliases for all t
 
 I have [NordVPN](https://nordvpn.com/) set up to open at login. If my laptop is on, then NordVPN is running. It masks my IP, protects me from trackers and malware, and when using the internet on public Wi-Fi. 
 
-[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using.
+[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using, though I find myself using [Whatsapp](https://www.whatsapp.com/) mainly.
 
 I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning of 2021 after researching secure, end-to-end encrypted cloud storage providers.
 
@@ -80,26 +80,26 @@ I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the b
 
 [Raivo OTP](https://apps.apple.com/us/app/raivo-otp/id1459042137)** is a fantastic open source authenticator app which I use to generate one-time passwords. It seemlessly handles back up and sync across iOS and MacOS devices.
 
-[Jitsi Meet](https://meet.jit.si)** is another fantastic open source tool which I use for video calls. Calls are encrypted and you don’t need an account to use it which is a plus.
+[Jitsi Meet](https://meet.jit.si)** is another fantastic open source tool, which I use for video calls. Calls are encrypted and you don’t need an account to use it, which is a bonus.
 
 [Tresorit Send](https://send.tresorit.com) is brilliant for sending big files, end-to-end encrypted.
 
-[Malwarebytes](https://www.malwarebytes.com/) is a lightweight anti-malware and virus removal software which runs quietly in the background, performing a daily scan of your system to keep it protected.
+[Malwarebytes](https://www.malwarebytes.com/) is a lightweight anti-malware and virus removal software which quietly runs in the background, performing a daily scan of your system to keep it protected.
 
 ## Reading
 
-[NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you then think of it as curating your own feed of content from people or websites that you want to follow – but without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
+[NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you, then think of it as curating your own feed of content from people or websites that you want to follow. But without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
 
 [Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. I use the former to save highlights from eBooks and articles, which are then rolled up in a daily review. The latter I use as a “read it later” app — for saving long form content — though it can also be used as an RSS reader.
 
-I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite-8-gb-now-with-a-68-display-and-adjustable-warm-light-with-ads/dp/B08N3TCP2F).
+I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks. Very handy when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite-8-gb-now-with-a-68-display-and-adjustable-warm-light-with-ads/dp/B08N3TCP2F).
 
 
 ## Writing
 
 [Typora](https://typora.io) allows you to write markdown in preview, so it feels more like working in Google Docs and less like a code editor. Typora has a great outline panel which helps you structure your articles. These days I’ll create a markdown post with Hugo, then open it in Typora and work on the content from there. Before now I would have composes drafts elsewhere, then copy them across to Hugo. This new approach is seamless and allows you to version control your work.
 
-[Obsidian](https://obsidian.md/)** is my note taking tool of choice. I’m not yet using it to it’s full potential as a second brain, but it‘s something I plan on working on in the future. I’ve recently started using it for journaling, too. Using the Daily notes plugin which spins up a new daily note from a template, when I launch the app each morning.
+[Obsidian](https://obsidian.md/)** is my note taking tool of choice. I’m not yet using it to it’s full potential as a second brain, but this is something I plan on working on in the future. I’ve also started using it for journaling and planning OKR with Quarterly, Weekly and Daily notes.
 
 I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for picking up typos, bad grammar and so on, but use it too much and it strips the personality from your writing.
 
@@ -144,7 +144,7 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
 
-I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of which I only do once a month, so are easy to forget without IFTTT. 
+I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
 
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
