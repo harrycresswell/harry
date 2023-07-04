@@ -13,6 +13,8 @@ layout: page
 
 - Winter in Madrid by C.J. Sansom
 - The Checklist Manifesto by Atul Gawande
+- UFOs: General, Pilots and Government Officials Go on the Record by Leslie Kean
+- Heir to the Empire by Timonthy Zahn
 
 ## 2022
 
