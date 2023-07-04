@@ -3,7 +3,7 @@ title: "#{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 description: "Welcome to issue #{{ replace .Name "-" " " | title }}, your monthly roundup of what’s happening in design, code and typography."
-slug: "{{ replace .Name "-" "-" | title | lower }}"
+slug: "{{ .Name | urlize }}"
 ---
 
 Hey everyone,

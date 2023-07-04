@@ -3,6 +3,6 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 description: ""
-slug: "{{ replace .Name "-" "-" | title | lower }}"
+slug: "{{ .Name | urlize }}"
 topics: ["Daily", "Hugo course"]
 ---

@@ -4,7 +4,7 @@ date: {{ .Date }}
 publishdate: {{ now.Format "2006-01-02" }}
 lastmod: {{ now.Format "2006-01-02" }}
 draft: true
-slug: "some-url-slug"
+slug: "{{ .Name | urlize }}"
 topics: ["Hugo", "Tools"]
 description: ""
 ---
