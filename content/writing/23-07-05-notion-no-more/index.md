@@ -4,7 +4,7 @@ date: 2023-07-05T13:02:25+01:00
 publishdate: 2023-07-05
 lastmod: ""
 draft: false
-slug: "23-07-05-notion-no-more"
+slug: "notion-no-more"
 topics: ["Tools"]
 description: "Projects are complex. Let Notion add more unnecessary complexity."
 ---

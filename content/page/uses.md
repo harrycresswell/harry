@@ -107,7 +107,13 @@ I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for pi
 
 ## Project management
 
-I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years, using the [P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility. I also use it as a general bookmarking tool, saving web pages using the Notion Web Clipper. My final use for Notion is for tracking health related things, like running, meditation, workouts, and so on.
+~~I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years, using the [P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility~~. 
+
+I recently switched to [Obsidian](https://obsidian.md/) for personal project management (still currently with P.A.R.A). I’ve written about [my reasons for leaving Notion](/writing/notion-no-more). What I like about Obsidian is that it’s simple, fast and self-hosted. It works great without an internet connection, as it’s essentially just a bunch of markdown files. This also means content is highly portable, should I wish to move tools in the future.
+
+I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
+
+I still use [Notion](https://www.notion.so/) as a general bookmarking tool–saving web pages using the Notion Web Clipper. Although I’m considering moving back to Airtable for this purpose. I also use Notion for habit tracking, though I plan to move elsewhere for this also, in the future.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
