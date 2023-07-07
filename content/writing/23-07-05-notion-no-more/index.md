@@ -2,7 +2,7 @@
 title: "Notion (no more)"
 date: 2023-07-05T13:02:25+01:00
 publishdate: 2023-07-05
-lastmod: ""
+lastmod: 2023-07-05
 draft: false
 slug: "notion-no-more"
 topics: ["Tools"]
