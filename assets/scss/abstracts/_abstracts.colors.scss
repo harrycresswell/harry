@@ -5,13 +5,11 @@
 $color-link: #542bff;
 
 :root {
-    --color-dark: #222;
-    --color-body: #373a3c;
-    --color-light: #767676;
-    --color-lighter: #969EB6;
-    --color-lightest: #eff0f6;
-    --color-link: #542bff;
+    --color-brand: #542bff;
+    --color-dark: #172240;
+    --color-light: #FFFFFF;
+    --color-light-mod-1: #F5F8FE;
+    --color-light-mod-2: #EBEFF7;
     /* #542bff in decimal RGB */
-    --color-link-rgb: 84, 43, 255;
-    --color-white: #FBFCFF;
+    --color-brand-rgb: 84, 43, 255;
 }

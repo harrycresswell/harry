@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 html {
-	background-color: var(--color-link);
+	background-color: var(--color-brand);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +13,8 @@ html {
 }
 
 body {
-	background-color: var(--color-white);
-	color: var(--color-body);
+	background-color: var(--color-light-mod-1);
+	color: var(--color-dark);
 	font-family: $font-system-rg;
 	font-size: var(--step-0);
 	font-weight: $font-weight-regular;
@@ -44,4 +44,16 @@ hr {
 	border: dashed 1px;
 	max-width: 60%;
 	margin: 3rem 0;
+}
+
+ /* Hide focus styles if they're not needed, for example, 
+ when an element receives focus via the mouse. */
+ :focus:not(:focus-visible) {
+  outline: 0;
+}
+
+/* Show focus styles on keyboard focus. */
+:focus-visible {
+  outline: dotted 2px var(--color-dark);
+  outline-offset: 3px;
 }

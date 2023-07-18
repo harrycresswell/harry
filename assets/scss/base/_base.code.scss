@@ -6,13 +6,13 @@
 code,
 kbd,
 samp {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   color: var(--color-light);
   font-size: 90%;
 }
 
 pre {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   overflow: auto;
   overflow-x: scroll;
   overflow-wrap: normal;
@@ -35,7 +35,7 @@ pre {
 
 code {
   color: var(--color-teal);
-  background-color: var(--color-lightest);
+  background-color: var(--color-light-mod-2);
   border-radius: 2px
 }
 

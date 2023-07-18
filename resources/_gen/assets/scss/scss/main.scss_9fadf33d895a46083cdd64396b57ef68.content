@@ -6,15 +6,13 @@
     #ABSTRACTS: COLORS
 \*------------------------------------*/
 :root {
-  --color-dark: #222;
-  --color-body: #373a3c;
-  --color-light: #767676;
-  --color-lighter: #969EB6;
-  --color-lightest: #eff0f6;
-  --color-link: #542bff;
+  --color-brand: #542bff;
+  --color-dark: #172240;
+  --color-light: #FFFFFF;
+  --color-light-mod-1: #F5F8FE;
+  --color-light-mod-2: #EBEFF7;
   /* #542bff in decimal RGB */
-  --color-link-rgb: 84, 43, 255;
-  --color-white: #FBFCFF; }
+  --color-brand-rgb: 84, 43, 255; }
 
 /*------------------------------------*\
     #ABSTRACTS: BREAKPOINTS
@@ -161,15 +159,15 @@ figure {
     #BASE: BODY
 \*------------------------------------*/
 html {
-  background-color: var(--color-link); }
+  background-color: var(--color-brand); }
 
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth; } }
 
 body {
-  background-color: var(--color-white);
-  color: var(--color-body);
+  background-color: var(--color-light-mod-1);
+  color: var(--color-dark);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--step-0);
   font-weight: 400;
@@ -196,6 +194,16 @@ hr {
   border: dashed 1px;
   max-width: 60%;
   margin: 3rem 0; }
+
+/* Hide focus styles if they're not needed, for example, 
+ when an element receives focus via the mouse. */
+:focus:not(:focus-visible) {
+  outline: 0; }
+
+/* Show focus styles on keyboard focus. */
+:focus-visible {
+  outline: dotted 2px var(--color-dark);
+  outline-offset: 3px; }
 
 /*------------------------------------*\
     #BASE: HEADINGS
@@ -289,15 +297,12 @@ figcaption {
     #BASE: LINKS
 \*------------------------------------*/
 a {
-  color: var(--color-link);
+  color: var(--color-brand);
   text-decoration: underline; }
   a:hover {
-    color: var(--color-white);
-    background-color: var(--color-link);
+    color: var(--color-light);
+    background-color: var(--color-brand);
     text-decoration: none; }
-  a:active, a:focus {
-    outline: 2px dotted var(--color-dark);
-    outline-offset: 4px; }
   a:visited {
     text-decoration: underline; }
   a:before {
@@ -312,7 +317,7 @@ a {
 \*------------------------------------*/
 ul,
 ol {
-  color: var(--color-body);
+  color: var(--color-dark);
   list-style-position: inside;
   max-width: 675px;
   padding-left: 0; }
@@ -339,7 +344,7 @@ li > ul {
 \*------------------------------------*/
 blockquote {
   border-left: 1px solid #ddd;
-  color: var(--color-body);
+  color: var(--color-dark);
   font-weight: 400;
   font-style: italic;
   margin-bottom: 1.5rem; }
@@ -369,12 +374,12 @@ blockquote {
 code,
 kbd,
 samp {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   color: var(--color-light);
   font-size: 90%; }
 
 pre {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   overflow: auto;
   overflow-x: scroll;
   overflow-wrap: normal;
@@ -395,7 +400,7 @@ pre {
 
 code {
   color: var(--color-teal);
-  background-color: var(--color-lightest);
+  background-color: var(--color-light-mod-2);
   border-radius: 2px; }
 
 pre {
@@ -420,30 +425,22 @@ form {
   */
 input,
 textarea {
-  background: var(--color-lightest);
-  border: solid 2px var(--color-lightest);
+  background: var(--color-light-mod-2);
+  border: solid 2px var(--color-light-mod-2);
   border-radius: 0;
-  outline: 2px solid var(--color-lightest);
+  outline: 2px solid var(--color-light-mod-2);
   outline-offset: 0;
   padding: 4px 16px;
   position: relative;
-  transition: all .2s;
   width: 100%;
   -webkit-appearance: none; }
-  input:focus, input:active,
-  textarea:focus,
-  textarea:active {
-    border: 2px solid var(--color-link);
-    outline: 4px solid #e4deff;
-    outline-offset: 0;
-    transition: all .2s; }
 
 textarea {
   min-height: 96px;
   padding: 8px 16px; }
 
 select {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   border: 0;
   cursor: pointer;
   font-size: 0.8rem;
@@ -488,7 +485,7 @@ video {
 
 /* Background */
 .chroma {
-  background-color: #e5e7ed80; }
+  background-color: var(--color-light-mod-2); }
 
 /* Error */
 .chroma .err {
@@ -904,7 +901,7 @@ video {
   text-decoration: none; }
   .Post .heading-anchor:hover {
     text-decoration: underline;
-    color: var(--color-link);
+    color: var(--color-brand);
     background: none; }
 
 /*------------------------------------*\
@@ -957,7 +954,7 @@ video {
       .PostListItem:first-of-type {
         margin-top: 3.2rem; } }
   .PostListItem p {
-    color: var(--color-body); }
+    color: var(--color-dark); }
 
 /**
  * Component Element
@@ -1028,7 +1025,6 @@ video {
   white-space: nowrap; }
 
 .skip-link:focus {
-  color: var(--color-link);
   background-color: var(--color-white);
   position: absolute;
   z-index: 2;
@@ -1099,7 +1095,6 @@ video {
   outline-style: none;
   text-align: left;
   text-decoration: none;
-  transition-duration: 0.1s;
   vertical-align: middle;
   white-space: nowrap;
   width: 100%;
@@ -1114,14 +1109,14 @@ video {
 .Button--primary {
   background: var(--color-dark);
   border: solid 2px var(--color-dark);
-  color: var(--color-white);
+  color: var(--color-light);
   outline: solid 2px var(--color-dark);
   outline-offset: 0;
   padding: 4px 16px; }
 
 .Button--secondary {
-  background: var(--color-white);
-  border: solid 2px var(--color-dark);
+  background: var(--color-light);
+  border: solid 2px var(--color-light);
   color: var(--color-dark);
   padding: 8px 16px; }
 
@@ -1129,21 +1124,21 @@ video {
  * Component Modifier State
  */
 .Button--primary:hover,
-.Button--primary:focus,
 .Button--primary:active,
 .Button--secondary:hover,
-.Button--secondary:focus,
 .Button--secondary:active {
-  background-color: var(--color-dark);
-  box-shadow: 0 10px 28px rgba(47, 47, 47, 0.3);
   transform: translateY(-2px); }
 
-.Button--primary:focus {
-  outline: 4px solid #e4deff; }
+.Button--secondary:hover {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  outline: dotted 2px var(--color-dark);
+  outline-offset: 3px; }
 
+.Button--primary:focus,
 .Button--secondary:focus {
-  color: var(--color-white);
-  outline: 2px dotted var(--color-dark); }
+  outline: dotted 2px var(--color-dark);
+  outline-offset: 3px; }
 
 /*------------------------------------*\
     #OBJECTS: VIDEO
@@ -1167,8 +1162,8 @@ video {
  * Component Block
  */
 .Badge {
-  color: var(--color-link);
-  background-color: rgba(var(--color-link-rgb), 0.05);
+  color: var(--color-brand);
+  background-color: rgba(var(--color-brand-rgb), 0.05);
   padding: calc(var(--space) /1.5); }
 
 /*------------------------------------*\
@@ -1404,7 +1399,7 @@ ul.Pagination {
       ul.Pagination .Pagination-itemLink {
         font-size: var(--font-size-xxs); } }
   ul.Pagination .Pagination-item--current {
-    background-color: var(--color-link); }
+    background-color: var(--color-brand); }
     ul.Pagination .Pagination-item--current a {
       color: var(--color-white);
       text-decoration: none; }

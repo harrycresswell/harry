@@ -16,24 +16,15 @@ form {
 
 input,
 textarea {
-  background: var(--color-lightest);
-  border: solid 2px var(--color-lightest);
+  background: var(--color-light-mod-2);
+  border: solid 2px var(--color-light-mod-2);
   border-radius: 0;
-  outline: 2px solid var(--color-lightest);
+  outline: 2px solid var(--color-light-mod-2);
   outline-offset: 0;
   padding: 4px 16px;
   position: relative;
-  transition: all .2s;
   width: 100%;
   -webkit-appearance: none;
-
-  &:focus,
-  &:active {
-    border: 2px solid var(--color-link);
-    outline: 4px solid lighten($color-link, 35%);
-    outline-offset: 0;
-    transition: all .2s;
-  }
 }
 
 textarea {
@@ -42,7 +33,7 @@ textarea {
 }
 
 select {
-  background: var(--color-lightest);
+  background: var(--color-light-mod-2);
   border: 0;
   cursor: pointer;
   font-size: 0.8rem;

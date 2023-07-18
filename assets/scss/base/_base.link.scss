@@ -3,19 +3,13 @@
 \*------------------------------------*/
 
 a {
-  color: var(--color-link);
+  color: var(--color-brand);
   text-decoration: underline;
 
   &:hover {
-    color: var(--color-white);
-    background-color: var(--color-link);
+    color: var(--color-light);
+    background-color: var(--color-brand);
     text-decoration: none;
-  }
-
-  &:active,
-  &:focus {
-    outline: 2px dotted var(--color-dark);
-    outline-offset: 4px;
   }
 
   &:visited {
