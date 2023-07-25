@@ -121,6 +121,8 @@ I still use [Notion](https://www.notion.so/) as a general bookmarking tool–sav
 
 [Kap](https://getkap.co/)** is my screen capture tool of choice.
 
+I use [TinyStopwatch](https://apps.apple.com/app/tinystopwatch/id1447754003) for time tracking tasks.
+
 
 ## Finance
 
