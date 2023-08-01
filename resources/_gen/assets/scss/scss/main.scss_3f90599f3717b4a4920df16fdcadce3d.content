@@ -1401,7 +1401,7 @@ ul.Pagination {
   ul.Pagination .Pagination-item--current {
     background-color: var(--color-brand); }
     ul.Pagination .Pagination-item--current a {
-      color: var(--color-white);
+      color: var(--color-light);
       text-decoration: none; }
 
 /*------------------------------------*\
