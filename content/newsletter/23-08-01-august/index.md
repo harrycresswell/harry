@@ -30,8 +30,8 @@ Here are my highlights from the past month, including a few things that caught m
 
 ### 🗓 What I’m up to this month
 
-- Launching my new SCSS/CSS starter
-- Finishing up the first part of [Practical Hugo](https://practicalhugo.com/)
+- Launching my new SCSS/CSS starter.
+- Finishing up the first part of [Practical Hugo](https://practicalhugo.com/).
 
 ### Thank you for reading
 
@@ -42,4 +42,5 @@ Please [share this with a friend](https://harrycresswell.com/newsletter/august
 If this is your first time here you can [subscribe via RSS](https://harrycresswell.com/feeds/) or [subscribe via email](https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca). It would be great to have you onboard.
 
 Seeing you in the next one.
+
 Harry
