@@ -26,6 +26,10 @@ layout= "page"
 
 [Design tokens and styleguides with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy). A simple workflow showing you how to use Eleventy and NPM Scripts to take YAML design tokens and generate a styleguide and CSS Custom properties.
 
+## Pens
+
+[Link styles like...](https://codepen.io/harrycresswell/pen/QWJxrBY) A growing collection of interesting link styles, found around the web and recreated in Codepen.
+
 
 ## Past projects
 
