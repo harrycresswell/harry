@@ -78,7 +78,7 @@ I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning
 
 I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the beginning of 2022 and haven’t looked back. I’ve written about [my experience with Tutanota](/writing/privacy-focused-email/) in detail. I also use Tutanota’s encrypted Calendar.
 
-[Raivo OTP](https://apps.apple.com/us/app/raivo-otp/id1459042137)** is a fantastic open source authenticator app which I use to generate one-time passwords. It seemlessly handles back up and sync across iOS and MacOS devices.
+~~[Raivo OTP](https://apps.apple.com/us/app/raivo-otp/id1459042137)** is a fantastic open source authenticator app which I use to generate one-time passwords. It seemlessly handles back up and sync across iOS and MacOS devices.~~ Since the [suspicious circumstances](https://www.youtube.com/watch?v=Z0IkcyGUqKc) surrounding the Raivo takeover, I’ve switched to using [2FAS](https://2fas.com/), another popular open source one-time/2FA password generator.
 
 [Jitsi Meet](https://meet.jit.si)** is another fantastic open source tool, which I use for video calls. Calls are encrypted and you don’t need an account to use it, which is a bonus.
 
