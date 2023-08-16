@@ -8,13 +8,18 @@ layout= "page"
 
 These are the things I’m focuing my time and energy on right now.
 
+## Watching
+
+- [The Bear](https://www.imdb.com/title/tt14452776/).
+
 ## Reading
-- Winter in Madrid by C.J. Sansom
+- [Heir to the Empire](https://en.wikipedia.org/wiki/Thrawn_trilogy) by Timothy Zahn.
 
 ## Writing
-- Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo
+- Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo.
 
 ## Building
+- A mininal CSS/SCSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
 - A minimal Hugo theme for writers
 
 ## Learning
@@ -24,7 +29,6 @@ These are the things I’m focuing my time and energy on right now.
 - Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://vanillajsguides.com/)
 - 20-30mins/day listening to the [Coffee Break German](https://coffeebreaklanguages.com/) podcast
 
-
 Page inspired by [Derek Sivers](https://nownownow.com/about).
 
-**Last Updated:** April 6, 2023.
+**Last Updated:** August 16, 2023.
