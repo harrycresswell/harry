@@ -31,7 +31,7 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 ## Design
 
-[Figma](https://www.figma.com/) is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for use with personal projects.
+[Figma](https://www.figma.com/)† is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for use with personal projects.
 
 [Affinity Photo](https://affinity.serif.com/en-gb/photo/) has replaced Photoshop as my choice for photo editing and creating raster based graphics. Affinity software is fast, intuitive to learn and you can’t beat a one-off payment over a monthly subscription.
 
@@ -109,11 +109,11 @@ I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for pi
 
 ~~I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years, using the [P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility~~. 
 
-I recently switched to [Obsidian](https://obsidian.md/) for personal project management (still currently with P.A.R.A). I’ve written about [my reasons for leaving Notion](/writing/notion-no-more). What I like about Obsidian is that it’s simple, fast and self-hosted. It works great without an internet connection, as it’s essentially just a bunch of markdown files. This also means content is highly portable, should I wish to move tools in the future.
+I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools in the future.
 
 I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
 
-I still use [Notion](https://www.notion.so/) as a general bookmarking tool–saving web pages using the Notion Web Clipper. Although I’m considering moving back to Airtable for this purpose. I also use Notion for habit tracking, though I plan to move elsewhere for this also, in the future.
+I still use [Notion](https://www.notion.so/)† as a general bookmarking tool–saving web pages using the Notion Web Clipper. Although I’m considering moving back to Airtable for this purpose. I also use Notion for habit tracking, though I plan to move elsewhere for this also, in the future.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
@@ -131,6 +131,10 @@ I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* for my busi
 I use [Freeagent](http://fre.ag/44clni8a)* for accounting and have done for a number of years. My accountant uses it too, which makes the process straight forward. If you run your own business and you’re not using a digital accounting tool, then I highly recommend looking into one.
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
+
+[Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
+
+I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
 ## Health
 
@@ -156,12 +160,10 @@ I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do t
 
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
-[Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
-
-I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
-
 --- 
 
 \* This is an affiliate link, meaning we’ll both get a small reward if you click the link and sign up.
 
 ** This app is open source.
+
+† Looking to replace with an open-source alternative.
