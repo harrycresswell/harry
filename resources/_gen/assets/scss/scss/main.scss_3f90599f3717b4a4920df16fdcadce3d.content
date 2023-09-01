@@ -343,7 +343,7 @@ li > ul {
     #BASE: QUOTES
 \*------------------------------------*/
 blockquote {
-  border-left: 1px solid #ddd;
+  border-left: 2px solid var(--color-dark);
   color: var(--color-dark);
   font-weight: 400;
   font-style: italic;
