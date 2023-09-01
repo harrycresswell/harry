@@ -6,21 +6,21 @@ slug = "now"
 layout= "page"
 +++
 
-These are the things I’m focuing my time and energy on right now.
+These are the things I’m focusing my time and energy on right now.
 
 ## Watching
 
-- [The Bear](https://www.imdb.com/title/tt14452776/).
+- [Live to 100: Secrets of the Blue Zones](https://www.imdb.com/title/tt28523129/).
 
 ## Reading
-- [Heir to the Empire](https://en.wikipedia.org/wiki/Thrawn_trilogy) by Timothy Zahn.
+- [The Spy and the Traitor: The Greatest Espionage Story of the Cold War](https://www.goodreads.com/book/show/37542581-the-spy-and-the-traitor) by Ben Macintyre.
 
 ## Writing
 - Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo.
 
 ## Building
 - A mininal CSS/SCSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
-- A minimal Hugo theme for writers
+- A minimal Hugo theme for writers.
 
 ## Learning
 
@@ -31,4 +31,4 @@ These are the things I’m focuing my time and energy on right now.
 
 Page inspired by [Derek Sivers](https://nownownow.com/about).
 
-**Last Updated:** August 16, 2023.
+**Last Updated:** September 1, 2023.
