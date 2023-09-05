@@ -1177,7 +1177,7 @@ video {
 
 .Tag a:hover {
   background-color: var(--color-dark);
-  color: var(--color-white);
+  color: var(--color-light);
   text-decoration: none; }
 
 .Tag a:not(:last-child):after {
