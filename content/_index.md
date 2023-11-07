@@ -25,4 +25,4 @@ Learn more about [how I built this site](/build/) or check out [the tools I use]
 
 Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
 
-Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell), [Codepen](https://codepen.io/harrycresswell) and [Polywork](https://www.polywork.com/harrycresswell). Please [get in touch](/contact) if you have any questions.
+Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell) and [Codepen](https://codepen.io/harrycresswell). Please [get in touch](/contact) if you have any questions.
