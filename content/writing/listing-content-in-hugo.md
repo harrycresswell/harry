@@ -50,7 +50,7 @@ Range is fundamental to templating in Hugo and it’s the only function we’ll 
 
 ```go
 {{ range }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -70,7 +70,7 @@ In the interest of listing page content, we can combine `.Site` with a built-in 
 
 ```go
 {{ range .Site.Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -105,7 +105,7 @@ This acts as the default template for all collections, sections, taxonomies and 
 ```go
 // ./layouts/_default/list.html
 {{ range .Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -118,7 +118,7 @@ To do this you might want to override the default list template by adding anothe
 ```go
 // ./layouts/posts/list.html
 {{ range .Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -129,7 +129,7 @@ Now we can customise the template however we like and Hugo will only return cont
 ```go
 // ./layouts/posts/list.html
 {{ range .Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 	<p class="intro">{{ .Summary }}</p>
 {{ end }}
 ```
@@ -147,7 +147,7 @@ Say we have another template with the exact same code at `./layouts/notes/list.h
 ```go
 // ./layouts/notes/list.html
 {{ range .Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -185,7 +185,7 @@ Here we’re returning the first 10 pages across all our content.
 
 ```go
 {{ range first 10 .Site.Pages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
@@ -201,7 +201,7 @@ The `.Site.RegularPages` variable is similar to `.Site.Pages`, but instead of re
 
 ```go
 {{ range .Site.RegularPages }}
-	<a href="{{ .Permalink }}">{{ .Tite }}</a>
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
 ```
 
