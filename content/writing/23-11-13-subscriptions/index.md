@@ -61,7 +61,7 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 ## Misc 
 
-- Phone contract (£9.00 / £11.02)
+- Phone contract (£9.00 / $11.02)
 - iCloud+ with 50 GB of storage (£0.99 / $1.21)
 - Readwise and Reader (£6.54 / $7.99)
 - Zoe (£39.99 / $48.97)
@@ -71,8 +71,8 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £251.21 / $305.09 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant. Though I like to think that’s money well spent. Another expensive one is Zoe, but I doubt it will be subscribing long term.
+The overall total comes to £251.21 / $305.09 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Zoe, but I doubt it will be subscribing long term.
 
-I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these, when I move in.
+I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these when I move in.
 
 With everything now in check, I’m hoping I’ll consider any potential new subscriptions with a little more thought.
