@@ -11,6 +11,8 @@ layout: page
 
 ## 2023
 
+- The The Vignelli Canon by Massimo Vignelli
+- The Man Who Mastered Gravity: A Twisted Tale of Space, Time and The Mysteries In Between by Paul Schatzkin
 - The Spy and the Traitor: The Greatest Espionage Story of the Cold War by Ben Macintyre.
 - Heir to the Empire by Timonthy Zahn
 - UFOs: General, Pilots and Government Officials Go on the Record by Leslie Kean
