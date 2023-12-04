@@ -56,7 +56,7 @@ I’m finally starting to get my head around Web Components, thanks to two great
 
 ### Thank you for reading
 
-Thanks for tuning in for another issue and enjoy the holidays, for those celebrating
+Thanks for tuning in for another issue and enjoy the holidays, for those celebrating.
 
 Please [share this with a friend](https://harrycresswell.com/newsletter/december-2023) if you think they might enjoy it.
 
