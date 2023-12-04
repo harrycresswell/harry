@@ -48,7 +48,7 @@ I’m finally starting to get my head around Web Components, thanks to two great
 
 ### What I’m up to this month
 
-- Completing the redesign of mewingapp.com.
+- Completing the redesign of mewingapp.co.
 - Slowing down for the holidays.
 - Celebrating Christmas with family.
 - Finding a new book to read.
