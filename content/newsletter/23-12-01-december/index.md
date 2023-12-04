@@ -14,7 +14,7 @@ The process took around 8 months in total, which actually seems quite quick when
 
 Anyway, it feels great to have finally reached the end of that journey and to be sitting here in my new office, albeit surrounded by boxes. 
 
-In the new year, I plan to regain some of that focus, for my newsletter, [Practical Hugo]() and a few other projects I’ve had in the pipeline for some time.
+In the new year, I plan to regain some of that focus, for my newsletter, [Practical Hugo](https://practicalhugo.com/) and a few other projects I’ve had in the pipeline for some time.
 
 Until then, here are my highlights and bookmarks from November. And my plans for the month of December.
 
