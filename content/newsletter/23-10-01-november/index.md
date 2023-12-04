@@ -39,7 +39,7 @@ Victoria Johnson in [What I Wish I Knew About Working In Development Right Out O
 
 ### What I’m up to this month
 
-I plan on finding more time for side projects in November.
+I plan on finding more time for side projects in December.
 
 I’m close to putting some [Practical Hugo](https://practicalhugo.com) content out, but I’ve been saying that for a while, I know. It’s taken far longer than I anticipated, but isn’t that true of everything worthwhile. Now we’re nearly there with our house move there’s not much holding me back.
 
