@@ -1,5 +1,5 @@
 ---
-title: "App Defaults"
+title: "App defaults"
 date: 2023-11-30T10:49:08Z
 publishdate: 2023-11-30
 lastmod: ""
