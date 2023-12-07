@@ -90,9 +90,13 @@ I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the b
 
 [NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you, then think of it as curating your own feed of content from people or websites that you want to follow. But without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
 
-[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. I use the former to save highlights from eBooks and articles, which are then rolled up in a daily review. The latter I use as a “read it later” app — for saving long form content — though it can also be used as an RSS reader.
-
 I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks. Very handy when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite-8-gb-now-with-a-68-display-and-adjustable-warm-light-with-ads/dp/B08N3TCP2F).
+
+## Bookmarking and highlights
+
+[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. The latter I use as a “read it later” app — for saving long form content like blog posts and YouTube videos — though it can also be used as an RSS reader. I use the former to save highlights from my Kindle, which are then rolled up in a daily review. Any highlights made from Reader or using [Readwise Highlighter](https://chromewebstore.google.com/detail/readwise-highlighter/jjhefcfhmnkfeepcpnilbbkaadhngkbi) will also end up in the daily review.
+
+I recently discovered [Anybox](https://anybox.app/), an incredible little macOS app for managing bookmarks that works with iCloud. Previously I was using Notion for this purpose – saving web pages using the Notion Web Clipper – but Notion databases are really clunky when you’re dealing with thousands of entries.
 
 
 ## Writing
@@ -105,15 +109,15 @@ I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for pi
 
 [Hemmingway](https://hemingwayapp.com) I find helpful for cleaning up lengthy sentances and spotting passive voice.
 
-## Project management
+I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the [Practical Hugo](https://practicalhugo.com/) mailing list – only positive things to say so far.
 
-~~I’ve been using [Notion](https://www.notion.so/) as a project management for a number of years, using the [P.A.R.A method](https://fortelabs.com/blog/para/) to manage its flexibility~~. 
+## Project management
 
 I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools in the future.
 
-I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
+I still use [Notion](https://www.notion.so/)† for habit tracking, though I plan to move elsewhere for this also, in the future.
 
-I still use [Notion](https://www.notion.so/)† as a general bookmarking tool–saving web pages using the Notion Web Clipper. Although I’m considering moving back to Airtable for this purpose. I also use Notion for habit tracking, though I plan to move elsewhere for this also, in the future.
+I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
@@ -153,8 +157,6 @@ Having tried many of the meditation apps out there, my current favourite for gui
 [Maccy](https://maccy.app)** I discovered recently. It keeps a history of all the things you’ve copied to your clipboard to make them easier to access. Very handy, particularly for web development.
 
 [CCleaner](https://www.ccleaner.com/) is a handy tool for finding large files and freeing up space on your machine.
-
-I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the Practical Hugo mailing list – only positive things to say so far.
 
 I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
 
