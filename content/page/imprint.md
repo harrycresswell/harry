@@ -12,7 +12,7 @@ layout= "page"
 
 [Harry Cresswell](https://harrycresswell.com/) is the trading name of:
 Studio HC Ltd, Company No. 9442649,
-122a Spa Road, London, SE16 3FF.
+42 Ellerdale Street, London, SE13 7JU.
 
 ## Privacy Policy
 
