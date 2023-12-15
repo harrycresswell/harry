@@ -21,7 +21,7 @@ Island hopping in the Canary Islands. We visited 3 islands in a couple of weeks:
 
 Finishing the first phase of the [Mew app redesign](https://www.figma.com/file/5vxllAgi9HBwn7qyAjeiMI/Mew-app-(Main)?type=design&node-id=1114%3A11201&mode=design&t=2t8nZhh5WGZpAVdi-1).
 
-Launching [Solarsimple](http://solarsimplellc.com/).
+Launching [Solarsimple](https://crimson-cobra.cloudvent.net/).
 
 ### Elsewhere on the web
 

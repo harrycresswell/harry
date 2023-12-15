@@ -22,7 +22,7 @@ Until then, here are my highlights and bookmarks from November. And my plans for
 
 The big one, of course, was moving house.
 
-I also launched [Solarsimple](https://solarsimplellc.com/). 
+I also launched [Solarsimple](https://crimson-cobra.cloudvent.net/). 
 
 I published two posts on my website: a roundup of my [subscriptions](https://harrycresswell.com/writing/subscriptions/) in a bid to keep on top of monthly outgoings, and a reply to that [App defaults](https://harrycresswell.com/writing/app-defaults/) post which has been doing the rounds.
 
