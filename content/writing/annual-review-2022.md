@@ -27,7 +27,7 @@ I feel I started to get a handle on things this year. Mostly surrounding work an
 
 I’ve been working hard on my business offering this year, spending a good amount of time building systems and creating SOP’s to guide my process. 
 
-As a result, I  have a much clearer idea of what I do, how I go about it and perhaps most important of all, what I don’t do. This lead me to said no to a lot of opportunities this year.  And, as hard as that can be at the time, I know it will be worth it over the long term.
+As a result, I  have a much clearer idea of what I do, how I go about it and perhaps most important of all, what I don’t do. This lead me to said no to several opportunities this year.  And, as hard as that can be at the time, I know it will be worth it over the long term.
 
 I’ve also doubled down on a what I believe to be a more sustainable approach to building content-focused websites. I’m confident this focus will allow me to scale my business and be more productive.
 
@@ -46,14 +46,14 @@ In October we flew to Athens – one of my favourite places. We spent a weekend 
 
 In November we travelled to South Africa. This was my first time south of the equator. I’m not really sure what I was expecting, to be honest, but whatever it was, my expectations were exceeded. 
 
-We spent two weeks working from Cape Town. Then hired a car and drove the garden root to Addo Elephant Park, and back via Route 62. South Africa is an incredible country. It should be at the top of your list if it isn’t already. On our travels we made a bunch of new friends, all of whom I hope to see again.
+We spent two weeks working from Cape Town. Then hired a car and drove the Garden Route to Addo Elephant Park, and back via Route 62. South Africa is an incredible country. It should be at the top of your list if it isn’t already. On our travels we made a bunch of new friends, all of whom I hope to see again.
 
 
 ### Privacy and security
 
 I’ve been working on [De-Googling](https://harrycresswell.com/writing/de-googling/) – and generally trying to improve my quality of life online – for a while now. 
 
-In March I moved my email from Google Workspace to privacy-focused Tutanota. Then I discovered [email masking](https://harrycresswell.com/writing/masking-email/) and adopted the brilliant SimpleLogin, as part of my account sign-up workflow. Now I can seemlessly generate both usernames (masked emails) and passwords directly from Bitwarden, my password manager. Nerd stuff maybe, but I’m now in full control of the email I receive.
+In March I moved my email from Google Workspace to privacy-focused Tutanota. Then I discovered [email masking](https://harrycresswell.com/writing/masking-email/) and adopted the brilliant SimpleLogin, as part of my account sign-up workflow. Now I can seamlessly generate both usernames (masked emails) and passwords directly from Bitwarden, my password manager. Nerd stuff maybe, but I’m now in full control of the email I receive.
 
 This year I started using a VPN, at all times, whilst browsing the web. It’s not easy finding the perfect browser. Currently I’m using a mix of Brave, Vivaldi and Firefox. There are two extensions I can’t live without – uBlock Origin and SponsorBlock – which block ads on websites and YouTube videos, respectively.
 
@@ -69,7 +69,7 @@ Talking about what didn’t go well is never easy, but I’ve found in the past 
 
 In June, out of nowhere, I started having panic attacks. I’m still not exactly sure what caused them, but my guess is a whole bunch of things coming together and boiling over. 
 
-A panic attack is essentially anxiety manifesting as a variety of physical symptoms. I can best describe what I feel during a panic attack as something close to an out-of-body experience. It’s a feeling of disconnect from your mind, body or surroundings – something I’ve come to know as [dissociation](https://www.mind.org.uk/information-support/types-of-mental-health-problems/dissociation-and-dissociative-disorders/about-dissociation/) – making you feel like you’ve lost control or you’re going crazy. You may also experience feeling numb, shaking, your legs turning to jelly or struggling to breath. Whatever the symptoms, panic attacks can be extremely unconfortable.
+A panic attack is essentially anxiety manifesting as a variety of physical symptoms. I can best describe what I feel during a panic attack as something close to an out-of-body experience. It’s a feeling of disconnect from your mind, body or surroundings – something I’ve come to know as [dissociation](https://www.mind.org.uk/information-support/types-of-mental-health-problems/dissociation-and-dissociative-disorders/about-dissociation/) – making you feel like you’ve lost control or you’re going crazy. You may also experience feeling numb, shaking, your legs turning to jelly or struggling to breath. Whatever the symptoms, panic attacks can be extremely uncomfortable.
 
 Talking about it was the best thing I did to overcome my issues. I told as many people I could about what I was experiencing. I stopped being so hard on myself and took the final 6 months of the year at a much slower pace. I’ve had the occasional blip over the past few months, but I’m a world away from where I was in June and haven’t had a full-blown panic attack since.
 
