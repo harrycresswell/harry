@@ -9,13 +9,13 @@ topics: ["CSS"]
 description: "A lightweight CSS framework built using uses modern techniques and two popular methodologies, designed to help you hit the ground running."
 ---
 
-It’s not always easy to keep the CSS you write clear and consistent, particularly when you’re working on a variety of different projects. Things quickly get messy if you don’t stick with a one particular approach. Over time, those arbitrary updates you make become a nightmare to maintain. 
+It’s not always easy to keep the CSS you write consistent, particularly when you’re working on a variety of different projects. Things tend to get messy when you jump between projects, making arbitrary updates without a clear approach. As your projects grow, so too does the complexity of their stylesheets and your CSS soon becomes a nightmare to maintain. 
 
-The ultimate goal, I suppose, is to find a way to manage a growing number of projects, while keeping chaos to a minimum. 
+The ultimate goal, I suppose, is to find a way to manage a growing number of projects somewhat systematically. All while keeping chaos to a minimum. 
 
-One solution is to adopt a CSS methodology, something that will help you formalise the way you write the language with a solid, sensible approach. A good CSS methodology will help improve the consistency of your code and make you more efficient at building and maintaining websites.
+One solution I’ve found is to adopt a CSS methodology. Something that helps to formalise the way you write the language with a solid, sensible approach. A good CSS methodology will help improve the consistency of your code and make you more efficient at building and maintaining websites.
 
-While a CSS methodology is a great start, in reality, often you’ll find yourself needing a little bit more than just a guide that tells you how to structure and write your code. Most of the time, I find the best way to kick start my projects is with a methodology, plus a good bit of the CSS itself.
+But while a CSS methodology is a great start, in reality, you’ll often need a little more than just guidance on how to structure and write your code. Most of the time, I find the best way to kick start my projects is with a methodology, plus a good bit of the CSS itself, already in place and ready to build upon.
 
 [cu.css](https://cu.harrycresswell.com/) is a lightweight CSS framework I built with these things in mind. It uses modern CSS techniques and two popular methodologies and it’s designed to help you hit the ground running. 
 
