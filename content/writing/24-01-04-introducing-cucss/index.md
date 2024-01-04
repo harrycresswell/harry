@@ -9,13 +9,17 @@ topics: ["CSS"]
 description: "A lightweight CSS framework built using uses modern techniques and two popular methodologies, designed to help you hit the ground running."
 ---
 
-It’s not always easy to keep the CSS you write clear and consistent, particularly when you’re working on a variety of different projects. Things quickly get messy if you don’t stick with a one particular approach. Over time, those arbitrary updates you make become a nightmare to maintain. The ultimate goal, I suppose, is to find a way to manage a growing number of projects, while keeping chaos to a minimum. 
+It’s not always easy to keep the CSS you write clear and consistent, particularly when you’re working on a variety of different projects. Things quickly get messy if you don’t stick with a one particular approach. Over time, those arbitrary updates you make become a nightmare to maintain. 
 
-One solution is to adopt a CSS methodology, something that will help you formalise the way you write the language with a solidm, sensible approach. A good CSS methodology will help improve the consistency of your code and make you more efficient at building and maintaining websites.
+The ultimate goal, I suppose, is to find a way to manage a growing number of projects, while keeping chaos to a minimum. 
+
+One solution is to adopt a CSS methodology, something that will help you formalise the way you write the language with a solid, sensible approach. A good CSS methodology will help improve the consistency of your code and make you more efficient at building and maintaining websites.
 
 While a CSS methodology is a great start, in reality, often you’ll find yourself needing a little bit more than just a guide that tells you how to structure and write your code. Most of the time, I find the best way to kick start my projects is with a methodology, plus a good bit of the CSS itself.
 
-[cu.css](https://cu.harrycresswell.com/) is a lightweight CSS framework I built with these things in mind. It uses modern techniques and two popular methodologies, designed to help you hit the ground running. In this post I want to share a little more about the project.
+[cu.css](https://cu.harrycresswell.com/) is a lightweight CSS framework I built with these things in mind. It uses modern CSS techniques and two popular methodologies and it’s designed to help you hit the ground running. 
+
+In this post I want to share a little more about the project.
 
 
 ## A lightweight CSS  framework built with modern techniques
@@ -26,11 +30,11 @@ While a CSS methodology is a great start, in reality, often you’ll find yourse
 
 [Utopia](https://utopia.fyi/) is an approach to fluid responsive space, type and grid, which utilises modern CSS techniques, most notably the Clamp function.
 
-*cu.css* wraps these two tools together into what is effectively a CSS starter project. Something you can use as a starting point to quickly get going with modern CSS techniques, sensible defaults and a solid CSS methodology. Think of it as intrinsic web design in action, a base to build upon and a clear direction of travel. 
+*cu.css* wraps these two tools together into what is effectively a CSS starter project. Something you can use as a starting point to quickly get going with modern CSS techniques, sensible defaults and a solid CSS methodology. Think of it as [intrinsic web design](https://moderncss.dev/contextual-spacing-for-intrinsic-web-design/) in action, a base to build upon and a clear direction of travel. 
 
 To the best of my knowledge, a CSS framework built using CUBE CSS and Utopia doesn’t exist. While [cube.fyi](https://cube.fyi/) helps you learn the methodology, there’s not much out there that helps you quickly put it into practice. The same is true for Utopia, so that’s why I decided to make this project public.
 
-Let me rattle off a few features you can get an idea of what to expect from *cu.css*:
+Let’s rattle off a few features to give you an idea of what to expect from *cu.css*:
 
 - Built using the CUBE CSS methodology.
 - Utopia fluid responsive design for space and type.
@@ -57,7 +61,7 @@ Building *cu.css* using two well recognised and respectable methodologies has ot
 
 This seems like a sensible approach. I don’t pretend to be an expert in CSS. It’s not an easy language to master and [Andy](https://andy-bell.co.uk/), [Trys](https://www.trysmudford.com/) and [James](https://www.hustlersquad.net/), the clever folk behind these projects, are far more knowledgable and experienced with the language than I’m sure I will ever be. So why try and come up with my own methodology when these fantastic tools already exist?
 
-I like to think of cu.css as a little bit more than a class-less CSS framework. Call it a low-class framework, if you will. Most the CSS in *cu* is applied to HTML elements, on a global level – just like with a class-less framework. But on top of that, you also have Utopia powering your space and type. And the concepts that CUBE CSS brings to the table – a handful of utility classes for dealing with common yet specific problems, blocks (otherwise known as components) and compositions (a.k.a layouts) to give you that little extra power.
+I like to think of cu.css as a little bit more than a class-less CSS framework. Call it a low-class framework, if you will. Most the CSS in *cu* is applied to HTML elements, on a global level – just like with a class-less framework. Then, on top of that you have Utopia powering your space and type and the concepts that CUBE CSS brings with it – a handful of utility classes for dealing with common yet specific problems, blocks (otherwise known as components) and compositions (a.k.a layouts) to give you that little extra power.
 
 You may find *cu.css* a good fit for your next project, if:
 
@@ -74,9 +78,9 @@ Have I sold it to you already?
 
 The best way to get started with *cu.css* is to head to https://cu.harrycresswell.com/ and read the [getting started](https://cu.harrycresswell.com/getting-started/) docs.
 
-Though please keep in mind that this project is still very much in its infancy. Existing documentation, methods of installation, and so on, are all likely to change in the months ahead.
+Please keep in mind that this project is still very much in its infancy. Existing documentation, methods of installation, and so on, are all likely to change in the months ahead.
 
-You can also find [cu.css on Github](https://github.com/harrycresswell/cu) where you are welcome to [make a pull request](https://github.com/harrycresswell/cu/pulls) or [raise an issue](https://github.com/harrycresswell/cu/issues).
+You can also find [cu.css on Github](https://github.com/harrycresswell/cu) where you can find the entire Hugo project that powers the *cu.css* website.
 
 ## What’s next for *cu.css*
 

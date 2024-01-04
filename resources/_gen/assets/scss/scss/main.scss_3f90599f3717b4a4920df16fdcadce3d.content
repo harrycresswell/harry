@@ -217,7 +217,8 @@ h6 {
   color: var(--color-dark);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
-  letter-spacing: -.015em; }
+  letter-spacing: -.015em;
+  max-width: 35ch; }
 
 h1,
 h2,
