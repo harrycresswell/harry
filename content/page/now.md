@@ -21,6 +21,7 @@ These are the things I’m focusing my time and energy on right now.
 - The X-Files.
 
 ## Reading
+
 - [The The Vignelli Canon](https://www.goodreads.com/book/show/9180968-the-vignelli-canon) by Massimo Vignelli.
 
 ## Learning
