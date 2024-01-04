@@ -9,7 +9,7 @@ topics: ["CSS"]
 description: "A lightweight CSS framework built using uses modern techniques and two popular methodologies, designed to help you hit the ground running."
 ---
 
-It’s not always easy to keep the CSS you write consistent, particularly when you’re working on a variety of different projects. Things tend to get messy when you jump between projects, making arbitrary updates without a clear approach. As your projects grow, so too does the complexity of their stylesheets and your CSS soon becomes a nightmare to maintain. 
+It’s not always easy to keep the CSS you write consistent, particularly when you’re working on a variety of different projects. Things tend to get messy when you jump between projects, making arbitrary updates, without a clear approach. As your projects grow, so too does the complexity of your stylesheets and your CSS soon enough becomes a nightmare to maintain. 
 
 The ultimate goal, I suppose, is to find a way to manage a growing number of projects somewhat systematically. All while keeping chaos to a minimum. 
 
