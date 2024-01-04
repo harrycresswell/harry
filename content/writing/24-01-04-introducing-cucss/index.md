@@ -15,7 +15,7 @@ The ultimate goal, I suppose, is to find a way to manage a growing number of pro
 
 One solution I’ve found is to adopt a CSS methodology. Something that helps to formalise the way you write the language with a solid, sensible approach. A good CSS methodology will help improve the consistency of your code and make you more efficient at building and maintaining websites.
 
-But while a CSS methodology is a great start, in reality, you’ll often need a little more than just guidance on how to structure and write your code. Most of the time, I find the best way to kick start my projects is with a methodology, plus a good bit of the CSS itself, already in place and ready to build upon.
+But while a CSS methodology is a great start, in reality, you’ll often need a little more than just guidance on how to structure and write your code. Most of the time, I find the best way to kick start my projects is with a methodology, plus a good bit of the CSS itself – already in place and ready to build upon.
 
 [cu.css](https://cu.harrycresswell.com/) is a lightweight CSS framework I built with these things in mind. It uses modern CSS techniques and two popular methodologies and it’s designed to help you hit the ground running. 
 
