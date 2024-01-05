@@ -21,7 +21,8 @@ Anyway, here’s what I got up to in December, a few things from around the web 
 - Published my [review of 2023](/writing/2023-review/)
 - Read [The Conspiracy Tourist](https://www.goodreads.com/book/show/122077811-the-conspiracy-tourist) by Dom Joly.
 - Enjoyed the 2 Christmas parties – oh the joy of being freelance!
-- Spent valuable time with family, colleagues and friends.
+- Finished The Crown.
+- Spent time with family and friends.
 
 ## Elsewhere on the web
 
