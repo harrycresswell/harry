@@ -1558,7 +1558,7 @@ p.Callout:not(:first-of-type) {
  * 3:4 = ratio portrait
  */
 [class*='ratio-'] {
-  background-color: var(--color-lightest);
+  background-color: var(--color-light-mod-2);
   display: block;
   position: relative; }
 
