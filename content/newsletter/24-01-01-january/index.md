@@ -18,7 +18,7 @@ Anyway, here’s what I got up to in December, a few things from around the web 
 
 - Moved into our new house!
 - Launched a new thing - [cu.css](https://ciu.harrycresswell.com/) – and published a [a post introducing the project](/writing/introducing-cu-css/).
-- Published my [review of 2023](/writing/2023-review/)
+- Published my [review of 2023](/writing/2023-review/).
 - Read [The Conspiracy Tourist](https://www.goodreads.com/book/show/122077811-the-conspiracy-tourist) by Dom Joly.
 - Enjoyed the 2 Christmas parties – oh the joy of being freelance!
 - Finished The Crown.
