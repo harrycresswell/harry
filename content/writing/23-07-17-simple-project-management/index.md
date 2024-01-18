@@ -5,7 +5,7 @@ publishdate: 2023-07-17
 lastmod: 2023-07-17
 draft: false
 slug: "simple-project-management"
-topics: ["Tools"]
+topics: ["Obsidian", "Tools"]
 description: "Typically all I need to manage a project these days is a plain text file, a content template and a simple todo list. Enter Obsidian."
 ---
 
@@ -36,7 +36,7 @@ Content is written in Markdown, which is a widely supported content format, mean
 
 Using Obsidian is a lot like working with a static site generator, in a way. You have content files, you have content templates, you can even link between notes, like you would pages on a website.
 
-Although it’s marketed as a note-taking app for personal knowledge management, I’ve been using it for project management, to good effect, with a very simple workflow.
+Although it’s marketed as a note-taking app for personal knowledge management, I’ve been using Obsidian for project management, to good effect, with a very simple workflow.
 
 1. Add a new note to a *projects* folder for every new project.
 2. Create a todo list of tasks to complete inside each project note.
