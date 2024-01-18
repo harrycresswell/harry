@@ -6,22 +6,25 @@ slug = "now"
 layout= "page"
 +++
 
-These are the things I’m focusing my time and energy on right now.
+These are the things I’m focusing my time and energy on right now, inspired by [Derek Sivers](https://nownownow.com/about).
 
 
 ## Writing
 - Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo.
 
 ## Building
-- A mininal CSS/SCSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
+- Making improvements to [cu.css](https://cu.harrycresswell.com), my lightweight CSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
+- A new home for [B32](https://buxtonthreetwo.com) on Hugo and Cloudcannon.
 - A minimal Hugo theme for writers.
 
 ## Watching
 
 - The X-Files.
+- MasterChef.
 
 ## Reading
 
+- [The Warm Dry Home](https://shop.heritage-house.org/product/book-the-warm-dry-home/) by Pete Ward.
 - [The The Vignelli Canon](https://www.goodreads.com/book/show/9180968-the-vignelli-canon) by Massimo Vignelli.
 
 ## Learning
@@ -31,6 +34,4 @@ These are the things I’m focusing my time and energy on right now.
 - Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://vanillajsguides.com/)
 - 20-30mins/day listening to the [Coffee Break German](https://coffeebreaklanguages.com/) podcast
 
-Page inspired by [Derek Sivers](https://nownownow.com/about).
-
-**Last Updated:** November 23, 2023.
+**Last Updated:** January 18, 2024.
