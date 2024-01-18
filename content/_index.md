@@ -19,9 +19,7 @@ I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a co
 
 Read some [client case studies](/topics/case-study/), check out a few [things I’ve built](/things) or [books I’ve read](/reading). Maybe take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience. 
 
-Find out [what I'm up to right now](/now/) or [follow my daily updates](/updates) for the latest.
-
-Learn more about [how I built this site](/build/) or check out [the tools I use](/uses/) on a daily basis.
+Learn more about [how I built this site](/build/), check out [the tools I use](/uses/) on a daily basis or find out [what I'm up to right now](/now/).
 
 Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
 

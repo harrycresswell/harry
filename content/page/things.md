@@ -8,6 +8,7 @@ layout= "page"
 +++
 
 {{< intro >}}Personal projects I’m currently working on and various other things I’ve built in the past.{{</ intro >}}
+
 ## Active projects
 
 [Practical Hugo](https://practicalhugo.com) is a course on building resilient websites with Hugo & the Jamstack. I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
@@ -21,6 +22,8 @@ layout= "page"
 [Mood](https://github.com/harrycresswell/mood/) is lightweight, JavaScript-free Hugo theme for moodboarding.
 
 ## Tools
+
+[cu.css](https://cu.harrycresswell.com) is a lightweight CSS framework that will help you build websites fast, using CUBE CSS and Utopia fluid design.
 
 [instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo site showing how to create an Instagram feed on a Hugo website using [Profile Page Images Loader](https://profilepageimages.usecue.com/) by Joost van der Schee.
 
