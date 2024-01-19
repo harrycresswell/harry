@@ -7,15 +7,19 @@ slug = "things"
 layout= "page"
 +++
 
-{{< intro >}}Personal projects I’m currently working on and various other things I’ve built in the past.{{</ intro >}}
+{{< intro >}}A growing collection of personal projects that I’m working on, including the themes and tools that I’ve built. You’ll also find projects from the past, which are either not maintained or that I’m no longer a part of.{{</ intro >}}
 
 ## Active projects
 
-[Practical Hugo](https://practicalhugo.com) is a course on building resilient websites with Hugo & the Jamstack. I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
+[Practical Hugo](https://practicalhugo.com) is a course on building resilient websites with [Hugo](/topics/hugo). I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
 
-[Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers.
+[Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers. It’s now run by [Rebekka](https://rebekkawrites.com/).
 
-[Type Services](https://typeservices.co/) is a small type foundry I set up in 2017 with a focus on hand drawn type and imperfection in type design.
+[Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
+
+[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). Since 2012 I’ve created pretty much all the artwork for my good friend Matt Benyayer’s music.
+
+[Link styles like...](https://codepen.io/harrycresswell/pen/QWJxrBY) A growing collection of interesting link styles, found around the web and recreated in Codepen.
 
 ## Themes
 
@@ -28,11 +32,6 @@ layout= "page"
 [instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo site showing how to create an Instagram feed on a Hugo website using [Profile Page Images Loader](https://profilepageimages.usecue.com/) by Joost van der Schee.
 
 [Design tokens and styleguides with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy). A simple workflow showing you how to use Eleventy and NPM Scripts to take YAML design tokens and generate a styleguide and CSS Custom properties.
-
-## Pens
-
-[Link styles like...](https://codepen.io/harrycresswell/pen/QWJxrBY) A growing collection of interesting link styles, found around the web and recreated in Codepen.
-
 
 ## Past projects
 
