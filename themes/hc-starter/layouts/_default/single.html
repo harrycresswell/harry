@@ -12,12 +12,15 @@
         {{ end }}
       </time>
       {{ if .Params.topics }}
-      <span>— </span>
-      {{ partial "post/topics.html" . }} {{ end }}
+        <span>— </span>
+        {{ partial "post/topics.html" . }} 
+      {{ end }}
     </div>
     {{ if ne .Section "newsletter" }}
     <div class="Hero-mod"> 
-      {{ if ne .PublishDate .Lastmod }}
+      {{ $published := .PublishDate | time.Format ":date_medium" }}
+      {{ $modified := .Lastmod | time.Format ":date_medium" }}
+      {{ if ne $published $modified }}
       <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
       {{ end }}
     </div>

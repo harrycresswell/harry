@@ -29,9 +29,7 @@ These are the things I’m focusing my time and energy on right now, inspired by
 
 ## Learning
 
-- How to [Visualise Value](https://visualizevalue.com/)
-- Networked thought using [Obsidian](https://obsidian.md/) and the [Zettelkasten](https://zettelkasten.de/) method
+- How to [Visualise Value](https://visualizevalue.com/).
+- Networked thought using [Obsidian](https://obsidian.md/) and the [Zettelkasten](https://zettelkasten.de/) method.
 - Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://vanillajsguides.com/)
-- 20-30mins/day listening to the [Coffee Break German](https://coffeebreaklanguages.com/) podcast
-
-**Last Updated:** January 18, 2024.
+- 20-30mins/day listening to the [Coffee Break German](https://coffeebreaklanguages.com/) podcast.

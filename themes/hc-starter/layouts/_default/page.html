@@ -3,12 +3,18 @@
     <article id="content" class="Post">
         <header class="Hero Hero--page">
             <h1 class="Hero-title">{{ .Title }}</h1>
+            <div class="Hero-mod"> 
+              {{ $published := .PublishDate | time.Format ":date_medium" }}
+              {{ $modified := .Lastmod | time.Format ":date_medium" }}
+              {{ if ne $published $modified }}
+              <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
+              {{ end }}
+            </div>
         </header>
     
         <section class="e-content">
           {{ partial "heading-anchor.html" .Content }}
         </section>
-    
     </article><!--/.Content -->
 
     <!-- render if URL returns true -->
