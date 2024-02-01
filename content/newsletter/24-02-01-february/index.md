@@ -2,7 +2,7 @@
 title: "February 2024"
 date: 2024-02-01T12:07:29Z
 draft: false
-description: "That one went by fast, but I packed quite a bit into it"
+description: "That one went by fast, but I packed quite a bit into it."
 slug: "february-2024"
 ---
 
