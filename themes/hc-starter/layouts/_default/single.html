@@ -18,10 +18,10 @@
     </div>
     {{ if ne .Section "newsletter" }}
     <div class="Hero-mod"> 
-      {{ $published := .PublishDate | time.Format ":date_medium" }}
+      {{ $published := .Date | time.Format ":date_medium" }}
       {{ $modified := .Lastmod | time.Format ":date_medium" }}
       {{ if ne $published $modified }}
-      <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
+      <span class="Badge"> Updated: {{ $modified }} </span>
       {{ end }}
     </div>
     {{ end }}
