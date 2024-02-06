@@ -14,6 +14,7 @@ enableGitInfo = true
 # Enable Emojis
 enableEmoji = true
 
+
 [params]
 keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
 description = "Harry Cresswell is a professional designer and front-end web developer from London, England. Read technical articles and notes on designing and coding websites."
