@@ -52,7 +52,7 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 In 2021 I committed to using [Hugo](https://gohugo.io/) to build content based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
 
-I use [Cloudcannon](https://cloudcannon.com/) for any client project which requires CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with both Netlify CMS (now [Decap](https://decapcms.org/)) and Forestry (now discontinued) in the past, it’s the best I’ve found for websites built with Hugo. 
+I use [Cloudcannon](https://cloudcannon.com/) for any client project which requires a CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with both Netlify CMS (now [Decap](https://decapcms.org/)) and Forestry (now discontinued) in the past, it’s the best I’ve found for websites built with Hugo. 
 
 For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) for personal projects. 
 
@@ -72,7 +72,7 @@ I use [Simplelogin](https://simplelogin.io/) to generate email aliases for all t
 
 I have [NordVPN](https://nordvpn.com/) set up to open at login. If my laptop is on, then NordVPN is running. It masks my IP, protects me from trackers and malware, and when using the internet on public Wi-Fi. 
 
-[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using, though I find myself using [Whatsapp](https://www.whatsapp.com/) mainly.
+[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using, though I find myself mostly using [Whatsapp](https://www.whatsapp.com/).
 
 I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning of 2021 after researching secure, end-to-end encrypted cloud storage providers.
 
