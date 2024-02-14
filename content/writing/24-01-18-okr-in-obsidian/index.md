@@ -251,7 +251,7 @@ Here’s an example of one of my weekly notes:
 _Take a look at last weeks review_
  
 - [[2023 in review]]
-  - Finish and publish 
+  - [ ] Finish and publish 
 - [[24-Q1 ERYN Launch SCSS starter]] 
   - [x] Finish and publish blog post about project: ([[Introducing cu.css]])
   - [x] Make GitHub repo public
@@ -295,7 +295,7 @@ _Take a look at last weeks review_
 ### What are my initiatives for next week?
 
 - [[24-Q1 MW Mewing app v2.0.4]]
-  - [ ] Design lesson status functionality
+  - Design lesson status functionality
 - [[24-Q1 PH Complete module 1 (up and running) content]]
   - Reviewing where I’m with [[practical hugo]]
   - Edit styling basics lesson
