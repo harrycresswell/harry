@@ -307,9 +307,9 @@ _Take a look at last weeks review_
   - Open external links in new tab
 ```
 
-At the end of each week I do a *weekly review* of my OKR progress. In this review I answer questions like what went well, what didn’t go so well and what I need help with. This helps me reflect on the week and check in to see if I’m making progress with my key results. 
+At the end of each week I do a *weekly review* of my OKR progress. In this review I answer  a few questions about the week, such as *what went well*, *what didn’t go so well* and *what I need help with*. This helps me reflect on the week and check in to see if I’m making progress with my key results. 
 
-Part of my weekly review involves thinking ahead to the initiatives I want to complete in the following week. Here I list any initiatives I didn’t manage to complete that week, which will carry over to the following week. 
+Part of my weekly review involves thinking ahead to the initiatives I want to complete in the following week. Here I list any initiatives I didn’t manage to complete that week, which will carry over to the next week. 
 
 I have another reoccurring reminder in my calendar, this time on Fridays, which reminds me to complete my weekly review at the end of each week.
 
@@ -378,9 +378,9 @@ My daily note note consists of 3 main sections:
 - Tasks
 - 6-minute diary
 
-The *Reminders* section is essentially a checklist of reoccurring tasks that I do every single day. *Check in with OKR quarterly and weekly note* is obviously the key one here. It reminds me to look at my OKRs and pick out some initiatives to work on. That way I make at least some progress towards my key results every day.
+The *Reminders* section is essentially a checklist of reoccurring tasks that I do every single day. *Check in with OKR quarterly and weekly note* is obviously the key one here. It reminds me to look at my OKRs and pick out some initiatives to work on that day. That way, (at least) I make some progress towards my key results every day.
 
-I also include general reminders which don’t relate to my OKRs, but are easy to forget without a daily reminder. Things like *Complete 6-minute diary*, *Add morning routine to habit tracker* and *Readwise daily review* all fall into this category. 
+I also include general reminders which don’t relate to my OKRs, but are easy to forget without a daily reminder. Things like *Complete 6-minute diary*, *Add morning routine to habit tracker* and *Readwise daily review*,all fall into this category. 
 
 The second section in my daily note is *Tasks*. This is where I list granular tasks for the day, most of which will come from my weekly initiatives. When I check in with my *quarterly* and *weekly* note each morning, I choose a few initiatives to work on and add tasks to this section which satisfy those initiatives.
 

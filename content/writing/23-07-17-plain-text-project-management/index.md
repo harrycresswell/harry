@@ -9,7 +9,7 @@ topics: ["Obsidian", "Tools"]
 description: "Typically all I need to manage a project these days is a plain text file, a content template and a simple todo list. Enter Obsidian."
 ---
 
-Since falling out with Notion, I’ve been on the hunt for a simple project management tool for managing projects, both client and personal.
+Since [falling out with Notion](/writing/notion-no-more/), I’ve been on the hunt for a simple project management tool for managing projects, both client and personal.
 
 Working independently, I rarely find the need for collaboration features that a team may find useful. What I need is something that doesn’t get in the way of actually doing the work. Ideally something that meets following criteria:
 
