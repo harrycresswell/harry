@@ -115,17 +115,13 @@ I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for ye
 
 I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools in the future.
 
-I still use [Notion](https://www.notion.so/)† for habit tracking, though I plan to move elsewhere for this also, in the future.
-
 I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
 [Screenity](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji?ref=producthunt)** is a great tool for async video communication. Record quick videos via a browser extension, get a link to the video and share the URL with clients or colleagues. It’s a great way to get out of unnecessary meetings.
 
-[Kap](https://getkap.co/)** is my screen capture tool of choice.
-
-I use [TinyStopwatch](https://apps.apple.com/app/tinystopwatch/id1447754003) for time tracking tasks.
+I use [TinyStopwatch](https://apps.apple.com/app/tinystopwatch/id1447754003) for time tracking tasks that typically get billed to clients.
 
 
 ## Finance
@@ -142,9 +138,13 @@ I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
 ## Health
 
-I use [Strava](https://www.strava.com/) to track running and Notion for general tracking of workouts and habits.
+I use [Strava](https://www.strava.com/) to track running and the Apple Watch Activity app for tracking yoga sessions and workouts.
+
+I recently switched from [Notion](https://www.notion.so/)† to Obsidian for habit tracking.
 
 Having tried many of the meditation apps out there, my current favourite for guided meditation is [Balance](https://balanceapp.com/). For unguided meditation I use [Insight Timer](https://insighttimer.com/).
+
+I use the [Zoe](https://zoe.com/) app for logging and scoring recipes and meals.
 
 ## Misc
 
@@ -161,6 +161,8 @@ Having tried many of the meditation apps out there, my current favourite for gui
 I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
 
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
+
+[QuickTime Player](https://support.apple.com/en-gb/guide/quicktime-player/welcome/mac) seems to be the most stable app for creating offline screen recordings I can find.
 
 --- 
 
