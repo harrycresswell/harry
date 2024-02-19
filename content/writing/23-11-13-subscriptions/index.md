@@ -21,11 +21,10 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 ## Streaming services
 
-- Netflix (£15.99 / $19.53)
+- Netflix (£3.96 / $4.99)
 - Amazon Prime (£7.92 / $9.67)
-- Disney+ (£7.99, shared with my brother, so £4 / $4.90 each)
 
-**Total:** £27.91 / $34.10
+**Total:** £11.88 / $14.66
 
 ## Work
 
@@ -49,7 +48,7 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 - locallondon.life (£26.25 / $32.16)
 - studioeryn.com (£7.96 / $9.76)
 
-**Total:** £99.64 / $122.08 per year, £8.30 / $10.17 per month
+**Total:** £99.64 / $122.08 per year (£8.30 / $10.17 per month)
 
 ## Privacy
 
@@ -71,7 +70,7 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £251.21 / $305.09 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Zoe, but I doubt it will be subscribing long term.
+The overall total comes to £235.18 / $287.58 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Zoe, but I doubt it will be subscribing long term.
 
 I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these when I move in.
 
