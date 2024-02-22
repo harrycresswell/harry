@@ -9,6 +9,11 @@ description: ""
 layout: page
 ---
 
+## 2024
+
+- Journeys Out of the Body by Robert A. Monroe
+- The Warm Dry Home by Pete Ward
+
 ## 2023
 
 - The Conspiracy Tourist: Travels through a strange world by Dom Joly
