@@ -19,24 +19,24 @@ The truth is, it’s unlikely we’ll ever be able to ditch subscriptions entire
 
 With that in mind, here’s a breakdown of all my active subscriptions and how much I’m spending in total. All costs are monthly, except for domains which show the individual cost for the year (because I’m lazy), then a total, which includes a monthly breakdown.
 
-## Streaming services
+## Streaming services 
 
-- Netflix (£3.96 / $4.99)
+- Netflix (£4.99 / $6.32)
 - Amazon Prime (£7.92 / $9.67)
 
-**Total:** £11.88 / $14.66
+**Total:** £12.91 / $15.99
 
 ## Work
 
-- Figma (£9.82 / $12)
+- Figma (£23.65 / $30)
 - Fathom Analytics (£9.48 / $11.58)
 - Sync (£6.55 / $8)
 - Notion (£3.93 / $4.8)
 - Accountant (£120 / $146.53)
 
-**Total:** £149.78* / $182.91
+**Total:** £163.61* / $200.91
 
-*I haven’t included any expenses which get re-billed to clients, like Cloudcannon.
+*This doesn’t include expenses which get re-billed to clients.
 
 ## Domains
 
@@ -63,14 +63,13 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 - Phone contract (£9.00 / $11.02)
 - iCloud+ with 50 GB of storage (£0.99 / $1.21)
 - Readwise and Reader (£6.54 / $7.99)
-- Zoe (£39.99 / $48.97)
 
-**Total:** £56.52 / $69.21
+**Total:** £16.53 / $20.22
 
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £235.18 / $287.58 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Zoe, but I doubt it will be subscribing long term.
+The overall total comes to £210.05 / $257.92 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Figma, as I currently pay for two design seats.
 
 I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these when I move in.
 
