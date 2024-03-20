@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+  <section class="Hero Hero--list flow">
+    <h1 class="Hero-title">{{ .Title }}</h1>
+    <p class="Hero-desc u-visually-hidden">{{ .Description }}</p>
+  </section>
+  <section class="PostList">
+    {{ range .Paginator.Pages }}
+    <article class="PostListItem h-entry">
+      <h2 class="PostListItem-title p-name">
+        {{ $title := .Title }}
+        {{ with .Params.source }}
+          <a href="{{ . }}" class="u-url">{{ $title }}</a>
+        {{ else }}
+          <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
+        {{ end }}
+      </h2>
+      <div hidden>
+        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+      </div>
+      <div class="PostListItem-meta">
+          <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
+          {{ $topics := .Params.topics }}
+          {{- with $topics -}}
+            <span>—</span>
+            <div class="Tag">
+              {{ range $topics }}
+                <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{- end -}}
+      </div>
+      <p>{{ .Content }}</p>
+      <small><a href="{{ .Permalink }}">Permalink</a></small>
+    </article>
+    {{ end }}
+  </section>
+  {{ partial "pagination.html" . }}
+
+{{ end }}

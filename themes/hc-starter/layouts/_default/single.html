@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <article id="content" class="Post h-entry">
-  <header class="Hero Hero--page">
+  <header class="Hero Hero--page flow">
     <h1 class="Hero-title p-name">{{ .Title }}</h1>
     <div class="Hero-date">
       <time class="dt-published" datetime="{{ .Date }}">
@@ -16,6 +16,16 @@
         {{ partial "post/topics.html" . }} 
       {{ end }}
     </div>
+    {{ $title := .Title }}
+    {{ $author := .Params.author }}
+    {{ if eq .Section "links" }}
+      {{ with .Params.source }}
+      <div>
+        Source: <a href="{{ . }}">{{ $title }}</a>  by {{ $author }}
+      </div>
+      {{ end }}
+    {{ end }}
+
     {{ if ne .Section "newsletter" }}
     <div class="Hero-mod"> 
       {{ $published := .Date | time.Format ":date_medium" }}
@@ -28,13 +38,13 @@
   </header>
 
   <section class="e-content">
-    {{ partial "heading-anchor.html" .Content }} {{ if in .Params.topics "Hugo"
-    }}
+    {{ partial "heading-anchor.html" .Content }} 
 
-    <aside class="Callout" style="margin-top: 3rem; max-width: 800px">
-      <strong>Interested in learning Hugo?</strong> I’m working on a free course
-      over at <a href="https://practicalhugo.com/">practicalhugo.com</a>.
-    </aside>
+    {{ if in .Params.topics "Hugo"}}
+      <aside class="Callout" style="margin-top: 3rem; max-width: 800px">
+        <strong>Interested in learning Hugo?</strong> I’m working on a free course
+        over at <a href="https://practicalhugo.com/">practicalhugo.com</a>.
+      </aside>
     {{ end }}
   </section>
 

@@ -205,6 +205,9 @@ hr {
   outline: dotted 2px var(--color-dark);
   outline-offset: 3px; }
 
+small {
+  font-size: var(--step--1); }
+
 /*------------------------------------*\
     #BASE: HEADINGS
 \*------------------------------------*/

@@ -64,9 +64,14 @@ url = "/newsletter/"
 weight = 15
 
 [[menu.main]]
+name = "Links"
+url = "/links/"
+weight = 20
+
+[[menu.main]]
 name = "Topics"
 url = "/topics/"
-weight = 20
+weight = 25
 
 [[menu.footer]]
 name = "Index"
