@@ -2,7 +2,7 @@
 
   <section class="Hero Hero--list flow">
     <h1 class="Hero-title">{{ .Title }}</h1>
-    <p class="Hero-desc u-visually-hidden">{{ .Description }}</p>
+    <p class="Hero-desc">{{ .Description | markdownify }}</p>
   </section>
   <section class="PostList">
     {{ range .Paginator.Pages }}

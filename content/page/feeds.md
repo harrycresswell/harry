@@ -12,4 +12,4 @@ A list of all the availabe RSS feeds on this website.
 - [All content](/feed.xml)
 - [Writing](/writing/feed.xml)
 - [Newsletter](/newsletter/feed.xml)
-- [Updates](/updates/feed.xml)
+- [Links](/links/feed.xml)

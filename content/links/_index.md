@@ -1,4 +1,5 @@
 ---
 title: Links
-description: Posts on things I’ve read elsewhere on the web.
+description: Posts I’ve read elsewhere on the web. [Subscribe via RSS](/links/feed.xml)
 ---
+
