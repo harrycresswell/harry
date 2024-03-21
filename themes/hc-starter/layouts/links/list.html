@@ -8,12 +8,7 @@
     {{ range .Paginator.Pages }}
     <article class="PostListItem h-entry">
       <h2 class="PostListItem-title p-name">
-        {{ $title := .Title }}
-        {{ with .Params.source }}
-          <a href="{{ . }}" class="u-url">{{ $title }}</a>
-        {{ else }}
-          <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
-        {{ end }}
+        <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
       </h2>
       <div hidden>
         <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
@@ -31,7 +26,16 @@
           {{- end -}}
       </div>
       <p>{{ .Content }}</p>
-      <small><a href="{{ .Permalink }}">Permalink</a></small>
+      {{ $source_title := .Params.source_title }}
+      {{ $source_link := .Params.source_link  }}
+      {{ $author := .Params.author }}
+      {{ if eq .Section "links" }}
+        {{ with $source_link }}
+        <div>
+          <a href="{{ . }}">{{ $source_title }} {{ with $author }}by {{ . }}{{ end }} <span>&#8599;</span></a>
+        </div>
+        {{ end }}
+      {{ end }}
     </article>
     {{ end }}
   </section>

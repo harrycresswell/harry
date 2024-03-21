@@ -16,15 +16,6 @@
         {{ partial "post/topics.html" . }} 
       {{ end }}
     </div>
-    {{ $title := .Title }}
-    {{ $author := .Params.author }}
-    {{ if eq .Section "links" }}
-      {{ with .Params.source }}
-      <div>
-        Source: <a href="{{ . }}">{{ $title }}</a>  by {{ $author }}
-      </div>
-      {{ end }}
-    {{ end }}
 
     {{ if ne .Section "newsletter" }}
     <div class="Hero-mod"> 
@@ -39,6 +30,17 @@
 
   <section class="e-content">
     {{ partial "heading-anchor.html" .Content }} 
+    <br/>
+    {{ $source_title := .Params.source_title }}
+    {{ $source_link := .Params.source_link  }}
+    {{ $author := .Params.author }}
+    {{ if eq .Section "links" }}
+      {{ with $source_link }}
+      <div>
+        <a href="{{ . }}">{{ $source_title }} {{ with $author }}by {{ . }}{{ end }} <span>&#8599;</span></a>
+      </div>
+      {{ end }}
+    {{ end }}
 
     {{ if in .Params.topics "Hugo"}}
       <aside class="Callout" style="margin-top: 3rem; max-width: 800px">
@@ -46,6 +48,7 @@
         over at <a href="https://practicalhugo.com/">practicalhugo.com</a>.
       </aside>
     {{ end }}
+
   </section>
 
   {{ partial "reply-by-email.html" . }}

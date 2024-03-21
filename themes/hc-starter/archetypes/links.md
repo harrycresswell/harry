@@ -5,6 +5,7 @@ draft: true
 slug: "{{ .Name | urlize }}"
 topics: ["Hugo", "Tools"]
 description: ""
-source: https://
+source_link: https://
+source_title:
 author: 
 ---
