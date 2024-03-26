@@ -37,7 +37,7 @@
     {{ if eq .Section "links" }}
       {{ with $source_link }}
       <div>
-        <a href="{{ . }}">{{ $source_title }} {{ with $author }}by {{ . }}{{ end }} <span>&#8599;</span></a>
+        <a href="{{ . }}">{{ $source_title }} <span>&#8599;</span></a> {{ with $author }}from {{ . }}{{ end }}. 
       </div>
       {{ end }}
     {{ end }}

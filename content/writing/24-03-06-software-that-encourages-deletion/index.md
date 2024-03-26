@@ -76,8 +76,13 @@ And that doesn’t necessarily mean relying on the browsers local storage. There
 
 Whatever the case, making local data storage the default and cloud data storage an opt-in, might well increase the friction of creating redundant data. Would software designed with this approach in mind help us make progress in discouraging junk data? With many still unaware that digital is physical and its killing the planet, what I like most about making local-first data storage the default, is that it requires little to no education to get users on board.
 
+--- 
 
-## Final words
+Since writing this
+
+---
+
+## Final thoughts
 
 Some fairly rough ramblings there, but hopefully enough to spark some ideas.
 
