@@ -14,8 +14,15 @@
  // Object styles
  @import "objects/_all";
 
+ /* 
+* High level, flexible layouts that provide a 
+* skeleton to support any variant of a component
+*/
+ @import 'compositions/cluster';
+
  // Component styles
  @import "components/_all";
 
  // Utility styles
  @import "utilities/_all";
+ 

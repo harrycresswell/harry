@@ -9,7 +9,6 @@
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
           {{ $topics := .Params.topics }}
           {{- with $topics -}}
-            <span>—</span>
             <div class="Tag">
               {{ range $topics }}
                 <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>

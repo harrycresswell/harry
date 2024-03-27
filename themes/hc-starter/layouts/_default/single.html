@@ -3,7 +3,7 @@
 <article id="content" class="Post h-entry">
   <header class="Hero Hero--page flow">
     <h1 class="Hero-title p-name">{{ .Title }}</h1>
-    <div class="Hero-date">
+    <div class="cluster">
       <time class="dt-published" datetime="{{ .Date }}">
         {{ with .PublishDate.Format "Jan 2, 2006" }}
           {{ . }}
@@ -12,7 +12,6 @@
         {{ end }}
       </time>
       {{ if .Params.topics }}
-        <span>— </span>
         {{ partial "post/topics.html" . }} 
       {{ end }}
     </div>

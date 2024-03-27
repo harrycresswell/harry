@@ -14,8 +14,8 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         {{ end }}
       </h2>
-      <div class="PostListItem-meta">
-        <time class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time> —
+      <div class="cluster">
+        <time class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
         {{ partial "post/topics.html" . }}
       </div>
       <p>{{ .Description | markdownify }}</p>
