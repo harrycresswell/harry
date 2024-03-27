@@ -46,7 +46,7 @@ As Iryna Komazova writes in [Embracing simplicity: the indubitable benefits of r
 
 With fewer distractions it is easier to focus. With less stuff competing for our attention, productivity improves and we feel less stress and anxiety.
 
-But digital decluttering doesn’t just positively impact our our productivity and personal wellbeing. It also improves our finances and helps to reduce the impact digital is having on the planet. 
+But digital decluttering doesn’t just positively impact our productivity and personal wellbeing. It also improves our finances and helps to reduce the impact digital is having on the planet. 
 
 Less clutter requires less computing power and less storage space, which reduces the negative impact to our wallets *and* the environment.
 
@@ -55,7 +55,7 @@ Less clutter requires less computing power and less storage space, which reduces
 
 Reducing digital clutter can be a time consuming process. But for the aforementioned reasons, it’s well worth the effort. Here are a few ideas of how you might make a start decluttering your digital existence.
 
-Clean up your smartphone by delete unused apps and delete large media files sent in group chats. Move older photos onto an external hard drive. I tend to do this at the beginning of each year, only keeping the previous years worth of photos and videos on my device.
+Clean up your smartphone by deleting unused apps and delete large media files sent in group chats. Move older photos onto an external hard drive. I tend to do this at the beginning of each year, only keeping the previous years worth of photos and videos on my device.
 
 Clean out your mailbox(s) by organising any emails you need to keep hold of in folders and archiving or deleting old emails which are no longer needed.
 
