@@ -55,14 +55,12 @@ Tools such as [CCCleaner](https://www.ccleaner.com/), [Gemini 2](https://macpaw.
 
 Whilst these apps are all useful in their own right, they only help us deal with the redundant data we’ve already accumulated (or lost control of). 
 
-So I have to agree with Michelle and Hidde here – if we want to reduce the environmental impact of data storage, then we have to consider how data is handled from the design stage.
-
-Part of that might mean designing sofware that doesn’t actually store data in the first place. 
+So I have to agree with Michelle and Hidde here – if we want to reduce the environmental impact of data storage, then we have to consider how data is handled from the design stage. Part of that might mean designing sofware that doesn’t actually store data in the first place. After all, if we don’t store data, then there’s nothing to delete. 
 
 
 ## Software that prioritises local data storage
 
-Perhaps we should ask ourselves whether we even need store all our data in ”the cloud” for long term, then choose the software we use accordingly?
+Perhaps we should be asking ourselves whether we even need store all our data in ”the cloud”, then choose the software we use accordingly?
 
 Ross Wintle’s [JSON: Notes](https://notes.veryuseful.app/) app uses local storage to store data directly in the browser, so data never even hits a datacenter in the first place.
 
