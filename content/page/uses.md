@@ -144,7 +144,7 @@ I recently switched from [Notion](https://www.notion.so/)† to Obsidian for hab
 
 Having tried many of the meditation apps out there, my current favourite for guided meditation is [Balance](https://balanceapp.com/). For unguided meditation I use [Insight Timer](https://insighttimer.com/).
 
-I use the [Zoe](https://zoe.com/) app for logging and scoring recipes and meals.
+~~I use the [Zoe](https://zoe.com/) app for logging and scoring recipes and meals.~~
 
 ## Misc
 

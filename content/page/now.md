@@ -15,15 +15,16 @@ These are the things I’m focusing my time and energy on right now, inspired by
 
 ## Building
 
-- [cu.css](https://cu.harrycresswell.com), my lightweight CSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
-- A new home for [B32](https://buxtonthreetwo.com) on Hugo and Cloudcannon.
+- [cu.css](https://cu.harrycresswell.com), a lightweight CSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
 
 ## Watching
 
 - The X-Files.
+- Beef
 
 ## Reading
 
+- [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money) by Morgan Housel
 - [The The Vignelli Canon](https://www.goodreads.com/book/show/9180968-the-vignelli-canon) by Massimo Vignelli.
 
 ## Learning

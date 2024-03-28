@@ -25,13 +25,13 @@ Two-factor authentication (2FA) adds an extra layer of security to your account 
 
 Always use a different manager for 2FA and passwords. This prevents a single point of failure should either be compromised.
 
-Check out [Raivo](https://apps.apple.com/us/app/raivo-otp/id1459042137) for MacOS and iOS. [Authy](https://authy.com/) for both iOS and Android.
+Check out [2FAS](https://2fas.com/) for MacOS and iOS. [Authy](https://authy.com/) for both iOS and Android.
 
 ## Use a secure, private email provider
 
 A [secure, privacy focused email](/writing/privacy-focused-email/) provider will help you keep your email conversations private via end-to-end encryption. That means not even the provider themselves will be able to access your email.
 
-[ProtoMail](https://proton.me/mail) is a popular choice. As is [Tutanota](https://tutanota.com/) which also includes an encrypted calendar.
+[ProtoMail](https://proton.me/mail) is a popular choice, as is [Tutanota](https://tutanota.com/) which also includes an encrypted calendar.
 
 
 ## Use an email masking service
@@ -58,7 +58,7 @@ Privacy focused web browsers prevent you from being targeted by intrusive ads an
 
 [Tor](https://www.torproject.org/) is another popular privacy browser which comes pre-installed with privacy add-ons, encryption, and an advanced proxy. 
 
-[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) offers simple ”one tab only” private mobile browsing. It has swiftly become my browser of choice on iOS.
+[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/) offers simple ”one tab only” private mobile browsing. It has swiftly become my iOS browser of choice.
 
 ## Use a privacy search engine
 
@@ -147,3 +147,4 @@ Making better software choices and educating others to do the same is a surefire
 - [Privacy Tools](https://www.privacytools.io/)
 - [Pixel Privacy](https://pixelprivacy.com/)
 - [Restore Privacy](https://restoreprivacy.com/)
+- [Privacy and security tools I use](/uses/#privacy-and-security)
