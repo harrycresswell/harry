@@ -11,6 +11,8 @@ layout: page
 
 ## 2024
 
+- The Psychology of Money by Morgan Housel
+- Zen: The Art of Simple Living by Shunmyō Masunoe
 - Journeys Out of the Body by Robert A. Monroe
 - The Warm Dry Home by Pete Ward
 
