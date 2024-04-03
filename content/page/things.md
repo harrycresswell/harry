@@ -11,7 +11,7 @@ layout= "page"
 
 ## Active projects
 
-[Practical Hugo](https://practicalhugo.com) is a course on building resilient websites with [Hugo](/topics/hugo). I’m in the process of putting together and if all goes to plan it will launch in Spring 2022.
+[Practical Hugo](https://practicalhugo.com) is a course on building leaner, faster, more resilient websites with [Hugo](/topics/hugo). I plan to release the first season later this year.
 
 [Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers. It’s now run by [Rebekka](https://rebekkawrites.com/).
 
