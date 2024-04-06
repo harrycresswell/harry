@@ -59,19 +59,14 @@ url = "/writing/"
 weight = 10
 
 [[menu.main]]
-name = "Newsletter"
-url = "/newsletter/"
-weight = 15
-
-[[menu.main]]
 name = "Links"
 url = "/links/"
-weight = 20
+weight = 15
 
 [[menu.main]]
 name = "Topics"
 url = "/topics/"
-weight = 25
+weight = 20
 
 [[menu.footer]]
 name = "Index"
@@ -84,16 +79,11 @@ url = "/writing/"
 weight = 10
 
 [[menu.footer]]
-name = "Newsletter"
-url = "/newsletter/"
-weight = 15
-
-[[menu.footer]]
 name = "Links"
 url = "/links/"
-weight = 20
+weight = 15
 
 [[menu.footer]]
 name = "Topics"
 url = "/topics/"
-weight = 25
+weight = 20

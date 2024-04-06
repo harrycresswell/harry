@@ -17,7 +17,7 @@ layout= "page"
 
 [Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
 
-[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). Since 2012 I’ve created pretty much all the artwork for my good friend Matt Benyayer’s music.
+[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). Since 2012 I’ve been collaborating with my good friend Matt Benyayer to create the artwork for his music.
 
 [Link styles like...](https://codepen.io/harrycresswell/pen/QWJxrBY) A growing collection of interesting link styles, found around the web and recreated in Codepen.
 
