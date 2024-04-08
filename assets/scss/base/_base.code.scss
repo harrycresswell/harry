@@ -19,10 +19,6 @@ pre {
   padding: 3%;
 }
 
-pre+p {
-  @include margin-top(1);
-}
-
 p code,
 li code {
   padding: .125rem .35rem;

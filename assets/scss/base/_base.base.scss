@@ -27,10 +27,6 @@ body {
 p {
 	max-width: 57ch;
 	hyphens: auto;
-
-	&:not(:last-of-type) {
-		@include margin-bottom(0.8);
-	}
 }
 
 /* 

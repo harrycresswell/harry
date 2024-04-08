@@ -6,6 +6,10 @@
  * Component Block
  */
 
+ .Newsletter {
+  margin-top: var(--space-2xl)
+ }
+
 .NewsletterForm {
   display: flex;
   flex-direction: column;

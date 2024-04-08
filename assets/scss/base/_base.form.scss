@@ -6,10 +6,6 @@ form {
   @include margin-bottom(1);
 }
 
-// ::placeholder {
-//   color: var(--color-lighter);
-// }
-
 /**
   * Component Element
   */
@@ -56,10 +52,10 @@ select {
 
 label {
   display: block;
-  @include margin-top(0.5);
-  @include margin-bottom(0.25);
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-2xs);
 }
 
 form button {
-  @include margin-top(0.5);
+  margin-top: var(--space-xs);
 }

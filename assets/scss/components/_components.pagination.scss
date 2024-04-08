@@ -9,8 +9,6 @@
 ul.Pagination {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(var(--space) *12);
-  margin-bottom: calc(var(--space) *12);
 
   .Pagination-item {
     margin-top: calc(var(--space) *1.5);

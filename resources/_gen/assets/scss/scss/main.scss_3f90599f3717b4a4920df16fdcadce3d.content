@@ -213,11 +213,7 @@ body {
 p {
   max-width: 57ch;
   hyphens: auto; }
-  p:not(:last-of-type) {
-    margin-bottom: 1.2rem; }
-    @media screen and (min-width: 48em) {
-      p:not(:last-of-type) {
-        margin-bottom: 1.28rem; } }
+
 /* 
 	* See https://piccalil.li/quick-tip/add-scroll-margin-to-all-elements-which-can-be-targeted
 */
@@ -271,16 +267,8 @@ h1,
 h2,
 .h2 {
   font-size: var(--step-2);
-  margin-top: 3.75rem;
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    h2,
-    .h2 {
-      margin-top: 4rem; } }
-  @media screen and (min-width: 48em) {
-    h2,
-    .h2 {
-      margin-bottom: 1.6rem; } }
+  --flow-space: var(--space-l-xl); }
+
 h3,
 .h3 {
   font-size: var(--step-1);
@@ -425,11 +413,6 @@ pre {
   overflow-wrap: normal;
   padding: 3%; }
 
-pre + p {
-  margin-top: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    pre + p {
-      margin-top: 1.6rem; } }
 p code,
 li code {
   padding: .125rem .35rem; }
@@ -500,19 +483,12 @@ select {
 
 label {
   display: block;
-  margin-top: 0.75rem;
-  margin-bottom: 0.375rem; }
-  @media screen and (min-width: 48em) {
-    label {
-      margin-top: 0.8rem; } }
-  @media screen and (min-width: 48em) {
-    label {
-      margin-bottom: 0.4rem; } }
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-2xs); }
+
 form button {
-  margin-top: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    form button {
-      margin-top: 0.8rem; } }
+  margin-top: var(--space-xs); }
+
 /*------------------------------------*\
     #BASE: VIDEO
 \*------------------------------------*/
@@ -1358,6 +1334,9 @@ p + .Image {
 /**
  * Component Block
  */
+.Newsletter {
+  margin-top: var(--space-2xl); }
+
 .NewsletterForm {
   display: flex;
   flex-direction: column;
@@ -1469,9 +1448,7 @@ p + .Image {
  */
 ul.Pagination {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--space) *12);
-  margin-bottom: calc(var(--space) *12); }
+  flex-wrap: wrap; }
   ul.Pagination .Pagination-item {
     margin-top: calc(var(--space) *1.5);
     margin-bottom: calc(var(--space) *1.5); }
