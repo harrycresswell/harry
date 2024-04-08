@@ -2,8 +2,8 @@
 Utopia fluid type
 
 @link https://utopia.fyi/type/calculator?c=320,16,1.125,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 
-
 */
+
 :root {
   --step--1: clamp(0.8889rem, 0.8455rem + 0.2168vi, 1rem);
   --step-0: clamp(1rem, 0.9024rem + 0.4878vi, 1.25rem);
@@ -12,3 +12,7 @@ Utopia fluid type
   --step-3: clamp(1.4238rem, 1.0267rem + 1.9855vi, 2.4414rem);
   --step-4: clamp(1.6018rem, 1.036rem + 2.8292vi, 3.0518rem);
 }
+
+// Variables
+$line-height: 1.5; // Sets vertical rhythm (22.5px / 16px = 1.5)
+$line-height-desktop: 1.6; // Sets vertical rhythm (32px / 20px = 1.6)

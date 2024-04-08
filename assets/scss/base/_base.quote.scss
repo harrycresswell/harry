@@ -5,7 +5,6 @@
 blockquote {
   border-left: 2px solid var(--color-dark);
   color: var(--color-dark);
-  font-weight: $font-weight-regular;
   font-style: italic;
   @include margin-top(1);
   @include margin-bottom(1);
@@ -19,8 +18,7 @@ blockquote {
     display: block;
     font-size: 80%;
     font-style: normal;
-    font-family: $font-system-md;
-    font-weight: $font-weight-bold;
+    font-weight: var(--font-weight-bold);
     @include margin-top(0.5);
   }
 }

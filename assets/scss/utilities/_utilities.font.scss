@@ -4,13 +4,13 @@
 
 /* font family */
 .mono {
-  font-family: $font-system-mn;
+  font-family: var(--font-accent);
 }
 
 /* font size */
 .body {
   font-size: var(--step-0);
-  font-weight: $font-weight-regular;
+  font-weight: var(--font-weight-regular);
   @include margin-top(0);
 }
 
@@ -20,9 +20,9 @@
 
 /* font weight */
 .strong {
-  font-weight: $font-weight-medium;
+  font-weight: var(--font-weight-medium);
 }
 
 .font-bold {
-  font-weight: $font-weight-bold;
+  font-weight: var(--font-weight-bold);
 }
