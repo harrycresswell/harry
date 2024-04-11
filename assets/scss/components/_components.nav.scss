@@ -8,13 +8,13 @@
 
 .Nav-list {
   display: flex;
-  gap: calc(var(--space) *1.5);
+  gap: var(--space-xs);
 }
 
 .Nav-listItemLink {
   color: var(--color-dark);
   text-decoration: none;
-  padding: calc(var(--space) *.5);
+  padding: var(--space-3xs);
 
   &:hover {
     color: inherit;

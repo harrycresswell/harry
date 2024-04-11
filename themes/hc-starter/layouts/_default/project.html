@@ -5,7 +5,7 @@
       <header class="Hero flow">
         <h1 class="p-name">{{ .Title }}</h1>
         <p>{{ .Params.Description | markdownify }}</p>
-        <div class="flex">
+        <div class="cluster">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
           {{ $topics := .Params.topics }}
           {{- with $topics -}}

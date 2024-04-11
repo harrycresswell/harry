@@ -6,11 +6,9 @@ blockquote {
   border-left: 2px solid var(--color-dark);
   color: var(--color-dark);
   font-style: italic;
-  @include margin-top(1);
-  @include margin-bottom(1);
 
   p {
-    @include margin-left(1);
+   margin-inline-start: var(--space-m);
   }
   
   cite,
@@ -19,6 +17,7 @@ blockquote {
     font-size: 80%;
     font-style: normal;
     font-weight: var(--font-weight-bold);
-    @include margin-top(0.5);
+    margin-block-start: var(--space-xs);
+    margin-inline-start: var(--space-m);
   }
 }

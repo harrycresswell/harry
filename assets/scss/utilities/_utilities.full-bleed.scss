@@ -11,6 +11,6 @@
   transform: translateX(-50%);
 
   & figcaption {
-    margin-left: calc(var(--space) *2);
+    margin-left: var(--space-l);
   }
 }

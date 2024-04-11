@@ -7,15 +7,5 @@
  */
 
 .Hero {
-  @include margin-top(6);
-  @include margin-bottom(6);
-}
-
-.Hero-date {
-  display: flex;
-  margin-top: .8rem;
-}
-
-.Hero-mod {
-  margin-top: 2rem;
+  margin-block: var(--space-4xl);
 }

@@ -7,6 +7,6 @@
  */
  
 .Footer {
-  @include margin-top(2);
+  margin-block-start: var(--space-xl);
   padding-bottom: 3rem;
 }

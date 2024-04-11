@@ -11,15 +11,14 @@
 .intro {
   font-size: 110%;
   line-height: 1.5;
-  @include margin-bottom(1);
+  margin-bottom: var(--space-m);
   max-width: 52ch;
 }
 
 .PostAuthor {
   display: flex;
   align-items: center;
-  @include margin-top(3);
-  @include margin-bottom(3);
+  margin-block: var(--space-xl);
 
   h2 {
     font-size: var(--step-1);

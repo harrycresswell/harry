@@ -34,38 +34,35 @@ aside.primary {
   @media (min-width: 37.5em) {
     aside.primary {
       /* responsive content */ } }
-/*------------------------------------*\
-    #ABSTRACTS: SPACING
-\*------------------------------------*/
-:root {
-  --space: calc(1rem/2); }
-
 /* 
 Utopia fluid space
 
-@link https://utopia.fyi/space/calculator?c=320,16,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 
+@link https://utopia.fyi/space/calculator?c=320,16,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6|7,s-l&g=s,l,xl,12 
+
 */
 :root {
-  --space-3xs: clamp(0.25rem, calc(0.23rem + 0.11vw), 0.31rem);
-  --space-2xs: clamp(0.50rem, calc(0.46rem + 0.22vw), 0.63rem);
-  --space-xs: clamp(0.75rem, calc(0.68rem + 0.33vw), 0.94rem);
-  --space-s: clamp(1.00rem, calc(0.91rem + 0.43vw), 1.25rem);
-  --space-m: clamp(1.50rem, calc(1.37rem + 0.65vw), 1.88rem);
-  --space-l: clamp(2.00rem, calc(1.83rem + 0.87vw), 2.50rem);
-  --space-xl: clamp(3.00rem, calc(2.74rem + 1.30vw), 3.75rem);
-  --space-2xl: clamp(4.00rem, calc(3.65rem + 1.74vw), 5.00rem);
-  --space-3xl: clamp(6.00rem, calc(5.48rem + 2.61vw), 7.50rem);
+  --space-3xs: clamp(0.25rem, 0.2283rem + 0.1087vi, 0.3125rem);
+  --space-2xs: clamp(0.5rem, 0.4565rem + 0.2174vi, 0.625rem);
+  --space-xs: clamp(0.75rem, 0.6848rem + 0.3261vi, 0.9375rem);
+  --space-s: clamp(1rem, 0.913rem + 0.4348vi, 1.25rem);
+  --space-m: clamp(1.5rem, 1.3696rem + 0.6522vi, 1.875rem);
+  --space-l: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+  --space-xl: clamp(3rem, 2.7391rem + 1.3043vi, 3.75rem);
+  --space-2xl: clamp(4rem, 3.6522rem + 1.7391vi, 5rem);
+  --space-3xl: clamp(6rem, 5.4783rem + 2.6087vi, 7.5rem);
+  --space-4xl: clamp(7rem, 6.3913rem + 3.0435vi, 8.75rem);
   /* One-up pairs */
-  --space-3xs-2xs: clamp(0.25rem, calc(0.12rem + 0.65vw), 0.63rem);
-  --space-2xs-xs: clamp(0.50rem, calc(0.35rem + 0.76vw), 0.94rem);
-  --space-xs-s: clamp(0.75rem, calc(0.58rem + 0.87vw), 1.25rem);
-  --space-s-m: clamp(1.00rem, calc(0.70rem + 1.52vw), 1.88rem);
-  --space-m-l: clamp(1.50rem, calc(1.15rem + 1.74vw), 2.50rem);
-  --space-l-xl: clamp(2.00rem, calc(1.39rem + 3.04vw), 3.75rem);
-  --space-xl-2xl: clamp(3.00rem, calc(2.30rem + 3.48vw), 5.00rem);
-  --space-2xl-3xl: clamp(4.00rem, calc(2.78rem + 6.09vw), 7.50rem);
+  --space-3xs-2xs: clamp(0.25rem, 0.1196rem + 0.6522vi, 0.625rem);
+  --space-2xs-xs: clamp(0.5rem, 0.3478rem + 0.7609vi, 0.9375rem);
+  --space-xs-s: clamp(0.75rem, 0.5761rem + 0.8696vi, 1.25rem);
+  --space-s-m: clamp(1rem, 0.6957rem + 1.5217vi, 1.875rem);
+  --space-m-l: clamp(1.5rem, 1.1522rem + 1.7391vi, 2.5rem);
+  --space-l-xl: clamp(2rem, 1.3913rem + 3.0435vi, 3.75rem);
+  --space-xl-2xl: clamp(3rem, 2.3043rem + 3.4783vi, 5rem);
+  --space-2xl-3xl: clamp(4rem, 2.7826rem + 6.087vi, 7.5rem);
+  --space-3xl-4xl: clamp(6rem, 5.0435rem + 4.7826vi, 8.75rem);
   /* Custom pairs */
-  --space-s-l: clamp(1.00rem, calc(0.48rem + 2.61vw), 2.50rem); }
+  --space-s-l: clamp(1rem, 0.4783rem + 2.6087vi, 2.5rem); }
 
 /* 
 Utopia fluid type
@@ -272,30 +269,14 @@ h2,
 h3,
 .h3 {
   font-size: var(--step-1);
-  margin-top: 2.25rem;
-  margin-bottom: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    h3,
-    .h3 {
-      margin-top: 2.4rem; } }
-  @media screen and (min-width: 48em) {
-    h3,
-    .h3 {
-      margin-bottom: 0.8rem; } }
+  --flow-space: var(--space-l); }
+
 h4,
 .h4 {
   font-size: var(--step-0);
   line-height: 1.4;
-  margin-top: 2.25rem;
-  margin-bottom: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    h4,
-    .h4 {
-      margin-top: 2.4rem; } }
-  @media screen and (min-width: 48em) {
-    h4,
-    .h4 {
-      margin-bottom: 0.8rem; } }
+  --flow-space: var(--space-m); }
+
 /*------------------------------------*\
     #BASE: IMAGES
 \*------------------------------------*/
@@ -315,10 +296,8 @@ figure > img {
 
 figcaption {
   font-size: 80%;
-  margin-top: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    figcaption {
-      margin-top: 0.8rem; } }
+  margin-block-start: var(--space-xs); }
+
 /*------------------------------------*\
     #BASE: LINKS
 \*------------------------------------*/
@@ -351,13 +330,6 @@ ol {
     ul,
     ol {
       list-style-position: outside; } }
-ul + p,
-ol + p {
-  margin-top: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    ul + p,
-    ol + p {
-      margin-top: 1.6rem; } }
 ul[class],
 ol[class] {
   list-style: none; }
@@ -371,31 +343,18 @@ li > ul {
 blockquote {
   border-left: 2px solid var(--color-dark);
   color: var(--color-dark);
-  font-style: italic;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    blockquote {
-      margin-top: 1.6rem; } }
-  @media screen and (min-width: 48em) {
-    blockquote {
-      margin-bottom: 1.6rem; } }
+  font-style: italic; }
   blockquote p {
-    margin-left: 1.5rem; }
-    @media screen and (min-width: 48em) {
-      blockquote p {
-        margin-left: 1.6rem; } }
+    margin-inline-start: var(--space-m); }
   blockquote cite,
   blockquote figcaption {
     display: block;
     font-size: 80%;
     font-style: normal;
     font-weight: var(--font-weight-bold);
-    margin-top: 0.75rem; }
-    @media screen and (min-width: 48em) {
-      blockquote cite,
-      blockquote figcaption {
-        margin-top: 0.8rem; } }
+    margin-block-start: var(--space-xs);
+    margin-inline-start: var(--space-m); }
+
 /*------------------------------------*\
     #BASE: CODE
 \*------------------------------------*/
@@ -438,11 +397,6 @@ pre code {
 /*------------------------------------*\
     #BASE: INPUT
 \*------------------------------------*/
-form {
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    form {
-      margin-bottom: 1.6rem; } }
 /**
   * Component Element
   */
@@ -497,7 +451,8 @@ form button {
  */
 video {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-block: var(--space-s); }
 
 /* Background */
 .chroma {
@@ -877,23 +832,13 @@ video {
 .intro {
   font-size: 110%;
   line-height: 1.5;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-m);
   max-width: 52ch; }
-  @media screen and (min-width: 48em) {
-    .Post .intro,
-    .intro {
-      margin-bottom: 1.6rem; } }
+
 .PostAuthor {
   display: flex;
   align-items: center;
-  margin-top: 4.5rem;
-  margin-bottom: 4.5rem; }
-  @media screen and (min-width: 48em) {
-    .PostAuthor {
-      margin-top: 4.8rem; } }
-  @media screen and (min-width: 48em) {
-    .PostAuthor {
-      margin-bottom: 4.8rem; } }
+  margin-block: var(--space-xl); }
   .PostAuthor h2 {
     font-size: var(--step-1); }
   .PostAuthor h2,
@@ -935,24 +880,12 @@ video {
   line-height: 1.2; }
 
 .Blocks section {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-  @media screen and (min-width: 48em) {
-    .Blocks section {
-      margin-top: 3.2rem; } }
-  @media screen and (min-width: 48em) {
-    .Blocks section {
-      margin-bottom: 3.2rem; } }
+  margin-block: var(--space-l); }
+
 @media (min-width: 48em) {
   .Blocks section {
-    margin-top: 6rem;
-    margin-bottom: 6rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Blocks section {
-      margin-top: 6.4rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .Blocks section {
-      margin-bottom: 6.4rem; } }
+    margin-block: var(--space-2xl); } }
+
 /*------------------------------------*\
     #LAYOUTS: POST-LIST
 \*------------------------------------*/
@@ -960,15 +893,7 @@ video {
  * Component Block
  */
 .PostListItem {
-  margin-bottom: 4.5rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem {
-      margin-bottom: 4.8rem; } }
-  .PostListItem:first-of-type {
-    margin-top: 3rem; }
-    @media screen and (min-width: 48em) {
-      .PostListItem:first-of-type {
-        margin-top: 3.2rem; } }
+  margin-block-end: var(--space-2xl); }
   .PostListItem p {
     color: var(--color-dark); }
 
@@ -977,15 +902,7 @@ video {
  */
 .PostListItem-title {
   line-height: 1.2;
-  margin-top: 0rem;
-  margin-bottom: 0.75rem;
   max-width: 30ch; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-top: 0rem; } }
-  @media screen and (min-width: 48em) {
-    .PostListItem-title {
-      margin-bottom: 0.8rem; } }
   .PostListItem-title a {
     color: var(--color-dark);
     text-decoration: none; }
@@ -994,11 +911,8 @@ video {
       text-decoration: underline; }
 
 .PostListItem-meta {
-  display: flex;
-  margin-bottom: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    .PostListItem-meta {
-      margin-bottom: 0.8rem; } }
+  display: flex; }
+
 /*------------------------------------*\
     #LAYOUTS: TAG-LIST
 \*------------------------------------*/
@@ -1015,10 +929,8 @@ video {
     margin-bottom: 64px; } }
 
 .TagListItem {
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .TagListItem {
-      margin-bottom: 1.6rem; } }
+  margin-block-end: var(--space-m); }
+
 .TagListItem-title {
   margin: 0;
   font-size: var(--step-2); }
@@ -1058,7 +970,8 @@ video {
   color: var(--color-white);
   font-family: var(--font-accent);
   font-size: var(--step--1);
-  padding: calc(var(--space) / 2) var(--space);
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-m);
   text-align: center; }
   .PromoBanner p {
     max-width: 100%; }
@@ -1099,10 +1012,8 @@ video {
  * Component Block
  */
 .ButtonWrap {
-  margin-bottom: 6rem; }
-  @media screen and (min-width: 48em) {
-    .ButtonWrap {
-      margin-bottom: 6.4rem; } }
+  margin-block-end: var(--space-2xl); }
+
 .Button {
   border-width: 0;
   border-radius: 0;
@@ -1157,21 +1068,6 @@ video {
   outline-offset: 3px; }
 
 /*------------------------------------*\
-    #OBJECTS: VIDEO
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Video {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem; }
-  @media screen and (min-width: 48em) {
-    .Video {
-      margin-top: 2.4rem; } }
-  @media screen and (min-width: 48em) {
-    .Video {
-      margin-bottom: 2.4rem; } }
-/*------------------------------------*\
     #OBJECTS: BADGE
 \*------------------------------------*/
 /**
@@ -1180,7 +1076,7 @@ video {
 .Badge {
   color: var(--color-brand);
   background-color: rgba(var(--color-brand-rgb), 0.05);
-  padding: calc(var(--space) /1.5); }
+  padding: var(--space-3xs); }
 
 /*------------------------------------*\
     #OBJECTS: TAG
@@ -1222,7 +1118,7 @@ Can be any acceptable flexbox alignment value.
 .cluster {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space, var(--space-s-l));
+  gap: var(--space, var(--space-xs));
   justify-content: var(--cluster-horizontal-alignment, flex-start);
   align-items: var(--cluster-vertical-alignment, center); }
 
@@ -1264,12 +1160,12 @@ Can be any acceptable flexbox alignment value.
  */
 .Nav-list {
   display: flex;
-  gap: calc(var(--space) *1.5); }
+  gap: var(--space-xs); }
 
 .Nav-listItemLink {
   color: var(--color-dark);
   text-decoration: none;
-  padding: calc(var(--space) *.5); }
+  padding: var(--space-3xs); }
   .Nav-listItemLink:hover {
     color: inherit;
     background-color: unset;
@@ -1284,30 +1180,15 @@ Can be any acceptable flexbox alignment value.
  * Component Block
  */
 .Footer {
-  margin-top: 3rem;
+  margin-block-start: var(--space-xl);
   padding-bottom: 3rem; }
-  @media screen and (min-width: 48em) {
-    .Footer {
-      margin-top: 3.2rem; } }
+
 /*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 /**
  * Component Block
  */
-.Image figcaption {
-  line-height: 20px;
-  margin-top: 0.75rem; }
-  @media screen and (min-width: 48em) {
-    .Image figcaption {
-      margin-top: 0.8rem; } }
-.Image + p,
-p + .Image {
-  margin-top: 2.25rem; }
-  @media screen and (min-width: 48em) {
-    .Image + p,
-    p + .Image {
-      margin-top: 2.4rem; } }
 .ImageCover {
   object-fit: cover;
   height: 350px; }
@@ -1340,38 +1221,24 @@ p + .Image {
 .NewsletterForm {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .NewsletterForm {
-      margin-top: 1.6rem; } }
+  margin-block-start: var(--space-m); }
+
 .NewsletterForm-field:nth-child(even) {
-  margin-bottom: 1.5rem; }
-  @media screen and (min-width: 48em) {
-    .NewsletterForm-field:nth-child(even) {
-      margin-bottom: 1.6rem; } }
+  margin-block-end: var(--space-m); }
+
 @media (min-width: 48em) {
   .NewsletterForm {
     flex-direction: row; }
   .NewsletterForm-label {
-    margin-top: 0rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .NewsletterForm-label {
-      margin-top: 0rem; } }
-@media (min-width: 48em) {
+    margin-top: 0; }
   .NewsletterForm-field {
     flex: 1;
     align-self: flex-end; }
     .NewsletterForm-field:nth-child(even) {
-      margin-bottom: 0rem; } }
-    @media screen and (min-width: 48em) and (min-width: 48em) {
-      .NewsletterForm-field:nth-child(even) {
-        margin-bottom: 0rem; } }
-@media (min-width: 48em) {
+      margin-bottom: 0; }
     .NewsletterForm-field:not(:last-of-type) {
-      margin-right: 0.75rem; } }
-    @media screen and (min-width: 48em) and (min-width: 48em) {
-      .NewsletterForm-field:not(:last-of-type) {
-        margin-right: 0.8rem; } }
+      margin-inline-end: var(--space-xs); } }
+
 /*------------------------------------*\
     #COMPONENTS: PULLQUOTE
 \*------------------------------------*/
@@ -1384,62 +1251,25 @@ p + .Image {
   max-width: 430px; }
   .PullQuote > p {
     font-size: 110%;
-    margin-bottom: 0.75rem;
-    margin-left: 0rem; }
-    @media screen and (min-width: 48em) {
-      .PullQuote > p {
-        margin-bottom: 0.8rem; } }
-    @media screen and (min-width: 48em) {
-      .PullQuote > p {
-        margin-left: 0rem; } }
+    margin-left: 0; }
   .PullQuote > figcaption {
-    margin-left: 0rem; }
-    @media screen and (min-width: 48em) {
-      .PullQuote > figcaption {
-        margin-left: 0rem; } }
+    margin-left: 0; }
+
 /**
  * Component Modifier
  */
 .PullQuote--left {
-  margin-top: 0rem;
-  margin-bottom: 0rem; }
-  @media screen and (min-width: 48em) {
-    .PullQuote--left {
-      margin-top: 0rem; } }
-  @media screen and (min-width: 48em) {
-    .PullQuote--left {
-      margin-bottom: 0rem; } }
+  margin-top: 0;
+  margin-bottom: 0; }
   @media (min-width: 48em) {
     .PullQuote--left {
-      margin-left: 0rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .PullQuote--left {
-      margin-left: 0rem; } }
+      margin-left: 0; } }
 .PullQuote--right {
   float: right;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
-  margin-left: 3rem;
-  margin-right: 1.5rem;
+  margin-bottom: var(--space-m);
+  margin-left: var(--space-m);
   width: 400px; }
-  @media screen and (min-width: 48em) {
-    .PullQuote--right {
-      margin-top: 1.6rem; } }
-  @media screen and (min-width: 48em) {
-    .PullQuote--right {
-      margin-bottom: 3.2rem; } }
-  @media screen and (min-width: 48em) {
-    .PullQuote--right {
-      margin-left: 3.2rem; } }
-  @media screen and (min-width: 48em) {
-    .PullQuote--right {
-      margin-right: 1.6rem; } }
-  @media (min-width: 48em) {
-    .PullQuote--right {
-      margin-right: 12rem; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
-    .PullQuote--right {
-      margin-right: 12.8rem; } }
+
 /*------------------------------------*\
     #COMPONENTS: PAGINATION
 \*------------------------------------*/
@@ -1450,16 +1280,16 @@ ul.Pagination {
   display: flex;
   flex-wrap: wrap; }
   ul.Pagination .Pagination-item {
-    margin-top: calc(var(--space) *1.5);
-    margin-bottom: calc(var(--space) *1.5); }
+    margin-block: var(--space-s); }
   ul.Pagination .Pagination-item:not(:first-of-type) {
-    margin-left: calc(var(--space) /1.5); }
+    margin-inline-start: var(--space-3xs); }
   ul.Pagination .Pagination-itemLink {
     font-family: var(--font-mono);
     font-size: var(--font-size-xs);
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: calc(var(--space) /1.5) calc(var(--space) *1.5); }
+    padding-block: var(--space-3xs);
+    padding-inline: var(--space-xs); }
     @media (min-width: 48em) {
       ul.Pagination .Pagination-itemLink {
         font-size: var(--font-size-xxs); } }
@@ -1476,20 +1306,7 @@ ul.Pagination {
  * Component Block
  */
 .Hero {
-  margin-top: 9rem;
-  margin-bottom: 9rem; }
-  @media screen and (min-width: 48em) {
-    .Hero {
-      margin-top: 9.6rem; } }
-  @media screen and (min-width: 48em) {
-    .Hero {
-      margin-bottom: 9.6rem; } }
-.Hero-date {
-  display: flex;
-  margin-top: .8rem; }
-
-.Hero-mod {
-  margin-top: 2rem; }
+  margin-block: var(--space-4xl); }
 
 /*------------------------------------*\
     #COMPONENTS: CALLOUT
@@ -1553,10 +1370,8 @@ p.Callout:not(:first-of-type) {
 .body {
   font-size: var(--step-0);
   font-weight: var(--font-weight-regular);
-  margin-top: 0rem; }
-  @media screen and (min-width: 48em) {
-    .body {
-      margin-top: 0rem; } }
+  margin-top: 0; }
+
 .small {
   font-size: 80%; }
 
@@ -1600,7 +1415,7 @@ p.Callout:not(:first-of-type) {
   margin-left: 50%;
   transform: translateX(-50%); }
   .full-bleed figcaption {
-    margin-left: calc(var(--space) *2); }
+    margin-left: var(--space-l); }
 
 /*------------------------------------*\
     #UTILITIES: LAYOUT

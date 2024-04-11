@@ -8,11 +8,7 @@
  */
 
 .PostListItem {
-  @include margin-bottom(3);
-
-  &:first-of-type {
-    @include margin-top(2);
-  }
+  margin-block-end: var(--space-2xl);
 
   p {
     color: var(--color-dark);
@@ -26,8 +22,6 @@
 
 .PostListItem-title {
   line-height: 1.2;
-  @include margin-top(0);
-  @include margin-bottom(0.5);
   max-width: 30ch;
 
   a {
@@ -43,5 +37,4 @@
 
 .PostListItem-meta {
   display: flex;
-  @include margin-bottom(0.5);
 }

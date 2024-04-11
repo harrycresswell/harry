@@ -13,12 +13,12 @@
 .NewsletterForm {
   display: flex;
   flex-direction: column;
-  @include margin-top(1);
+  margin-block-start: var(--space-m);
 }
 
 .NewsletterForm-field {
   &:nth-child(even) {
-    @include margin-bottom(1);
+    margin-block-end: var(--space-m);
   }
 }
 
@@ -28,7 +28,7 @@
   }
 
   .NewsletterForm-label {
-    @include margin-top(0);
+    margin-top: 0;
   }
 
   .NewsletterForm-field {
@@ -36,11 +36,11 @@
     align-self: flex-end;
 
     &:nth-child(even) {
-      @include margin-bottom(0);
+      margin-bottom: 0;
     }
 
     &:not(:last-of-type) {
-      @include margin-right(0.5);
+      margin-inline-end: var(--space-xs);
     }
   }
 }

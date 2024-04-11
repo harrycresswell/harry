@@ -22,5 +22,5 @@ figure > img {
 
 figcaption {
   font-size: 80%;
-  @include margin-top(0.5);
+  margin-block-start: var(--space-xs);
 }

@@ -14,12 +14,11 @@
 
   >p {
     font-size: 110%;
-    @include margin-bottom(0.5);
-    @include margin-left(0);
+    margin-left: 0;
   }
 
   >figcaption {
-    @include margin-left(0);
+    margin-left: 0;
   }
 }
 
@@ -28,25 +27,19 @@
  */
 
 .PullQuote--left {
-  @include margin-top(0);
-  @include margin-bottom(0);
+  margin-top: 0;
+  margin-bottom: 0;
 
   @include breakpoint(md) {
-    @include margin-left(0);
+    margin-left: 0;
   }
 
 }
 
 .PullQuote--right {
   float: right;
-  @include margin-top(1);
-  @include margin-bottom(2);
-  @include margin-left(2);
-  @include margin-right(1);
+  margin-bottom: var(--space-m);
+  margin-left: var(--space-m);
   width: 400px;
-
-  @include breakpoint(md) {
-    @include margin-right(8);
-  }
 
 }

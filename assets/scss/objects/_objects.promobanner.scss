@@ -12,7 +12,8 @@
   color: var(--color-white);
   font-family: var(--font-accent);
   font-size: var(--step--1);
-  padding: calc(var(--space) / 2) var(--space);
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-m);
   text-align: center;
 
   p {

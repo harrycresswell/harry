@@ -6,19 +6,6 @@
  * Component Block
  */
 
- .Image {
-
-  figcaption {
-    line-height: 20px;
-    @include margin-top(0.5);
-  }
-}
-
-.Image + p,
-p + .Image {
-  @include margin-top(1.5);
-}
-
 .ImageCover {
   object-fit: cover;
   height: 350px;

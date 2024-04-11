@@ -11,12 +11,11 @@ ul.Pagination {
   flex-wrap: wrap;
 
   .Pagination-item {
-    margin-top: calc(var(--space) *1.5);
-    margin-bottom: calc(var(--space) *1.5);
+    margin-block: var(--space-s);
   }
 
   .Pagination-item:not(:first-of-type) {
-    margin-left: calc(var(--space) /1.5);
+    margin-inline-start: var(--space-3xs);
   }
 
   .Pagination-itemLink {
@@ -27,7 +26,8 @@ ul.Pagination {
     }
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: calc(var(--space) /1.5) calc(var(--space) *1.5);
+    padding-block: var(--space-3xs); 
+    padding-inline: var(--space-xs);
   }
 
   .Pagination-item--current {

@@ -11,7 +11,7 @@
 .body {
   font-size: var(--step-0);
   font-weight: var(--font-weight-regular);
-  @include margin-top(0);
+  margin-top: 0;
 }
 
 .small {
