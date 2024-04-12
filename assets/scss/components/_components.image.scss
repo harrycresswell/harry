@@ -2,26 +2,6 @@
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 
-/**
- * Component Block
- */
-
-.ImageCover {
-  object-fit: cover;
-  height: 350px;
-}
-
-@include breakpoint(sm) {
-  .ImageCover {
-    object-fit: fill;
-    height: auto;
-  }
-}
-
-/**
- * Component Modifier
- */
-
 .Image--pullRight {
   @include breakpoint(sm) {
     width: 55%; 

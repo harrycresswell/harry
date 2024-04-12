@@ -1,12 +1,12 @@
 <figure>
-    <blockquote class="PullQuote PullQuote--right">
-        <p>
-            {{ .Get "quote" }}
-            {{ if .Get "cite"}}
-            {{ end }}
-        </p>
+  <blockquote class="PullQuote PullQuote--right">
+    <p>
+        {{ .Get "quote" }}
         {{ if .Get "cite"}}
-            <figcaption>&mdash; {{ .Get "cite" }}</figcaption>
         {{ end }}
-    </blockquote>
+    </p>
+    {{ if .Get "cite"}}
+        <figcaption>&mdash; {{ .Get "cite" }}</figcaption>
+    {{ end }}
+  </blockquote>
 </figure>

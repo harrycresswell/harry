@@ -1092,53 +1092,17 @@ Can be any acceptable flexbox alignment value.
   flex-wrap: nowrap; }
 
 /*------------------------------------*\
-    #COMPONENTS: SITE-HEAD
-\*------------------------------------*/
-/**
- * Component Block
- */
-.SiteHead {
-  padding-top: 4%; }
-
-/*------------------------------------*\
     #COMPONENTS: NAV
 \*------------------------------------*/
 /**
  * Component Block
  */
-.Nav-list {
-  display: flex;
-  gap: var(--space-xs); }
-
-.Nav-listItemLink {
-  color: var(--color-text);
-  text-decoration: none;
-  padding: var(--space-3xs); }
-  .Nav-listItemLink:hover {
-    color: inherit;
-    background-color: unset;
-    text-decoration: underline; }
-  .Nav-listItemLink.is-active {
-    text-decoration: underline; }
+.Nav .is-active {
+  text-decoration: underline; }
 
 /*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
-/**
- * Component Block
- */
-.ImageCover {
-  object-fit: cover;
-  height: 350px; }
-
-@media (min-width: 37.5em) {
-  .ImageCover {
-    object-fit: fill;
-    height: auto; } }
-
-/**
- * Component Modifier
- */
 @media (min-width: 37.5em) {
   .Image--pullRight {
     width: 55%;
@@ -1244,7 +1208,7 @@ ul.Pagination {
  * Component Block
  */
 .Hero {
-  --region-space: var(--space-4xl); }
+  --region-space: var(--space-3xl); }
 
 /*------------------------------------*\
     #COMPONENTS: CALLOUT

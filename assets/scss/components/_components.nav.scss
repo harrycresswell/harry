@@ -6,23 +6,9 @@
  * Component Block
  */
 
-.Nav-list {
-  display: flex;
-  gap: var(--space-xs);
-}
+.Nav {
 
-.Nav-listItemLink {
-  color: var(--color-text);
-  text-decoration: none;
-  padding: var(--space-3xs);
-
-  &:hover {
-    color: inherit;
-    background-color: unset;
-    text-decoration: underline;
-  }
-
-  &.is-active {
+  .is-active {
     text-decoration: underline;
   }
 }
