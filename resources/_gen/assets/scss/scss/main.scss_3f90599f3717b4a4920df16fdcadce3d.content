@@ -88,6 +88,8 @@ Global theme tokens
   @link https://www.figma.com/community/file/1122903924123950023
   */
   --color-text: #172240;
+  --color-text-mod-1: #5D70A6;
+  --color-text-mod-2: #9CA7C3;
   --color-bg: #ffffff;
   --color-bg-mod-1:#F5F8FE;
   --color-bg-mod-2: #EBEFF7;
@@ -398,6 +400,9 @@ textarea {
   position: relative;
   width: 100%;
   -webkit-appearance: none; }
+
+input::placeholder {
+  color: var(--color-text-mod-2); }
 
 textarea {
   min-height: 96px;

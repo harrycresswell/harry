@@ -13,6 +13,10 @@ layout= "page"
 
 [Practical Hugo](https://practicalhugo.com) is a course on building leaner, faster, more resilient websites with [Hugo](/topics/hugo). I plan to release the first season later this year.
 
+[cu.css](https://cu.harrycresswell.com) is a lightweight CSS boilerplate that will help you build websites fast, using CUBE CSS and Utopia fluid design.
+
+[Mood](https://github.com/harrycresswell/mood/) is lightweight, JavaScript-free Hugo theme for moodboarding.
+
 [Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers. It’s now run by [Rebekka](https://rebekkawrites.com/).
 
 [Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
@@ -21,19 +25,11 @@ layout= "page"
 
 [Link styles like...](https://codepen.io/harrycresswell/pen/QWJxrBY) A growing collection of interesting link styles, found around the web and recreated in Codepen.
 
-## Themes
-
-[Mood](https://github.com/harrycresswell/mood/) is lightweight, JavaScript-free Hugo theme for moodboarding.
-
-## Tools
-
-[cu.css](https://cu.harrycresswell.com) is a lightweight CSS framework that will help you build websites fast, using CUBE CSS and Utopia fluid design.
+## Past projects
 
 [instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo site showing how to create an Instagram feed on a Hugo website using [Profile Page Images Loader](https://profilepageimages.usecue.com/) by Joost van der Schee.
 
 [Design tokens and styleguides with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy). A simple workflow showing you how to use Eleventy and NPM Scripts to take YAML design tokens and generate a styleguide and CSS Custom properties.
-
-## Past projects
 
 [Remote Cards](https://remotecards.netlify.app/) is a fun card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown.
 
