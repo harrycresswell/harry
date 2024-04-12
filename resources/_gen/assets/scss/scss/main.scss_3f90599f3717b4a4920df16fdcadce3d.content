@@ -3,18 +3,6 @@
   You can use import statements to include partials:
  */
 /*------------------------------------*\
-    #ABSTRACTS: COLORS
-\*------------------------------------*/
-:root {
-  --color-brand: #542bff;
-  --color-dark: #172240;
-  --color-light: #FFFFFF;
-  --color-light-mod-1: #F5F8FE;
-  --color-light-mod-2: #EBEFF7;
-  /* #542bff in decimal RGB */
-  --color-brand-rgb: 84, 43, 255; }
-
-/*------------------------------------*\
     #ABSTRACTS: BREAKPOINTS
 \*------------------------------------*/
 /**
@@ -105,6 +93,8 @@ Global theme tokens
   --color-bg-mod-2: #EBEFF7;
   --color-border: #172240;
   --color-brand: #542bff;
+  /* #542bff in decimal RGB */
+  --color-brand-rgb: 84, 43, 255;
   --color-accent: #542bff;
   --color-highlight: #eefbc1;
   /* Grid */
@@ -197,8 +187,8 @@ html {
     scroll-behavior: smooth; } }
 
 body {
-  background-color: var(--color-light-mod-1);
-  color: var(--color-dark);
+  background-color: var(--color-bg-mod-1);
+  color: var(--color-text);
   font-family: var(--font-base);
   font-size: var(--step-0);
   font-weight: var(--font-weight-regular);
@@ -229,7 +219,7 @@ hr {
 
 /* Show focus styles on keyboard focus. */
 :focus-visible {
-  outline: dotted 2px var(--color-dark);
+  outline: dotted 2px var(--color-text);
   outline-offset: 3px; }
 
 small {
@@ -244,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-dark);
+  color: var(--color-text);
   font-family: var(--font-display);
   font-weight: var(--font-weight-bold);
   letter-spacing: -.015em;
@@ -305,7 +295,7 @@ a {
   color: var(--color-brand);
   text-decoration: underline; }
   a:hover {
-    color: var(--color-light);
+    color: var(--color-bg);
     background-color: var(--color-brand);
     text-decoration: none; }
   a:visited {
@@ -322,7 +312,7 @@ a {
 \*------------------------------------*/
 ul,
 ol {
-  color: var(--color-dark);
+  color: var(--color-text);
   list-style-position: inside;
   max-width: 675px;
   padding-left: 0; }
@@ -341,8 +331,8 @@ li > ul {
     #BASE: QUOTES
 \*------------------------------------*/
 blockquote {
-  border-left: 2px solid var(--color-dark);
-  color: var(--color-dark);
+  border-left: 2px solid var(--color-text);
+  color: var(--color-text);
   font-style: italic; }
   blockquote p {
     margin-inline-start: var(--space-m); }
@@ -361,12 +351,13 @@ blockquote {
 code,
 kbd,
 samp {
-  background: var(--color-light-mod-2);
-  color: var(--color-light);
-  font-size: 90%; }
+  background-color: var(--color-bg-mod-2);
+  color: var(--color-text);
+  font-size: 90%;
+  border-radius: 2px; }
 
 pre {
-  background: var(--color-light-mod-2);
+  background: var(--color-bg-mod-2);
   overflow: auto;
   overflow-x: scroll;
   overflow-wrap: normal;
@@ -379,11 +370,6 @@ li code {
 code,
 pre {
   font-family: var(--font-accent); }
-
-code {
-  color: var(--color-teal);
-  background-color: var(--color-light-mod-2);
-  border-radius: 2px; }
 
 pre {
   margin: 2rem 0; }
@@ -402,10 +388,10 @@ pre code {
   */
 input,
 textarea {
-  background: var(--color-light-mod-2);
-  border: solid 2px var(--color-light-mod-2);
+  background: var(--color-bg-mod-2);
+  border: solid 2px var(--color-bg-mod-2);
   border-radius: 0;
-  outline: 2px solid var(--color-light-mod-2);
+  outline: 2px solid var(--color-bg-mod-2);
   outline-offset: 0;
   padding: 4px 16px;
   position: relative;
@@ -417,7 +403,7 @@ textarea {
   padding: 8px 16px; }
 
 select {
-  background: var(--color-light-mod-2);
+  background: var(--color-bg-mod-2);
   border: 0;
   cursor: pointer;
   font-size: 0.8rem;
@@ -426,7 +412,7 @@ select {
   outline-style: none;
   width: 100%; }
   select:after {
-    color: var(--color-dark);
+    color: var(--color-text);
     content: '▾';
     display: block;
     height: 14px;
@@ -456,7 +442,7 @@ video {
 
 /* Background */
 .chroma {
-  background-color: var(--color-light-mod-2); }
+  background-color: var(--color-bg-mod-2); }
 
 /* Error */
 .chroma .err {
@@ -895,7 +881,7 @@ video {
 .PostListItem {
   margin-block-end: var(--space-2xl); }
   .PostListItem p {
-    color: var(--color-dark); }
+    color: var(--color-text); }
 
 /**
  * Component Element
@@ -904,7 +890,7 @@ video {
   line-height: 1.2;
   max-width: 30ch; }
   .PostListItem-title a {
-    color: var(--color-dark);
+    color: var(--color-text);
     text-decoration: none; }
     .PostListItem-title a:hover {
       background-color: unset;
@@ -953,7 +939,7 @@ video {
   white-space: nowrap; }
 
 .skip-link:focus {
-  background-color: var(--color-white);
+  background-color: var(--color-bg);
   position: absolute;
   z-index: 2;
   top: 1rem;
@@ -966,8 +952,8 @@ video {
  * Component Block
  */
 .PromoBanner {
-  background-color: var(--color-link);
-  color: var(--color-white);
+  background-color: var(--color-brand);
+  color: var(--color-bg);
   font-family: var(--font-accent);
   font-size: var(--step--1);
   padding-block: var(--space-xs);
@@ -976,11 +962,11 @@ video {
   .PromoBanner p {
     max-width: 100%; }
   .PromoBanner a {
-    background-color: var(--color-link);
-    color: var(--color-white); }
+    background-color: var(--color-brand);
+    color: var(--color-bg); }
     .PromoBanner a:hover {
-      background-color: var(--color-white);
-      color: var(--color-link); }
+      background-color: var(--color-bg);
+      color: var(--color-brand); }
 
 /*------------------------------------*\
     #OBJECTS: AVATAR
@@ -1034,16 +1020,16 @@ video {
  * Component Modifier
  */
 .Button--primary {
-  background: var(--color-dark);
-  border: solid 2px var(--color-dark);
-  color: var(--color-light);
-  outline: solid 2px var(--color-dark);
+  background: var(--color-text);
+  border: solid 2px var(--color-text);
+  color: var(--color-bg);
+  outline: solid 2px var(--color-text);
   outline-offset: 0;
   padding: 4px 16px; }
 
 .Button--secondary {
-  background: var(--color-light);
-  border: solid 2px var(--color-light);
+  background: var(--color-bg);
+  border: solid 2px var(--color-bg);
   color: var(--color-dark);
   padding: 8px 16px; }
 
@@ -1057,14 +1043,14 @@ video {
   transform: translateY(-2px); }
 
 .Button--secondary:hover {
-  color: var(--color-dark);
-  background-color: var(--color-light);
-  outline: dotted 2px var(--color-dark);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  outline: dotted 2px var(--color-text);
   outline-offset: 3px; }
 
 .Button--primary:focus,
 .Button--secondary:focus {
-  outline: dotted 2px var(--color-dark);
+  outline: dotted 2px var(--color-text);
   outline-offset: 3px; }
 
 /*------------------------------------*\
@@ -1085,11 +1071,11 @@ video {
  * Component Block
  */
 .Tag a {
-  color: var(--color-dark); }
+  color: var(--color-text); }
 
 .Tag a:hover {
-  background-color: var(--color-dark);
-  color: var(--color-light);
+  background-color: var(--color-text);
+  color: var(--color-bg);
   text-decoration: none; }
 
 .Tag a:not(:last-child):after {
@@ -1163,7 +1149,7 @@ Can be any acceptable flexbox alignment value.
   gap: var(--space-xs); }
 
 .Nav-listItemLink {
-  color: var(--color-dark);
+  color: var(--color-text);
   text-decoration: none;
   padding: var(--space-3xs); }
   .Nav-listItemLink:hover {
@@ -1296,7 +1282,7 @@ ul.Pagination {
   ul.Pagination .Pagination-item--current {
     background-color: var(--color-brand); }
     ul.Pagination .Pagination-item--current a {
-      color: var(--color-light);
+      color: var(--color-bg);
       text-decoration: none; }
 
 /*------------------------------------*\
@@ -1333,31 +1319,28 @@ p.Callout:not(:first-of-type) {
     #UTILITIES: COLOR
 \*------------------------------------*/
 .dark {
-  color: var(--color-dark); }
-
-.body {
-  color: var(--color-body); }
+  color: var(--color-text); }
 
 .light {
-  color: var(--color-light); }
+  color: var(--color-bg); }
 
 .lighter {
-  color: var(--color-lighter); }
+  color: var(--color-bg-mod-1); }
 
 .lightest {
-  color: var(--color-lightest); }
+  color: var(--color-bg-mod-2); }
 
 .link {
-  color: var(--color-link); }
+  color: var(--color-brand); }
 
 /*------------------------------------*\
     #UTILITIES: COLOR
 \*------------------------------------*/
 .link-dark {
-  color: var(--color-dark); }
+  color: var(--color-text); }
   .link-dark:hover {
-    color: var(--color-white);
-    background: var(--color-dark); }
+    color: var(--color-bg);
+    background: var(--color-text); }
 
 /*------------------------------------*\
     #UTILITIES: TYPOGRAPHY

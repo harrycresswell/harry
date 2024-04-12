@@ -8,8 +8,8 @@
  */
 
 .PromoBanner {
-  background-color: var(--color-link);
-  color: var(--color-white);
+  background-color: var(--color-brand);
+  color: var(--color-bg);
   font-family: var(--font-accent);
   font-size: var(--step--1);
   padding-block: var(--space-xs);
@@ -21,12 +21,12 @@
   }
 
   a {
-    background-color: var(--color-link);
-    color: var(--color-white);
+    background-color: var(--color-brand);
+    color: var(--color-bg);
 
     &:hover {
-      background-color: var(--color-white);
-      color: var(--color-link);
+      background-color: var(--color-bg);
+      color: var(--color-brand);
     }
   }
 }

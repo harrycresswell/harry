@@ -33,17 +33,17 @@
  */
 
 .Button--primary {
-	background: var(--color-dark);
-	border: solid 2px var(--color-dark);
-	color: var(--color-light);
-	outline: solid 2px var(--color-dark);
+	background: var(--color-text);
+	border: solid 2px var(--color-text);
+	color: var(--color-bg);
+	outline: solid 2px var(--color-text);
 	outline-offset: 0;
 	padding: 4px 16px;
 }
 
 .Button--secondary {
-	background: var(--color-light);
-	border: solid 2px var(--color-light);
+	background: var(--color-bg);
+	border: solid 2px var(--color-bg);
 	color: var(--color-dark);
 	padding: 8px 16px;
 }
@@ -60,14 +60,14 @@
 }
 
 .Button--secondary:hover {
-  color: var(--color-dark);
-  background-color: var(--color-light);
-  outline: dotted 2px var(--color-dark);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  outline: dotted 2px var(--color-text);
   outline-offset: 3px;
 }
 
 .Button--primary:focus, 
 .Button--secondary:focus {
-  outline: dotted 2px var(--color-dark);
+  outline: dotted 2px var(--color-text);
   outline-offset: 3px;
 }

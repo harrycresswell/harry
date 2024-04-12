@@ -11,12 +11,12 @@
 .Tag {
 
  a {
-   color: var(--color-dark);
+   color: var(--color-text);
  }
 
  a:hover {
-   background-color: var(--color-dark);
-   color: var(--color-light);
+   background-color: var(--color-text);
+   color: var(--color-bg);
    text-decoration: none;
  }
 

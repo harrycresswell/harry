@@ -3,10 +3,10 @@
 \*------------------------------------*/
 
 .link-dark {
-  color: var(--color-dark);
+  color: var(--color-text);
 
   &:hover {
-    color: var(--color-white);
-    background: var(--color-dark);
+    color: var(--color-bg);
+    background: var(--color-text);
   }
 }

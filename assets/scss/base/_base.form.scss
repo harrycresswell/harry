@@ -8,10 +8,10 @@
 
 input,
 textarea {
-  background: var(--color-light-mod-2);
-  border: solid 2px var(--color-light-mod-2);
+  background: var(--color-bg-mod-2);
+  border: solid 2px var(--color-bg-mod-2);
   border-radius: 0;
-  outline: 2px solid var(--color-light-mod-2);
+  outline: 2px solid var(--color-bg-mod-2);
   outline-offset: 0;
   padding: 4px 16px;
   position: relative;
@@ -25,7 +25,7 @@ textarea {
 }
 
 select {
-  background: var(--color-light-mod-2);
+  background: var(--color-bg-mod-2);
   border: 0;
   cursor: pointer;
   font-size: 0.8rem;
@@ -35,7 +35,7 @@ select {
   width: 100%;
 
   &:after {
-    color: var(--color-dark);
+    color: var(--color-text);
     content: '▾';
     display: block;
     height: 14px;

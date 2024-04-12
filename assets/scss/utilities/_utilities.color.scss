@@ -3,25 +3,21 @@
 \*------------------------------------*/
 
 .dark {
-  color: var(--color-dark);
-}
-
-.body {
-  color: var(--color-body);
+  color: var(--color-text);
 }
 
 .light {
-  color: var(--color-light);
+  color: var(--color-bg);
 }
 
 .lighter {
-  color: var(--color-lighter);
+  color: var(--color-bg-mod-1);
 }
 
 .lightest {
-  color: var(--color-lightest);
+  color: var(--color-bg-mod-2);
 }
 
 .link {
-  color: var(--color-link);
+  color: var(--color-brand);
 }
