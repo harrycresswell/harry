@@ -7,14 +7,7 @@
         <p>{{ .Params.Description | markdownify }}</p>
         <div class="cluster">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
-          {{ $topics := .Params.topics }}
-          {{- with $topics -}}
-            <div class="Tag">
-              {{ range $topics }}
-                <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
-              {{ end }}
-            </div>
-          {{- end -}}
+          {{ partial "post/topics.html" . }}
       </div>
       </header>
       <div class="Blocks e-content">

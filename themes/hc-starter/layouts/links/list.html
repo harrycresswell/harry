@@ -6,23 +6,16 @@
   </section>
   <section class="PostList">
     {{ range .Paginator.Pages }}
-    <article class="PostListItem flow h-entry">
-      <h2 class="PostListItem-title p-name">
-        <a href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
+    <article class="PostListItem region flow h-entry">
+      <h2 class="p-name">
+        <a data-variant="naked" href="{{ .Permalink }}" class="u-url">{{ .Title }}</a>
       </h2>
       <div hidden>
         <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
       </div>
       <div class="cluster">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
-          {{ $topics := .Params.topics }}
-          {{- with $topics -}}
-            <div class="Tag">
-              {{ range $topics }}
-                <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
-              {{ end }}
-            </div>
-          {{- end -}}
+          {{ partial "post/topics.html" . }}
       </div>
       <p>{{ .Content }}</p>
       {{ $source_title := .Params.source_title }}

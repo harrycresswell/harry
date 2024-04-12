@@ -1,23 +1,29 @@
-/*
-  You can use import statements to include partials:
- */
-
-// Variables
-@import "abstracts/break";
+/* 
+* The variables/tokens (or whatever you 
+* wish to call them) that power the rest of your styles
+*/
+@import 'abstracts/break';
 @import 'abstracts/space';
 @import 'abstracts/type';
 @import 'abstracts/theme';
 
-// Base styles
-@import "base/_all";
+/* 
+* Embrace the cascade and inheritance to 
+* style as much as possible at a global level 
+*/
+@import 'base/reset';
+@import 'base/global';
+@import 'base/form';
+@import 'base/code';
+@import 'base/syntax';
 
 // Layout styles
-@import "layouts/_all";
+@import 'layouts/_all';
 
 // Object styles
-@import "objects/_all";
+@import 'objects/_all';
 
- /* 
+/* 
 * High level, flexible layouts that provide a 
 * skeleton to support any variant of a component
 */
@@ -25,8 +31,11 @@
 @import 'compositions/repel';
 
 // Component styles
-@import "components/_all";
+@import 'components/_all';
 
-// Utility styles
-@import "utilities/_all";
+/* 
+* Classes that do one job and one job well 
+*/
+@import 'utilities/_all';
+@import 'utilities/region';
  

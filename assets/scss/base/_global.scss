@@ -1,0 +1,186 @@
+/* 
+Global styles 
+
+Low-specificity, global styles that apply to the whole 
+project: https://cube.fyi/css.html
+
+*/
+html {
+	background-color: var(--color-brand);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+body {
+	background-color: var(--color-bg-mod-1);
+	color: var(--color-text);
+	font-family: var(--font-base);
+	font-size: var(--step-0);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
+  letter-spacing: var(--tracking);
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-s);
+  max-width: 35ch;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: var(--line-height-compact);
+}
+
+h1,
+.h1 {
+  font-size: var(--step-4);
+  max-width: 33ch;
+}
+
+h2,
+.h2 {
+  font-size: var(--step-2);
+  --flow-space: var(--space-l-xl);
+}
+
+h3,
+.h3 {
+  font-size: var(--step-1);
+  --flow-space: var(--space-l);
+}
+
+h4,
+.h4 {
+  font-size: var(--step-0);
+  line-height: 1.4;
+  --flow-space: var(--space-m);
+}
+
+/* Set line lengths */
+p,
+li,
+blockquote:not([class]) {
+  max-width: var(--width-longform);
+}
+
+/* Remove padding and margin on ul, ol elements with a list role */
+[role='list'] {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+
+  @include breakpoint(md) {
+    list-style-position: outside;
+  }
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+li>ul {
+  margin: 0 1.5rem;
+}
+
+a {
+  color: var(--color-brand);
+  text-decoration: underline;
+
+  &:hover {
+    color: var( --color-bg);
+    background-color: var(--color-brand);
+    text-decoration: none;
+  }
+}
+
+/* Use naked variant to style links as text*/
+a[data-variant="naked"] {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+a[data-variant="naked"]:hover {
+  background-color: unset;
+  text-decoration: underline;
+}
+
+figcaption {
+font-size: 80%;
+margin-block-start: var(--space-xs);
+}
+
+/* Add scroll margin to all target elements 
+* See https://piccalil.li/quick-tip/add-scroll-margin-to-all-elements-which-can-be-targeted/
+*/
+:target {
+  scroll-margin-top: 2ex;
+}
+
+hr {
+  --flow-space: 3rem;
+	border: dashed 1px;
+	max-width: 60%;
+	margin: 3rem 0;
+}
+
+ /* Hide focus styles if they're not needed, for example, 
+ when an element receives focus via the mouse. */
+ :focus:not(:focus-visible) {
+  outline: 0;
+}
+
+/* Show focus styles on keyboard focus. */
+:focus-visible {
+  outline: dotted 2px var(--color-text);
+  outline-offset: 3px;
+}
+
+blockquote {
+  border-left: 2px solid var(--color-text);
+  color: var(--color-text);
+  font-style: italic;
+
+  p {
+   margin-inline-start: var(--space-m);
+  }
+  
+  cite,
+  figcaption {
+    display: block;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    margin-block-start: var(--space-xs);
+    margin-inline-start: var(--space-m);
+  }
+}
+
+small {
+  font-size: var(--step--1);
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin-block: var(--space-s);
+}

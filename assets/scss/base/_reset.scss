@@ -11,7 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -55,13 +54,11 @@ ol[class] {
   list-style: none;
 }
 
-// Responsive images
-img {
-	display: inline-block;
-	border: 0;
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
 
 figure {

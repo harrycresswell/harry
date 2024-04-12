@@ -8,33 +8,5 @@
  */
 
 .PostListItem {
-  margin-block-end: var(--space-2xl);
-
-  p {
-    color: var(--color-text);
-  }
-}
-
-
-/**
- * Component Element
- */
-
-.PostListItem-title {
-  line-height: 1.2;
-  max-width: 30ch;
-
-  a {
-    color: var(--color-text);
-    text-decoration: none;
-
-    &:hover {
-      background-color: unset;
-      text-decoration: underline;
-    }
-  }
-}
-
-.PostListItem-meta {
-  display: flex;
+  --region-space: var(--space-l);
 }
