@@ -1,9 +1,9 @@
 {{ define "main" }}
 
     <article id="content" class="Post">
-        <header class="Hero Hero--page flow">
-            <h1 class="Hero-title">{{ .Title }}</h1>
-            <div class="Hero-mod"> 
+        <header class="Hero region flow">
+            <h1>{{ .Title }}</h1>
+            <div> 
               {{ $published := .PublishDate | time.Format ":date_medium" }}
               {{ $modified := .Lastmod | time.Format ":date_medium" }}
               {{ if ne $published $modified }}

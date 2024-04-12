@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <article id="content" class="Post h-entry">
-  <header class="Hero Hero--page flow">
-    <h1 class="Hero-title p-name">{{ .Title }}</h1>
+  <header class="Hero region flow">
+    <h1 class="p-name">{{ .Title }}</h1>
     <div class="cluster">
       <time class="dt-published" datetime="{{ .Date }}">
         {{ with .PublishDate.Format "Jan 2, 2006" }}

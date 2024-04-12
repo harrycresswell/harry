@@ -1122,16 +1122,6 @@ Can be any acceptable flexbox alignment value.
     text-decoration: underline; }
 
 /*------------------------------------*\
-    #COMPONENTS: FOOTER
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Footer {
-  margin-block-start: var(--space-xl);
-  padding-bottom: 3rem; }
-
-/*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 /**
@@ -1254,7 +1244,7 @@ ul.Pagination {
  * Component Block
  */
 .Hero {
-  margin-block: var(--space-4xl); }
+  --region-space: var(--space-4xl); }
 
 /*------------------------------------*\
     #COMPONENTS: CALLOUT
