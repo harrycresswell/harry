@@ -17,7 +17,7 @@
     </div>
 
     {{ if ne .Section "newsletter" }}
-    <div class="Hero-mod"> 
+    <div> 
       {{ $published := .Date | time.Format ":date_medium" }}
       {{ $modified := .Lastmod | time.Format ":date_medium" }}
       {{ if ne $published $modified }}
