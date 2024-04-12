@@ -8,7 +8,7 @@
   {{ with .Site.Data.bookmarks }}
     <ul role="list">
     {{ range .bookmark }}
-      <li class="flex">
+      <li class="cluster">
         <span>{{ .date | time.Format ":date_long" }}</span>
         <span>{{ .title }}</span>
         <span>{{ .category }}</span>

@@ -208,6 +208,7 @@ p {
   scroll-margin-top: 2ex; }
 
 hr {
+  --flow-space: 3rem;
   border: dashed 1px;
   max-width: 60%;
   margin: 3rem 0; }

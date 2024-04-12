@@ -1,7 +1,7 @@
 {{ define "main" }}
 
     <article id="content" class="Post">
-        <header class="Hero Hero--page">
+        <header class="Hero Hero--page flow">
             <h1 class="Hero-title">{{ .Title }}</h1>
             <div class="Hero-mod"> 
               {{ $published := .PublishDate | time.Format ":date_medium" }}
@@ -12,7 +12,7 @@
             </div>
         </header>
     
-        <section class="e-content">
+        <section class="e-content flow">
           {{ partial "heading-anchor.html" .Content }}
         </section>
     </article><!--/.Content -->
