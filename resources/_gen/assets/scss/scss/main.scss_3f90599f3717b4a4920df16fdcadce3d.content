@@ -1336,4 +1336,8 @@ Can either be configured by setting --region-space or use a default from the spa
   top: 1rem;
   right: 1rem; }
 
+.w-full {
+  width: 100%;
+  max-width: unset; }
+
 /*# sourceMappingURL=main.css.map */
