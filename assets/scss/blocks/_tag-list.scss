@@ -14,17 +14,9 @@
 @include breakpoint(md) {
   .TagList {
     column-gap: 64px;
-    margin-top: 64px;
-    margin-bottom: 64px;
   }
 }
 
 .TagListItem {
  margin-block-end: var(--space-m);
-}
-
-
-.TagListItem-title {
-  margin: 0;
-  font-size: var(--step-2);
 }
