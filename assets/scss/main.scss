@@ -17,11 +17,23 @@
 @import 'base/code';
 @import 'base/syntax';
 
-// Layout styles
-@import 'layouts/_all';
-
-// Object styles
-@import 'objects/_all';
+/* 
+* Skeletal components or organisational structures.
+*/
+@import 'blocks/avatar';
+@import 'blocks/badge';
+@import 'blocks/button';
+@import 'blocks/post-list';
+@import 'blocks/promobanner';
+@import 'blocks/tag';
+@import 'blocks/tag-list';
+@import 'blocks/nav';
+@import 'blocks/image';
+@import 'blocks/newsletter';
+@import 'blocks/pullquote';
+@import 'blocks/pagination';
+@import 'blocks/hero';
+@import 'blocks/callout';
 
 /* 
 * High level, flexible layouts that provide a 
@@ -29,13 +41,27 @@
 */
 @import 'compositions/cluster';
 @import 'compositions/repel';
-
-// Component styles
-@import 'components/_all';
+@import 'compositions/blocks';
+@import 'compositions/grid';
+@import 'compositions/post';
 
 /* 
 * Classes that do one job and one job well 
 */
-@import 'utilities/_all';
 @import 'utilities/region';
+@import 'utilities/color';
+@import 'utilities/link';
+@import 'utilities/font';
+@import 'utilities/text';
+@import 'utilities/flex';
+@import 'utilities/justify-content';
+@import 'utilities/flow';
+@import 'utilities/full-bleed';
+@import 'utilities/visually-hidden';
+@import 'utilities/aspect-ratio';
+@import 'utilities/lazy';
+@import 'utilities/wrapper';
+@import 'utilities/align-items';
+@import 'utilities/skip-link';
+
  
