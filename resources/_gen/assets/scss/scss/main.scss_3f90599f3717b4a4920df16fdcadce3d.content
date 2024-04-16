@@ -833,21 +833,14 @@ input[type="button"][data-variant='secondary'] {
  * Component Block
  */
 .Avatar {
+  border-radius: 50%;
   display: inline-block;
   position: relative;
-  margin-right: 30px; }
-
-/**
- * Component Modifier
- */
-.Avatar--m {
+  margin-right: 30px;
   font-size: 1.25rem;
   width: 80px;
   height: 80px;
   line-height: 80px; }
-
-.Avatar--round {
-  border-radius: 50%; }
 
 /*------------------------------------*\
     #OBJECTS: BADGE
@@ -889,7 +882,7 @@ input[type="button"][data-variant='secondary'] {
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 @media (min-width: 37.5em) {
-  .Image--pullRight {
+  [data-layout='pull-right'] {
     width: 55%;
     float: right;
     margin-left: 48px;
@@ -945,6 +938,12 @@ input[type="button"][data-variant='secondary'] {
 /**
  * Component Modifier
  */
+.PullQuote--left {
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media (min-width: 48em) {
+    .PullQuote--left {
+      margin-left: 0; } }
 .PullQuote--right {
   float: right;
   margin-bottom: var(--space-m);

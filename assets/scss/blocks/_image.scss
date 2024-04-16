@@ -2,8 +2,8 @@
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 
-.Image--pullRight {
-  @include breakpoint(sm) {
+@include breakpoint(sm) {
+  [data-layout='pull-right'] {
     width: 55%; 
     float: right; 
     margin-left: 48px; 
