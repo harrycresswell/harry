@@ -15,7 +15,7 @@
     padding-inline: var(--space-xs);
   }
 
-  .Pagination-item--current {
+  [data-state='active'] {
     background-color: var(--color-brand);
 
     a  {

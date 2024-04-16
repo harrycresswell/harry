@@ -963,9 +963,9 @@ input[type="button"][data-variant='secondary'] {
     font-family: var(--font-accent);
     padding-block: var(--space-3xs);
     padding-inline: var(--space-xs); }
-  .Pagination .Pagination-item--current {
+  .Pagination [data-state='active'] {
     background-color: var(--color-brand); }
-    .Pagination .Pagination-item--current a {
+    .Pagination [data-state='active'] a {
       color: var(--color-bg);
       text-decoration: none; }
 

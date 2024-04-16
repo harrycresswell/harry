@@ -17,7 +17,10 @@
 
     <!-- Page numbers. -->
     {{ range $paginator.Pagers }}
-    <li class="Pagination-item{{ if eq . $paginator }} Pagination-item--current{{ end }}">
+    <li 
+      class="Pagination-item" 
+      {{ if eq . $paginator }}data-state="active"{{ end }}
+    >
       <a href="{{ .URL }}" class="Pagination-itemLink">
         {{ .PageNumber }}
       </a>
