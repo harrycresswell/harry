@@ -6,26 +6,11 @@
  * Component Block
  */
 
-ul.Pagination {
-  display: flex;
-  flex-wrap: wrap;
-
-  .Pagination-item {
-    margin-block: var(--space-s);
-  }
-
-  .Pagination-item:not(:first-of-type) {
-    margin-inline-start: var(--space-3xs);
-  }
+.Pagination {
+  --space: var(--space-3xs);
 
   .Pagination-itemLink {
-    font-family: var(--font-mono);
-    font-size: var(--font-size-xs);
-    @include breakpoint(md) {
-      font-size: var(--font-size-xxs);
-    }
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: var(--font-accent);
     padding-block: var(--space-3xs); 
     padding-inline: var(--space-xs);
   }

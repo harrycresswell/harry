@@ -3,7 +3,8 @@
 {{ $paginator := .Paginator }}
 <!-- If there's more than one page. -->
 {{ if gt $paginator.TotalPages 1 }}
-  <ul class="Pagination">
+<section class="region">
+  <ul class="Pagination | cluster">
 
       <!-- Previous page. -->
       {{ if $paginator.HasPrev }}
@@ -32,6 +33,6 @@
        </a>
      </li>
      {{ end }}
-
   </ul>
+</section>
 {{ end }}
