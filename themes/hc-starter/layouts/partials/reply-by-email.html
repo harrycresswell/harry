@@ -2,6 +2,7 @@
   {{ $email := .Site.Author.email }}
   <a 
     data-decode="email" 
-    class="Button Button--secondary"  
+    class="button"
+    data-variant="secondary"
     href="mailto:{{ $email | base64Encode }}">Reply by email</a>
 </section>

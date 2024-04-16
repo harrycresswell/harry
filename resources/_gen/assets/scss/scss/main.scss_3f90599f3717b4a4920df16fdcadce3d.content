@@ -760,6 +760,69 @@ pre code {
 .chroma .w {
   color: #a89028; }
 
+/*
+Button styles
+
+Globally style the button element, submit, button and reset input.
+Include the .button class for styling <a> tags as buttons. 
+*/
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: var(--color-text);
+  border: solid 0.2rem var(--color-text);
+  border-radius: var(--border-radius);
+  color: var(--color-bg);
+  cursor: pointer;
+  padding: var(--space-3xs) var(--space-s);
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  white-space: nowrap; }
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover
+input[type="button"]:focus {
+  filter: brightness(1.2);
+  transform: translateY(-2px); }
+
+button:disabled,
+.button[aria-disabled="true"],
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+  background-color: var(--color-bg-mod-2);
+  border: solid 0.1rem var(--color-bg-mod-2);
+  color: var(--color-text-mod-2);
+  cursor: not-allowed;
+  transform: none;
+  filter: none; }
+
+/* 
+EXCEPTIONS
+
+Offer a variant button style
+
+@link https://cube.fyi/exception.html 
+*/
+button[data-variant='secondary'],
+.button[data-variant='secondary'],
+input[type="submit"][data-variant='secondary'],
+input[type="reset"][data-variant='secondary'],
+input[type="button"][data-variant='secondary'] {
+  background: var(--color-bg);
+  border: solid 2px var(--color-bg);
+  color: var(--color-text); }
+
 /* 
 * Skeletal components or organisational structures.
 */
@@ -796,68 +859,6 @@ pre code {
   color: var(--color-brand);
   background-color: rgba(var(--color-brand-rgb), 0.05);
   padding: var(--space-3xs); }
-
-/*------------------------------------*\
-    #OBJECTS: BUTTON
-\*------------------------------------*/
-/**
- * Component Block
- */
-.ButtonWrap {
-  margin-block-end: var(--space-2xl); }
-
-.Button {
-  border-width: 0;
-  border-radius: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  outline-style: none;
-  text-align: left;
-  text-decoration: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: none; }
-
-/**
- * Component Modifier
- */
-.Button--primary {
-  background: var(--color-text);
-  border: solid 2px var(--color-text);
-  color: var(--color-bg);
-  outline: solid 2px var(--color-text);
-  outline-offset: 0;
-  padding: 4px 16px; }
-
-.Button--secondary {
-  background: var(--color-bg);
-  border: solid 2px var(--color-bg);
-  color: var(--color-dark);
-  padding: 8px 16px; }
-
-/**
- * Component Modifier State
- */
-.Button--primary:hover,
-.Button--primary:active,
-.Button--secondary:hover,
-.Button--secondary:active {
-  transform: translateY(-2px); }
-
-.Button--secondary:hover {
-  color: var(--color-text);
-  background-color: var(--color-bg);
-  outline: dotted 2px var(--color-text);
-  outline-offset: 3px; }
-
-.Button--primary:focus,
-.Button--secondary:focus {
-  outline: dotted 2px var(--color-text);
-  outline-offset: 3px; }
 
 /*------------------------------------*\
     #LAYOUTS: POST-LIST
