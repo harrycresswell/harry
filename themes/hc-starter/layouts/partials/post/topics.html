@@ -2,7 +2,7 @@
 {{- with $topics -}}
 <div class="Tag">
   {{ range $key, $value := $topics }}
-    <a href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
+    <a data-variant="desaturate" href="/topics/{{ . | urlize }}" class="p-category">{{ . }}</a>
     {{- if ne $key (sub (len $topics) 1) -}}, {{- end -}}
   {{ end }}
 </div>

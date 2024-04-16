@@ -124,6 +124,17 @@ a[data-variant="naked"]:hover {
   text-decoration: underline;
 }
 
+/* Use desaturate to remove brand color from links */
+a[data-variant="desaturate"] {
+  color: var(--color-text);
+}
+
+a[data-variant="desaturate"]:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  text-decoration: none;
+}
+
 figcaption {
 font-size: 80%;
 margin-block-start: var(--space-xs);

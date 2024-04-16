@@ -26,15 +26,6 @@
  * Component Modifier
  */
 
-.PullQuote--left {
-  margin-top: 0;
-  margin-bottom: 0;
-
-  @include breakpoint(md) {
-    margin-left: 0;
-  }
-
-}
 
 .PullQuote--right {
   float: right;
