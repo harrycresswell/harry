@@ -1,14 +1,14 @@
 /*------------------------------------*\
-    #COMPONENTS: NAV
+    #BASE: NAV
 \*------------------------------------*/
 
 /**
  * Component Block
  */
 
-.Nav {
-
-  .is-active {
+nav[data-variant='main'],
+nav[data-variant='footer'] {
+  a[data-state='active'] {
     text-decoration: underline;
   }
 }

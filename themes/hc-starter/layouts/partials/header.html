@@ -5,12 +5,12 @@
     <a href="mailto:{{ .Site.Author.email }}" rel="me" class="u-email">{{ .Site.Author.email }}</a>
     <span class="p-name u-url u-visually-hidden" rel="me">{{ .Site.Title }}</span>
   </div>
-  <nav class="Nav" aria-label="Main Navigation">
+  <nav class="Nav" data-variant="main" aria-label="Main">
     <ul class="cluster">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <li>
-        <a data-variant="naked" class="{{ if eq $currentPage.RelPermalink .URL }} is-active{{ end }}" href="{{.URL}}">{{ .Name }}</a>
+        <a data-variant="naked" {{ if eq $currentPage.RelPermalink .URL }}data-state="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
       </li>
     {{ end }}
     </ul>

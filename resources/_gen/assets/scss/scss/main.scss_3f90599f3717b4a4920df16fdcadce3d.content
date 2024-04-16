@@ -390,6 +390,16 @@ form button {
   margin-top: var(--space-xs); }
 
 /*------------------------------------*\
+    #BASE: NAV
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+nav[data-variant='main'] a[data-state='active'],
+nav[data-variant='footer'] a[data-state='active'] {
+  text-decoration: underline; }
+
+/*------------------------------------*\
     #BASE: CODE
 \*------------------------------------*/
 code,
@@ -880,15 +890,6 @@ pre code {
   margin-block-end: var(--space-m); }
 
 /*------------------------------------*\
-    #COMPONENTS: NAV
-\*------------------------------------*/
-/**
- * Component Block
- */
-.Nav .is-active {
-  text-decoration: underline; }
-
-/*------------------------------------*\
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 @media (min-width: 37.5em) {
@@ -1214,15 +1215,6 @@ Can either be configured by setting --region-space or use a default from the spa
 
 .text-center {
   text-align: center; }
-
-/*------------------------------------*\
-    #LAYOUTS: FLEX
-\*------------------------------------*/
-/**
- * Component Block
- */
-.flex {
-  display: flex; }
 
 .justify-center {
   justify-content: center; }

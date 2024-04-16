@@ -14,6 +14,7 @@
 @import 'base/reset';
 @import 'base/global';
 @import 'base/form';
+@import 'base/nav';
 @import 'base/code';
 @import 'base/syntax';
 
@@ -26,7 +27,6 @@
 @import 'blocks/post-list';
 @import 'blocks/tag';
 @import 'blocks/tag-list';
-@import 'blocks/nav';
 @import 'blocks/image';
 @import 'blocks/newsletter';
 @import 'blocks/pullquote';
@@ -51,7 +51,6 @@
 @import 'utilities/link';
 @import 'utilities/font';
 @import 'utilities/text';
-@import 'utilities/flex';
 @import 'utilities/justify-content';
 @import 'utilities/flow';
 @import 'utilities/full-bleed';
