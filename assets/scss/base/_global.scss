@@ -138,8 +138,9 @@ margin-block-start: var(--space-xs);
 
 hr {
   --flow-space: 3rem;
-	border: dashed 1px;
-	max-width: 60%;
+  border-top: 0;
+  border-bottom: 2px dotted;
+	max-width: var(--width-longform);
 	margin: 3rem 0;
 }
 
