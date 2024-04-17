@@ -63,13 +63,14 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 - Phone contract (£9.00 / $11.02)
 - iCloud+ with 50 GB of storage (£0.99 / $1.21)
 - Readwise and Reader (£6.54 / $7.99)
+- Duolingo (£4.99 / $6.22)
 
-**Total:** £16.53 / $20.22
+**Total:** £21.52 / $26.44
 
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £210.05 / $257.92 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Figma, as I currently pay for two design seats.
+The overall total comes to £215.04 / $264.14 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Figma, as I currently pay for two design seats.
 
 I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these when I move in.
 
