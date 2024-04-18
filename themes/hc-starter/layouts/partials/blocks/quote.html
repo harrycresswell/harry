@@ -2,8 +2,8 @@
 {{ $image := .Params.image }}
 {{ $ratio := .Params.image_ratio }}
 {{ $alt := .Params.image_alt }}
-<section class="Section Grid">
-  <figure class="Grid-1-6 Grid-as-center">
+<section class="grid region">
+  <figure class="grid-1-6 grid-as-center">
     <blockquote class="PullQuote PullQuote--left">
       <p>
       {{- with .Params.quote_text -}}
@@ -13,7 +13,7 @@
       {{- with .Params.quote_caption -}}<figcaption>&mdash; {{ markdownify . }}</figcaption>{{- end -}}
     </blockquote>
   </figure>
-  <div class="Grid-7-6">
+  <div class="grid-7-6">
     <figure class="Image">
       <picture class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
         {{- with $image -}}

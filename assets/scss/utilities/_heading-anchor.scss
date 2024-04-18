@@ -6,8 +6,10 @@
  * Component Block
  */
 
+.prose {
+  
+}
 
-.Post .intro,
 .intro {
   font-size: 110%;
   line-height: 1.5;
@@ -15,39 +17,23 @@
   max-width: 52ch;
 }
 
-.PostAuthor {
-  display: flex;
-  align-items: center;
-  margin-block: var(--space-xl);
-
-  h2 {
-    font-size: var(--step-1);
-  }
-
-  h2,
-  p {
-    margin: 0;
-  }
-
-}
-
-.Post .heading-anchor {
+.heading-anchor {
   display: inline;
   margin-left: .5rem;
   opacity: 0;
 }
 
-.Post h2:focus>.heading-anchor,
-.Post h2:hover>.heading-anchor,
-.Post h3:focus>.heading-anchor,
-.Post h3:hover>.heading-anchor,
-.Post h4:focus>.heading-anchor,
-.Post h4:hover>.heading-anchor {
+h2:focus>.heading-anchor,
+h2:hover>.heading-anchor,
+h3:focus>.heading-anchor,
+h3:hover>.heading-anchor,
+h4:focus>.heading-anchor,
+h4:hover>.heading-anchor {
   opacity: 1;
 }
 
 
-.Post .heading-anchor {
+.heading-anchor {
   text-decoration: none;
 
   &:hover {

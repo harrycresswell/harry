@@ -2,7 +2,7 @@
 {{ $alt := .Params.image_alt }}
 {{ $ratio := .Params.image_ratio }}
 {{ $baseURL := .baseURL }}
-<section>
+<section class="region">
   <figure class="Image full-bleed">
     <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
       {{ with $image -}}

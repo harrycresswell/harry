@@ -1,7 +1,7 @@
 {{ $baseURL := .baseURL }}
 {{ $ratio := .Params.image_ratio }}
-<section class="Grid Grid--2col">
-  <div class="Grid-1-3">
+<section class="grid grid--2col region">
+  <div class="grid-1-3">
     {{ $image_one := .Params.image_one }}
     {{ $image_one_alt := .Params.image_one_alt }}
     {{ $image_one_caption := .Params.image_one_caption }}
@@ -56,7 +56,7 @@
       {{- end -}}
     </figure>
   </div>
-  <div class="Grid-4-3">
+  <div class="grid-4-3">
     {{ $image_two := .Params.image_two }}
     {{ $image_two_alt := .Params.image_two_alt }}
     {{ $image_two_caption := .Params.image_two_caption }}
@@ -111,7 +111,7 @@
       {{- end -}}
     </figure><!-- /.Image -->
   </div>
-  <div class="Grid-7-3">
+  <div class="grid-7-3">
     {{ $image_three := .Params.image_three }}
     {{ $image_three_alt := .Params.image_three_alt }}
     {{ $image_three_caption := .Params.image_three_caption }}
@@ -166,7 +166,7 @@
       {{- end -}}
     </figure>
   </div>
-  <div class="Grid-10-3">
+  <div class="grid-10-3">
     {{ $image_four := .Params.image_four }}
     {{ $image_four_alt := .Params.image_four_alt }}
     {{ $image_four_caption := .Params.image_four_caption }}

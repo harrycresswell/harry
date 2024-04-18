@@ -3,7 +3,7 @@
 {{ $ratio := .Params.image_ratio }}
 {{ $baseURL := .baseURL }}
 {{ $caption := .Params.image_caption }}
-<section>
+<section class="region">
   <figure class="Image">
     <div class="{{- with $ratio -}}aspect-ratio-{{ markdownify . }}{{- end -}}">
       {{ with $image -}}

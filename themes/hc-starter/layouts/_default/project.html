@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <article id="content" class="Project h-entry">
+  <article id="content" class="h-entry">
   
       <header class="Hero region flow">
         <h1 class="p-name">{{ .Title }}</h1>
@@ -10,7 +10,7 @@
           {{ partial "post/topics.html" . }}
       </div>
       </header>
-      <div class="Blocks e-content">
+      <div class="e-content">
         {{- range .Params.blocks -}}
             {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url ) }}{{- end -}}
             {{- if eq .template "image-full" -}}{{ partial "blocks/img-full" (dict "Params" . "baseURL" $.Site.Params.cloudinary_url ) }}{{- end -}}

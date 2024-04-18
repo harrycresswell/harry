@@ -38,9 +38,7 @@
 */
 @import 'compositions/cluster';
 @import 'compositions/repel';
-@import 'compositions/blocks';
 @import 'compositions/grid';
-@import 'compositions/post';
 
 /* 
 * Classes that do one job and one job well 
@@ -49,6 +47,7 @@
 @import 'utilities/flow';
 @import 'utilities/full-bleed';
 @import 'utilities/visually-hidden';
+@import 'utilities/heading-anchor';
 @import 'utilities/aspect-ratio';
 @import 'utilities/lazy';
 @import 'utilities/wrapper';
