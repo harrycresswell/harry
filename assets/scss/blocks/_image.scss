@@ -3,11 +3,13 @@
 \*------------------------------------*/
 
 @include breakpoint(sm) {
-  [data-layout='pull-right'] {
-    width: 55%; 
-    float: right; 
-    margin-left: 48px; 
-    margin-bottom: 32px; 
-    margin-top: 0;
+.Image {
+    &[data-layout='pull-right'] {
+      width: 55%; 
+      float: right; 
+      margin-left: 48px; 
+      margin-bottom: 32px; 
+      margin-top: 0;
+    }
   }
 }

@@ -882,7 +882,7 @@ input[type="button"][data-variant='secondary'] {
     #COMPONENTS: IMAGE
 \*------------------------------------*/
 @media (min-width: 37.5em) {
-  [data-layout='pull-right'] {
+  .Image[data-layout='pull-right'] {
     width: 55%;
     float: right;
     margin-left: 48px;
@@ -1119,12 +1119,6 @@ Can either be configured by setting --region-space or use a default from the spa
 /**
  * Component Block
  */
-.intro {
-  font-size: 110%;
-  line-height: 1.5;
-  margin-bottom: var(--space-m);
-  max-width: 52ch; }
-
 .heading-anchor {
   display: inline;
   margin-left: .5rem;
@@ -1244,5 +1238,11 @@ h4:hover > .heading-anchor {
 .w-full {
   width: 100%;
   max-width: unset; }
+
+.font-mono {
+  font-family: var(--font-accent); }
+
+.font-bold {
+  font-weight: var(--font-weight-bold); }
 
 /*# sourceMappingURL=main.css.map */
