@@ -32,7 +32,7 @@
         <div class="NewsletterForm-field">
         
             <!-- Add merge tag to show what page folks sign up on -->
-            <input class="u-visually-hidden" name="LOCATION" value="{{ .Title }}" type="hidden" id="mce-LOCATION">
+            <input class="visually-hidden" name="LOCATION" value="{{ .Title }}" type="hidden" id="mce-LOCATION">
             <!-- Automagically add folks to Brain—tactics group in Mailchimp -->
         
             <div class="Form-options" style="display:none">
@@ -59,7 +59,7 @@
             </div>
 
             <div class="NewsletterForm-button">
-                <label class="NewsletterForm-label u-visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
+                <label class="NewsletterForm-label visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
                 <input class="Button Button--primary" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">
             </div>
         </div><!-- /.NewsletterForm-field-->

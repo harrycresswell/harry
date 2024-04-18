@@ -10,7 +10,7 @@
       {{ if $paginator.HasPrev }}
       <li class="Pagination-item Pagination-item--previous">
         <a href="{{ $paginator.Prev.URL }}" class="Pagination-itemLink Pagination-itemLink--previous">
-          <span class="u-visually-hidden">Previous page</span> &larr;
+          <span class="visually-hidden">Previous page</span> &larr;
         </a>
       </li>
       {{ end }}
@@ -31,7 +31,7 @@
      {{ if $paginator.HasNext }}
      <li class="Pagination-item Pagination-item--next">
        <a href="{{ $paginator.Next.URL }}" class="Pagination-itemLink Pagination-itemLink--next">
-        <span class="u-visually-hidden">Next page</span>
+        <span class="visually-hidden">Next page</span>
         &rarr;
        </a>
      </li>
