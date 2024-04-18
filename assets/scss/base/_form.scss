@@ -58,3 +58,9 @@ label {
 form button {
   margin-top: var(--space-xs);
 }
+
+form:not([class]) {
+  input {
+    margin-bottom: 1rem;
+  }
+}
