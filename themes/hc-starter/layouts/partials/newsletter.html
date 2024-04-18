@@ -56,7 +56,7 @@
 
             <div>
                 <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
-                <input id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">
+                <button class="w-full" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">Subscribe</button>
             </div>
         </div><!-- /.NewsletterForm-field-->
     </form>

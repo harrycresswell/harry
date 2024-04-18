@@ -10,7 +10,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   background-color: var(--color-text);
-  border: solid 0.2rem var(--color-text);
+  border: solid .2rem var(--color-text);
   border-radius: var(--border-radius);
   color: var(--color-bg);
   cursor: pointer;
@@ -46,7 +46,7 @@ input[type="submit"]:disabled,
 input[type="reset"]:disabled, 
 input[type="button"]:disabled {
   background-color: var(--color-bg-mod-2);
-  border: solid 0.1rem var(--color-bg-mod-2);
+  border: solid .2rem var(--color-bg-mod-2);
   color: var(--color-text-mod-2);
   cursor: not-allowed;
   transform: none;

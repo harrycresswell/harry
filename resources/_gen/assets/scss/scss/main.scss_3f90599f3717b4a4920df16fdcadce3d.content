@@ -355,11 +355,11 @@ video {
 input,
 textarea {
   background: var(--color-bg-mod-2);
-  border: solid 2px var(--color-bg-mod-2);
+  border: solid 0.2rem var(--color-bg-mod-2);
   border-radius: 0;
   outline: 2px solid var(--color-bg-mod-2);
   outline-offset: 0;
-  padding: 4px 16px;
+  padding: 4px var(--space-s);
   position: relative;
   width: 100%;
   -webkit-appearance: none; }
@@ -392,7 +392,6 @@ select {
 
 label {
   display: block;
-  margin-top: var(--space-xs);
   margin-bottom: var(--space-2xs); }
 
 form button {
@@ -801,7 +800,7 @@ input[type="submit"]:disabled,
 input[type="reset"]:disabled,
 input[type="button"]:disabled {
   background-color: var(--color-bg-mod-2);
-  border: solid 0.1rem var(--color-bg-mod-2);
+  border: solid 0.2rem var(--color-bg-mod-2);
   color: var(--color-text-mod-2);
   cursor: not-allowed;
   transform: none;
