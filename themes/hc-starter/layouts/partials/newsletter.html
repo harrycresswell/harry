@@ -1,5 +1,5 @@
-<section class="Newsletter flow" id="signup">
-    <h2 class="Newsletter-title">
+<section class="region flow" id="signup">
+    <h2>
       {{ with .Params.signup_title }}
         {{ . }}
       {{ else }}
@@ -14,28 +14,24 @@
       {{ end }}
     </p>
 
-    <form class="NewsletterForm validate" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}{{ .Site.Data.settings.signup.list_url }}{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <form class="Subscribe switcher validate" data-layout="33x3" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}{{ .Site.Data.settings.signup.list_url }}{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
         
-        <div class="NewsletterForm-field">
-            <label class="NewsletterForm-label" for="name">
-            First Name
-            </label>
-            <input class="NewsletterForm-input" id="name" name="NAME" placeholder="e.g. Harry" type="text">
+        <div>
+            <label for="name">First Name</label>
+            <input id="name" name="NAME" placeholder="e.g. Harry" type="text">
         </div><!-- /.NewsletterForm-field-->
 
-        <div class="NewsletterForm-field">
-            <label class="NewsletterForm-label" for="email">
-            Email Address
-            </label>
-            <input class="NewsletterForm-input" id="email" name="EMAIL" placeholder="e.g. harry@gmail.com" type="email">
+        <div>
+            <label for="email">Email Address</label>
+            <input id="email" name="EMAIL" placeholder="e.g. harry@gmail.com" type="email">
         </div><!-- /.NewsletterForm-field-->
-        <div class="NewsletterForm-field">
+        <div>
         
             <!-- Add merge tag to show what page folks sign up on -->
             <input class="visually-hidden" name="LOCATION" value="{{ .Title }}" type="hidden" id="mce-LOCATION">
             <!-- Automagically add folks to Brain—tactics group in Mailchimp -->
         
-            <div class="Form-options" style="display:none">
+            <div style="display:none">
                 <strong>Product</strong>
                 <ul>
                     <li>
@@ -58,9 +54,9 @@
                 <input type="text" id="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" name="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" tabindex="-1" value="">
             </div>
 
-            <div class="NewsletterForm-button">
-                <label class="NewsletterForm-label visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
-                <input class="Button Button--primary" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">
+            <div>
+                <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
+                <input id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">
             </div>
         </div><!-- /.NewsletterForm-field-->
     </form>
