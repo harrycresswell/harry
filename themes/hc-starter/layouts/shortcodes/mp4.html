@@ -1,4 +1,4 @@
-<div class="Video">
+<figure>
   <video autoplay loop muted="muted"
     poster="{{ .Site.Params.cloudinary_url }}/{{ .Get "src" }}.jpg">
 
@@ -14,6 +14,6 @@
 
   </video>
   {{ if .Get "caption"}}
-    <div>{{ .Get "caption" }}</div>
+    <figcaption>{{ .Get "caption" }}</figcaption>
   {{ end }}
-</div>
+</figure>

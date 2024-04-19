@@ -4,7 +4,7 @@
     <h1>{{ .Title }}</h1>
     <p>{{ .Description | markdownify }}</p>
   </section>
-  <section class="PostList">
+  <section>
     {{ range .Paginator.Pages }}
     <article class="PostListItem region flow h-entry">
       <h2 class="p-name">

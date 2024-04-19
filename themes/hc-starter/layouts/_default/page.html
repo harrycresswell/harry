@@ -1,37 +1,37 @@
 {{ define "main" }}
 
-    <article id="content" class="Post">
-        <header class="Hero region flow">
-            <h1>{{ .Title }}</h1>
-            <div> 
-              {{ $published := .PublishDate | time.Format ":date_medium" }}
-              {{ $modified := .Lastmod | time.Format ":date_medium" }}
-              {{ if ne $published $modified }}
-              <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
-              {{ end }}
-            </div>
-        </header>
-    
-        <section class="e-content flow">
-          {{ partial "heading-anchor.html" .Content }}
-        </section>
-    </article><!--/.Content -->
-
-    <!-- render if URL returns true -->
-    {{- if eq .RelPermalink "/learn-hugo/" }}
-      <!-- grab updates -->
-      {{ $updates := where .Site.RegularPages "Type" "updates" }}  
-      <ul>
-      <!-- loop through updates -->
-      {{ range $updates }}
-        <!-- render if topic returns true -->
-        {{ if in .Params.topics "Hugo course" }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
-          </li>   
+  <article>
+    <header class="Hero region flow">
+      <h1>{{ .Title }}</h1>
+      <div> 
+        {{ $published := .PublishDate | time.Format ":date_medium" }}
+        {{ $modified := .Lastmod | time.Format ":date_medium" }}
+        {{ if ne $published $modified }}
+        <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
         {{ end }}
+      </div>
+    </header>
+
+    <section class="e-content flow">
+      {{ partial "heading-anchor.html" .Content }}
+    </section>
+  </article><!--/.Content -->
+
+  <!-- render if URL returns true -->
+  {{- if eq .RelPermalink "/learn-hugo/" }}
+    <!-- grab updates -->
+    {{ $updates := where .Site.RegularPages "Type" "updates" }}  
+    <ul>
+    <!-- loop through updates -->
+    {{ range $updates }}
+      <!-- render if topic returns true -->
+      {{ if in .Params.topics "Hugo course" }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
+        </li>   
       {{ end }}
-      </ul>
     {{ end }}
+    </ul>
+  {{ end }}
 
 {{ end }}

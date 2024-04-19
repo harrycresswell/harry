@@ -6,36 +6,36 @@
 <section class="region">
   <ul class="Pagination | cluster">
 
-      <!-- Previous page. -->
-      {{ if $paginator.HasPrev }}
-      <li class="Pagination-item Pagination-item--previous">
-        <a href="{{ $paginator.Prev.URL }}" class="Pagination-itemLink Pagination-itemLink--previous">
-          <span class="visually-hidden">Previous page</span> &larr;
-        </a>
-      </li>
-      {{ end }}
-
-    <!-- Page numbers. -->
-    {{ range $paginator.Pagers }}
-    <li 
-      class="Pagination-item" 
-      {{ if eq . $paginator }}data-state="active"{{ end }}
-    >
-      <a href="{{ .URL }}" class="Pagination-itemLink">
-        {{ .PageNumber }}
+    <!-- Previous page. -->
+    {{ if $paginator.HasPrev }}
+    <li class="Pagination-item Pagination-item--previous">
+      <a href="{{ $paginator.Prev.URL }}" class="Pagination-itemLink Pagination-itemLink--previous">
+        <span class="visually-hidden">Previous page</span> &larr;
       </a>
     </li>
     {{ end }}
 
-     <!-- Next page. -->
-     {{ if $paginator.HasNext }}
-     <li class="Pagination-item Pagination-item--next">
-       <a href="{{ $paginator.Next.URL }}" class="Pagination-itemLink Pagination-itemLink--next">
-        <span class="visually-hidden">Next page</span>
-        &rarr;
-       </a>
-     </li>
-     {{ end }}
+  <!-- Page numbers. -->
+  {{ range $paginator.Pagers }}
+  <li 
+    class="Pagination-item" 
+    {{ if eq . $paginator }}data-state="active"{{ end }}
+  >
+    <a href="{{ .URL }}" class="Pagination-itemLink">
+      {{ .PageNumber }}
+    </a>
+  </li>
+  {{ end }}
+
+    <!-- Next page. -->
+    {{ if $paginator.HasNext }}
+    <li class="Pagination-item Pagination-item--next">
+      <a href="{{ $paginator.Next.URL }}" class="Pagination-itemLink Pagination-itemLink--next">
+      <span class="visually-hidden">Next page</span>
+      &rarr;
+      </a>
+    </li>
+    {{ end }}
   </ul>
 </section>
 {{ end }}

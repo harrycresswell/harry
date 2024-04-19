@@ -1,63 +1,63 @@
 <section class="region flow" id="signup">
-    <h2>
-      {{ with .Params.signup_title }}
-        {{ . }}
-      {{ else }}
-        {{ .Site.Data.settings.signup.title | markdownify }}
-      {{ end }}
-    </h2>
-    <p>
-      {{ with .Params.signup_desc }}
-        {{ . | markdownify }}
-      {{ else }} 
-        {{ .Site.Data.settings.signup.desc | markdownify }}
-      {{ end }}
-    </p>
+  <h2>
+    {{ with .Params.signup_title }}
+      {{ . }}
+    {{ else }}
+      {{ .Site.Data.settings.signup.title | markdownify }}
+    {{ end }}
+  </h2>
+  <p>
+    {{ with .Params.signup_desc }}
+      {{ . | markdownify }}
+    {{ else }} 
+      {{ .Site.Data.settings.signup.desc | markdownify }}
+    {{ end }}
+  </p>
 
-    <form class="Subscribe switcher validate" data-layout="33x3" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}{{ .Site.Data.settings.signup.list_url }}{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-        
-        <div>
-            <label for="name">First Name</label>
-            <input id="name" name="NAME" placeholder="e.g. Harry" type="text">
-        </div><!-- /.NewsletterForm-field-->
+  <form class="Subscribe switcher validate" data-layout="33x3" action="{{ with .Params.signup_listURL }}{{ . }}{{ else }}{{ .Site.Data.settings.signup.list_url }}{{ end }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+      
+    <div>
+      <label for="name">First Name</label>
+      <input id="name" name="NAME" placeholder="e.g. Harry" type="text">
+    </div>
 
-        <div>
-            <label for="email">Email Address</label>
-            <input id="email" name="EMAIL" placeholder="e.g. harry@gmail.com" type="email">
-        </div><!-- /.NewsletterForm-field-->
-        <div>
-        
-            <!-- Add merge tag to show what page folks sign up on -->
-            <input class="visually-hidden" name="LOCATION" value="{{ .Title }}" type="hidden" id="mce-LOCATION">
-            <!-- Automagically add folks to Brain—tactics group in Mailchimp -->
-        
-            <div style="display:none">
-                <strong>Product</strong>
-                <ul>
-                    <li>
-                        <input type="checkbox" value="4" name="group[6417][4]" id="mce-group[6417]-6417-0" {{ if ne .Params.signup_group "hugo" }}checked{{ end }}>
-                        <label for="mce-group[6417]-6417-0">Braintactics</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" value="8" name="group[6417][8]" id="mce-group[6417]-6417-1" {{ if eq .Params.signup_group "hugo" }}checked{{ end }}>
-                        <label for="mce-group[6417]-6417-1">Learn Hugo</label>
-                    </li>
-                </ul>
-            </div><!-- End the magic -->
-            <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <label for="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca">Prevent bot signups</label>
-                <input type="text" id="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" name="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" tabindex="-1" value="">
-            </div>
+    <div>
+      <label for="email">Email Address</label>
+      <input id="email" name="EMAIL" placeholder="e.g. harry@gmail.com" type="email">
+    </div>
+    <div>
+    
+      <!-- Add merge tag to show what page folks sign up on -->
+      <input class="visually-hidden" name="LOCATION" value="{{ .Title }}" type="hidden" id="mce-LOCATION">
+      <!-- Automagically add folks to Brain—tactics group in Mailchimp -->
+  
+      <div style="display:none">
+        <strong>Product</strong>
+        <ul>
+          <li>
+            <input type="checkbox" value="4" name="group[6417][4]" id="mce-group[6417]-6417-0" {{ if ne .Params.signup_group "hugo" }}checked{{ end }}>
+            <label for="mce-group[6417]-6417-0">Braintactics</label>
+          </li>
+          <li>
+            <input type="checkbox" value="8" name="group[6417][8]" id="mce-group[6417]-6417-1" {{ if eq .Params.signup_group "hugo" }}checked{{ end }}>
+            <label for="mce-group[6417]-6417-1">Learn Hugo</label>
+          </li>
+        </ul>
+      </div><!-- End the magic -->
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <label for="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca">Prevent bot signups</label>
+        <input type="text" id="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" name="b_4e8fba8d0ab4a857159c0104e_d6ad2b65ca" tabindex="-1" value="">
+      </div>
 
-            <div>
-                <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
-                <button class="w-full" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">Subscribe</button>
-            </div>
-        </div><!-- /.NewsletterForm-field-->
-    </form>
+      <div>
+        <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
+        <button class="w-full" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">Subscribe</button>
+      </div>
+    </div>
+  </form>
 </section>
