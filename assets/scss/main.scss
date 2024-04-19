@@ -16,12 +16,12 @@
 @import 'base/form';
 @import 'base/nav';
 @import 'base/code';
-@import 'base/syntax';
 @import 'base/button';
 
 /* 
 * Skeletal components or organisational structures.
 */
+@import 'blocks/syntax';
 @import 'blocks/avatar';
 @import 'blocks/badge';
 @import 'blocks/post-list';
