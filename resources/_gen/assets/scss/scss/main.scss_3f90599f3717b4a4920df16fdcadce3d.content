@@ -3,9 +3,9 @@
 * The variables/tokens (or whatever you 
 * wish to call them) that power the rest of your styles
 */
-/*------------------------------------*\
-    #ABSTRACTS: BREAKPOINTS
-\*------------------------------------*/
+/*
+Breakpoints
+*/
 /**
  * Breakpoints
  *
@@ -123,9 +123,6 @@ Global theme tokens
 * Embrace the cascade and inheritance to 
 * style as much as possible at a global level 
 */
-/*------------------------------------*\
-    #BASE: RESET
-\*------------------------------------*/
 /**
  * More sensible default box-sizing:
  * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
@@ -346,12 +343,9 @@ video {
   height: auto;
   margin-block: var(--space-s); }
 
-/*------------------------------------*\
-    #BASE: FORM
-\*------------------------------------*/
-/**
-  * Component Element
-  */
+/* 
+Form styles
+*/
 input,
 textarea {
   background: var(--color-bg-mod-2);
@@ -400,19 +394,18 @@ form button {
 form:not([class]) input {
   margin-bottom: 1rem; }
 
-/*------------------------------------*\
-    #BASE: NAV
-\*------------------------------------*/
-/**
- * Component Block
- */
+/* 
+Nav styles
+*/
 nav[data-variant='main'] a[data-state='active'],
 nav[data-variant='footer'] a[data-state='active'] {
   text-decoration: underline; }
 
-/*------------------------------------*\
-    #BASE: CODE
-\*------------------------------------*/
+/* 
+Code styles
+
+Used for inline code and code blocks
+*/
 code,
 kbd,
 samp {
@@ -510,6 +503,9 @@ input[type="button"][data-variant='secondary'] {
 
 /* 
 * Skeletal components or organisational structures.
+*/
+/*
+Syntax
 */
 /* Background */
 .chroma {
@@ -828,12 +824,9 @@ input[type="button"][data-variant='secondary'] {
 .chroma .w {
   color: #a89028; }
 
-/*------------------------------------*\
-    #OBJECTS: AVATAR
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Avatar
+*/
 .Avatar {
   border-radius: 50%;
   display: inline-block;
@@ -844,32 +837,23 @@ input[type="button"][data-variant='secondary'] {
   height: 80px;
   line-height: 80px; }
 
-/*------------------------------------*\
-    #OBJECTS: BADGE
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Badge
+*/
 .Badge {
   color: var(--color-brand);
   background-color: rgba(var(--color-brand-rgb), 0.05);
   padding: var(--space-3xs); }
 
-/*------------------------------------*\
-    #LAYOUTS: POST-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Post-list
+*/
 .PostListItem {
   --region-space: var(--space-l); }
 
-/*------------------------------------*\
-    #LAYOUTS: TAG-LIST
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Taglist
+*/
 .TagList {
   columns: 17rem auto; }
 
@@ -880,9 +864,9 @@ input[type="button"][data-variant='secondary'] {
 .TagListItem {
   margin-block-end: var(--space-m); }
 
-/*------------------------------------*\
-    #COMPONENTS: IMAGE
-\*------------------------------------*/
+/*
+Image
+*/
 @media (min-width: 37.5em) {
   .Image[data-layout='pull-right'] {
     width: 55%;
@@ -891,15 +875,15 @@ input[type="button"][data-variant='secondary'] {
     margin-bottom: 32px;
     margin-top: 0; } }
 
+/*
+Subscribe
+*/
 .Subscribe {
   --switcher-vertical-alignment: flex-end; }
 
-/*------------------------------------*\
-    #COMPONENTS: PULLQUOTE
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Pullquote
+*/
 .PullQuote {
   border-left: none;
   color: var(--color-dark);
@@ -925,12 +909,9 @@ input[type="button"][data-variant='secondary'] {
   margin-left: var(--space-m);
   width: 400px; }
 
-/*------------------------------------*\
-    #COMPONENTS: PAGINATION
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Pagination
+*/
 .Pagination {
   --space: var(--space-3xs); }
   .Pagination .Pagination-itemLink {
@@ -943,12 +924,9 @@ input[type="button"][data-variant='secondary'] {
       color: var(--color-bg);
       text-decoration: none; }
 
-/*------------------------------------*\
-    #COMPONENTS: HERO
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Hero
+*/
 .Hero {
   --region-space: var(--space-3xl); }
 
@@ -1000,11 +978,10 @@ Can be any acceptable flexbox alignment value.
 .repel[data-nowrap] {
   flex-wrap: nowrap; }
 
-/**
- * A composition that creates a simple 1 dimentional 12 column grid, using CSS grid
- *
- * Content will span a minimum of 3 columns, for sake of simplicity
- */
+/*
+GRID
+A composition that creates a simple 1 dimentional 12 column grid, using CSS grid. Content will span a minimum of 3 columns, for sake of simplicity.
+*/
 .grid {
   display: grid;
   grid-template-columns: repeat(var(--grid-placement, auto-fill), minmax(var(--grid-min-item-size, 16rem), 1fr));
@@ -1069,6 +1046,9 @@ Can either be configured by setting --region-space or use a default from the spa
   padding-top: var(--region-space, var(--space-l-xl));
   padding-bottom: var(--region-space, var(--space-l-xl)); }
 
+/*
+Flow
+*/
 .flow > * + * {
   margin-top: var(--flow-space, 1em); }
 
@@ -1086,20 +1066,17 @@ Can either be configured by setting --region-space or use a default from the spa
   .full-bleed figcaption {
     margin-left: var(--space-l); }
 
-/*------------------------------------*\
-    #UTILITIES: LAYOUT
-\*------------------------------------*/
+/*
+Visually-hidden
+*/
 .visually-hidden {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important; }
 
-/*------------------------------------*\
-    #LAYOUTS: POST
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Heading-anchor
+*/
 .heading-anchor {
   display: inline;
   margin-left: .5rem;
@@ -1120,9 +1097,9 @@ h4:hover > .heading-anchor {
     color: var(--color-brand);
     background: none; }
 
-/*------------------------------------*\
-    #COMPONENTS: RATIO
-\*------------------------------------*/
+/*
+Ratio
+*/
 /**
  * A utility that provides you with a predictable aspect ratio
  *
@@ -1167,9 +1144,9 @@ h4:hover > .heading-anchor {
   @media (min-width: 48em) {
     .aspect-ratio-full {
       padding-top: calc(886 / 2880 * 100%); } }
-/**
- * Component Utility
- */
+/*
+Lazy
+*/
 /* Animate the lazyloading */
 .lazyload,
 .lazyloading {
@@ -1179,12 +1156,9 @@ h4:hover > .heading-anchor {
   opacity: 1;
   transition: opacity 300ms; }
 
-/*------------------------------------*\
-    #LAYOUTS: WRAPPER
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Wrapper
+*/
 .wrapper {
   padding: 0 4% 0 4%; }
 
@@ -1192,12 +1166,9 @@ h4:hover > .heading-anchor {
   .wrapper {
     padding: 0 7% 0 7%; } }
 
-/*------------------------------------*\
-    #OBJECTS: SKIP-LINK
-\*------------------------------------*/
-/**
- * Component Block
- */
+/*
+Skip-link
+*/
 .skip-link:not(:focus) {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1216,10 +1187,16 @@ h4:hover > .heading-anchor {
   top: 1rem;
   right: 1rem; }
 
+/*
+Width
+*/
 .w-full {
   width: 100%;
   max-width: unset; }
 
+/*
+Font
+*/
 .font-mono {
   font-family: var(--font-accent); }
 
