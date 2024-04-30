@@ -16,6 +16,11 @@ Pullquote
   >figcaption {
     margin-left: 0;
   }
+
+  cite,
+  figcaption {
+    font-weight: var(--font-weight-bold);
+  }
 }
 
 /**
@@ -37,10 +42,4 @@ Pullquote
   margin-bottom: var(--space-m);
   margin-left: var(--space-m);
   width: 400px;
-
-  cite,
-  figcaption {
-    font-weight: var(--font-weight-bold);
-  }
-
 }
