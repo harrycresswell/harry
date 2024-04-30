@@ -909,7 +909,7 @@ Pagination
 */
 .Pagination {
   --space: var(--space-3xs); }
-  .Pagination .Pagination-itemLink {
+  .Pagination a {
     font-family: var(--font-accent);
     padding-block: var(--space-3xs);
     padding-inline: var(--space-xs); }

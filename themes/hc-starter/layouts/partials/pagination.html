@@ -8,8 +8,8 @@
 
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
-    <li class="Pagination-item Pagination-item--previous">
-      <a href="{{ $paginator.Prev.URL }}" class="Pagination-itemLink Pagination-itemLink--previous">
+    <li>
+      <a href="{{ $paginator.Prev.URL }}">
         <span class="visually-hidden">Previous page</span> &larr;
       </a>
     </li>
@@ -18,10 +18,9 @@
   <!-- Page numbers. -->
   {{ range $paginator.Pagers }}
   <li 
-    class="Pagination-item" 
     {{ if eq . $paginator }}data-state="active"{{ end }}
   >
-    <a href="{{ .URL }}" class="Pagination-itemLink">
+    <a href="{{ .URL }}">
       {{ .PageNumber }}
     </a>
   </li>
@@ -29,8 +28,8 @@
 
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
-    <li class="Pagination-item Pagination-item--next">
-      <a href="{{ $paginator.Next.URL }}" class="Pagination-itemLink Pagination-itemLink--next">
+    <li>
+      <a href="{{ $paginator.Next.URL }}">
       <span class="visually-hidden">Next page</span>
       &rarr;
       </a>
