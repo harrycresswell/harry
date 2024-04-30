@@ -38,4 +38,9 @@ Pullquote
   margin-left: var(--space-m);
   width: 400px;
 
+  cite,
+  figcaption {
+    font-weight: var(--font-weight-bold);
+  }
+
 }

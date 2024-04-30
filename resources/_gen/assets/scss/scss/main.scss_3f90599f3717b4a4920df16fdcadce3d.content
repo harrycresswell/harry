@@ -325,9 +325,9 @@ blockquote {
 
 cite,
 figcaption {
+  font-family: var(--font-accent);
   font-size: 80%;
   font-style: normal;
-  font-weight: var(--font-weight-bold);
   margin-block-start: var(--space-xs); }
 
 small {
@@ -903,6 +903,9 @@ Pullquote
   margin-bottom: var(--space-m);
   margin-left: var(--space-m);
   width: 400px; }
+  .PullQuote--right cite,
+  .PullQuote--right figcaption {
+    font-weight: var(--font-weight-bold); }
 
 /*
 Pagination
@@ -1042,7 +1045,11 @@ Can either be configured by setting --region-space or use a default from the spa
   padding-bottom: var(--region-space, var(--space-l-xl)); }
 
 /*
-Flow
+FLOW
+Applies a margin to sibling elements based on a --flow-space custom property.
+@link: See The Stack in Every Layout https://every-layout.dev/layouts/stack/
+@link: https://piccalil.li/tutorial/improve-the-readability-of-the-content-on-your-website#heading-the-flow-utility
+@link: https://piccalil.li/quick-tip/flow-utility/
 */
 .flow > * + * {
   margin-top: var(--flow-space, 1em); }
@@ -1061,8 +1068,9 @@ Flow
   .full-bleed figcaption {
     margin-left: var(--space-l); }
 
-/*
-Visually-hidden
+/* 
+VISUALLY HIDDEN
+Info: https://piccalil.li/quick-tip/visually-hidden/ 
 */
 .visually-hidden {
   position: absolute !important;

@@ -175,9 +175,9 @@ blockquote {
 
 cite,
 figcaption {
+  font-family: var(--font-accent);
   font-size: 80%;
   font-style: normal;
-  font-weight: var(--font-weight-bold);
   margin-block-start: var(--space-xs);
 }
 
