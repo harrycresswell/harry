@@ -8,7 +8,7 @@ slug: "march-2024"
 
 Here are my highlights from February, a few good links from around the web and what I have planned for the month of March.
 
-### Highlights from February
+## Highlights from February
 
 Watched [Darkest Hour](https://www.imdb.com/title/tt4555426/), [Maestro](https://www.imdb.com/title/tt5535276/), [Einstein and the Bomb](https://www.imdb.com/title/tt28756876/) and [One Day](https://www.imdb.com/title/tt16283804/)
 
@@ -20,7 +20,7 @@ Released cu.css [v0.1.5](https://cu.harrycresswell.com/changelog/24-02-14-v0.1.5
 
 Ran a personal best at Parkrun.
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 I enjoyed reading [Meandering Thoughts on Low Technology](https://downgrade.timrodenbroeker.de/posts/low-technology/) from Tim Rodenbröker. 
 
@@ -35,7 +35,7 @@ Lot’s on utility-first CSS doing the rounds this month. I particularly enjoyed
 I’m really enjoying Matthias Ott’s [Own Your Web](https://buttondown.email/ownyourweb) newsletter. The latest issue, [Issue 10: Links Worth Sharing](https://buttondown.email/ownyourweb/archive/issue-10/) made me realise I need a /links pages.
 
 
-### What I’m up to in March
+## What I’m up to in March
 
 - Taking a week off to go skiing in France with a bunch of friends.
 - Finding a new book to read.
@@ -44,7 +44,7 @@ I’m really enjoying Matthias Ott’s [Own Your Web](https://buttondown.email/o
 - Writing [Practical Hugo](https://practicalhugo.com/) content.
 - Parkrunning.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

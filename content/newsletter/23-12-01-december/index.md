@@ -18,7 +18,7 @@ In the new year, I plan to regain some of that focus, for my newsletter, [Practi
 
 Until then, here are my highlights and bookmarks from November. And my plans for the month of December.
 
-### Highlights from last month
+## Highlights from last month
 
 The big one, of course, was moving house.
 
@@ -28,7 +28,7 @@ I published two posts on my website: a roundup of my [subscriptions](https://har
 
 I finished season 1 of The X-files. Roll on season 2.
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 > “Slow design is about embracing the time-consuming process of trial and error so we can figure out the most elegant, considered, and sustainable solution.” 
 
@@ -46,7 +46,7 @@ I’m finally starting to get my head around Web Components, thanks to two great
 
 [Tutanota is now Tuta](https://tuta.com/blog/tutanota-is-now-tuta). Upcoming plans for post-quantum encryption and a name change for Tuta(nota).
 
-### What I’m up to this month
+## What I’m up to this month
 
 - Completing the redesign of mewingapp.co.
 - Slowing down for the holidays.
@@ -54,7 +54,7 @@ I’m finally starting to get my head around Web Components, thanks to two great
 - Finding a new book to read.
 - Writing my year in review.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue and enjoy the holidays, for those celebrating.
 

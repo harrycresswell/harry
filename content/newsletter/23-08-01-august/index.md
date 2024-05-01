@@ -10,7 +10,7 @@ Welcome.
 
 Here are my highlights from the past month, including a few things that caught my eye from elsewhere on the web and what I’m focusing on for at least the next 31 days.
 
-### ✨ Highlights from last month
+## ✨ Highlights from last month
 
 - Read [Heir to the Empire](https://www.goodreads.com/book/show/16300615-heir-to-the-empire) by Timothy Zahn.
 - Watched season 2 of [The White Lotus](https://www.imdb.com/title/tt13406094/). I was surprised to see it totally live up to the first season.
@@ -19,7 +19,8 @@ Here are my highlights from the past month, including a few things that caught m
 - Switched from Raivo OTP to [2FAS](https://2fas.com/) following [their acquisition](https://youtu.be/Z0IkcyGUqKc) and [recommendations by Bryce Wray](https://www.brycewray.com/posts/2023/07/from-raivo-otp-to-2fas/).
 - Improved the colour palette on [my personal website](https://harrycresswell.com/). I plan on re-writing the CSS from scratch, in the near future.
 - Made a ton of progress with my SCSS starter which has turned into a little framework of sorts.
-### 🕸 Elsewhere on the web
+
+## 🕸 Elsewhere on the web
 
 - “...if you can figure out what paying customers need, want, & are ready to lay out _actual cash_ to buy, and give it to them? It's _always_ good times. The booms will never be as big, but neither will the crashes. So don't get caught up in FOMO. Bring it back to business fundamentals. _Make things people want to pay for._ Build yourself a profit.“ Amy Hoy in [The boom times are over](https://shorts.stackingthebricks.com/the-boom-times-are-over/).
 - “Google takes URL-level Core Web Vitals data from CrUX into account when deciding where to rank you in a search results page. They do not use Lighthouse or PageSpeed Insights scores.” One of many key insights from Harry Roberts in [Core Web Vitals for Search Engine Optimisation: What Do We Need to Know?](https://csswizardry.com/2023/07/core-web-vitals-for-search-engine-optimisation/)
@@ -28,12 +29,12 @@ Here are my highlights from the past month, including a few things that caught m
 - Elliot Jay Stocks has complied [a super checklist for choosing type](https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type) for Google fonts.
 - Ollie Williams offers some insight into working with system fonts in [System font deep dive](https://fullystacked.net/posts/system-font-deep-dive/).
 
-### 🗓 What I’m up to this month
+## 🗓 What I’m up to this month
 
 - Launching my new SCSS/CSS starter.
 - Finishing up the first part of [Practical Hugo](https://practicalhugo.com/).
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

@@ -8,7 +8,7 @@ slug: "april-2024"
 
 Here are my highlights from March, a few good links from around the web and what I have planned for the month of April.
 
-### Highlights from March
+## Highlights from March
 
 Watched [The Dropout](https://www.imdb.com/title/tt10166622/), [Poor Things](https://www.imdb.com/title/tt14230458/), [The Gentlemen](https://www.imdb.com/title/tt13210838/) and [Beef](https://www.imdb.com/title/tt14403178/).
 
@@ -20,7 +20,7 @@ Read [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-
 
 Spent a great week skiing in La Plagne with a bunch of friends.
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 > “Reducing digital clutter is synonymous with prioritizing what truly matters.”
 
@@ -34,7 +34,7 @@ After writing about [Software that prioritises local data storage](https://harry
 
 [606: Web Sustainability with Michelle Barker](https://shoptalkshow.com/606/). Chris, Dave and Michelle talk about the environmental impact of our websites and how to build the web in a more sustainable way.
 
-### What I’m up to in April
+## What I’m up to in April
 
 - Various client projects.
 - Rewriting the CSS on my personal website.
@@ -43,7 +43,7 @@ After writing about [Software that prioritises local data storage](https://harry
 - Parkrunning.
 
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

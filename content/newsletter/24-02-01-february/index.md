@@ -10,7 +10,7 @@ That one went by fast, but I packed quite a bit into it. Not quite the gentle *e
 
 Here are my highlights from January, a few good links from around the web and what I have planned for the month of February.
 
-### Highlights from January
+## Highlights from January
 
 - Watched [Studio 54](https://www.bbc.co.uk/iplayer/episode/m001tvnj/studio-54), [You Are What You Eat: A Twin Experiment](https://www.youtube.com/watch?v=oygkWmXyOaM), a bunch of Masterchef and a few episodes of The X-Files Season 2.
 - Read [The warm dry home](https://shop.heritage-house.org/product/book-the-warm-dry-home/) by Pete Ward.
@@ -22,7 +22,7 @@ Here are my highlights from January, a few good links from around the web and wh
 - Decorated the spare room and fixed up our rotting window sills.
 
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 - [Displaying Series of Posts in Hugo](https://brainbaking.com/post/2024/01/displaying-series-of-posts-in-hugo/). A good example of using [Hugo’s complement function](https://gohugo.io/functions/collections/complement/) from Wouter Groeneveld. 
 - I also enjoyed reading Wouter’s [Publish your work](https://brainbaking.com/post/2024/01/publish-your-work/), it reminded me that I need to write more about the things I’m working on.
@@ -30,13 +30,13 @@ Here are my highlights from January, a few good links from around the web and wh
 - [My AI Dad](https://brandonwrites.xyz/my-ai-dad/) from Brandon helped me realise that AI isn’t all bad and at times can even offer guidance and support.
 - After reading [Linking](https://adactio.com/journal/20811) from Jeremy Keith and [Links page update](https://brandonwrites.xyz/links-page-update/) from Brandon, it’s clearly time for a links page.
 
-### What I’m up to in February
+## What I’m up to in February
 
 - More [cu.css](https://cu.harrycresswell.com/) updates.
 - Continuing with [Practical Hugo](https://practicalhugo.com/) content.
 - Client work: Completing Buxton migration. Various Mew and AIN projects.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

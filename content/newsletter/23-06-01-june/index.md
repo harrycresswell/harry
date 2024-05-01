@@ -13,14 +13,14 @@ On the upside, there’s been lots of highlights this month. And, the weather in
 
 Here’s the latest.
 
-### ✨ Highlights from last month
+## ✨ Highlights from last month
 
 - I’m finding time for [Practical Hugo](http://practicalhugo.com/) again. And, I hope to have some content out there in the next couple of months. Let’s hope I can stick to that.
 - I’ve been working on how I write CSS. CSS is developing fast, so it’s time to improve my approach. I’m planning on formalising this with a new starter project, of sorts, which I’ll add to a public Github repo soon.
 - I bought an [Apple Watch SE](https://www.apple.com/uk/apple-watch-se/) a couple of weeks back. Mostly to track my runs and map routes. I was concerned it would be yet another distraction, but I’m pleasantly surprised.
 - Over the bank holiday I watched [The Swimmers](https://en.wikipedia.org/wiki/The_Swimmers_(2022_film)), which follows the remarkable true story of two teenage Syrian refugees.
 
-### 🕸 Elsewhere on the web
+## 🕸 Elsewhere on the web
 
 - “It is your choice. You can hire frontend developers to build your product, or make it happen somehow and later on hire performance and accessibility consultants to fix what doesn’t work properly.” Christian Heilmann in [The ongoing defence of frontend as a full-time job](https://christianheilmann.com/2023/05/09/the-ongoing-defence-of-frontend-as-a-full-time-job/).
 - [Writing when tech has broken the web’s social contract](https://www.baldurbjarnason.com/2023/tech-broke-the-webs-social-contract/). Baldur Bjarnason questions whether publishing content online is still a safe thing to do.
@@ -30,14 +30,14 @@ Here’s the latest.
 - Interesting things you can do with Hugo Render Hooks: [Supercharge your headings in Hugo with Render Hooks](https://dariusz.wieckiewicz.org/en/supercharge-your-headings-in-hugo-with-render-hooks/) from Dariusz Więckiewicz and [Better code for image processing in Hugo](https://www.brycewray.com/posts/2023/05/better-code-image-processing-hugo-render-hook-edition/) from Bryce Wray.
 - [Building a greener web](https://heypresents.com/talks/building-a-greener-web) from Michelle Barker is packed full of great advice.
 
-### 🗓 What I’m up to this month
+## 🗓 What I’m up to this month
 
 - I’m currently back in Germany for another family event.
 - Working on Practical Hugo and my second Hugo theme.
 - I hope to get back into distance running after a few weeks off.
 - Continuing my monthly ski sessions.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

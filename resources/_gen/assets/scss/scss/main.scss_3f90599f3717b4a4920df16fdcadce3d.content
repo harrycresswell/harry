@@ -888,6 +888,9 @@ Pullquote
     margin-left: 0; }
   .PullQuote > figcaption {
     margin-left: 0; }
+  .PullQuote cite,
+  .PullQuote figcaption {
+    font-weight: var(--font-weight-bold); }
 
 /**
  * Component Modifier
@@ -903,9 +906,6 @@ Pullquote
   margin-bottom: var(--space-m);
   margin-left: var(--space-m);
   width: 400px; }
-  .PullQuote--right cite,
-  .PullQuote--right figcaption {
-    font-weight: var(--font-weight-bold); }
 
 /*
 Pagination

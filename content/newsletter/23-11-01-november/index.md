@@ -13,7 +13,7 @@ I usually find the ol’ newsletter is a good chance to get the wheels turning o
 
 So here’s what’s been happening and what I’m planning for the month ahead.
 
-### Highlights from last month
+## Highlights from last month
 
 Island hopping in the Canary Islands. We visited 3 islands in a couple of weeks: Tenerife, La Gomera and La Palma. All incredible in their own ways. We could have easily been out there for a month or two.
 
@@ -23,7 +23,7 @@ Finishing the first phase of the [Mew app redesign](https://www.figma.com/file/5
 
 Launching [Solarsimple](https://crimson-cobra.cloudvent.net/).
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 I enjoyed reading Michelle’s [Greenwashing and the Cop28 website](https://css-irl.info/greenwashing-and-the-cop28-website/) and Fershad’s follow up [COP28 UAE: A Low Carbon Website Review](https://fershad.com/writing/cop28-uae-a-low-carbon-website-review/).
 
@@ -37,7 +37,7 @@ I learnt a few things in [Styling External Links with Attribute Selectors](https
 
 Victoria Johnson in [What I Wish I Knew About Working In Development Right Out Of School](https://www.smashingmagazine.com/2023/10/beginner-web-development-working-career/)
 
-### What I’m up to this month
+## What I’m up to this month
 
 I plan on finding more time for side projects in December.
 
@@ -47,7 +47,7 @@ I’m currently reading [The man who mastered gravity](https://www.goodreads.com
 
 I’m also slowing working my way through [The X-files](https://www.imdb.com/title/tt0106179/) – just as good as I remember.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 

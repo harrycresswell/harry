@@ -11,14 +11,14 @@ I was on holiday last week, so this one’s coming to you later than usual.
 I probably should have done something clever like schedule it in advance, but I didn’t have time for that, sadly. It’s been a busy month, celebrating birthdays, selling our flat, monitoring our blood sugar. You know, the usual stuff! 
 
 
-### ✨ Highlights from last month
+## ✨ Highlights from last month
 
 - Spent time in German celebrating the 90th birthday of Rebekka’s Opa.
 - Celebrating my own birthday with family and friends.
 - Spent two weeks wearing a blood glucose monitor (and doing a bunch of other tests) for the [Zoe personalised nutrition program](https://joinzoe.com/).
 - Took a family trip to Cornwall; where we spent time in Portscatho, Falmouth, St Mawes,  Mevagissy and at the fantastic Eden Project.
 
-### 🕸 Elsewhere on the web
+## 🕸 Elsewhere on the web
 
 - [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/). A beast of a post from Chris Coyier with fantastic examples of working with Logic Properties and layout, Container Queries and Units, Cascade layers, Colors and View Transitions. Worth spending some time on this one.
 - [11 HTML best practices for login & sign-up forms](https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms). Lots of great tips from Andrey Sitnik.
@@ -27,13 +27,13 @@ I probably should have done something clever like schedule it in advance, but I 
 - [The best light/dark mode theme toggle in JavaScript](https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript/) from Salma Alam-Naylor
 - I just discovered [Spinal CMS](https://spinalcms.com/). Finally, there’s a new Git-based CMS on the block. It’s about time.
 
-### 🗓 What I’m up to this month
+## 🗓 What I’m up to this month
 
 - Working on the identity for a new solar power business.
 - Working on Practical Hugo and my second Hugo theme.
 - Revisiting my SCSS/CSS stater.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 
