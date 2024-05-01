@@ -850,7 +850,7 @@ Post-list
 Taglist
 */
 .TagList {
-  columns: 17rem auto; }
+  columns: 20rem auto; }
 
 @media (min-width: 48em) {
   .TagList {
