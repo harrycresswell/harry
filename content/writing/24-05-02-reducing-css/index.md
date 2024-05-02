@@ -4,7 +4,7 @@ date: 2024-05-02T10:33:00+01:00
 draft: false
 slug: "reducing-css"
 topics: ["CSS"]
-description: "Without making any changes to the design, I managed to reduce the amount of CSS on my personal site by around 36%."
+description: "Without making any changes to the design, I managed to reduce the amount of CSS on my personal site by around 33%."
 ---
 
 Since formalising [my CSS boilerplate](https://cu.harrycresswell.com/), I’ve come to realise that many CSS problems that I’d typically solved with unique component based styles (using BEM or similar), can actually be solved using a handful of reusable styles. 
