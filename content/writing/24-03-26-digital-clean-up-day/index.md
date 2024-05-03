@@ -93,10 +93,4 @@ The problem with digital clutter is that it’s so much easier to create than cl
 
 Sadly, for most of my life online I’ve given little thought to the impact digital clutter is having, both to myself and the environment. I wish I had become aware sooner, as over the years I’ve created my fair share.
 
-But awareness counts for something, at least, and a digital declutter is a good place to start. To make any reasonable progress, I’ve found it helps to dedicated a regular block of time in your calendar to the task. I’m hoping to make this a habit.  
-
-To me, my weekly declutter is time well spent. It helps me feel clearer, calmer and more focused with my work. It’s also helping me to think more intentional with the technology I choose to use. 
-
-It’s a long road ahead but I’m beginning to think more consciously about the digital artefacts I’m creating and take responsibility for the clutter I’ve already created. 
-
-
+But awareness counts for something, at least, and a digital declutter is a good place to start. To make any reasonable progress, I’ve found it helps to dedicate a regular block of time in my calendar to the task. To me, my weekly declutter is time well spent. It helps me feel clearer, calmer and more focused with my work. It’s also helping me to slow down and think more intentionally about the technology I choose to use. Hopefully, in time, this ritual will turn into a habit. 
