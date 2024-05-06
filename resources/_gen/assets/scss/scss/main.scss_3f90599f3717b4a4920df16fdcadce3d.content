@@ -322,6 +322,8 @@ blockquote {
   font-style: italic; }
   blockquote p {
     margin-inline-start: var(--space-m); }
+  blockquote > * + * {
+    margin-top: var(--flow-space, 1em); }
 
 cite,
 figcaption {

@@ -171,6 +171,10 @@ blockquote {
   p {
    margin-inline-start: var(--space-m);
   }
+
+  > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
 }
 
 cite,
