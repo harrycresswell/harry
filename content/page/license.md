@@ -3,7 +3,8 @@ title: "License information"
 date: 2024-05-08T11:00:06+01:00
 draft: false
 slug: "license"
-description: ""
+description: "All of the content on this site is produced under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)** license."
+layout: "page"
 ---
 
 All of the content on this site is produced under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)** license, which means:
