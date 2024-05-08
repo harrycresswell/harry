@@ -87,3 +87,8 @@ weight = 15
 name = "Topics"
 url = "/topics/"
 weight = 20
+
+[[menu.footer]]
+name = "Privacy"
+url = "/privacy/"
+weight = 25
