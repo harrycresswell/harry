@@ -14,7 +14,7 @@ From this website, I collect the name and email address of those who sign up for
 
 **This websites does not use tracking cookies**, meaning I have no way to identify or track you if you simply browse the site and do not share your data with me, via any of the methods listed above. You can check for yourself by typing https://harrycresswell.com into [Cookiemetrix](https://www.cookiemetrix.com/).
 
-Similarly, **this website does not use analytics** of any kind to track visitors.
+Similarly, **this website does not use analytics** of any kind to track visitors, however I do use [Google Search Console](https://search.google.com/search-console/) for measuring traffic from Google Search to my site.
 
 ## What I do with data
 
