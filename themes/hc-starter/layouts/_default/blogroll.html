@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="Hero region">
+  <h1>{{ .Title }}</h1>
+  <p class="visually-hidden">{{ .Description }}</p>
+</section>
+
+{{ range .Site.Data.blogroll.opml.body.outline }}
+
+  <h2>{{ index . "text" }}</h2>
+  <ol>
+    {{ range $k, $v := .outline }}
+      {{ if $k }}
+      <li>
+        {{ $k | title }}: {{ $v }}
+      </li>
+      {{ else }}
+        {{ range . }}
+          <li>
+              {{ . }}
+          </li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ol>
+{{ end }}
+{{ end }}
