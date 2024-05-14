@@ -1103,9 +1103,7 @@ Avatar
 Badge
 */
 .Badge {
-  color: var(--color-brand);
-  background-color: rgba(var(--color-brand-rgb), 0.05);
-  padding: var(--space-3xs); }
+  color: var(--color-brand); }
 
 /*
 Post-list
