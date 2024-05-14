@@ -4,23 +4,14 @@
   <p class="visually-hidden">{{ .Description }}</p>
 </section>
 
-{{ range .Site.Data.blogroll.opml.body.outline }}
-
-  <h2>{{ index . "text" }}</h2>
-  <ol>
-    {{ range $k, $v := .outline }}
-      {{ if $k }}
-      <li>
-        {{ $k | title }}: {{ $v }}
-      </li>
-      {{ else }}
-        {{ range . }}
-          <li>
-              {{ . }}
-          </li>
-        {{ end }}
-      {{ end }}
+  {{/*  <!-- https://darcynorman.net/2024/04/01/publishing-an-opml-blogroll-with-hugo/?utm_campaign=HugoConf&utm_medium=email&_hsmi=301326266&utm_content=301327016&utm_source=hs_email -->  */}}
+  {{ range $.Site.Data.blogroll.body.outline }}
+    <h2>{{ index . "-text" }}</h2>
+    <ul>
+    {{ range .outline }}
+    <li><a href="{{ index . "-htmlUrl" }}">{{ index . "-text" }}</a></li>
     {{ end }}
-  </ol>
-{{ end }}
+    </ul>
+  {{ end }}
+
 {{ end }}
