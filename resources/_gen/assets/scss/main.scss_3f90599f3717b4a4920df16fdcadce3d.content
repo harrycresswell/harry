@@ -1,0 +1,1474 @@
+@charset "UTF-8";
+/* 
+* The variables/tokens (or whatever you 
+* wish to call them) that power the rest of your styles
+*/
+/*
+Breakpoints
+*/
+/**
+ * Breakpoints
+ *
+ *
+$base-font-size = 100%/16px
+  *
+*/
+/**
+* Mobile-first styles FTW
+*
+Example:
+*/
+aside.primary {
+  /* Regular content */ }
+  @media (min-width: 37.5em) {
+    aside.primary {
+      /* responsive content */ } }
+/* 
+Utopia fluid space
+
+@link https://utopia.fyi/space/calculator?c=320,16,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6|7,s-l&g=s,l,xl,12 
+
+*/
+:root {
+  --space-3xs: clamp(0.25rem, 0.2283rem + 0.1087vi, 0.3125rem);
+  --space-2xs: clamp(0.5rem, 0.4565rem + 0.2174vi, 0.625rem);
+  --space-xs: clamp(0.75rem, 0.6848rem + 0.3261vi, 0.9375rem);
+  --space-s: clamp(1rem, 0.913rem + 0.4348vi, 1.25rem);
+  --space-m: clamp(1.5rem, 1.3696rem + 0.6522vi, 1.875rem);
+  --space-l: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+  --space-xl: clamp(3rem, 2.7391rem + 1.3043vi, 3.75rem);
+  --space-2xl: clamp(4rem, 3.6522rem + 1.7391vi, 5rem);
+  --space-3xl: clamp(6rem, 5.4783rem + 2.6087vi, 7.5rem);
+  --space-4xl: clamp(7rem, 6.3913rem + 3.0435vi, 8.75rem);
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, 0.1196rem + 0.6522vi, 0.625rem);
+  --space-2xs-xs: clamp(0.5rem, 0.3478rem + 0.7609vi, 0.9375rem);
+  --space-xs-s: clamp(0.75rem, 0.5761rem + 0.8696vi, 1.25rem);
+  --space-s-m: clamp(1rem, 0.6957rem + 1.5217vi, 1.875rem);
+  --space-m-l: clamp(1.5rem, 1.1522rem + 1.7391vi, 2.5rem);
+  --space-l-xl: clamp(2rem, 1.3913rem + 3.0435vi, 3.75rem);
+  --space-xl-2xl: clamp(3rem, 2.3043rem + 3.4783vi, 5rem);
+  --space-2xl-3xl: clamp(4rem, 2.7826rem + 6.087vi, 7.5rem);
+  --space-3xl-4xl: clamp(6rem, 5.0435rem + 4.7826vi, 8.75rem);
+  /* Custom pairs */
+  --space-s-l: clamp(1rem, 0.4783rem + 2.6087vi, 2.5rem); }
+
+/* 
+Utopia fluid type
+
+@link https://utopia.fyi/type/calculator?c=320,16,1.125,1140,20,1.25,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 
+*/
+:root {
+  --step--1: clamp(0.8889rem, 0.8455rem + 0.2168vi, 1rem);
+  --step-0: clamp(1rem, 0.9024rem + 0.4878vi, 1.25rem);
+  --step-1: clamp(1.125rem, 0.9543rem + 0.8537vi, 1.5625rem);
+  --step-2: clamp(1.2656rem, 0.9973rem + 1.3415vi, 1.9531rem);
+  --step-3: clamp(1.4238rem, 1.0267rem + 1.9855vi, 2.4414rem);
+  --step-4: clamp(1.6018rem, 1.036rem + 2.8292vi, 3.0518rem); }
+
+/* 
+Global theme tokens
+*/
+:root {
+  /* Typography */
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-display: var(--font-base);
+  --font-accent: "SF Mono", "Menlo", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-compact: 1.2;
+  --line-height-base: 1.6;
+  --line-height-loose: 1.7;
+  --width-compact: 35ch;
+  --width-longform: 60ch;
+  --tracking: -0.001ch;
+  --tracking-s: -0.03ch;
+  /* 
+  Colors created with Utopia Kickstarter project 
+  @link https://www.figma.com/community/file/1122903924123950023
+  */
+  --color-text: #172240;
+  --color-text-mod-1: #5D70A6;
+  --color-text-mod-2: #9CA7C3;
+  --color-bg: #ffffff;
+  --color-bg-mod-1:#F5F8FE;
+  --color-bg-mod-2: #EBEFF7;
+  --color-border: #172240;
+  --color-brand: #542bff;
+  /* #542bff in decimal RGB */
+  --color-brand-rgb: 84, 43, 255;
+  --color-accent: #542bff;
+  --color-highlight: #eefbc1;
+  /* Grid */
+  --gutter: var(--space-s-m);
+  /* Effects */
+  --border-radius: 0;
+  --shadow: 0px 3px 7px rgba(0, 0, 0, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.025); }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* 
+      If theme doesn’t require a dark mode then remove this media query altogether
+    */
+      --color-text: #CED3E8;
+      --color-text-mod-1: #C4CAE3;
+      --color-text-mod-2: #8995C8;
+      --color-bg: #212845;
+      --color-bg-mod-1:#121626;
+      --color-bg-mod-2: #212845;
+      --color-border: #CED3E8;
+      --color-brand: #a08aff;
+      --color-accent: #FF70AE; } }
+/* 
+* Embrace the cascade and inheritance to 
+* style as much as possible at a global level 
+*/
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+a {
+  text-decoration: inherit;
+  color: inherit; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Remove default padding and list style */
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none; }
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block; }
+
+figure {
+  margin: 0; }
+
+[hidden] {
+  display: none !important; }
+
+/* 
+Global styles 
+
+Low-specificity, global styles that apply to the whole 
+project: https://cube.fyi/css.html
+
+*/
+html {
+  background-color: var(--color-brand); }
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth; } }
+
+body {
+  background-color: var(--color-bg-mod-1);
+  color: var(--color-text);
+  font-family: var(--font-base);
+  font-size: var(--step-0);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--tracking);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-s);
+  max-width: 35ch; }
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: var(--line-height-compact); }
+
+h1,
+.h1 {
+  font-size: var(--step-4);
+  max-width: 33ch; }
+
+h2,
+.h2 {
+  font-size: var(--step-2);
+  --flow-space: var(--space-l-xl); }
+
+h3,
+.h3 {
+  font-size: var(--step-1);
+  --flow-space: var(--space-l); }
+
+h4,
+.h4 {
+  font-size: var(--step-0);
+  line-height: 1.4;
+  --flow-space: var(--space-m); }
+
+/* Set line lengths */
+p,
+li,
+blockquote:not([class]) {
+  max-width: var(--width-longform); }
+
+/* Remove padding and margin on ul, ol elements with a list role */
+[role='list'] {
+  padding: 0;
+  margin: 0; }
+
+ul,
+ol {
+  list-style-position: inside; }
+  @media (min-width: 48em) {
+    ul,
+    ol {
+      list-style-position: outside; } }
+ul[class],
+ol[class] {
+  list-style: none; }
+
+li > ul {
+  margin: 0 1.5rem; }
+
+a {
+  color: var(--color-brand);
+  text-decoration: underline; }
+  a:hover {
+    color: var(--color-bg);
+    background-color: var(--color-brand);
+    text-decoration: none; }
+
+/* Use naked variant to style links as text*/
+a[data-variant="naked"] {
+  color: var(--color-text);
+  text-decoration: none; }
+
+a[data-variant="naked"]:hover {
+  background-color: unset;
+  text-decoration: underline; }
+
+/* Use desaturate to remove brand color from links */
+a[data-variant="desaturate"] {
+  color: var(--color-text); }
+
+a[data-variant="desaturate"]:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  text-decoration: none; }
+
+/* Add scroll margin to all target elements 
+* See https://piccalil.li/quick-tip/add-scroll-margin-to-all-elements-which-can-be-targeted/
+*/
+:target {
+  scroll-margin-top: 2ex; }
+
+hr {
+  --flow-space: 3rem;
+  border-top: 0;
+  border-bottom: 2px dotted;
+  max-width: var(--width-longform);
+  margin: 3rem 0; }
+
+/* Hide focus styles if they're not needed, for example, 
+ when an element receives focus via the mouse. */
+:focus:not(:focus-visible) {
+  outline: 0; }
+
+/* Show focus styles on keyboard focus. */
+:focus-visible {
+  outline: dotted 2px var(--color-text);
+  outline-offset: 3px; }
+
+blockquote {
+  border-left: 2px solid var(--color-text);
+  color: var(--color-text);
+  font-style: italic; }
+  blockquote p {
+    margin-inline-start: var(--space-m); }
+  blockquote > * + * {
+    margin-top: var(--flow-space, 1em); }
+
+cite,
+figcaption {
+  font-family: var(--font-accent);
+  font-size: 80%;
+  font-style: normal;
+  margin-block-start: var(--space-xs); }
+
+small {
+  font-size: var(--step--1); }
+
+video {
+  width: 100%;
+  height: auto;
+  margin-block: var(--space-s); }
+
+/* 
+Form styles
+*/
+input,
+textarea {
+  background: var(--color-bg-mod-2);
+  border: solid 0.2rem var(--color-bg-mod-2);
+  border-radius: 0;
+  outline: 2px solid var(--color-bg-mod-2);
+  outline-offset: 0;
+  padding: 4px var(--space-s);
+  position: relative;
+  width: 100%;
+  -webkit-appearance: none; }
+
+input::placeholder {
+  color: var(--color-text-mod-2); }
+
+textarea {
+  min-height: 96px;
+  padding: 8px 16px; }
+
+select {
+  background: var(--color-bg-mod-2);
+  border: 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline-style: none;
+  width: 100%; }
+  select:after {
+    color: var(--color-text);
+    content: '▾';
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 24px;
+    top: 16px;
+    width: 14px; }
+
+label {
+  display: block;
+  margin-bottom: var(--space-2xs); }
+
+form button {
+  margin-top: var(--space-xs); }
+
+form:not([class]) input {
+  margin-bottom: 1rem; }
+
+/* 
+Nav styles
+*/
+nav[data-variant='main'] a[data-state='active'],
+nav[data-variant='footer'] a[data-state='active'] {
+  text-decoration: underline; }
+
+/* 
+Code styles
+
+Used for inline code and code blocks
+*/
+code,
+kbd,
+samp {
+  background-color: var(--color-bg-mod-2);
+  color: var(--color-text);
+  font-size: 90%;
+  border-radius: 2px; }
+
+pre {
+  background: var(--color-bg-mod-2);
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-wrap: normal;
+  padding: 3%; }
+
+p code,
+li code {
+  padding: .125rem .35rem; }
+
+code,
+pre {
+  font-family: var(--font-accent); }
+
+pre {
+  margin: 2rem 0; }
+
+pre code {
+  font-size: 90%;
+  padding: 0;
+  color: inherit;
+  background-color: transparent; }
+
+/*
+Button styles
+
+Globally style the button element, submit, button and reset input.
+Include the .button class for styling <a> tags as buttons. 
+*/
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: var(--color-text);
+  border: solid 0.2rem var(--color-text);
+  border-radius: var(--border-radius);
+  color: var(--color-bg);
+  cursor: pointer;
+  padding: var(--space-3xs) var(--space-s);
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  white-space: nowrap; }
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover
+input[type="button"]:focus {
+  filter: brightness(1.2);
+  transform: translateY(-2px); }
+
+button:disabled,
+.button[aria-disabled="true"],
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+  background-color: var(--color-bg-mod-2);
+  border: solid 0.2rem var(--color-bg-mod-2);
+  color: var(--color-text-mod-2);
+  cursor: not-allowed;
+  transform: none;
+  filter: none; }
+
+/* 
+EXCEPTIONS
+
+Offer a variant button style
+
+@link https://cube.fyi/exception.html 
+*/
+button[data-variant='secondary'],
+.button[data-variant='secondary'],
+input[type="submit"][data-variant='secondary'],
+input[type="reset"][data-variant='secondary'],
+input[type="button"][data-variant='secondary'] {
+  background: var(--color-bg);
+  border: solid 2px var(--color-bg);
+  color: var(--color-text); }
+
+/* 
+* Skeletal components or organisational structures.
+*/
+/*
+Syntax
+*/
+/* Background */
+.chroma {
+  background-color: var(--color-bg-mod-2); }
+
+/* Error */
+.chroma .err {
+  color: #2838b0; }
+
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block; }
+
+/* LineHighlight */
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc; }
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* Keyword */
+.chroma .k {
+  color: #2838b0; }
+
+/* KeywordConstant */
+.chroma .kc {
+  color: #444444;
+  font-style: italic; }
+
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #2838b0;
+  font-style: italic; }
+
+/* KeywordNamespace */
+.chroma .kn {
+  color: #2838b0; }
+
+/* KeywordPseudo */
+.chroma .kp {
+  color: #2838b0; }
+
+/* KeywordReserved */
+.chroma .kr {
+  color: #2838b0; }
+
+/* KeywordType */
+.chroma .kt {
+  color: #2838b0;
+  font-style: italic; }
+
+/* NameAttribute */
+.chroma .na {
+  color: #388038; }
+
+/* NameBuiltin */
+.chroma .nb {
+  color: #388038; }
+
+/* NameBuiltinPseudo */
+.chroma .bp {
+  font-style: italic; }
+
+/* NameClass */
+.chroma .nc {
+  color: #287088; }
+
+/* NameConstant */
+.chroma .no {
+  color: #b85820; }
+
+/* NameDecorator */
+.chroma .nd {
+  color: #287088; }
+
+/* NameEntity */
+.chroma .ni {
+  color: #709030; }
+
+/* NameException */
+.chroma .ne {
+  color: #908828; }
+
+/* NameFunction */
+.chroma .nf {
+  color: #785840; }
+
+/* NameFunctionMagic */
+.chroma .fm {
+  color: #b85820; }
+
+/* NameLabel */
+.chroma .nl {
+  color: #289870; }
+
+/* NameNamespace */
+.chroma .nn {
+  color: #289870; }
+
+/* NameTag */
+.chroma .nt {
+  color: #2838b0; }
+
+/* NameVariable */
+.chroma .nv {
+  color: #b04040; }
+
+/* NameVariableGlobal */
+.chroma .vg {
+  color: #908828; }
+
+/* NameVariableMagic */
+.chroma .vm {
+  color: #b85820; }
+
+/* LiteralString */
+.chroma .s {
+  color: #b83838; }
+
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #444444; }
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #b83838; }
+
+/* LiteralStringChar */
+.chroma .sc {
+  color: #a848a8; }
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #b85820; }
+
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #b85820;
+  font-style: italic; }
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #b83838; }
+
+/* LiteralStringEscape */
+.chroma .se {
+  color: #709030; }
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #b83838; }
+
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #b83838;
+  text-decoration: underline; }
+
+/* LiteralStringOther */
+.chroma .sx {
+  color: #a848a8; }
+
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #a848a8; }
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #b83838; }
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #b83838; }
+
+/* LiteralNumber */
+.chroma .m {
+  color: #444444; }
+
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #444444; }
+
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #444444; }
+
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #444444; }
+
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #444444; }
+
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #444444; }
+
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #444444; }
+
+/* Operator */
+.chroma .o {
+  color: #666666; }
+
+/* OperatorWord */
+.chroma .ow {
+  color: #a848a8; }
+
+/* Punctuation */
+.chroma .p {
+  color: #888888; }
+
+/* Comment */
+.chroma .c {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentHashbang */
+.chroma .ch {
+  color: #287088;
+  font-style: italic; }
+
+/* CommentMultiline */
+.chroma .cm {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSingle */
+.chroma .c1 {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSpecial */
+.chroma .cs {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentPreproc */
+.chroma .cp {
+  color: #289870; }
+
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #289870; }
+
+/* GenericDeleted */
+.chroma .gd {
+  color: #c02828; }
+
+/* GenericEmph */
+.chroma .ge {
+  font-style: italic; }
+
+/* GenericError */
+.chroma .gr {
+  color: #c02828; }
+
+/* GenericHeading */
+.chroma .gh {
+  color: #666666; }
+
+/* GenericInserted */
+.chroma .gi {
+  color: #388038; }
+
+/* GenericOutput */
+.chroma .go {
+  color: #666666; }
+
+/* GenericPrompt */
+.chroma .gp {
+  color: #444444; }
+
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold; }
+
+/* GenericSubheading */
+.chroma .gu {
+  color: #444444; }
+
+/* GenericTraceback */
+.chroma .gt {
+  color: #2838b0; }
+
+/* GenericUnderline */
+.chroma .gl {
+  text-decoration: underline; }
+
+/* TextWhitespace */
+.chroma .w {
+  color: #a89028; }
+
+@media (prefers-color-scheme: dark) {
+  /* https://xyproto.github.io/splash/docs/catppuccin-frappe.html */
+  /* Background */
+  .bg {
+    color: #ef9f76;
+    background-color: var(--color-bg-mod-2); }
+  /* PreWrapper */
+  .chroma {
+    color: #ef9f76;
+    background-color: var(--color-bg-mod-2); }
+  /* Other */
+  /* Error */
+  .chroma .err {
+    color: #e78284; }
+  /* CodeLine */
+  /* LineLink */
+  .chroma .lnlinks {
+    outline: none;
+    text-decoration: none;
+    color: inherit; }
+  /* LineTableTD */
+  .chroma .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  /* LineTable */
+  .chroma .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  /* LineHighlight */
+  .chroma .hl {
+    background-color: #ffffcc; }
+  /* LineNumbersTable */
+  .chroma .lnt {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #774f3b; }
+  /* LineNumbers */
+  .chroma .ln {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #774f3b; }
+  /* Line */
+  .chroma .line {
+    display: flex; }
+  /* Keyword */
+  .chroma .k {
+    color: #ca9ee6; }
+  /* KeywordConstant */
+  .chroma .kc {
+    color: #ca9ee6;
+    font-style: italic; }
+  /* KeywordDeclaration */
+  .chroma .kd {
+    color: #ca9ee6; }
+  /* KeywordNamespace */
+  .chroma .kn {
+    color: #ca9ee6; }
+  /* KeywordPseudo */
+  .chroma .kp {
+    color: #ca9ee6;
+    font-weight: bold; }
+  /* KeywordReserved */
+  .chroma .kr {
+    color: #ca9ee6; }
+  /* KeywordType */
+  .chroma .kt {
+    color: #e5c890; }
+  /* Name */
+  .chroma .n {
+    color: #babbf1; }
+  /* NameAttribute */
+  .chroma .na {
+    color: #e5c890; }
+  /* NameBuiltin */
+  .chroma .nb {
+    color: #c6d0f5;
+    font-style: italic; }
+  /* NameBuiltinPseudo */
+  .chroma .bp {
+    color: #babbf1; }
+  /* NameClass */
+  .chroma .nc {
+    color: #e5c890; }
+  /* NameConstant */
+  .chroma .no {
+    color: #e5c890; }
+  /* NameDecorator */
+  .chroma .nd {
+    color: #f4b8e4; }
+  /* NameEntity */
+  .chroma .ni {
+    color: #f4b8e4; }
+  /* NameException */
+  .chroma .ne {
+    color: #ea999c; }
+  /* NameFunction */
+  .chroma .nf {
+    color: #99d1db; }
+  /* NameFunctionMagic */
+  .chroma .fm {
+    color: #babbf1; }
+  /* NameLabel */
+  .chroma .nl {
+    color: #e5c890; }
+  /* NameNamespace */
+  .chroma .nn {
+    color: #e5c890; }
+  /* NameOther */
+  /* NameProperty */
+  .chroma .py {
+    color: #babbf1; }
+  /* NameTag */
+  .chroma .nt {
+    color: #ca9ee6; }
+  /* NameVariable */
+  /* NameVariableClass */
+  .chroma .vc {
+    color: #babbf1; }
+  /* NameVariableGlobal */
+  .chroma .vg {
+    color: #babbf1; }
+  /* NameVariableInstance */
+  .chroma .vi {
+    color: #babbf1; }
+  /* NameVariableMagic */
+  .chroma .vm {
+    color: #babbf1; }
+  /* Literal */
+  /* LiteralDate */
+  /* LiteralString */
+  .chroma .s {
+    color: #a6d189; }
+  /* LiteralStringAffix */
+  .chroma .sa {
+    color: #a6d189; }
+  /* LiteralStringBacktick */
+  .chroma .sb {
+    color: #a6d189; }
+  /* LiteralStringChar */
+  .chroma .sc {
+    color: #a6d189; }
+  /* LiteralStringDelimiter */
+  .chroma .dl {
+    color: #a6d189; }
+  /* LiteralStringDoc */
+  .chroma .sd {
+    color: #a6d189; }
+  /* LiteralStringDouble */
+  .chroma .s2 {
+    color: #a6d189; }
+  /* LiteralStringEscape */
+  .chroma .se {
+    color: #8caaee; }
+  /* LiteralStringHeredoc */
+  .chroma .sh {
+    color: #a6d189; }
+  /* LiteralStringInterpol */
+  .chroma .si {
+    color: #a6d189; }
+  /* LiteralStringOther */
+  .chroma .sx {
+    color: #a6d189; }
+  /* LiteralStringRegex */
+  .chroma .sr {
+    color: #8caaee; }
+  /* LiteralStringSingle */
+  .chroma .s1 {
+    color: #a6d189; }
+  /* LiteralStringSymbol */
+  .chroma .ss {
+    color: #a6d189; }
+  /* LiteralNumber */
+  /* LiteralNumberBin */
+  /* LiteralNumberFloat */
+  /* LiteralNumberHex */
+  /* LiteralNumberInteger */
+  .chroma .mi {
+    color: #a6d189; }
+  /* LiteralNumberIntegerLong */
+  /* LiteralNumberOct */
+  /* Operator */
+  .chroma .o {
+    color: #99d1db; }
+  /* OperatorWord */
+  .chroma .ow {
+    color: #99d1db;
+    font-weight: bold; }
+  /* Punctuation */
+  .chroma .p {
+    color: #c6d0f5; }
+  /* Comment */
+  .chroma .c {
+    color: #626880;
+    font-style: italic; }
+  /* CommentHashbang */
+  .chroma .ch {
+    color: #626880;
+    font-style: italic; }
+  /* CommentMultiline */
+  .chroma .cm {
+    color: #626880;
+    font-style: italic; }
+  /* CommentSingle */
+  .chroma .c1 {
+    color: #626880;
+    font-style: italic; }
+  /* CommentSpecial */
+  .chroma .cs {
+    color: #626880;
+    font-style: italic; }
+  /* CommentPreproc */
+  .chroma .cp {
+    color: #8caaee;
+    font-style: italic; }
+  /* CommentPreprocFile */
+  .chroma .cpf {
+    color: #8caaee;
+    font-style: italic; }
+  /* Generic */
+  /* GenericDeleted */
+  .chroma .gd {
+    color: #ea999c; }
+  /* GenericEmph */
+  .chroma .ge {
+    font-style: italic; }
+  /* GenericError */
+  .chroma .gr {
+    color: #ea999c; }
+  /* GenericHeading */
+  .chroma .gh {
+    color: #99d1db;
+    font-weight: bold; }
+  /* GenericInserted */
+  .chroma .gi {
+    color: #a6d189; }
+  /* GenericOutput */
+  /* GenericPrompt */
+  .chroma .gp {
+    color: #737994;
+    font-weight: bold; }
+  /* GenericStrong */
+  .chroma .gs {
+    font-weight: bold; }
+  /* GenericSubheading */
+  .chroma .gu {
+    color: #99d1db;
+    font-weight: bold; }
+  /* GenericTraceback */
+  .chroma .gt {
+    color: #ea999c; }
+  /* GenericUnderline */
+  /* TextWhitespace */
+  .chroma .w {
+    color: #414559; } }
+
+/*
+Avatar
+*/
+.Avatar {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+  font-size: 1.25rem;
+  width: 80px;
+  height: 80px;
+  line-height: 80px; }
+
+/*
+Badge
+*/
+.Badge {
+  color: var(--color-brand); }
+
+/*
+Post-list
+*/
+.PostListItem {
+  --region-space: var(--space-l); }
+
+/*
+Taglist
+*/
+.TagList {
+  columns: 20rem auto; }
+
+@media (min-width: 48em) {
+  .TagList {
+    column-gap: 64px; } }
+
+.TagListItem {
+  margin-block-end: var(--space-m); }
+
+/*
+Image
+*/
+@media (min-width: 37.5em) {
+  .Image[data-layout='pull-right'] {
+    width: 55%;
+    float: right;
+    margin-left: 48px;
+    margin-bottom: 32px;
+    margin-top: 0; } }
+
+/*
+Subscribe
+*/
+.Subscribe {
+  --switcher-vertical-alignment: flex-end; }
+
+/*
+Pullquote
+*/
+.PullQuote {
+  border-left: none;
+  color: var(--color-dark);
+  max-width: 430px; }
+  .PullQuote > p {
+    font-size: 110%;
+    margin-left: 0; }
+  .PullQuote > figcaption {
+    margin-left: 0; }
+  .PullQuote cite,
+  .PullQuote figcaption {
+    font-weight: var(--font-weight-bold); }
+
+/**
+ * Component Modifier
+ */
+.PullQuote--left {
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media (min-width: 48em) {
+    .PullQuote--left {
+      margin-left: 0; } }
+.PullQuote--right {
+  float: right;
+  margin-bottom: var(--space-m);
+  margin-left: var(--space-m);
+  width: 400px; }
+
+/*
+Pagination
+*/
+.Pagination {
+  --space: var(--space-3xs); }
+  .Pagination a {
+    font-family: var(--font-accent);
+    padding-block: var(--space-3xs);
+    padding-inline: var(--space-xs); }
+  .Pagination [data-state='active'] {
+    background-color: var(--color-brand); }
+    .Pagination [data-state='active'] a {
+      color: var(--color-bg);
+      text-decoration: none; }
+
+/*
+Hero
+*/
+.Hero {
+  --region-space: var(--space-3xl); }
+
+/* 
+* High level, flexible layouts that provide a 
+* skeleton to support any variant of a component
+*/
+/*
+CLUSTER
+More info: https://every-layout.dev/layouts/cluster/
+A layout that lets you distribute items with consitent
+spacing, regardless of their size
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter ($global-gutter): This defines the space
+between each item.
+
+--cluster-horizontal-alignment (flex-start) How items should align
+horizontally. Can be any acceptable flexbox aligmnent value.
+
+--cluster-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+*/
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space, var(--space-xs));
+  justify-content: var(--cluster-horizontal-alignment, flex-start);
+  align-items: var(--cluster-vertical-alignment, center); }
+
+/*
+REPEL
+A little layout that pushes items away from each other where
+there is space in the viewport and stacks on small viewports
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter (var(--space-s-m)): This defines the space
+between each item.
+--repel-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+*/
+.repel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: var(--repel-vertical-alignment, center);
+  gap: var(--gutter, var(--space-s-l)); }
+
+.repel[data-nowrap] {
+  flex-wrap: nowrap; }
+
+/*
+GRID
+A composition that creates a simple 1 dimentional 12 column grid, using CSS grid. Content will span a minimum of 3 columns, for sake of simplicity.
+*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-placement, auto-fill), minmax(var(--grid-min-item-size, 16rem), 1fr));
+  gap: var(--gutter, var(--space-s-l)); }
+
+/* 
+EXCEPTIONS
+  
+@link https://cube.fyi/exception.html 
+*/
+/* Two column when space permits */
+.grid[data-layout='50-50'] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 50vw, 26rem); }
+
+/* Four column when space permits */
+.grid[data-layout='25x4'] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(10rem, 20vw, 26rem); }
+
+/*
+SWITCHER
+More info: https://every-layout.dev/layouts/switcher/
+A layout that allows you to lay **4** items next to each other
+until there is not enough horizontal space to allow that.
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter (var(--gutter)): This defines the space
+between each item
+
+--switcher-target-container-width (40rem): How large the container
+needs to be to allow items to sit inline with each other
+
+--switcher-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+*/
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, 1rem);
+  align-items: var(--switcher-vertical-alignment, flex-start); }
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--switcher-target-container-width, 40rem) - 100%) * 999); }
+
+/* Max 4 items,
+so we target everything *after* those */
+.switcher > :nth-last-child(n + 5),
+.switcher > :nth-last-child(n + 5) ~ * {
+  flex-basis: 100%; }
+
+/* 
+* Classes that do one job and one job well 
+*/
+/*
+REGION 
+Add consistent vertical padding to create regions of content 
+Can either be configured by setting --region-space or use a default from the space scale
+*/
+.region {
+  padding-top: var(--region-space, var(--space-l-xl));
+  padding-bottom: var(--region-space, var(--space-l-xl)); }
+
+/*
+FLOW
+Applies a margin to sibling elements based on a --flow-space custom property.
+@link: See The Stack in Every Layout https://every-layout.dev/layouts/stack/
+@link: https://piccalil.li/tutorial/improve-the-readability-of-the-content-on-your-website#heading-the-flow-utility
+@link: https://piccalil.li/quick-tip/flow-utility/
+*/
+.flow > * + * {
+  margin-top: var(--flow-space, 1em); }
+
+/**
+ * FULL BLEED
+ *
+ * Add this class to an element to make it fill the width of the screen 
+ * and sit horizontally central
+ * https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/
+ */
+.full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+  .full-bleed figcaption {
+    margin-left: var(--space-l); }
+
+/* 
+VISUALLY HIDDEN
+Info: https://piccalil.li/quick-tip/visually-hidden/ 
+*/
+.visually-hidden {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
+/*
+Heading-anchor
+*/
+.heading-anchor {
+  display: inline;
+  margin-left: .5rem;
+  opacity: 0; }
+
+h2:focus > .heading-anchor,
+h2:hover > .heading-anchor,
+h3:focus > .heading-anchor,
+h3:hover > .heading-anchor,
+h4:focus > .heading-anchor,
+h4:hover > .heading-anchor {
+  opacity: 1; }
+
+.heading-anchor {
+  text-decoration: none; }
+  .heading-anchor:hover {
+    text-decoration: underline;
+    color: var(--color-brand);
+    background: none; }
+
+/*
+Ratio
+*/
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9 = ratio wide
+ * 1:1 = ratio square
+ * 3:2 = ratio landscape
+ * 3:4 = ratio portrait
+ */
+[class*='ratio-'] {
+  background-color: var(--color-light-mod-2);
+  display: block;
+  position: relative; }
+
+[class*='ratio-'] > * {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover; }
+
+.aspect-ratio-wide {
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */ }
+
+.aspect-ratio-square {
+  padding-bottom: 100%;
+  /* 1:1 Aspect Ratio */ }
+
+.aspect-ratio-landscape {
+  padding-bottom: 66.6666%;
+  /* 3:2 Aspect Ratio */ }
+
+.aspect-ratio-portrait {
+  padding-bottom: calc(564 / 395 * 100%);
+  /* 5:7 Aspect Ratio */ }
+
+.aspect-ratio-full {
+  padding-top: calc(276 / 414 * 100%);
+  object-fit: cover; }
+  @media (min-width: 48em) {
+    .aspect-ratio-full {
+      padding-top: calc(886 / 2880 * 100%); } }
+/*
+Lazy
+*/
+/* Animate the lazyloading */
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
+
+/*
+Wrapper
+*/
+.wrapper {
+  padding: 0 4% 0 4%; }
+
+@media (min-width: 48em) {
+  .wrapper {
+    padding: 0 7% 0 7%; } }
+
+/*
+Skip-link
+*/
+.skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; }
+
+.skip-link:focus {
+  background-color: var(--color-bg);
+  position: absolute;
+  z-index: 2;
+  top: 1rem;
+  right: 1rem; }
+
+/*
+Width
+*/
+.w-full {
+  width: 100%;
+  max-width: unset; }
+
+/*
+Font
+*/
+.font-mono {
+  font-family: var(--font-accent); }
+
+.font-bold {
+  font-weight: var(--font-weight-bold); }
+
+/*# sourceMappingURL=main.css.map */

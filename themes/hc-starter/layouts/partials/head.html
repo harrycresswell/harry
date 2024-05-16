@@ -64,7 +64,7 @@
   <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
   <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />
   <!-- Styles -->
-  {{ if .Site.IsServer }}
+  {{ if hugo.IsServer }} <!-- If using the local development server -->
     <!-- Pipe Sass to CSS, include options, enable sourcemaps -->
     {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "enableSourceMap" true) }}
     <!-- Load main.css-->
