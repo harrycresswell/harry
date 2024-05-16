@@ -28,13 +28,14 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 ## Work
 
-- Figma (£23.65 / $30)
+- Figma (£12 / $15.20)
 - Fathom Analytics (£9.48 / $11.58)
 - Sync (£6.55 / $8)
 - Notion (£3.93 / $4.8)
+- Obsidian (£7.89 / $10)
 - Accountant (£120 / $146.53)
 
-**Total:** £163.61* / $200.91
+**Total:** £159.85* / $196.11
 
 *This doesn’t include expenses which get re-billed to clients.
 
@@ -64,14 +65,15 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 - iCloud+ with 50 GB of storage (£0.99 / $1.21)
 - Readwise and Reader (£6.54 / $7.99)
 - Duolingo (£4.99 / $6.22)
+- MoreYoga (£23.25 / $29.46)
 
-**Total:** £21.52 / $26.44
+**Total:** £44.77 / $55.92
 
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £215.04 / $264.14 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is Figma, as I currently pay for two design seats.
+The overall total comes to £234.53 / $288.82 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is MoreYoga, but it’s much cheaper than a gym membership would cost.
 
-I haven’t included household expenses, like insurance, utilities and council tax, as I’m currently between places. I’ll try and remember to add these when I move in.
+I decided not to included household expenses, such as insurance, utilities and council tax as I wouldn’t necessarily consider them subscriptions. They’re also shared costs.
 
-With everything now in check, I’m hoping I’ll consider any potential new subscriptions with a little more thought.
+With everything now in check, I hope to give a little extra consideration any new potential subscriptions.
