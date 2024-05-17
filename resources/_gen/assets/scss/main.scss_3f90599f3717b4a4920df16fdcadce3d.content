@@ -335,6 +335,9 @@ figcaption {
 small {
   font-size: var(--step--1); }
 
+mark {
+  background-color: var(--color-highlight); }
+
 video {
   width: 100%;
   height: auto;

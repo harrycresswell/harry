@@ -46,6 +46,29 @@ projects = "/:section/:slug/"
 updates = "/:section/:slug/"
 page = "/:slug/"
 
+[markup]
+[markup.goldmark]
+duplicateResourceFiles = false
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = 'https'
+strikethrough = true
+table = true
+taskList = true
+[markup.goldmark.extensions.extras]
+[markup.goldmark.extensions.extras.insert]
+enable = false
+[markup.goldmark.extensions.extras.mark]
+enable = true
+[markup.goldmark.extensions.extras.subscript]
+enable = false
+[markup.goldmark.extensions.extras.superscript]
+enable = false
+[markup.goldmark.extensions.passthrough]
+enable = false
+
 [[menu.main]]
 name = "Index"
 url = "/"
