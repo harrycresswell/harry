@@ -56,10 +56,9 @@
   <!-- We are Humans -->
   <link rel="author" href="humans.txt" />
   <!-- Me -->    
-  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ with .Site.Author.twitter }}<link href="{{ . }}" rel="me">{{ end }}
-  {{ with .Site.Author.github }}<link href="{{ . }}" rel="me">{{ end }}
-  {{ with .Site.Author.linkedin }}<link href="{{ . }}" rel="me">{{ end }}
+  {{ with .Site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.author.github }}<link href="{{ . }}" rel="me">{{ end }}
+  {{ with .Site.Params.author.linkedin }}<link href="{{ . }}" rel="me">{{ end }}
   <!-- IndieCert -->
   <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
   <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />

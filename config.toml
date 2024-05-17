@@ -14,7 +14,6 @@ enableGitInfo = true
 # Enable Emojis
 enableEmoji = true
 
-
 [params]
 keywords = "Product Design, UX Design, UI Design, Front-end Web Development, Small businesses, Automation, Typography"
 description = "Harry Cresswell is a professional designer and front-end web developer from London, England. Read technical articles and notes on designing and coding websites."
@@ -23,9 +22,8 @@ location = "London, UK"
 card_image = "img/card-image.png"
 # Set Cloudinary URL for image hosting
 cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/upload"
-author = "Harry Cresswell"
 
-[author]
+[params.author]
 name = "Harry Cresswell"
 email = "harry.a79rq@aleeas.com"
 github = "https://github.com/harrycresswell"
