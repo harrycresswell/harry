@@ -4,7 +4,7 @@ date: 2024-05-21T12:09:08+01:00
 draft: false
 slug: "upgrading-hugo-warnings-breaking-changes"
 topics: ["Hugo"]
-description: ""
+description: "I’m always impressed at how straight forward it is to maintain Hugo websites and upgrade to the latest releases of the Hugo binary."
 ---
 
 Last week I upgraded Hugo from [v0.115.0](https://github.com/gohugoio/hugo/releases/tag/v0.115.0) to [v0.126.1](https://github.com/gohugoio/hugo/releases/tag/v0.126.1). With all the Hugo sites I manage (for myself and clients), I was half expecting a few breaking changes to fix as a result of the update.
