@@ -7,7 +7,7 @@ draft: false
 
 {{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – Front-end Web Development" caption="" >}}
 
-==I design and code fast, accessible, content-based websites==, mostly using ”vanilla” HTML, CSS, and JavaScript.
+I design and code fast, accessible, content-based websites, mostly using ”vanilla” HTML, CSS, and JavaScript.
 
 On this website I mostly write about [building static websites with Hugo](/topics/hugo/), [improving privacy and security online](/topics/privacy/)  and the [tools I use](/uses/), day to day.
 
