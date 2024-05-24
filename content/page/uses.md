@@ -160,6 +160,9 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
 
+[Mailwip](https://mailwip.com/) allows you to send and receive emails using unlimited addresses from your own domain. I use it with clients who wish to send emails using a business domain name from their personal Gmail account.
+
+
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
 [QuickTime Player](https://support.apple.com/en-gb/guide/quicktime-player/welcome/mac) seems to be the most stable app for creating offline screen recordings I can find.
