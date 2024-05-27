@@ -68,6 +68,8 @@ Switching from Google Authenticator involves disabling two-factor authentication
 
 If you’re coming from Authy, then you can follow the [migrating from Authy to Raivo OTP](https://github.com/raivo-otp/ios-application#migrating) guide.
 
+**27th May 2024**: Since learning about [the suspicious circumstances surrounding Raivo’s takeover](https://www.youtube.com/watch?v=Z0IkcyGUqKc), I’ve switched to using [2FAS](https://2fas.com/), another popular open source one-time/2FA password generator.
+
 
 ### Google Chrome &#8594; Brave 
 
@@ -77,6 +79,7 @@ I currently have the [Ecosia](https://www.ecosia.org/) search extension installe
 
 By using Brave you can collect [Brave rewards](https://brave.com/brave-rewards/https://brave.com/brave-rewards/) and the Basic Attention Token (BAT). In other words, you get paid to use the browser.
 
+**27th May 2024**: Following a conversation with [Luke](https://www.lkhrs.com/), who pointed me in the direction of [Chrome is bad](https://chromeisbad.com/), I’ve since dropped Chrome entirely. I’m yet to settle on a replacement, so currently find myself using a combination of Brave, Librewolf and Safari. I use [Firefox Focus](https://www.mozilla.org/en-GB/firefox/browsers/mobile/focus/) for iOS.
 
 ### Google Drive &#8594; Sync
 
@@ -99,9 +102,11 @@ I’ve been a paying Notion customer since 2019. I use it for most things. Journ
 
 For that reason, I’ve started using [Obsidian](https://obsidian.md/) for taking notes. Although its primary focus is on knowledge management, I’ve been using it to draft articles, too. There’s a certain resilience in creating a system based on a set of markdown files stored in a local folder. Store that folder in a secure cloud and you’ll have access via mobile. Even when offline.
 
-I’ve been toying with the idea of using Obsidian for project management and moving away from Notion. But, I fear that might be pushing Obsidian beyond its limits.
+I’ve been toying with the idea of [using Obsidian for project management](/writing/simple-project-management/) and moving away from Notion. But, I fear that might be pushing Obsidian beyond its limits.
 
-[Anytype](https://anytype.io/) could well be the ultimate like-for-like Notion replacement. Currently, in beta, I’m keeping an eye out for the launch. The advantage of Anytype is that it works locally, encrypts all your data and is open source. It seems  Anytype might take on Obsidian with their connected thought features. But, I haven’t used it, so I can’t say too much about that, yet.
+[Anytype](https://anytype.io/) could well be the ultimate like-for-like Notion replacement. Currently, in beta, I’m keeping an eye out for the launch. The advantage of Anytype is that it works locally, encrypts all your data and is open source. It seems Anytype might take on Obsidian with their connected thought features. But, I haven’t used it, so I can’t say too much about that, yet.
+
+**27th May 2024**: I briefly looked at Anytype when it launched, but couldn’t get on with it as the data you create is encrypted and files aren’t easy to access. I envisage issues with vendor lock-in sometime down the line. For this reason I’ve fully committed to Obsidian. Their [file over app](/links/file-over-app/) philosophy makes a lot of sense. You store data as plain-text markdown files locally, which makes your content portable and easy to access. Furthermore, Obsidian’s community plugins make it extremely flexible. I’m currently using it for writing, project management, bookmarking, creating flashcards, [goal setting with OKR](/writing/simple-project-management/), clipping quotes from the web and a bunch of other things.
 
 
 ### Google Sheets &#8594; Airtable
@@ -111,6 +116,8 @@ I'm sure you can do most of what Google Sheets does with Notion. But I’ve been
 I have a couple of big tables that I actively manage. One for dev resources and the other for [Local London](https://locallondon.life/) content. I can’t see much point in moving these over to Notion, so I continue to use Airtable. 
 
 I’d say Airtable feels more Notion-like than Sheets-like. But if you want a similar experience to Sheets, then [Cryptpad](https://cryptpad.fr/) has a suite of Google replacements. The software is open-source, with the addition of end-to-end encryption. Cryptpad also has a strong focus on collaboration.
+
+**27th May 2024**: I’ve been testing out the [Obsidian Database Folder](https://rafaelgb.github.io/obsidian-db-folder/) plugin for bookmarking content from the web. I can see this approach working well for my personal databases, like the one I use for dev resources which is currently in Airtable. Where Obsidian DB Folder won’t be such a good fit is for databases which are populated by others via form submissions, such as those on [Local London](https://locallondon.life/). For these sorts of needs I will continue to use Airtable.
 
 
 ### Google Maps &#8594; Apple Maps + Citymapper
