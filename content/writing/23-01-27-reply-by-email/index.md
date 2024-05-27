@@ -117,3 +117,7 @@ I assume folks might end up saving the address in their contacts, and if I delet
 In any case, I still have [a contact form](/contact), so all bases are covered.
 
 Sidenote: I’m pretty sure I got the idea for this after reading [Saying Thank You](https://blog.jim-nielsen.com/2022/saying-thank-you/) from Jim Nielsen.
+
+**27th May 2024**: I added `role="button"` to the anchor link used to create my reply by email button. This makes the link semantically a button, although it still behaves like a link, which is important for assistive technologies. I’ve also added a `draggable="false"` based on Martin’s advice in [When design breaks semantics](https://www.tempertemper.net/blog/when-design-breaks-semantics). 
+
+Since [refactoring my CSS](/writing/reducing-css/), I no longer use modifier classes, as suggested above. Instead I create variant styles for buttons using data attributes. For example, `data-variant="secondary"`.

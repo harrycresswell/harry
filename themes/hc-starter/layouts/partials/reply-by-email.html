@@ -1,8 +1,10 @@
 <section class="region" id="reply-by-email">
-  {{ $email := .Site.Author.email }}
+  {{ $email := .Site.Params.author.email }}
   <a 
     data-decode="email" 
     class="button"
     data-variant="secondary"
+    role="button"
+    draggable="false"
     href="mailto:{{ $email | base64Encode }}">Reply by email</a>
 </section>
