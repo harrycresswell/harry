@@ -1,5 +1,5 @@
 ---
-title: "Ai free, human-generated"
+title: "AI free, human-generated"
 date: 2024-05-29T10:55:30+01:00
 draft: false
 slug: "ai-free"
