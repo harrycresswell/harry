@@ -14,4 +14,6 @@ author: Molly White
 >
 > When I envision the web, I picture an infinite expanse of empty space that stretches as far as the eye can see. It's full of fertile soil, but no seeds have taken root. That is, except for about an acre of it.”
 
-A wonderful reminder from Molly White that beyond the reinforced walls of big tech, “the old web” still exists. And those things that made the web what it was in the “good old days”, like setting up a personal site, blogging, using RSS, creating blogrolls, webrings, and so on is becoming easier and more accessible by the day.
+A wonderful reminder from Molly White that beyond the reinforced walls of big tech, “the old web” still exists. 
+
+It’s never been easier to set up a personal site, start blogging, use RSS, create blogrolls, and webrings, and do all those fun things that made the web what it was in the *good old days*.

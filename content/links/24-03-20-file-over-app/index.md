@@ -16,8 +16,8 @@ author: Steph Ango
 >
 > You should want the files you create to be durable, not only for posterity, but also for your future self. You never know when you might want to go back to something you created years or decades ago. Don’t lock your data into a format you can’t retrieve.
 
-I’ve been fascinated by Steph’s philosophy since I starting using Obsidian.
+I’ve been a fan of Steph’s philosophy since I starting using Obsidian.
 
-Creating a resilient system of plain-text files, that will stand the test of time, makes a lot of sense. It’s the [Rule of least power](https://en.wikipedia.org/wiki/Rule_of_least_power) and the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) all rolled into one – or something like that.
-
-After all, when an app disappears or becomes obsolete, nobody wants their content to disappear along with it.
+Creating content using plain-text files makes a lot of sense. Plain-text is simple and resilient. When Obsidian disappears the work will remain.
+ 
+The [Rule of least power](https://en.wikipedia.org/wiki/Rule_of_least_power) and the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) both come to mind.

@@ -21,8 +21,8 @@ author: Justin Jackson
 
 Blogging really helps you shift to this way of thinking. 
 
-Though it’s often still a challenge when your client wants to see a design first, so they can shoehorn their words in. We‘ve all experienced it at some point. 
+But it can be challenging with clients. There’s always that one who wants to see the design first, so they can shoehorn their words in afterwards.
 
-Invariably, the solution to this problem can be found in not skimping on the discovery phase. As much as we all want to get to the fun bit, it’s such an important step.
+Invariably, the solution to this problem can be found in not skimping on the discovery phase. It’s such an important step.
 
-I like to send clients a bunch of questions. Get them to write about their business, so you’ve got some words to get going with.
+I like to send clients a bunch of questions. Get them to write about their business, so you’ve got some words to work with.
