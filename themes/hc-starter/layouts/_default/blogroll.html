@@ -1,17 +1,28 @@
 {{ define "main" }}
-<section class="Hero region">
-  <h1>{{ .Title }}</h1>
-  <p class="visually-hidden">{{ .Description }}</p>g
-</section>
+  <section class="Hero region">
+    <h1>{{ .Title }}</h1>
+    <p class="visually-hidden">{{ .Description }}</p>
+  </section>
 
-  {{/*  <!-- https://darcynorman.net/2024/04/01/publishing-an-opml-blogroll-with-hugo/?utm_campaign=HugoConf&utm_medium=email&_hsmi=301326266&utm_content=301327016&utm_source=hs_email -->  */}}
-  {{ range $.Site.Data.blogroll.body.outline }}
-    <h2>{{ index . "-text" }}</h2>
-    <ul>
-    {{ range .outline }}
-    <li><a href="{{ index . "-htmlUrl" }}">{{ index . "-text" }}</a></li>
-    {{ end }}
-    </ul>
+  {{ with .Content }}
+    <section class="e-content flow">
+      {{ . }}
+      {{/*  <!-- https://darcynorman.net/2024/04/01/publishing-an-opml-blogroll-with-hugo-->  */}}
+      {{ range $.Site.Data.blogroll.body.outline }}
+        <h2>{{ index . "-text" }}</h2>
+        <ul>
+        {{ range .outline }}
+          <li>
+            <a href="{{ index . "-htmlUrl" }}">{{ index . "-text" }}</a> (<a href='{{ index . "-xmlUrl" }}'>feed</a>)
+          </li>
+        {{ end }}
+        </ul>
+      {{ end }}
+    </section>
+    <section class="region">
+      <p>Page inspired by the <a href="https://indieweb.org/blogroll">IndieWeb</a> movement and <a href="https://darcynorman.net/2024/04/01/publishing-an-opml-blogroll-with-hugo/">Publishing an OPML Blogroll With Hugo</a> by D'Arcy Norman.</p>
+    </section>
   {{ end }}
+
 
 {{ end }}
