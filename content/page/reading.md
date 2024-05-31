@@ -11,6 +11,8 @@ layout: page
 
 ## 2024
 
+- Agent Sonya by Ben Macintyre
+- The Minimalist Entrepreneur by Sahil Lavingia
 - The Psychology of Money by Morgan Housel
 - Zen: The Art of Simple Living by Shunmyō Masunoe
 - Journeys Out of the Body by Robert A. Monroe
