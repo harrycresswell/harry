@@ -2,7 +2,7 @@
 title: "June 2024"
 date: 2024-06-02T15:24:37+01:00
 draft: false
-description: "Rallying for the independent, human-centred web"
+description: "Rallying for the independent, human-centred web."
 slug: "june-2024"
 ---
 
