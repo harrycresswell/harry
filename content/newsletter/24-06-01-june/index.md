@@ -49,9 +49,10 @@ The results from the first ever [State of HTML survey](https://2023.stateofhtml.
 - Supporting England (and Germany) in the Euros.
 - Working on [Eryn](https://studioeryn.com/) and [Practical Hugo](https://practicalhugo.com/).
 - [IndieWeb](https://indieweb.org/)-ifying my personal site.
-- Celebrating my 38th birthday.
 - Various client projects.
+- Celebrating my 38th birthday.
 - Migrating my Notion to Obsidian.
+- Enjoying the good weather!
 
 ### Thank you for reading
 
