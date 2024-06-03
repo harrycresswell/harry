@@ -10,7 +10,7 @@ Lots happened in May, including a new Hugo release which brings a long-awaited n
 
 As usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
-### Highlights from May
+## Highlights from May
 
 Published a post about the trend for [AI free, human-generated](https://harrycresswell.com/writing/ai-free/) content. Also [Reducing CSS](https://harrycresswell.com/writing/reducing-css/), which explains everything I’ve done to reduce the file size of my personal website styles by 33%. Then [Upgrading Hugo to 0.126.1](https://harrycresswell.com/writing/upgrading-hugo-warnings-breaking-changes/), which documents the minor issues I encountered when upgrading the the latest Hugo release.
 
@@ -28,7 +28,7 @@ Experienced a [Banya](https://banyalondon.co.uk/) for the first time, then went 
 
 Read [Agent Sonya](https://www.goodreads.com/book/show/52578861-agent-sonya) by Ben Macintyre.
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 [We can have a different web](https://www.citationneeded.news/we-can-have-a-different-web/). Molly White reminds us that the *good old days* of the web are still out there, but it’s up to us to bring them back.
 
@@ -44,7 +44,7 @@ Michelle Barker has published a [Manifesto for a humane web](https://humanewebma
 
 The results from the first ever [State of HTML survey](https://2023.stateofhtml.com/en-US) are now live. It’s great to see the least sexy, but most important part of the web getting the love it deserves. 
 
-### What I’m up to in June
+## What I’m up to in June
 
 - Supporting England (and Germany) in the Euros.
 - Working on [Eryn](https://studioeryn.com/) and [Practical Hugo](https://practicalhugo.com/).
@@ -54,7 +54,7 @@ The results from the first ever [State of HTML survey](https://2023.stateofhtml.
 - Migrating my Notion to Obsidian.
 - Enjoying the good weather!
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 
