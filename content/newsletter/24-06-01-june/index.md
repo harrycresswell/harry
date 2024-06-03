@@ -6,7 +6,7 @@ description: "Rallying for the independent, human-centred web."
 slug: "june-2024"
 ---
 
-Lots happened in May, including a new Hugo release which brings a long-awaited new feature and plenty of rallying for the independent, human-centred web.
+Lots happened in May, including a new Hugo release which brings a long-awaited new feature. Also, plenty of rallying for a more independent, human-centred web, which is great to see.
 
 As usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
