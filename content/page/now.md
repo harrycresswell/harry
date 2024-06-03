@@ -12,20 +12,23 @@ These are the things I’m focusing my time and energy on right now, inspired by
 ## Writing
 
 - Curriculum for [practicalhugo.com](https://practicalhugo.com) – a project based course teaching you how to build websites with Hugo.
+- Copywriting a new studio website.
 
 ## Building
 
 - [cu.css](https://cu.harrycresswell.com), a lightweight CSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
+- [Eryn](https://studioeryn.com/)
+- [Practical Hugo](https://practicalhugo.com/)
 
 ## Watching
 
-- The X-Files.
-- Beef
+- The X-Files
+- Star Wars: The Clone Wars
 
 ## Reading
 
-- [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money) by Morgan Housel
-- [The The Vignelli Canon](https://www.goodreads.com/book/show/9180968-the-vignelli-canon) by Massimo Vignelli.
+- [Agent Sonya](https://benmacintyre.com/us/book/agent-sonya/) by Ben Macintyre
+- [What is simple web design?](https://anthonyhobday.com/books/simpledesign/) by Anthony Hobday 
 
 ## Learning
 

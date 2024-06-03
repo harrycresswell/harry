@@ -15,7 +15,7 @@ Newsletters in your inbox can be distracting to say the least. To solve the prob
 
 For the past few years this is how I managed newsletters. That is, until I stumbled upon [Kill the Newsletter](https://kill-the-newsletter.com/). A clever little tool made by Leandro Facchinetti, which offers to roll any newsletter into an RSS feed, for free. 
 
-By combining this tool with a basic RSS reader, there’s potential to ditch Feedbin, altogether. That might appeal,  if like me, you’re only sticking with Feedbin for the email address feature.
+By combining this tool with a basic RSS reader, there’s potential to ditch Feedbin, altogether. That might appeal, if like me, you’re only sticking with Feedbin for the email address feature.
 
 But let’s save RSS readers for another time. Instead I’d rather talk about killing the Newsletter and what it can do for you.
 
