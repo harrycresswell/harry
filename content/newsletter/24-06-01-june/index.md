@@ -16,11 +16,11 @@ Published a post about the trend for [AI free, human-generated](https://harrycre
 
 Watched [A Murder at the end of the world](https://www.imdb.com/title/tt15227418/), [Germany after the war 1945-1949](https://www.youtube.com/watch?v=YcflnToTaWI&t=10s), [The Founder](https://www.imdb.com/title/tt4276820/), [Clarkson’a Farm 3](https://www.imdb.com/title/tt10541088/?ref_=ttep_ov_i), [House of Gucci](https://www.imdb.com/title/tt11214590/?ref_=fn_al_tt_1), [Beckham](https://www.imdb.com/title/tt14524712/) and [Where the Crawdads Sing](https://www.imdb.com/title/tt9411972/).
 
-Went to [When forms come alive](https://www.southbankcentre.co.uk/whats-on/art-exhibitions/when-forms-come-alive) at Hayward Gallery, then celebrated my dad’s birthday at Forza Wine in the National Theatre.
+Saw [When forms come alive](https://www.southbankcentre.co.uk/whats-on/art-exhibitions/when-forms-come-alive) at Hayward Gallery, then celebrated my dad’s birthday at Forza Wine in the National Theatre.
 
 Spent the day at Kew Gardens and saw [Mark Quinn’s Light into Life](https://www.kew.org/kew-gardens/whats-on/marc-quinn). 
 
-Made a few updates to my personal site by adding [a Blogroll](https://harrycresswell.com/blogroll/), some boring but important [licence information](https://harrycresswell.com/license/), then updating [my privacy page](https://harrycresswell.com/privacy/). 
+Made a few updates to my personal site by adding [a blogroll](https://harrycresswell.com/blogroll/), some boring but important [licence information](https://harrycresswell.com/license/), then updating [my privacy page](https://harrycresswell.com/privacy/). 
 
 Ran the [Hackney Half Marathon](https://www.hackneymoves.com/) in 2 hours 8 minutes. Not my quickest ever but perhaps the most enoyable.
 
