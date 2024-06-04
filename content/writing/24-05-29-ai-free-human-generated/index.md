@@ -32,8 +32,8 @@ According the the [Not by AI](https://notbyai.fyi/) website, this is important b
 
 I’m right behind this “AI free” idea and what it stands for. 
 
-I like doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. It’s honest work. Work to be proud of. 
+I like doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. Work to be proud of. 
 
-Can the same be said of the garbage that some generative AI tool spat out for you in a matter of seconds?
+Can the same be said of the trash that generative AI tools spit out for you in a matter of seconds? Probabaly not.
 
 Anyway, I hope to see this “AI free” trend continue to grow. I’ll return to this post to document more examples, as I find them.
