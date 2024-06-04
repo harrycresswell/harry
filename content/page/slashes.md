@@ -20,3 +20,5 @@ layout: page
 - [Support](/support/)
 - [Things](/things/)
 - [Uses](/uses/)
+
+Find out [more about slashes pages](/writing/slash-pages-and-slashes/).

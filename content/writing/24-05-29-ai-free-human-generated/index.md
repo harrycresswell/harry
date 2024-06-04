@@ -4,10 +4,10 @@ date: 2024-05-29T10:55:30+01:00
 draft: false
 slug: "ai-free"
 topics: ["AI"]
-description: "It’s interesting and perhaps encouraging to see folks declaring their work *AI free* or *human-generated*, in some way or another."
+description: "It’s encouraging to see folks declaring their work *AI free* or *human-generated*, in some form or another."
 ---
 
-It’s interesting and perhaps encouraging to see folks declaring their work *AI free* or *human-generated*, in some way or another.
+It’s encouraging to see folks declaring their work *AI free* or *human-generated*, in some form or another.
 
 Jared White has pledged that [everything his web design studio creates will be 100% AI free](https://www.whitefusion.studio/#stop-publicizing-progress-without-committing-to-ethics) going forward:
 
@@ -29,12 +29,11 @@ According the the [Not by AI](https://notbyai.fyi/) website, this is important b
 
 > Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and stagnant.
 
-Personally, I’m not sure where I’m at with the whole generative AI thing. On the one hand the statement above seems to make a lot of sense. But then there’s the argument that AI will simply augment human creativity just like any other creative tool, rather than stagnate it. I suppose it depends on the degree to which we embrace it. 
 
-Whatever the case, I feel I need to educate myself more before I wade in with any generative AI tools. Jared’s [AI Ethical Framework](https://www.whitefusion.studio/ai-ethics) seems like a good place to start.
+I’m right behind this “AI free” idea and what it stands for. 
 
-For now, I’m right behind this “AI free” movement and what it stands for. 
+I like doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. It’s honest work. Work to be proud of. 
 
-I like doing difficult things that take time and effort – like using your fallible head and hands to create original work. Ultimately, it must be more rewarding than letting some AI tool do most the hard work. So why not state proudly that your work was created without the assistance of AI. Perhaps I’ll do the same on my website, too.
+Can the same be said of the garbage that some generative AI tool spat out for you in a matter of seconds?
 
-Anyway, it will be interesting to see whether this “AI free” trend continue to grow. If it does, then I’ll return to this post to document more examples, as I find them.
+Anyway, I hope to see this “AI free” trend continue to grow. I’ll return to this post to document more examples, as I find them.
