@@ -5,3 +5,4 @@
 /success/   /thanks/          301
 /updates/*  /writing/:splat   301
 /updates/   /writing/         301
+/build/     /colophon/        301

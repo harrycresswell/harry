@@ -19,7 +19,7 @@ I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a co
 
 Check out some of the [things I’ve built](/things). Find out what [books I’ve read](/reading). Maybe take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience. 
 
-Find out [how I built this site](/build/) or [what I'm up to right now](/now/).
+Find out [how I built this site](/colophon/) or [what I'm up to right now](/now/).
 
 Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
 
