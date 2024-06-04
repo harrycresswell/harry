@@ -7,11 +7,16 @@ slug: "related-updates"
 topics: ["Daily", "Hugo course"]
 ---
 
-I had the idea of displaying updates related to [the Hugo course](/learn-hugo/) I’m writing at [the bottom of the  course landing page](/learn-hugo/#updates).  Until I have some course material to share I figured I might as well get these updates on the page so you can see how I’m getting on. 
+
+*⚠️ Things have changed since I originally wrote this post. Course updates are now part of my [/writing](/writing) page, organised under [Hugo course](/topics/hugo-course/). I have also retired the course landing page that onced lived at /learn-hugo, in favour of [practicalhugo.com](https://practicalhugo.com).*
+
+---
+
+I had the idea of displaying updates related to [the Hugo course](https://practicalhugo.com) I’m writing at [the bottom of the  course landing page](/learn-hugo/#updates).  Until I have some course material to share I figured I might as well get these updates on the page so you can see how I’m getting on. 
 
 These updates live in their own directory and are marked with a specific tag. And I want to display them on a single page on my website. How do you do it?
 
-First I need to get hold of all the updates I’ve written. As mentioned, updates are a dedicated content type. In other words, they live in their own directory at [content/updates](https://github.com/harrycresswell/harry/tree/master/content/updates). Each update has it’s own markdown file.
+First I need to get hold of all the updates I’ve written. As mentioned, updates are a dedicated content type. In other words, they live in their own directory at content/updates. Each update has it’s own markdown file.
 
 Hugo refers to this type of content as [regular pages](https://gohugo.io/variables/site/#sitepages-compared-to-pages). Think *post* or *content* page, as opposed to a taxonomy or section page. You can get hold of all regular pages from anywhere on your site using the [.Site.RegularPages](https://gohugo.io/variables/site/#site-pages) variable. 
 
@@ -118,6 +123,6 @@ The simple solution is to check if the current page URL is the same as the URL o
 
 Notice the final statement contains all the previous code. This is because I only want Hugo to execute all this logic *if* the page is /learn-hugo/. In other words, if the condition is met. 
 
-That’s it. I now have course related updates displaying at the bottom of [my Hugo course](/learn-hugo/) page. Hopefully you’ve learnt something here.
+That’s it. I now have course related updates displaying at the bottom of my Hugo course page. Hopefully you’ve learnt something here.
 
 I think that’s it for the technical stuff for now. I need to get my head down and focus on creating course content, otherwise I’ll never get this thing launched by Spring ‘22.
