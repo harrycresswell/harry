@@ -110,11 +110,6 @@ url = "/topics/"
 weight = 20
 
 [[menu.footer]]
-name = "Privacy"
-url = "/privacy/"
+name = "Slashes"
+url = "/slashes/"
 weight = 25
-
-[[menu.footer]]
-name = "Blogroll"
-url = "/blogroll/"
-weight = 30

@@ -1,5 +1,5 @@
 ---
-title: "AI free, human-generated"
+title: "AI-free, human-generated"
 date: 2024-05-29T10:55:30+01:00
 draft: false
 slug: "ai-free"
@@ -7,9 +7,9 @@ topics: ["AI"]
 description: "It’s encouraging to see folks declaring their work *AI free* or *human-generated*, in some form or another."
 ---
 
-It’s encouraging to see folks declaring their work *AI free* or *human-generated*, in some form or another.
+It’s encouraging to see folks declaring their work *AI-free* or *human-generated*, in some form or another.
 
-Jared White has pledged that [everything his web design studio creates will be 100% AI free](https://www.whitefusion.studio/#stop-publicizing-progress-without-committing-to-ethics) going forward:
+Jared White has pledged that [everything his web design studio creates will be 100% AI-free](https://www.whitefusion.studio/#stop-publicizing-progress-without-committing-to-ethics) going forward:
 
 > **Our pledge to you in 2024 and beyond:** 100% ==AI-free== productions. All the solutions we provide are of the finest ==human-grade quality==. We’re not afraid of _progress_! But we’re not buying the _bullshit_. Read more about our [AI Ethical Framework](https://www.whitefusion.studio/ai-ethics) we’ve laid out which presents the minimum threshold required for us to evaluate any “generative AI” toolchain.
 
@@ -35,7 +35,7 @@ But you can’t argue with the detrimental impact AI is having on the environmen
 
 There’s also the ethical implications of [AI companies exploiting ghost workers](https://english.elpais.com/economy-and-business/2024-01-01/the-hidden-labor-force-behind-chatgpt-the-drama-of-the-ghost-workers.html) to moderate content. The legal implications of [stealing copywrited material to train AI models](https://www.theguardian.com/technology/2024/jan/08/ai-tools-chatgpt-copyrighted-material-openai). And the opportunity cost of [loosing your job to AI](https://www.theguardian.com/technology/2024/mar/27/ai-apocalypse-could-take-away-almost-8m-jobs-in-uk-says-report). The list goes on.
 
-For these reasons, I’m right behind this “AI free” idea and what it stands for. 
+For these reasons, I’m right behind this “AI-free” idea and what it stands for. 
 
 I like doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. Work to be proud of. 
 
