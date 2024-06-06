@@ -29,9 +29,9 @@ According the the [Not by AI](https://notbyai.fyi/) website, this is important b
 
 > Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and stagnant.
 
-You may argue that AI will simply augment human creativity – just like any other creative tool – rather than stagnate it. I suppose that depends on the degree to which we embrace it.
+Makes sense. Though you may argue that AI will simply augment human creativity – just like any other creative tool – rather than stagnate it. I suppose that depends on the degree to which we embrace it.
 
-But you can’t argue with the detrimental impact AI is having on the environment. Powering AI server farms and training AI data models consumes an sickening amount of energy, with studies warning that [the AI industry could consume as much energy as a country the size of the Netherlands by 2027](https://www.bbc.co.uk/news/technology-67053139).
+What you can’t argue with is the detrimental impact that AI is having on the environment. Powering AI server farms and training AI data models consumes a sickening amount of energy, with studies warning that [the AI industry could consume as much energy as a country the size of the Netherlands by 2027](https://www.bbc.co.uk/news/technology-67053139).
 
 There’s also the ethical implications of [AI companies exploiting ghost workers](https://english.elpais.com/economy-and-business/2024-01-01/the-hidden-labor-force-behind-chatgpt-the-drama-of-the-ghost-workers.html) to moderate content. The legal implications of [stealing copywrited material to train AI models](https://www.theguardian.com/technology/2024/jan/08/ai-tools-chatgpt-copyrighted-material-openai). And the opportunity cost of [loosing your job to AI](https://www.theguardian.com/technology/2024/mar/27/ai-apocalypse-could-take-away-almost-8m-jobs-in-uk-says-report). The list goes on.
 
@@ -39,6 +39,6 @@ For these reasons, I’m right behind this “AI-free” idea and what it stands
 
 I like doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. Work to be proud of. 
 
-Can the same be said of the stuff that some generative AI tool spits out for you, in a matter of seconds? Probabaly not.
+Can the same be said of the stuff generative AI tools spit out for you in a matter of seconds? Probabaly not.
 
 Anyway, I hope to see this “AI free” trend continue to grow. I’ll return to this post to document more examples, as and when I find them.
