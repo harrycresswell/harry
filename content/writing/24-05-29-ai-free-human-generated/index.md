@@ -4,7 +4,7 @@ date: 2024-05-29T10:55:30+01:00
 draft: false
 slug: "ai-free"
 topics: ["AI"]
-description: "It’s encouraging to see folks declaring their work *AI free* or *human-generated*, in some form or another."
+description: "It’s encouraging to see folks declaring their work AI-free or human-generated, in some form or another."
 ---
 
 It’s encouraging to see folks declaring their work *AI-free* or *human-generated*, in some form or another.
