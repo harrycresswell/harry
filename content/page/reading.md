@@ -5,12 +5,13 @@ publishdate: 2023-04-06
 lastmod: 2023-04-06
 draft: false
 slug: "reading"
-description: ""
+description: "A list of books I’ve read since 2018"
 layout: page
 ---
 
 ## 2024
 
+- In Plain Sight by Ross Coulthart
 - Agent Sonya by Ben Macintyre
 - The Minimalist Entrepreneur by Sahil Lavingia
 - The Psychology of Money by Morgan Housel
