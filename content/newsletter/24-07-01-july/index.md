@@ -55,7 +55,7 @@ Kevin Quirk in [Why Have a Personal Site Instead of Social Media?](https://kevqu
 - Reading In Plain Sight by Ross Coulthart.
 - Working on various client projects, my [personal site](https://harrycresswell.com/), [my studio site](https://studioeryn.com/) and [Practical Hugo](https://practicalhugo.com/).
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 
