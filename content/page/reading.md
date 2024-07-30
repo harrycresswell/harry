@@ -11,6 +11,7 @@ layout: page
 
 ## 2024
 
+- Reality is Not What it Seems: The Journey to Quantum Gravity by Carlo Rovelli
 - In Plain Sight by Ross Coulthart
 - Agent Sonya by Ben Macintyre
 - The Minimalist Entrepreneur by Sahil Lavingia
@@ -23,7 +24,7 @@ layout: page
 
 - The Conspiracy Tourist: Travels through a strange world by Dom Joly
 - The Man Who Mastered Gravity: A Twisted Tale of Space, Time and The Mysteries In Between by Paul Schatzkin
-- The Spy and the Traitor: The Greatest Espionage Story of the Cold War by Ben Macintyre.
+- The Spy and the Traitor: The Greatest Espionage Story of the Cold War by Ben Macintyre
 - Heir to the Empire by Timonthy Zahn
 - UFOs: General, Pilots and Government Officials Go on the Record by Leslie Kean
 - The Checklist Manifesto by Atul Gawande
