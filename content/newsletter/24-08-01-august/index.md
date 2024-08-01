@@ -10,7 +10,7 @@ It feels like everything has finally slowed down for summer, which I’m enjoyin
 
 Anyway, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
-### Highlights from last month
+## Highlights from last month
 
 Watched [Challengers](https://www.imdb.com/title/tt16426418/), [UFO](https://www.imdb.com/title/tt6290798/), [Beverly Hills Cop: Axel F](https://www.imdb.com/title/tt3083016) and [The Bear Season 3](https://www.imdb.com/title/tt14452776/episodes/?season=3).
 
@@ -22,7 +22,7 @@ Went to Warwickshire for a few days to celebrate the birthday of my mum and uncl
 
 Celebrated the wedding of two close friends in Dorset. It was a bit of a washout, and I took the full force while on carpark duty, but we still had a fantastic time.
 
-### Elsewhere on the web
+## Elsewhere on the web
 
 > “...provide the most possible value to a user with the least amount of technical capability. It’s all about the rule of least power.”
 > 
@@ -36,13 +36,13 @@ It happened. Sara Joy turned Baz Luhrmann’s Everybody's Free To Wear Sunscreen
 
 [Replacing gsap with scroll animations](https://dominickjay.com/writing/replace-gsap-wth-scroll-animations/). Dominick Jay demonstrates how to save a bunch of JavaScript by converting a GSAP animation to native CSS scroll animations. 
 
-### What I’m up to this month
+## What I’m up to this month
 
 - Designing and building a website for a bespoke cabinet makers.
 - Reading The Shadow of the Wind by Carlos Ruiz Zafón.
 - Enjoying the good weather.
 
-### Thank you for reading
+## Thank you for reading
 
 Thanks for tuning in for another issue.
 
