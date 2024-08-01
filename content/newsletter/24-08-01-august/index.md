@@ -2,7 +2,7 @@
 title: "August 2024"
 date: 2024-08-01T14:45:38+01:00
 draft: false
-description: "Progressive enhancement"
+description: "Finally slowing down for summer."
 slug: "august-2024"
 ---
 
