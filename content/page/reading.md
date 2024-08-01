@@ -11,6 +11,7 @@ layout: page
 
 ## 2024
 
+- The Shadow of the Wind by Carlos Ruiz Zafón
 - Reality is Not What it Seems: The Journey to Quantum Gravity by Carlo Rovelli
 - In Plain Sight by Ross Coulthart
 - Agent Sonya by Ben Macintyre
