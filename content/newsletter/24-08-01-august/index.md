@@ -10,7 +10,7 @@ It feels like everything has finally slowed down for summer, which I’m enjoyin
 
 Anyway, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
-## Highlights from last month
+## Highlights from July
 
 Watched [Challengers](https://www.imdb.com/title/tt16426418/), [UFO](https://www.imdb.com/title/tt6290798/), [Beverly Hills Cop: Axel F](https://www.imdb.com/title/tt3083016) and [The Bear Season 3](https://www.imdb.com/title/tt14452776/episodes/?season=3).
 
@@ -36,7 +36,7 @@ It happened. Sara Joy turned Baz Luhrmann’s Everybody's Free To Wear Sunscreen
 
 [Replacing gsap with scroll animations](https://dominickjay.com/writing/replace-gsap-wth-scroll-animations/). Dominick Jay demonstrates how to save a bunch of JavaScript by converting a GSAP animation to native CSS scroll animations. 
 
-## What I’m up to this month
+## What I’m up to in August
 
 - Designing and building a website for a bespoke cabinet makers.
 - Reading The Shadow of the Wind by Carlos Ruiz Zafón.
