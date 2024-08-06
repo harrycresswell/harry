@@ -76,4 +76,4 @@ The overall total comes to £234.53 / $288.82 a month, which, to be honest, isn�
 
 I decided not to included household expenses, such as insurance, utilities and council tax as I wouldn’t necessarily consider them subscriptions. They’re also shared costs.
 
-With everything now in check, I hope to give a little extra consideration any new potential subscriptions.
+With everything now in check, I hope to give a little extra consideration to any new potential subscriptions.
