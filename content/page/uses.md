@@ -21,7 +21,7 @@ My [Dell P2415Q Monitor](https://www.amazon.co.uk/inch-Dell-P2415Q-IPS-Monitor/d
 
 I’ve had [Logitech x-230 speakers](https://www.ebay.co.uk/i/333518493626?chn=ps) since what feels like the beginning of time. I remember using them when I made music at university back in 2006. They’re still going strong and kick out a good bit of bass, so I’ve stuck with them.
 
-My phone is an [Apple iPhone X](https://www.apple.com/uk/newsroom/2017/09/the-future-is-here-iphone-x/). I’m not much into phones, so I have no plans to upgrade any time soon.
+After 7 years of service, including a screen and battery replacement, I finally decided to upgrade my Apple iPhone X. I’m now using an iPhone 15, which I picked up refurbished from Back Market.
 
 My [Apple AirPods Pro](https://www.apple.com/airpods-pro/) were a more recent purchase, and I only have good things to say–one of the best Apple product releases in a good while.
 
