@@ -4,6 +4,7 @@ date = "2018-02-15T22:11:02+01:00"
 description = "Find out how I built this site, what technology I used, who I learnt it from and the best places to read more on those subjects"
 slug = "colophon"
 layout= "page"
+
 +++
 
 {{< intro >}}This page shares the technology and techniques I used to build and host this website.  If you have a specific question [drop me a message](/contact), I’m always happy to talk websites. {{< /intro >}}

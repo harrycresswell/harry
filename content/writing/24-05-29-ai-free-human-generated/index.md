@@ -42,3 +42,9 @@ I like moving slowly, doing difficult things that take time and effort. There’
 Can the same be said of the stuff generative AI tools spit out for you in a matter of seconds? Probabaly not.
 
 Anyway, I hope to see this “AI-free” trend continue to grow. I’ll return to this post to document more examples, as and when I find them.
+
+---
+
+**27th Aug 24**: [Piccalilli](https://piccalil.li/about/) commits to being an AI-free publication:
+
+> We maintain that quality by focusing on web standards technology and a guaranteed commitment that ==we will never publish content written by large language models or other flavours of “AI”==.
