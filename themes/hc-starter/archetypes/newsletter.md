@@ -1,14 +1,12 @@
 ---
-title: "#{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "{{ time.Now.Month }} {{ time.Now.Year }}"
+date: "{{ .Date }}"
 draft: false
-description: "Welcome to issue #{{ replace .Name "-" " " | title }}, your monthly roundup of what’s happening in design, code and typography."
-slug: "{{ .Name | urlize }}"
+description: "My highlights from the past month, a few good links from around the web and what I have planned for the month ahead."
+slug: "{{ time.Now | time.Format "January 2006" | urlize }}"
 ---
 
-Hey everyone,
-
-Welcome to issue #{{ replace .Name "-" " " | title }}, your monthly of what’s happening in design, code and typography.
+As per usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
 ## Thought provoking
 
@@ -22,7 +20,7 @@ Welcome to issue #{{ replace .Name "-" " " | title }}, your monthly of what’s 
 
 Thanks for tuning in for another issue.
 
-Please [share this with a friend](https://harrycresswell.com/newsletter/{{ replace .Name "-" "-" | title | lower }}) if you think they might enjoy it.
+Please [share this with a friend](https://harrycresswell.com/newsletter/{{ time.Now | time.Format "January 2006" | urlize }}) if you think they might enjoy it.
 
 If this is your first time here you can [subscribe via RSS](https://harrycresswell.com/feeds/) or [subscribe via email](https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0ab4a857159c0104e&id=d6ad2b65ca). It would be great to have you onboard.
 
