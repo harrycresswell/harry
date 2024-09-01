@@ -2,7 +2,7 @@
 title: "September 2024"
 date: 2024-09-01T11:00:12+01:00
 draft: false
-description: "It’s a peaceful Sunday morning here in south London"
+description: "It’s a peaceful Sunday morning here in south London."
 slug: "september-2024"
 ---
 
