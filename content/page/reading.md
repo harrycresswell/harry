@@ -11,6 +11,8 @@ layout: page
 
 ## 2024
 
+- Sekret Machines: Chasing Shadows by Tom Delonge and AJ Hartley
+- Imminent by Luis Elizondo
 - The Shadow of the Wind by Carlos Ruiz Zafón
 - Reality is Not What it Seems: The Journey to Quantum Gravity by Carlo Rovelli
 - In Plain Sight by Ross Coulthart
