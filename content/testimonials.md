@@ -13,6 +13,12 @@ description: ""
 
 ---
 
+> ”It was such a pleasure working with Harry on my personal blog and website. He understood exactly  what I needed and managed to turn my vision into a website that's not only beautiful but also functional. It's now really easy for me to manage and publish content, as well as collect emails for my newsletter. Everything I wanted! I would always choose to work with Harry again and can highly recommend him.”
+>
+> **Rebekka Villbrandt, [Rebekka Writes](https://rebekkawrites.com/)**
+
+---
+
 > “Really loved working with Harry on our website - OPM London. He quickly understood what we needed and designed a user friendly 360 site accordingly. Implementing simple and easy to understand processes, we're able to manage the site and update it seamlessly whenever we need. Design wise it looks great + Harry introduced us to other key features such as SEO which have led to new business opportunities.  Overall very very happy!”
 >
 > **Oliver Pearson, [OPM London](https://opm.london/)**

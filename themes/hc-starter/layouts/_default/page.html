@@ -34,4 +34,8 @@
     </ul>
   {{ end }}
 
+  {{- if eq .RelPermalink "/testimonials/" }}
+    {{ partial "reply-by-email.html" (dict "Page" . "button_text" "Write a testimonial" ) }}
+  {{- end }}
+
 {{ end }}
