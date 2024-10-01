@@ -22,7 +22,7 @@ Inspired by [Derek Sivers](https://nownownow.com/about) (who started the thing) 
 
 ## Watching
 
-- Big Little Lies
+- Big Little Lies.
 - Nearing the end of The X-Files season 2. For some reason I thought it would be a good idea to watch all 11 seasons. This could take a while.
 - Almost finished The Clone Wars season 2.
 

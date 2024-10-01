@@ -8,13 +8,11 @@ slug: "{{ time.Now | time.Format "January 2006" | urlize }}"
 
 As per usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
-## Thought provoking
+## Highlights from last month
 
-## Design and Code
+## Elsewhere on the web
 
-## Typography
-
-## Something to watch
+## What I’m up to in {{ time.Now.Month }}
 
 ## Thank you for reading
 
