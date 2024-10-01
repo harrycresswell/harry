@@ -19,7 +19,7 @@ Launched another English/German multilingual Hugo site, this time for my friend 
 
 Watched [Nine Serfect Strangers](https://www.imdb.com/title/tt8760932/), [Jack Whitehall: Fatherhood with My Father](https://www.imdb.com/title/tt28756879/?ref_=nv_sr_srsg_5_tt_2_nm_6_in_0_q_jack%2520white) and [Big Little Lies](https://www.imdb.com/title/tt3920596/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_big%2520little%2520).
 
-Read [Imminent](https://www.amazon.co.uk/Imminent-Inside-Pentagons-Hunt-UFOs-ebook/dp/B0CW1DWNQ5) by Luis Elizondo, [Sekret Machines: Chasing Shadows](https://www.goodreads.com/book/show/28187226-chasing-shadows) by Tom Delonge and AJ Hartley.
+Read [Imminent](https://www.goodreads.com/book/show/210963085-imminent) by Luis Elizondo, [Sekret Machines: Chasing Shadows](https://www.goodreads.com/book/show/28187226-chasing-shadows) by Tom Delonge and AJ Hartley.
 
 After years of doing a really bad job at collection client testimonials, I finally started working on a [testimonials page](https://harrycresswell.com/testimonials/) for my website.
 

@@ -18,7 +18,7 @@ Published [Exploring Hugo’s new starter theme and updates to the `new site` co
 
 Released [cu.css v0.1.7](https://github.com/harrycresswell/cu/releases/tag/v0.1.7) which fixes updates a few depreciated methods, adds Every Layout’s Frame for controlling aspect ratio of media content and a few other improvements.
 
-Read [The Shadow of the Wind by Carlos Ruiz Zafón](https://www.goodreads.com/book/show/1232.The_Shadow_of_the_Wind), started [Imminent by Luis Elizondo](https://www.amazon.co.uk/Imminent-Inside-Pentagons-Hunt-UFOs-ebook/dp/B0CW1DWNQ5).
+Read [The Shadow of the Wind by Carlos Ruiz Zafón](https://www.goodreads.com/book/show/1232.The_Shadow_of_the_Wind), started [Imminent by Luis Elizondo](https://www.goodreads.com/book/show/210963085-imminent).
 
 Took a trip to North London to see [Four Tet playing in Finsbury Park](https://www.instagram.com/fourtetkieran/p/Cv49NqKI17a/?img_index=1).
 
