@@ -7,13 +7,19 @@ layout: "page"
 description: ""
 ---
 
+> “I’ve worked with Harry on three different websites over the past five years. Before Harry I had built some websites myself and hired several other web designers on previous sites. Harry has been one of the best people I’ve worked with in any field. He’s the rare deal: a real digital craftsman.”
+>
+> **Mark McShurley, [Roofsimple](https://roofsimple.com/)**
+
+---
+
 > “Really loved working with Harry on our website - OPM London. He quickly understood what we needed and designed a user friendly 360 site accordingly. Implementing simple and easy to understand processes, we're able to manage the site and update it seamlessly whenever we need. Design wise it looks great + Harry introduced us to other key features such as SEO which have led to new business opportunities.  Overall very very happy!”
 >
 > **Oliver Pearson, [OPM London](https://opm.london/)**
 
 ---
 
-> “Harry is a dream to work with! He has great ideas, an eye for detail and aesthetic, is super reliable. From the minute I started working with him I new my project was in the best possible hands. His work was outstanding and I could not be happier.”
+> “Harry is a dream to work with! He has great ideas, an eye for detail and aesthetic, is super reliable. From the minute I started working with him I knew my project was in the best possible hands. His work was outstanding and I could not be happier.”
 > 
 > **Carlota Morgan Diez, [psychotherapie-morgandiez.de](https://psychotherapie-morgandiez.de/)**
 
