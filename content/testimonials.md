@@ -7,6 +7,12 @@ layout: "page"
 description: ""
 ---
 
+> “Harry collaborated with us to develop our new website as part of our rebrand launch. After sharing our core narrative and objectives, he expertly designed a web platform that effectively communicated our agency's new positioning. Since the launch, Harry has been very supportive, promptly addressing any technical issues and answering our questions with efficiency and professionalism.”
+>
+> **James Bettinson, [BuxtonThreeTwo](https://buxtonthreetwo.com/)**
+
+---
+
 > ”We worked with Harry when we launched our brand. He absolutely understood the brief and the need to use the digital space to create a functioning and inspiring brand world. Among many things, he designed a bespoke weather app implementation to our homepage that we still get asked about years later. He was incredibly interested in and clear about how to future-proof the site, and the changes that would likely occur in the future to the digital world. It was a pleasure to work with someone so knowledgeable, communicative and effective.”
 >
 > **Ruper Hartley, [Albion Cycling](https://www.albioncycling.com/)**
