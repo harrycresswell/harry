@@ -19,6 +19,12 @@ description: ""
 
 ---
 
+> “Harry has an eye for detail and a gift for designing beautiful websites - he really listened to what it was I envisaged and created something even better, whilst still managing to keep it feeling personal to me and my business. On top of this he’s a kind and lovely human and I really enjoyed working with him.”
+>
+> **Laura Lucas, [Lauralucas.london](https://lauralucas.london/)**
+
+---
+
 > “I’ve worked with Harry on three different websites over the past five years. Before Harry I had built some websites myself and hired several other web designers on previous sites. Harry has been one of the best people I’ve worked with in any field. He’s the rare deal: a real digital craftsman.”
 >
 > **Mark McShurley, [Roofsimple](https://roofsimple.com/)**
