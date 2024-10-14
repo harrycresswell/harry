@@ -37,6 +37,12 @@ description: ""
 
 ---
 
+> ”Working with Harry is a genuine pleasure, it feels more like a creative journey than work. What I love most about his approach is his belief that the process is just as vital as the final result. He has an exceptional talent for turning visions into reality, crafting outcomes that are not only cohesive and visually striking but also rich in meaning on multiple levels.”
+>
+> **Matt Benyayer, [Bnyr.net](https://bnyr.net/)**
+
+---
+
 > “Really loved working with Harry on our website - OPM London. He quickly understood what we needed and designed a user friendly 360 site accordingly. Implementing simple and easy to understand processes, we're able to manage the site and update it seamlessly whenever we need. Design wise it looks great + Harry introduced us to other key features such as SEO which have led to new business opportunities.  Overall very very happy!”
 >
 > **Oliver Pearson, [OPM London](https://opm.london/)**
