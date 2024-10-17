@@ -1,0 +1,13 @@
+  <!-- Styles -->
+  {{- with resources.Get "scss/main.scss" }}
+  {{- if eq hugo.Environment "development" }}
+    {{ $styles := . | toCSS (dict "enableSourceMap" true) }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+  {{- else }}
+    <!-- Set target path -->
+    {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
+    {{- with . | toCSS $cssOpts | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
+    {{- end }}
+  {{- end }}
+{{- end }}

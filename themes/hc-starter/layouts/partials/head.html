@@ -62,20 +62,9 @@
   <!-- IndieCert -->
   <link rel="webmention" href="https://webmention.io/harrycresswell.com/webmention" />
   <link rel="pingback" href="https://webmention.io/harrycresswell.com/xmlrpc" />
-  <!-- Styles -->
-  {{ if hugo.IsServer }} <!-- If using the local development server -->
-    <!-- Pipe Sass to CSS, include options, enable sourcemaps -->
-    {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "enableSourceMap" true) }}
-    <!-- Load main.css-->
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-  {{ else }}
-    <!-- Set target path -->
-    {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
-      <!-- Pipe Sass to CSS, include options, add postCSS autoprefixer, minify and hash -->
-    {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts | postCSS (dict "use" "autoprefixer") | minify | fingerprint }}
-    <!-- Load main.css and authenticate hashed file -->
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  {{ end }}
+
+  {{ partial "head/css.html" . }}
+
   <!-- Icons -->
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/apple-touch-icon.png" sizes="180x180">
   <link rel="icon" href="{{ .Site.BaseURL }}img/favicon-32x32.png" sizes="32x32" type="image/png">
