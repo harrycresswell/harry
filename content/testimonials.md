@@ -7,6 +7,12 @@ layout: "page"
 description: ""
 ---
 
+> “Harry is a rare combination of designer and developer. He is a truly creative individual who can not only design beautiful and intuitive websites but also build them. He is also passionate about building websites in the right way, keeping performance, accessibility, privacy, security and web standards top of mind. It was a real pleasure to collaborate with him on several projects earlier in my career and I continue to be proud of the work we completed together.”
+>
+> **Luke Harvey, [MaintainX](https://www.getmaintainx.com/)**
+
+---
+
 > “Harry collaborated with us to develop our new website as part of our rebrand launch. After sharing our core narrative and objectives, he expertly designed a web platform that effectively communicated our agency's new positioning. Since the launch, Harry has been very supportive, promptly addressing any technical issues and answering our questions with efficiency and professionalism.”
 >
 > **James Bettinson, [BuxtonThreeTwo](https://buxtonthreetwo.com/)**
