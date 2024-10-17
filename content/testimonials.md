@@ -21,7 +21,7 @@ description: ""
 
 > ”We worked with Harry when we launched our brand. He absolutely understood the brief and the need to use the digital space to create a functioning and inspiring brand world. Among many things, he designed a bespoke weather app implementation to our homepage that we still get asked about years later. He was incredibly interested in and clear about how to future-proof the site, and the changes that would likely occur in the future to the digital world. It was a pleasure to work with someone so knowledgeable, communicative and effective.”
 >
-> **Ruper Hartley, [Albion Cycling](https://www.albioncycling.com/)**
+> **Rupert Hartley, [Albion Cycling](https://www.albioncycling.com/)**
 
 ---
 
