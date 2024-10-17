@@ -5,7 +5,7 @@ A Hugo starter project and theme used for [harrycresswell.com](https://harrycres
 ## Features
 
 - [Hugo](https://gohugo.io/)
-- [Hugo pipes](https://gohugo.io/hugo-pipes/) for SCSS, Sourcemaps, PostCSS Autoprefixer and JS
+- [Hugo pipes](https://gohugo.io/hugo-pipes/) for SCSS, Sourcemaps and JS
 - [Lazysizes.js](https://github.com/aFarkas/lazysizes) for image lazy loading
 - Responsive image with [Cloudinary](https://cloudinary.com/documentation/responsive_images#automating_responsive_images_with_javascript)
 - Minimal dependencies
@@ -24,60 +24,30 @@ Clone this repository:
 git clone https://github.com/harrycresswell/harry.git
 ```
 
-Then run:
-
-```
-npm install
-```
-
-This will install the necessary dependencies.
 
 ## Local development
 
 To start a local development server at at `https://localhost:1313/` run:
 
 ```
-npm start
+hugo server
 ```
-
-This is a simple NPM Script which `hugo server --disableFastRender`.
 
 ## Production build
 
 Whe your ready to build a production ready site, update the `baseUrl` inside `config.toml` then run:
 
 ```
-npm run clean && npm run build
+hugo --cleanDestinationDir
 ```
 
-This will remove the `/public` folder and run a fresh build ready for production.
+This will clean the `/public` folder and run a fresh build ready for production.
 
-## Basic concepts
 
-A few of the basic concepts to get the most out of using this theme.
+### Licence information
 
-### Adding Content
+All of the content on this site is produced under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
-Create a new markdown file in the `./content/articles` directory:
+Head to my [Licence page](https://harrycresswell.com/license/) for more information on what you can do with it, and how to provide attribution correctly.
 
-```
-hugo new articles/my-new-article.md
-```
 
-Create a new page in the `./content/page` directory:
-
-```
-hugo new page/my-new/page.md
-```
-
-Follow the same steps for notes and projects.
-
-### Writing Sass
-
-Write your **Sass** inside `./assets/scss`.
-
-With the server running (`npm start`) Hugo will watch your Sass for changes, then pipe them to `./public/css/main.css` and reload the browser.
-
-### Making layout changes
-
-To make changes to the layout head to `./themes/hc-starter` where you will find `/layouts`. Inside there you will find templates for partials, shortcodes and taxonomies.
