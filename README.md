@@ -14,7 +14,7 @@ Read more about it in [How I built this site](https://harrycresswell.com/build/)
 
 ## Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+You need to have [Hugo](https://gohugo.io/) installed locally.
 
 ## Installation
 
