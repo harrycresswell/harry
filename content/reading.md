@@ -11,6 +11,8 @@ layout: page
 
 ## 2024
 
+- Material World by Ed Conway
+- Sekret Machines: A Fire Within by Tom Delonge and AJ Hartley
 - Sekret Machines: Chasing Shadows by Tom Delonge and AJ Hartley
 - Imminent by Luis Elizondo
 - The Shadow of the Wind by Carlos Ruiz Zafón
