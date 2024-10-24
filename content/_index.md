@@ -17,7 +17,7 @@ I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a co
 
 ## Where to go next
 
-Check out some of the [things I’ve built](/things) or find out what [books I’ve read](/reading). Take a look at [my CV](pdf/harry-cresswell-cv-aug-21.pdf) to learn more about my experience or read some of the kind [testimonials](/testimonials) my clients have written about working with me. 
+Check out some of the [things I’ve built](/things) or find out what [books I’ve read](/reading). Take a look at [my CV](/cv/) to learn more about my experience or read some of the kind [testimonials](/testimonials) my clients have written about working with me. 
 
 Find out [how I built this site](/colophon/) or [what I'm up to right now](/now/).
 

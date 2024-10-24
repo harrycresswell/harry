@@ -3,6 +3,9 @@
   <article>
     <header class="Hero region flow">
       <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="font-step-1">{{ . }}</p>
+      {{ end }}
       <div> 
         {{ $published := .PublishDate | time.Format ":date_medium" }}
         {{ $modified := .Lastmod | time.Format ":date_medium" }}
