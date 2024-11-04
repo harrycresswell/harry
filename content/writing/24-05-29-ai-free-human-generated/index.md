@@ -39,7 +39,7 @@ For these reasons, I’m right behind this “AI-free” idea and what it stands
 
 I like moving slowly, doing difficult things that take time and effort. There’s no better feeling than using your fallible head and hands to create original work. Ultimately, it’s rewarding. Work to be proud of. 
 
-Can the same be said of the stuff generative AI tools spit out for you in a matter of seconds? Probabaly not.
+Can the same be said of the generative AI [slop](https://en.wikipedia.org/wiki/Slop_(artificial_intelligence)) that’s currently polluting web? Probabaly not.
 
 Anyway, I hope to see this “AI-free” trend continue to grow. I’ll return to this post to document more examples, as and when I find them.
 
