@@ -2,7 +2,7 @@
 title: "November 2024"
 date: "2024-11-04T10:30:32Z"
 draft: false
-description: "My goal is always to try and publish this newsletter on the 1st of the month."
+description: "My goal is to publish this newsletter on the 1st of the month."
 slug: "november-2024"
 ---
 
