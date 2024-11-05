@@ -31,9 +31,9 @@ Next I set out to improve the [global variables](https://developer.mozilla.org/e
 
 First I converted all SASS variables to [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). Next I changed my Utopia fluid type scale [from CSS locks to CSS Clamp](https://github.com/harrycresswell/harry/commit/b5202cbaf11450413a137a07d698306248ac5b15).
 
-Following this, I ditched my old SASS based spacing system in favour of, you guess it, a fluid responsive scale using Utopia. 
+Following this, I ditched my old SASS based spacing system in favour of, you guess it, a fluid responsive scale using [Utopia](https://utopia.fyi/). 
 
-Now both type and spacing on my site resizes fluidly depending on viewport width or device. To make this happen, Utopia makes heavy use of the Clamp function, providing a scale of Custom Properties.
+Now, both type and spacing on my site resizes fluidly depending on viewport width or device. To make this happen, Utopia makes heavy use of the Clamp function, providing a scale of Custom Properties.
 
 For type:
 
@@ -201,9 +201,9 @@ It’s worth mentioning that this is the only feature I now require SASS for –
 
 ## Solve common layout problems with intrinsically responsive (and reusable) layout compositions
 
-One of the biggest improvements I’ve made to my CSS was adopting the concept of Compositions from Every Layout and CUBE CSS. 
+One of the biggest improvements I’ve made to my CSS was adopting the concept of Compositions from [Every Layout](https://every-layout.dev/) and [CUBE CSS](https://cube.fyi/). 
 
-Compositions are skeletal styles that create flexible layouts containers for content. Importantly they are reusable, not tied to any specific context and don’t depend on the use of media queries. Instead they adapt and reconfigure themselves to fit any context or device.
+Compositions are skeletal styles that create flexible layouts containers for content. Importantly, they are reusable, not tied to any specific context and don’t depend on the use of media queries. Instead, they adapt and reconfigure themselves to fit any context or device.
 
 In the past, I’d often handle layout problems like this on the component level. For example, to style my navigation layout I might have created a component like this:
 
@@ -225,9 +225,9 @@ Then, to style the layout of page pagination items I might create another compon
 
 This would result in lots of repetition, where I’d have several different components, each with virtually the same CSS. 
 
-With compositions I can avoid this repetition by creating context agnostic layout which can be used in any context that requires it. 
+With compositions, I can avoid this repetition by creating context agnostic layouts. These layouts can be used in any context that requires such a layout. 
 
-Take the `.cluster` composition as an example.
+Take the `.cluster` composition as an example, which creates flex items which *cluster* inline, until space no longer permits.
 
 ```css
 .cluster {
@@ -239,16 +239,18 @@ Take the `.cluster` composition as an example.
 }
 ```
 
-I’m now using `.cluster`  to create a flexible layouts for my *navigation*, *page pagination*, *taxonomy tags* and *post author* component. Now I can tackle many similar problems in various different places, using only one CSS class.  
+I’m now using `.cluster`  to create a flexible layouts for my *navigation*, *page pagination*, *taxonomy tags* and *post author* component. Using one CSS class, I can now tackle many similar layout problems found in various different places.
 
 
 ## Use utility classes for specific problems that global styles and compositions don’t solve
 
-In a utility-first approach, utility classes make up the majority of styles and are the primary method of applying styles to HTML. I’m not using utility classes in this way. 
+In a utility-first approach, utility classes make up the majority of styles and are the primary method of applying styles to HTML. If you’ve used Tailwind before, then you will be familiar with this approach.
 
-Instead, I’m using utility classes is to solve specific problems that my compositions or global CSS styles don’t solve. In other words, they aren’t the first thing I reach for, but something to lean on when nothing else solves the problem.
+To be clear, I’m not using utility classes in this way. 
 
-Two such utilities that have made a big impact in reducing the amount of CSS my site design requires. Both solve problems concerning the space between elements.
+Instead, I use utility classes is to solve specific problems that my compositions or global CSS styles don’t solve. In other words, they aren’t the first thing I reach for, but something to lean on when nothing else solves the problem.
+
+Two such utilities have made a big impact in reducing the amount of CSS my site design requires. Both solve problems concerning the space between elements.
 
 The first is the `.flow` utility, which creates consistent space and rhythm between elements.
 
@@ -260,7 +262,7 @@ The first is the `.flow` utility, which creates consistent space and rhythm betw
 
 This technique was popularised as [The Stack](https://every-layout.dev/layouts/stack/) layout by Heydon Pickering and Andy Bell in Every Layout. It works by applying margin to direct sibling elements. Flow is incredibly useful for creating space between prose elements, for example the headings and paragraphs found in a blog post.
 
-With liberal use of `.flow`, I’ve been able to remove styles I’d typically use to create space between elements. For example, I no longer need to litter my base styles with the [next-sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators#next-sibling_combinator):
+With liberal use of `.flow`, I’ve been able to remove the styles I’d typically use to create space between elements. For example, I no longer need to litter my base styles with the [next-sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators#next-sibling_combinator):
 
 ```css
 ul+p,
@@ -331,7 +333,7 @@ The second utility I’m using to reduce CSS is `.region`, which has the sole jo
 }
 ```
 
-Where I once created space between elements on a component level. Consider my old `.Hero` styles as an example:
+Before using the `.region` utility, I would typically created space between elements on a component level. Consider my old `.Hero` styles as an example:
 
 ```css
 .Hero {
@@ -340,7 +342,7 @@ Where I once created space between elements on a component level. Consider my ol
 }
 ```
 
-I can now use the reusable `.region` utility to achieve the same results in various places. For example, my *site header*, *site footer* and *newsletter signup form* all rely on the `.region` class for their vertical spacing.
+With the reusable `.region` utility, I can achive the exact same results in a variety of places. For example, my *site header*, *site footer* and *newsletter signup form* all rely on the `.region` class for their vertical spacing.
 
 With considered use of utilities I’ve been able to make some big reductions in the amount of CSS required to style my site. However, utilities don’t always provide the solution, particularly when it comes to more complex UI.
 
@@ -398,7 +400,7 @@ Consider my newsletter component, as an example.
 }
 ```
 
-Now, all this is handled by `.switcher`, a reusable layout composition, which can be applied to any context. 
+Now, all this is handled by `.switcher`, a reusable layout composition, which can be applied to any context. Like most of the layout compositions I find myself using, [Switcher](https://every-layout.dev/layouts/switcher/) was popularised in Every Layout.
 
 ```css
 .switcher {
@@ -437,7 +439,7 @@ I’ve been able to simplify the component block itself to a single line of CSS:
 
 In this case, all the block class contains is a single custom property used to override the default vertical alignment of `flex-start` with `flex-end`.
 
-By using this approach, I’ve been able to simplify the complexity of most of the block components on my site. And in certain cases I’ve managed to remove the need to create block classes entirely, which has obviously lead to a considerable reduction in the amount of CSS required to style my website.
+By using this approach, I’ve been able to simplify the complexity of most of the block components on my site. And, in certain cases, I’ve managed to remove the need to create block classes entirely. This has obviously lead to a considerable reduction in the amount of CSS required to style my website.
 
 
 ## Create Exceptions for state and style modifiers
@@ -557,7 +559,7 @@ There’s no doubt that adopting the [principles of intrinsic web design](https:
 
 Additionally, much of this stuff has already been formalised into practical solutions. For that we have various clever folk in our industry to thank.
 
-If you’re serious about writing better CSS and less of it, then [Every Layout](https://every-layout.dev/) by Andy Bell and Heydon Pickering is a fantastic place to learn about flexible, algorithmic layout design. Likewise, [Utopia](https://utopia.fyi/) from James Gilyead and Trys Mudford, in my view, is *the* place to learn about and generate fluid responsive type, space and grid systems which do away with breakpoints. Finally, when it comes to writing and organising CSS sensibly, there are few better approaches to turn to than Andy’s [CUBE CSS](https://cube.fyi/).
+If you’re serious about writing better CSS and less of it, then [Every Layout](https://every-layout.dev/) by Andy Bell and Heydon Pickering is a fantastic place to learn about flexible, algorithmic layout design. Likewise, [Utopia](https://utopia.fyi/) from James Gilyead and Trys Mudford, in my view, is *the* place to learn about and generate fluid responsive type, space and grid systems, which do away with breakpoints. Finally, when it comes to writing and organising CSS sensibly, there are few better approaches to turn to than Andy’s [CUBE CSS](https://cube.fyi/).
 
 Much of my understanding of modern CSS techniques I owe to these guys.
 
