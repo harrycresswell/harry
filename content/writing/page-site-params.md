@@ -9,7 +9,7 @@ syndicate: "false"
 ---
 
 
-Methods and Params play a major role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical.
+Methods and parameters play a key role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical.
 
 Page and Site are two categories of methods you’ll find yourself using in every project. Both exist for different reasons and give you access to different types of data.
 
