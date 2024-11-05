@@ -8,16 +8,17 @@ topics: ["Hugo"]
 syndicate: "false"
 ---
 
-Variables and Params play a major role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical.
 
-Page and Site are two types of variables you’ll find yourself using in every project. Both types exist for different reasons and give you access to different types of data.
+Methods and Params play a major role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical.
 
-This post looks at the difference between the two, including how Params fit into the equation, and the nuances to look out for when working with each type.
+Page and Site are two categories of methods you’ll find yourself using in every project. Both exist for different reasons and give you access to different types of data.
+
+This post looks at the difference between the two, including how Params fit into the equation, and the nuances to look out for when working with each.
 
 
-## Page variables
+## Page methods
 
-Page variables give you access to data stored in content files. 
+Page methods give you access to the Page object, which gathers all the data associated with content files into a single object.
 
 Most often that means any data found in the front matter of a content file. But it can also mean data derived from the content’s file location, or data extracted from the content body, itself.
 
@@ -48,27 +49,25 @@ To render this content you might have a *layouts/index.html* template, that look
 {{ end }}
 ```
 
-Here you’ll find three Page variables: `.Title`, `.Date` and `.Content`. Notice all these variables are prefixed with a dot.
+Here you’ll find three Page Methods; `.Title`, `.Date` and `.Content`. Notice all of these Methods are prefixed with a dot.
 
 Before we go any further, it’s important to understand what that dot is doing and why it’s there.
 
-In Hugo, the dot holds the current context. *Context* or *scope*, as it’s often referred to, is the data available to you at certain points in your templates. 
+In Hugo, the dot holds the current context. Context or *scope*, as it’s often referred to, is the object of data available to you at certain points in your templates. Hugo stores this object of data in the dot, so it’s easy for you to get hold of. 
 
-By default, the context of all layout templates is set to Page. Meaning the data you can access by default is Page data. Or, put simply, the data from the files in your content folder. 
+By default, the context of all layout templates is set to Page. Meaning, by default, the data you can access within your layout templates is Page data. Or, put simply, the data associated with the files in your content folder. 
 
-It’s easier to makes sense of by visualising a big object of data that Hugo creates from all the content on your site. Hugo stores this object of data in the dot, so it’s easy for you to get hold of. 
+So, to access this data, we use the dot, followed by the Page method that stores the data we want to return.
 
-With this in mind, it much clearer why you can access data from content files simply using the dot, followed by the variable that stores the data you want to return.
-
-One such variable is `.Title`. Which, in the layouts/index.html template from earlier, returns the title found in the front matter of the *content/_index.md* file.
+Returning to the example above, the first Page methods we encounter is `.Title`, which returns the title found in the front matter of the *content/_index.md* file.
 
 ```html
 <h1>My new Hugo website</h1>
 ```
 
-`.Date` is another page variable, which returns the publish date of a piece of content. Notice that the *date* is also set in the front matter of the content file, just like the title.
+`.Date` is the next Page method, which returns the publish date of a piece of content. Notice that the *date* is also set in the front matter of the content file, just like the title.
 
-`.Content` does something similar to these two variables. But rather than pull the data from the front matter, it returns the markdown from the body of the file. In other words, anything found in the page, that falls outside of the front matter. 
+`.Content` does something similar to these two methods. But rather than pull the data from the front matter, it returns the markdown from the body of the file. In other words, anything found in the page, that falls outside of the front matter. 
 
 Using the example from earlier again, `.Content` returns the following:
 
@@ -76,13 +75,13 @@ Using the example from earlier again, `.Content` returns the following:
 <p>Some homepage content</p>
 ```
 
-In all of the scenarios above, you’re working with Page data, and accessing it using Page variables.
+In all of the scenarios above, we’re working with Page data, which is accessible using Page methods.
 
-### Pre-defined Page variables
+### Page Methods are pre-defined
 
-It’s important to note that `.Title`, `.Date` and `.Content` are all pre-defined Page variables. In other words, variables built-in to Hugo, that serve a specific purpose and return specific data. 
+It’s important to note that `.Title`, `.Date` and `.Content` are all pre-defined Page methods. In other words, these methods are built-in to Hugo. They serve a specific purpose and return specific data. 
 
-You will notice pre-defined Page variables are written in camel case and all start with an uppercase letter.
+You will notice pre-defined Page methods are written in camel case and all start with an uppercase letter.
 
 ```
 .Title // correct
@@ -93,7 +92,7 @@ You will notice pre-defined Page variables are written in camel case and all sta
 .regularpages // incorrect
 ```
 
-There are many more pre-defined [Page variables](https://gohugo.io/variables/page/#page-variables) we can use to access data from content files. Let’s look at a few more examples.
+There are many more pre-defined [Page Methods](https://gohugo.io/methods/page/) we can use to access data from content files. Let’s look at a few more examples.
 
 #### Access certain Pages with `.Pages`
 
@@ -149,7 +148,7 @@ When I run `hugo server`, I find a list of only the first-level section pages on
 - Writing
 ```
 
-At this point, I might use the `.Permalink` Page variable to return the path to a content file and create an anchor link.
+At this point, I might use the `.Permalink` Page Method to return the path to a content file and create an anchor link.
 
 ```go
 {{ range .Pages }}
@@ -157,7 +156,7 @@ At this point, I might use the `.Permalink` Page variable to return the path to 
 {{ end }}
 ```
 
-Like `.Title`, `.Permalink` is another pre-defined variable. But, this time the data doesn’t need to be defined in the page front matter, as it’s formed using the name of the content file. 
+Like `.Title`, `.Permalink` is another pre-defined Method. But, this time the data doesn’t need to be defined in the page front matter, as it’s formed using the name of the content file. 
 
 For example, `my-latest-post.md` becomes:
 
@@ -188,7 +187,7 @@ With the Range over `.Pages` included, here’s what my *layouts/index.html* fil
 {{ end }}
 ```
 
-Notice there are now two `.Title` variables in my *index.html* template. The one found in the `<header>` returns the value of *title*, found in my *content/_index.md* file. However, the one found inside the Range logic returns the title of each Page in the `.Pages` object.
+Notice I’m using the `.Title` method twice in my *index.html* template. The one found in the `<header>` returns the value of *title*, found in my *content/_index.md* file. However, the one found inside the Range logic returns the title of each Page in the `.Pages` object.
 
 So, why is that?
 
@@ -196,15 +195,16 @@ The simple answer is that Range changes the context (the data available to you) 
 
 In this case, we passed in `.Pages`, so `.Title` returns the title of each Page in the Pages object.
 
-It’s important to remember this when working with Page variables. The data you can access depends on where you happen to be in your templates. And what logic you happen to write.
+It’s important to remember this when working with Page methods. The data you can access depends on where you happen to be in your templates, and what logic you happen to write.
 
-The With function is another example of a function that changes the context. But, let’s leave that for another day, and instead, look at Page variables you can create yourself.
+The With function is another example of a function that changes the context. But, we’ll leave that for another day, and instead, look at the Page Method you can use to access custom data.
 
-### User-defined Page variables a.k.a Page Params
+
+### Using the Params Method to access custom Page data
 
 There are times when you’ll want to add custom data to a page. You can do this by defining your own front matter in your content files.
 
-These are known as Page-level Params and to access this custom data you use a Page variable called `.Params`.  Let’s look at an example.
+These are known as Page-level Parameters and to access this custom data you use a Page method called `.Params`, which returns a map of these custom parameters.  Let’s take a look at an example.
 
 Here I’ve added my Twitter handle to the front matter of my *content/_index.md* file. The data consists of a key-value pair, just like *title* and *date*.
 
@@ -220,7 +220,7 @@ Some homepage content
 
 I’d like to return the value (the absolute URL to my Twitter profile) on my homepage, in the form of a link.
 
-To do this, I’ll return to my *layouts/index.html* template. Here I append my custom key (twitter, in this case) to the `.Params` variable.
+To do this, I’ll return to my *layouts/index.html* template. Here I append my custom key (twitter, in this case) to the `.Params` Method.
 
 ```html
 {{ define "main" }}
@@ -236,9 +236,9 @@ To do this, I’ll return to my *layouts/index.html* template. Here I append my 
 {{ end }}
 ```
 
-Notice `.twitter` is written all in lowercase. It’s important to note that unlike pre-defined variables, Page-level Params are *only* accessible in lowercase.
+Notice `.twitter` is written all in lowercase. It’s important to note that whereas Page methods are written using uppercase (e.g .Params), a custom parameter itself must always be written in lowercase.
 
-In the generated website, Hugo renders the URL value in the link `href=""` attribute, as expected.
+In the generated website, Hugo renders the URL value in the `href=""` attribute of the anchor element, as expected.
 
 ```html
 <footer>
@@ -246,7 +246,7 @@ In the generated website, Hugo renders the URL value in the link `href=""` attri
 </footer>
 ```
 
-It’s worth noting that Params can also be nested.
+It’s worth noting that custom parameters can also be nested.
 
 ```
 ---
@@ -261,7 +261,7 @@ social:
 Some homepage content
 ```
 
-Nested Params are accessed by concatenating the field names together:
+Nested parameters are accessed by concatenating the field names together:
 
 ```html
 <footer>
@@ -271,17 +271,15 @@ Nested Params are accessed by concatenating the field names together:
 </footer>
 ```
 
-Note that these are all custom Page variables, or Page-level Params.
+Now you have a good grasp of Page methods and custom parameters. Let’s turn to Site Methods, so we can understand the differences.
 
-Now you have a good grasp of Page variables and Page-level Params. Let’s turn to Site variables, so we can understand the differences.
+## Site Methods
 
-## Site variables
+Site Methods give you access to global data that applies to your entire website. Global data is typically defined in the *config.toml* or *hugo.toml* file, but not always. Like Page Methods, there are various Site Methods which have been built-in to Hugo’s core, for convenience.   
 
-Site variables give you access to global data that applies to your entire website. These configurations are usually defined in the *config.toml* file, but not always. Like Page variables, some are pre-defined and built-in to Hugo’s core, for convenience.   
+Hugo provides `.Site` to give you access to this global object of data from a Page context. In other words, from inside your layout templates. So, [.Site is a Page Method](https://gohugo.io/methods/page/site/), in fact, that you use to get hold of Site Methods. Kinda confusing, right? 
 
-Hugo provides the `.Site` variable to give you access to these settings from a Page context. In other words, from inside your layout templates. So `.Site` is, in fact, a Page variable that you use to get hold of Site variables. Kinda confusing, right? 
-
-The most important thing to remember is that *`.Site` exposes your global variables to the Page context*.
+The most important thing to remember is that *`.Site` exposes your global Methods to the Page context*.
 
 To get a better understanding of `.Site`, let’s consider an example. 
 
@@ -302,13 +300,13 @@ Notice I’ve updated the `<h1>` element, from `.Title` to `.Site.Title`.
 
 Now, my *index.html* template no longer returns the title from my *_index.md* file. But instead returns the title from the *config.toml* file, where site settings are stored.
 
-`.Site.Title` is a pre-defined site variable, meaning it’s built-in to Hugo and serves a specific purpose: to return the title of your website.
+`.Site.Title` is a pre-defined site method, meaning it’s built-in to Hugo and serves a specific purpose: to return the title of your website, as defined in your configuration file.
 
-### Pre-defined Site variables 
+### Site Methods are pre-defined
 
-Just like with Page variables, there are many more pre-defined Site variables you can use.
+Just like with Page Methods, there are many more pre-defined [Site Methods](https://gohugo.io/methods/site/) you can use.
 
-`.Site.baseURL`, for example, is reserved the root URL of your website. You’ll find yourself using it to built absolute paths in your templates.
+`.Site.baseURL`, for example, is returns the root URL of your website, as defined in the site configuration. You’ll find yourself using it to built absolute paths in your templates.
 
 Consider the following code found in the `<head>` of my personal site.
 
@@ -341,9 +339,9 @@ With the baseURL stored in the config file, you can access the value in your tem
 
 It’s worth remembering there will be many more places in your templates where you will require your `baseURL`. And it might well change when you launch your site.  So storing it in the config file, will make working with it trivial.
 
-#### Grab menus from the config.toml file with `.Site.Menus`
+#### Grab menus from the config file with `.Site.Menus`
 
-`.Site.Menus` is another pre-defined Site variable, used to return the menus you define in your config file. As menus usually apply to an entire website, it makes sense to store this data with the rest of your site configuration.
+`.Site.Menus` is another pre-defined Site Method. It’s used to return the menus you define in your config file. As menus usually apply to an entire website, it makes sense to store this data with the rest of your site configuration.
 
 Consider the **main** menu I’ve defined in [my *config.toml*](https://github.com/harrycresswell/harry/blob/master/config.toml), as an example.
 
@@ -383,13 +381,13 @@ In my templates, I can loop through the data by passing `.Site.Menus` into the R
 </nav>
 ```
 
-Now, to access my **main** menu data, all I need to do is append the name of the menu to the variable.
+Now, to access my **main** menu data, all I need to do is append the name of the menu to the Method.
 
 ```
 .Site.Menus.main
 ```
 
-Notice the variable “main” is written in lowercase. That’s because it’s user-defined. In other words, a custom definition, defined by me.
+Notice the parameter “main” is written in lowercase. That’s because it’s user-defined. In other words, a custom definition, defined by me and not a Method in and of itself.
 
 Within the Range function, the context changes to main menu data and I now have access the `.Name` and `.URL` of each menu item. 
 
@@ -415,7 +413,7 @@ But, unlike `.Pages`, which can only be used in list templates (including the ho
 
 #### Access all taxonomies with `.Site.Taxonomies` 
 
-`.Site.Taxonomies` is another pre-defined Site variable that exposes global data. But this time, an object of taxonomies (categories, tags and so on), found across your entire website.
+`.Site.Taxonomies` is another Site Method that exposes global data. But this time, an object of taxonomies (categories, tags and so on), found across your entire website.
 
 This object of taxonomies depends on what data you define in the front matter of each page. Let’s take a look at an example.
 
@@ -460,15 +458,15 @@ To create a list of all the topics found across my website, I’ve made a *layou
 {{ end }}
 ```
 
-To loop through the data, I pass the variable into a Range function and append the *topics* key to the end. To return the title of each topic I use `.Page.Title`, rather than `.Title` alone.
+To loop through the data, I pass the method into a Range function and append the *topics* key to the end. To return the title of each topic I use `.Page.Title`, rather than `.Title` alone.
 
 Taking this further is perhaps outside the scope of this article, however it’s worth looking at my [topic single page template](https://github.com/harrycresswell/harry/blob/master/themes/hc-starter/layouts/taxonomy/topic.html), if you want to create a page for each topic and list the content pages within the taxonomy.
 
 #### Access Data files with `.Site.Data`
 
-As we’ve seen in the previous two examples, not all `.Site` variables expose data from the config file. Some Site variables are used to access data from elsewhere. 
+As we’ve seen in the previous two examples, not all `.Site` Methods expose data from the config file. Some Site Methods are used to access data from elsewhere. 
 
-Another example is `.Site.Data`, which is used to fetch data from the data folder. The data folder is a place to store data files that contain data associated with your website, which don’t necessarily require a dedicated page.
+One such method is `.Site.Data`, which is used to fetch data from the data folder. The data folder is a place to store data files that contain data associated with your website, which don’t necessarily require a dedicated page.
 
 The *data/settings/signup.yaml* file I use on my personal website is a good example of this. 
 
@@ -494,21 +492,19 @@ list_url: https://harrycresswell.us14.list-manage.com/subscribe/post?u=4e8fba8d0
 
 In theory, I might have hardcoded this data directly into my *newsletter.html* partial template. But it’s much easier to manage this content, if the data is written in YAML and abstracted away from the template, to it’s own dedicated file.
 
-To access this data from my templates, I can use the `.Site.Data` variable. Concatenating the folder name, followed by file name, and finally the title field.
+To access this data from my templates, I can use the `.Site.Data` method, then concatenate the folder name, followed by file name, and finally the title field.
 
 ```go
 {{ .Site.Data.settings.signup.title | markdownify }}
 ```
 
-This follows a similar pattern to working with nested Page-level Params. Note that all the variable keys are written in lowercase, as, like Params, they are custom data.
+Notice how this approach follows a similar pattern to working with nested Page-level Params. Where all the parameter keys are written in lowercase, as, like Page parameters, they are custom data.
 
-### User-defined Site variables a.k.a Site Params
+### Using the Params Method to access custom Site data
 
-Just as you can create custom Page-level variables, you can do the same on a Site-wide level, by defining custom variables in your *config.toml* file. 
+Just as you can create custom Page-level parameters, you can do the same on a Site-wide level, by defining custom parameters in your *config.toml* or *hugo.toml* file. 
 
-These are known as User-defined Site variables, or simply Site Params, and are handy for storing anything that applies to your entire website. 
-
-Default SEO meta data is a good example.
+These are often referred to as Site Params, and are handy for storing anything that applies to your entire website. Default SEO meta data is a good example.
 
 Consider my `config.toml` file. 
 
@@ -522,9 +518,11 @@ title = "Harry Cresswell"
   card_image = "img/card-image.png"
 ```
 
-Notice Site Params are stored under the `[params]` keyword, whereas pre-defined Site variables, such as `baseURL`, sit at the top level. For the sake of clarity, when working with TOML data I prefer to indent any params I add. However, it’s not necessary and won’t effect the structure of your data. 
+Notice these custom Site parameters are stored under the `[params]` keyword, whereas pre-defined Site parameters, such as `baseURL`, sit at the top level. 
 
-To access Site Params, Hugo provides the [`.Site.Params` varaible](https://gohugo.io/variables/site/#the-siteparams-variable).
+For the sake of clarity, when working with TOML data I prefer to indent any params I add. However, it’s not necessary and won’t effect the structure of your data. 
+
+To access Site parameters, Hugo provides the [`.Site.Params` Method](https://gohugo.io/variables/site/#the-siteparams-variable).
 
 Consider the *layouts/partials/head.html* template below.
 
@@ -537,7 +535,7 @@ Consider the *layouts/partials/head.html* template below.
 </head>
 ```
 
-Just like with Page-level Params, append the custom key (written in all lowercase) to the `.Site.Params` variable, to access a specfic value.
+Just like with Page-level Params, append the custom parameter (written in all lowercase) to the `.Site.Params` Method, to access a specfic value.
 
 ### Accessing global data from anywhere 
 
@@ -545,9 +543,9 @@ There are times when you want to access global data, but, by default, you can’
 
 In this case, you have two options. 
 
-#### Passing the context and using the .Site variable
+#### Passing the context and using the .Site Method
 
-You can either pass the Page context into the partial  using the dot.
+You can either pass the Page context into the partial using the dot.
 
 ```go
 {{ partial "footer.html" . }}
@@ -555,13 +553,13 @@ You can either pass the Page context into the partial  using the dot.
 
 Remember: **current context is stored in the dot**. And, the default context of templates is set to Page. So the dot passes Page context into the partial, giving you access to Page data. 
 
-Now, you can use `.Site`  inside the partial to access Site variables. As mentioned, the reason for this that `.Site` is, in fact, a Page variable. And, so exposes a sites global data to the Page context. 
+Now, you can use `.Site`  inside the partial to access Site variables. As mentioned, the reason for this that `.Site` is, in fact, a Page Method. And, so exposes a sites global data to the Page context. 
 
 But there’s also another way to access global data, from anywhere.
 
 #### Using the global `site` function
 
-The `site` function gives you access to your sites global data stored in the `config.toml` file,  when the `Page` object isn’t available.
+The  global [site function](https://gohugo.io/functions/global/site/) gives you access to your sites global data stored in the `config.toml` file, when the `Page` object isn’t available.
 
 To give you a similfied example of how this works, let’s say I include a partial inside one of my template, but this time without passing the Page context to it (notice the dot is left out).
 
@@ -569,7 +567,7 @@ To give you a similfied example of how this works, let’s say I include a parti
 {{ partial "footer.html" }}
 ```
 
-By using the  `site` function instead of `.Site`, I can still access global data inside my `layouts/partials/footer.html` file, 
+By using the  `site` function instead of `.Site`, I can still access global data inside my `layouts/partials/footer.html` file. 
 
 Here I’m returing the title stored in my config.toml file:
 
@@ -585,7 +583,7 @@ If I tried to use the `.Site` variable instead, my title wouldn’t rended.
 {{ .Site.Title }}
 ```
 
-This is because `.Site` is a Page variable (which gives us access to Site variables). But, in this case I haven’t passed the Page context to the partail. So the variable isn’t available.
+This is because `.Site` is a Page Method, which gives us access to Site Methods. But, in this case, I haven’t passed the Page context to the partial, so the variable isn’t available.
 
 ## Combining .Site and .Page
 
@@ -643,7 +641,7 @@ settings:
 ---
 ```
 
-Notice, the data structure now reflects the format of the data found in the data/settings/signup.yaml file. Meaning, you can return the data by concatenating the variables in the exact same way.
+Notice, the data structure now reflects the format of the data found in the data/settings/signup.yaml file. Meaning, you can return the data by concatenating the Method and the parameters in the exact same way.
 
 ```go
 <h2>
@@ -668,7 +666,7 @@ Here I’m returning to the `head.html` partial, from earlier.
 </head>
 ```
 
-This works great for the homepage. But, ideally, you’d want to change both the *title* and the *description* on a page-by-page basis.
+This works great for the homepage. But, to improve SEO, you’d most likely want to change both the *title* and the *description* on a page-by-page basis.
 
 With some simple logic, you can look for a Page-level description, should it exist. Then fallback to your global site description Param, if not.
 
@@ -713,16 +711,14 @@ Whereas a post page display something like this:
 </head>
 ```
 
-I’ve shown you these examples to help illustrate how Page variables and Params, and Site variables and Params, are often used together. But there are no hard and fast rules. How you combine Site and Page variables depends on what you are trying to build and what data you want to access.
+I’ve shown you these examples to help illustrate how Page Methods, Site Methods and in both cases Params, are often used together. But there are no hard and fast rules here. How you combine Site and Page Methods depends on what you are trying to build and what data you want to access.
 
 ## Wrapping up
 
-Page variables give you access to Page data. That means data found in your content files.
+[Page Methods](https://gohugo.io/variables/page/) give you access to page data that Hugo stores in the Page object. That means any data associated with your content files, which are used to build the pages of your website.
 
-[Pre-defined Page variables](https://gohugo.io/variables/page/) are built-in to Hugo and give you access to common types of data associated with your pages. But you can also create your own Page variables, which you do using `.Params`.
+[Site Methods](https://gohugo.io/methods/site/) give you access global data that Hugo stores in Site objects. This often means data defined in your site configuration, but it can also mean data defined as custom data stored in Data files. Site Methods are nuanced because they are also used to access global objects of data, such as all pages and all taxonomies.
 
-Site variables are used to access global settings. These settings are often defined in the site configuration, but they can also be defined as custom data stored in Data files. Site variables are nuanced because they are also used to access global objects of data, such as all pages and all taxonomies. 
+Most Page and Site Methods are used for returning pre-determinded types of data. However the `.Page.Params` and `.Site.Params` Methods can be used for returning custom data.
 
-Just like with Page variables, you’ll find yourself working with a bunch of [pre-defined Site variables](https://gohugo.io/variables/site/#site-variables-list). These are built-in to Hugo and give you access to global data associated with your website.
-
-But just like with Page variables, you can also create custom Site variables, which you do with `.Site.Params`. Useful when you have specific needs which Hugo doesn’t cater for, out of the box.
+The former will give you access to custom data that you have defined in the front matter of content files. Whereas the latter will give you access to custom data stored in your configuration file. Both Methods are very useful when you have specific needs that Hugo doesn’t cater for, out of the box.
