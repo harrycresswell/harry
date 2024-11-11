@@ -124,17 +124,21 @@ I’ve returned to [Trello](https://trello.com/) for client projects that requir
 I use [TinyStopwatch](https://apps.apple.com/app/tinystopwatch/id1447754003) for time tracking tasks that typically get billed to clients.
 
 
-## Finance
+## Business and finance
 
-I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* for my business bank account.
+[JF Financial](https://jf-financial.co.uk/) have been my accountants since 2015. If you’re based in the UK and, like me, are a freelancer or a contractor, then I can highly recommend John and his team.
 
-I use [Freeagent](http://fre.ag/44clni8a)* for accounting and have done for a number of years. My accountant uses it too, which makes the process straight forward. If you run your own business and you’re not using a digital accounting tool, then I highly recommend looking into one.
+I use [FreeAgent](http://fre.ag/44clni8a)* as my accounting software and have done since working with my accountants (they include a free subscription). FreeAgent makes it very easy to create invoices and manage expenses. If you run your own business in the UK and you’re not using a digital accounting tool, then checkout Freeagent.
+
+My business is insured by [With Jack](https://withjack.co.uk/), who protect freelance creatives in the UK, set up as sole traders or limited companies.
+
+I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* as my UK business bank account.
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
 
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 
-I also use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
+I use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
 ## Health
 
