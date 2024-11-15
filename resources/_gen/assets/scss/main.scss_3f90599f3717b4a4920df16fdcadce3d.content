@@ -255,11 +255,9 @@ blockquote:not([class]) {
 
 ul,
 ol {
-  list-style-position: inside; }
-  @media (min-width: 48em) {
-    ul,
-    ol {
-      list-style-position: outside; } }
+  list-style-position: outside;
+  padding-inline: var(--space-s); }
+
 ul[class],
 ol[class] {
   list-style: none; }

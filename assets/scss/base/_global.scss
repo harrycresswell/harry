@@ -87,11 +87,8 @@ blockquote:not([class]) {
 
 ul,
 ol {
-  list-style-position: inside;
-
-  @include breakpoint(md) {
-    list-style-position: outside;
-  }
+  list-style-position: outside;
+  padding-inline: var(--space-s);
 }
 
 ul[class],
