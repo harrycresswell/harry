@@ -6,33 +6,32 @@
 	</head>
 <body>
 	<outline text="Accessibility" title="Accessibility">
-		<outline text="Léonie Watson" title="Léonie Watson" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://tink.uk/feed.xml"/>
-		<outline text="Manuel Matuzović" title="Manuel Matuzović" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.matuzo.at/feed.xml"/>
+		<outline text="Léonie Watson" title="Léonie Watson" description="" type="rss" version="RSS" htmlUrl="https://tink.uk/" xmlUrl="https://tink.uk/feed.xml"/>
+		<outline text="Manuel Matuzović" title="Manuel Matuzović" description="" type="rss" version="RSS" htmlUrl="https://www.matuzo.at/" xmlUrl="https://www.matuzo.at/feed.xml"/>
 		<outline text="Marcus Herrmann" title="Marcus Herrmann" description="" type="rss" version="RSS" htmlUrl="https://marcus.io/blog" xmlUrl="https://marcus.io/feed"/>
-		<outline text="Martin Underhill" title="Martin Underhill" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.tempertemper.net/feeds/main.xml"/>
+		<outline text="Martin Underhill" title="Martin Underhill" description="" type="rss" version="RSS" htmlUrl="https://www.tempertemper.net/" xmlUrl="https://www.tempertemper.net/feeds/main.xml"/>
 	</outline>
 	<outline text="CSS" title="CSS">
-		<outline text="CSS { In Real Life }" title="CSS { In Real Life }" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://css-irl.info/rss.xml"/>
-		<outline text="Modern CSS Solutions for Old CSS Problems" title="Modern CSS Solutions for Old CSS Problems" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://moderncss.dev/feed/"/>
+		<outline text="CSS { In Real Life }" title="CSS { In Real Life }" description="" type="rss" version="RSS" htmlUrl="https://css-irl.info/" xmlUrl="https://css-irl.info/rss.xml"/>
+		<outline text="Modern CSS Solutions for Old CSS Problems" title="Modern CSS Solutions for Old CSS Problems" description="" type="rss" version="RSS" htmlUrl="https://moderncss.dev/" xmlUrl="https://moderncss.dev/feed/"/>
 		<outline text="The Spicy Web" title="The Spicy Web" description="" type="rss" version="RSS" htmlUrl="https://www.spicyweb.dev/" xmlUrl="https://www.spicyweb.dev/feed.xml"/>
 	</outline>
 	<outline text="Designers" title="Designers">
-		<outline text="Andy Bell" title="Andy Bell" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://andy-bell.co.uk/feed/"/>
+		<outline text="Andy Bell" title="Andy Bell" description="" type="rss" version="RSS" htmlUrl="https://andy-bell.co.uk/" xmlUrl="https://andy-bell.co.uk/feed/"/>
 		<outline text="Bryan Maniotakis" title="Bryan Maniotakis" description="" type="rss" version="RSS" htmlUrl="https://bryanmanio.com/" xmlUrl="https://bryanmanio.com/feed/"/>
-		<outline text="Dave Smyth" title="Dave Smyth" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://davesmyth.com/feed"/>
-		<outline text="Harry Cresswell" title="Harry Cresswell" description="" type="rss" version="RSS" htmlUrl="https://harrycresswell.com/writing/" xmlUrl="https://harrycresswell.com/writing/feed.xml"/>
-		<outline text="Hidde de Vries" title="Hidde de Vries" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://hiddedevries.nl/rss/full/"/>
+		<outline text="Dave Smyth" title="Dave Smyth" description="" type="rss" version="RSS" htmlUrl="https://davesmyth.com/" xmlUrl="https://davesmyth.com/feed"/>
+		<outline text="Hidde de Vries" title="Hidde de Vries" description="" type="rss" version="RSS" htmlUrl="https://hiddedevries.nl/" xmlUrl="https://hiddedevries.nl/rss/full/"/>
 		<outline text="Jon Yablonski" title="Jon Yablonski" description="" type="rss" version="RSS" htmlUrl="https://jonyablonski.com/" xmlUrl="https://jonyablonski.com/index.xml"/>
 		<outline text="Martin Sandstrom" title="Martin Sandstrom" description="" type="rss" version="RSS" htmlUrl="https://martinsandstrom.com/" xmlUrl="https://martinsandstrom.com/feed/"/>
-		<outline text="Matthew Ström" title="Matthew Ström" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://matthewstrom.com/feed.xml"/>
-		<outline text="Matthias Ott" title="Matthias Ott" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://matthiasott.com/rss"/>
+		<outline text="Matthew Ström" title="Matthew Ström" description="" type="rss" version="RSS" htmlUrl="https://matthewstrom.com/" xmlUrl="https://matthewstrom.com/feed.xml"/>
+		<outline text="Matthias Ott" title="Matthias Ott" description="" type="rss" version="RSS" htmlUrl="https://matthiasott.com/" xmlUrl="https://matthiasott.com/rss"/>
 		<outline text="Paul Stamatiou" title="Paul Stamatiou" description="" type="rss" version="RSS" htmlUrl="https://paulstamatiou.com/" xmlUrl="https://paulstamatiou.com/posts.xml"/>
-		<outline text="Robin Rendle" title="Robin Rendle" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://robinrendle.com/feed.xml"/>
+		<outline text="Robin Rendle" title="Robin Rendle" description="" type="rss" version="RSS" htmlUrl="https://robinrendle.com/" xmlUrl="https://robinrendle.com/feed.xml"/>
 	</outline>
 	<outline text="Developers" title="Developers">
 		<outline text="Baldur Bjarnason" title="Baldur Bjarnason" description="" type="rss" version="RSS" htmlUrl="https://www.baldurbjarnason.com/" xmlUrl="https://feedpress.me/baldurbjarnason"/>
-		<outline text="Ben Robertson" title="Ben Robertson" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://benrobertson.io/feed.xml"/>
-		<outline text="Bradley Taunt" title="Bradley Taunt" description="" type="rss" version="RSS" htmlUrl="http://btxx.org//" xmlUrl="https://btxx.org/index.rss"/>
+		<outline text="Ben Robertson" title="Ben Robertson" description="" type="rss" version="RSS" htmlUrl="https://benrobertson.io/" xmlUrl="https://benrobertson.io/feed.xml"/>
+		<outline text="Bradley Taunt" title="Bradley Taunt" description="" type="rss" version="RSS" htmlUrl="http://btxx.org/" xmlUrl="https://btxx.org/index.rss"/>
 		<outline text="Bradley Taunt (old)" title="Bradley Taunt (old)" description="" type="rss" version="RSS" htmlUrl="https://tdarb.org/" xmlUrl="https://tdarb.org/feeds/posts.xml"/>
 		<outline text="Cloud Four" title="Cloud Four" description="" type="rss" version="RSS" htmlUrl="https://cloudfour.com/" xmlUrl="https://cloudfour.com/feed/"/>
 		<outline text="Drew DeVault" title="Drew DeVault" description="" type="rss" version="RSS" htmlUrl="https://drewdevault.com/" xmlUrl="https://drewdevault.com/blog/index.xml"/>
@@ -49,7 +48,7 @@
 		<outline text="Robin Osborne" title="Robin Osborne" description="" type="rss" version="RSS" htmlUrl="https://www.robinosborne.co.uk/" xmlUrl="https://www.robinosborne.co.uk/feed/"/>
 		<outline text="Scott O’Hara" title="Scott O’Hara" description="" type="rss" version="RSS" htmlUrl="https://scottohara.me//" xmlUrl="https://www.scottohara.me/feed.xml"/>
 		<outline text="Simon Eskildsen" title="Simon Eskildsen" description="" type="rss" version="RSS" htmlUrl="https://sirupsen.com/" xmlUrl="https://feeds.feedburner.com/sirupsen"/>
-		<outline text="Stefan Judis" title="Stefan Judis" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.stefanjudis.com/rss.xml"/>
+		<outline text="Stefan Judis" title="Stefan Judis" description="" type="rss" version="RSS" htmlUrl="https://www.stefanjudis.com/" xmlUrl="https://www.stefanjudis.com/rss.xml"/>
 		<outline text="Stephen Petrey" title="Stephen Petrey" description="" type="rss" version="RSS" htmlUrl="https://stephen.news/" xmlUrl="https://petrey.co/feed/"/>
 		<outline text="Thomas Vantuycom" title="Thomas Vantuycom" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.thomasvantuycom.com/feed.xml"/>
 		<outline text="Tom MacWright" title="Tom MacWright" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.org/rss.xml"/>
@@ -60,16 +59,16 @@
 	</outline>
 	<outline text="Hugo" title="Hugo">
 		<outline text="Ashish Lahoti" title="Ashish Lahoti" description="" type="rss" version="RSS" htmlUrl="https://codingnconcepts.com/hugo/" xmlUrl="https://codingnconcepts.com/hugo/index.xml"/>
-		<outline text="Bryce Wray" title="Bryce Wray" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.brycewray.com/index.xml"/>
+		<outline text="Bryce Wray" title="Bryce Wray" description="" type="rss" version="RSS" htmlUrl="https://www.brycewray.com/" xmlUrl="https://www.brycewray.com/index.xml"/>
 		<outline text="Darcy Norman" title="Darcy Norman" description="" type="rss" version="RSS" htmlUrl="https://darcynorman.net/" xmlUrl="https://darcynorman.net/index.xml"/>
 		<outline text="Dariusz Więckiewicz" title="Dariusz Więckiewicz" description="" type="rss" version="RSS" htmlUrl="https://dariusz.wieckiewicz.org/en/" xmlUrl="https://dariusz.wieckiewicz.org/en/index.xml"/>
 		<outline text="Luke Harris" title="Luke Harris" description="" type="rss" version="RSS" htmlUrl="https://www.lkhrs.com/blog/" xmlUrl="https://www.lkhrs.com/blog/index.xml"/>
 		<outline text="Mert Bakır" title="Mert Bakır" description="" type="rss" version="RSS" htmlUrl="https://mertbakir.gitlab.io/" xmlUrl="https://mertbakir.gitlab.io/index.xml"/>
-		<outline text="Regis Philibert" title="Regis Philibert" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://regisphilibert.com/index.xml"/>
+		<outline text="Regis Philibert" title="Regis Philibert" description="" type="rss" version="RSS" htmlUrl="https://regisphilibert.com/" xmlUrl="https://regisphilibert.com/index.xml"/>
 		<outline text="Roneo" title="Roneo" description="" type="rss" version="RSS" htmlUrl="https://roneo.org/en/" xmlUrl="https://roneo.org/en/index.xml"/>
 		<outline text="Will Holmes" title="Will Holmes" description="" type="rss" version="RSS" htmlUrl="https://www.wjholmes.com/" xmlUrl="https://www.wjholmes.com/index.xml"/>
 		<outline text="Wouter Groeneveld" title="Wouter Groeneveld" description="" type="rss" version="RSS" htmlUrl="https://brainbaking.com/" xmlUrl="https://brainbaking.com/index.xml"/>
-		<outline text="Zachary Betz" title="Zachary Betz" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://zwbetz.com/index.xml"/>
+		<outline text="Zachary Betz" title="Zachary Betz" description="" type="rss" version="RSS" htmlUrl="https://zwbetz.com/" xmlUrl="https://zwbetz.com/index.xml"/>
 	</outline>
 	<outline text="IndieWeb" title="IndieWeb">
 		<outline text="Aegir" title="Aegir" description="" type="rss" version="RSS" htmlUrl="https://aegir.org/" xmlUrl="https://aegir.org/words/feed"/>
@@ -97,26 +96,25 @@
 		<outline text="Hey Designer" title="Hey Designer" description="" type="rss" version="RSS" htmlUrl="https://heydesigner.com/" xmlUrl="https://heydesigner.com/rss.xml"/>
 		<outline text="Jamstacked" title="Jamstacked" description="" type="rss" version="RSS" htmlUrl="https://cfe.dev/jamstacked/" xmlUrl="https://cfe.dev/jamstacked/rss.xml"/>
 		<outline text="life after the daily grind" title="life after the daily grind" description="" type="rss" version="RSS" htmlUrl="https://lifeafterthedailygrind.com/" xmlUrl="https://lifeafterthedailygrind.com/feed/"/>
-		<outline text="Nielsen Norman Group" title="Nielsen Norman Group" description="" type="rss" version="RSS" htmlUrl="https://www.nngroup.com/feed/rss/" xmlUrl="https://www.nngroup.com/feed/rss/"/>
+		<outline text="Nielsen Norman Group" title="Nielsen Norman Group" description="" type="rss" version="RSS" htmlUrl="https://www.nngroup.com/" xmlUrl="https://www.nngroup.com/feed/rss/"/>
 		<outline text="Smashing Magazine" title="Smashing Magazine" description="" type="rss" version="RSS" htmlUrl="https://www.smashingmagazine.com/" xmlUrl="https://www.smashingmagazine.com/feed/"/>
 		<outline text="The Internet Review" title="The Internet Review" description="" type="rss" version="RSS" htmlUrl="https://theinternet.review/" xmlUrl="https://theinternet.review/feed.xml"/>
 		<outline text="W3C News" title="W3C News" description="" type="rss" version="RSS" htmlUrl="https://www.w3.org/news/" xmlUrl="https://www.w3.org/blog/news/feed/atom"/>
 		<outline text="Web Design Weekly" title="Web Design Weekly" description="" type="rss" version="RSS" htmlUrl="https://web-design-weekly.com/" xmlUrl="https://web-design-weekly.com/feed/"/>
-		<outline text="web.dev" title="web.dev" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://web.dev/feed.xml"/>
+		<outline text="web.dev" title="web.dev" description="" type="rss" version="RSS" htmlUrl="https://web.dev/" xmlUrl="https://web.dev/feed.xml"/>
 		<outline text="zen habits" title="zen habits" description="" type="rss" version="RSS" htmlUrl="https://zenhabits.net/" xmlUrl="https://zenhabits.net/feed/"/>
 	</outline>
 	<outline text="Moodboards" title="Moodboards">
 		<outline text="but does it float" title="but does it float" description="" type="rss" version="RSS" htmlUrl="https://butdoesitfloat.com/" xmlUrl="https://butdoesitfloat.com/rss"/>
 		<outline text="M O O D" title="M O O D" description="" type="rss" version="RSS" htmlUrl="https://haw-lin.com/" xmlUrl="http://haw-lin.com/rss/"/>
-		<outline text="Milk &amp; Mead" title="Milk &amp; Mead" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://milkandmead.com/rss"/>
+		<outline text="Milk &amp; Mead" title="Milk &amp; Mead" description="" type="rss" version="RSS" htmlUrl="http://milkandmead.com/" xmlUrl="http://milkandmead.com/rss"/>
 		<outline text="Reagan Ray" title="Reagan Ray" description="" type="rss" version="RSS" htmlUrl="https://reaganray.com/" xmlUrl="https://reaganray.com/feed.xml"/>
 	</outline>
 	<outline text="Newsletters" title="Newsletters">
-		<outline text="Blogging for Devs" title="Blogging for Devs" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kill-the-newsletter.com/feeds/gw9et693wjtemm26.xml"/>
-		<outline text="James Clear 3-2-1" title="James Clear 3-2-1" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kill-the-newsletter.com/feeds/2giebuekonu237wy.xml"/>
-		<outline text="Learn UI" title="Learn UI" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kill-the-newsletter.com/feeds/osnsz2xswg2ccgw2.xml"/>
-		<outline text="Marketing Examples" title="Marketing Examples" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kill-the-newsletter.com/feeds/fdqq00p0mqf8zosi.xml"/>
-		<outline text="Zero to Marketing" title="Zero to Marketing" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kill-the-newsletter.com/feeds/c4uz79yrvxs0cajb.xml"/>
+		<outline text="James Clear 3-2-1" title="James Clear 3-2-1" description="" type="rss" version="RSS" htmlUrl="https://jamesclear.com/" xmlUrl="https://kill-the-newsletter.com/feeds/2giebuekonu237wy.xml"/>
+		<outline text="Learn UI" title="Learn UI" description="" type="rss" version="RSS" htmlUrl="https://www.learnui.design/" xmlUrl="https://kill-the-newsletter.com/feeds/osnsz2xswg2ccgw2.xml"/>
+		<outline text="Marketing Examples" title="Marketing Examples" description="" type="rss" version="RSS" htmlUrl="https://marketingexamples.com/" xmlUrl="https://kill-the-newsletter.com/feeds/fdqq00p0mqf8zosi.xml"/>
+		<outline text="Zero to Marketing" title="Zero to Marketing" description="" type="rss" version="RSS" htmlUrl="https://www.zerotomarketing.com/" xmlUrl="https://kill-the-newsletter.com/feeds/c4uz79yrvxs0cajb.xml"/>
 	</outline>
 	<outline text="Obsidian" title="Obsidian">
 		<outline text="LEANANKI" title="LEANANKI" description="" type="rss" version="RSS" htmlUrl="https://leananki.com/" xmlUrl="https://leananki.com/feed/"/>
@@ -126,17 +124,17 @@
 		<outline text="Zettelkasten.de" title="Zettelkasten.de" description="" type="rss" version="RSS" htmlUrl="https://zettelkasten.de/" xmlUrl="https://zettelkasten.de/feed.atom"/>
 	</outline>
 	<outline text="Performance and sustainability" title="Performance and sustainability">
-		<outline text="Alistair Shepherd" title="Alistair Shepherd" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.alistairshepherd.uk/feed.xml"/>
+		<outline text="Alistair Shepherd" title="Alistair Shepherd" description="" type="rss" version="RSS" htmlUrl="https://www.alistairshepherd.uk/" xmlUrl="https://www.alistairshepherd.uk/feed.xml"/>
 		<outline text="Andy Davies" title="Andy Davies" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://feeds.feedburner.com/andydavies"/>
 		<outline text="Branch" title="Branch" description="" type="rss" version="RSS" htmlUrl="https://branch.climateaction.tech/" xmlUrl="https://branch.climateaction.tech/feed/"/>
-		<outline text="Brian Louis Ramirez" title="Brian Louis Ramirez" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://screenspan.net/rss.xml"/>
+		<outline text="Brian Louis Ramirez" title="Brian Louis Ramirez" description="" type="rss" version="RSS" htmlUrl="https://screenspan.net/" xmlUrl="https://screenspan.net/rss.xml"/>
 		<outline text="CSS Wizardry" title="CSS Wizardry" description="" type="rss" version="RSS" htmlUrl="https://csswizardry.com/" xmlUrl="https://feeds.feedburner.com/csswizardry"/>
 		<outline text="Curiously Green" title="Curiously Green" description="" type="rss" version="RSS" htmlUrl="https://www.wholegraindigital.com/curiously-green/" xmlUrl="https://www.wholegraindigital.com/curiously-green/feed/"/>
-		<outline text="Fershad Irani" title="Fershad Irani" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://fershad.com/feed.xml"/>
-		<outline text="Gerry McGovern" title="Gerry McGovern" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://gerrymcgovern.com/feed/"/>
+		<outline text="Fershad Irani" title="Fershad Irani" description="" type="rss" version="RSS" htmlUrl="https://fershad.com/" xmlUrl="https://fershad.com/feed.xml"/>
+		<outline text="Gerry McGovern" title="Gerry McGovern" description="" type="rss" version="RSS" htmlUrl="https://gerrymcgovern.com/" xmlUrl="https://gerrymcgovern.com/feed/"/>
 		<outline text="Low Tech Magazine" title="Low Tech Magazine" description="" type="rss" version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/" xmlUrl="https://solar.lowtechmagazine.com/posts/index.xml"/>
 		<outline text="Michael Gearon" title="Michael Gearon" description="" type="rss" version="RSS" htmlUrl="https://mgearon.com/" xmlUrl="https://mgearon.com/feed/"/>
-		<outline text="Simon Hearne" title="Simon Hearne" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://simonhearne.com/feed.xml"/>
+		<outline text="Simon Hearne" title="Simon Hearne" description="" type="rss" version="RSS" htmlUrl="https://simonhearne.com/" xmlUrl="https://simonhearne.com/feed.xml"/>
 		<outline text="That HTML Blog" title="That HTML Blog" description="" type="rss" version="RSS" htmlUrl="https://thathtml.blog/" xmlUrl="https://thathtml.blog/feed.xml"/>
 	</outline>
 	<outline text="Podcasts" title="Podcasts">
@@ -161,11 +159,11 @@
 	<outline text="Writers" title="Writers">
 		<outline text="Ali Abdaal" title="Ali Abdaal" description="" type="rss" version="RSS" htmlUrl="https://aliabdaal.com/" xmlUrl="https://aliabdaal.com/rss/"/>
 		<outline text="Austin Kleon" title="Austin Kleon" description="" type="rss" version="RSS" htmlUrl="https://austinkleon.com/" xmlUrl="https://austinkleon.com/feed/"/>
-		<outline text="Ethan Marcotte" title="Ethan Marcotte" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml"/>
+		<outline text="Ethan Marcotte" title="Ethan Marcotte" description="" type="rss" version="RSS" htmlUrl="https://ethanmarcotte.com/" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml"/>
 		<outline text="Justin Jackson" title="Justin Jackson" description="" type="rss" version="RSS" htmlUrl="https://justinjackson.ca/" xmlUrl="https://justinjackson.ca/feed"/>
 		<outline text="kening zhu" title="kening zhu" description="" type="rss" version="RSS" htmlUrl="https://keningzhu.com/home-2/" xmlUrl="https://keningzhu.com/home-2?format=RSS"/>
 		<outline text="Molly White" title="Molly White" description="" type="rss" version="RSS" htmlUrl="https://mollywhite.net//feed" xmlUrl="https://www.mollywhite.net/feed/feed.xml"/>
-		<outline text="Paul Jarvis" title="Paul Jarvis" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://pjrvs.com/feed"/>
+		<outline text="Paul Jarvis" title="Paul Jarvis" description="" type="rss" version="RSS" htmlUrl="http://pjrvs.com/" xmlUrl="http://pjrvs.com/feed"/>
 		<outline text="Philip Thomas" title="Philip Thomas" description="" type="rss" version="RSS" htmlUrl="https://www.philipithomas.com/" xmlUrl="https://www.philipithomas.com/posts.rss"/>
 		<outline text="Rebekka Writes" title="Rebekka Writes" description="" type="rss" version="RSS" htmlUrl="https://rebekkawrites.com/writing/" xmlUrl="https://rebekkawrites.com/writing/feed.xml"/>
 		<outline text="Shane Parrish" title="Shane Parrish" description="" type="rss" version="RSS" htmlUrl="https://fs.blog/" xmlUrl="https://fs.blog/feed/"/>
