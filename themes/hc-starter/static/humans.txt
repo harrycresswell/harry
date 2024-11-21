@@ -49,3 +49,7 @@ Last update: 2022/06/01
 Standards: HTML5, CSS3
 Components: Autoprefixer, Postcss-cli, NPM scripts
 Software: Hugo, VSCode, Obsidian
+
+/* WTF? */
+
+See: https://humanstxt.org/
