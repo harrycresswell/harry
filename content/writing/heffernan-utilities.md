@@ -153,6 +153,6 @@ blocks:
     heading: "Summary"
     content: "<p>Within 4 weeks we were able to complete the identity work and design and code the website, from scratch. Taking Heffernan utilities web presence from a generic unbranded Wordpress theme to a recognisable multi-utility brand.</p><p>By choosing a simple static site approach and optimising the website for Google’s <a href='https://web.dev/vitals/' target=''>Core Web Vitals</a>, we were able to improve website performance and boost search ranking – all whilst keeping ongoing costs to a minimum.</p><p>At this point the work has only just begun.</p> <p>In order to win new clients it’s vital to drive traffic to the website. This can be done over time via a well defined content markerting and social media strategy. However, in the short term, the best option for the business might well be to focus on targeted marketing using Adwords.</p><p>Other easy wins include setting up a <a href='https://www.google.co.uk/business/' target='_blank'>Business Profile</a> on Google or integrating live-chat software to engage with visitors, gather feedback and offer support.</p><p>If you need help with anything you see here, then <a href='mailto:studio@harrycresswell.com'>please get in touch</a>.</p>"
   - template: "link-big"
-    link_text: "ljhutilities.com"
-    link_url: "https://ljhutilities.com/"
+    link_text: "ljhutilities.netlify.app"
+    link_url: "https://ljhutilities.netlify.app"
 ---

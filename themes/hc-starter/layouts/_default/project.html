@@ -8,7 +8,7 @@
         <div class="cluster">
           <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
           {{ partial "post/topics.html" . }}
-      </div>
+        </div>
       </header>
       <div class="e-content">
         {{- range .Params.blocks -}}
