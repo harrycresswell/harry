@@ -7,6 +7,12 @@ layout: "page"
 description: ""
 ---
 
+> ”It's been great working with Harry on improving the UX of our platform. Harry is thoughtful, reflective and creative, and as many of the changes we want to make are complex in nature, those are the exact qualities we need. We've always had productive and constructive workflows with Harry, and would wholeheartedly recommend his services to anyone.”
+>
+> **Ching-Yun Huang, [Angel Investment Network](https://www.angelinvestmentnetwork.co.uk/)**
+
+---
+
 > “Harry is a rare combination of designer and developer. He is a truly creative individual who can not only design beautiful and intuitive websites but also build them. He is also passionate about building websites in the right way, keeping performance, accessibility, privacy, security and web standards top of mind. It was a real pleasure to collaborate with him on several projects earlier in my career and I continue to be proud of the work we completed together.”
 >
 > **Luke Harvey, [MaintainX](https://www.getmaintainx.com/)**
