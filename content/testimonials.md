@@ -7,6 +7,12 @@ layout: "page"
 description: ""
 ---
 
+> “Harry has been amazing to work with. He has been extremely responsive and detailed throughout our website build. As someone who does not have a great deal of experience with the process, I have been impressed at every step with the communication and quality of work. Harry has gone above and beyond by setting clear expectations, giving frequent and detailed updates, and following through. I would highly recommend using Harry's services and plan on using him again in the future as needed.”
+>
+> **Nick Santschi, [Solarsimplellc.com](https://solarsimplellc.com/)**
+
+---
+
 > ”It's been great working with Harry on improving the UX of our platform. Harry is thoughtful, reflective and creative, and as many of the changes we want to make are complex in nature, those are the exact qualities we need. We've always had productive and constructive workflows with Harry, and would wholeheartedly recommend his services to anyone.”
 >
 > **Ching-Yun Huang, [Angel Investment Network](https://www.angelinvestmentnetwork.co.uk/)**
