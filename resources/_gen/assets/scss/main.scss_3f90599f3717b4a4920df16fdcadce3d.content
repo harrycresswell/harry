@@ -1381,7 +1381,7 @@ Ratio
  * 3:4 = ratio portrait
  */
 [class*='ratio-'] {
-  background-color: var(--color-light-mod-2);
+  background-color: var(--color-bg-mod-2);
   display: block;
   position: relative; }
 
