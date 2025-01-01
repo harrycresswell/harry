@@ -8,7 +8,7 @@ slug: "january-2025"
 
 Happy New Year and welcome to the first newsletter of 2025!
 
-Turns out Hilly Fields is a great spot to see in the new year. With an almost 360º view over the city, we managed to catch the best of the fireworks as they were going off across London. There must have been close to a thousand of us up there – waving sparklers, battling the wind and dodging the odd stray rocket. Great fun and completely free.  
+Turns out Hilly Fields is a great spot to see in the new year. With an almost 360º view over the city, we managed to catch the best of the fireworks as they were going off across London. There must have been close to a thousand of us up there. Waving sparklers, battling the wind and dodging the odd stray rocket. Great fun and completely free.  
 
 Anyway, I trust you’ve had a good one and managed to find some time to relax over the holidays. 
 
