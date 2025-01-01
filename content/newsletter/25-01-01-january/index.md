@@ -20,7 +20,7 @@ Watched [Black Doves](https://www.imdb.com/title/tt27995113/), [Skeleton Crew](h
 
 Spent time with family in Hamburg. Highlights include [Miniatur Wunderland](https://www.miniatur-wunderland.de/), a day trip to Lüneburg. Fantastic meals at [Edmundo’s](https://bigsquadra.com/restaurants/edmondo-hamburg/), [Morgenmuffel](https://www.instagram.com/morgenmuffelhamburg/) and, of course, the Christmas markets.
 
-Published [2024 in review](https://harrycresswell.com/writing/), [Modern work fucking sucks](https://harrycresswell.com/links/modern-work-fucking-sucks/) and [Ethical Web Principles](https://harrycresswell.com/links/ethical-web-principles/).
+Published [2024 in review](/writing/2024-review/), [Modern work fucking sucks](/links/modern-work-fucking-sucks/) and [Ethical Web Principles](/links/ethical-web-principles/).
 
 Attended a couple of Christmas parties. One with the team at AIN and one with a few of my fellow freelance friends who don’t get the typical office party.
 
