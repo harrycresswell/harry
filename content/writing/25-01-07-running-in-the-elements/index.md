@@ -7,21 +7,21 @@ topics: ["Health"]
 description: "This morning, rain seemed inevitable. Overcast, low dark clouds, all the usual signs."
 ---
 
-Mornings are generally pitch black and gloomy here in the UK at this time of year. It’s never easy getting up and out for a run. I’ve become somewhat of a fair weather runner in recent years. If there’s the any chance of rain, I tend to sack it off altogether, roll out my mat and do some yoga instead.
+Mornings are generally dark and gloomy here in the UK, at this time of year. It’s never easy getting up and out for a run. I’ve become somewhat of a fair weather runner in recent years. If there’s the any chance of rain, I tend to sack it off altogether, roll out my mat and do some yoga instead.
 
-This morning, rain seemed inevitable. Overcast, low dark clouds, all the usual signs. It was only a matter time before a celestial downpour. For whatever reason, today I decided to brave it anyway. Perhaps the start of a new year has given me the motivation and mental strength I needed.
+This morning, rain seemed inevitable. Overcast, low dark clouds, all the usual signs. It was only a matter time before a celestial downpour. For whatever reason I decided to brave it anyway. Perhaps the start of a new year has given me some extra motivation.
 
-Within a few minutes of being out there, the wind picked up and, to no surprise, it began to rain. Soon enough it was absolutely hammering it down. 30 seconds later I was completely sodden. 
+Within a few minutes of being out there, the wind picked up and, to no surprise, it began to rain. Soon enough it was absolutely hammering it down. Thirty seconds later I was completely sodden. 
 
-In these types of situations, I tend to complain to myself, then start to feel miserable. Instead of doing the usual, today I decided to try and embrace it. 
+I usually feel miserable when I’m caught in the rain and soaked to the bone. Today I decided to embrace it instead. 
 
-Not sure exactly why, but I began to imagine what it must be like coming from a place where rain rarely ever falls. How would it feel if this was the first rain I’d felt in years, or, perhaps, even the first time I’d ever experienced rain?
+Not sure exactly why, but I began to imagine what it must be like coming from a place where rain rarely ever falls. How would it feel if this was the first rain you’d felt in years? Or, maybe even your first ever experience of the stuff?
 
 In a word, it must feel *incredible*. 
 
-I spent the final part of my run in this imagined scenario. Embracing the cold wind beating my body and face. That feeling of wet rain seeping through your clothes and reaching your skin. Out there in the elements, totally drenched, it felt amazing. 
+I spent the final part of my run with this in my mind. Trying to appreciate the cold wet wind and rain beating my body and face. Out there in the elements, totally drenched, it felt amazing. 
 
-Making my way home, I stopped avoiding puddles and just splashed right through them. In these sorts of conditions it makes little difference. It felt just like being a kid again, except without the wellies.
+I stopped avoiding puddles as I made my way home. In these sorts of conditions it makes little difference, so I splashed right through them. It felt just like being a kid again. Outside in the rain, jumping in puddles, having the best of times.
 
 I came through the front door, dripping wet, with the biggest smile on my face.
 
