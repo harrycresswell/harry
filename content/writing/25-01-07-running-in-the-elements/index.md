@@ -9,7 +9,7 @@ description: "This morning, rain seemed inevitable. Overcast, low dark clouds, a
 
 Mornings are generally dark and gloomy, here in the UK, at this time of year. It’s never easy getting up and out for a run. In recent years, I’ve become somewhat of a fair-weather runner. If there’s any chance of rain, I tend to sack it off altogether, roll out my mat and do some yoga instead.
 
-This morning, rain seemed inevitable. Overcast, low dark clouds, all the usual signs. It was only a matter of time before a celestial downpour. For whatever reason I decided to brave it anyway. Perhaps the start of a new year has given me some extra motivation.
+This morning, rain seemed inevitable. Overcast, low dark clouds, all the usual signs. It was only a matter of time before a celestial downpour. For whatever reason I decided to brave it anyway. Perhaps the start of a new year has given me the extra motivation I needed.
 
 Within a few minutes of being out there, the wind picked up and, to no surprise, it began to rain. Soon enough it was hammering it down. Thirty seconds later I was completely sodden. I usually feel miserable when I’m caught in the rain and soaked to the bone, but today I decided to embrace it instead. 
 
