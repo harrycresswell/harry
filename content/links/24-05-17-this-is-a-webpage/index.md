@@ -3,7 +3,7 @@ title: "This is a web page"
 date: 2024-05-17T11:25:13+01:00
 draft: false
 slug: "this-is-a-webpage"
-topics: ["Design", "Writing"]
+topics: ["Design", "Blogging"]
 description: "Web design is about words. Words are where design begins."
 source_link: https://justinjackson.ca/words.html
 source_title: This is a web page.
