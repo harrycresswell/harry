@@ -9,37 +9,37 @@ description: "Thought I’d give the Blog Questions Challenge a go, having seen 
 
 Thought I’d give the Blog Questions Challenge a go, having seen [Kev](https://kevquirk.com/blog/blog-questions-challenge), [Luke](https://www.lkhrs.com/blog/2025/blog-questions-challenge/) and [Manu](https://manuelmoreale.com/blog-questions-challenge) share theirs.
 
-I’m also not on Bear Blog, so I’m using the questions Kev adapted from [the original ones](https://blog.avas.space/bear-blog-challenge/) for my own.
+I’m also not on Bear Blog, so I’m using the questions Kev adapted from [Ava’s original ones](https://blog.avas.space/bear-blog-challenge/) for my own.
 
 
 ## Why did you start blogging in the first place?
 
-Around 2017, I started making notes on the design and web dev stuff I was learning. Mostly so I had something to refer back to in case I forgot. Around the same time I read Shawn’s post [Learn In Public](https://www.swyx.io/learn-in-public) or one similar, I can’t quite remember. Anyway, following that, it seemed sensible to publish these notes as posts on my site. 
+Around 2017, I started taking notes on the design and web dev stuff I was learning. Mostly so I had something to refer back to when I forgot what I’d learnt. Around the same time, I read Shawn’s post [Learn In Public](https://www.swyx.io/learn-in-public) or one similar, I can’t quite remember. Following that, it seemed sensible to publish these notes as posts on my site. 
 
-I enjoyed the process of writing – how it helps you slow down and deepen your understanding of the things you’re writing about – so I kept it going. I realised this doesn’t just apply to technical posts, but also writing about life in general. That’s when I started posting about various other topics.
+Through the process I discovered that I quite enjoyed writing – how it helps you slow down and deepen your understanding of the things you’re writing about – so I kept it going. I realised this doesn’t just apply to technical posts, but also writing about life in general. That’s when I started posting about various other topics.
 
 ## What platform are you using to manage your blog and why did you choose it?
 
-Hugo hosted on Netlify. 
+[Hugo](https://gohugo.io/) hosted on [Netlify](https://www.netlify.com/). 
 
 I chose Hugo because I wanted to use a simple, open-source tool, that required minimal maintenance and that I could stick with long-term. 
 
-What I love about Hugo is it’s pretty much just Markdown files and a few basic templates. It doesn’t get much simpler than that. You don’t need any dependencies to run a Hugo site, making them super easy to maintain. I’ve used Hugo for the past 8 years and have no plans on switching anytime soon.
+What I love about Hugo is that it’s pretty much just Markdown files and a few basic templates. It doesn’t get much simpler than that. You don’t need any extra dependencies to run a Hugo site, so they can be super easy to maintain. I’ve used Hugo for the past 8 years and have no plans on switching anytime soon.
 
-I chose Netlify because it was one of the few options I knew of, at the time, that could deploy a site from commits pushed to a Github repository. It was also super easy to set up and cost nothing. There may well be a bunch of better options these days, but I haven’t had any issues yet, so I’ve stuck with it.
+I chose Netlify because it was one of the few options I knew of at the time, that could deploy a site from commits pushed to a Github repository. It was also super easy to set up and cost nothing. There may well be a bunch of better options these days, but I haven’t had any issues yet, so I’ve stuck with it.
 
 
 ## Have you blogged on other platforms before?
 
-Way back when I took more photos, I used a bunch of different tools, like [flickr](https://www.flickr.com/), [Tumblr](https://www.tumblr.com/), [Koken](https://www.koken.me/) and [Wordpress](https://wordpress.org/).
+Way back when I took more photos I used a bunch of different tools, like [flickr](https://www.flickr.com/), [Tumblr](https://www.tumblr.com/), [Koken](https://www.koken.me/) and [Wordpress](https://wordpress.org/).
 
-But since I’ve been writing I’ve only ever used Hugo.
+I had a brief spell using Medium, but since I’ve been writing I’ve mostly used Hugo.
 
 ## How do you write your posts? For example, in a local editing tool, or in a panel/dashboard that's part of your blog?
 
-These days all my posts start life in [Obsidian](https://obsidian.md/). I create a new note, then add my post template. The template adds some front matter to help organise the note when I’m done with it later.
+These days all my posts start life in [Obsidian](https://obsidian.md/). I create a new note, then add my post template. The template adds some front matter to help organise the note, when I’m done with it later.
 
-For more general posts, I tend to just hammer out some words. For technical posts I usually get a rough outline down first, then expand on that.
+For more general posts, I tend to just hammer out some words. For technical posts, I usually get a rough outline down first, then expand on that.
 
 Most of this happens at my desk, but Obsidian is synced with my other devices via iCloud, so I can also work on posts from my iPhone when I’m on the move. 
 
@@ -70,12 +70,12 @@ Or [OKR in Obsidian](/writing/okr-in-obsidian/), because it’s the one that’s
 
 No plans to switch platforms or take on a full-blown redesign. I mostly just chip away at it and try to make small incremental improvements.
 
- I do have a few things on my todo list though:
+I do have a few things on my todo list though:
 
 - Adding an about page
 - Adding a bookmarks page
 - Adding a photos section
 - Adding a graveyard for dead projects
 
-I tend to move at a sloth-like pace, but hopefully I can tackle these in 2025.
+I tend to move at a sloth-like pace, but hopefully I can tackle these things in 2025.
 
