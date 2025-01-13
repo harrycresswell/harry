@@ -9,6 +9,10 @@ description: "A list of books I’ve read since 2018"
 layout: page
 ---
 
+## 2025
+
+- A History of Britain in Ten Enemies by Terry Deary
+
 ## 2024
 
 - Material World by Ed Conway

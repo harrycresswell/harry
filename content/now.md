@@ -12,7 +12,7 @@ Inspired by [Derek Sivers](https://nownownow.com/about) (who started the thing) 
 
 - [Practical Hugo](https://practicalhugo.com/), a project based course teaching you how to build websites with Hugo. 
 - [Eryn](https://studioeryn.com/), my studio website.
-- [cu.css](https://cu.harrycresswell.com), a lightweight CSS framework built with [Cube CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
+- [cu.css](https://cu.harrycresswell.com), a lightweight CSS framework built with [CUBE CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
 
 ## Writing
 
@@ -21,18 +21,16 @@ Inspired by [Derek Sivers](https://nownownow.com/about) (who started the thing) 
 
 ## Watching
 
-- [The Billion Dollar Code](https://www.imdb.com/title/tt15392100/).
 - Nearing the end of The X-Files season 2. For some reason I thought it would be a good idea to watch all 11 seasons. This could take a while.
 - Almost finished The Clone Wars season 2.
 
 ## Reading
 
-- [Material World: The Six Raw Materials That Shape Modern Civilization](https://www.goodreads.com/book/show/125937631-material-world) by Ed Conway
-- [What is simple web design?](https://anthonyhobday.com/books/simpledesign/) by Anthony Hobday 
+- [A History of Britain in Ten Enemies](https://www.goodreads.com/book/show/203778046-a-history-of-britain-in-ten-enemies) by Terry Deary
 
 ## Learning
 
-- How to [Visualise Value](https://visualizevalue.com/).
+- [Complete CSS](https://piccalil.li/complete-css/)
 - How to set up my [Obsidian](https://obsidian.md/) vault, inspired by [Steph Ango’s vault](https://stephango.com/vault)
 - Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://vanillajsguides.com/)
 - 10mins a day of German using Duolingo.
