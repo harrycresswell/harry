@@ -9,7 +9,7 @@ description: "I’m always impressed at how straight forward it is to maintain H
 
 Last week I upgraded Hugo from [v0.115.0](https://github.com/gohugoio/hugo/releases/tag/v0.115.0) to [v0.126.1](https://github.com/gohugoio/hugo/releases/tag/v0.126.1). With all the Hugo sites I manage (for myself and clients), I was half expecting a few breaking changes to fix as a result of the update.
 
-But this is Hugo we’re talking about here and [I’ve been pleasantly surprised in the past](https://harrycresswell.com/writing/breaking-changes-upgrading-hugo/) at how few issues you tend to run into when upgrading versions. So I was feeling somewhat confident this time round.
+But this is Hugo we’re talking about here and [I’ve been pleasantly surprised in the past](/writing/breaking-changes-upgrading-hugo/) at how few issues you tend to run into when upgrading versions. So I was feeling somewhat confident this time round.
 
 Luckily, all sites were unscathed by [the documented breaking changes of v.0.123.0](https://github.com/gohugoio/hugo/releases?page=3), but there were a few warning and other minor things to fix, which I’ll run through in this post, along with the solutions.
 
