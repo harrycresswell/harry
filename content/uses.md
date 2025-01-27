@@ -111,6 +111,8 @@ I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for pi
 
 I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the [Practical Hugo](https://practicalhugo.com/) mailing list – only positive things to say so far.
 
+I find myself using [Apple Notes](https://www.icloud.com/notes/) for fleeting notes written when I’m on the go. These aren’t usually notes I want to keep long-term, so from time to time I’ll have a big clearout and delete them all.
+
 ## Project management
 
 I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools in the future.
@@ -170,6 +172,8 @@ I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do t
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
 [QuickTime Player](https://support.apple.com/en-gb/guide/quicktime-player/welcome/mac) seems to be the most stable app for creating offline screen recordings I can find.
+
+[Apple Reminders](https://www.icloud.com/reminders/) is the tool I use to create shopping lists. It works great for shared lists.
 
 --- 
 
