@@ -1,12 +1,13 @@
-+++
-title = "Now"
-date = "2017-05-02T22:05:42+01:00"
-description = "What I’m doing now, what I’m choosing to focus my time and attention on. Maintaining a page like this is an incredibly effective way of staying on track and blocking out the noise"
-slug = "now"
-layout= "page"
-+++
+---
+title: "25 01 13"
+date: 2025-01-13T13:09:13Z
+draft: false
+slug: "25-01-13"
+topics: [""]
+description: ""
+---
 
-Inspired by [Derek Sivers](https://nownownow.com/about) (who started the thing) and everyone else on the Indie Web – these are the things I’m focusing my time and energy on right now.
+These are the things I’m focusing my time and energy on right now.
 
 ## Building
 
