@@ -1478,4 +1478,10 @@ Font
 .font-step-1 {
   font-size: var(--step-1); }
 
+.bb {
+  --flow-space: 3rem;
+  border-top: 0;
+  border-bottom: 2px dotted;
+  max-width: var(--width-longform); }
+
 /*# sourceMappingURL=main.css.map */
