@@ -6,7 +6,7 @@ description: "Packed a fair bit into the first four weeks of two thousand and tw
 slug: "february-2025"
 ---
 
-Packed a fair bit into the first four weeks of two thousand and twenty five. 
+Packed a fair bit into the first four and a half weeks of two thousand and twenty five. 
 
 Discovered a new climbing gym, celebrated friend’s birthdays, had some great conversations and made real progress with various work projects.
 

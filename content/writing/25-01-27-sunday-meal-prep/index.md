@@ -7,7 +7,7 @@ topics: ["Health"]
 description: "Trying to get into the whole food prep thing, so we always have healthy options to pull out of the fridge throughout the wee"
 ---
 
-Trying to get into the whole food prep thing, so we always have healthy options to pull out of the fridge throughout the week. I tend make unhealthy decisions when I’m short on time and there’s nothing convenient to eat, so preparing a few versatile things helps to solve this problem.
+Trying to get into the whole food prep thing. The goal is to always have healthy options to pull out of the fridge throughout the week. I tend make unhealthy decisions when I’m short on time and there’s nothing convenient to eat, so preparing a few versatile things helps to solve this problem.
 
 For the last couple of weeks we’ve made a bunch of spreads and dips on a Sunday afternoon. Usually a humous, a romesco and some sort of pesto that will go well with anything, from veggie sticks to pasta. We also roast some cashews and almonds and make cacao-based energy balls to replace unhealthy sweet snacks, which I often crave towards the end of the day.
 
