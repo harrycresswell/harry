@@ -13,7 +13,7 @@ On a related note, I completely agree with [Chris’ thoughts on slash pages](ht
 
 > “I think it makes more sense to me to write about what I carry around _right now_ and if I did it again later, it doesn’t have to replace what I’ve written before. It would be interesting and worth preserving each time.”
 
-On [ShopTalkShow episode 647](https://shoptalkshow.com/647/), Chris shares another concern he has with slash pages. How does anyone ever see them if they aren’t syndicated (for example via RSS)? It’s true, they’d be far more visible as blog posts. 
+On [ShopTalkShow episode 647](https://shoptalkshow.com/647/), Chris shares another concern he has with slash pages. How does anyone ever see them if they aren’t syndicated (for example via RSS)? It’s true, they’d be far more visible as blog posts.[^1] 
 
 I’ve been keeping [my own /now page](/now/) since 2017. I’ve made countless updates to it since then. Now I think about it, it’s a real shame there’s no record of what I wrote previously. If you had nothing better to do and were really that interested, then I suppose you could trawl through my Github commits. But who in their right mind could be bothered to do that?
 
@@ -26,3 +26,5 @@ In my head, I picture myself posting these updates from a chairlift in the Alps.
 I expect the key to making it work is figuring out a simple system that makes posting these “now” updates as frictionless as possible. Realistically, that’s the only way I’m likely stick with it, but I guarantee that’s easier said than done. 
 
 Before I get deep in the weeds with that, the first step is to change how my /now page functions. Make it act more like a blog, and less like a boring transient page which rarely gets updated.
+
+[^1]: [Adam](https://notes.neatnik.net/2025/01/everything-is-a-web-page) and [Cory](https://coryd.dev/posts/2025/most-pages-are-actually-posts/) also have some interesting thoughts on which pages to syndicate.

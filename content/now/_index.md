@@ -1,6 +1,8 @@
 +++
 title = "Now"
 date = "2017-05-02T22:05:42+01:00"
-description = "Inspired by [Derek Sivers](https://nownownow.com/about) (who started the thing) and everyone else on the [Indie Web](https://indieweb.org/now)."
+description = "Welcome to my [now page](https://nownownow.com/about), inspired by Derek Sivers and the [IndieWeb](https://indieweb.org/). Here you can find out what I’m focusing on right now, or at least what I *was* up to at certain moments in my life. "
 slug = "now"
 +++
+
+Welcome to my [now page](https://nownownow.com/about), inspired by Derek Sivers, the [IndieWeb](https://indieweb.org/) and [the evolution of /now pages](/writing/evolution-of-now-pages/). Here you can find out what I’m focusing on right now, or what I’ve been up to recently. 

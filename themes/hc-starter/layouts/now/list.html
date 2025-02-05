@@ -1,25 +1,25 @@
 {{ define "main" }}
-
-  <section class="Hero region flow">
-    <h1>{{ .Title }}</h1>
-    {{ with .Description  }}
-      <p>{{ . | markdownify }}</p>
-    {{ end }}
-  </section>
-  <section>
-    {{ range .Paginator.Pages }}
-    <article class="PostListItem region flow bb h-entry">
-      <time class="h2 font-bold dt-published" datetime="{{ .Date }}">
-        <a data-variant="naked" href="{{ .Permalink }}" class="u-url">{{ .Date | time.Format ":date_medium" }}</a>
-      </time>
-      <div hidden>
-        <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
-      </div>
-      {{ partial "post/topics.html" . }}
-      <p>{{ .Content }}</p>
-    </article>
-    {{ end }}
-  </section>
-  {{ partial "pagination.html" . }}
+  <div>
+    <header class="Hero region flow">
+      <h1>{{ .Title }}</h1>
+    </header>
+    <section class="e-content flow">
+      {{ partial "heading-anchor.html" .Content }}
+    </section>
+    <section>
+      {{ range .Paginator.Pages }}
+      <article class="PostListItem region flow bb h-entry" style="--region-space: var(--space-xl-2xl)">
+        <time class="h2 font-bold dt-published" datetime="{{ .Date }}">
+          <a href="{{ .Permalink }}" class="u-url">{{ .Date | time.Format ":date_medium" }}</a>
+        </time>
+        <div hidden>
+          <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
+        </div>
+        {{ .Content }}
+      </article>
+      {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+  </div>
 
 {{ end }}
