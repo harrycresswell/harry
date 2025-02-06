@@ -11,7 +11,7 @@ I’m currently in London, counting down the days until a big ski trip with a wh
 
 ## Work is the right amount of busy
 
-I’m juggling a couple of different client projects right now. An identity and website redesign for a millwork company, who make bespoke kitchens in Virginia. Along with a Hugo project for another client that involves generating location-based landing pages from Google Sheets data. I’m drafting a post that explains how this stuff works.
+I’m juggling a couple of different client projects right now. An identity and website redesign for a millwork company, who make bespoke kitchens in Virginia. Along with a Hugo project for another client, that involves generating location-based landing pages from Google Sheets data. I’m also drafting a post that explains how this stuff works.
 
 I just launched a new site for Rebekka’s agency [Studio Mailo](https://studiomailo.com/) and I’m still plugging away with my own projects: [Practical Hugo](https://practicalhugo.com/) and [cu css](https://cu.harrycresswell.com/).
 
