@@ -9,13 +9,16 @@
     <section>
       {{ range .Paginator.Pages }}
       <article class="PostListItem region flow bb h-entry" style="--region-space: var(--space-xl-2xl)">
-        <time class="h2 font-bold dt-published" datetime="{{ .Date }}">
-          <a href="{{ .Permalink }}" class="u-url">{{ .Date | time.Format ":date_medium" }}</a>
-        </time>
+        <h2>
+          <time class="h2 font-bold dt-published" datetime="{{ .Date }}">
+            <a href="{{ .Permalink }}" class="u-url">{{ .Date | time.Format ":date_medium" }}</a>
+          </time>
+        </h2>
         <div hidden>
           <a rel="author" class="p-author h-card" href="{{ $.Site.BaseURL }}">Harry Cresswell</a>
         </div>
-        {{ .Content }}
+        {{ partial "heading-h2-h3.html" .Content }} 
+       
       </article>
       {{ end }}
     </section>
