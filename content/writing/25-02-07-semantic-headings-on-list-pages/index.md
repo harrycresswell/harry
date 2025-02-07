@@ -4,10 +4,10 @@ date: 2025-02-07T16:48:30Z
 draft: false
 slug: "semantic-headings-on-list-pages"
 topics: ["Accessibility", "HTML", "Hugo"]
-description: ""
+description: "Using Regular Expressions to structure content correctly"
 ---
 
-Creating semantic headings can be tricky business. This is especially true when you find the need to render all the content of your pages on a list page (a page that lists pages). Often we only see page titles and perhaps a summary of each page on a list page. But, as soon as you start rendering h2’s, h3’s and so on, correct heading heirachy usually go straight go out the window.
+Creating semantic headings can be tricky business. This is especially true when you find the need to render all the content of your pages on a list page (a page that lists pages). Often we only see page titles and perhaps a summary of each page on a list page, which tend to cause few issues. But, as soon as you throw a few h2’s and h3’s into the mix, correct heading heirachy tends to go straight go out the window.
 
 The solution I’ve found is to use a little Regex. But before we get into that, first let me give you an example to help illustrate the problem. 
 
