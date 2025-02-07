@@ -132,7 +132,7 @@ With that, the level two subheadings in the content of our pages are now level t
 
 Those of you creating anchor tags for your headings, may prefer to use the following – slightly more intimidating – few lines of code to make that happen:
 
-```
+```go
 {{ $h2toh3 := .Content | replaceRE "h2" "h3" | safeHTML }}
 
 {{ $h2toh3 | replaceRE "(<h[2-9] id=\"([^\"]+)\".+)(</h[2-9]+>)" `${1}&nbsp;<a class="heading-anchor" href="#${2}" aria-label="Anchor">#</a> ${3}` | safeHTML }}
