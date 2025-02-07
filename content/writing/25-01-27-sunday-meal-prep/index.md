@@ -4,7 +4,7 @@ date: 2025-01-27T11:22:43Z
 draft: false
 slug: "sunday-meal-prep"
 topics: ["Health"]
-description: "Trying to get into the whole food prep thing, so we always have healthy options to pull out of the fridge throughout the wee"
+description: "Trying to get into the whole food prep thing, so we always have healthy options to pull out of the fridge throughout the week."
 ---
 
 Trying to get into the whole food prep thing. The goal is to always have healthy options to pull out of the fridge throughout the week. I tend make unhealthy decisions when I’m short on time and there’s nothing convenient to eat, so preparing a few versatile things helps to solve this problem.
