@@ -1,5 +1,5 @@
 ---
-title: "Planning Meals"
+title: "Planning meals"
 date: 2025-02-13T11:39:25Z
 draft: false
 slug: "planning-meals"
