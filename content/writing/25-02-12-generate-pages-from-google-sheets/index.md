@@ -1,7 +1,7 @@
 ---
 title: "Generate pages from Google Sheets using Hugo’s Content Adapters"
-date: 2025-02-13T10:52:48Z
-draft: true
+date: 2025-02-14T10:52:48Z
+draft: false
 slug: "generate-pages-from-google-sheets"
 topics: ["Hugo"]
 description: "Dynamically generate pages on your Hugo site from CSV data in a Google sheet."
@@ -11,20 +11,20 @@ For a long time, building pages from remote data sources felt like one of those 
 
 Lucky for us, all this changed with the release of [Content Adapters](https://gohugo.io/content-management/content-adapters/) in Hugo [0.126.0](/writing/upgrading-hugo-warnings-breaking-changes/). Now, with a few lines of code in a go template (.gotmpl), it’s possible to dynamically generate pages from remote data sources – like JSON, CSV, TOML, YAML and XML.
 
-The Hugo Docs have a great example of [how to generate pages from remote JSON data](https://gohugo.io/content-management/content-adapters/#example) using a content adapter, but there’s not much written about working with other data types, from other remote places. 
+The Hugo Docs have a great example of [how to generate pages from remote JSON data](https://gohugo.io/content-management/content-adapters/#example) using a content adapter, but there’s not much written about working with other data types, from remote places elsewhere on the web. 
 
-With that in mind, I thought I’d share how I used content adapters to generate pages from CSV data held in a Google Sheet, for a recent client project. But, before we get into the build, first it might help to learn more about the project.
+With that in mind, I thought I’d show you how to use content adapters to dynamically generate pages from CSV data held in a Google Sheet. But, before we get into the build, first it might help to learn more about the recent client project that this post is based on.
 
 
 ## A quick overview of the project
 
-My client operates in various states and counties across the USA. Part of their marketing effort is creating targeted, location-based, landing pages for each county, in each state. As you can imagine, creating all these page is a fair amount of work.
+My client operates in various states and counties across the USA. Part of their marketing effort is to create targeted, location-based, landing pages for each county, in each state. As you can imagine, creating all these page is a fair amount of work.
 
 To make this process easier, the data for each page is stored in a single Google Sheet, where each row in the sheet holds the content for each page. 
 
-The goal of the project was to use this Sheet to generate pages for each location. Fortunately, each page required the exact same design and layout, meaning all that actually changes page-to-page is the content itself. 
+The goal of the project was to use this sheet to generate pages for each location. Fortunately, each page required the exact same design and layout, meaning all that actually need to change, page-to-page, is the content itself. 
 
-There were some other challenges to consider. For example, my client needed the ability to regularly update each page from the sheet. And, also, control whether pages would publish on their website, or not. Essential the goal is to use Google Sheets as a content management system for this part of their website. The thinking behind this is that it’s much easier to manage these pages on mass, from a single sheet, rather than individually, via a traditional CMS.
+The project presented a few challenges to consider. For example, my client needed the ability to regularly update each page from the sheet. And, also, control whether pages would publish on their website, or not. Ultimately using Google Sheets as a content management system for this part of their website. The thinking behind this was that it would be much easier to manage these pages on mass, from a single sheet, rather than individually, via a traditional CMS.
 
 Ok. Now we have a rough idea of the project requirements, let’s look at how to make it happen.
 
@@ -368,8 +368,10 @@ Notice that image data passed via Params can only be used *as-is*, without image
 
 ```go
 {{ "<!-- Image as a Page resource -->" | safeHTML }}
-{{ with .Resources.GetMatch "cover.*" }}
-	<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ .Params.alt }}">
+{{ $resourceImage := .Resources.GetMatch "cover.*" }}
+{{ with $resourceImage }}
+  {{ $image := $resourceImage.Process "crop 600x400" }}
+  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $image.Params.alt }}">
 {{ end }}
 ```
 
