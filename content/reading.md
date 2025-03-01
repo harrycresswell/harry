@@ -11,6 +11,8 @@ layout: page
 
 ## 2025
 
+- Far Journeys by Robert A. Monroe
+- The Duolingo Handbook
 - SAS: Rogue Heroes by Ben Macintyre
 - A History of Britain in Ten Enemies by Terry Deary
 
