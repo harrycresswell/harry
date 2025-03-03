@@ -21,7 +21,7 @@ strapline = "Design and front-end web development"
 location = "London, UK"
 card_image = "img/card-image.png"
 # Set Cloudinary URL for image hosting
-cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/upload"
+cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/upload/"
 
 [params.author]
 name = "Harry Cresswell"

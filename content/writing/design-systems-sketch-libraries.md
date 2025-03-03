@@ -7,7 +7,7 @@ description: "The answer to cohesive, maintainable and re-usable projects."
 ---
 
 {{< message >}}
-This article was originally posted on <a href="https://blog.usejournal.com/using-sketch-libraries-to-build-a-better-ui-design-system-part-1-26f5660f3c98">Medium.com</a>
+This article was originally posted on <a href="https://medium.com/@harrycresswell/using-sketch-libraries-to-build-a-better-ui-design-system-part-1-26f5660f3c98">Medium.com</a>
 {{< /message >}}
 
 {{< blockquote quote="“Design is just problem solving within a set of constraints. In the grand scheme of things, it rarely has anything to do with graphics.” " cite=" Adam Morse" >}} 

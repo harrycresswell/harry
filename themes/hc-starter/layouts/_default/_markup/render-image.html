@@ -1,0 +1,59 @@
+<!-- Create localised scratch, see: https://gohugo.io/functions/scratch/#the-local-newscratch -->
+{{ $indexScratch := newScratch }}
+<!-- First grab full URL from list image param -->
+{{ $cloudinaryFullURL := .Destination | safeURL  }}
+<!-- create asset var that splits the full URL and grabs the relative path, make sure $indexScratch variable passes .Scratch context into partials from outside of .Params.blocks  -->
+<!-- create asset var that splits the full URL and grabs the relative path -->
+{{ $indexScratch.Set "cloudinaryAssetName" (index (split $cloudinaryFullURL "/") (sub (len (split $cloudinaryFullURL "/")) 1)) }}
+{{ $indexScratch.Set "cloudinaryAssetFolder" (index (split $cloudinaryFullURL "/") (sub (len (split $cloudinaryFullURL "/")) 2)) }}
+{{ $indexScratch.Set "cloudinaryAssetKey" (index (split $cloudinaryFullURL "/") (sub (len (split $cloudinaryFullURL "/")) 3)) }}
+{{ $ImagePath := $indexScratch.Get "cloudinaryAssetName"  }}
+{{ $ImageFolder := $indexScratch.Get "cloudinaryAssetFolder"  }}
+{{ $ImageKey := $indexScratch.Get "cloudinaryAssetKey"  }}
+<!-- Grab cloudinary baseurl from the config file, use site (rather than $.Site to globally grab site data) -->
+{{ $baseURL := site.Params.cloudinary_url }}
+<!-- Set variables for image related data to make easier to update if needed later -->
+{{ $image_alt := .PlainText | safeHTML }}
+{{ $caption := .Title | markdownify }}
+
+{{ $img_sm := "600" }}
+{{ $img_md := "800" }}
+{{ $img_lg := "1000" }}
+{{ $img_xl := "1400" }}
+
+{{/*  
+ * Write image like this:
+ * ![Alt should always be set for reasons of inclusion](https://res.cloudinary.com/roofsimple/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1661434525/Screen_Shot_2022-08-25_at_9.34.46_AM_jtanac.png "An optional title/caption supporting *markdown*")  
+*/}}
+
+<figure>
+ <picture>
+  <source 
+    type="image/avif" 
+    class="object-fit-cover"
+    srcset="{{ $baseURL }}f_avif,q_auto,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_sm }}w,
+                    {{ $baseURL }}f_avif,q_auto,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_md }}w,
+                    {{ $baseURL }}f_avif,q_auto,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_lg }}w,
+                    {{ $baseURL }}f_avif,q_auto,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_xl }}w">
+  <source 
+    type="image/webp"
+    class="object-fit-cover"
+    srcset="{{ $baseURL }}f_webp,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_sm }}w,
+                    {{ $baseURL }}f_webp,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_md }}w,
+                    {{ $baseURL }}f_webp,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_lg }}w,
+                    {{ $baseURL }}f_webp,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_xl }}w" >
+  <img 
+    class="object-fit-cover fadein"
+    srcset="{{ $baseURL }}f_jpg,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_sm }}w,
+                    {{ $baseURL }}f_jpg,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_md }}w,
+                    {{ $baseURL }}f_jpg,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_lg }}w,
+                    {{ $baseURL }}f_jpg,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_xl }}w"
+    src="{{ $baseURL }}f_jpg,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }}"
+    loading="lazy" 
+    alt="{{- with $image_alt -}}{{ . }}{{ else }}&nbsp;{{- end -}}"
+    />
+ </picture>
+ {{ with $caption }}
+   <figcaption>{{ . }}</figcaption>
+ {{ end }}
+</figure>
