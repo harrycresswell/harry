@@ -24,7 +24,7 @@ Made the trip to Snozone in Milton Keynes with my brother. A little warm up befo
 
 Managed my first Parkrun of the year.
 
-Released cu [v.0.1.8](https://cu.harrycresswell.com/changelog/25-02-17-v0.1.8/).
+Released cu [v.0.1.8](https://cu.harrycresswell.com/changelog/v0.1.8/).
 
 ## Elsewhere on the web
 

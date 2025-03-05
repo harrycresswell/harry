@@ -16,7 +16,7 @@ Read [Journeys out of the body](https://www.goodreads.com/book/show/347918.Journ
 
 Published [Adding a “last updated” date to posts](https://harrycresswell.com/writing/adding-a-last-updated-date-to-posts/) which might be useful for Hugo users.
 
-Released cu.css [v0.1.5](https://cu.harrycresswell.com/changelog/24-02-14-v0.1.5/) which adds Prose and Switcher to the docs and includes various other small improvements to the documentation and CSS starter itself.
+Released cu.css [v0.1.5](https://cu.harrycresswell.com/changelog/v0.1.5/) which adds Prose and Switcher to the docs and includes various other small improvements to the documentation and CSS starter itself.
 
 Ran a personal best at Parkrun.
 
