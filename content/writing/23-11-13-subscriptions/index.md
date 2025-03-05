@@ -31,12 +31,11 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 - Figma (£12 / $15.20)
 - Fathom Analytics (£9.48 / $11.58)
 - Sync (£6.55 / $8)
-- Notion (£3.93 / $4.8)
 - Obsidian (£7.89 / $10)
 - Accountant (£120 / $146.53)
 - Insurance (With Jack) (£24.95 / $32.35)
 
-**Total:** £184.80* / $228.46
+**Total:** £180.87* / $223.66
 
 *This doesn’t include expenses which get re-billed to clients.
 
@@ -73,7 +72,7 @@ With that in mind, here’s a breakdown of all my active subscriptions and how m
 
 There you have it. All my active subscriptions in one place. 
 
-The overall total comes to £259.48 / $321.17 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is MoreYoga, but it’s much cheaper than a gym membership would cost.
+The overall total comes to £255.55 / $316.37 a month, which, to be honest, isn’t as bad as I was expecting. A large chunk of that is the cost for my accountant, which I like to think is money well spent. Another expensive one is MoreYoga, but it’s much cheaper than a gym membership would cost.
 
 I decided not to included household expenses, such as insurance, utilities and council tax as I wouldn’t necessarily consider them subscriptions. They’re also shared costs.
 
