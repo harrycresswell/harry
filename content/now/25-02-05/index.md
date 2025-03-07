@@ -4,7 +4,7 @@ date: 2025-02-05T09:08:17Z
 draft: false
 slug: "25-02-05"
 topics: [""]
-description: ""
+description: "I’m currently in London, counting down the days until a big ski trip with a whole bunch of friends next month."
 ---
 
 I’m currently in London, counting down the days until a big ski trip with a whole bunch of friends next month. It’s been a slow couple of weeks. Rebekka sprained her ankle  and is hobbling around with a crutch. We’re praying she’ll be healed enough to fit into her ski boots and make it down the mountain.
