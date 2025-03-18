@@ -6,3 +6,7 @@ Width
   width: 100%;
   max-width: unset;
 }
+
+.w-longform {
+  max-width: var(--width-longform);
+}

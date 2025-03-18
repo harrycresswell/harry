@@ -3,27 +3,19 @@
 <article class="h-entry">
   <header class="Hero region flow">
 
-    {{ if eq .Section "now" }}
-      <h1 class="p-name">
-        <time class="dt-published" datetime="{{ .Date }}">
-            {{ .Date.Format "Jan 2 2006" }}
-        </time>
-      </h1>
-    {{ else }}
-      <h1 class="p-name">{{ .Title }}</h1>
-      <div class="cluster">
-        <time class="dt-published" datetime="{{ .Date }}">
-          {{ with .PublishDate.Format "Jan 2, 2006" }}
-            {{ . }}
-          {{ else }}
-            {{ .Date.Format "Jan 2 2006" }}
-          {{ end }}
-        </time>
-        {{ if .Params.topics }}
-          {{ partial "post/topics.html" . }} 
+    <h1 class="p-name">{{ .Title }}</h1>
+    <div class="cluster">
+      <time class="dt-published" datetime="{{ .Date }}">
+        {{ with .PublishDate.Format "Jan 2, 2006" }}
+          {{ . }}
+        {{ else }}
+          {{ .Date.Format "Jan 2 2006" }}
         {{ end }}
-      </div>
-    {{ end }}
+      </time>
+      {{ if .Params.topics }}
+        {{ partial "post/topics.html" . }} 
+      {{ end }}
+    </div>
 
     {{ if ne .Section "newsletter" }}
     <div> 
@@ -35,6 +27,7 @@
     </div>
     {{ end }}
   </header>
+
 
   <section class="e-content flow">
     {{ partial "heading-anchor.html" .Content }} 

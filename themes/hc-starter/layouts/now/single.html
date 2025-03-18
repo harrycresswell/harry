@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<article class="h-entry">
+  <header class="Hero region flow">
+    <h1 class="p-name">
+      <time class="dt-published" datetime="{{ .Date }}">
+        {{ .Date | time.Format ":date_medium" }}
+      </time>
+    </h1>
+  </header>
+  <section class="e-content flow w-longform">
+    {{ partial "heading-anchor.html" .Content }}
+  </section>
+
+  {{ partial "reply-by-email.html" (dict "button_text" "Reply by email" ) }}
+
+  <footer class="region">{{ partialCached "post/author.html" . }}</footer>
+</article>
+<!--/.Content -->
+{{ end }}
