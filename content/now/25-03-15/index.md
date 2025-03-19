@@ -12,4 +12,4 @@ Here I am with Rebekka at the top of the La Plagne glacier, 3000m above sea leve
 
 We’ve been lucky enough to have fresh snowfall most days this week. Today the sun is shining, so we took the chance to get as high as possible and work on some reds.
 
-It’s peaceful up here. The air is so clear. It feels great to be away from my desk and back in the mountains again.
+It feels great to be away from my desk and back in the mountains again. It’s peaceful up here. The air is clear. 
