@@ -18,3 +18,5 @@ A list of all the availabe RSS feeds on this website:
 You can subscribe to any of the feeds above by copying the URL from the address bar into your RSS reader of choice. If you’re new to web feeds then I recommend using [NetNewsWire](https://netnewswire.com/). It’s really good and completely free.
 
 Once subscribed to a feed, any new content I post will arrive in your reader.
+
+Visit [About Feeds](https://aboutfeeds.com/) for a detailed explaination of how to get started using web feeds.
