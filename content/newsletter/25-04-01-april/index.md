@@ -56,7 +56,7 @@ Now’s the time to do something about it. Get off Big Tech platforms, join the 
 
 [Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css) are on their way. In this post Adam Argyle explains how they work and shares a bunch of demos.
 
-## What I’m up to this month
+## What I’m up to in April
 
 - Working hard to get the first season of Practical Hugo over the line.
 - Making a bunch of improvements to Rebekka’s personal website.
