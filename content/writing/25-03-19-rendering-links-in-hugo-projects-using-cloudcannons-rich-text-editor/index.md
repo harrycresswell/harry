@@ -44,7 +44,7 @@ If this is the case, then open your browsers Inspect tool and navigate to the of
 
 Here you’ll find the code typically used to create a link has been replaced with two `<!-- raw HTML omitted -->` comments, which surround the text you are trying to turn into a link. 
 
-The reason for this is because, behind the scenes, Cloudcannon’s *link* option inserts HTML into markdown. However, Goldmark – the markdown engine used by Hugo – disallows HTML in Markdown files, by default. Goldmark does this to prevent possible breaking changes, where, for example, an editor with little experience authoring HTML may accidentally insert a `<div>` and forget to close it with a closing tag (`</div>`), which could in theory break the layout of the page.
+The reason for this is because, behind the scenes, Cloudcannon’s *link* option inserts HTML into markdown[^1]. However, Goldmark – the markdown engine used by Hugo – disallows HTML in Markdown files, by default. Goldmark does this to prevent possible breaking changes, where, for example, an editor with little experience authoring HTML may accidentally insert a `<div>` and forget to close it with a closing tag (`</div>`), which could in theory break the layout of the page.
 
 Assuming you are happy to expose these potential risks to content editors, then the simple solution to this problem is to add the following to the root of your `hugo.toml` (or `config.toml`) configuration file.
 
@@ -57,3 +57,6 @@ unsafe = true
 This tells Goldmark to allow the rendering of any potentially “unsafe” HTML that may be added to markdown files - links included. With these two lines added to your Hugo configuration, Cloudcannon’s Link formatting option will work as expected. 
 
 Happy linking!
+
+
+[^1]: **02-03-25**: Since publishing this post and sharing it with the Cloudcannon community, Ross Phillips has offered further insights about [how Cloudcannon handles links in Markdown](https://community.cloudcannon.com/t/rendering-links-in-hugo-projects-using-cloudcannon-s-rich-text-editor/197/2?u=harrycresswell). Basically, Cloudcannon will try to save links in Markdown, however, if anchor elements have attributes that cannont be preserved using Markdown, then HTML is used instead.
