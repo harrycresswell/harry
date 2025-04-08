@@ -33,7 +33,7 @@ Here is the logic that now lives inside my `<head>`, including a nice little rem
 {{ end }}
 ```
 
-It’s by no means perfect. One slight inconvenience, which I’m yet to find a solution for, is that I’ll have to remember to update the year in my `$begin` and `$end` variables if I want this logic to function year after year.
+It’s by no means perfect, but gets 95% of the way there. One slight inconvenience, which I’m yet to find a solution for, is that I’ll have to remember to update the year in my `$begin` and `$end` variables if I want this logic to function year after year.
 
 The other downside of doing this inside your templates using a static site generator, is that you also need to trigger a build in order for it to work. My site is currently hosted by Netlify, so it’s easily done by setting up a [build hook](https://docs.netlify.com/configure-builds/build-hooks/) and using a service like Zapier or IFTTT to send an HTTP post request at specified times.
 
