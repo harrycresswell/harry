@@ -1,13 +1,25 @@
+{{/*  Get current time   */}}
+{{ $now := time.Now }}
+{{/*  Set CSS Naked Day start date/time UTC+14:00  */}}
+{{ $begin := time.AsTime "09 Apr 2025" "Etc/GMT-14" }}
+{{/*  Set CSS Naked Day end date/time UTC-12:00  */}}
+{{ $end := time.AsTime "10 Apr 2025" "Etc/GMT+12" }}
+
+{{/*  If $now is >= $begin and <= $end  */}}
+{{ if and (ge $now $begin) (le $now $end) }}
+  <p><mark>It’s <a href="/writing/css-naked-day/">CSS Naked Day</a> somewhere in the world!</mark></p>
+{{ else }}
   <!-- Styles -->
   {{- with resources.Get "scss/main.scss" }}
-  {{- if eq hugo.Environment "development" }}
-    {{ $styles := . | toCSS (dict "enableSourceMap" true) }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
-  {{- else }}
-    <!-- Set target path -->
-    {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
-    {{- with . | toCSS $cssOpts | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- if eq hugo.Environment "development" }}
+      {{ $styles := . | toCSS (dict "enableSourceMap" true) }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+    {{- else }}
+      <!-- Set target path -->
+      {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
+      {{- with . | toCSS $cssOpts | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{- end }}
     {{- end }}
   {{- end }}
-{{- end }}
+{{ end }}
