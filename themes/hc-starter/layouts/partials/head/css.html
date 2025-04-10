@@ -1,12 +1,20 @@
-{{/*  Get current time   */}}
+{{/*  Get current time to determine whether it’s CSS Naked Day  */}}
 {{ $now := time.Now }}
-{{/*  Set CSS Naked Day start date/time UTC+14:00  */}}
-{{ $begin := time.AsTime "09 Apr 2025" "Etc/GMT-14" }}
-{{/*  Set CSS Naked Day end date/time UTC-12:00  */}}
-{{ $end := time.AsTime "10 Apr 2025" "Etc/GMT+12" }}
+{{/*  Get current year so we can update logic for each year  */}}
+{{ $year := time.Now.Year }}
+{{/*  Convert year from integer to string so we can pass it to the printf function  */}}
+{{ $yearString := print $year }}
+{{/*  Set start date and pass $yearString to make it dynamic */}}
+{{ $startDate := printf "09 Apr %s" $yearString }}
+{{/*  Set end date and pass $yearString to make it dynamic  */}}
+{{ $endDate := printf "10 Apr %s" $yearString }}
+{{/*  Update start date to include correct timezone (UTC+14:00)  */}}
+{{ $start := time.AsTime $startDate "Etc/GMT-14" }}
+{{/*  Update end date to include correct timezone (UTC-12:00)  */}}
+{{ $end := time.AsTime $endDate "Etc/GMT+12" }}
 
-{{/*  If $now is >= $begin and <= $end  */}}
-{{ if and (ge $now $begin) (le $now $end) }}
+{{/*  If $now is >= $start and <= $end  */}}
+{{ if and (ge $now $start) (le $now $end) }}
   <p><mark>It’s <a href="/writing/css-naked-day/">CSS Naked Day</a> somewhere in the world!</mark></p>
 {{ else }}
   <!-- Styles -->

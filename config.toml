@@ -3,7 +3,6 @@ theme = "hc-starter"
 languageCode = "en-gb"
 title = "Harry Cresswell"
 pluralizelisttitles = false
-timeZone = "Europe/London"
 # Enable for syntax highlighting
 pygmentsUseClasses = true
 # Enable highlighting for code fences
