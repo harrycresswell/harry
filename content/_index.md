@@ -9,18 +9,16 @@ draft: false
 
 I design and code fast, accessible, content-based websites, mostly using ”vanilla” HTML, CSS, and JavaScript.
 
-On this website I mostly write about [building static websites with Hugo](/topics/hugo/), [improving privacy and security online](/topics/privacy/)  and the [tools I use](/uses/), day to day.
+Here on my personal site, I write about [building static websites with Hugo](/topics/hugo/), [improving privacy and security online](/topics/privacy/)  and the [tools I use](/uses/), day to day.
 
 Once a month I curate [a newsletter for web designs and developers](/newsletter/) interested in static sites, web performance, privacy and sustainability.
 
-I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building resilient websites with Hugo.
+I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building resilient websites with Hugo – and laying the foundations of [my web dev studio](https://studioeryn.com/).
 
 ## Where to go next
 
-Check out some of the [things I’ve built](/things) or find out what [books I’ve read](/reading). Take a look at [my CV](/cv/) to learn more about my experience or read some of the kind [testimonials](/testimonials) my clients have written about working with me. 
+Find out [what I'm up to right now](/now/). Check out some of the [things I’ve built](/things). See what [books I’ve read](/reading). Find out [how I built this site](/colophon/). Take a look at [my CV](/cv/). Or read some of the kind [testimonials](/testimonials) my clients have written about working with me. You’ll find a few more hidden pages over on [my slashes page](/slashes).
 
-Find out [how I built this site](/colophon/) or [what I'm up to right now](/now/).
+Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell) and [Codepen](https://codepen.io/harrycresswell). I do have social media accounts, but I no longer use them. [Get in touch](/contact) if you have any questions or hit the [Reply by email](/writing/reply-by-email/) button at the end of any post.
 
-Subscribe to the content on this site via [RSS feed](/feeds/), or by signing up to my newsletter below.
-
-Elsewhere on the web, you can find me on [Github](https://github.com/harrycresswell) and [Codepen](https://codepen.io/harrycresswell). I do have social media accounts, but I no longer use them. Please [get in touch](/contact) if you have any questions or hit “Reply by email” at the end of any post.
+Head over to my [RSS feeds](/feeds/) page to subscribe to the content I publish on this site. Or sign up to my newsletter below, if that’s more your thing.
