@@ -7,6 +7,10 @@ slug: "sharing-more"
 topics: ["Daily"]
 ---
 
+⚠️ **This post has been depreciated.** You can now find updates on my [writing](/writing) page.
+
+---
+
 Hello friend. Welcome to a new thing – updates.
 
 I’ve added [an updates page](/updates) to my website so I can share short-form posts about what I’m currently working on and how I’m going about it.

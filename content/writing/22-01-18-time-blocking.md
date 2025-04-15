@@ -7,7 +7,7 @@ slug: "time-blocking"
 topics: ["Daily"]
 ---
 
-Felt like I needed more structure to my days, and [balance between things](/updates/balance-everything/) I’m working on, so I’m giving time blocking another go.
+Felt like I needed more structure to my days, and [balance between things](/writing/balance-everything/) I’m working on, so I’m giving time blocking another go.
 
 I set them up in Google Calendar, as I did before. I’ll keep a browser tab open on MacBook, whilst I work on my monitor. That way they’re nice and visible and I’ll have more chance of staying on track. I like the way the red line reminds you where you are in the day, and what you should be focusing on.
 

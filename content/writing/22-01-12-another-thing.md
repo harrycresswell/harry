@@ -4,7 +4,7 @@ date: 2022-01-12T19:13:01Z
 draft: false
 description: "Feel like I should have got way more done with today, but my heads thumping, so it’s been hard to focus."
 slug: "another-thing"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 

@@ -4,10 +4,10 @@ date: 2021-12-14T17:21:28Z
 draft: false
 description: "Clarifying things, picking a domain name and moving the course I’m working on to it’s own home on the web."
 slug: "practical-hugo"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
-[Yesterdays update](/updates/course-utility) really helped me clarify a few things about [the Hugo course](/learn-hugo) I’m working on. 
+[Yesterdays update](/writing/course-utility) really helped me clarify a few things about [the Hugo course](/writing/learn-hugo) I’m working on. 
 
 I want the course to be as practical as possible, packed full of utility, to give whoever decides to take it a range of experience with Hugo and a number of different projects to show for it. 
 

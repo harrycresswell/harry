@@ -4,11 +4,11 @@ date: 2021-12-10T10:03:55Z
 draft: false
 description: "Course related updates now automatically display on my Hugo course page. It took some thought but the solution was pretty simple in the end."
 slug: "related-updates"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 
-*⚠️ Things have changed since I originally wrote this post. Course updates are now part of my [/writing](/writing) page, organised under [Hugo course](/topics/hugo-course/). I have also retired the course landing page that onced lived at /learn-hugo, in favour of [practicalhugo.com](https://practicalhugo.com).*
+*⚠️ Things have changed since I originally wrote this post. Course updates are now part of my [/writing](/writing) page, organised under [Side Projects](/topics/side-projects/). I have also retired the course landing page that onced lived at /learn-hugo, in favour of [practicalhugo.com](https://practicalhugo.com).*
 
 ---
 

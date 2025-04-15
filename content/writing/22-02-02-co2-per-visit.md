@@ -4,7 +4,7 @@ date: 2022-02-02T17:46:31Z
 draft: false
 description: "Calculating the carbon footprint of a webpage, working on Figma designs in public, adding skip-links and using familiar link :hover styles."
 slug: "co2-per-visit"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 Yesterday I made a bunch of [improvements to practicalhugo.com](https://practicalhugo.com/changelog/2022/02/01/layout-type-improvements/). 

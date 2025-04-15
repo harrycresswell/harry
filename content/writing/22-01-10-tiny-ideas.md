@@ -4,7 +4,7 @@ date: 2022-01-10T20:00:26Z
 draft: false
 description: "I’ve been keeping a list of all sorts of tiny ideas, to implement when I need a change of scene. "
 slug: "tiny-ideas"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 I added [a Changelog](https://practicalhugo.com/changelog/) to practicalhugo.com, because I’ve been writing the past few days and, quite honestly, I needed a change of scene. 

@@ -4,7 +4,7 @@ date: 2022-02-14T16:45:14Z
 draft: false
 description: "A quick look at how to render nested data within Hugo templates."
 slug: "working-with-data"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 Last week I finally managed to get an early draft of the curriculum live on [practicalhugo.com](http://practicalhugo.com/). It’s by no means a complete curriculum,  just a rough outline of what I’ve figured out so far, including some of the lessons I’ve already written. As I mentioned before, the order is no way set in stone at this point. I’m still a long way off figuring out the final content structure, but it should give you a rough idea of where it’s heading.

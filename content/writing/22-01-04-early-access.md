@@ -4,7 +4,7 @@ date: 2022-01-04T18:14:28Z
 draft: false
 description: "From now until launch, anyone who signs up for Practical Hugo will get free access to course material in return for completing a short survey about their experience with Hugo."
 slug: "early-access"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 I decided to try a thing. 

@@ -4,7 +4,7 @@ date: 2021-12-08T09:44:30Z
 draft: false
 description: "Things are starting to take shape and my Hugo course is no longer just an idea. Here’s where I’m at and where I’m heading next."
 slug: "doing-the-work"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 *⚠️ Things have changed since I originally wrote this post. Course updates are now part of my [/writing](/writing) page, organised under [Hugo course](/topics/hugo-course/). The course landing page that onced lived at /learn-hugo has since been retired, in favour of [practicalhugo.com](https://practicalhugo.com). I have also scrapped the idea of a launch date due to other commitments. Practical Hugo is still in the works, however I’m taking my time with it.*

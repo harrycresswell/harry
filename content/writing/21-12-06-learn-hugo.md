@@ -2,9 +2,9 @@
 title: "Learn Hugo"
 date: 2021-12-06T11:37:59Z
 draft: false
-description: ""
+description: "Welcome the humble beginnings of my course on building websites with Hugo."
 slug: "learn-hugo"
-topics: ["Hugo course"]
+topics: ["Side Projects"]
 signup_title: "Sign up for Hugo course"
 signup_desc: "If you’d like to be the first to receive content for my Hugo course by email, as it’s published, then please leave your details below."
 signup_button_text: "Learn Hugo"

@@ -5,7 +5,7 @@ publishdate: 2024-01-04
 lastmod: 2024-01-04
 draft: false
 slug: "introducing-cu-css"
-topics: ["CSS"]
+topics: ["CSS", "Side Projects"]
 description: "A lightweight CSS framework built using uses modern techniques and two popular methodologies, designed to help you hit the ground running."
 ---
 

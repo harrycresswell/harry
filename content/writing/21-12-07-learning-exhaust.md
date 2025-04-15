@@ -4,12 +4,12 @@ date: 2021-12-07T10:29:30Z
 draft: false
 description: "I’m commiting to writing a course on Hugo by sharing the process in public. The plan is to create daily ‘learning exhaust’ in the form of updates like this."
 slug: "learning-exhaust"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
 I’ve had this reminder on my task list for far too long. It says; “publicly commit to Hugo course so you’re accountable.” I’ve looked at it countless times and done nothing about it. 
 
-A few nights back I realised my problem; I don’t have a decent strategy. I lack [a concrete plan to implement my intentions](https://harrycresswell.com/writing/implementation-intentions/) and a cue that will help me get on and do the work. 
+A few nights back I realised my problem; I don’t have a decent strategy. I lack [a concrete plan to implement my intentions](/writing/implementation-intentions/) and a cue that will help me get on and do the work. 
 
 It occurred to me that perhaps the solution is to write the whole course in public. In other words, I shouldn’t just tell you I’m writing a course on Hugo, but actually show you – by documenting the entire process with daily updates. If I commit to daily updates I’m going to have to get on and write the damn thing. What better way to hold myself accountable and stick with it? 
 

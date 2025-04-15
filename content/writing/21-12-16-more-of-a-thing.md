@@ -4,10 +4,10 @@ date: 2021-12-16T15:15:05Z
 draft: false
 description: "I designed a simple color palette and logo mark to bring this course to life."
 slug: "more-of-a-thing"
-topics: ["Daily", "Hugo course"]
+topics: ["Daily", "Side Projects"]
 ---
 
-Now I have [a name for my Hugo course](https://harrycresswell.com/updates/practical-hugo/) it’s tempting to go all guns blazing with a whole new identity and website. 
+Now I have [a name for my Hugo course](/writing/practical-hugo/) it’s tempting to go all guns blazing with a whole new identity and website. 
 
 Somehow I managed to convince myself that all I really need right now is a basic landing page and sign up form. But it’s hard not to do something to bring all this to life, so I ended up designing a simple color palette and logo mark. 
 
@@ -21,4 +21,4 @@ I’ve been putting a curriculum outline together alongside this, as I know cont
 
 Maybe I’m overthinking it, but that’s only because I want this course to be more than the typical  tutorial. At least this *lite* branding exercise has helped make it feel like more of a thing.
 
-At some point I should share [this course on Twitter](https://twitter.com/practicalhugo) and I will in time. But it’s almost the holidays and I doubt many of you are listening. One thing at a time, I’m in no rush and I’m having fun with it.
+At some point I should share this course on Twitter and maybe I will in time. But it’s almost the holidays and I doubt many of you are listening. One thing at a time, I’m in no rush and I’m having fun with it.

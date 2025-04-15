@@ -11,7 +11,7 @@ Tried to rewrite the Practical Hugo course intro this morning, but failed to com
 
 So I jumped ahead to module 2 and smashed out an ugly first draft of lesson one - *creating pages* (with the `hugo new` command). Way easier to write technical stuff – paste in the code, then pad it out with words. I can handle that.
 
-[Squashed a few bugs](https://practicalhugo.com/changelog/fonts-footer/) on [practicalhugo.com](http://practicalhugo.com), but didn’t have much time after that. Client work was calling, so I switched modes. Worked on a design for this fun little award certificate and a few other bits.
+[Squashed a few bugs](https://practicalhugo.com/changelog/2022/02/09/curriculum-sticky-form/) on [practicalhugo.com](http://practicalhugo.com), but didn’t have much time after that. Client work was calling, so I switched modes. Worked on a design for this fun little award certificate and a few other bits.
 
 Last night I read *Balance Everything*, the final chapter in [How to Live by Derek Sivers](https://sive.rs/h). Great book, recommended to me by [Robert](https://www.robertjelenic.com/). 
 
