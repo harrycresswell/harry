@@ -2,7 +2,7 @@
 title = "Expert and beginner"
 date = "2019-11-29T09:30:13+01:00"
 slug = "expert-beginner"
-topics = ["Reflections"]
+topics = ["Strategy"]
 description = "A few thoughts on sharing what you know, regardless of your experience and finding an openness to reinvent and learn from others."
 draft = "false"
 syndicate = "false"
@@ -28,7 +28,7 @@ As inexperienced developers it’s important to value what little we may know. B
 
 The vastness and complexity of this industry means it’s impossible know it all. There’s a very good chance what we decided to focus on is totally different to that of a more experienced co-worker. We must use this to our advantage, every way we can.
 
-This reminds me of Frank Chimero’s [Everything easy is hard again](https://frankchimero.com/writing/everything-easy-is-hard-again/|) where he writes: 
+This reminds me of Frank Chimero’s [Everything easy is hard again](https://frankchimero.com/blog/2018/everything-easy/) where he writes: 
 
 > ”In one way, it is easier to be inexperienced: you don’t have to learn what is no longer relevant. Experience, on the other hand, creates two distinct struggles: the first is to identify and unlearn what is no longer necessary (that’s work, too). The second is to remain open-minded, patient, and willing to engage with what’s new, even if it resembles a new take on something you decided against a long time ago.”
 

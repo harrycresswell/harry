@@ -3,7 +3,7 @@ title: "Finding good websites"
 date: 2024-03-20T16:35:09Z
 draft: false
 slug: "finding-good-websites"
-topics: ["Technology"]
+topics: ["IndieWeb"]
 description: "A good reason to create a links page on your personal website."
 source_link: "https://brandonwrites.xyz/links-page-update/"
 source_title: "Links page update"

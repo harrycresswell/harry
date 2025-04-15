@@ -3,7 +3,7 @@ title: "File over app"
 date: 2024-03-20T17:26:42Z
 draft: false
 slug: "file-over-app"
-topics: ["Obsidian", "Technology"]
+topics: ["Obsidian", "Philosophy"]
 description: "If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read."
 source_link: https://stephango.com/file-over-app
 source_title: "File over app"

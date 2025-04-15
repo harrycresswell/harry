@@ -24,7 +24,7 @@ He says that; “Each one of these questions helps reveal something about the pr
 
 I like this pragmatic approach to problemn solving. It reminds me that it’s not just about tackling a problem head on, but about considering the problem from many different perspectives. In some cases, that means figuring out whether it’s a problem worth solving in the first place.
 
-To quote [Charlie Munger](https://fs.blog/2013/10/inversion/); “..many hard problems are best solved when they are addressed backward.” It reminds me of [the power of inversion](/articles/2019-review/#the-power-of-inversion).
+To quote [Charlie Munger](https://fs.blog/2013/10/inversion/); “..many hard problems are best solved when they are addressed backward.” It reminds me of [the power of inversion](/writing/2019-review/#the-power-of-inversion).
 
 ## Source
 
