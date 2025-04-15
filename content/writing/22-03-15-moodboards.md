@@ -4,7 +4,7 @@ date: 2022-03-15T15:58:19Z
 draft: false
 description: "For a long time it seemed like having a personal moodboard was all the rage. Then Instagram came along and all that changed."
 slug: "moodboards"
-topics: ["Daily", "Themes"]
+topics: ["Updates", "Themes", "Side Projects"]
 ---
 
 I’ve always been a huge fan of moodboards. [Haw-lin](http://www.haw-lin.com/)–a collaboration between Hawaii native Nathan Cowen and Berlin based Jacob Klein–has been one of my favourites for years. 

@@ -4,7 +4,7 @@ date: 2022-01-11T17:55:28Z
 draft: false
 description: "Make it easy, get it done."
 slug: "one-task"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 Gave myself one ”side project” task today – finished writing *building static output with the* `hugo` *command* lesson. 

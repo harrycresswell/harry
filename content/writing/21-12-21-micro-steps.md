@@ -4,7 +4,7 @@ date: 2021-12-21T19:31:35Z
 draft: false
 description: "I ditched Mailchimp in favour of Buttondown for the email list – hopefully this doesn’t turn out to be a bad decision"
 slug: "micro-steps"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 Feels like I’m making micro steps at the moment, but I’m heading in the right direction.

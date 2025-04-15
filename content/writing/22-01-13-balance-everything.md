@@ -4,7 +4,7 @@ date: 2022-01-13T18:56:08Z
 draft: false
 description: "It’s not always easy to find a balance in life. I’ve got a bad habit of going all in on one thing, and letting other stuff slip."
 slug: "balance-everything"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 Tried to rewrite the Practical Hugo course intro this morning, but failed to come up with anything notable. 

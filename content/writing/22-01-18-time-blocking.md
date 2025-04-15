@@ -4,7 +4,7 @@ date: 2022-01-18T18:27:54Z
 draft: false
 description: "Felt like I needed more structure to my days, and balace in things I’m working on, so I’m giving time blocking another go."
 slug: "time-blocking"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 Felt like I needed more structure to my days, and [balance between things](/writing/balance-everything/) I’m working on, so I’m giving time blocking another go.

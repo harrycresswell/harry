@@ -4,7 +4,7 @@ date: 2022-01-24T18:13:02Z
 draft: false
 description: "Improving video performance by lazy-loading iframes using fancy facades."
 slug: "facades"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 Found some time to improve performance on [roofsimple.com](https://roofsimple.com/). Now rather than rending video content directly in iFrames on page load, it’s now now lazy-loaded using [a nice little facade technique from Paul Irish](https://github.com/paulirish/lite-youtube-embed).

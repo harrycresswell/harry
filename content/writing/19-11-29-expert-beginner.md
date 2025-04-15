@@ -2,7 +2,7 @@
 title = "Expert and beginner"
 date = "2019-11-29T09:30:13+01:00"
 slug = "expert-beginner"
-topics = ["Daily"]
+topics = ["Reflections"]
 description = "A few thoughts on sharing what you know, regardless of your experience and finding an openness to reinvent and learn from others."
 draft = "false"
 syndicate = "false"

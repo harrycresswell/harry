@@ -4,7 +4,7 @@ date: 2021-12-16T15:15:05Z
 draft: false
 description: "I designed a simple color palette and logo mark to bring this course to life."
 slug: "more-of-a-thing"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 Now I have [a name for my Hugo course](/writing/practical-hugo/) it’s tempting to go all guns blazing with a whole new identity and website. 

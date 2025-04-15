@@ -4,7 +4,7 @@ date: 2022-02-22T11:46:51Z
 draft: false
 description: "This year I plan on sharing a couple of themes with the Hugo community."
 slug: "building-themes"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 This week I’ve been writing about building themes for a new module in [Practical Hugo](https://practicalhugo.com/). It’s made me think about my own. As a result I’ve spent time tidying up my personal site, pulling out unused styles, making small adjustments to the design and reducing complexity where I can.

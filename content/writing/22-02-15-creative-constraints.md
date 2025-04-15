@@ -4,7 +4,7 @@ date: 2022-02-15T18:11:46Z
 draft: false
 description: "I’m writing on my phone more and more these days.  I seem to find it much easier to keep my writing concise and to the point when working on a tiny screen."
 slug: "creative-constraints"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 I’m writing on my phone more and more these days.  I seem to find it much easier to keep my writing concise and to the point when working on a tiny screen.

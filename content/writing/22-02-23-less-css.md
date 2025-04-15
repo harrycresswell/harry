@@ -4,7 +4,7 @@ date: 2022-02-23T12:26:31Z
 draft: false
 description: "How little CSS is too little CSS? How few lines can get away with before a site starts to feel, well, unstyled?"
 slug: "less-css"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 How little CSS is too little CSS? How few lines can get away with before a site starts to feel, well, unstyled? To what extent can we rely on default user-agent styles? Do you need anything more than a tiny CSS reset, these days? 

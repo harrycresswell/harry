@@ -4,7 +4,7 @@ date: 2022-01-19T20:47:18Z
 draft: false
 description: "Woke up this morning to a power cut on our street and no running water.  What else am I’m currently taking for granted, that I would miss if it were gone? "
 slug: "interplanetary"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 Woke up this morning to a power cut on our street and no running water.  What else am I’m currently taking for granted, that I would miss if it were gone? 

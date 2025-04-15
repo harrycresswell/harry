@@ -3,8 +3,8 @@ title: "Sleep on it"
 date: 2023-02-17T10:44:54Z
 draft: false
 slug: "sleep-on-it"
-topics: ["Daily"]
-description: "A fresh perspective."
+topics: ["Strategy"]
+description: "Solutions invariably present themselves when you’re well rested and a problem has been given satisfactory time and space."
 ---
 
 

@@ -4,7 +4,7 @@ date: 2021-12-06T10:30:53Z
 draft: false
 description: "I’ve added an updates page to my website so I can share short-form posts about what I’m currently working on and how I’m going about it. "
 slug: "sharing-more"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 ⚠️ **This post has been depreciated.** You can now find updates on my [writing](/writing) page.

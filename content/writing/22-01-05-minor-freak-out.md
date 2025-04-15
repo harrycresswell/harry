@@ -4,7 +4,7 @@ date: 2022-01-05T18:51:11Z
 draft: false
 description: "I had a minor freak out this morning. I think it was a combination of things that set me off."
 slug: "minor-freak-out"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 I had a minor freak out this morning. I think it was a combination of things that set me off. 

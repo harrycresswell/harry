@@ -4,7 +4,7 @@ date: 2022-02-09T20:23:59Z
 draft: false
 description: "I‘ve been thinking about new ways to build interest in Practical Hugo and generally provide some value whilst I’m working on lesson material. "
 slug: "building-interest"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 I‘ve been thinking about new ways to build interest in [Practical Hugo](https://practicalhugo.com/) and generally provide some value whilst I’m working on lesson material. 

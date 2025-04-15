@@ -4,7 +4,7 @@ date: 2021-12-10T10:03:55Z
 draft: false
 description: "Course related updates now automatically display on my Hugo course page. It took some thought but the solution was pretty simple in the end."
 slug: "related-updates"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 

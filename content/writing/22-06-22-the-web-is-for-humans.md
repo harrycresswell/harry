@@ -4,7 +4,7 @@ date: 2022-06-22T12:39:30+01:00
 draft: false
 description: "Thanking the people I’ve drawn inspiration from when building this website."
 slug: "web-for-humans"
-topics: ["Daily"]
+topics: ["Updates"]
 syndicate: "false"
 ---
 

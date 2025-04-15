@@ -4,7 +4,7 @@ date: 2022-03-29T10:29:36+02:00
 draft: false
 description: "We’re back in Hamburg for the week, visiting family and catching up with old friends."
 slug: "slowing-down"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 It’s been a while since I wrote one of these updates. I’ve been busy with client work, so I haven’t found the time.   

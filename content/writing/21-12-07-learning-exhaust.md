@@ -4,7 +4,7 @@ date: 2021-12-07T10:29:30Z
 draft: false
 description: "I’m commiting to writing a course on Hugo by sharing the process in public. The plan is to create daily ‘learning exhaust’ in the form of updates like this."
 slug: "learning-exhaust"
-topics: ["Daily", "Side Projects"]
+topics: ["Updates", "Side Projects"]
 ---
 
 I’ve had this reminder on my task list for far too long. It says; “publicly commit to Hugo course so you’re accountable.” I’ve looked at it countless times and done nothing about it. 

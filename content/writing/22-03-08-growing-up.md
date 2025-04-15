@@ -4,7 +4,7 @@ date: 2022-03-08T18:24:42Z
 draft: false
 description: "I haven’t written in a while. Last week I got Covid (again), so I’ve been taking it pretty easy."
 slug: "growing-up"
-topics: ["Daily"]
+topics: ["Updates"]
 ---
 
 I haven’t written in a while. Last week I got Covid (again), so I’ve been taking it pretty easy. 
