@@ -1,0 +1,7 @@
+<ul>
+  {{ range .Site.Taxonomies.topics }}
+  <li>
+    <a href="{{ .Page.Permalink }}/feed.xml">{{ .Page.Title }}</a>
+  </li>
+  {{ end }}
+</ul>
