@@ -2,7 +2,7 @@
 title: "Page, Site and Params"
 date: 2022-07-26T10:29:42+01:00
 draft: false
-description: "Variables and Params play a major role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical."
+description: "Methods and parameters play a major role in storing, accessing and returning data in Hugo projects. So understanding how they work is critical."
 slug: "page-site-params"
 topics: ["Hugo"]
 syndicate: "false"
@@ -59,7 +59,7 @@ By default, the context of all layout templates is set to Page. Meaning, by defa
 
 So, to access this data, we use the dot, followed by the Page method that stores the data we want to return.
 
-Returning to the example above, the first Page methods we encounter is `.Title`, which returns the title found in the front matter of the *content/_index.md* file.
+Returning to the example above, the first Page method we encounter is `.Title`, which returns the title found in the front matter of the *content/_index.md* file.
 
 ```html
 <h1>My new Hugo website</h1>
