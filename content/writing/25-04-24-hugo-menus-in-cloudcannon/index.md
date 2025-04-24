@@ -4,14 +4,14 @@ date: 2025-04-24T11:13:53+01:00
 draft: false
 slug: "hugo-menus-in-cloudcannon"
 topics: ["Hugo", "Cloudcannon"]
-description: "Clients usually want the ability to update menu items from within their CMS. So we need a solution that makes them editable in Cloudcannon."
+description: "Clients usually want the ability to update menu items from within their CMS. So we need a solution that makes menus editable from Cloudcannon."
 ---
 
-There are [various ways to create menus in Hugo](/writing/menus-in-hugo/). But, in most cases, Cloudcannon won’t automatically detect menus and expose them to the CMS for editors to manage.
+There are [various ways to create menus in Hugo](/writing/menus-in-hugo/). But, in most cases, Cloudcannon won’t automatically detect these menus and make them editable in its interface.
 
-I can understand why this decision might have been made. Cloudcannon supports a bunch of static site generators (not just Hugo), each, I assume, with their own take on menus. So, my guess is that creating a “one size fits all” approach for managing menus isn’t an easy problem to solve. 
+I can understand why this decision may have been made. Cloudcannon supports a bunch of static site generators (not just Hugo), each, I assume, with its own opinions on how menus should function. It’s my guess that creating a “one size fits all” approach for managing menus isn’t an easy problem to solve. 
 
-Whatever the reasons, this doesn’t change that fact that clients usually want the ability to update menu items from within their CMS. So we need a solution that makes them editable in Cloudcannon.
+Whatever the actual reasons may be, this doesn’t change that fact that clients usually want the ability to update menu items from within their CMS. So we need a solution that makes it possible to edit menus from Cloudcannon.
 
 ## Assess the options
 
