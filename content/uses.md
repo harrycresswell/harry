@@ -52,13 +52,13 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 In 2021 I committed to using [Hugo](https://gohugo.io/) to build content based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
 
-I use [Cloudcannon](https://cloudcannon.com/) for any client project which requires a CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with both Netlify CMS (now [Decap](https://decapcms.org/)) and Forestry (now discontinued) in the past, it’s the best I’ve found for websites built with Hugo. 
+I use [Cloudcannon](https://cloudcannon.com/), a git-based content management system, for any client project which requires a CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with Netlify CMS (now [Decap](https://decapcms.org/)), Forestry (now discontinued) and Sanity in the past, Cloudcannon the best I’ve found for websites built with Hugo. 
 
-For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) for personal projects. 
+For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) for personal projects. 
 
 [Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times.
 
-In 2023 I switch my clients from Google to [Fathom Analytics](https://usefathom.com/). Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you build a lot of websites. I also run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
+In 2023 I switch my clients from Google Analytics to [Fathom Analytics](https://usefathom.com/). Unlike Google, Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you manage lots of websites. I also run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
 
 [Codepen](https://codepen.io/) is where I test ideas with code in a self contained environment. It’s a helpful tool if you want to try something out or work on specific feature without the distraction of an entire codebase.
 
@@ -94,10 +94,11 @@ I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/
 
 ## Bookmarking and highlights
 
-[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. The latter I use as a “read it later” app — for saving long form content like blog posts and YouTube videos — though it can also be used as an RSS reader. I use the former to save highlights from my Kindle, which are then rolled up in a daily review. Any highlights made from Reader or using [Readwise Highlighter](https://chromewebstore.google.com/detail/readwise-highlighter/jjhefcfhmnkfeepcpnilbbkaadhngkbi) will also end up in the daily review.
+[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. The latter I use as a read it later” app — for saving long form content like blog posts and YouTube videos — though it can also be used as an RSS reader. I use the former to save highlights from my Kindle, which are then rolled up in a daily review. Any highlights made in Reader or by using [Readwise Highlighter](https://chromewebstore.google.com/detail/readwise-highlighter/jjhefcfhmnkfeepcpnilbbkaadhngkbi) will also end up in the daily review.
 
-I recently discovered [Anybox](https://anybox.app/), an incredible little macOS app for managing bookmarks that works with iCloud. Previously I was using Notion for this purpose – saving web pages using the Notion Web Clipper – but Notion databases are really clunky when you’re dealing with thousands of entries.
+I recently discovered [Anybox](https://anybox.app/), an incredible little macOS app for managing bookmarks that works with iCloud. I use it to save anything that doesn’t fall into the long form content category. Things like useful tools, products and resources. 
 
+Previously I used Notion for bookmarking – saving web pages using the Notion Web Clipper – but Notion databases are really clunky when you’re dealing with thousands of entries. I’ve also tried bookmarking with Airtable and more recently Obisidan. I have to admit I’m yet to settle on a system I’m 100% happy with.
 
 ## Writing
 
@@ -142,6 +143,13 @@ I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreig
 
 I use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
+## Automation
+
+I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
+
+I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
+
+
 ## Health
 
 I use [Strava](https://www.strava.com/) to track running and the Apple Watch Activity app for tracking yoga sessions and workouts.
@@ -164,14 +172,9 @@ Having tried many of the meditation apps out there, my current favourite for gui
 
 [CCleaner](https://www.ccleaner.com/) is a handy tool for finding large files and freeing up space on your machine.
 
-I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
-
 [Mailwip](https://mailwip.com/) allows you to send and receive emails using unlimited addresses from your own domain. I use it with clients who wish to send emails using a business domain name from their personal Gmail account.
 
-
-I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
-
-[QuickTime Player](https://support.apple.com/en-gb/guide/quicktime-player/welcome/mac) seems to be the most stable app for creating offline screen recordings I can find.
+[QuickTime Player](https://support.apple.com/en-gb/guide/quicktime-player/welcome/mac) seems to be the most stable app I can find for creating offline screen recordings.
 
 [Apple Reminders](https://www.icloud.com/reminders/) is the tool I use to create shopping lists. It works great for shared lists.
 
