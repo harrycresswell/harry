@@ -20,7 +20,7 @@ If you’re looking to modify the starter with category pages, add a dynamic nav
 
 ## Before we begin
 
-- This will be easiest to follow with a fresh install of the [Sanity Eleventy Blog Starter](<(https://www.sanity.io/create?template=sanity-io%2Fsanity-template-eleventy-blog)>), where all the starter content is still in place.
+- This will be easiest to follow with a fresh install of the [Sanity Eleventy Blog Starter](https://www.sanity.io/create?template=sanity-io%2Fsanity-template-eleventy-blog), where all the starter content is still in place.
 - I only focus on content modelling in Sanity, writing GROQ queries and rendering the data in Eleventy. I’ll leave any CSS styling or front-end JavaScript stuff down to you.
 
 ## Adding links to authors in post meta
