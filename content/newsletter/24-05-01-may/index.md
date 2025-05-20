@@ -40,7 +40,7 @@ In [The Wabi Sabi Web](https://branch.climateaction.tech/issues/issue-8/the-wabi
 ## What I’m up to in May
 
 - Various client projects.
-- Writing content for [Practical Hugo](https//practicalhugo.com/).
+- Writing content for [Practical Hugo](https://practicalhugo.com/).
 - Running the Hackney Half.
 - Migrating my Notion to Obsidian.
 
