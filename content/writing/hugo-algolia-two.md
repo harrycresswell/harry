@@ -193,7 +193,7 @@ Finally, you might want to provide filters based on the structure of your conten
 
 ### Setting up tags in Hugo
 
-If you have been following from [Part 1](articles/hugo-algolia/), inside your `config.toml` file you should have the following:
+If you have been following from [Part 1](/articles/hugo-algolia/), inside your `config.toml` file you should have the following:
 
 ```yaml
 [params.algolia]
