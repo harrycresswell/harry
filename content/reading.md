@@ -11,6 +11,8 @@ layout: page
 
 ## 2025
 
+- UFO of God by Chris Bledsoe
+- Vulture Capitalism by Grace Blakeley
 - Far Journeys by Robert A. Monroe
 - The Duolingo Handbook
 - SAS: Rogue Heroes by Ben Macintyre
