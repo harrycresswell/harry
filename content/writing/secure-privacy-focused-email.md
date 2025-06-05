@@ -29,7 +29,7 @@ There are a bunch of better email providers than Google these days. I spent a go
 
 [Tutanota](https://tutanota.com/) is a small company based in Hannover, Germany, who offer end-to-end encrypted email, calendar, and contacts. If you’re not already aware, Germany’s data privacy policy–the Federal Data Protection Act (Bundesdatenschutzgesetz)–is one of the strictest privacy laws in the world, making it a solid choice for privacy enthusiasts.
 
-Tutanota software is [open source](https://github.com/tutao/tutanota), so you can hack around with code and spin up your own Tutanota web client, as you like. This says a lot about how the company approach software development and transparency. Tutanota [servers run on 100% renewable energy](https://tutanota.com/blog/posts/green-emaill), making it another sustainable choice. 
+Tutanota software is [open source](https://github.com/tutao/tutanota), so you can hack around with code and spin up your own Tutanota web client, as you like. This says a lot about how the company approach software development and transparency. Tutanota [servers run on 100% renewable energy](https://tutanota.com/blog/posts/green-email), making it another sustainable choice. 
 
 Judging by [Tutanota’s about page](https://tutanota.com/about/), the team are clearly dedicated to protecting the privacy of their customers. It’s reassuring to know that there are no dependencies on external investors or owners, making it unlikely that the company will pivot from its values or sell out to the highest bidder.
 

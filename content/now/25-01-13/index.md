@@ -33,5 +33,5 @@ These are the things I’m focusing my time and energy on right now.
 
 - [Complete CSS](https://piccalil.li/complete-css/)
 - How to set up my [Obsidian](https://obsidian.md/) vault, inspired by [Steph Ango’s vault](https://stephango.com/vault)
-- Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://vanillajsguides.com/)
+- Chris Ferdinandi’s [Vanilla JavaScript pocket guides](https://gomakethings.com/)
 - 10mins a day of German using Duolingo.

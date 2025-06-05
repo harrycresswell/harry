@@ -32,7 +32,7 @@ Celebrated Christmas with family in London.
 
 [Smooth Multi-Page Experiences with Just a Few Lines of CSS](https://htmhell.dev/adventcalendar/2024/3/) from John Allsopp.
 
-[Darken or lighten the background color in CSS using color-mix() and oklch()](https://urre.me/writings/darken-or-lighten-background-color-in-css/). A handy tip from Urban Sandén.
+[Darken or lighten the background color in CSS using color-mix() and oklch()](https://urre.me/writing/darken-or-lighten-with-css). A handy tip from Urban Sandén.
 
 Thomas Günther shares a bunch of helpful tips on how to create [Beautiful focus outlines](https://medienbaecker.com/articles/focus-outlines).
 

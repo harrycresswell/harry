@@ -18,7 +18,7 @@ The article presents a problem Cloudinary helps solve, then provides a quickstar
 
 When building static sites, in the past I’ve used the [gulp-responsive](https://www.npmjs.com/package/gulp-responsive) Gulp task to find the original image in the `src` folder and auto generate multiple sizes at build time. Perhaps this sounds familiar?
 
-Using `srcset` and a Hugo [shortcode](https://github.com/harrycresswell/harry/blob/master/site/layouts/shortcodes/img.html), I can serve up the different sizes when required.
+Using `srcset` and a Hugo shortcode, I can serve up the different sizes when required.
 
 Flawless workflow, until deployment. Now I’m committing multiple images for every image on my site to my repository. For sites with lots of images this doesn’t really work out. Build times take forever. You get the picture.
 

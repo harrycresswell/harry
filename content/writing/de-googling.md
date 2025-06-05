@@ -77,7 +77,7 @@ I switched my primary browser to [Brave](https://brave.com/) a year or so ago. I
 
 I currently have the [Ecosia](https://www.ecosia.org/) search extension installed, but I’ve also used [DuckDuckGo](https://duckduckgo.com/) in the past. Both are great replacements for Google Search.
 
-By using Brave you can collect [Brave rewards](https://brave.com/brave-rewards/https://brave.com/brave-rewards/) and the Basic Attention Token (BAT). In other words, you get paid to use the browser.
+By using Brave you can collect [Brave rewards](https://brave.com/brave-rewards/) and the Basic Attention Token (BAT). In other words, you get paid to use the browser.
 
 **27th May 2024**: Following a conversation with [Luke](https://www.lkhrs.com/), who pointed me in the direction of [Chrome is bad](https://chromeisbad.com/), I’ve since dropped Chrome entirely. I’m yet to settle on a replacement, so currently find myself using a combination of Brave, Librewolf and Safari. I use [Firefox Focus](https://www.mozilla.org/en-GB/firefox/browsers/mobile/focus/) for iOS.
 
@@ -96,7 +96,7 @@ Before moving to Sync, I looked into [Nextcloud](https://nextcloud.com/), a self
 
 I’ve never been a fan of Google Docs. I can’t handle the way you have to switch to Google Drive to organise your documents. Like Drive, I only use it when someone shares a Doc with me.
 
-I’ve tried various writing tools over the years, [iAWriter](https://ia.net/writerhttps://ia.net/writer), [Ullyses](https://ulysses.app/) and [Dropox Paper](https://www.dropbox.com/paper), to name a few. But, I find myself using Notion most of all, nowadays.
+I’ve tried various writing tools over the years, [iAWriter](https://ia.net/writer), [Ullyses](https://ulysses.app/) and [Dropox Paper](https://www.dropbox.com/paper), to name a few. But, I find myself using Notion most of all, nowadays.
 
 I’ve been a paying Notion customer since 2019. I use it for most things. Journaling, long-form writing, project and task management, client CRM, bookmarking, and a whole lot more. It’s a brilliant all-in-one tool, but it’s not ideal for security or offline use. 
 

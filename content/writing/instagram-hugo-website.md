@@ -8,6 +8,12 @@ topics: ["Hugo"]
 syndicate: "false"
 ---
 
+---
+
+**Please note**: Profile Page Images Loader, as discussed in this post, is no longer operational. This post will remain here for reference purposes only.
+
+---
+
 {{< intro >}}Using Instagram’s API to build a feed of content on a website is often more effort than it’s worth. {{< /intro>}}
 
 The set up involves authenticating with Facebook to get a long-lived access token which will give you access to a JSON file containing all the data associated with your images. However access is only temporary and your token will need to be renewed periodically, every 60 days.

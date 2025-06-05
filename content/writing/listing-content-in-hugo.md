@@ -269,5 +269,5 @@ I’m aiming to keep this post updated with new examples and scenarios, as I com
 - [The First function](https://gohugo.io/functions/first/) from the Hugo Docs
 - [Content types](https://gohugo.io/content-management/types) from the Hugo Docs
 - [The Where function](https://gohugo.io/functions/where/)
-- [Homepage Template](￼https://gohugo.io/templates/homepage/￼)
+- [Homepage Template](https://gohugo.io/templates/homepage/)
 - [Different page types without organising into subdirectories](https://discourse.gohugo.io/t/different-page-types-without-organising-into-subdirectories/558/3) from Stiobhart

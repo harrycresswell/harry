@@ -18,7 +18,7 @@ According to [Google](https://www.thinkwithgoogle.com/marketing-strategies/app-a
 
 So, if you want to make your website faster – and increase conversion – one of the best things you can do is optimise your images. Delivering only what’s necessary, and doing so in the lightest possible way. 
 
-Whilst there are a number of different ways to optimise image delivery, today I want to focus on just two – responsive images and delivering next-gen formats. Specifically, I want to share the workflow I use when building websites with [Hugo](/topics/hugo). Where image content is hosted by [Cloudinary](/topics/cloudinary) and the website, itself, is managed via [Forestry](/topics/forestry). 
+Whilst there are a number of different ways to optimise image delivery, today I want to focus on just two – responsive images and delivering next-gen formats. Specifically, I want to share the workflow I use when building websites with [Hugo](/topics/hugo). Where image content is hosted by Cloudinary and the website, itself, is managed via Forestry.
 
 It’s a popular stack and when it comes to web performance, these two optimisations are well documented. So, I was surprised to find little out there explaining how to tie all this good stuff together. My aim here is to fill those gaps and provide you with some insight. 
 

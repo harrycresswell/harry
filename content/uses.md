@@ -90,7 +90,7 @@ I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the b
 
 [NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you, then think of it as curating your own feed of content from people or websites that you want to follow. But without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
 
-I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks. Very handy when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite-8-gb-now-with-a-68-display-and-adjustable-warm-light-with-ads/dp/B08N3TCP2F).
+I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks. Very handy when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite/s?k=kindle+paperwhite).
 
 ## Bookmarking and highlights
 

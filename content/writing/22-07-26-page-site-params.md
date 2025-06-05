@@ -587,11 +587,11 @@ This is because `.Site` is a Page Method, which gives us access to Site Methods.
 
 ## Combining .Site and .Page
 
-Remember my newsletter sign up form, from earlier? Recently I decided I wanted to be able to change the content in this form on a Page by Page basis. 
+Remember my newsletter sign up form from earlier? At one point I decided I wanted to be able to change the content in this form on a page-by-page basis. 
 
-Consider, my now depreciated [Learn Hugo](https://harrycresswell.com/learn-hugo/) page, where the title says “Sign up for Hugo course”. On every other page you will find “Monthly newsletter”, instead.
+To make sense of this, let’s consider a page I once had on this site called “Learn Hugo”, which has since been retired in favour of [a website of its own](http://practicalhugo.com/). On this now non-existant page, the title of the newsletter sign up said “Sign up for Hugo course”, whilst on every other page on this site it says “Monthly newsletter”. So how does this work?
 
-To acheive this, I added key-value pairs to the front matter of my *learn-hugo/index.md* file. That way I could override the initial values found in *data/settings/signup.yaml*:
+To acheive this I added key-value pairs to the front matter of my *learn-hugo/index.md* file. That way I could override the initial values found in *data/settings/signup.yaml*:
 
 ```yaml
 ---

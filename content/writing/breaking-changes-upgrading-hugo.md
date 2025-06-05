@@ -12,7 +12,7 @@ Unless you want to use new features, or you’re working on a Hugo project built
 
 However, if you do find yourself needing or wanted to upgrade Hugo, then you’re probably wondering if anything is going to break in your existing projects when you upgrade to the latest version. It’s a reasonable concern.
 
-Last week I upgraded my Hugo version from [0.55.6](https://gohugo.io/news/0.55.6-relnotes/) to Hugo [0.80](https://gohugo.io/news/0.80.0-relnotes/). I sort of expected everything to break, so I had a contingency plan in the form of [Fernando Medina Corey’s article on using legacy versions](https://www.fernandomc.com/posts/brew-install-legacy-hugo-site-generator/). But to my surprise, after the upgrade I was pleased to find very few errors.
+Last week I upgraded my Hugo version from [0.55.6](https://github.com/gohugoio/hugo/releases/tag/v0.55.6) to Hugo [0.80](https://github.com/gohugoio/hugo/releases/tag/v0.80.0). I sort of expected everything to break, so I had a contingency plan in the form of [Fernando Medina Corey’s article on using legacy versions](https://www.fernandomc.com/posts/brew-install-legacy-hugo-site-generator/). But to my surprise, after the upgrade I was pleased to find very few errors.
 
 The main issue - which seems like a common one - concerns content from sections not rendering on a homepage. To be clear, what I mean by section content is content stored in a sub directory of the content directory. For example, `./content/supplier`.
 

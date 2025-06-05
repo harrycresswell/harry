@@ -79,7 +79,7 @@ Then call the `Parmeter` in a meta tag in your `<head>`:
 <meta name="description" content="{{ $.Param "description" }}">
 ```
 
-Using some simple logic we can take this further still, [head over to github](https://github.com/harrycresswell/harry/blob/master/site/layouts/partials/head.html) if you’re interested in finding out how this works.
+Using some simple logic we can take this further still, [head over to github](https://github.com/harrycresswell/harry/blob/main/themes/hc-starter/layouts/partials/head.html) if you’re interested in finding out how this works.
 
 There you have it. A couple of simple fixes to optimise your web pages and improve your chances of ranking higher in search engines.
 
@@ -88,5 +88,3 @@ I hope this has been a helpful read.
 ## Further reading
 
 - [Create unique, accurate page titles](https://support.google.com/webmasters/answer/7451184?hl=en#uniquepagetitles) from Google’s SEO Starter Guide
-- [Go Hugo SEO](https://blog.el-chavez.me/2015/11/26/go-hugo-seo/) from MT Chavez
-- [Rank Bio](http://www.rankbio.com) - test your websites for best practices

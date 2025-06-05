@@ -104,5 +104,4 @@ For more on data in Hugo head to the docs, where you can learn about “data-dri
 
 ## Further reading
 
-- [How to use Data Files in Hugo: an example](https://novelist.xyz/tech/hugo-data-files/) by Peter Y. Chuang
 - [Data Templates](https://gohugo.io/templates/data-templates/) fro the Hugo Docs
