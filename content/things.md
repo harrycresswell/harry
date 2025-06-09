@@ -27,7 +27,7 @@ layout= "page"
 
 ## Past projects
 
-[instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo site showing how to create an Instagram feed on a Hugo website using [Profile Page Images Loader](https://profilepageimages.usecue.com/) by Joost van der Schee.
+[instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo site showing how to create an Instagram feed on a Hugo website using Profile Page Images Loader by [Joost van der Schee](https://usecue.com/).
 
 [Design tokens and styleguides with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy). A simple workflow showing you how to use Eleventy and NPM Scripts to take YAML design tokens and generate a styleguide and CSS Custom properties.
 

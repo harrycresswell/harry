@@ -3,7 +3,7 @@ title: "25 05 01"
 date: 2025-05-01T10:22:59+01:00
 draft: false
 slug: "25-05-01"
-description: ""
+description: "These are the things I’m focusing my time and energy on right now."
 ---
 
 ![Sitting by the Alster, enjoying the sun and a pizza from Spezzagrano](https://res.cloudinary.com/harrycresswell/image/upload/v1748424846/hc/harry-at-alster_dd6mib_f4tsdr.jpg)

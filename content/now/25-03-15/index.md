@@ -3,7 +3,7 @@ title: "25 03 15"
 date: 2025-03-15T11:04:10Z
 draft: false
 slug: "25-03-15"
-description: ""
+description: "These are the things I’m focusing my time and energy on right now."
 ---
 
 ![Me and Rebekka at the top of the glacier, in front of the La Plagne sign, around 3000m above sea level](https://res.cloudinary.com/harrycresswell/image/upload/v1742296493/hc/250315_harry-cresswell-la-plagne-glacier-with-rebekka_fca48v.jpg)

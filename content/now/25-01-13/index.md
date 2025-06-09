@@ -4,7 +4,7 @@ date: 2025-01-13T13:09:13Z
 draft: false
 slug: "25-01-13"
 topics: [""]
-description: ""
+description: "These are the things I’m focusing my time and energy on right now."
 ---
 
 These are the things I’m focusing my time and energy on right now.
