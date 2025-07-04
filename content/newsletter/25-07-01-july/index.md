@@ -12,11 +12,15 @@ As per usual, here are my highlights from the past month, a few good links from 
 
 ## Highlights from last month
 
-Watched [Andor](https://www.imdb.com/title/tt9253284/), [London: 2000 years of History](https://www.imdb.com/title/tt9845484/) and [Clarkson’s Farm 4](https://www.imdb.com/title/tt10541088/).
+Published [Hugo Version Manager](https://harrycresswell.com/writing/hugo-version-manager/).
+
+Watched [Andor](https://www.imdb.com/title/tt9253284/), [London: 2000 years of History](https://www.imdb.com/title/tt9845484/), [Clarkson’s Farm 4](https://www.imdb.com/title/tt10541088/) and a bunch of Glastonbury Festival.
 
 Celebrated my [39th birthday](/now/25-06-16/), then celebrated [the 40th of an old friend from uni](/now/25-06-21/).
 
 Ran the [Hella Hamburg Halbmarathon](/now/25-06-29/).
+
+Read [Foundation by Isaac Asimov](https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)).
 
 Had great fun played padel for the first time. Apparently I’m late to the party, or so my friends on social media keep telling me.
 
