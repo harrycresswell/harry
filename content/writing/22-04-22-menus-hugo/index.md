@@ -906,5 +906,5 @@ There’s lots more to cover on the topic of menus. Managing menus from a `confi
 
 In my view, the latest example is quite a bit more complicated to wrap your head around, especially for Hugo beginners. I suspect it exists in its current form to show what _can_ be done with menus, rather than to offer the simplest implementation. With this in mind, and given that the techniques outlined in this post are still perfectly valid, I have refrained from making any changes to this post. 
 
-If you are interesting in learning more about the approach used in the starter theme and the Hugo docs, then I have explained all the code, in detail, in another post: [Exploring Hugo’s new starter theme and updates to the `new site` command](https://harrycresswell.com/writing/exploring-hugos-new-theme/#menus).
+If you are interesting in learning more about the approach used in the starter theme and the Hugo docs, then I have explained all the code, in detail, in another post: [Exploring Hugo’s new starter theme and updates to the `new site` command](/writing/exploring-hugos-new-theme/#menus).
 
