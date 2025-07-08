@@ -896,8 +896,15 @@ With the ability to assign Params, we can do all sorts of things to customise ou
 
 There’s lots more to cover on the topic of menus. Managing menus from a `config/menus.toml` file and dealing with multi-lingual site navigation both come to mind. But these topics could easily be articles in themselves, so I’ll leave it there for today. 
 
-
 ## Resources
 - https://gohugo.io/content-management/menus/
 - https://gohugo.io/templates/menu-templates/
+
+---
+
+**08-07-25 update**: This post was originally written in 2022, long before the Hugo starter theme (generated using the [hugo new theme](https://gohugo.io/commands/hugo_new_theme/#hugo-new-theme) command) was introduced and the [Menu Templates](https://gohugo.io/templates/menu/#example) docs were updated to include a different example, from those outlined in this post, of how to rendering a menu in Hugo. 
+
+In my view, the latest example is quite a bit more complicated to wrap your head around, especially for Hugo beginners. I suspect it exists in its current form to show what _can_ be done with menus, rather than to offer the simplest implementation. With this in mind, and given that the techniques outlined in this post are still perfectly valid, I have refrained from making any changes to this post. 
+
+If you are interesting in learning more about the approach used in the starter theme and the Hugo docs, then I have explained all the code, in detail, in another post: [Exploring Hugo’s new starter theme and updates to the `new site` command](https://harrycresswell.com/writing/exploring-hugos-new-theme/#menus).
 
