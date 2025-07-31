@@ -7,9 +7,9 @@ topics: ["Hugo", "Tools"]
 description: "With `hvm`, it’s now possible to manage multiple versions of Hugo and switch between them on a project-by-project basis."
 ---
 
-If your site uses an old version of Hugo and you’re happy with the features it offers, then you can happily stick with it as long as you like. Hugo will continue to work without any issues. This is one of the many great things about working with Hugo, as it means there’s no real need to upgrade your version, unless you want to.
+If your site uses an old version of Hugo and you’re happy with the features it offers, then you can happily stick with it as long as you like. Hugo will continue to work without any issues. This is one of the many great things about working with Hugo. There’s no real need to upgrade your version, that is, unless you want to.
 
-If you want the latest features, however, then you’ll need to upgrade Hugo to the latest version. In the past, [upgrading Hugo](/writing/upgrading-hugo-warnings-breaking-changes/) was a global affair. Update the Hugo binary and your  version of Hugo updates everywhere, in every project. Although the process was fairly straight forward, it often meant [fixing breaking changes](/writing/breaking-changes-upgrading-hugo/) by working through each of your projects, one by one. Personally, I never experiences any major issues when upgrading Hugo, but the process always took some time.
+If you do want the latest features, however, then you’ll need to upgrade Hugo to the latest version. In the past, [upgrading Hugo](/writing/upgrading-hugo-warnings-breaking-changes/) was a global affair. Update the Hugo binary and your  version of Hugo updates everywhere, in every project. Although the process was fairly straight forward, it often meant [fixing breaking changes](/writing/breaking-changes-upgrading-hugo/) by working through each of your projects, one by one. Personally, I never experienced any major issues when upgrading Hugo, but the process always took some time.
 
 I now run and manage ~20 Hugo websites. And, that doesn’t include the various tools and demo projects that I’ve also built with Hugo. With every new site I create, the thought of upgrading becomes that little bit more daunting. And, process of upgrading Hugo becomes that little bit more time consuming.
 
