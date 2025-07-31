@@ -17,6 +17,8 @@ layout= "page"
 
 [Mood](https://github.com/harrycresswell/mood/) is lightweight, JavaScript-free Hugo theme for moodboarding.
 
+[Brand guide](https://design.angelinvestmentnetwork.co.uk/) is a Hugo theme I use to create brand guideline microsites for my clients.
+
 [Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers. It’s now run by [Rebekka](https://rebekkawrites.com/).
 
 [Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
