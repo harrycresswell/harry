@@ -11,6 +11,8 @@ layout: page
 
 ## 2025
 
+- The Day After Roswell by Philip J. Corso
+- Foundation by Isaac Asimov
 - UFO of God by Chris Bledsoe
 - Vulture Capitalism by Grace Blakeley
 - Far Journeys by Robert A. Monroe
