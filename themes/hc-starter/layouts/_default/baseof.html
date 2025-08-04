@@ -25,8 +25,8 @@
   {{ $customJS := slice $lazysizes $emailmask | resources.Concat "app-custom.js" }}
   <!-- Set default -->
   {{ $script := $defaultJS }}
-  <!-- If content is writing, change script to custom -->
-  {{ if or (eq .Type "writing") (eq .Type "updates") }}
+  <!-- If content is writing or subscribed oage, change script to custom to include email mask script -->
+  {{ if or (eq .Type "writing") (eq .Path "/subscribed") }}
     {{ $script = $customJS }}
   {{ end }}
   <!-- Assign script to global, minify and fingerprint -->
