@@ -36,3 +36,5 @@ layout= "page"
 
 [Design tokens and styleguides with Eleventy](https://github.com/harrycresswell/design-tokens-eleventy). A simple workflow showing you how to use Eleventy and NPM Scripts to take YAML design tokens and generate a styleguide and CSS Custom properties.
 
+[trashmonster](https://trashmonster.netlify.app/). In what feels like a lifetime a go I spent a good amount of my time screen printing, painting and creating 3D street installations.
+
