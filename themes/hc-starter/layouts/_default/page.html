@@ -6,13 +6,13 @@
       {{ with .Params.subtitle }}
         <p class="font-step-1">{{ . }}</p>
       {{ end }}
-      <div> 
+      {{/*  <div> 
         {{ $published := .PublishDate | time.Format ":date_medium" }}
         {{ $modified := .Lastmod | time.Format ":date_medium" }}
         {{ if ne $published $modified }}
         <span class="Badge"> Updated: {{ .Lastmod.Format "Jan 2 2006" }} </span>
         {{ end }}
-      </div>
+      </div>  */}}
     </header>
 
     <section class="e-content flow">
