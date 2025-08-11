@@ -106,11 +106,9 @@ Previously I used Notion for bookmarking – saving web pages using the Notion W
 
 [Obsidian](https://obsidian.md/)** is my note taking tool of choice. I’m not yet using it to it’s full potential as a second brain, but this is something I plan on working on in the future. I’ve also started using it for journaling and planning OKR with Quarterly, Weekly and Daily notes.
 
-I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for picking up typos, bad grammar and so on, but use it too much and it strips the personality from your writing.
+I use [Grammarly](https://www.grammarly.com) with caution. It’s helpful for picking up typos, bad grammar and so on, but I find it can strip the personality from your writing.
 
-[Hemmingway](https://hemingwayapp.com) I find helpful for cleaning up lengthy sentances and spotting passive voice.
-
-I’ve been using [Mailchimp](https://mailchimp.com/) for my mailing list for years, however these days it often feels overkill for my needs. With that said, I decided to give [Buttondown](https://buttondown.email/) a go for the [Practical Hugo](https://practicalhugo.com/) mailing list – only positive things to say so far.
+[Hemmingway](https://hemingwayapp.com) I find helpful for cleaning up lengthy sentances and spotting passive voice. But, a
 
 I find myself using [Apple Notes](https://www.icloud.com/notes/) for fleeting notes written when I’m on the go. These aren’t usually notes I want to keep long-term, so from time to time I’ll have a big clearout and delete them all.
 
@@ -133,11 +131,15 @@ I use [TinyStopwatch](https://apps.apple.com/app/tinystopwatch/id1447754003) for
 
 I use [FreeAgent](http://fre.ag/44clni8a)* as my accounting software and have done since working with my accountants (they include a free subscription). FreeAgent makes it very easy to create invoices and manage expenses. If you run your own business in the UK and you’re not using a digital accounting tool, then checkout Freeagent.
 
-My business is insured by [With Jack](https://withjack.co.uk/), who protect freelance creatives in the UK, set up as sole traders or limited companies.
+My business is insured by [With Jack](https://withjack.co.uk/). They protect freelance creatives in the UK who are set up as either sole traders or limited companies.
 
 I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* as my UK business bank account.
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
+
+I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/) for my personal newsletter. I recommend Brevo to my european clients, so it makes sense that I’m using the same tool. We also use Brevo at [ERYN](https://studioeryn.com/), it has a partnership program so it’s agency friendly.
+
+For the [Practical Hugo](https://practicalhugo.com/) mailing list I’m currently using [Buttondown](https://buttondown.email/). However, I’m considering moving it over to Brevo so all my lists are in one place.
 
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 

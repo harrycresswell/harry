@@ -18,15 +18,15 @@ Similarly, **this website does not use analytics** of any kind to track visitors
 
 ## What I do with data
 
-The data I collect via my newsletter sign up form is stored in my [Mailchimp](https://mailchimp.com/features/landing-pages/) account and used for the sole purpose of sending newsletters. I only email people who have genuinely signed up to receive my newsletters. I have no intention of selling your information to any third party data brokers.
+The data I collect via my newsletter sign up form is stored in my [Brevo](https://www.brevo.com/) account and used for the sole purpose of sending newsletters.  I only email people who have genuinely signed up to receive my newsletters. I have no intention of selling your information to any third party data brokers.
 
 The data I collect from my contact page is stored by [Netlify](https://www.netlify.com/), who send me a notification via email when a submision has been received. I use this data to correspond with the contact via email. If the contact becomes a client, then I may use this data to process invoices using [FreeAgent](https://www.freeagent.com/), my accounting software.
 
 ## How I keep your data safe
 
-I use [BitWarden](https://bitwarden.com/) to randomly generate and store a 28-character password for my Mailchimp, Netlify and FreeAgent accounts. I also use [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep these accounts as safe as possible from hacks. 
+I use [Bitwarden](https://bitwarden.com/) to randomly generate and store a 28-character password for my Brevo, Netlify and FreeAgent accounts. I also use [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) in order to keep these accounts as safe as possible from hacks. 
 
-With Mailchimp, I use [double opt-in](https://kb.mailchimp.com/lists/signup-forms/single-opt-in-vs.-double-opt-in) during the sign up process to prevent spam accounts and include an unsubscribe link on every email I send out.
+With Brevo, I use [double opt-in](https://www.brevo.com/blog/double-opt-in/) during the sign up process to prevent spam accounts and include an unsubscribe link on every email I send out.
 
 _⚠️ While I take the security of your personal data extremely seriously, no method of transmission over the internet, or method of electronic storage is 100% secure. While I strive to use commercially acceptable means to protect your personal data, I cannot guarantee its absolute security, particularly from third party data breaches._
 

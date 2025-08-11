@@ -7,11 +7,9 @@ slug: "thanks"
 layout: "page"
 ---
 
-
-
 To complete your subscription, **please click the link in the email I just sent you**. Then you’re all set up and ready to receive emails.
 
-Once that’s done, you should receive a welcome email, with a little more info about what to expect.
+Once that’s done, you should be redirected to another page on my site, where you’ll find a little more info about what to expect from my newsletter.
 
 I hope you enjoy what’s coming up. But if not, you can unsubscribe anytime.
 

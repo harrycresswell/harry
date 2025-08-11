@@ -14,7 +14,7 @@ At the beginning of each month, I’ll send you an email containing a round up o
 
 ## A little housekeeping
 
-Please “whitelist” messages from mail@harrycresswell.com in your email client so they arrive in your inbox and not somewhere else. If you use Gmail, these emails may end up in your Promotional tab. Just click and drag the first newsletter I send you into your Primary inbox and you should be good to go.
+Please “whitelist” messages from **mail@harrycresswell.com** in your email client so they arrive in your inbox and not somewhere else. If you use Gmail, these emails may end up in your Promotional tab. Just click and drag the first newsletter I send you into your Primary inbox and you should be good to go.
 
 ## Whilst you’re here
 
