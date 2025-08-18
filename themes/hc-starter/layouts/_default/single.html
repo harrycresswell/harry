@@ -35,10 +35,11 @@
     {{ $source_title := .Params.source_title }}
     {{ $source_link := .Params.source_link  }}
     {{ $author := .Params.author }}
+
     {{ if eq .Section "links" }}
       {{ with $source_link }}
       <div>
-        <a href="{{ . }}">{{ $source_title }} <span>&#8599;</span></a> {{ with $author }}from {{ . }}{{ end }}. 
+        <a href="{{ . }}">{{ $source_title }} <span>&#8599;</span></a> {{ with $author }}from {{ . }}.{{ end }}
       </div>
       {{ end }}
     {{ end }}
