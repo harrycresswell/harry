@@ -48,3 +48,5 @@ Anyway, I hope to see this “AI-free” trend continue to grow. I’ll return t
 **27th Aug 24**: [Piccalilli](https://piccalil.li/about/) commits to being an AI-free publication:
 
 > We maintain that quality by focusing on web standards technology and a guaranteed commitment that ==we will never publish content written by large language models or other flavours of “AI”==.
+
+**31st August 25**: [David Bushell](https://dbushell.com/2025/06/18/ai-policy/) breaks down some of the reasons his work is AI free in a [AI Policy](https://dbushell.com/ai/). 
