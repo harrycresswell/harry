@@ -30,6 +30,8 @@ layout= "page"
 
 [In Detail](https://indtl.com/). An engagememnt ring concierge service which started life as a jewellery blog. I co-founded the project back in 2011, with Jewellery consultant Beanie Major.
 
+[AIN Jobs](https://ain-jobs.netlify.app/). A Jobs board built for Angel Investment network using Gatsby and React.
+
 [Remote Cards](https://remotecards.netlify.app/) is a fun card generator tool for promoting live streaming events. I built this with my brother [Ben](https://benmclaren.xyz/) during the first week of the Covid-19 lockdown.
 
 [instagram-hugo](https://github.com/harrycresswell/instagram-hugo). A simple demo showing how to create an Instagram feed on a Hugo website using the now defunct Profile Page Images Loader by [Joost van der Schee](https://usecue.com/).
