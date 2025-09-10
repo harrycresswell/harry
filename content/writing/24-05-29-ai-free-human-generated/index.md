@@ -50,3 +50,9 @@ Anyway, I hope to see this “AI-free” trend continue to grow. I’ll return t
 > We maintain that quality by focusing on web standards technology and a guaranteed commitment that ==we will never publish content written by large language models or other flavours of “AI”==.
 
 **31st August 25**: [David Bushell](https://dbushell.com/2025/06/18/ai-policy/) breaks down some of the reasons his work is AI free in a [AI Policy](https://dbushell.com/ai/). 
+
+**10th September 25**: Derek Sivers has a short statement in the footer of his website that reads:
+
+> Everything here is written by me, personally, not an AI.
+
+He also links to his [AI manifesto](https://sive.rs/ai) page, which details how he uses generative AI/LLM tools in his work.
