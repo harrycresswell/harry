@@ -3,8 +3,8 @@
 Creator: Harry Cresswell
 Site: Harry Cresswell
 Url: https://www.harrycresswell.com/
-Contact: studio@harrycresswell
-Social: @harrycresswell
+Contact: web@harrycr.es
+Social: https://github.com/harrycresswell
 Location: London, UK
 
 /* THANKS */
@@ -18,6 +18,9 @@ https://css-irl.info/
 
 Andy Bell - @andybelldesign
 https://andy-bell.design/
+
+Haydon Pickering - @heydonworks
+https://heydonworks.com
 
 Frank Chimero - @frank_chimero
 https://frankchimero.com/
@@ -34,9 +37,6 @@ https://adactio.com/
 Regis Philibert - @regisphilibert
 https://www.regisphilibert.com/
 
-Haydon Pickering - @heydonworks
-https://heydonworks.com
-
 Jen Simmons - @jensimmons
 https://jensimmons.com/
 
@@ -45,9 +45,8 @@ https://www.sarasoueidan.com/
 
 /* SITE */
 
-Last update: 2022/06/01
+Last update: 2025/09/17
 Standards: HTML5, CSS3
-Components: Autoprefixer, Postcss-cli, NPM scripts
 Software: Hugo, VSCode, Obsidian
 
 /* WTF? */

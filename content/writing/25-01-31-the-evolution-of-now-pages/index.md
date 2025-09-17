@@ -23,8 +23,8 @@ It would be fun to try something similar with my own /now page. Make it feel mor
 
 In my head, I picture myself posting these updates from a chairlift in the Alps. Or whilst out on a hike with friends. Perhaps I’m overestimating how interesting my day-to-day life actually is. I suppose we’ll find out soon enough. Whatever the case, with the demise of Big Social, it feels like the right sort of time to make this happen.
 
-I expect the key to making it work is figuring out a simple system that makes posting these “now” updates as frictionless as possible. Realistically, that’s the only way I’m likely stick with it, but I guarantee that’s easier said than done. 
+I expect the key to making it work is figuring out a simple system that makes posting these “now” updates as frictionless as possible. Realistically, that’s the only way I’m likely to stick with it, but I guarantee that’s easier said than done. 
 
-Before I get deep in the weeds with that, the first step is to change how my /now page functions. Make it act more like a blog, and less like a boring transient page which rarely ever gets updated.
+Before I get too deep in the weeds with that, the first step is to change how my /now page functions. Make it act more like a blog which lists recent updates, and less like a boring transient page which rarely ever gets updated.
 
 [^1]: [Adam](https://notes.neatnik.net/2025/01/everything-is-a-web-page) and [Cory](https://coryd.dev/posts/2025/most-pages-are-actually-posts/) also have some interesting thoughts on which pages to syndicate.

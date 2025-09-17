@@ -14,8 +14,6 @@ I’m in the process of moving my newsletter away from Mailchimp. Although the U
 
 I’m spending a good bit of my days working on [Practical Hugo](https://practicalhugo.com/). This has become a far bigger project than I initially anticipated, but I think it will turn into the one I’m most proud of. I’m hoping to release the first part very soon. 
 
-I’m about to make a start on the [Buxton Three Two](https://buxtonthreetwo.com/) redesign. Generally I don’t do much GSAP on client projects, so this is a rare opportunity to play with some JavaScript animation. 
-
 I’ve been off social media for years now, but I’ve been lazy about deleting my accounts. Having recently stumbled upon [cyd](https://cyd.social/), I figured I’d make a start by winding down my ~~Twitter~~ X accounts.
 
 ## Things I’m learning
