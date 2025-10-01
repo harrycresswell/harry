@@ -6,9 +6,11 @@ slug: "25-09-15"
 description: "Yesterday I ran run the Kallithea Half Marathon in Athens."
 ---
 
+![](https://res.cloudinary.com/harrycresswell/image/upload/v1759311151/hc/klhm25-01217.jpg)
+
 Yesterday I ran run the [Kallithea Half Marathon](http://www.kallitheahalf.gr/index.php/en/) in Athens. 
 
-Except for a small section around the water by the [Stavros Niarchos Cultural Center](https://www.snfcc.org/en/), it was 3 laps of a fairly unexiting route in brutal 30°c heat. Not easy.
+Except for a small section around the water by the [Stavros Niarchos Cultural Center](https://www.snfcc.org/en/), it was three laps of a fairly unexciting route in brutal 30°c heat. Not easy.
 
 To be honest, it was touch and go as to whether I would even run it, as I‘ve only just recovered from a nasty bout of flu. That, combined with the total lack of support lining the route (apart from R, of course 👏), didn’t make it any easier. 10k in and I was questioning my decision to run. I mostly just didn’t have the legs for it, due to a complete lack of long distance training over the past few months.
 

@@ -5,4 +5,6 @@ description = "Welcome to my [now page](https://nownownow.com/about), inspired b
 slug = "now"
 +++
 
-Welcome to my [now page](https://nownownow.com/about), inspired by Derek Sivers, the [IndieWeb](https://indieweb.org/) and [the evolution of /now pages](/writing/evolution-of-now-pages/). Here you can find out what I’m focusing on right now, or what I’ve been up to recently. 
+Welcome to my [now page](https://nownownow.com/about), inspired by Derek Sivers, the [IndieWeb](https://indieweb.org/) and [the evolution of /now pages](/writing/evolution-of-now-pages/). Also part of the [nownownow.com](https://nownownow.com/p/CQvw) community.
+
+Here you can find out what I’m focusing on right now, or what I’ve been up to recently. 
