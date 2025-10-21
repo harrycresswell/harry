@@ -12,6 +12,7 @@ layout: page
 ## 2025
 
 - The Ethical Design Handbook by Trine Falbe, Martin Michael Frederiksen and Kim Andersen
+- Your Website Owns You Money by Fictive Kin
 - The Day After Roswell by Philip J. Corso
 - Foundation by Isaac Asimov
 - UFO of God by Chris Bledsoe
