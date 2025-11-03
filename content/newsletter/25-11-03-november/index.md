@@ -8,7 +8,7 @@ slug: "november-2025"
 
 I like Autumn. With the changing weather I don’t feel quite so bad about spending time inside. And there’s plenty to do around the house right now. 
 
-Spurred by a a little post holiday motivation, we’ve just made a start on our kitchen renovation – the reason this newsletter’s out later than I hoped. So far I’ve learnt that using paint stripper to remove gloss paint is a terrible idea. It creates a nasty gunk that sticks to everything. Save yourself the trouble and use a heat gun instead. 
+Spurred by a little post holiday motivation, we’ve just made a start on our kitchen renovation – the reason this newsletter’s out later than I hoped. So far I’ve learnt that using paint stripper to remove gloss paint is a terrible idea. It creates a nasty gunk that sticks to everything. Save yourself the trouble and use a heat gun instead. 
 
 As per usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
