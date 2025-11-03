@@ -42,7 +42,7 @@ Herman shares some [insane stats on global smartphone usage](https://explodingto
 
 [Pure CSS Tabs With Details, Grid, and Subgrid](https://css-tricks.com/pure-css-tabs-with-details-grid-and-subgrid/) from Silvestar Bistrović.
 
-I’ve not seen many great usecases for CSS subgird yet, but thanks to Silvestar, this is definately one to add to the list.
+I’ve not seen many great use cases for CSS subgird yet, but thanks to Silvestar, this is definately one to add to the list.
 
 [Where’s the AI design renaissance?](https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html) from Erik D. Kennedy
 
