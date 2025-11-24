@@ -14,6 +14,6 @@ After a quick bite at [Canal bakery](https://canal.berlin/), we headed to Elemen
 
 Matt played some records at [Paloma Bar](https://www.instagram.com/paloma_berlin/), including a few from the new album, to see out the evening. It was a fun night with a great bunch of people, some of whom I hadn’t seen in a very long time.
 
-Tonight we all ate ramen together at [Buya Ramen Factory](https://buyarestaurants.com/buya-ramen-kreuzberg.html), which was exactly what we all needed after a big night. All in all, a very good weekend.
+Tonight we all ate ramen together at [Buya Ramen Factory](https://buyarestaurants.com/buya-ramen-kreuzberg.html), which was exactly what we all needed after a big night out. All in all, a very good weekend.
 
 Until the next time Berlin.
