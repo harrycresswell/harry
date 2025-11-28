@@ -11,6 +11,8 @@ layout: page
 
 ## 2025
 
+- Web Accessibility Cookbook by Manuel Matuzović
+- A Spy Among Friends: Kim Philby and the Great Betrayal by Ben Macintyre
 - Keep Going by Austin Kleon
 - The Ethical Design Handbook by Trine Falbe, Martin Michael Frederiksen and Kim Andersen
 - Your Website Owns You Money by Fictive Kin
