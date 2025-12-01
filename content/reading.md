@@ -15,6 +15,8 @@ layout: page
 - A Spy Among Friends: Kim Philby and the Great Betrayal by Ben Macintyre
 - Keep Going by Austin Kleon
 - The Ethical Design Handbook by Trine Falbe, Martin Michael Frederiksen and Kim Andersen
+- Rich Dad Poor Dad by Robert T. Kiyosakiss
+- The Hunt for Zero Point by Nick Cook
 - Your Website Owns You Money by Fictive Kin
 - The Day After Roswell by Philip J. Corso
 - Foundation by Isaac Asimov
