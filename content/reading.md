@@ -11,6 +11,7 @@ layout: page
 
 ## 2025
 
+- Useful Not True by Derek Sivers.
 - Web Accessibility Cookbook by Manuel Matuzović
 - A Spy Among Friends: Kim Philby and the Great Betrayal by Ben Macintyre
 - Keep Going by Austin Kleon
