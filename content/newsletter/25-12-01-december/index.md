@@ -18,7 +18,7 @@ A [great weekend in Berlin](/now/25-11-16/) celebrating the release of Morpho wi
 
 The [Morpho launch party](https://www.instagram.com/p/DRpE8MTiBaW/?hl=en&img_index=7) at Avalon Cafe in Bermondsey.
 
-Exploring Camden’s vegan food scene with [Rebal Tours](https://rebeltours.co.uk/).
+Exploring Camden’s vegan food scene with [Rebel Tours](https://rebeltours.co.uk/).
 
 Picked up a copy of [Web Accessibility Cookbook by Manuel Matuzović](https://accessibility-cookbook.com/) in the Black Friday sales and it’s very good.
 

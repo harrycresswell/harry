@@ -3,7 +3,7 @@ title: "25 11 16"
 date: 2025-11-16T11:45:03Z
 draft: false
 slug: "25-11-16"
-description: ""
+description: "I’m currently in a very wet Berlin with a bunch of friends"
 ---
 
 I’m currently in a very wet Berlin with a bunch of friends. We’re here celebrating the release of [Benyayer – Morpho](https://www.instagram.com/reel/DQMF37giM_2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), which I created the artwork for (in collabration with Matt, who also made the music).
