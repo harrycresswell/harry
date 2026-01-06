@@ -152,8 +152,9 @@ In no particular order, here are a few things I learned this year:
 - Focus comes from refining and letting go.
 - Double the time you think it’s going to take, unless you already know how long it takes.
 - Use a spray gun to paint woodwork, it’s 10x faster and the finish is much better.
-- Remove most ”smart” tech from your life.
-- Lift heavy weights.
+- Avoid most “smart” tech.
+- Stop trying to do something original and copy what’s already working.
+- Lift heavier weights.
 
 ## Wrapping up
 
