@@ -74,4 +74,4 @@ Please [share this with a friend](https://harrycresswell.com/newsletter/octobe
 
 If this is your first time here you can [subscribe via RSS](https://harrycresswell.com/feeds/) or [subscribe via email](). It would be great to have you onboard.
 
-Seeing you in the next one.
+See you in the next one.
