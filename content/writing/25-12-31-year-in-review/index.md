@@ -66,7 +66,7 @@ I’m currently in Anger, a small German town not too far from Salzburg. We’re
 
 ### Health 
 
-I ran two half marathons this year. The [Hamburg Hella Halbmaraton](/now/25-06-29/) in June and the [Kallithea Half Marathon](/now/25-09-15/) in September. My goal was to run sub 2hrs, which I managed on a very hot day in Athens with 8 minutes to spare. I also ran a seven 5k parkruns across two different parks. Setting a new PB of 21:38 in August. I’m hoping to improve on these times in 2026.
+I ran two half marathons this year. The [Hamburg Hella Halbmaraton](/now/25-06-29/) in June and the [Kallithea Half Marathon](/now/25-09-15/) in September. My goal was to run sub 2hrs, which I managed on a very hot day in Athens with 8 minutes to spare. I also ran seven 5k parkruns across two different parks. Setting a new PB of 21:38 in August. I’m hoping to improve on these times in 2026.
 
 I’ve found a steady rhythm with yoga, settling on our local studio, which recently had a refurb and is now a rather nice space to practice. Teachers have come and gone, but I’ve managed to stick with it.
 
@@ -107,7 +107,7 @@ Let’s see how it goes.
 
 I read [16 books this year](https://harrycresswell.com/reading/#2025) which isn’t too bad by my standards. I tried to keep my interests broad, reading books on Web Accessibility, Ethics, Economics, Finance, Sci-Fi or History. And my mind open, by reading about certain esoteric/fringe topics, such as out of body experiences, zero point energy and UFO’s, which fascinate me.
 
-I also read countless articles, mostly concerning design, web development and the current state of tech. Cory Doctorow work on [Enshitification and the post-American internet](https://pluralistic.net/tag/enshittification/) and Ed Zitron’s work on the [AI bubble](https://www.wheresyoured.at/) probably being the most stand out stuff I read. I also enjoyed posts published by the brilliant [404 media](https://www.404media.co/) and [Jason Kottke](https://kottke.org/), who never fails to share an endless stream of interesting content. 
+I also read countless articles, mostly concerning design, web development and the current state of tech. Cory Doctorow’s work on [Enshitification and the post-American internet](https://pluralistic.net/tag/enshittification/) and Ed Zitron’s work on the [AI bubble](https://www.wheresyoured.at/) probably being the most stand out stuff I read. I also enjoyed posts published by the brilliant [404 media](https://www.404media.co/), and [Jason Kottke](https://kottke.org/), who never fails to share an endless stream of interesting content. 
 
 ## What didn’t go so well?
 
@@ -117,7 +117,7 @@ As ever, some things didn’t go quite so well this year. Here are a few of the 
 
 Had a bit of a howler with some of my project-based client projects. 
 
-A couple of clients ghosted, one had their business go under, another I had to let go due to problems with paying invoices and a lack of alignment. I didn’t win much new business, though I didn’t exactly try hard to find it. Much of that was due to focusing on retainer projects and side projects.
+A couple of clients ghosted, one had their business go under, another I had to let go due to problems with paying invoices and a lack of alignment. I didn’t win much new business, though I didn’t exactly try hard to find it. Much of that was due to focusing on projects with retainer clients and personal side projects.
 
 I  plan on assessing and hopefully clarifying my offering in the new year. Then dedicating more time to sales and marketing, and solving the pitfalls in my client qualifying process.
 
@@ -137,9 +137,9 @@ I still find meditation really valuable when I actually do it, so I’d like to 
 
 I’ve done a good bit of work to reduce [my dependencies on Google](/writing/de-googling/) in recent years. However this year, Docs, Sheets and Drive have all crept back into my workflow.
 
-I’ve been using Docs mostly for discovery documents I share with clients, for the simple reason that it’s great for collaboration and most people know how to use it. I’ve started using Sheets  for budget tracking and project time tracking. I also used it in a client project, to [generate web pages from Sheets data](/writing/generate-pages-from-google-sheets/), which an SEO agency my client partnered with had prepared. Google Drive, of course, is kinda unavoidable when you’re working with either Docs and Sheets.
+I’ve been using Docs mostly for discovery documents I share with clients, for the simple reason that it’s great for collaboration and most people know how to use it. I’ve started using Sheets for budgeting and project time tracking. I also used it in a client project, to [generate web pages from Sheets data](/writing/generate-pages-from-google-sheets/), which an SEO agency my client partnered with had prepared. Google Drive, of course, is kinda unavoidable when you’re working with either Docs and Sheets.
 
-Until I can find better alternatives it looks like I’m stuck with these tools for now. I’m fairly strict with my criteria for when I will allow myself to use them, so I’m hoping this will help kerb any serious dependencies that will be difficult to unpick at some point further down the line.
+Until I can find better alternatives, it looks like I’m stuck with these tools for now. I’m fairly strict with my criteria for when I will allow myself to use them, so I’m hoping this will help kerb any serious dependencies, that may prove difficult to unpick at some point further down the line.
 
 
 ## What did I learn?
@@ -162,4 +162,4 @@ There’s plenty of reasons to feel uncertain and despondent right now. Be it re
 
 In spite of all this, for me personally, it’s still been a fairly positive year. Not necessarily my most successful year financially. But certainly one in which I travelled a lot, stayed relatively healthy, found focus with side projects, made slow steady progress with client work, let go of things that were holding me back and gained a little more clarity over what I’m actually doing with my life. 
 
- So I’m ending the year feeling fit, happy, positive and full of gratitude. I have a rough plan for where I’ll focus my energy in 2026 and that, I think, given everything else that’s going on in the world, is more than I can ask for.
+So I’m ending the year feeling fit, happy, positive and full of gratitude. I have a rough plan for where I’ll focus my energy in 2026 and that, I think, given everything else that’s going on in the world, is more than I can ask for.
