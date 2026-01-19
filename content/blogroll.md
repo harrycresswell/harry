@@ -5,6 +5,7 @@ draft: false
 slug: "blogroll"
 description: "These are the RSS feeds I currently subscribe to using NetNewsWire."
 layout: "blogroll"
+
 ---
 
 These are the RSS feeds I currently subscribe to using [NetNewsWire](https://netnewswire.com/).
