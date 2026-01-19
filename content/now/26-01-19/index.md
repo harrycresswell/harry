@@ -6,7 +6,7 @@ slug: "26-01-19"
 description: "These are the things I’m focusing my time and energy on right now."
 ---
 
-I’m in London, where right now my time and energy is focused on:
+I’m in London right now. 10°c, grey skies. Good conditions for getting on with things.
 
 ## What I’m working on
 
