@@ -88,13 +88,15 @@ I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the b
 
 ## Reading
 
-[NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you, then think of it as curating your own feed of content from people or websites that you want to follow. But without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
+I recently started using a [Kobo Clara Colour](https://uk.kobobooks.com/products/kobo-clara-colour), along with the [Kobo Books app](https://www.kobo.com/gb/en/p/apps) to read ebooks. It plays nice [Calibre](https://calibre-ebook.com/) which I use to manage my ebooks. I’ve kept hold of my old [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite/s?k=kindle+paperwhite) for now, though I can’t say I use it much anymore.
 
-I’ve recently started using the [Kindle](https://apps.apple.com/gb/app/kindle/id302584613) app to read ebooks. Very handy when I’m not with my [Kindle Paperwhite](https://www.amazon.co.uk/kindle-paperwhite/s?k=kindle+paperwhite).
+[NetNewsWire](https://netnewswire.com)** is my RSS reader of choice. If that doesn’t mean much to you, then think of it as curating your own feed of content from people or websites that you want to follow. But without some algorithm controlling how you receive content. Content arrives chronologically and it couldn’t be more simple.
 
 ## Bookmarking and highlights
 
-[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. The latter I use as a read it later” app — for saving long form content like blog posts and YouTube videos — though it can also be used as an RSS reader. I use the former to save highlights from my Kindle, which are then rolled up in a daily review. Any highlights made in Reader or by using [Readwise Highlighter](https://chromewebstore.google.com/detail/readwise-highlighter/jjhefcfhmnkfeepcpnilbbkaadhngkbi) will also end up in the daily review.
+[Readwise](https://readwise.io/) and [Reader](https://readwise.io/read) are quickly becoming my favourite two tools. The latter I use as a “read it later” app — for saving long form content like blog posts and YouTube videos — though it can also be used as an RSS reader. I use the former to save highlights from my Kobo and Kindle, which are then rolled up in a daily review. Any highlights made in Reader or by using [Readwise Highlighter](https://chromewebstore.google.com/detail/readwise-highlighter/jjhefcfhmnkfeepcpnilbbkaadhngkbi) will also end up in the daily review.
+
+One of the main reasons I was drawn to Kobo is the integration with [Instapaper](https://www.instapaper.com/), which I now use to save any article that I want to read on my Kobo. Reading web content on an e-ink reader is a real gamechanger.
 
 I recently discovered [Anybox](https://anybox.app/), an incredible little macOS app for managing bookmarks that works with iCloud. I use it to save anything that doesn’t fall into the long form content category. Things like useful tools, products and resources. 
 
