@@ -137,9 +137,7 @@ I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* as my UK bu
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
 
-I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/) for my personal newsletter. I recommend Brevo to my european clients, so it makes sense that I’m using the same tool. We also use Brevo at [ERYN](https://studioeryn.com/), it has a partnership program so it’s agency friendly.
-
-For the [Practical Hugo](https://practicalhugo.com/) mailing list I’m currently using [Buttondown](https://buttondown.email/). However, I’m considering moving it over to Brevo so all my lists are in one place.
+I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/), which I use to send my personal newsletter and Practical Hugo updates. I’ve been recommending Brevo to my european clients, so it makes sense that I’m using the same tool. Brevo has a partnership program, making it agency friendly, so we’ll also be using it at [ERYN](https://studioeryn.com/). 
 
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 
