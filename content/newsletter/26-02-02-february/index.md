@@ -6,24 +6,23 @@ description: "A good mix of travel, exercise, learning new things, great convers
 slug: "february-2026"
 ---
 
-A good mix of travel, exercise, learning new things, great conversations and completing our kitchen renovation seems to have got me through the first month of 2026. All in all it wasn’t too bad. 
+A good mix of travel, exercise, learning new things, great conversations and completing our kitchen renovation seems to have got me through the first month of 2026. All in all it wasn’t too bad.
 
 As for the next 11 months, there’s a fair bit I’d like to get done. Particularly from a work perspective, like better positioning my business offering and finding some new clients. I have a rough plan of action. And, I’m hoping with a little direction and focus, I might make some headway.
-
 
 As per usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
 ## Highlights from last month
 
-Went [tobogganing on the Hirscheckblitz Rodelbahn](https://harrycresswell.com/now/26-01-01/), followed by [Berchtesgaden Advent](https://www.berchtesgadener-advent.de/en/home-en/), then dinner at Goldener Bär. Great start to the new year.
+Went [tobogganing on the Hirscheckblitz Rodelbahn](/now/26-01-01/), followed by [Berchtesgaden Advent](https://www.berchtesgadener-advent.de/en/home-en/), then dinner at Goldener Bär. Great start to the new year.
 
-Published [Inserting products into posts](https://harrycresswell.com/writing/inserting-products-into-posts/) and [The config directory](https://harrycresswell.com/writing/config-directory/).
+Published [Inserting products into posts](/writing/inserting-products-into-posts/) and [The config directory](/writing/config-directory/).
 
 Migrated the Practical Hugo newsletter from [Buttondown to Brevo](https://practicalhugo.com/changelog/2026/01/29/buttondown-to-brevo/).
 
 Spun up a Hetzner server and figured out how to deploy Hugo sites on Coolify. Only took me a full day messing around with Nixpacks and Dockerfiles!  I’ll try to write about how this works this soon.
 
-Bought an angle grinder and finally got round to [tiling our kitchen](https://harrycresswell.com/now/26-01-19/#away-from-my-desk).
+Bought an angle grinder and finally got round to [tiling our kitchen](/now/26-01-19/#away-from-my-desk).
 
 Started watching [Spielberg’s 2002 mini-series Taken](https://www.youtube.com/watch?v=0TU3YHbVIZs).
 
