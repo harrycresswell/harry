@@ -10,7 +10,7 @@ I’m in London right now. 10°c, grey skies. Good conditions for getting on wit
 
 ## What I’m working on
 
-I currently exploring the idea of moving [Practical Hugo](https://practicalhugo.com/) away from Cloudflare Pages and instead self-hosting, using either [Coolify](https://www.coolify.io/) or [Dokploy](https://dokploy.com/). It feels like a better fit considering the subject matter. 
+I’m currently exploring the idea of moving [Practical Hugo](https://practicalhugo.com/) away from Cloudflare Pages and instead self-hosting, using either [Coolify](https://www.coolify.io/) or [Dokploy](https://dokploy.com/). It feels like a better fit considering the subject matter. 
 
 I’m about to start migrating Solorsimple to Cloudcannon’s [Unified Configuration](https://cloudcannon.com/documentation/guides/unified-configuration-migration-guide/), mainly to speed up the CMS and get the site inline with the Cloudcannon docs.
 
