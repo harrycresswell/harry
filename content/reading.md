@@ -9,6 +9,11 @@ description: "A list of books I’ve read since 2018"
 layout: page
 ---
 
+## 2026
+
+- Artemis by Andy Weir
+- Enshitification by Cory Doctorow
+
 ## 2025
 
 - Useful Not True by Derek Sivers.
