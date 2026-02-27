@@ -11,7 +11,7 @@ layout= "page"
 
 ## Active projects
 
-[Practical Hugo](https://practicalhugo.com) is a course on building leaner, faster, more resilient websites with [Hugo](/topics/hugo). I plan to release the first season later this year.
+[Practical Hugo](https://practicalhugo.com) is a course on building fast, resilient, content-based websites using the static site generator [Hugo](/topics/hugo).
 
 [cu.css](https://cu.harrycresswell.com) is a lightweight CSS boilerplate that will help you build websites fast, using CUBE CSS and Utopia fluid design.
 
@@ -19,11 +19,11 @@ layout= "page"
 
 [Brand guide](https://design.angelinvestmentnetwork.co.uk/) is a Hugo theme I use to create brand guideline microsites for my clients.
 
-[Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy in response to the Covid-19 lockdown, to help support local makers. It’s now run by [Rebekka](https://rebekkawrites.com/).
+[Local London](https://locallondon.life) is a directory of independent, London based food & drink makers. I started the project with my friend Rozzy to help support local makers during the pandemic. It’s now run by [Rebekka](https://rebekkawrites.com/), although I still manage the development.
 
 [Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
 
-[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). Since 2012 I’ve been collaborating with my good friend Matt Benyayer to create the artwork for his music.
+[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). I’ve been collaborating with my good friend Matt Benyayer since 2012, creating the artwork for the music he releases.
 
 
 ## Past projects

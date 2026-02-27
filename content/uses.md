@@ -7,7 +7,8 @@ draft = "false"
 layout= "page"
 +++
 
-My office setup and the app and services I use day to day, inspired by the great [Wes Bos](https://wesbos.com/uses/).
+My current office setup, along with the app and services I use day to day. This page was originally inspired by [Wes Bos](https://wesbos.com/uses) and [uses.tech](https://uses.tech/).
+
 
 ## Home office
 
@@ -31,7 +32,7 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 ## Design
 
-[Figma](https://www.figma.com/)† is my go-to design tool. I find myself using it for all sorts of design related work, not just UI. However, since the Adobe takeover, I’ve been looking into using [Penpot](https://penpot.app/)**, an open-source competitor, particularly for use with personal projects.
+[Figma](https://www.figma.com/)† has been my go-to design tool for many years now. I use it for all sorts of design related work, not just UI. However, since Figma launched a bunch of half-baked AI tools, I’ve found myself gravitating to [Penpot](https://penpot.app/)** more.
 
 [Affinity Photo](https://affinity.serif.com/en-gb/photo/) has replaced Photoshop as my choice for photo editing and creating raster based graphics. Affinity software is fast, intuitive to learn and you can’t beat a one-off payment over a monthly subscription.
 
@@ -48,15 +49,15 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 [VSCode](https://code.visualstudio.com/) is my text editor of choice. However, I also use [Typora](https://typora.io/) when writing markdown for its seemless preview. 
 
-[Git](https://git-scm.com/) is a key part of my workflow. Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) it’s hard to avoid. I use [Github](https://github.com/) to host all my code remotely.
+[Git](https://git-scm.com/) is a key part of my workflow. Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) it’s hard to avoid. I use [Github](https://github.com/)† to host all my code remotely, however I’ve been looking into slef-hosting my own [Forgejo](https://forgejo.org/) instance.
 
-In 2021 I committed to using [Hugo](https://gohugo.io/) to build content based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
+In 2021 I committed to using [Hugo](https://gohugo.io/) to build content-based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
 
 I use [Cloudcannon](https://cloudcannon.com/), a git-based content management system, for any client project which requires a CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with Netlify CMS (now [Decap](https://decapcms.org/)), Forestry (now discontinued) and Sanity in the past, Cloudcannon the best I’ve found for websites built with Hugo. 
 
-For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) for personal projects. 
+For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) for personal projects. However, I recently set up a self-hosted [Coolify](https://www.coolify.io/) instance on a [Hetzner VPS](https://www.hetzner.com/cloud), which I’m currently testing out with the Practical Hugo website.
 
-[Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times.
+[Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times. I’m also trialing [imgproxy](https://imgproxy.net/), a self-hosted alternative which I currently use on Practical Hugo.
 
 In 2023 I switch my clients from Google Analytics to [Fathom Analytics](https://usefathom.com/). Unlike Google, Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you manage lots of websites. I also run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
 
@@ -139,11 +140,15 @@ I use [Starling](https://www.starlingbank.com/referral?code=rkNWmT)* as my UK bu
 
 I use [Wise](https://wise.com/invite/u/harryc454)* to collect payments in foreign currencies from international clients. With Wise you can set up a local bank account and receive payments much faster than with a domestic bank account.
 
-I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/), which I use to send my personal newsletter and Practical Hugo updates. I’ve been recommending Brevo to my european clients, so it makes sense that I’m using the same tool. Brevo has a partnership program, making it agency friendly, so we’ll also be using it at [ERYN](https://studioeryn.com/). 
-
 [Gumroad](https://gumroad.com/) is the tool I use to handle online payments for things like fonts or themes. 
 
 I use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
+
+## Marketing
+
+I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/), which I use to send my personal newsletter and Practical Hugo updates. I’ve been recommending Brevo to my european clients, so it makes sense that I’m using the same tool. Brevo also has a partnership program, making ideal for freelancers and small agencies.
+
+I’ve been using [Typeform](https://www.typeform.com/) to collect feedback for years, however with all the great and affordable ways to create forms these days, I struggle to justify their pricing. Recently I started using [Tally](https://tally.so/), it’s a joy to work with and has a generous free tier.
 
 ## Automation
 
@@ -160,7 +165,6 @@ I recently switched from [Notion](https://www.notion.so/)† to Obsidian for hab
 
 Having tried many of the meditation apps out there, my current favourite for guided meditation is [Balance](https://balanceapp.com/). For unguided meditation I use [Insight Timer](https://insighttimer.com/).
 
-~~I use the [Zoe](https://zoe.com/) app for logging and scoring recipes and meals.~~
 
 ## Misc
 
