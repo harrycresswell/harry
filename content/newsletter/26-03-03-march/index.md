@@ -46,6 +46,11 @@ Useful accessibility tips on how to successfully hide presentational SVGs. I’m
 
 Martin explains the difference between figcaptions and alternative text. Spoiler: alt text should describe the image, whereas figcaption should be used to explain what part the image plays in whatever you’re writing.
 
+[Alpine notes](https://ruperthartley.substack.com/p/alpine-notes) from Rupert Hartley.
+
+35mm photographs from a short hike above Chamonix last Autumn. As someone who can’t get enough of the mountains, I enjoyed this one a lot.
+
+
 ## What I’m up to in March
 
 - Various client projects.
