@@ -48,6 +48,8 @@ This will clean the `/public` folder and run a fresh build ready for production.
 
 All of the content on this site is produced under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
-Head to my [Licence page](https://harrycresswell.com/license/) for more information on what you can do with it, and how to provide attribution correctly.
+Head to my [Licence page](https://harrycresswell.com/license/) for more information on what you can do with the content on this website, and how to provide attribution correctly.
 
+I have made the repository for this site public to aid the learning of others. However, this doesn’t mean you can copy the design verbaitim. 
 
+You may remix, adapt, or distribute the design and/or code of this website, provided that the resulting work differs substantially in layout, color scheme, or overall visual presentation from the original.
