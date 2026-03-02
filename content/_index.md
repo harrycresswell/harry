@@ -5,7 +5,7 @@ description: "Harry Cresswell is a professional Front-end web developer based in
 draft: false
 ---
 
-{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell – Front-end Web Development" caption="" >}}
+{{< pullImage src="v1550264713/hc/harry-cresswell-about-me.jpg" alt="Harry Cresswell, a friendly white man with a short brown beard, wearing a black cap and a grey flecked brushed cotton shirt. He’s sitting on a white metal locker in front of a white wall." caption="" >}}
 
 I design and code fast, accessible, content-based websites, mostly using ”vanilla” HTML, CSS, and JavaScript.
 
