@@ -6,7 +6,7 @@ slug: "25-09-15"
 description: "Yesterday I ran run the Kallithea Half Marathon in Athens."
 ---
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1759311151/hc/klhm25-01217.jpg)
+![Harry Cresswell, a slim white man in a cap, sun glasses, grey tshirt and black shorts running along side a lake lined with trees. He has the number 104 attached to the front of his shirt and he’s smiling at the camera whilst giving the photographer two thumbs up.](https://res.cloudinary.com/harrycresswell/image/upload/v1759311151/hc/klhm25-01217.jpg)
 
 Yesterday I ran run the [Kallithea Half Marathon](http://www.kallitheahalf.gr/index.php/en/) in Athens. 
 

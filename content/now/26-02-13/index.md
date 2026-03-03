@@ -6,6 +6,6 @@ slug: "26-02-13"
 description: "Skiing fresh powder on our final day on the Stubai Glacier"
 ---
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1771178042/hc/2602013_harry-cresswell-stubai-gletscher_03.jpg)
+![Harry Cresswell, wearing ski gear, yellow reflective googles and a helmet, dropping over a small ledge of powder snow on his skis. His skis are covered in snow and he’s leaving a small cloud of powder in his wake.](https://res.cloudinary.com/harrycresswell/image/upload/v1771178042/hc/2602013_harry-cresswell-stubai-gletscher_03.jpg)
 
 Sunshine and fresh powder. The perfect way to end a week skiing [Stubai Glacier](https://www.stubaier-gletscher.com/en/).

@@ -6,7 +6,7 @@ slug: "26-01-01"
 description: "We just drove up to Ramsau near Berchtesgaden to try our hand at tobogganing on the Hirscheckblitz Rodelbahn."
 ---
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1767609677/hc/IMG_2041-small.jpg)
+![ Two people on wooden toboggans, tobogganing down a snowy track as the sun goes down behind a mountain. Snowy trees are to the left and a chairlift runs over head.](https://res.cloudinary.com/harrycresswell/image/upload/v1767609677/hc/IMG_2041-small.jpg)
 
 Happy New Year!
 

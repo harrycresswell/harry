@@ -6,7 +6,7 @@ slug: "26-02-04"
 description: "I made it down to Here at Outernet last night for the Apparat show."
 ---
 
-![Apparat, Here at Outernet](https://res.cloudinary.com/harrycresswell/image/upload/v1770200353/hc/apparat-here-at-outernet.jpg)
+![The purple and pink hues of stage lighting illuminate the band Apparat, as they perform at Here at Outernet in London. A crowd of people enjoying the music are seen in the foreground.](https://res.cloudinary.com/harrycresswell/image/upload/v1770200353/hc/apparat-here-at-outernet.jpg)
 
 I made it down to [Here at Outernet](https://hereldn.com/) last night for the [Apparat](https://en.wikipedia.org/wiki/Apparat_(musician)) show, who was playing live with the full band. So so good. 
 

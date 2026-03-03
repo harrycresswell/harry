@@ -6,6 +6,6 @@ slug: "25-06-16"
 description: "A birthday to rememeber"
 ---
 
-![Dinner ar Agora in London Bridge](https://res.cloudinary.com/harrycresswell/image/upload/v1750672982/hc/IMG_5772.jpg)
+![Harry Cresswell, a friendly white man wearing a black cap, white tshirt and cream overshirt, enjoying birthday small plates and white wine at Agora in London Bridge](https://res.cloudinary.com/harrycresswell/image/upload/v1750672982/hc/IMG_5772.jpg)
 
 I decided to take my birthday off for once. Mostly because it’s so nice outside and it’s a great excuse not to work! We went for brunch, then saw family in the afternoon for birdthday cake and a glass of something. Now we’re finishing it off with tasty food and wine at Agora in London Bridge. Definitely one to remember.

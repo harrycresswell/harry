@@ -6,7 +6,7 @@ slug: "25-06-21"
 description: "What a day we’re having down here in Wiltshire celebrating the 40th birthday of an old friend."
 ---
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1750675747/hc/2967e9dd-651d-4adb-846f-2a47346cfa1e.jpg)
+![A long banquet-style table of 25 or so friends enjoying a barbeque in the gardens of a Wiltshire country cottage, on a warm summers day](https://res.cloudinary.com/harrycresswell/image/upload/v1750675747/hc/2967e9dd-651d-4adb-846f-2a47346cfa1e.jpg)
 
 A bunch of us are down in Wiltshire for the weekend. We’re here celebrating the 40th birthday of an old friend. And what a day we’re having!
  

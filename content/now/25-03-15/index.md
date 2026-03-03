@@ -6,7 +6,7 @@ slug: "25-03-15"
 description: "These are the things I’m focusing my time and energy on right now."
 ---
 
-![Me and Rebekka at the top of the glacier, in front of the La Plagne sign, around 3000m above sea level](https://res.cloudinary.com/harrycresswell/image/upload/v1742296493/hc/250315_harry-cresswell-la-plagne-glacier-with-rebekka_fca48v.jpg)
+![Two skiers posing for a photo at the top of the glacier, in front of the La Plagne sign, around 3000m above sea level](https://res.cloudinary.com/harrycresswell/image/upload/v1742296493/hc/250315_harry-cresswell-la-plagne-glacier-with-rebekka_fca48v.jpg)
 
 Here I am with Rebekka at the top of the La Plagne glacier, 3000m above sea level. 
 
