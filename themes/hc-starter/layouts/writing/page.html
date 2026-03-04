@@ -28,7 +28,6 @@
     {{ end }}
   </header>
 
-
   <section class="e-content flow">
     {{ partial "heading-anchor.html" .Content }} 
 
@@ -57,7 +56,26 @@
 
   {{ partial "reply-by-email.html" (dict "button_text" "Reply by email" ) }}
 
+  {{/*  {{ $updates := where .Site.RegularPages "Section" "writing" }}  
+  <!-- render if URL returns true -->
+  {{- if eq .RelPermalink "/writing/learn-hugo/" }}
+    <!-- grab updates -->
+    <ul>
+      
+    <!-- loop through updates -->
+    {{ range $updates }}
+      <!-- render if topic returns true -->
+      {{ if in .Params.topics "Updates" }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
+        </li>   
+      {{ end }}
+    {{ end }}
+    </ul>
+  {{ end }}  */}}
+
   <footer class="region">{{ partialCached "post/author.html" . }}</footer>
 </article>
+
 <!--/.Content -->
 {{ end }}

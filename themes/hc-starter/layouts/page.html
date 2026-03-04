@@ -20,23 +20,6 @@
     </section>
   </article><!--/.Content -->
 
-  <!-- render if URL returns true -->
-  {{- if eq .RelPermalink "/learn-hugo/" }}
-    <!-- grab updates -->
-    {{ $updates := where .Site.RegularPages "Type" "updates" }}  
-    <ul>
-    <!-- loop through updates -->
-    {{ range $updates }}
-      <!-- render if topic returns true -->
-      {{ if in .Params.topics "Hugo course" }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }} – {{ .Title }}</a>
-        </li>   
-      {{ end }}
-    {{ end }}
-    </ul>
-  {{ end }}
-
   {{- if eq .RelPermalink "/testimonials/" }}
     {{ partial "reply-by-email.html" (dict "Page" . "button_text" "Write a testimonial" ) }}
   {{- end }}

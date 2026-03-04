@@ -17,7 +17,7 @@ signup_group: "hugo"
 
 Welcome the humble beginnings of my course on building websites with [Hugo](https://gohugo.io/). 
 
-Currently a work in progress, my aim is to share entire process through [daily updates](/topics/hugo-course/). If you’d like to join me on this journey you can [subscribe via RSS](/writing/feed.xml).
+Currently a work in progress, my aim is to share entire process through [daily updates](/topics/updates/). If you’d like to join me on this journey you can [subscribe via RSS](/writing/feed.xml).
 
 I plan on publishing each chapter of the course on this page as I write it. If you would like to receive a copy of each chapter in your inbox when it goes live, then please [sign up for course content by email](https://practicalhugo.com/).
 
