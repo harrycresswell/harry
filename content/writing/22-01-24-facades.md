@@ -7,7 +7,7 @@ slug: "facades"
 topics: ["Updates"]
 ---
 
-Found some time to improve performance on [roofsimple.com](https://roofsimple.com/). Now rather than rending video content directly in iFrames on page load, it’s now now lazy-loaded using [a nice little facade technique from Paul Irish](https://github.com/paulirish/lite-youtube-embed).
+Found some time to improve performance on [roofsimple.com](https://roofsimple.com/). Now rather than rending video content directly in iFrames on page load, it’s now lazy-loaded using [a nice little facade technique from Paul Irish](https://github.com/paulirish/lite-youtube-embed).
 
 If all this is new to you, using a facade is just a fancy way of saying you’re replacing the actual embedded video with a static image that looks similar. 
 
