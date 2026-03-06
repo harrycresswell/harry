@@ -10,7 +10,7 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <li>
-        <a data-variant="naked" {{ if eq $currentPage.RelPermalink .URL }}data-state="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
+        <a data-variant="naked" {{ if eq $currentPage.RelPermalink .URL }}data-state="active" aria-current="page"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
       </li>
     {{ end }}
     </ul>
