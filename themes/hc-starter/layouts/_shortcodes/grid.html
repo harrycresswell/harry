@@ -1,0 +1,23 @@
+{{ $layout := .Get "layout" }}
+{{ $align_items := .Get "align_items" }}
+
+{{/*  Use shortcode in markdown like this:
+  {{< grid layout="33x3" align_items="center" >}}
+    ![A Pioneer White butterfly with its yellow, white and black wings closed, sitting on a leaf.](https://res.cloudinary.com/harrycresswell/image/upload/v1773338328/hc/jaya-shukla-0948Y6YEyt4-unsplash.jpg "The Pioneer White, photo by [Jaya Shukla](https://unsplash.com/photos/a-yellow-and-white-butterfly-sitting-on-a-green-leaf-0948Y6YEyt4)")
+
+    ![A Blue Morpho butterfly with silvery blue and black wings, sitting on a leaf in a humid environment.](https://res.cloudinary.com/harrycresswell/image/upload/v1773338328/hc/mori-m-_IAKqUNsV8s-unsplash.jpg "The Blue Morpho, photo by [Mori M](https://unsplash.com/photos/a-blue-butterfly-sitting-on-top-of-a-green-leaf-_IAKqUNsV8s)")
+
+    ![A Monarch butterfly flapping its orange and black wings with white spots, taking nectar from a purple flower.](https://res.cloudinary.com/harrycresswell/image/upload/v1773338328/hc/justin-docanto-q-i_sxORsqw-unsplash.jpg "The Monarch, photo by [Justin DoCanto](https://unsplash.com/photos/a-butterfly-sitting-on-top-of-a-purple-flower-q-i_sxORsqw)")
+  {{< /grid >}}  
+*/}}
+
+<div 
+  class="region grid" 
+  data-layout="{{ $layout }}" 
+  style="
+    --grid-align-items: {{ $align_items }}; 
+    --region-space: 1rem;
+    max-width: 1200px;
+  ">
+  {{ .Inner | markdownify }}
+</div>

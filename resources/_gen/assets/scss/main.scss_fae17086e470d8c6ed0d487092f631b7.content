@@ -323,6 +323,9 @@ blockquote {
   blockquote > * + * {
     margin-top: var(--flow-space, 1em); }
 
+figure {
+  max-width: 1200px; }
+
 cite,
 figcaption {
   font-family: var(--font-accent);
@@ -1253,7 +1256,8 @@ A composition that creates a simple 1 dimentional 12 column grid, using CSS grid
 .grid {
   display: grid;
   grid-template-columns: repeat(var(--grid-placement, auto-fill), minmax(var(--grid-min-item-size, 16rem), 1fr));
-  gap: var(--gutter, var(--space-s-l)); }
+  gap: var(--gutter, var(--space-s-l));
+  align-items: var(--grid-align-items, start); }
 
 /* 
 EXCEPTIONS
@@ -1264,6 +1268,11 @@ EXCEPTIONS
 .grid[data-layout='50-50'] {
   --grid-placement: auto-fit;
   --grid-min-item-size: clamp(16rem, 50vw, 26rem); }
+
+/* Three column when space permits */
+.grid[data-layout='33x3'] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 33vw, 18rem); }
 
 /* Four column when space permits */
 .grid[data-layout='25x4'] {

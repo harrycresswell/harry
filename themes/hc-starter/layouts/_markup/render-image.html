@@ -16,16 +16,16 @@
 {{ $image_alt := .PlainText | safeHTML }}
 {{ $caption := .Title | markdownify }}
 
-{{ $img_sm := "600" }}
-{{ $img_md := "800" }}
-{{ $img_lg := "1000" }}
-{{ $img_xl := "1400" }}
+{{ $img_sm := "800" }}
+{{ $img_md := "1200" }}
+{{ $img_lg := "1800" }}
+{{ $img_xl := "2400" }}
 
 {{/*  
  * Write image like this:
  * ![Alt should always be set for reasons of inclusion](https://res.cloudinary.com/roofsimple/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1661434525/Screen_Shot_2022-08-25_at_9.34.46_AM_jtanac.png "An optional title/caption supporting *markdown*")  
 */}}
-<figure>
+<figure class="region" style="--region-space: 1rem;">
  <picture>
   <source 
     type="image/avif" 
