@@ -1,0 +1,29 @@
+{{ $opts := dict "minify" true -}}
+
+{{ if eq hugo.Environment "development" -}}
+  {{ $opts = merge $opts (dict "minify" false) -}}
+{{ end -}}
+
+<!-- Store JS files independently -->
+{{ $lazysizes := resources.Get "js/lazysizes.js" }}
+{{ $emailmask := resources.Get "js/email-mask.js" }}
+
+{{ if or ($.Param "video") (.Page.Store.Get "video") -}}
+{{ $video := resources.Get "js/video-facade.js" | js.Build $opts | fingerprint -}}
+  <script defer src="{{ $video.RelPermalink }}"></script>
+{{ end -}}
+
+<!-- Concat JS, generate default app.js and app-likes -->
+{{ $defaultJS := slice $lazysizes | resources.Concat "app.js" }}
+<!-- Concat JS, generate default app.js and app-likes -->
+{{ $customJS := slice $lazysizes $emailmask | resources.Concat "app-custom.js" }}
+<!-- Set default -->
+{{ $script := $defaultJS }}
+<!-- If content is writing or subscribed oage, change script to custom to include email mask script -->
+{{ if or (eq .Type "writing") (eq .Path "/subscribed") }}
+  {{ $script = $customJS }}
+{{ end }}
+<!-- Assign script to global, minify and fingerprint -->
+{{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
+<!-- Load script and authenticate hashed file -->
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>

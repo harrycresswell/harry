@@ -1,0 +1,83 @@
+{{/*  Create a scratchpad to use when conditonally adding video-facade.js script. See scripts.html partail. */}}
+{{- .Page.Store.Set "video" true -}}
+{{/*  First grab full URL  */}}
+{{ $videoSrc := .Get "src" }}
+{{/*  Grab poster image  */}}
+{{ $imageSrc := .Get "poster" }}
+
+<!-- Create localised scratch, see: https://gohugo.io/functions/scratch/#the-local-newscratch -->
+{{ $indexScratch := newScratch }}
+<!-- create asset var that splits the full URL and grabs the relative path, make sure $indexScratch variable passes .Scratch context into partials from outside of .Params.blocks  -->
+<!-- create asset var that splits the full URL and grabs the relative path -->
+{{ $indexScratch.Set "cloudinaryAssetName" (index (split $imageSrc "/") (sub (len (split $imageSrc "/")) 1)) }}
+{{ $indexScratch.Set "cloudinaryAssetFolder" (index (split $imageSrc "/") (sub (len (split $imageSrc "/")) 2)) }}
+{{ $indexScratch.Set "cloudinaryAssetKey" (index (split $imageSrc "/") (sub (len (split $imageSrc "/")) 3)) }}
+{{ $ImagePath := $indexScratch.Get "cloudinaryAssetName"  }}
+{{ $ImageFolder := $indexScratch.Get "cloudinaryAssetFolder"  }}
+{{ $ImageKey := $indexScratch.Get "cloudinaryAssetKey"  }}
+{{/*  Grab imgproxy URL from config file  */}}
+{{ $baseURL :=  site.Params.cloudinary_url }}
+{{/*  Store image sizes  */}}
+{{ $img_sm := "500" }}
+{{ $img_md := "710" }}
+{{ $img_lg := "1000" }}
+{{ $img_xl := "1420" }}
+
+{{/*  Use shortcode in markdown like this:
+    {{< video
+        src="https://res.cloudinary.com/harrycresswell/video/upload/v1773397202/hc/symmetry-shapes.mp4"
+        poster="https://res.cloudinary.com/harrycresswell/video/upload/v1773397202/hc/symmetry-shapes.mp4"
+        width="752"
+        height="742"
+        poster_alt="Some image poster alt text"
+    >}}
+*/}}
+
+<video
+  class="js-video-facade"
+  controls
+  preload="none"
+  poster='{{ $baseURL }}f_webp,q_auto:best,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }}'
+  width='{{ .Get "width" | default "1280" }}'
+  height='{{ .Get "height" | default "720" }}'
+>
+  <source src="{{ $videoSrc }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<template class="js-video-poster">
+  <!-- Store variables for image related data to make easier to update if needed later -->
+  {{ $imageAlt := .Get "poster_alt" | default "Play video" | safeHTML }}
+  <picture>
+    <source 
+      type="image/avif" 
+      class="object-fit-cover"
+      srcset="
+        {{ $baseURL }}f_avif,q_auto:best,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_sm }}w,
+        {{ $baseURL }}f_avif,q_auto:best,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_md }}w,
+        {{ $baseURL }}f_avif,q_auto:best,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_lg }}w,
+        {{ $baseURL }}f_avif,q_auto:best,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".avif" }} {{ $img_xl }}w">
+    <source 
+      type="image/webp"
+      class="object-fit-cover"
+      srcset="
+        {{ $baseURL }}f_webp,q_auto:best,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_sm }}w,
+        {{ $baseURL }}f_webp,q_auto:best,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_md }}w,
+        {{ $baseURL }}f_webp,q_auto:best,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_lg }}w,
+        {{ $baseURL }}f_webp,q_auto:best,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpg|.jpeg|.JPG|.png|.PNG" ".webp" }} {{ $img_xl }}w" >
+    <img 
+      class="object-fit-cover fadein"
+      srcset="
+        {{ $baseURL }}f_jpg,q_auto:best,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_sm }}w,
+        {{ $baseURL }}f_jpg,q_auto:best,w_{{ $img_md }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_md }}w,
+        {{ $baseURL }}f_jpg,q_auto:best,w_{{ $img_lg }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_lg }}w,
+        {{ $baseURL }}f_jpg,q_auto:best,w_{{ $img_xl }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }} {{ $img_xl }}w"
+      src="{{ $baseURL }}f_jpg,q_auto:best,w_{{ $img_sm }}/{{ $ImageKey }}/{{ $ImageFolder }}/{{ $ImagePath | replaceRE ".jpeg|.JPG|.png|.PNG" ".jpg" }}"
+      alt="{{- with $imageAlt -}}{{ . }}{{ else }}&nbsp;{{- end -}}"
+      loading="lazy" 
+      decoding="async"
+      width='{{ .Get "width" | default "1280" }}'
+      height='{{ .Get "height" | default "720" }}'
+      />
+  </picture>
+</template>

@@ -2,38 +2,21 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
   {{ partial "head.html" . .Section  }}
   <body class="wrapper h-card">
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  {{- partial "promo-banner.html" . -}}
-  {{ partial "header.html" . }}
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    {{- partial "promo-banner.html" . -}}
+    
+    {{ partial "header.html" . }}
 
-  <main id="main-content">
-  
-    {{ block "main" . }}{{ end }}
+    <main id="main-content">
+    
+      {{ block "main" . }}{{ end }}
 
-  </main>
+    </main>
 
-  {{ partial "newsletter.html" . }}
-  {{/*  {{ partial "brevo.html" . }}  */}}
+    {{ partial "newsletter.html" . }}
 
-  {{ partialCached "footer.html" . .Type }}
-  <!-- Store JS files independently -->
-  {{ $lazysizes := resources.Get "js/lazysizes.js" }}
-  {{ $emailmask := resources.Get "js/email-mask.js" }}
+    {{ partialCached "footer.html" . .Type }}
 
-  <!-- Concat JS, generate default app.js and app-likes -->
-  {{ $defaultJS := slice $lazysizes | resources.Concat "app.js" }}
-  <!-- Concat JS, generate default app.js and app-likes -->
-  {{ $customJS := slice $lazysizes $emailmask | resources.Concat "app-custom.js" }}
-  <!-- Set default -->
-  {{ $script := $defaultJS }}
-  <!-- If content is writing or subscribed oage, change script to custom to include email mask script -->
-  {{ if or (eq .Type "writing") (eq .Path "/subscribed") }}
-    {{ $script = $customJS }}
-  {{ end }}
-  <!-- Assign script to global, minify and fingerprint -->
-  {{ $globalJS := $script | resources.Minify | resources.Fingerprint  }}
-  <!-- Load script and authenticate hashed file -->
-  <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
-
-</body>
+    {{ partial "scripts.html" . }}
+  </body>
 </html>

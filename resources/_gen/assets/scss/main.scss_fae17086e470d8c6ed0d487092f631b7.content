@@ -342,7 +342,8 @@ mark {
 video {
   width: 100%;
   height: auto;
-  margin-block: var(--space-s); }
+  margin-block: var(--space-s);
+  max-width: 1200px; }
 
 /* Superscript used for footnote links */
 sup {
@@ -1200,6 +1201,30 @@ Hero
 */
 .Hero {
   --region-space: var(--space-3xl); }
+
+.video-facade {
+  position: relative;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  max-width: 1200px; }
+
+.video-facade:hover,
+.video-facade:focus {
+  filter: none;
+  transform: none; }
+
+.video-facade img {
+  display: block;
+  height: auto; }
+
+.video-facade::after {
+  content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSI4MCIgaWQ9InNjcmVlbnNob3QtMjBkM2MwZjItYTVhNS04MGNmLTgwMDctYmE0YTljYzdhOGU4IiB2aWV3Qm94PSIwIDAgODAgODAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiPjxnIGlkPSJzaGFwZS0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRhOWNjN2E4ZTgiPjxkZWZzPjxjbGlwUGF0aCBpZD0iZnJhbWUtY2xpcC0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRhOWNjN2E4ZTgtcmVuZGVyLTEiIGNsYXNzPSJmcmFtZS1jbGlwIGZyYW1lLWNsaXAtZGVmIj48cmVjdCByeD0iMCIgcnk9IjAiIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdHJhbnNmb3JtPSJtYXRyaXgoMS4wMDAwMDAsIDAuMDAwMDAwLCAwLjAwMDAwMCwgMS4wMDAwMDAsIDAuMDAwMDAwLCAwLjAwMDAwMCkiLz48L2NsaXBQYXRoPjwvZGVmcz48ZyBjbGFzcz0iZnJhbWUtY29udGFpbmVyLXdyYXBwZXIiPjxnIGNsYXNzPSJmcmFtZS1jb250YWluZXItYmx1ciI+PGcgY2xhc3M9ImZyYW1lLWNvbnRhaW5lci1zaGFkb3dzIj48ZyBjbGlwLXBhdGg9InVybCgjZnJhbWUtY2xpcC0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRhOWNjN2E4ZTgtcmVuZGVyLTEpIiBmaWxsPSJub25lIj48ZyBjbGFzcz0iZmlsbHMiIGlkPSJmaWxscy0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRhOWNjN2E4ZTgiPjxyZWN0IHJ4PSIwIiByeT0iMCIgeD0iMCIgeT0iMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjAwMDAwMCwgMC4wMDAwMDAsIDAuMDAwMDAwLCAxLjAwMDAwMCwgMC4wMDAwMDAsIDAuMDAwMDAwKSIgY2xhc3M9ImZyYW1lLWJhY2tncm91bmQiLz48L2c+PGcgY2xhc3M9ImZyYW1lLWNoaWxkcmVuIj48ZyBpZD0ic2hhcGUtMjBkM2MwZjItYTVhNS04MGNmLTgwMDctYmE0YWI4MzFkMTVlIj48ZyBjbGFzcz0iZmlsbHMiIGlkPSJmaWxscy0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRhYjgzMWQxNWUiPjxlbGxpcHNlIGN4PSI0MCIgY3k9IjQwIiByeD0iNDAiIHJ5PSI0MCIgdHJhbnNmb3JtPSJtYXRyaXgoMS4wMDAwMDAsIDAuMDAwMDAwLCAwLjAwMDAwMCwgMS4wMDAwMDAsIDAuMDAwMDAwLCAwLjAwMDAwMCkiIHN0eWxlPSJmaWxsOiByZ2IoMjM1LCAyMzksIDI0Nyk7IGZpbGwtb3BhY2l0eTogMTsiLz48L2c+PC9nPjxnIGlkPSJzaGFwZS0yMGQzYzBmMi1hNWE1LTgwY2YtODAwNy1iYTRiMjRhMjllMjciPjxnIGNsYXNzPSJmaWxscyIgaWQ9ImZpbGxzLTIwZDNjMGYyLWE1YTUtODBjZi04MDA3LWJhNGIyNGEyOWUyNyI+PHBhdGggZD0iTTMwLDI2TDMwLDU0TDU4LDQwTDMwLDI2IiBzdHlsZT0iZmlsbDogcmdiKDg0LCA0MywgMjU1KTsgZmlsbC1vcGFjaXR5OiAxOyIvPjwvZz48L2c+PC9nPjwvZz48L2c+PC9nPjwvZz48L2c+PC9zdmc+");
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center; }
 
 /* 
 * High level, flexible layouts that provide a 
