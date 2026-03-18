@@ -225,6 +225,6 @@ The whole project took around 8 months in total. From the moment Matt first brie
 
 Anyway, we’re both super stoked with how the artwork turned out. A massive thanks to Tom at [Sound Records](https://www.soundrecords.co.uk/), Antonio at [Heartfelt Management](https://www.heartfeltmanagement.com/), and the folks at both [Press on Vinyl](https://pressonvinyl.com/) and [North London Laser](https://www.northlondonlaser.com/), for helping us to bring the project to life and making it happen.
 
-I’ve spent this whole time banging on about the Morpho artwork. However, I’d be doing a massive disservice to Matt if I didn’t mention his fantastic music that’s pressed on the vinyl itself. Ultimately that’s what this project is all about. It’s the most important part and it’s very very good.
+I’ve spent this whole time banging on about the Morpho artwork. However, I’d be doing a massive disservice to Matt if I didn’t mention his fantastic music that’s pressed on the vinyl itself. Ultimately, that’s what this project is all about.
 
 You can find [Morpho on Spotify](https://open.spotify.com/album/6eIK93yfirsAXm42cpx1aH?si=ZbNEfYSFRyeNdJ-I845szg) if you want to give the album a listen. If you’d like to own your own copy and support the project financially, it’s also available to buy directly from [Matt’s Bandcamp page](https://benyayer.bandcamp.com/album/morpho), in both digital and physical form.
