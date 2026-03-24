@@ -27,23 +27,24 @@
     </div>
     
     <div>
-      <div class="visually-hidden">
+      <div class="visually-hidden" aria-hidden="true">
         <!-- Add custom field showing what page folks sign up on -->
         <label class="visually-hidden" for="LOCATION">Location</label>
-        <input class="visually-hidden" type="text" id="LOCATION" name="LOCATION" autocomplete="off" value="{{ .Title }}" />
+        <input class="visually-hidden" type="text" id="LOCATION" name="LOCATION" autocomplete="off" value="{{ .Title }}" tabindex="-1" />
       </div>
-      <div class="visually-hidden">
+      <div class="visually-hidden" aria-hidden="true" >
         <label class="visually-hidden" for="HONEYPOT">Don’t fill this out if you're human:</label>
-        <input class="visually-hidden" id="HONEYPOT" name="HONEYPOT" type="text" autocomplete="off">
+        <input class="visually-hidden" id="HONEYPOT" name="HONEYPOT" type="text" autocomplete="off" tabindex="-1">
       </div>
       <div>
         <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
         <button form="sib-form" class="w-full" id="subscribe" name="subscribe" type="submit" value="{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}">Subscribe</button>
       </div>
-
-      <input class="visually-hidden" type="text" name="email_address_check" value="">
-      <input class="visually-hidden" type="hidden" name="locale" value="en">
-      <input class="visually-hidden" type="hidden" name="html_type" value="simple">
+      <div aria-hidden="true">
+        <input class="visually-hidden" type="text" name="email_address_check" value="" tabindex="-1">
+        <input class="visually-hidden" type="hidden" name="locale" value="en" tabindex="-1">
+        <input class="visually-hidden" type="hidden" name="html_type" value="simple" tabindex="-1">
+      </div>
     </div> 
   </form>
 </section>
