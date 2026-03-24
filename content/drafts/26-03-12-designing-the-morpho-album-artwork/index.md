@@ -3,7 +3,7 @@ title: "Designing the Morpho album artwork"
 date: 2026-03-12T11:03:16Z
 draft: false
 slug: "designing-morpho-album-artwork"
-topics: ["Hugo", "Tools"]
+topics: [""]
 description: ""
 noindex: true
 ---
