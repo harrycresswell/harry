@@ -32,9 +32,9 @@
         <label class="visually-hidden" for="LOCATION">Location</label>
         <input class="visually-hidden" type="text" id="LOCATION" name="LOCATION" autocomplete="off" value="{{ .Title }}" tabindex="-1" />
       </div>
-      <div class="visually-hidden" aria-hidden="true" >
-        <label class="visually-hidden" for="HONEYPOT">Don’t fill this out if you're human:</label>
-        <input class="visually-hidden" id="HONEYPOT" name="HONEYPOT" type="text" autocomplete="off" tabindex="-1">
+      <div style="display:none" aria-hidden="true" >
+        <label style="display:none" for="hp_field">Don’t fill this out if you're human:</label>
+        <input style="display:none" type="text" id="hp_field" name="hp_field" autocomplete="off" tabindex="-1">
       </div>
       <div>
         <label class="visually-hidden" for="subscribe">{{ with .Params.signup_button_text }}{{ . }}{{ else }}Subscribe{{ end }}</label>
