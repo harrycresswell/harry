@@ -11,12 +11,14 @@ layout: page
 
 ## 2026
 
+- Feel-Good Productivity by Ali Abdaal
+- Chip War by Chris Miller
 - Artemis by Andy Weir
 - Enshitification by Cory Doctorow
 
 ## 2025
 
-- Useful Not True by Derek Sivers.
+- Useful Not True by Derek Sivers
 - Web Accessibility Cookbook by Manuel Matuzović
 - A Spy Among Friends: Kim Philby and the Great Betrayal by Ben Macintyre
 - Keep Going by Austin Kleon
