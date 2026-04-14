@@ -8,7 +8,7 @@ description: ""
 noindex: true
 ---
 
-Matt and I have been creating artwork for his music for almost 12 years now. It’s a collaboration I’m immensely proud of, and one that offers a change of scene from my day-to-day job of designing and building websites. 
+Matt and I have been creating artwork for his music for almost 12 years now. It’s a collaboration I’m immensely proud of, and one that offers a welcome change of scene from my day-to-day job of designing and building websites. 
 
 *Morpho*, released on [Sound Records](https://www.soundrecords.co.uk/) in November last year, is our most recent project. Our 12th vinyl release and the 1st Matt is releasing using his last name, Benyayer, instead of his pseudonym, Dark Sky. 
 
@@ -29,13 +29,13 @@ Once we land on a concept that feels right, all other ideas get scrapped. Any re
 
 ## Research
 
-Once we have some rough ideas, it’s time to explore them further to see if we can turn any into a solid concept. A large part of that involves going down the rabbit hole, usually online, to research subjects as much as we can.
+Once we have some rough ideas in mind, it’s time to explore them further to see if we can turn any into a solid concept. A large part of that involves going down the rabbit hole, usually online, to research subjects as much as we can.
 
 Early in the process we’ll set up a [mood board](https://uk.pinterest.com/mattdark/morpho-inspo/?invite_code=4debc03883d34619ace5fa4e41fd80a9&sender=5207493227581660) to collect visual references. These might directly relate to a concept, or simply reference a design style or technique that we think could work well and want to try out. Much like the creative brief, we’ll refine the mood board as we start to make sense of our ideas and land on particular concept or direction to explore further. The goal is to get some inspiration for how a concept might translate into something visual.
 
 ![](https://res.cloudinary.com/harrycresswell/image/upload/v1773319625/hc/harry-cresswell-designing-morpho-02.png)
 
-Our wild ideas are usually tamed by what the label is prepared to pay for. No surprises there. So, another important part of our research is to identify any creative constraints that might cause issues further down the line. We’ll consider print and vinyl pressing techniques that might be possible within the budget, what materials could we use, and so on.
+Our wild ideas are usually tamed by what the label is prepared to pay for. No surprises there. So, another important part of our research is to consider what’s possible within the budget, as well as to identify any creative constraints that may cause issues further down the line. We’ll consider print and vinyl pressing techniques, materials we could use, and so on.
 
 At this point, we’ll reach out to potential printing partners to discuss our ideas and figure out what’s possible. We’ll also request card stock samples to help us decide on packaging weight and finish. It’s important to get an idea of these things early on. That way we hopefully wont end up designing something that isn’t feasible to create in physical form.
 
@@ -51,9 +51,9 @@ After pursued a few dead ends, I received the following message from Matt:
 
 This one had promise.
 
-We’d worked with symmetry before on [Cold Harbour EP](https://dark-sky.bandcamp.com/album/cold-harbour). The artwork was based on a photo Matt had taken of [Barrier Block](https://en.wikipedia.org/wiki/Southwyck_House), the brutalist style housing estate in Brixton, South London. Exploring symmetry in nature felt like a nice evolution, yet a fun little throwback to 2019, when we created the Cold Harbour artwork. And, of course, a subtle way to link the project back to Matt’s earlier work as Dark Sky.
+We’d worked with symmetry before on [Cold Harbour EP](https://dark-sky.bandcamp.com/album/cold-harbour). The artwork was based on a photo Matt had taken of [Barrier Block](https://en.wikipedia.org/wiki/Southwyck_House), the brutalist style housing estate in Brixton, South London. Exploring symmetry in nature felt like a nice evolution, yet a fun little throwback to 2019, when we created that particular artwork. It also gave us a subtle way to link this new project back to Matt’s earlier work as Dark Sky.
 
-The concept felt like a good fit, so we researched it further. Somewhere along the way, this lead us to [Belenois aurota](https://en.wikipedia.org/wiki/Belenois_aurota), a medium-sized butterfly, also known as the Pioneer White. Then two large migrating butterflies: [Monarch](https://en.wikipedia.org/wiki/Monarch_butterfly), one of the largest and rarest butterflies seen in here the UK, and [Menelaus Blue Morpho](https://en.wikipedia.org/wiki/Morpho_menelaus), one of the largest butterflies in the world. While the Pioneer and Monarch would steer the rest of the project visually, the Blue Morpho would eventually lead to the album title itself. 
+The concept felt like a good fit, so we researched it further. Somewhere along the way, this lead us to [Belenois aurota](https://en.wikipedia.org/wiki/Belenois_aurota), a medium-sized butterfly, also known as the Pioneer White. Two large migrating butterflies followed: [Monarch](https://en.wikipedia.org/wiki/Monarch_butterfly), one of the largest and rarest butterflies seen in here the UK, and [Menelaus Blue Morpho](https://en.wikipedia.org/wiki/Morpho_menelaus), one of the largest butterflies in the world. While the Pioneer and Monarch would steer the rest of the project visually, the Blue Morpho would eventually lead to the album title itself. 
 
 {{< grid layout="33x3" align_items="center" >}}
 ![A Pioneer White butterfly with its yellow, white and black wings closed, sitting on a leaf.](https://res.cloudinary.com/harrycresswell/image/upload/v1773338328/hc/jaya-shukla-0948Y6YEyt4-unsplash.jpg "The Pioneer White, photo by [Jaya Shukla](https://unsplash.com/photos/a-yellow-and-white-butterfly-sitting-on-a-green-leaf-0948Y6YEyt4)")
@@ -71,7 +71,7 @@ During design ideation, the goal is to figure out how to turn our concept into a
 
 We wanted the artwork to feel alien, like nothing you’ve really seen before. That meant trying not taking the concept too literally. Whatever we ended up creating had to be a subtle abstraction, not immediately obvious. Something to make you pause for a moment, wondering what the hell it is. As with every project, it also had to be appealing to look at. That may sound fairly obvious – it’s a visual artwork after all – but it‘s easy to forget when you’re busy messing about with design software.
 
-For every project, it’s also important to consider how the artwork will translate into visuals that can be animated. For live shows, social media reels, and so on. Admittedly, this has been an afterthought in the past and a challenge to reverse engineer, so these days we try to account for this early on.
+For every project, we’ll also consider how the artwork will translate into visuals that can be animated. This is important for live shows, social media reels, and so on. Admittedly, this has been an afterthought in the past and a challenge to reverse engineer, so these days we try to account for this early on.
 
 With our concept in mind, Matt played around with [openart.ai](https://openart.ai/), using it to generating a bunch of new ideas from our visual references. 
 
@@ -82,14 +82,14 @@ With our concept in mind, Matt played around with [openart.ai](https://openart.a
 {{< /grid >}}
 
 
-This helped us visualise some interesting, somewhat alien, jellyfish-like looking forms. However, using a butterfly as the source image would often produce results that felt far too literal.
+This helped us visualise some interesting, somewhat alien, jellyfish-like looking forms. However, using a butterfly as the source image would often produce results that felt much too literal.
 
 {{< grid layout="50-50" align_items="center" >}}
   ![A 3D butterfly like shape, that appears glossy like a ceramic tile.](https://res.cloudinary.com/harrycresswell/image/upload/v1773340838/hc/openart-image_7B22WGwc_1744129122048_raw.jpg "Generated using [openart.ai](https://openart.ai/)")
   ![A 3D butterfly like shape, which appears much like pieces of lego or some form of electrionc components.](https://res.cloudinary.com/harrycresswell/image/upload/v1773340838/hc/openart-image_9yaaZ9kI_1744128118706_raw.jpg "Generated using [openart.ai](https://openart.ai/)")
 {{< /grid >}}
 
-Perhaps we didn’t push things far enough with AI. Ultimately we concluded that although it was an interesting way to brainstorm ideas, it wasn’t a tool we wanted to rely on to produce the final artwork. 
+Perhaps we didn’t push things far enough with AI. However, ultimately we concluded that although it was an interesting way to brainstorm ideas, it wasn’t a tool we wanted to rely on to produce the final artwork. 
 
 After some experimentation, we came back to Matt’s initial idea of deconstructing and repeating the body parts of a butterfly. Focusing on the organic shapes found in the wings of the Pioneer White, we created a rough trace in Affinity Designer. 
 
@@ -100,7 +100,7 @@ After some experimentation, we came back to Matt’s initial idea of deconstruct
 {{< /grid >}}
 
 
-Now we had some vector shapes to work with, the next step was to deconstruct them further to create a symmetrical design that felt interesting and a little weird. The process was much easier once we discovered the [symbol tool trick used to create symmetry in Affinity Designer](https://www.youtube.com/watch?v=-K9rfDOlDYw).
+Now we had some vector shapes to work with, the next step was to deconstruct them further to create a symmetrical design that felt interesting and a little weird. The process was made much easier once we discovered the [symbol tool trick used to create symmetry in Affinity Designer](https://www.youtube.com/watch?v=-K9rfDOlDYw).
 
 {{< grid layout="50-50" align_items="center" >}}
 ![A black fill vector illustration of the pattern found on the wings of the Pioneer White butterly, deconstructed into symmetrical composistion.](https://res.cloudinary.com/harrycresswell/image/upload/v1773396541/hc/harry-cresswell-designing-morpho-04.png) 
@@ -115,25 +115,25 @@ Now we had some vector shapes to work with, the next step was to deconstruct the
 
 
   
-Soon enough, we realised we were in the process of creating the artwork that would become the laser cut perforations featured on the outer sleeve of the vinyl. We pictured these shapes revealing a graphic on the inner sleeve beneath. This meant we now had to consider an artwork for the inner sleeve itself.
+Soon enough, we realised we were in the process of creating the artwork that would become the laser cut perforations featured on the outer sleeve of the vinyl packaging. We pictured these shapes revealing a graphic on the inner sleeve beneath. This meant we now had to consider an artwork for the inner sleeve itself.
 
 Early in the design stage, I’d played around with the idea of a gigantic bitmapped butterfly motif covering the full front and back of the sleeve. Being far from subtle, I’d abandonded the idea.
 
 ![](https://res.cloudinary.com/harrycresswell/image/upload/v1773397921/hc/harry-cresswell-designing-morpho-05.jpg)
 
-However, when folded in half and viewed through the laser cuts (as it would be in its final form), the motif would appear more abstract. So we push the idea further, to see if we could make it work for the inner sleeve.
+We returned to the idea once we realised the motif would appear more abstract, when folded in half and viewed through the laser cuts, as it would be in its final form.
 
 By duplicating a couple of layers, adding a colour overlay, then applying a blend mode, we were able to come up with something that looked much more interesting. Both when seen through the laser cuts, and when the inner sleeve was removed from the  outer sleeve altogether.
 
 ![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398075/hc/harry-cresswell-designing-morpho-06.jpg)
 
-Now that we were on to something, we tried to piece each part together by creating a basic mockup of how the laser cuts might look with the artwork behind. 
+Feeling like we might be on to something, we tried to piece each part together by creating a basic mockup of how the laser cuts might look with the artwork behind. 
 
 ![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398139/hc/harry-cresswell-designing-morpho-07.jpg)
 
 Now it felt like we’re actually getting somewhere. Time to end another late night design session, get some sleep and look at it again another day. 
 
-Finding the right direction is always a good feeling. You can finally let go of all those other ideas taking up mental bandwidth. Now we were on track, we could focus on bringing it altogether in our next sessions.
+Finding the right direction is always a good feeling. You’re on the right track so you can finally let go of all the other ideas taking up mental bandwidth. In our next sessions we could focus on bringing it altogether.
 
 
 ## Development
@@ -196,7 +196,7 @@ I like to export and deliver two versions of each file, one with printer guides 
 
 ## Production
 
-Now we’re at the business end of the project. Time to deliver our print-ready design files to the printers and, for this particular project, the laser cutters. It’s down to these guys to turn our digital designs into a physical product.
+Now we’re at the business end of the project. Time to deliver our print-ready design files for printing and, in this case, laser cutting. The project is out of our hands and down to our chosen partners to turn digital designs into a physical product.
 
 My background is in web design. For those that aren’t familiar, it’s an iterative process. We’ll regularly make improvements to a website long after the project goes live. Print design is the complete opposite of that. There’s no room for mistakes and no going back once you’ve delivered artwork ready to be printed. 
 
@@ -219,7 +219,7 @@ Until we hit the development and production phases, we tend to move back and for
 
 Over the years, I don’t think we’ve ever landed on the right concept before we’ve hit a bunch of dead ends first. Things only start coming together once we’ve done this dance at least a handful of times. Usually it’s a simple idea. Something we touched on early on, that needed time, experimentation and going through the motions to reveal itself and materialise. 
 
-The final artwork is the result of many hours spent playing around with different ideas, parking the ones that aren’t working, then deliberating over where to go next. It takes time and effort to find the right direction. Along with countless emails and WhatsApps, a bunch of late nights, and arguably too much pizza and whiskey.
+The final artwork is the result of many hours spent playing around with different ideas, parking the ones that aren’t working, then deliberating over where to go next. It takes time and effort to find the right direction. Along with countless emails, WhatsApps, a bunch of late nights, and arguably too much pizza and whiskey.
 
 The whole project took around 8 months in total. From the moment Matt first briefed me on the project in February 2025, right through to [when Matt received the finished physical product](https://www.instagram.com/p/DQMF37giM_2/) in October 2025. It’s hard to say how many hours we actually spent on it. We had the initial concept down within 3 months, but it wasn’t like we were working on it everyday. Often we’ll give it days, sometimes weeks, between design sessions. Giving ideas time and space to evolve seems to be the key. 
 
