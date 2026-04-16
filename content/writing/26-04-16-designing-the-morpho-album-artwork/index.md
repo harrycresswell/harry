@@ -1,18 +1,19 @@
 ---
 title: "Designing the Morpho album artwork"
-date: 2026-03-12T11:03:16Z
+date: 2026-04-16T07:03:16Z
 draft: false
 slug: "designing-morpho-album-artwork"
-topics: [""]
-description: ""
-noindex: true
+topics: ["Side Projects"]
+description: "The process behind creating music artwork for a 12 inch vinyl release."
 ---
 
 Matt and I have been creating artwork for his music for almost 12 years now. It’s a collaboration I’m immensely proud of, and one that offers a welcome change of scene from my day-to-day job of designing and building websites. 
 
 *Morpho*, released on [Sound Records](https://www.soundrecords.co.uk/) in November last year, is our most recent project. Our 12th vinyl release and the 1st Matt is releasing using his last name, Benyayer, instead of his pseudonym, Dark Sky. 
 
-Now, I must admit, I’m no print designer. And, to be clear, this is my one and only, what I’d call “graphic design” gig. However, I now find myself in a position where I have a decent amount of experience creating music artwork, specifically records pressed onto 12" vinyl. With that in mind, I figured it might be interesting to share some of the process that went into making the artwork.
+Now, I must admit, I’m no print designer. And, to be clear, this is my one and only what I’d call “graphic design” gig. However, I now find myself in a position where I have a decent amount of experience creating music artwork. More specifically, artwork for records pressed onto 12" vinyl. 
+
+With that in mind, I figured it might be interesting to share some of the process that went into making the artwork.
 
 
 ## Planning
@@ -33,7 +34,7 @@ Once we have some rough ideas in mind, it’s time to explore them further to se
 
 Early in the process we’ll set up a [mood board](https://uk.pinterest.com/mattdark/morpho-inspo/?invite_code=4debc03883d34619ace5fa4e41fd80a9&sender=5207493227581660) to collect visual references. These might directly relate to a concept, or simply reference a design style or technique that we think could work well and want to try out. Much like the creative brief, we’ll refine the mood board as we start to make sense of our ideas and land on particular concept or direction to explore further. The goal is to get some inspiration for how a concept might translate into something visual.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773319625/hc/harry-cresswell-designing-morpho-02.png)
+![A mood board of butterfly inspired visual references, including artwork from other music releases.](https://res.cloudinary.com/harrycresswell/image/upload/v1773319625/hc/harry-cresswell-designing-morpho-02.png)
 
 Our wild ideas are usually tamed by what the label is prepared to pay for. No surprises there. So, another important part of our research is to consider what’s possible within the budget, as well as to identify any creative constraints that may cause issues further down the line. We’ll consider print and vinyl pressing techniques, materials we could use, and so on.
 
@@ -112,24 +113,22 @@ Now we had some vector shapes to work with, the next step was to deconstruct the
     height="1060"
     poster_alt="Some image poster alt text" 
 >}}
-
-
   
 Soon enough, we realised we were in the process of creating the artwork that would become the laser cut perforations featured on the outer sleeve of the vinyl packaging. We pictured these shapes revealing a graphic on the inner sleeve beneath. This meant we now had to consider an artwork for the inner sleeve itself.
 
 Early in the design stage, I’d played around with the idea of a gigantic bitmapped butterfly motif covering the full front and back of the sleeve. Being far from subtle, I’d abandonded the idea.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773397921/hc/harry-cresswell-designing-morpho-05.jpg)
+![A muddy-grey bitmapped style outline of a butterfly with open wings, spanning full bleed across a cardboard coloured background which represents the inner sleeve of a 12 inch vinyl before it has been folded.](https://res.cloudinary.com/harrycresswell/image/upload/v1773397921/hc/harry-cresswell-designing-morpho-05.jpg)
 
 We returned to the idea once we realised the motif would appear more abstract, when folded in half and viewed through the laser cuts, as it would be in its final form.
 
 By duplicating a couple of layers, adding a colour overlay, then applying a blend mode, we were able to come up with something that looked much more interesting. Both when seen through the laser cuts, and when the inner sleeve was removed from the  outer sleeve altogether.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398075/hc/harry-cresswell-designing-morpho-06.jpg)
+![A pastel coloured gradient intersecting a bitmapped style outline of a butterfly with open wings, spanning full bleed across a cardboard coloured background which represents the inner sleeve of a 12 inch vinyl before it has been folded.](https://res.cloudinary.com/harrycresswell/image/upload/v1773398075/hc/harry-cresswell-designing-morpho-06.jpg)
 
 Feeling like we might be on to something, we tried to piece each part together by creating a basic mockup of how the laser cuts might look with the artwork behind. 
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398139/hc/harry-cresswell-designing-morpho-07.jpg)
+![Perforated vinyl cover design inspired by the forms found on the wings of a butterfly, pats of a pastel coloured bitmapped design can be seen through the perforations.](https://res.cloudinary.com/harrycresswell/image/upload/v1773398139/hc/harry-cresswell-designing-morpho-07.jpg)
 
 Now it felt like we’re actually getting somewhere. Time to end another late night design session, get some sleep and look at it again another day. 
 
@@ -142,19 +141,19 @@ At this stage, we’ve visually distilled our concept into a clear direction. No
 
 The first step is to create final digital prototypes. That means creating mockups of the full product packaging. Outer sleeve, with laser cuts and printed elements like track listing and catalogue number on spine. Inner sleeve, on body vinyl labels and the vinyl itself. It’s not about getting it 100% accurate at this point. The goal is to visualise how the final artwork and physical product might eventually look. Then figure out if it works as we’d imagined.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398970/hc/harry-cresswell-designing-morpho-08.jpg)
+![Mockup of both sides of 12 inch vinyl in a sleeve, showing two holes in the center which reveal the vinyl labels beneath. The sleeve features a pastel gradient intersecting with a bitmapped butterfly motif, stretching full bleed across the entire sleeve. The vinyl labels have a similar design.](https://res.cloudinary.com/harrycresswell/image/upload/v1773398970/hc/harry-cresswell-designing-morpho-08.jpg)
 
 One of the harder decisions was whether to cut out the centre of the inner sleeve revealing the vinyl label beneath. This would create an extra challenge, as we then wanted to ensure that the design featured on the vinyl label would line up with the laser cuts on the outer cover.  
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773398985/hc/harry-cresswell-designing-morpho-09.jpg)
+![Mockup of the previous artwork, this time showing a perforated outer sleeve, revealing the inner sleeve artwork beneath.](https://res.cloudinary.com/harrycresswell/image/upload/v1773398985/hc/harry-cresswell-designing-morpho-09.jpg)
 
 In reality it rarely would, that is unless you replaced the vinyl in its sleeve with perfect alignment and precision. But we wanted to ensure it was, at least, technically possible, to please those like us who obsess over the details.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773399053/hc/harry-cresswell-designing-morpho-10.jpg)
+![A full mockup of one side of the vinyl packaging. The clear vinyl is partly removed from the packaging, where the inner most part of the vinyl is disecting the center hole on the inner sleeve.](https://res.cloudinary.com/harrycresswell/image/upload/v1773399053/hc/harry-cresswell-designing-morpho-10.jpg)
 
 Ultimately we took the risk and decided to go for it. Seeing right the way through to the vinyl from the cover added some extra depth and dimension to the artwork.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773399053/hc/harry-cresswell-designing-morpho-11.jpg)
+![Front side of the inner sleeve artwork. The clear vinyl itself is partly removed from the packaging, where the inner most part of the vinyl is disecting the center hole on the inner sleeve.](https://res.cloudinary.com/harrycresswell/image/upload/v1773399053/hc/harry-cresswell-designing-morpho-11.jpg)
 
 Given the intricacy of the design, Matt also made a physical prototype for the laser cut cover, using the sample card stock we’d received from the printers.
 
@@ -177,19 +176,19 @@ As our design required both laser cutting and printing, we had to split the artw
 
 One file for the laser cut outer.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-13.jpg)
+![Front and back of the vinyl sleeve template with printing guidelines. Features the artwork to be laser cut, which is represented by red filled shapes.](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-13.jpg)
 
 Another for the text and record label logo that would be printed onto the back of the outer sleeve.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-14.jpg)
+![Front and back of the vinyl sleeve template with printing guidelines. Features text to be printed on the back cover and spine, including artist name, album title, track listing, record label logo, copyright and production details.](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-14.jpg)
 
 Then one for the printed inner sleeve.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-15.jpg)
+![Front and back of the vinyl sleeve template with printing guidelines. Features inner sleeve artwork depicting pastel coloured gradient intersecting bitmapped butterfly motif.](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-15.jpg)
 
 And lastly one more file for the vinyl labels.
 
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-16.jpg)
+![Side A and side B templates for the vinyl labels with printing guidelines. Side A has a pastel green design made from a section of the bitmapped butterfly motif and includes track listings. Side B shows the same design in a pastel orange colour, including the Sound Records logo and track listings.](https://res.cloudinary.com/harrycresswell/image/upload/v1773423091/hc/harry-cresswell-designing-morpho-16.jpg)
 
 I like to export and deliver two versions of each file, one with printer guides and one without. That way there’s nothing to dispute later on. I tend to export and deliver all files in TIFF format to prevent any compression, but I know many printers prefer PDF.
 
@@ -205,8 +204,8 @@ Although there’s a sense of relief that our part is finally over, there’s st
 Fortunately, this time we got everything spot on. Much of that was down to a good amount of patience and two fantastic partners who were happy to answer our barrage of questions. [Press on Vinyl](https://pressonvinyl.com/) did a stellar job on the printing, as did [North London Laser](https://www.northlondonlaser.com/) on laser cutting the outer sleeve.
 
 {{< grid layout="50-50" align_items="center" >}}
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773758186/hc/harry-cresswell-designing-morpho-19.jpg)
-![](https://res.cloudinary.com/harrycresswell/image/upload/v1773758186/hc/harry-cresswell-designing-morpho-18.jpg) 
+![A laser cutter at work, cutting the perforated design featured on the front side of the outer sleeve of the Morpho artwork. The artwork is almost completely cut out. The cut out sections are still in place.](https://res.cloudinary.com/harrycresswell/image/upload/v1773758186/hc/harry-cresswell-designing-morpho-19.jpg)
+![A laser cutter at work, cutting the perforated design featured on the back side of the outer sleeve of the Morpho artwork. The artwork is partly cut out.](https://res.cloudinary.com/harrycresswell/image/upload/v1773758186/hc/harry-cresswell-designing-morpho-18.jpg) 
 {{< /grid >}}
 
 Unfortunately, we weren’t organised enough to get shots of the print process. But we did manage to get some of the laser cutter in action.
@@ -219,7 +218,7 @@ Until we hit the development and production phases, we tend to move back and for
 
 Over the years, I don’t think we’ve ever landed on the right concept before we’ve hit a bunch of dead ends first. Things only start coming together once we’ve done this dance at least a handful of times. Usually it’s a simple idea. Something we touched on early on, that needed time, experimentation and going through the motions to reveal itself and materialise. 
 
-The final artwork is the result of many hours spent playing around with different ideas, parking the ones that aren’t working, then deliberating over where to go next. It takes time and effort to find the right direction. Along with countless emails, WhatsApps, a bunch of late nights, and arguably too much pizza and whiskey.
+The final artwork is the result of many hours spent playing around with different ideas, parking the ones that aren’t working, then deliberating over where to go next. It takes time and effort to find the right direction. Along with countless emails, WhatsApps, a bunch of late nights, and arguably too much pizza and whisky.
 
 The whole project took around 8 months in total. From the moment Matt first briefed me on the project in February 2025, right through to [when Matt received the finished physical product](https://www.instagram.com/p/DQMF37giM_2/) in October 2025. It’s hard to say how many hours we actually spent on it. We had the initial concept down within 3 months, but it wasn’t like we were working on it everyday. Often we’ll give it days, sometimes weeks, between design sessions. Giving ideas time and space to evolve seems to be the key. 
 
