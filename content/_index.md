@@ -13,7 +13,7 @@ Here on my personal site, I write about [building static websites with Hugo](/to
 
 Once a month I curate [a newsletter for web designs and developers](/newsletter/) interested in static sites, web performance, privacy and sustainability.
 
-I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building resilient websites with Hugo – and laying the foundations of [my web dev studio](https://studioeryn.com/).
+I’m currently working on [Practical Hugo](https://practicalhugo.com/) – a course about building resilient websites with Hugo – and laying the foundations of my web dev studio.
 
 ## Where to go next
 
