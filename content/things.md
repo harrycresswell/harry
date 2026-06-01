@@ -23,7 +23,7 @@ layout= "page"
 
 [Type Services](https://typeservices.co/) is a type foundry I set up in 2017 which focuses on hand drawn fonts and imperfection in type design.
 
-[Dark Sky/Benyayer Collab](https://soundcloud.com/harrycresswell). I’ve been collaborating with my good friend Matt Benyayer since 2012, creating the artwork for the music he releases.
+[Dark Sky/Benyayer](https://soundcloud.com/harrycresswell). Matt and I have [creating artwork for Matt’s music](/writing/designing-morpho-album-artwork/) since 2012. A long running collaboration I’m immensely proud of.
 
 
 ## Past projects
