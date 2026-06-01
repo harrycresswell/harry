@@ -11,6 +11,7 @@ layout: page
 
 ## 2026
 
+- The Siege by Ben Macintyre
 - Feel-Good Productivity by Ali Abdaal
 - Chip War by Chris Miller
 - Artemis by Andy Weir
