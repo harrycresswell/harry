@@ -6,7 +6,7 @@ description: "My highlights from the past month, a few good links from around th
 slug: "july-2026"
 ---
 
-It’s been another busy month, mostly running, writing (though not enough on my personal website), prototyping, celebrating birthdays and, need I say it, watching too much football! Rebekka’s parents are in town for a long weekend, so I’m wrapping up early to go meet them all for a beer.
+It’s been another busy month. Mostly running, writing (though not enough on my personal website), prototyping, celebrating birthdays and, need I say it, watching too much football! Rebekka’s parents are in town for a long weekend, so I’m wrapping up early to go meet them all for a beer.
 
 As per usual, here are my highlights from the past month, a few good links from around the web and what I have planned for the month ahead.
 
