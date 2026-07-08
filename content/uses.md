@@ -49,15 +49,17 @@ I sit on a [Herman Miller Aeron Chair](https://www.hermanmiller.com/en_gb/produc
 
 [VSCode](https://code.visualstudio.com/) is my text editor of choice. However, I also use [Typora](https://typora.io/) when writing markdown for its seemless preview. 
 
-[Git](https://git-scm.com/) is a key part of my workflow. Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) it’s hard to avoid. I use [Github](https://github.com/)† to host all my code remotely, however I’ve been looking into slef-hosting my own [Forgejo](https://forgejo.org/) instance.
+Working with static site generators and [CI/CD](https://en.wikipedia.org/wiki/CI/CD) means [Git](https://git-scm.com/) is an essential part of my workflow. I use [Github](https://github.com/)† to host all my code remotely, however I’ve been looking into slef-hosting my own [Forgejo](https://forgejo.org/) instance.
 
 In 2021 I committed to using [Hugo](https://gohugo.io/) to build content-based websites. I use it for both client projects and all sorts of personal projects. Having worked with a bunch of different tools in the past – WordPress, Jekyll, Gatsby and Eleventy to name a few – Hugo is hands down my favourite to work with.
 
 I use [Cloudcannon](https://cloudcannon.com/), a git-based content management system, for any client project which requires a CMS. Unlike most content management systems, Cloudcannon was built with Hugo in mind. Having worked with Netlify CMS (now [Decap](https://decapcms.org/)), Forestry (now discontinued) and Sanity in the past, Cloudcannon the best I’ve found for websites built with Hugo. 
 
-For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) for personal projects. However, I recently set up a self-hosted [Coolify](https://www.coolify.io/) instance on a [Hetzner VPS](https://www.hetzner.com/cloud), which I’m currently testing out with the Practical Hugo website.
+For hosting and deployment I currently use Cloudcannon (which uses Cloudflare under the hood) for client sites and [Netlify](https://www.netlify.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) for personal projects. However, I recently set up a self-hosted [Coolify](https://www.coolify.io/) instance on a [Hetzner VPS](https://www.hetzner.com/cloud), which I’m currently testing out with the [Practical Hugo](https://practicalhugo.com/) website.
 
-[Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times. I’m also trialing [imgproxy](https://imgproxy.net/), a self-hosted alternative which I currently use on Practical Hugo.
+I register domains through [Namecheap](https://www.namecheap.com/) and use [Cloudflare](https://www.cloudflare.com/) for DNS and R2 object storage.
+
+[Cloudinary](https://cloudinary.com/) is a digital asset manager which I use to generate image transformations (various image sizes, formats, styles and so on) on the fly. It’s handy for larger sites, where you’d like to remove media files from your Git repo to improve your build times. I’m also trialing [imgproxy](https://imgproxy.net/), a self-hosted alternative which I currently use for images on [Practical Hugo](https://practicalhugo.com/).
 
 In 2023 I switch my clients from Google Analytics to [Fathom Analytics](https://usefathom.com/). Unlike Google, Fathom respects vistor data and privacy and can be installed on up to 50 different sites. Perfect if you manage lots of websites. I also run a self-hosted instance of [Umami Analytics](https://umami.is/) for certain personal projects.
 
@@ -73,19 +75,17 @@ I use [Simplelogin](https://simplelogin.io/) to generate email aliases for all t
 
 I have [NordVPN](https://nordvpn.com/) set up to open at login. If my laptop is on, then NordVPN is running. It masks my IP, protects me from trackers and malware, and when using the internet on public Wi-Fi. 
 
-[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using, though I find myself mostly using [Whatsapp](https://www.whatsapp.com/).
+[Signal](https://www.signal.org)** is the open source messaging app we should probably all be using, though I find myself mostly using [Whatsapp](https://www.whatsapp.com/) as that’s what the majority of my friends use.
 
-I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning of 2021 after researching secure, end-to-end encrypted cloud storage providers.
+I made the switch from Dropbox to [Sync](https://www.sync.com/) at the beginning of 2021, after researching secure, end-to-end encrypted cloud storage providers.
 
 I switched from Google Workspace to [Tutanota](https://tutanota.com/)** at the beginning of 2022 and haven’t looked back. I’ve written about [my experience with Tutanota](/writing/privacy-focused-email/) in detail. I also use Tutanota’s encrypted Calendar.
 
-~~[Raivo OTP](https://apps.apple.com/us/app/raivo-otp/id1459042137)** is a fantastic open source authenticator app which I use to generate one-time passwords. It seemlessly handles back up and sync across iOS and MacOS devices.~~ Since the [suspicious circumstances](https://www.youtube.com/watch?v=Z0IkcyGUqKc) surrounding the Raivo takeover, I’ve switched to using [2FAS](https://2fas.com/), another popular open source one-time/2FA password generator.
+Since the [suspicious circumstances](https://www.youtube.com/watch?v=Z0IkcyGUqKc) surrounding the Raivo takeover, I’ve switched to using [2FAS](https://2fas.com/)** for one-time two-factor authentication3 codes.
 
 [Jitsi Meet](https://meet.jit.si)** is another fantastic open source tool, which I use for video calls. Calls are encrypted and you don’t need an account to use it, which is a bonus.
 
 [Tresorit Send](https://send.tresorit.com) is brilliant for sending big files, end-to-end encrypted.
-
-[Malwarebytes](https://www.malwarebytes.com/) is a lightweight anti-malware and virus removal software which quietly runs in the background, performing a daily scan of your system to keep it protected.
 
 ## Reading
 
@@ -117,9 +117,9 @@ I find myself using [Apple Notes](https://www.icloud.com/notes/) for fleeting no
 
 ## Project management
 
-I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools in the future.
+I recently switched to [Obsidian](https://obsidian.md/) for personal project management (using the P.A.R.A method) after [falling out with Notion](/writing/notion-no-more). What I like most about Obsidian is that it’s text-based, fast and self-hosted. Ultimately, it’s just a bunch of markdown files, so it works great without an internet connection. This also means content is highly portable, should I wish to move tools at some point in the future.
 
-I’ve returned to [Trello](https://trello.com/) for client projects that require collaboration. It’s simple to onboard clients with and easy to understand.
+I’ve returned to [Trello](https://trello.com/) for collaborating with clients on projects. It’s simple to onboard clients with and easy to understand without being too overwhelming.
 
 [PandaDoc](https://www.pandadoc.com/) is great for collection e-signatures on proposals and work agreements. I like to design these docs in Figma, then upload them to PandaDoc to collect the signature. It’s a nice feature which means you don’t have to use a pre-built template.
 
@@ -146,22 +146,25 @@ I use [Buymeacoffee](https://www.buymeacoffee.com/) for donations.
 
 ## Marketing
 
-I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/), which I use to send my personal newsletter and Practical Hugo updates. I’ve been recommending Brevo to my european clients, so it makes sense that I’m using the same tool. Brevo also has a partnership program, making ideal for freelancers and small agencies.
+I recently made the switch from [Mailchimp](https://mailchimp.com/) to [Brevo](https://www.brevo.com/), which I use to send my personal newsletter and [Practical Hugo](https://practicalhugo.com/) updates. I’ve been recommending Brevo to my european clients, so it makes sense that I’m using the same tool. Brevo also has a partnership program, making ideal for freelancers and small agencies.
 
 I’ve been using [Typeform](https://www.typeform.com/) to collect feedback for years, however with all the great and affordable ways to create forms these days, I struggle to justify their pricing. Recently I started using [Tally](https://tally.so/), it’s a joy to work with and has a generous free tier.
 
 ## Automation
 
-I use [IFTTT](https://ifttt.com/) to send emails to myself, reminding me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter. Both of these things I only do once a month, so they’re easy to forget without IFTTT. 
+I try to avoid too much automation in my life, but it does come in handy for certain things. 
+
+I use [IFTTT](https://ifttt.com/) to send emails to myself that remind me to do things that happen periodically. Things like updating the masked email address I use on this site. Or sending out my newsletter.
 
 I also use [Zapier](https://zapier.com/) (similar to IFTTT), mostly to pass form submissions to spreadsheets.
 
+I recently discovered [Espanso](https://espanso.org/)**, a fantastic little text expander app which uses YAML files for configuration and supports a bunch of Regex features.
 
 ## Health
 
-I use [Strava](https://www.strava.com/) to track running and the Apple Watch Activity app for tracking yoga sessions and workouts.
+I use [Strava](https://www.strava.com/) to track running, yoga and workouts and [Runna](https://www.runna.com/) for running plans.
 
-I recently switched from [Notion](https://www.notion.so/)† to Obsidian for habit tracking.
+A while back I switched from [Notion](https://www.notion.so/)† to Obsidian for habit tracking.
 
 Having tried many of the meditation apps out there, my current favourite for guided meditation is [Balance](https://balanceapp.com/). For unguided meditation I use [Insight Timer](https://insighttimer.com/).
 
