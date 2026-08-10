@@ -2,11 +2,11 @@
 title: "August 2026"
 date: "2026-08-03T17:03:23+01:00"
 draft: false
-description: "It’s drier than a tinderbox here in London right now. We’re now officially in drought conditions, with a hosepipe ban in place and no rain forecast any time soon."
+description: "It’s drier than a tinderbox in London right now. We’re now officially in drought conditions, with a hosepipe ban in place and no rain forecast any time soon."
 slug: "august-2026"
 ---
 
-It’s drier than a tinderbox here in London right now. We’re officially in drought conditions, with a hosepipe ban in place and no rain forecast any time soon. Apparently it was the [driest (and sunniest) July for England and Wales since records began 190 years ago](https://www.bbc.co.uk/weather/articles/c17199dy4yxo), and we still have two months of the summer left to go!
+It’s drier than a tinderbox in London right now. We’re officially in drought conditions, with a hosepipe ban in place and no rain forecast any time soon. The [driest (and sunniest) July for England and Wales since records began 190 years ago](https://www.bbc.co.uk/weather/articles/c17199dy4yxo), and we still have two months of the summer left to go!
 
 On a more positive note, it feels rather like how I remember school summer holidays. Where every day was warm and sunny and we spent most of the time outside, playing in the garden.  I’m sure we probably had some rain too, but that’s how I remember it.
 
