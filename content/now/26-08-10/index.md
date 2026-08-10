@@ -6,7 +6,13 @@ slug: "26-08-10"
 description: "These are the things I’m focusing my time and energy on right now."
 ---
 
-I’m back at my desk in London, gearing up for the 5th heatwave of the year. We’re in for another warm week.
+I’m back at my desk in London, gearing up for the fifth heatwave of the year. We’re in for another warm week.
+
+Last weeek I discovered:
+
+- [Hausu](https://www.hausulondon.co.uk/), a great spot for dinner in an old part of Peckham Rye Station.
+- The newly opened [Druid Street Saunas](https://www.druidstreetsaunas.co.uk/), which may well become a regular thing.
+- And [Fold](https://www.fold.london/), probably the best small club in London, which I’ve wanted to check out for a far too long now. A bunch of us went down to listen to [Nicola Cruz](https://es.wikipedia.org/wiki/Nicola_Cruz) play some great minimal techno.
 
 These are the things I’m currently focusing my time and energy on:
 
