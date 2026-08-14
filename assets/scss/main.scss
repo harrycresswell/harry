@@ -41,18 +41,18 @@
 @import 'compositions/repel';
 @import 'compositions/grid';
 @import 'compositions/switcher';
+@import 'compositions/flow';
+@import 'compositions/region';
+@import 'compositions/wrapper';
 
 /* 
 * Classes that do one job and one job well 
 */
-@import 'utilities/region';
-@import 'utilities/flow';
 @import 'utilities/full-bleed';
 @import 'utilities/visually-hidden';
 @import 'utilities/heading-anchor';
 @import 'utilities/aspect-ratio';
 @import 'utilities/lazy';
-@import 'utilities/wrapper';
 @import 'utilities/skip-link';
 @import 'utilities/width';
 @import 'utilities/font';
