@@ -7,6 +7,12 @@ layout: "page"
 description: ""
 ---
 
+> “I’ve worked with Harry for over 15 years. He’s a rare breed, pairing an impeccable eye for design with deep technical knowledge. A true collaborator, he makes every project a pleasure and will bring your brand or business to life. I value his ideas and insights immensely.”
+>
+> **Beanie Major, [In Detail](https://indtl.com/)**
+
+---
+
 > “Harry has been amazing to work with. He has been extremely responsive and detailed throughout our website build. As someone who does not have a great deal of experience with the process, I have been impressed at every step with the communication and quality of work. Harry has gone above and beyond by setting clear expectations, giving frequent and detailed updates, and following through. I would highly recommend using Harry's services and plan on using him again in the future as needed.”
 >
 > **Nick Santschi, [Solarsimplellc.com](https://solarsimplellc.com/)**
