@@ -11,6 +11,7 @@ layout: page
 
 ## 2026
 
+- The Vignelli Canon by Massimo Vignelli
 - The Power to Change by Chuck Chakrapani
 - The Siege by Ben Macintyre
 - Feel-Good Productivity by Ali Abdaal
