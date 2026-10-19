@@ -1,12 +1,12 @@
 ---
 title: "October 2026"
-date: "2026-10-04T11:23:00+01:00"
+date: "2026-10-19T11:23:00+01:00"
 draft: false
-description: "All my focus has been on client commitments these past four weeks, so personal projects have taken a backseat sadly."
+description: "All my focus has been on client commitments the past couple of months. Sadly personal projects have taken a bit of a backseat."
 slug: "october-2026"
 ---
 
-All my focus has been on client commitments these past four weeks, so personal projects have taken a backseat sadly. It’s meant I’ve had to push the launch of [Practical Hugo](https://practicalhugo.com/) season 2 to December/early January. 
+All my focus has been on client commitments the past couple of months. Sadly personal projects have taken a bit of a backseat. It’s the reason I’m publishing this newsletter horribly late. It’s also why I’ve had to push the launch of [Practical Hugo](https://practicalhugo.com/) season 2 to December/early January. 
 
 I know this won’t come as good news to those of you I’ve spoken to who are keen to continue the course. But unfortunately something had to give as I’m taking a break in November to go travelling. I’ll do my best to update [my now page](/now/) whilst I’m away for anyone interested in my whereabouts!
 
@@ -46,7 +46,7 @@ I enjoyed reading about Ana’s IndieWeb journey and in the process discovered P
 - Focusing on [my two existing client commitments](/now/26-10-05/)
 - Seeing [Anish Kapoor at the Hayward Gallery](https://www.southbankcentre.co.uk/whats-on/anish-kapoor/#venue) and heading to [Toklas](https://www.toklaslondon.com/) for R’s birthday.
 - Heading to Hamburg to celebrate R’s sisters birthday and see [Felix Lobrecht](https://felixlobrecht.de/tickets).
-- Planning a trip to Japan in November.
+- Finalising our planning for Japan in November.
 - Wrapping up work projects before our travels.
 
 
